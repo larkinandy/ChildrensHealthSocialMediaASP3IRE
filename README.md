@@ -1,6 +1,6 @@
 ![GitHub Logo](/images/1x/Overview.png)
 
-# ChildrensHealthSocialMediaASP3IRE
+# ChildrensHealthSocialMediaASP<sup>3</sup>IRE
 Analyze social media records to gain insights into children's environmental health
 
 **Author:** [Andrew Larkin](https://www.linkedin.com/in/andrew-larkin-525ba3b5/) <br>
