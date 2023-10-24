@@ -1,0 +1,90 @@
+MERGE (:Health {type:'physical'})
+MERGE (:Health {type:'cognitive'})
+MERGE (:Health {type:'emotional/social'})
+
+MERGE (:Place {type:'home'})
+MERGE (:Place {type:'school'})
+MERGE (:Place {type:'daycare'})
+MERGE (:Place {type:'playground'})
+MERGE (:Place {type:'other'})
+
+MERGE (:Age {type:'infant'})
+MERGE (:Age {type:'toddler'})
+MERGE (:Age {type:'elementary'})
+MERGE (:Age {type:'middle'})
+MERGE (:Age {type:'high'})
+MERGE (:Age {type:'child'})
+
+MERGE (:Environment {type:'environment'})
+
+MERGE (:Analyzed {type:'downloaded'})
+MERGE (:Analyzed {type:'georeferenced'})
+MERGE (:Analyzed {type:'derived_labels'})
+MERGE (:Analyzed {type:'in_progress'})
+MERGE (:Analyzed {type:'complete'})
+MERGE (:Analyzed {type:'orphan'})
+MERGE (:Analyzed {type:'active'})
+MERGE (:Analyzed {type:'stale'})
+MERGE (:Analyzed {type:'closed'})
+
+MERGE (:TweetType {type:'original'})
+MERGE (:TweetType {type:'retweet'})
+MERGE (:TweetType {type:'quoted_tweet'})
+MERGE (:TweetType {type:'reply'})
+
+MERGE (:HealthDirection {type:'positive'})
+MERGE (:HealthDirection {type:'negative'})
+
+
+
+WITH range(2007, 2027) AS years, range(1,12) as months
+FOREACH(year IN years |
+MERGE (y:Year {year: year})
+FOREACH(month IN months |
+CREATE (m:Month {month: month})
+MERGE (y)-[:HAS_MONTH]->(m)
+FOREACH(day IN (CASE
+WHEN month IN [1,3,5,7,8,10,12] THEN range(1,31)
+WHEN month = 2 THEN
+CASE
+WHEN year % 4 <> 0 THEN range(1,28)
+WHEN year % 100 <> 0 THEN range(1,29)
+WHEN year % 400 = 0 THEN range(1,29)
+ELSE range(1,28)
+END
+ELSE range(1,30)
+END) |
+CREATE (d:Day {day: day})
+MERGE (m)-[:HAS_DAY]->(d))))
+
+WITH *
+
+MATCH (year:Year)-[:HAS_MONTH]->(month)-[:HAS_DAY]->(day)
+WITH year,month,day
+ORDER BY year.year, month.month, day.day
+WITH collect(day) as days
+FOREACH(i in RANGE(0, size(days)-2) |
+FOREACH(day1 in [days[i]] |
+FOREACH(day2 in [days[i+1]] |
+MERGE (day1)-[:NEXT]->(day2))))
+
+MERGE (:Weekday {type:'weekday'})
+MERGE (:Weekday {type:'weekend'})
+
+MERGE (:Country {name:'USA'})
+
+MERGE (:PlaceType {type:'education'})
+MERGE (:PlaceType {type:'entertainment'})
+MERGE (:PlaceType {type:'healthcare'})
+MERGE (:PlaceType {type:'nature'})
+MERGE (:PlaceType {type:'nutrition'})
+MERGE (:PlaceType {type:'social_support'})
+MERGE (:PlaceType {type:'sport'})
+
+
+MERGE (:City {id:0,name:'testCity1',state:'OR'})
+MERGE (:City {id:1,name:'testCity2',state:'WA'})
+
+CREATE INDEX osm_loc_index [IF NOT EXISTS]
+FOR (o:OSMPlace)
+ON (o.id)
