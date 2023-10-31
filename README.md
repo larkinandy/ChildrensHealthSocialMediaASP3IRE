@@ -11,7 +11,7 @@ Analyze social media records to gain insights into children's environmental heal
 **Affiliation:** [Oregon State University, College of Health](https://health.oregonstate.edu/) <br>
 
 **Summary** <br>
-This github repository contains python scripts and custom classes for ingesting social media records into a Neo4j database and researching attitudes, perceptions, behaviors, and children's environmental health social media misinformation.
+This github repository contains python scripts and custom classes for ingesting social media records into a Neo4j database as well as deep learning models and jupyter notebooks for and researching attitudes, perceptions, behaviors, and children's environmental health social media misinformation.
 
 ![GitHub Logo](/images/1x/Overview.png)
 
