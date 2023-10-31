@@ -1,13 +1,10 @@
 ![GitHub Logo](/Images/Matching.jpg )
 
-# ChildrensHealthSocialMediaASP3IRE
-Analyze social media records to gain insights into children's environmental health
-
-**Author:** [Andrew Larkin](https://www.linkedin.com/in/andrew-larkin-525ba3b5/) <br>
-**Affiliation:** [Oregon State University, College of Health](https://health.oregonstate.edu/) <br>
+# Deep Learning
+Scripts for collecting training datasets, training, and implementing multimodal deep learning models 
 
 **Summary** <br>
-This github repository contains python scripts and custom classes for ingesting social media records into a Neo4j database and researching attitudes, perceptions, behaviors, and children's environmental health social media misinformation.
+This folder contains two subfolders.  One folder contains scripts and data pertinent to label training data.  The second folder contains scripts and data for training, evaluating, and implementing multimodal deep learning models
 
 **Repository Structure** <br>
 Files are divided into five folders, with each folder corresponding to a unique stage of the research pipeline
