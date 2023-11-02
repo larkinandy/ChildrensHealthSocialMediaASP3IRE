@@ -1,21 +1,32 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+############ FlaskBackend.py #############
+### Author: Andrew Larkin 
+### Created for the ASP3IRE Social Media Project 
+### Summary: 
+###   Provide a backend server for retreiving social media posts that need to be labeled
+###   from a PostgreSQL database, and storing updated social media posts labeled by students 
+
+### environment:
+### written for and tested in Heroku, using 1 professional level dyno and 1 hobby PostgreSQL database
+### occasionally crashed when request rate exceeded the databaase ability to retreive results (around 5 requests/sec)
+
 # import libraries 
 import os
 from werkzeug.wrappers import Request, Response
 from flask import Flask, render_template, request, url_for, jsonify
-#from random import randint # for random probably of sampling a QA tweet
 from flask_cors import CORS
 import psycopg2 
 import sqlalchemy
 import random # for random probability of sampling a QA tweet
 
-
+# vars set by Heroku
 DATABASE_URL = os.environ['DATABASE_URL']
+
+# connect to SQL database
 conn = psycopg2.connect(DATABASE_URL,sslmode="require")
 conn.autocommit = True
-
 app = Flask(__name__)
 CORS(app)
 
@@ -36,7 +47,8 @@ def getValidatedWorkers():
     except Exception as e:
         print(str(e))
 
-# get a record from SQL database.  Can be called for practice, training, search, or coding
+
+# get a record from SQL database.  Originally used for labeling and practice, now only used for practice tweets
 # INPUTS:
 #    recordNum (int) - unique tweet number
 # OUTPUTS:
@@ -60,7 +72,8 @@ def sampleRecordFromSQL(recordNum):
         print(str(e))
 
 
-# get a record from SQL database.  Can be called for practice, training, search, or coding
+# get a record that needs to be labeled for places from the SQL database.  
+# can be called for labeling only
 # INPUTS:
 #    recordNum (int) - unique tweet number
 # OUTPUTS:
@@ -84,7 +97,8 @@ def samplePlaceRecordFromSQL(recordNum):
         print(str(e))
 
 
-# get a record from SQL database.  Can be called for practice, training, search, or coding
+# get a record from the tables storing the third batch of training records that need to be labeled for place.  
+# can be called for coding only
 # INPUTS:
 #    recordNum (int) - unique tweet number
 # OUTPUTS:
@@ -107,7 +121,8 @@ def samplePlaceRecordFromSQL2(recordNum):
     except Exception as e:
         print(str(e))
 
-# get a record from SQL database.  Can be called for practice, training, search, or coding
+# get a record that needs to be labeled for child development stages from the SQL database.  
+# can be called for labeling only
 # INPUTS:
 #    recordNum (int) - unique tweet number
 # OUTPUTS:
@@ -130,7 +145,8 @@ def sampleChildRecordFromSQL(recordNum):
     except Exception as e:
         print(str(e))
 
-# get a record from SQL database.  Can be called for practice, training, search, or coding
+# get a record from the tables storing the third batch of training records that need to be labeled
+# for child development stages. Can be called for coding only
 # INPUTS:
 #    recordNum (int) - unique tweet number
 # OUTPUTS:
@@ -153,7 +169,8 @@ def sampleChildRecordFromSQL2(recordNum):
     except Exception as e:
         print(str(e))
 
-# get a record from SQL database.  Can be called for practice, training, search, or coding
+# get a record that needs to be labeled for health impacts from the SQL database.  
+# can be called for labeling only
 # INPUTS:
 #    recordNum (int) - unique tweet number
 # OUTPUTS:
@@ -176,7 +193,8 @@ def sampleHealthRecordFromSQL(recordNum):
     except Exception as e:
         print(str(e))
 
-# get a record from SQL database.  Can be called for practice, training, search, or coding
+# get a record that needs to be labeled for health impacts for the third batch of training records 
+# from the SQL database. Can be called for labeling only
 # INPUTS:
 #    recordNum (int) - unique tweet number
 # OUTPUTS:
@@ -199,7 +217,9 @@ def sampleHealthRecordFromSQL2(recordNum):
     except Exception as e:
         print(str(e))
 
-# get the 
+# tweets are sequentially pulled from the database based on index.  Get the index of the next tweet to label
+# OUTPUTS:
+#    tweet index (int)
 def getCurIndex():
     try:
         with conn.cursor() as cur:
@@ -211,7 +231,12 @@ def getCurIndex():
         conn.rollback()
         print(str(e))
 
-# get the 
+# tweets are sequentially pulled from the database based on index.  Get the index of the next tweet to label for 
+# the given category (place, child, health)
+# INPUTS:
+#    category (string) - which type of label to apply to tweet.  Can be place, child, or health
+# OUTPUTS:
+#     tweet index(int)
 def getSampleIndex(category):
     try:
         with conn.cursor() as cur:
@@ -223,6 +248,10 @@ def getSampleIndex(category):
         conn.rollback()
         print(str(e))
 
+# increment the index for the next tweet to label for the given input category
+# INPUTS:
+#    newIndex (int) - the new index number
+#    category (string) - category of label.  Can be place, child, or health
 def updateSampleIndex(newIndex,category):
     try:
         with conn.cursor() as cur:
@@ -234,6 +263,10 @@ def updateSampleIndex(newIndex,category):
         conn.rollback()
         print(str(e))
 
+# increment the index for the next tweet to sample.  Originally used for labeling and practice. 
+# now only used for practice tweets
+# INPUTS:
+#    newIndex (int) - the index of the next tweet to sample
 def updateIndex(newIndex):
     try:
         with conn.cursor() as cur:
@@ -533,6 +566,9 @@ def my_test_endpoint():
 
 
 validatedWokers = getValidatedWorkers()
+
+
+######### main function ############
 
 if __name__ == '__main__':
     PORT = int(os.environ.get('PORT', 17995))
