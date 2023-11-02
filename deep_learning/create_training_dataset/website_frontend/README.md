@@ -1,4 +1,4 @@
-![GitHub Logo](/Images/Matching.jpg )
+<img src="https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/blob/main/images/labeling_website.png" height="700">
 
 # Deep Learning
 Scripts for collecting training datasets, training, and implementing multimodal deep learning models 
