@@ -15,3 +15,4 @@ This folder contains three subfolders.  One folder contains scripts and datasets
 - **ReactJS** - https://react.dev/
 - **PostgreSQL** - https://www.postgresql.org/
 - **Heroku** - https://www.heroku.com/
+- **AmazonS3 bucket stroage** - https://aws.amazon.com/s3/
