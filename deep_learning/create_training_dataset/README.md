@@ -1,4 +1,4 @@
-![GitHub Logo](/Images/Matching.jpg )
+![GitHub Logo](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/blob/main/images/1x/TrainingDataExample.png)
 
 # Create Training Dataset
 Strategically sample database for tweets to label and create a website and backend SQL database for labeling tweets.  Finally, perform QA analysis and screen records with low confidence of quality from training dataset.
