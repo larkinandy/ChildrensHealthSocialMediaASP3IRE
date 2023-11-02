@@ -1,0 +1,11 @@
+#werkzeug
+#import_ipynb
+#trueskill
+#pandas
+psycopg2
+sqlalchemy
+#uuid 
+flask
+#IPython
+nbformat
+flask_cors

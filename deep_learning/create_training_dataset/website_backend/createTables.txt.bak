@@ -1,0 +1,28 @@
+CREATE TABLE twitter_labels (
+	img_id VARCHAR(100) NOT NULL,
+	location text[],
+	is_child boolean,
+	user_id VARCHAR (100) NOT NULL,
+	age text[],
+	is_health boolean,
+	health_impact text[],
+	health_type text[],
+	location_cat text[],
+	time_submitted timestamp NOT NULL,
+	PRIMARY KEY (img_id,user_id)
+);
+
+CREATE TABLE tweet_index (
+	cur_index INTEGER,
+	counter_for INTEGER,
+	PRIMARY KEY (counter_for)
+);
+
+CREATE TABLE twitter_records (
+	index SERIAL PRIMARY KEY,
+	tweet_id VARCHAR(100) NOT NULL,
+	text VARCHAR(1000) NOT NULL,
+	img_http VARCHAR(10) NOT NULL,
+);
+
+INSERT INTO tweet_index (cur_index, counter_for) VALUES(0,0);
