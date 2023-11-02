@@ -1,0 +1,24 @@
+.App {
+  font-family: sans-serif;
+}
+.App h1 {
+  text-align: center;
+}
+.App h2 {
+  text-align: center;
+}
+
+img{
+  max-height:300px;
+  max-width:300px;
+  height:auto;
+  width:auto;
+}
+
+p{
+  font-size: 20px;
+}
+
+.filler{
+  font-size: 16px;
+}
