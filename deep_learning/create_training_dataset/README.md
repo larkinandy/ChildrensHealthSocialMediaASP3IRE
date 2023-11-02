@@ -1,31 +1,17 @@
 ![GitHub Logo](/Images/Matching.jpg )
 
-# Deep Learning
-Scripts for collecting training datasets, training, and implementing multimodal deep learning models 
+# Create Training Dataset
+Strategically sample database for tweets to label and create a website and backend SQL database for labeling tweets.  Finally, perform QA analysis and screen records with low confidence of quality from training dataset.
 
-**Summary** <br>
-This folder contains two subfolders.  One folder contains scripts and data pertinent to label training data.  The second folder contains scripts and data for training, evaluating, and implementing multimodal deep learning models
 
 **Repository Structure** <br>
-Files are divided into five folders, with each folder corresponding to a unique stage of the research pipeline
+This folder contains three subfolders.  One folder contains scripts and datasets for strategically sampling tweets and analyzing labeled records.  The second folder contains code for the frontend react JS website used to label tweets.  The third folder contains the backend server and SQL database for loading and storing training dataset records
 
-- **[database setup](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/master/database_setup)** - ingest records from X (formerly Twitter) and GIS datasets into a Neo4j database. Additional operations include processing social media records (e.g. georeferencing records) <br>
-- **[deep learning](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/master/deep_learning)** - multimodal models for extracting information from X text and imagery <br>
-- **[analysis](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/master/analysis)** - analyzing records for trends related to children's environmental health. <br>
-- **[website](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/master/website)** - interactive website for viewing analysis results. <br>
+- **[analysis](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/master/deep_learning/create_training_dataset/analysis)** - strategically sample tweets from Neo4j database related to children, safe places, and health.  Analyze labeled records and peform QA analyses.  <br>
+- **[website backend](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/master/deep_learning/create_training_dataset/website_backend)** - server for retreiving and storing training records from SQL database  <br>
+- **[website_frontend](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/master/deep_learning/create_training_dataset/website_frontend)** - react JS website for labeling social media records. <br>
 
 **External Links**
-- **Publications** - TODO: insert link once published
-- **Funding** - [NIH/NIEHS](https://www.niehs.nih.gov/), GRANT13248774
-- **OpenStreetMap** - https://www.openstreetmap.org/
-- **X (formerly Twitter)** - https://twitter.com/home
-- **Advancing Science, Practice, Programming and Policy in Research Translation for Children’s Environmental Health (ASP<sup>3</sup>IRE) Center** - https://health.oregonstate.edu/asp3ire
-- **NVIDIA Accelerator Research Program** - https://www.nvidia.com/en-us/industries/higher-education-research/applied-research-program/
-  
-**Related Publications**
-- [Integrating Geospatial Data and Social Media in Bidirectional Long-Short Term Memory Models to Capture Human Nature Interactions](https://academic.oup.com/comjnl/article/65/3/667/5893915)
-- [Measuring and modelling perceptions of the built environment for epidemiological research using crowd-sourcing and image-based deep learning models](https://www.nature.com/articles/s41370-022-00489-8)
-
-**Related Repositories**
-- https://github.com/larkinandy/GreenTweet_MultivariateBiLSTM - predict nature perceptions and use from Twitter records, and link to OpenStreetMap
-- https://github.com/larkinandy/Portland_UrbanNature_Twitter - pilot study analyzing self-reported urban nature trends in Portland, OR from Twitter posts.
+- **ReactJS** - https://react.dev/
+- **PostgreSQL** - https://www.postgresql.org/
+- **Heroku** - https://www.heroku.com/
