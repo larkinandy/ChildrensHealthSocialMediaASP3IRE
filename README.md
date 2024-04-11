@@ -27,7 +27,6 @@ Files are divided into five folders, with each folder corresponding to a unique 
 - **[website](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/master/website)** - interactive website for viewing analysis results. <br>
 
 **External Links**
-- **Publications** - TODO: insert link once published
 - **Funding** - [NIH/NIEHS](https://www.niehs.nih.gov/), GRANT13248774
 - **OpenStreetMap** - https://www.openstreetmap.org/
 - **X (formerly Twitter)** - https://twitter.com/home
@@ -35,6 +34,7 @@ Files are divided into five folders, with each folder corresponding to a unique 
 - **NVIDIA Accelerator Research Program** - https://www.nvidia.com/en-us/industries/higher-education-research/applied-research-program/
   
 **Related Publications**
+- [Identifying children’s environmental health risks, needs, misconceptions, and opportunities for research translation using social media](https://www.explorationpub.com/Journals/edht/Article/101111)
 - [Integrating Geospatial Data and Social Media in Bidirectional Long-Short Term Memory Models to Capture Human Nature Interactions](https://academic.oup.com/comjnl/article/65/3/667/5893915)
 - [Measuring and modelling perceptions of the built environment for epidemiological research using crowd-sourcing and image-based deep learning models](https://www.nature.com/articles/s41370-022-00489-8)
 
