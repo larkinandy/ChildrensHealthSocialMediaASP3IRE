@@ -13,6 +13,7 @@ from ConversationNodeClass import ConversationDAO
 from LabelNodeClass import LabelDAO
 from GeoNodeClass import GeoDAO
 from TweetPlaceClass import TweetPlaceDAO
+from CommunityClass import CommunityDAO
 
 
 class GraphDAO:
@@ -29,6 +30,7 @@ class GraphDAO:
         self.labelDriver = LabelDAO(self.driver)
         self.geoDriver = GeoDAO(self.driver)
         self.placeDriver = TweetPlaceDAO(self.driver)
+        self.commDriver = CommunityDAO(self.driver)
 
     # create a connection to the Neo4j database
     # INPUTS:
@@ -57,6 +59,116 @@ class GraphDAO:
             return result
         except Exception as e:
             return e
+        
+
+    # given a set of probabilities tweets are related to child age groups, add probabilities and relationships to Tweet nodes
+    # INPUTS:
+    #    tweetBatch (pandasDF) - tweet probabilities 
+    # OUTPUTS:
+    #    result code or error if tweets cannot be processed
+    def processTweetChildProbsBatch(self,tweetBatch):
+        try:
+            result = self.tweetDriver.processTweetChildProbs(tweetBatch)
+            return result
+        except Exception as e:
+            return e
+        
+    # given a set of probabilities tweets are related to child age groups, add probabilities and relationships to Tweet nodes
+    # INPUTS:
+    #    tweetBatch (pandasDF) - tweet probabilities 
+    # OUTPUTS:
+    #    result code or error if tweets cannot be processed
+    def processTweetHealthProbsBatch(self,tweetBatch):
+        try:
+            result = self.tweetDriver.processTweetHealthProbs(tweetBatch)
+            return result
+        except Exception as e:
+            return e
+        
+    # given a set of probabilities tweets are related to child age groups, add probabilities and relationships to Tweet nodes
+    # INPUTS:
+    #    tweetBatch (pandasDF) - tweet probabilities 
+    # OUTPUTS:
+    #    result code or error if tweets cannot be processed
+    def processTweetPlaceProbsBatch(self,tweetBatch):
+        try:
+            result = self.tweetDriver.processTweetPlaceProbs(tweetBatch)
+            return result
+        except Exception as e:
+            return e
+        
+    # given a set of weights for MENTION relationships and the two nodes on the ends of the relationship, set the mention weight property
+    # INPUTS:
+    #    mentionWeights (pandasDF) - ids for the two nodes and the weight for the connecting MENTION relationship
+    # OUTPUTS:
+    #    result code or error if tweets cannot be processed
+    def processMentionWeights(self,tweetBatch):
+        try:
+            result = self.userDriver.processMentionWeight(tweetBatch)
+            return result
+        except Exception as e:
+            return e
+        
+    # given a set of weights for MENTION relationships and the two nodes on the ends of the relationship, set the mention weight property
+    # INPUTS:
+    #    mentionWeights (pandasDF) - ids for the two nodes and the weight for the connecting MENTION relationship
+    # OUTPUTS:
+    #    result code or error if tweets cannot be processed
+    def processMentionChildWeight(self,tweetBatch):
+        try:
+            result = self.userDriver.processMentionChildWeight(tweetBatch)
+            return result
+        except Exception as e:
+            return e
+        
+    # given a set of mentions for twitterAuthors set the mentions/mentioned properties on twitter author nodes 
+    # INPUTS:
+    #    mentions (pandasDF) - Twitter author ids and number of mentioned/mentions
+    # OUTPUTS:
+    #    result code or error if tweets cannot be processed
+    def processMentions(self,tweetBatch):
+        try:
+            result = self.userDriver.processMentions(tweetBatch)
+            return result
+        except Exception as e:
+            return e
+        
+    # set the number of posts TwitterAuthors made about children
+    # INPUTS:
+    #    nChildren (pandasDF) - Twitter author ids and number of posts about each child age group
+    # OUTPUTS:
+    #    result code or error if tweets cannot be processed
+    def processNChildPosts(self,nChildren):
+        try:
+            result = self.userDriver.processNChild(nChildren)
+            return result
+        except Exception as e:
+            return e
+        
+    # set the number of posts TwitterAuthors made about safe places
+    # INPUTS:
+    #    nPlaces (pandasDF) - Twitter author ids and number of posts about each child age group
+    # OUTPUTS:
+    #    result code or error if tweets cannot be processed
+    def processNPlacePosts(self,nPlaces):
+        try:
+            result = self.userDriver.processNPlace(nPlaces)
+            return result
+        except Exception as e:
+            return e
+
+    # set the number of posts TwitterAuthors made about health symptoms/outcomes
+    # INPUTS:
+    #    nPlaces (pandasDF) - Twitter author ids and number of posts about each child age group
+    # OUTPUTS:
+    #    result code or error if tweets cannot be processed
+    def processNHealthPosts(self,nHealth):
+        try:
+            result = self.userDriver.processNHealth(nHealth)
+            return result
+        except Exception as e:
+            return e
+    
     
     # get place ids which do not have geo coord data yet
     # OUTPUTS:
@@ -90,5 +202,26 @@ class GraphDAO:
     def getKeywordRandomSample(self,kw,sampSize):
         randomSample = self.tweetDriver.getKeywordRandomSample(kw,sampSize)
         return(randomSample)
+
+    def getUsernameFromTweetId(self,tweetId):
+        username = self.tweetDriver.getUsernameFromTweetId(tweetId)
+        return(username)
+
+    def getConvIDFromTweetId(self,tweetId):
+        convId = self.tweetDriver.getConvIdFromTweetId(tweetId)
+        return(convId)
+    
+
+    # given a set of communities in pandas format ingest tweets into Neo4j database
+    # INPUTS:
+    #    commBatch (pandas DF) - communities and associated properties, one comm for each row
+    # OUTPUTS:
+    #    result code or error if tweets cannot be processed
+    def insertComm(self,commBatch):
+        try:
+            result = self.commDrier.insertComm(commBatch)
+            return result
+        except Exception as e:
+            return e
 
 # end of GraphDBClass.py
