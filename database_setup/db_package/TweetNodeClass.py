@@ -93,6 +93,25 @@ class TweetDAO:
         """
         return code
 
+    # code for creating relationships between tweet and tweet type
+    # runs in batch mode
+    # OUTPUTS:
+    #     code (str) - code block used as part of a transaction for linking tweet nodes and tweet type
+    def setTweetNodeChildPredictionsLabelApoc(self):
+        code = """
+        CALL apoc.periodic.iterate('UNWIND $labels as label RETURN label',
+        "MATCH (t:Tweet {id:label.twitter_id})
+        MATCH (tt:TweetType {type:label.tweet_type})
+        MERGE (t)-[:IS_TYPE]->(tt)
+        WITH t
+            OPTIONAL MATCH (t)-[r:IN_STAGE]->()
+            DELETE r
+            WITH t
+            MATCH (a2:Analyzed {type:'downloaded'})
+            MERGE (t)-[:IN_STAGE]->(a2)",
+        {batchSize:1000,iterateList:True,parallel:false,params:{labels:$labels}})
+        """
+        return code
  
     # create connection between tweet node and conversation node
     # runs in batch mode
