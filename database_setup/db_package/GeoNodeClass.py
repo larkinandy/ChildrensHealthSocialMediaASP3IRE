@@ -5,7 +5,7 @@
 
 from unittest import result
 import numpy as np
-import secrets
+import mySecrets
 import pandas as ps
 
 class GeoDAO:
@@ -15,7 +15,7 @@ class GeoDAO:
     """
     def __init__(self, driver):
         self.driver=driver
-        self.FIPSMap = self.createFIPSMap(secrets.StateFPCodes)
+        self.FIPSMap = self.createFIPSMap(mySecrets.StateFPCodes)
 
     # given a csv containing states, create state nodes
     # INPUTS:

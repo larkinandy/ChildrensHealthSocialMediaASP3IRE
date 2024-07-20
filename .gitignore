@@ -1,2 +1,5 @@
 # ignore adobe illustrator files
 *.ai
+
+# ignore files containing filepath secrets
+database_setup/db_package/mySecrets.py

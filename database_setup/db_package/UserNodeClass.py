@@ -70,7 +70,6 @@ class UserDAO:
         result = tx.run(
             query,user_id=user_id,name=name,screen_name=screen_name,created_at=created_at,location=location,description=description,city_id=city_id)
         return(result)
-
         
     # create code for batch updating user nodes.  Can run in parallel because each record will update 
     # the properties of one and only one node
@@ -87,7 +86,6 @@ class UserDAO:
         """
         return code
     
-
     # code for setting the number of times an author posts a tweet about a safe place(s)
     # runs in batch mode
     # OUTPUTS:
@@ -106,7 +104,6 @@ class UserDAO:
         {batchSize:50000,iterateList:True,false:true,params:{labels:$labels}})
         """
         return code
-    
 
     # code for setting the number of times an author posts a tweet about a child(ren)
     # runs in batch mode
@@ -127,7 +124,6 @@ class UserDAO:
         """
         return code
     
-
     # code for setting the number of times an author posts a tweet about a health symptom/outcome
     # runs in batch mode
     # OUTPUTS:
@@ -171,7 +167,6 @@ class UserDAO:
         {batchSize:50000,iterateList:True,false:true,params:{labels:$labels}})
         """
         return code
-    
 
     # code for setting the number of mentions properties on a mention relationship 
     # runs in batch mode
@@ -204,7 +199,6 @@ class UserDAO:
             print(records)
         return(result)
     
-
     # update number of child tweet properties on TwitterUser nodes
     # INPUTS:
     #    nChildStats (pandas df) - twitterAuthor id and number of posts about children
@@ -238,7 +232,6 @@ class UserDAO:
             records = [record for record in result]
             print(records)
         return(result)
-
 
     # update number of place tweet properties on TwitterUser nodes
     # INPUTS:
@@ -308,7 +301,6 @@ class UserDAO:
             print(records)
         return(result)
     
-
     # update mention relationships by setting the weight properties for child tweets
     # INPUTS:
     #    tx (transaction) - open connection to Neo4j database
@@ -346,7 +338,6 @@ class UserDAO:
             print(records)
         return(result)
     
-
     # batch insert user nodes.  In reality this is used for updating rather than inserting nodes,
     # as nodes are most often inserted at the same time their first tweet with a relationship is 
     # inserted
@@ -382,7 +373,6 @@ class UserDAO:
             except Exception as e:
                 return e
             
-
     # update MENTION relationships between TwitterAuthors with a weight property (n mentions)
     # INPUTS:
     #    mentionWeights (pandas df) - twitterAuthor ids and mention weights

@@ -39,7 +39,7 @@ class TweetIngest:
         self.SECRET = apiDict['SECRET']
         self.twitterAPI = TwitterAPI(
             self.API_KEY,self.SECRET,self.imageFolder,self.tweetFolder,
-            self.keywordFolder,self.placeFolder,self.userFolder,self.userTweetsFolder,self.conversationTweetFolder
+            self.keywordFolder,self.placeFolder,self.userFolder
         )
 
         # setup connection to Neo4j database.  This is needed for both database development
