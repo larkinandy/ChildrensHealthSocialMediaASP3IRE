@@ -10,6 +10,7 @@ import glob
 import numpy as np
 import pandas as ps
 import json
+import os
 
 class TweetIngest:
 
@@ -25,8 +26,11 @@ class TweetIngest:
         self.storageFolder = storageFolder
         self.imageFolder = storageFolder + "ImageStore/" + str(year) + "/"
         self.tweetFolder = storageFolder + "TweetStore/" + str(year) + "/"
+        self.userTweetsFolder = storageFolder + "TweetStore/users/"
+        self.conversationTweetFolder = storageFolder + "TweetStore/conversations/"
         self.placeFolder = storageFolder + "PlaceStore/"
         self.userFolder = storageFolder + "UserStore/"
+        self.predictionsFolder = storageFolder + "ModelPredictions/PredStore/"
         self.keywordFolder = storageFolder + "keyword_csvs/"
         self.tweetImgProcesser = TweetImage(self.imageFolder)
 
@@ -35,19 +39,262 @@ class TweetIngest:
         self.SECRET = apiDict['SECRET']
         self.twitterAPI = TwitterAPI(
             self.API_KEY,self.SECRET,self.imageFolder,self.tweetFolder,
-            self.keywordFolder,self.placeFolder,self.userFolder
+            self.keywordFolder,self.placeFolder,self.userFolder,self.userTweetsFolder,self.conversationTweetFolder
         )
 
         # setup connection to Neo4j database.  This is needed for both database development
         # and analysis
         self.graphDBAPI = GraphDAO(dbDict['dbUri'],dbDict['dbUser'],dbDict['dbPW'])
 
+
+    def downloadTweetsForUsers(self,userIds,year):
+        self.twitterAPI.processTweetsForUsers(userIds,year)
+
+    def downloadTweetsForConversations(self,convIds):
+        self.twitterAPI.processTweetsForConversations(convIds)
+
+
     # given a folder filled with metadata about images, load metadata and download images to
     # a hashed folder location
     # INPUTS:
     #     metaFolder (str) - absolute filepath to folder containing metadata files
-    def downloadImagesFromMetaFolder(self,metaFolder):
-        self.tweetImgProcesser.downloadImagesFromMetaFolder(metaFolder)
+    def downloadImagesFromMetaFolder(self,metaFolder,processedFile=None):
+        self.tweetImgProcesser.downloadImagesFromMetaFolder(metaFolder,processedFile)
+
+    # given a folder filled with metadata about images, load metadata and download images to
+    # a hashed folder location
+    # INPUTS:
+    #     metaFolder (str) - absolute filepath to folder containing metadata files
+    def downloadConversationImages(self):
+        folder = self.conversationTweetFolder
+        processedListFolder = folder + "processed/"
+        for subfolder in range(5000):
+            curFolder = folder + str(subfolder) + "/"
+            processFile = processedListFolder + "processed_images_" + str(subfolder) + ".csv"
+            processedList = self.tweetImgProcesser.downloadImagesFromMetaFolder(curFolder,processedList)
+            processedList.to_csv(processFile,index=False)
+
+
+    # given a folder filled with metadata about images, load metadata and download images to
+    # a hashed folder location
+    # INPUTS:
+    #     metaFolder (str) - absolute filepath to folder containing metadata files
+    def downloadUserImages(self):
+        folder = self.userTweetsFolder
+        processedListFolder = folder + "processed/"
+        for subfolder in range(5000):
+            curFolder = folder + str(subfolder) + "/"
+            processFile = processedListFolder + "processed_images_" + str(subfolder) + ".csv"
+            if(os.path.exists(processFile)):
+                processedList = list(ps.read_csv(processFile)['processedImages'])
+            else:
+                processedList = []
+            processedList = self.tweetImgProcesser.downloadImagesFromMetaFolder(curFolder,processedList)
+            processedList.to_csv(processFile,index=False)
+
+
+    # given a folder where tweet metafiles are stored, load metafiles, process, and store in Neo4j
+    def ingestConversationTweetsFromHashFolder(self):
+        folder = self.conversationTweetFolder
+        processedListFolder = folder + "processed/"
+        for subfolder in range(5000):
+            curFolder = folder + str(subfolder) + "/"
+            metaFiles = glob.glob(curFolder + "tw_*")
+            processFile = processedListFolder + "processed_list_" + str(subfolder) + ".csv"
+            processedList = list(ps.read_csv(processFile)['processedFiles'])
+            print("found %i twitter files for subfolder %i" %(len(metaFiles),subfolder))
+            for metaFile in metaFiles:
+                shortName = metaFile[metaFile.rfind("\\")+1:]
+                if(shortName not in processedList):
+                    print("processing tweets for twitter file %s" %(metaFile))
+                    self.processTweetBatch(metaFile)
+                    print("finished processing tweets for twitter file %s" %(metaFile))
+                    processedList.append(metaFile[metaFile.rfind("\\")+1:])
+                    processedDict = ps.DataFrame({'processedFiles':processedList})
+                    processedDict.to_csv(processFile,index=False)
+
+    # given a folder where tweet metafiles are stored, load metafiles, process, and store in Neo4j
+    def ingestUserTweetsFromHashFolder(self):
+        folder = self.userTweetsFolder
+        processedListFolder = folder + "processed/"
+        for subfolder in range(5000):
+            curFolder = folder + str(subfolder) + "/"
+            metaFiles = glob.glob(curFolder + "tw_*")
+            processFile = processedListFolder + "processed_list_" + str(subfolder) + ".csv"
+            if(os.path.exists(processFile)):
+                processedList = list(ps.read_csv(processFile)['processedFiles'])
+            else:
+                processedList = []
+            print("found %i twitter files for subfolder %i" %(len(metaFiles),subfolder))
+            for metaFile in metaFiles:
+                shortName = metaFile[metaFile.rfind("\\")+1:]
+                if(shortName not in processedList):
+                    print("processing tweets for twitter file %s" %(metaFile))
+                    self.processTweetBatch(metaFile)
+                    print("finished processing tweets for twitter file %s" %(metaFile))
+                    processedList.append(metaFile[metaFile.rfind("\\")+1:])
+                    processedDict = ps.DataFrame({'processedFiles':processedList})
+                    processedDict.to_csv(processFile,index=False)
+
+    def getSubdirectories(self,dir):
+        return [name for name in os.listdir(dir)
+            if os.path.isdir(os.path.join(dir, name))]
+    
+    def ingestChildProbabilitiesSingleFile(self,data):
+        data['tweetId'] = data['tweetId'].astype(str)
+        data['isBaby'] = (data['isBaby']*100).astype(int)
+        data['isElem'] = (data['isElem']*100).astype(int)
+        data['isToddler'] = (data['isToddler']*100).astype(int)
+        data['isMiddle'] = (data['isMiddle']*100).astype(int)
+        data['isHigh'] = (data['isHigh']*100).astype(int)
+        data['isChild'] = (data['isChild']*100).astype(int)   
+        result = self.graphDBAPI.processTweetChildProbsBatch(data)
+
+    # given a folder where tweet child probabilities are stored, load files, process, and update Neo4j nodes and relationships
+    def ingestChildProbabilitiesFromFolder(self):
+        textPredictions = self.predictionsFolder + "age/text_age_pred/"
+        hybridPredictions = self.predictionsFolder + "age/hybrid_age_pred/"
+        subFolders = self.getSubdirectories(hybridPredictions)
+        completedCSV = self.predictionsFolder + "age.csv"
+        completed = []
+        if os.path.exists(completedCSV):
+            completed = ps.read_csv(completedCSV)
+            completed = list(completed['completed'])
+        for folder in subFolders:
+            folderpath = hybridPredictions + folder + "/"
+            subsubFolders = os.listdir(folderpath)
+            for subsubFolder in subsubFolders:
+                subsubFolderpath = folderpath + subsubFolder
+                files = os.listdir(subsubFolderpath)
+                for file in files:
+                    curFilepath = subsubFolderpath + "/" + file
+                    if not(curFilepath in completed):
+                        hybridPreds = ps.read_csv(curFilepath)
+                        hybridPreds['type'] = 0
+                        textPreds = ps.read_csv(textPredictions + folder + "/" + subsubFolder + "/" + file)
+                        textPreds['type'] = 1
+                        df = ps.concat([hybridPreds,textPreds])
+                        df.sort_values(by=['type'],ascending=True,inplace=True)
+                        df.drop_duplicates(subset=['tweetId'],inplace=True,keep='first')
+                        self.ingestChildProbabilitiesSingleFile(df)
+                        completed.append(subsubFolderpath + "/" + file)
+                        df = ps.DataFrame({
+                            'completed':completed
+                        }).to_csv(completedCSV,index=False)
+
+        
+    def ingestHealthProbabilitiesSingleFile(self,data):
+        data['tweetId'] = data['tweetId'].astype(str)
+        data['isEmotional'] = (data['isEmotional']*100).astype(int)
+        data['isCognitive'] = (data['isCognitive']*100).astype(int)
+        data['isPhysical'] = (data['isPhysical']*100).astype(int)
+        data['isPositive'] = (data['isPositive']*100).astype(int)
+        data['isNegative'] = (data['isNegative']*100).astype(int)
+        result = self.graphDBAPI.processTweetHealthProbsBatch(data)
+
+    # given a folder where tweet health probabilities are stored, load files, process, and update Neo4j nodes and relationships
+    def ingestHealthProbabilitiesFromFolder(self):
+        textPredictions = self.predictionsFolder + "health/text_health_pred/"
+        subFolders = self.getSubdirectories(textPredictions)
+        completedCSV = self.predictionsFolder + "health.csv"
+        completed = []
+        index=0
+        if os.path.exists(completedCSV):
+            completed = ps.read_csv(completedCSV)
+            completed = list(completed['completed'])
+        for folder in subFolders:
+            folderpath = textPredictions + folder + "/"
+            subsubFolders = os.listdir(folderpath)
+            for subsubFolder in subsubFolders:
+                subsubFolderpath = folderpath + subsubFolder
+                files = os.listdir(subsubFolderpath)
+                for file in files:
+                    curFilepath = subsubFolderpath + "/" + file
+                    if not(curFilepath in completed):
+                        textPreds = ps.read_csv(curFilepath)
+                        self.ingestHealthProbabilitiesSingleFile(textPreds)
+                        completed.append(subsubFolderpath + "/" + file)
+                        index+=1
+                        if(index%10==0):
+                            ps.DataFrame({
+                                'completed':completed
+                            }).to_csv(completedCSV,index=False)
+
+
+    def ingestPlaceProbabilitiesSingleFile(self,data):
+        data['tweetId'] = data['tweetId'].astype(str)
+        data['isDaycare'] = (data['isDaycare']*100).astype(int)
+        data['isPark'] = (data['isPark']*100).astype(int)
+        data['isHome'] = (data['isHome']*100).astype(int)
+        data['isSchool'] = (data['isSchool']*100).astype(int)
+        data['isNeighborhood'] = (data['isNeighborhood']*100).astype(int)
+        data['isIndoor'] = (data['isIndoor']*100).astype(int)
+        data['isOutdoor'] = (data['isOutdoor']*100).astype(int)
+        result = self.graphDBAPI.processTweetPlaceProbsBatch(data)
+
+
+    # given a folder where tweet child probabilities are stored, load files, process, and update Neo4j nodes and relationships
+    def ingestPlaceProbabilitiesFromFolder(self):
+        textPredictions = self.predictionsFolder + "place/text_place_pred/"
+        hybridPredictions = self.predictionsFolder + "place/hybrid_place_pred/"
+        subFolders = self.getSubdirectories(hybridPredictions)
+        completedCSV = self.predictionsFolder + "place.csv"
+        completed = []
+        index=0
+        if os.path.exists(completedCSV):
+            completed = ps.read_csv(completedCSV)
+            completed = list(completed['completed'])
+        for folder in subFolders:
+            folderpath = hybridPredictions + folder + "/"
+            subsubFolders = os.listdir(folderpath)
+            for subsubFolder in subsubFolders:
+                subsubFolderpath = folderpath + subsubFolder
+                files = os.listdir(subsubFolderpath)
+                for file in files:
+                    curFilepath = subsubFolderpath + "/" + file
+                    if not(curFilepath in completed):
+                        hybridPreds = ps.read_csv(curFilepath)
+                        hybridPreds['type'] = 0
+                        textPreds = ps.read_csv(textPredictions + folder + "/" + subsubFolder + "/" + file)
+                        textPreds['type'] = 1
+                        df = ps.concat([hybridPreds,textPreds])
+                        df.sort_values(by=['type'],ascending=True,inplace=True)
+                        df.drop_duplicates(subset=['tweetId'],inplace=True,keep='first')
+                        self.ingestPlaceProbabilitiesSingleFile(df)
+                        completed.append(subsubFolderpath + "/" + file)
+                        if(index%10==0):
+                            df = ps.DataFrame({
+                                'completed':completed
+                            }).to_csv(completedCSV,index=False)
+                        index+=1
+
+
+    def processMentionWeights(self,mentionWeights):
+        self.graphDBAPI.processMentionWeights(mentionWeights);
+    
+    def processMentionChildWeight(self,mentionWeights):
+        self.graphDBAPI.processMentionChildWeight(mentionWeights);
+    
+    def processMentions(self,mentionWeights):
+        self.graphDBAPI.processMentions(mentionWeights);
+    
+    def processNChildPosts(self,nChildPosts):
+        self.graphDBAPI.processNChildPosts(nChildPosts);
+    
+    def processNPlacePosts(self,nPlacePosts):
+        self.graphDBAPI.processNPlacePosts(nPlacePosts);
+    
+    def processNHealthPosts(self,nPlacePosts):
+        self.graphDBAPI.processNHealthPosts(nPlacePosts);
+
+    # given a folder filled with metadata about images, load metadata and download images to
+    # a hashed folder location
+    # INPUTS:
+    #     metaFolder (str) - absolute filepath to folder containing metadata files
+    def copyImagesToNewMetaFolder(self,metaFolder):
+        self.tweetImgProcesser.copyImagesFromMetaFolder(metaFolder)
+
+    
 
     # get place nodes that are missing essential information (e.g. name, bounding box)
     # OUTPUTS:
@@ -270,9 +517,16 @@ class TweetIngest:
             tempTweet2 = [ele for ele in tempTweet if ele != []]
             reformatedTweets += tempTweet2
         print("%i tweets in file %s" %(len(reformatedTweets),tweetFile))
-        reformatedReferences = self.reformatReferences(reformatedTweets)
-        reformatedMentions = self.reformatMentions(reformatedTweets)
-        self.graphDBAPI.processTweetDownloadBatch(reformatedTweets,reformatedReferences,reformatedMentions)
+        index = 0
+        multiplier = 100000
+        while(index*multiplier < len(reformatedTweets)):
+            tweetSusbet = reformatedTweets[index*multiplier:(index+1)*multiplier]
+            reformatedReferences = self.reformatReferences(tweetSusbet)
+            reformatedMentions = self.reformatMentions(tweetSusbet)
+            self.graphDBAPI.processTweetDownloadBatch(tweetSusbet,reformatedReferences,reformatedMentions)
+            index+=1
+            if(index>1):
+                print("completed tweet subset batch %i" %(index))
 
     
     # given a folder where tweet metafiles are stored, load metafiles, process, and store in Neo4j
@@ -293,16 +547,97 @@ class TweetIngest:
                 processedDict = ps.DataFrame({'processedFiles':processedList})
                 processedDict.to_csv(folder + "processed_list.csv",index=False)
 
+
+    # given a folder where tweet metafiles are stored, load metafiles, process, and store in Neo4j
+    def ingestUserTweetsFromFolder(self):
+        folder = self.userTweetsFolder
+        metaFiles = glob.glob(folder + "tw_*")
+        processedList = list(ps.read_csv(folder + "processed_list.csv")['processedFiles'])
+        print("found %i twitter files " %(len(metaFiles)))
+        for metaFile in metaFiles:
+            shortName = metaFile[metaFile.rfind("\\")+1:]
+            if(shortName not in processedList):
+                print("processing tweets for twitter file %s" %(metaFile))
+                self.processTweetBatch(metaFile)
+                print("finished processing tweets for twitter file %s" %(metaFile))
+                processedList.append(metaFile[metaFile.rfind("\\")+1:])
+                processedDict = ps.DataFrame({'processedFiles':processedList})
+                processedDict.to_csv(folder + "processed_list.csv",index=False)
+
+    # given a folder where tweet metafiles are stored, load metafiles, process, and store in Neo4j
+    def ingestConversationTweetsFromFolder(self):
+        folder = self.conversationTweetFolder
+        metaFiles = glob.glob(folder + "tw_*")
+        processedList = list(ps.read_csv(folder + "processed_list.csv")['processedFiles'])
+        print("found %i twitter files " %(len(metaFiles)))
+        for metaFile in metaFiles:
+            shortName = metaFile[metaFile.rfind("\\")+1:]
+            if(shortName not in processedList):
+                print("processing tweets for twitter file %s" %(metaFile))
+                self.processTweetBatch(metaFile)
+                print("finished processing tweets for twitter file %s" %(metaFile))
+                processedList.append(metaFile[metaFile.rfind("\\")+1:])
+                processedDict = ps.DataFrame({'processedFiles':processedList})
+                processedDict.to_csv(folder + "processed_list.csv",index=False)
+
+
+    # given a folder where tweet metafiles are stored, load metafiles, process, and store in Neo4j
+    def ingestConversationTweetsFromHashFolder(self):
+        folder = self.conversationTweetFolder
+        processedListFolder = folder + "processed/"
+        for subfolder in range(5000):
+            curFolder = folder + str(subfolder) + "/"
+            metaFiles = glob.glob(curFolder + "tw_*")
+            processFile = processedListFolder + "processed_list_" + str(subfolder) + ".csv"
+            processedList = list(ps.read_csv(processFile)['processedFiles'])
+            print("found %i twitter files for subfolder %i" %(len(metaFiles),subfolder))
+            for metaFile in metaFiles:
+                shortName = metaFile[metaFile.rfind("\\")+1:]
+                if(shortName not in processedList):
+                    print("processing tweets for twitter file %s" %(metaFile))
+                    self.processTweetBatch(metaFile)
+                    print("finished processing tweets for twitter file %s" %(metaFile))
+                    processedList.append(metaFile[metaFile.rfind("\\")+1:])
+                    processedDict = ps.DataFrame({'processedFiles':processedList})
+                    processedDict.to_csv(processFile,index=False)
+
+    # given a folder where tweet metafiles are stored, load metafiles, process, and store in Neo4j
+    def getConversationWordCounts(self):
+        folder = self.conversationTweetFolder
+        metaFiles = glob.glob(folder + "tw_*")
+        wordCounts = ps.read_csv(folder + "converation_counts.csv")
+        processedList = list(wordCounts['convId'])
+        processedCounts = list(wordCounts['count'])
+        print("found %i twitter files " %(len(metaFiles)))
+        for metaFile in metaFiles[0:10]:
+            shortName = metaFile[metaFile.rfind("\\")+1:]
+            if(shortName not in processedList):
+                print("counting tweets for twitter file %s" %(metaFile))
+                tweetCount = self.countTweetsInFile(metaFile)
+                processedCounts.append(tweetCount)
+                processedList.append(shortName)
+        df = ps.DataFrame({
+            'convId':processedList,
+            'count':processedCounts
+        })
+        df.to_csv(folder + "converation_counts.csv",index=False)
+
     # given file with info for a single Twitter place, load place data into Neo4j database
     # INPUTS:
     #    placeFile (str) - absolute filepath to file containing place data
-    def ingestPlaceFromFile(self,placeFile):
-        f = open(placeFile)
+    def ingestPlaceFromFile(self,placeFile,placeId):
+        f = open(placeFile,encoding='utf-8')
         placeData = json.load(f)
+        f.close()
         try:
             tempCoords = placeData['bounding_box']['coordinates'][0]
         except Exception as e:
             print("couldn't ingest place for file: %s: %s" %(placeFile,str(e)))
+            try:
+                self.graphDBAPI.placeDriver.addPlaceError(placeId)
+                print("inserted error for place %s" %(placeId))
+            except Exception as e:
+                print("couldn't insert place error msg: %s" %(str(e)))
             return
         bboxLat,bboxLon = [],[]
         for coord in tempCoords:
@@ -314,17 +649,24 @@ class TweetIngest:
             self.graphDBAPI.placeDriver.addPlaceInfo(placeData)
         except Exception as e:
             print("couldn't load place information for file: %s: %s" %(placeFile,str(e)))
-        f.close()
+        print("completed place %s" %(placeFile))
 
     # given folder containing all place .json files, load place info into Neo4j database
     def ingestPlacesFromFolder(self):
         placeFiles = glob.glob(self.placeFolder + "*.json")
         placeIdsToUpdate = self.graphDBAPI.getOrphanPlaceIds()
         print("found %i places" %(len(placeFiles)))
+        index = 0
         for placeFile in placeFiles:
             fileId = placeFile[placeFile.rfind("\\")+1:-5]
             if(fileId in placeIdsToUpdate):
-                self.ingestPlaceFromFile(placeFile)
+                try:
+                    self.ingestPlaceFromFile(placeFile,fileId)
+                except Exception as e:
+                    print("couldn't ingest place from file %s: %s" %(placeFile,str(e)))
+            index +=1
+            if(index%10000==0):
+                print(index)
 
     # reformat user node data into dict 
     # INPUTS: 
@@ -369,6 +711,7 @@ class TweetIngest:
     #    kwType (str) - category of interest
     def downloadTwitterDataOneYear(self,year,kwType):
         self.twitterAPI.processSingleTwitterOneYear(year,kwType)
+        return 0
 
 
 

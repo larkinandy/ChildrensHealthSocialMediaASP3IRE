@@ -3,6 +3,7 @@
 ### Date Created: May 17, 2022
 ### Summary: Class constructing and querying Tweet nodes in a Neo4j database
 
+import pandas as ps
 
 class TweetDAO:
     """
@@ -92,26 +93,62 @@ class TweetDAO:
         {batchSize:1000,iterateList:True,parallel:false,params:{labels:$labels}})
         """
         return code
-
-    # code for creating relationships between tweet and tweet type
+    
+    # code for adding child label probabilities to tweets
     # runs in batch mode
     # OUTPUTS:
-    #     code (str) - code block used as part of a transaction for linking tweet nodes and tweet type
-    def setTweetNodeChildPredictionsLabelApoc(self):
+    #     code (str) - code block used as part of a transaction for adding child probablities as a property to tweet nodes
+    def setTweetChildProbsApoc(self):
         code = """
         CALL apoc.periodic.iterate('UNWIND $labels as label RETURN label',
-        "MATCH (t:Tweet {id:label.twitter_id})
-        MATCH (tt:TweetType {type:label.tweet_type})
-        MERGE (t)-[:IS_TYPE]->(tt)
-        WITH t
-            OPTIONAL MATCH (t)-[r:IN_STAGE]->()
-            DELETE r
-            WITH t
-            MATCH (a2:Analyzed {type:'downloaded'})
-            MERGE (t)-[:IN_STAGE]->(a2)",
+        "MATCH (t:Tweet {id:label.tweetId})
+        SET t.isBaby = label.isBaby,
+        t.isToddler = label.isToddler,
+        t.isElem = label.isElem,
+        t.isMiddle = label.isMiddle,
+        t.isHigh = label.isHigh,
+        t.isChild = label.isChild",
         {batchSize:1000,iterateList:True,parallel:false,params:{labels:$labels}})
         """
         return code
+    
+    # code for adding health label probabilities to tweets
+    # runs in batch mode
+    # OUTPUTS:
+    #     code (str) - code block used as part of a transaction for adding child probablities as a property to tweet nodes
+    def setTweetHealthProbsApoc(self):
+        code = """
+        CALL apoc.periodic.iterate('UNWIND $labels as label RETURN label',
+        "MATCH (t:Tweet {id:label.tweetId})
+        SET t.isCognitive = label.isCognitive,
+        t.isEmotionalSocial = label.isEmotional,
+        t.isPhysical = label.isPhysical,
+        t.isNegative = label.isNegative,
+        t.isPositive = label.isPositive",
+        {batchSize:1000,iterateList:True,parallel:false,params:{labels:$labels}})
+        """
+        return code
+    
+    # code for adding place label probabilities to tweets
+    # runs in batch mode
+    # OUTPUTS:
+    #     code (str) - code block used as part of a transaction for adding place probablities as a property to tweet nodes
+    def setTweetPlaceProbs(self):
+        code = """
+        CALL apoc.periodic.iterate('UNWIND $labels as label RETURN label',
+        "MATCH (t:Tweet {id:label.tweetId})
+        SET t.isDaycare = label.isDaycare,
+        t.isPark = label.isPark,
+        t.isHome = label.isHome,
+        t.isSchool = label.isSchool,
+        t.isNeighborhood = label.isNeighborhood,
+        t.isOutdoor = label.isOutdoor,
+        t.isIndoor = label.isIndoor",
+        {batchSize:10000,iterateList:True,parallel:true,params:{labels:$labels}})
+        """
+        return code
+    
+
  
     # create connection between tweet node and conversation node
     # runs in batch mode
@@ -224,6 +261,45 @@ class TweetDAO:
             records = [record for record in result]
             print(records)
         return(result)
+       
+    # update Tweet nodes with child age group probabilities.  
+    # INPUTS:
+    #    tx (transaction) - open connection to Neo4j database
+    #    probabilities (json array) - set of tweet probabilities, probabilities for each tweet as an independent json object
+    # OUTPUTS:
+    #    result (str) - transaction result
+    def insertTweetChildProbsBatch(self,tx,tweetBatch):
+        cypher = self.setTweetChildProbsApoc()
+        try:
+            result = tx.run(cypher,labels=tweetBatch)
+        except Exception as e:
+            print(str(e))
+        if(self.debug):
+            print("this is the result of tweet batch insertion")
+            print(cypher)
+            records = [record for record in result]
+            print(records)
+        return(result)
+    
+
+    # update Tweet nodes with child health probabilities.  
+    # INPUTS:
+    #    tx (transaction) - open connection to Neo4j database
+    #    probabilities (json array) - set of tweet probabilities, probabilities for each tweet as an independent json object
+    # OUTPUTS:
+    #    result (str) - transaction result
+    def insertTweetHealthProbsBatch(self,tx,tweetBatch):
+        cypher = self.setTweetHealthProbsApoc()
+        try:
+            result = tx.run(cypher,labels=tweetBatch)
+        except Exception as e:
+            print(str(e))
+        if(self.debug):
+            print("this is the result of tweet batch insertion")
+            print(cypher)
+            records = [record for record in result]
+            print(records)
+        return(result)
 
     # create relationships between a batch of tweets and their type (e.g. retweet)
     # INPUTS:
@@ -233,6 +309,24 @@ class TweetDAO:
     #    result (str) - transaction result
     def insertTweetTypeBatch(self,tx,tweetBatch):
         cypher = self.setTweetNodeLabelApoc()
+        try:
+            result = tx.run(cypher,labels=tweetBatch)
+        except Exception as e:
+            print(str(e))
+        if(self.debug):
+            print("this is the result for tweet type")
+            records = [record for record in result]
+            print(records)
+        return(result)
+
+    # update Tweet nodes with child place probabilities.  
+    # INPUTS:
+    #    tx (transaction) - open connection to Neo4j database
+    #    probabilities (json array) - set of tweet probabilities, probabilities for each tweet as an independent json object
+    # OUTPUTS:
+    #    result (str) - transaction result
+    def insertTweetPlaceProbsBatch(self,tx,tweetBatch):
+        cypher = self.setTweetPlaceProbs()
         try:
             result = tx.run(cypher,labels=tweetBatch)
         except Exception as e:
@@ -325,6 +419,52 @@ class TweetDAO:
                 return result
             except Exception as e:
                 return e
+
+    # update tweet nodes with probabilities they are related to child age group. 
+    # INPUTS:
+    #    childProbs (pandas df) - tweet ids and probabilities for each child age group
+    # OUTPUTS:
+    #    results (str arrays) - results of the transactions performed to create the new tweet node and corresponding relationships
+    def processTweetChildProbs(self,childProbs):
+        jsonData = list(childProbs.apply(lambda x: x.to_dict(), axis=1))
+        with self.driver.session() as session:
+            try:
+                result = session.write_transaction(self.insertTweetChildProbsBatch,jsonData)    
+                print("completedBatch")
+                return result
+            except Exception as e:
+                return e
+
+    # update tweet nodes with probabilities they are related to health symptoms/outcomes. 
+    # INPUTS:
+    #    healthProbs (pandas df) - tweet ids and probabilities for each health category
+    # OUTPUTS:
+    #    results (str arrays) - results of the transactions performed to create the new tweet node and corresponding relationships
+    def processTweetHealthProbs(self,healthProbs):
+        jsonData = list(healthProbs.apply(lambda x: x.to_dict(), axis=1))
+        with self.driver.session() as session:
+            try:
+                result = session.write_transaction(self.insertTweetHealthProbsBatch,jsonData)    
+                print("completedBatch")
+                return result
+            except Exception as e:
+                return e
+            
+    # update tweet nodes with probabilities they are related to places.  
+    # INPUTS:
+    #    placeProbs (pandas df) - tweet ids and probabilities for each place category
+    # OUTPUTS:
+    #    results (str arrays) - results of the transactions performed to create the new tweet node and corresponding relationships
+    def processTweetPlaceProbs(self,placeProbs):
+        jsonData = list(placeProbs.apply(lambda x: x.to_dict(), axis=1))
+        with self.driver.session() as session:
+            try:
+                result = session.write_transaction(self.insertTweetPlaceProbsBatch,jsonData)    
+                print("completedBatch")
+                return result
+            except Exception as e:
+                return e
+    
     
     # select users who have a relationship with the (:Analyzed {type:'orphan'}) node.  These are
     # users who have been identified as invovled in a tweet, but whose meta information has not yet
@@ -340,8 +480,38 @@ class TweetDAO:
             return(userIds)
 
         with self.driver.session() as session:
-            result = session.read_transaction(self,inLineFx)
+            result = session.read_transaction(inLineFx)
             return result
+        
+    def getUsernameFromTweetId(self,tweetId):
+        def inLineFx(tx,tweetId):
+            query = """
+                MATCH (t:Tweet{id:'""" + str(tweetId) + """'})<-[p:POSTED]-(n)
+                RETURN n.username
+            """
+            result=tx.run(query,tweetId=tweetId)
+            userId = [row.values()[0] for row in result][0]
+            return(userId)
+
+        with self.driver.session() as session:
+            result = session.read_transaction(inLineFx,tweetId)
+            return result
+        
+
+    def getConvIdFromTweetId(self,tweetId):
+        def inLineFx(tx,tweetId):
+            query = """
+                MATCH (t:Tweet{id:'""" + str(tweetId) + """'})-[b:BELONGS_TO]->(c)
+                RETURN c.id
+            """
+            result=tx.run(query,tweetId=tweetId)
+            convId = [row.values()[0] for row in result][0]
+            return(convId)
+
+        with self.driver.session() as session:
+            result = session.read_transaction(inLineFx,tweetId)
+            return result
+
 
     # county number of tweets which contain a keyword
     # INPUTS:
@@ -356,7 +526,7 @@ class TweetDAO:
             """
             result = tx.run(query)
             count = [row.values()[0] for row in result]
-            return(count)
+            return(count[0])
 
         with self.driver.session() as session:
             result = session.read_transaction(inLineFxn,kw)

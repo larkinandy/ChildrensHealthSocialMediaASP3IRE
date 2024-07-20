@@ -86,6 +86,266 @@ class UserDAO:
         {batchSize:500,iterateList:True,parallel:true,params:{labels:$labels}})
         """
         return code
+    
+
+    # code for setting the number of times an author posts a tweet about a safe place(s)
+    # runs in batch mode
+    # OUTPUTS:
+    #     code (str) - code block used as part of a transaction for setting a relationship property
+    def setNPlacesApoc(self):
+        code = """
+        CALL apoc.periodic.iterate('UNWIND $labels as label RETURN label',
+        "MATCH (t:TwitterUser {id:label.tweetId})
+        SET t.nPark = label.isPark,
+        t.nNeighborhood = label.isNeighborhood,
+        t.nSchool = label.isSchool,
+        t.nHome = label.isHome,
+        t.nDaycare = label.isDaycare,
+        t.nOutdoor = label.isOutdoor,
+        t.nIndoor = label.isIndoor",
+        {batchSize:50000,iterateList:True,false:true,params:{labels:$labels}})
+        """
+        return code
+    
+
+    # code for setting the number of times an author posts a tweet about a child(ren)
+    # runs in batch mode
+    # OUTPUTS:
+    #     code (str) - code block used as part of a transaction for setting a relationship property
+    def setNChildApoc(self):
+        code = """
+        CALL apoc.periodic.iterate('UNWIND $labels as label RETURN label',
+        "MATCH (t:TwitterUser {id:label.tweetId})
+        SET t.nChild = label.isChild,
+        t.nBaby = label.isBaby,
+        t.nToddler = label.isToddler,
+        t.nElementary = label.isElem,
+        t.nMiddle = label.isMiddle,
+        t.nHigh = label.ishHigh,
+        t.nPosted = label.nPosted",
+        {batchSize:50000,iterateList:True,false:true,params:{labels:$labels}})
+        """
+        return code
+    
+
+    # code for setting the number of times an author posts a tweet about a health symptom/outcome
+    # runs in batch mode
+    # OUTPUTS:
+    #     code (str) - code block used as part of a transaction for setting a relationship property
+    def setNHealthApoc(self):
+        code = """
+        CALL apoc.periodic.iterate('UNWIND $labels as label RETURN label',
+        "MATCH (t:TwitterUser {id:label.tweetId})
+        SET t.nCognitive = label.isCognitive,
+        t.nEmotionalSocial = label.isEmotionalSocial,
+        t.nPhysical = label.isPhysical,
+        t.nPositive = label.isPositive,
+        t.nNegative = label.isNegative",
+        {batchSize:50000,iterateList:True,false:true,params:{labels:$labels}})
+        """
+        return code
+    
+    # code for setting the number of mentions and mentioned properties on a twitter user node  
+    # runs in batch mode
+    # OUTPUTS:
+    #     code (str) - code block used as part of a transaction for setting a relationship property
+    def setMentionsApoc(self):
+        code = """
+        CALL apoc.periodic.iterate('UNWIND $labels as label RETURN label',
+        "MATCH (t:TwitterUser {id:label.tweetId})
+        SET t.nMentions = label.nMentions,
+        t.nMentioned = label.nMentioned",
+        {batchSize:50000,iterateList:True,false:true,params:{labels:$labels}})
+        """
+        return code
+    
+    # code for setting the number of mentions properties on a mention relationship 
+    # runs in batch mode
+    # OUTPUTS:
+    #     code (str) - code block used as part of a transaction for setting a relationship property
+    def setMentionsWeightApoc(self):
+        code = """
+        CALL apoc.periodic.iterate('UNWIND $labels as label RETURN label',
+        "MATCH (a:TwitterUser {id:label.aTweetId})-[m:MENTIONED]->(b:TwitterUser {id:label.bTweetId})
+        SET m.n=label.n",
+        {batchSize:50000,iterateList:True,false:true,params:{labels:$labels}})
+        """
+        return code
+    
+
+    # code for setting the number of mentions properties on a mention relationship 
+    # runs in batch mode
+    # OUTPUTS:
+    #     code (str) - code block used as part of a transaction for setting a relationship property
+    def setMentionsWeightChildApoc(self):
+        code = """
+        CALL apoc.periodic.iterate('UNWIND $labels as label RETURN label',
+        "MATCH (a:TwitterUser {id:label.aTweetId})-[m:MENTIONED]->(b:TwitterUser {id:label.bTweetId})
+        SET m.nChild=label.n",
+        {batchSize:50000,iterateList:True,false:true,params:{labels:$labels}})
+        """
+        return code
+
+    # update number of times authors mention child(ren)  
+    # INPUTS:
+    #    tx (transaction) - open connection to Neo4j database
+    #    matchData (dict) - a dictionary of authorids,ntweets
+    # OUTPUTS:
+    #    result (str) - transaction result
+    def setNChildBatch(self,tx,tweetBatch):
+        cypher = self.setNChildApoc()
+        try:
+            result = tx.run(cypher,labels=tweetBatch)
+        except Exception as e:
+            print(str(e))
+        if(self.debug):
+            print("this is the result for tweet type")
+            records = [record for record in result]
+            print(records)
+        return(result)
+    
+
+    # update number of child tweet properties on TwitterUser nodes
+    # INPUTS:
+    #    nChildStats (pandas df) - twitterAuthor id and number of posts about children
+    # OUTPUTS:
+    #    results (str arrays) - results of the transactions performed to create the new tweet node and corresponding relationships
+    def processNChild(self,nChildStats):
+        jsonData = list(nChildStats.apply(lambda x: x.to_dict(), axis=1))
+        print(jsonData[0])
+        with self.driver.session() as session:
+            try:
+                result = session.write_transaction(self.setNChildBatch,jsonData)    
+                print("completedBatch")
+                return result
+            except Exception as e:
+                return e
+
+    # update number of times authors mention safe place(s)
+    # INPUTS:
+    #    tx (transaction) - open connection to Neo4j database
+    #    matchData (dict) - a dictionary of authorids,ntweets
+    # OUTPUTS:
+    #    result (str) - transaction result
+    def setNPlaceBatch(self,tx,tweetBatch):
+        cypher = self.setNPlacesApoc()
+        try:
+            result = tx.run(cypher,labels=tweetBatch)
+        except Exception as e:
+            print(str(e))
+        if(self.debug):
+            print("this is the result for tweet type")
+            records = [record for record in result]
+            print(records)
+        return(result)
+
+
+    # update number of place tweet properties on TwitterUser nodes
+    # INPUTS:
+    #    nPlaceStats (pandas df) - twitterAuthor id and number of posts about safe places
+    # OUTPUTS:
+    #    results (str arrays) - results of the transactions performed to create the new tweet node and corresponding relationships
+    def processNPlace(self,nPlaceStats):
+        jsonData = list(nPlaceStats.apply(lambda x: x.to_dict(), axis=1))
+        print(jsonData[0])
+        with self.driver.session() as session:
+            try:
+                result = session.write_transaction(self.setNPlaceBatch,jsonData)    
+                print("completedBatch")
+                return result
+            except Exception as e:
+                return e
+            
+    # update number of times authors mention health symptoms/outcomes
+    # INPUTS:
+    #    tx (transaction) - open connection to Neo4j database
+    #    matchData (dict) - a dictionary of authorids,ntweets
+    # OUTPUTS:
+    #    result (str) - transaction result
+    def setNHealthBatch(self,tx,tweetBatch):
+        cypher = self.setNHealthApoc()
+        try:
+            result = tx.run(cypher,labels=tweetBatch)
+        except Exception as e:
+            print(str(e))
+        if(self.debug):
+            print("this is the result for tweet type")
+            records = [record for record in result]
+            print(records)
+        return(result)
+    
+    # update number of health tweet properties on TwitterUser nodes
+    # INPUTS:
+    #    nHealthStats (pandas df) - twitterAuthor id and number of posts about health symptoms/outcomes
+    # OUTPUTS:
+    #    results (str arrays) - results of the transactions performed to create the new tweet node and corresponding relationships
+    def processNHealth(self,nHealthStats):
+        jsonData = list(nHealthStats.apply(lambda x: x.to_dict(), axis=1))
+        print(jsonData[0])
+        with self.driver.session() as session:
+            try:
+                result = session.write_transaction(self.setNHealthBatch,jsonData)    
+                print("completedBatch")
+                return result
+            except Exception as e:
+                return e
+
+    # update mention relationships by setting the weight property  
+    # INPUTS:
+    #    tx (transaction) - open connection to Neo4j database
+    #    matchData (json array) - data needed to find relationships in database and set weights
+    # OUTPUTS:
+    #    result (str) - transaction result
+    def setMentionWeightBatch(self,tx,tweetBatch):
+        cypher = self.setMentionsWeightApoc()
+        try:
+            result = tx.run(cypher,labels=tweetBatch)
+        except Exception as e:
+            print(str(e))
+        if(self.debug):
+            print("this is the result for tweet type")
+            records = [record for record in result]
+            print(records)
+        return(result)
+    
+
+    # update mention relationships by setting the weight properties for child tweets
+    # INPUTS:
+    #    tx (transaction) - open connection to Neo4j database
+    #    matchData (json array) - data needed to find relationships in database and set weights
+    # OUTPUTS:
+    #    result (str) - transaction result
+    def setMentionWeightChildBatch(self,tx,tweetBatch):
+        cypher = self.setMentionsWeightChildApoc()
+        try:
+            result = tx.run(cypher,labels=tweetBatch)
+        except Exception as e:
+            print(str(e))
+        if(self.debug):
+            print("this is the result for tweet type")
+            records = [record for record in result]
+            print(records)
+        return(result)
+    
+
+    # update mention relationships by setting the weight property  
+    # INPUTS:
+    #    tx (transaction) - open connection to Neo4j database
+    #    matchData (json array) - data needed to find relationships in database and set weights
+    # OUTPUTS:
+    #    result (str) - transaction result
+    def setNMentionsBatch(self,tx,tweetBatch):
+        cypher = self.setMentionsApoc()
+        try:
+            result = tx.run(cypher,labels=tweetBatch)
+        except Exception as e:
+            print(str(e))
+        if(self.debug):
+            print("this is the result for tweet type")
+            records = [record for record in result]
+            print(records)
+        return(result)
+    
 
     # batch insert user nodes.  In reality this is used for updating rather than inserting nodes,
     # as nodes are most often inserted at the same time their first tweet with a relationship is 
@@ -107,4 +367,49 @@ class UserDAO:
             result = session.write_transaction(inLineFxn)
             return result
 
-    
+    # update MENTION relationships between TwitterAuthors with a weight property (n mentions)
+    # INPUTS:
+    #    mentionWeights (pandas df) - twitterAuthor ids and mention weights
+    # OUTPUTS:
+    #    results (str arrays) - results of the transactions performed to create the new tweet node and corresponding relationships
+    def processMentionWeight(self,mentionWeights):
+        jsonData = list(mentionWeights.apply(lambda x: x.to_dict(), axis=1))
+        with self.driver.session() as session:
+            try:
+                result = session.write_transaction(self.setMentionWeightBatch,jsonData)    
+                print("completedBatch")
+                return result
+            except Exception as e:
+                return e
+            
+
+    # update MENTION relationships between TwitterAuthors with a weight property (n mentions)
+    # INPUTS:
+    #    mentionWeights (pandas df) - twitterAuthor ids and mention weights
+    # OUTPUTS:
+    #    results (str arrays) - results of the transactions performed to create the new tweet node and corresponding relationships
+    def processMentionChildWeight(self,mentionWeights):
+        jsonData = list(mentionWeights.apply(lambda x: x.to_dict(), axis=1))
+        with self.driver.session() as session:
+            try:
+                result = session.write_transaction(self.setMentionWeightChildBatch,jsonData)    
+                print("completedBatch")
+                return result
+            except Exception as e:
+                return e
+            
+    # update MENTION properties on TwitterAuthor nodes 
+    # INPUTS:
+    #    mentionStats (pandas df) - twitterAuthor id and mention/mentioned numbers
+    # OUTPUTS:
+    #    results (str arrays) - results of the transactions performed to create the new tweet node and corresponding relationships
+    def processMentions(self,mentionWeights):
+        jsonData = list(mentionWeights.apply(lambda x: x.to_dict(), axis=1))
+        print(jsonData[0])
+        with self.driver.session() as session:
+            try:
+                result = session.write_transaction(self.setNMentionsBatch,jsonData)    
+                print("completedBatch")
+                return result
+            except Exception as e:
+                return e
