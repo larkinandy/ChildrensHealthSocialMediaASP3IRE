@@ -219,7 +219,7 @@ class GraphDAO:
     #    result code or error if tweets cannot be processed
     def insertComm(self,commBatch):
         try:
-            result = self.commDrier.insertComm(commBatch)
+            result = self.commDriver.insertComm(commBatch)
             return result
         except Exception as e:
             return e

@@ -19,27 +19,27 @@ class CommunityDAO:
     def setCommNodePropertiesApoc(self):
         code = """
         CALL apoc.periodic.iterate('UNWIND $labels as label RETURN label',
-        "MERGE (c:Community {id:label.comm_id})
-            SET t.nPosted = label.nPosted
-            SET t.nChild = label.isChild
-            SET t.nBaby = label.isBaby
-            SET t.nToddler = label.isToddler
-            SET t.nElem = label.isElem,
-            SET t.nMiddle = label.isMiddle,
-            SET t.nHigh = label.isHigh,
-            SET t.nPark = label.isPark,
-            SET t.nHome = label.isHome,
-            SET t.nSchool = label.isSchool,
-            SET t.nDaycare = label.isDaycare,
-            SET t.nNeighborhood = label.isNeighborhood,
-            SET t.nOutdoor = label.isOutdoor,
-            SET t.nIndoor = label.isIndoor,
-            SET t.nPhysical = label.isPhysical,
-            SET t.nEmotionalSocial = label.isEmotionalSocial,
-            SET t.nCognitive = label.isCognitive,
-            SET t.nPositive = label.isPositive,
-            SET t.nNegative = label.isNegative
-            SET t.nUsers = label.tweetId",
+        "MERGE (c:Community {id:label.community})
+            SET c.nPosted = label.nPosted
+            SET c.nChild = label.isChild
+            SET c.nBaby = label.isBaby
+            SET c.nToddler = label.isToddler
+            SET c.nElem = label.isElem
+            SET c.nMiddle = label.isMiddle
+            SET c.nHigh = label.isHigh
+            SET c.nPark = label.isPark
+            SET c.nHome = label.isHome
+            SET c.nSchool = label.isSchool
+            SET c.nDaycare = label.isDaycare
+            SET c.nNeighborhood = label.isNeighborhood
+            SET c.nOutdoor = label.isOutdoor
+            SET c.nIndoor = label.isIndoor
+            SET c.nPhysical = label.isPhysical
+            SET c.nEmotionalSocial = label.isEmotionalSocial
+            SET c.nCognitive = label.isCognitive
+            SET c.nPositive = label.isPositive
+            SET c.nNegative = label.isNegative
+            SET c.nUsers = label.tweetId",
         {batchSize:500,iterateList:True,parallel:true,params:{labels:$labels}})
         """
         return code
@@ -52,8 +52,8 @@ class CommunityDAO:
     def setCommUserRelationships(self):
         code = """
         CALL apoc.periodic.iterate('UNWIND $labels as label RETURN label',
-        "MATCH (c:Community {id:label.comm_id})
-        MATCH (t:TwitterUser {id:label.user_id})
+        "MATCH (c:Community {id:label.community})
+        MATCH (t:TwitterUser {id:label.tweetId})
         WITH t,c
         MERGE (t)-[:BELONGS_TO]->(c)",
         {batchSize:500,iterateList:True,parallel:true,params:{labels:$labels}})
@@ -80,14 +80,13 @@ class CommunityDAO:
             print(records)
         return(result)
     
-    # insert Comm nodes and relationship
+    # insert Comm nodes 
     # INPUTS:
     #    commBatch (pandas df) - comm id and associated properties.  One row for each comm
     # OUTPUTS:
     #    results (str arrays) - results of the transactions performed to create the new tweet node and corresponding relationships
     def insertComm(self,commBatch):
         jsonData = list(commBatch.apply(lambda x: x.to_dict(), axis=1))
-        print(jsonData[0])
         with self.driver.session() as session:
             try:
                 result = session.write_transaction(self.insertCommBatch,jsonData)    
@@ -96,10 +95,39 @@ class CommunityDAO:
             except Exception as e:
                 return e
             
-
-    def setCommRelationships(self,commBatch):
-        return 1
+    # insert batch of Community nodes. Relationships between communities and other nodes are created
+    # in different functions
+    # INPUTS:
+    #    tx (transaction) - open connection to Neo4j database
+    #    commBatch (json array) - set of communities, each comm as an independent json object
+    # OUTPUTS:
+    #    result (str) - transaction result
+    def insertCommRelationshipBatch(self,tx,commRelBatch):
+        cypher = self.setCommUserRelationships()
+        try:
+            result = tx.run(cypher,labels=commRelBatch)
+        except Exception as e:
+            print(str(e))
+        if(self.debug):
+            print("this is the result of comm relationship batch insertion")
+            print(cypher)
+            records = [record for record in result]
+            print(records)
+        return(result)
     
-
+    # insert Comm relationships
+    # INPUTS:
+    #    commBatch (pandas df) - comm id and associated properties.  One row for each comm
+    # OUTPUTS:
+    #    results (str arrays) - results of the transactions performed to create the new tweet node and corresponding relationships
+    def insertCommRelationships(self,commRelBatch):
+        jsonData = list(commRelBatch.apply(lambda x: x.to_dict(), axis=1))
+        with self.driver.session() as session:
+            try:
+                result = session.write_transaction(self.insertCommRelationshipBatch,jsonData)    
+                print("completedBatch")
+                return result
+            except Exception as e:
+                return e
     
 
