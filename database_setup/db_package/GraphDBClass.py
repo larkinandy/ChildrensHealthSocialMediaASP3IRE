@@ -224,4 +224,17 @@ class GraphDAO:
         except Exception as e:
             return e
 
+    # given a set of communities in pandas format ingest tweets into Neo4j database
+    # INPUTS:
+    #    commBatch (pandas DF) - communities and associated properties, one comm for each row
+    # OUTPUTS:
+    #    result code or error if tweets cannot be processed
+    def insertCommRelationships(self,commRelBatch):
+        try:
+            result = self.commDriver.insertCommRelationships(commRelBatch)
+            return result
+        except Exception as e:
+            return e
+
+
 # end of GraphDBClass.py

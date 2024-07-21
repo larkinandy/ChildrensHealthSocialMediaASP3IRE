@@ -719,6 +719,14 @@ class TweetIngest:
     def insertCommunities(self,commData):
         self.graphDBAPI.insertComm(commData)
         return 0
+    
+    # insert Community nodes with associated properties.  Does not add relationships between nodes
+    # INPUTS:
+    #    commData (pandas df) - 
+    def insertCommRelationships(self,commRelData):
+        self.graphDBAPI.insertCommRelationships(commRelData)
+        return 0
+
 
         
 ### End of TweetIngestClass.py

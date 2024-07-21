@@ -56,7 +56,7 @@ class CommunityDAO:
         MATCH (t:TwitterUser {id:label.tweetId})
         WITH t,c
         MERGE (t)-[:BELONGS_TO]->(c)",
-        {batchSize:500,iterateList:True,parallel:true,params:{labels:$labels}})
+        {batchSize:500,iterateList:True,parallel:false,params:{labels:$labels}})
         """
         return code
     
