@@ -212,7 +212,7 @@ class GraphDAO:
         return(convId)
     
 
-    # given a set of communities in pandas format ingest tweets into Neo4j database
+    # given a set of communities in pandas format create community nodes into Neo4j database
     # INPUTS:
     #    commBatch (pandas DF) - communities and associated properties, one comm for each row
     # OUTPUTS:
@@ -224,9 +224,9 @@ class GraphDAO:
         except Exception as e:
             return e
 
-    # given a set of communities in pandas format ingest tweets into Neo4j database
+    # given a set of communitity:user id parks in pandas, create relationships between communities and user nodes
     # INPUTS:
-    #    commBatch (pandas DF) - communities and associated properties, one comm for each row
+    #    commRelBatch (pandas DF) - communities and user ids
     # OUTPUTS:
     #    result code or error if tweets cannot be processed
     def insertCommRelationships(self,commRelBatch):

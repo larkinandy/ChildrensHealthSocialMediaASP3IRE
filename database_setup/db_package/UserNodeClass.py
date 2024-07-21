@@ -403,3 +403,5 @@ class UserDAO:
                 return result
             except Exception as e:
                 return e
+            
+# end of UserNodeClass.py

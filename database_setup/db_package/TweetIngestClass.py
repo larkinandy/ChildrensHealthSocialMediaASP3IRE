@@ -294,8 +294,6 @@ class TweetIngest:
     def copyImagesToNewMetaFolder(self,metaFolder):
         self.tweetImgProcesser.copyImagesFromMetaFolder(metaFolder)
 
-    
-
     # get place nodes that are missing essential information (e.g. name, bounding box)
     # OUTPUTS:
     #    orphanids (str array) - list of place ids missing information
