@@ -52,11 +52,11 @@ class CommunityDAO:
     def setCommUserRelationships(self):
         code = """
         CALL apoc.periodic.iterate('UNWIND $labels as label RETURN label',
-        "MATCH (c:Community {id:label.community})
-        MATCH (t:TwitterUser {id:label.tweetId})
+        "MATCH (t:TwitterUser {id:label.tweetId})
+        MERGE (c:Community {id:label.community})
         WITH t,c
         MERGE (t)-[:BELONGS_TO]->(c)",
-        {batchSize:500,iterateList:True,parallel:false,params:{labels:$labels}})
+        {batchSize:5000,iterateList:True,parallel:false,params:{labels:$labels}})
         """
         return code
     
@@ -129,5 +129,6 @@ class CommunityDAO:
                 return result
             except Exception as e:
                 return e
+                
     
 

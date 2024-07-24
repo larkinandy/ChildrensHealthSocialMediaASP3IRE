@@ -114,9 +114,9 @@ class GraphDAO:
     #    mentionWeights (pandasDF) - ids for the two nodes and the weight for the connecting MENTION relationship
     # OUTPUTS:
     #    result code or error if tweets cannot be processed
-    def processMentionChildWeight(self,tweetBatch):
+    def processMentionLabelWeights(self,tweetBatch):
         try:
-            result = self.userDriver.processMentionChildWeight(tweetBatch)
+            result = self.userDriver.processMentionLabelWeights(tweetBatch)
             return result
         except Exception as e:
             return e

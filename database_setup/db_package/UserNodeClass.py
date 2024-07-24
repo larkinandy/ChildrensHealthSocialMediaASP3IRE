@@ -101,7 +101,7 @@ class UserDAO:
         t.nDaycare = label.isDaycare,
         t.nOutdoor = label.isOutdoor,
         t.nIndoor = label.isIndoor",
-        {batchSize:50000,iterateList:True,false:true,params:{labels:$labels}})
+        {batchSize:50000,iterateList:True,parallel:true,params:{labels:$labels}})
         """
         return code
 
@@ -120,7 +120,7 @@ class UserDAO:
         t.nMiddle = label.isMiddle,
         t.nHigh = label.ishHigh,
         t.nPosted = label.nPosted",
-        {batchSize:50000,iterateList:True,false:true,params:{labels:$labels}})
+        {batchSize:50000,iterateList:True,parallel:true,params:{labels:$labels}})
         """
         return code
     
@@ -137,7 +137,7 @@ class UserDAO:
         t.nPhysical = label.isPhysical,
         t.nPositive = label.isPositive,
         t.nNegative = label.isNegative",
-        {batchSize:50000,iterateList:True,false:true,params:{labels:$labels}})
+        {batchSize:50000,iterateList:True,parallel:true,params:{labels:$labels}})
         """
         return code
     
@@ -151,7 +151,7 @@ class UserDAO:
         "MATCH (t:TwitterUser {id:label.tweetId})
         SET t.nMentions = label.nMentions,
         t.nMentioned = label.nMentioned",
-        {batchSize:50000,iterateList:True,false:true,params:{labels:$labels}})
+        {batchSize:10000,iterateList:True,parallel:true,params:{labels:$labels}})
         """
         return code
     
@@ -164,7 +164,7 @@ class UserDAO:
         CALL apoc.periodic.iterate('UNWIND $labels as label RETURN label',
         "MATCH (a:TwitterUser {id:label.aTweetId})-[m:MENTIONED]->(b:TwitterUser {id:label.bTweetId})
         SET m.n=label.n",
-        {batchSize:50000,iterateList:True,false:true,params:{labels:$labels}})
+        {batchSize:50000,iterateList:True,parallel:false,params:{labels:$labels}})
         """
         return code
 
@@ -172,12 +172,27 @@ class UserDAO:
     # runs in batch mode
     # OUTPUTS:
     #     code (str) - code block used as part of a transaction for setting a relationship property
-    def setMentionsWeightChildApoc(self):
+    def setMentionsWeightLabelsApoc(self):
         code = """
         CALL apoc.periodic.iterate('UNWIND $labels as label RETURN label',
         "MATCH (a:TwitterUser {id:label.aTweetId})-[m:MENTIONED]->(b:TwitterUser {id:label.bTweetId})
-        SET m.nChild=label.n",
-        {batchSize:50000,iterateList:True,false:true,params:{labels:$labels}})
+        SET m.nChild=label.isChild,
+        m.nBaby=label.isBaby,
+        m.nToddler=label.isToddler,
+        m.nElem=label.isElem,
+        m.nMiddle=label.isMiddle,
+        m.nHigh=label.isHigh,
+        m.nPark=label.isPark,
+        m.nHome=label.isHome,
+        m.nSchool=label.isSchool,
+        m.nDaycare=label.isDaycare,
+        m.nNeighborhood=label.isNeighborhood,
+        m.nPhysical=label.isPhysical,
+        m.nEmotionalSocial = label.isEmotionalSocial,
+        m.nCognitive=label.isCognitive,
+        m.nPositive=label.isPositive,
+        m.nNegative=label.isNegative",
+        {batchSize:50000,iterateList:True,parallel:false,params:{labels:$labels}})
         """
         return code
 
@@ -307,8 +322,8 @@ class UserDAO:
     #    matchData (json array) - data needed to find relationships in database and set weights
     # OUTPUTS:
     #    result (str) - transaction result
-    def setMentionWeightChildBatch(self,tx,tweetBatch):
-        cypher = self.setMentionsWeightChildApoc()
+    def setMentionWeightLabelsBatch(self,tx,tweetBatch):
+        cypher = self.setMentionsWeightLabelsApoc()
         try:
             result = tx.run(cypher,labels=tweetBatch)
         except Exception as e:
@@ -378,11 +393,11 @@ class UserDAO:
     #    mentionWeights (pandas df) - twitterAuthor ids and mention weights
     # OUTPUTS:
     #    results (str arrays) - results of the transactions performed to create the new tweet node and corresponding relationships
-    def processMentionChildWeight(self,mentionWeights):
+    def processMentionLabelWeights(self,mentionWeights):
         jsonData = list(mentionWeights.apply(lambda x: x.to_dict(), axis=1))
         with self.driver.session() as session:
             try:
-                result = session.write_transaction(self.setMentionWeightChildBatch,jsonData)    
+                result = session.write_transaction(self.setMentionWeightLabelsBatch,jsonData)    
                 print("completedBatch")
                 return result
             except Exception as e:

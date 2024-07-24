@@ -272,8 +272,8 @@ class TweetIngest:
     def processMentionWeights(self,mentionWeights):
         self.graphDBAPI.processMentionWeights(mentionWeights);
     
-    def processMentionChildWeight(self,mentionWeights):
-        self.graphDBAPI.processMentionChildWeight(mentionWeights);
+    def processMentionLabelWeights(self,mentionWeights):
+        self.graphDBAPI.processMentionLabelWeights(mentionWeights);
     
     def processMentions(self,mentionWeights):
         self.graphDBAPI.processMentions(mentionWeights);
