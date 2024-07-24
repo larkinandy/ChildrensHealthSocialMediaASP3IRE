@@ -192,7 +192,7 @@ class UserDAO:
         m.nCognitive=label.isCognitive,
         m.nPositive=label.isPositive,
         m.nNegative=label.isNegative",
-        {batchSize:50000,iterateList:True,parallel:false,params:{labels:$labels}})
+        {batchSize:50000,iterateList:True,parallel:true,params:{labels:$labels}})
         """
         return code
 
