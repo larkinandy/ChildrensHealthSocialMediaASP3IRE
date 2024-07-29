@@ -6,8 +6,11 @@
 import pandas as ps
 import numpy as np
 from numpy.linalg import norm
-import networkx as nx
-import nx_cugraph as nxcg
+try:
+    import networkx as nx
+    import nx_cugraph as nxcg
+except Exception as e:
+    print("warning: networkx packages not found.  Network class won't function properly")
 
 class Network:
 
