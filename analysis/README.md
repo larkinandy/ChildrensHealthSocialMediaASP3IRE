@@ -1,4 +1,4 @@
-<img src="https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/blob/main/images/analysis/Network.png" width="500">
+<img src="https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/blob/main/images/analysis/Network.png">
 
 ### analysis
 python scripts and custom classes for analyzing social media records.  Analyses include identifying communities within networks, topic modeling, and (mis)information propagation
