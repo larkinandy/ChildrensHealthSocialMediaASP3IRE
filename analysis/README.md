@@ -13,4 +13,4 @@ Files are contained within a single folder.  Functions are partitioned into clas
 - **Neo4j** - https://neo4j.com/
 - **NetworkX** - https://networkx.org/
 - **cuGraph** - https://github.com/rapidsai/cugraph
-- **TODO:** add link to topic modeling 
+- **TODO:** add link to topic modeling
