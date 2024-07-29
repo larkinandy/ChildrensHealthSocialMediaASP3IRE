@@ -4,7 +4,6 @@ Contains custom classes for interacting with the Neo4j social media database. Ex
 **Repository Structure** <br>
 Each python script contains a single class responsible for a specific subset of database tasks or interacting with a specific category of node.
 
-- **[AnalysisClass](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/master/database_setup/db_package/AnalysisClass.py)** - perform common database queries, such as calculating the number of tweets that contain a keyword <br>
 - **[ConversationNodeClass](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/master/database_setup/db_package/ConversationNodeClass.py)** Perform operations on conversation nodes . <br>
 - **[GeoNodeClass](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/master/database_setup/db_package/GeoNodeClass.py)** - Perform operations on nodes used to store OpenStreetMap, US Census, and American Community Survey information  <br>
 - **[GraphDBClass](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/master/database_setup/db_package/GraphDBClass.py)** A parent class with high level functions used to interact with lower level functions in other classes. <br>

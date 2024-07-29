@@ -72,6 +72,7 @@ class Network:
 
         # convert networkx graph to a cugraph
         self.G = nxcg_G = nxcg.from_networkx(G)
+        self.bG = G
         print("graph G has %i edges" %(edgesWithWeights.count().iloc[0]))
 
     # convert list of user ids for each community to a DF
