@@ -145,6 +145,8 @@ class Topic:
             chunk.dropna(inplace=True)
             topicArr.append(self.getPostTopicsBatch(chunk))
             index+=1
+
+            # if debugging, save intermediate records every 10 batches
             if self.debug:
                 print(index)
                 if(index%10==0):
