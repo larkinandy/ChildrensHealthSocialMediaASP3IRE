@@ -9,6 +9,7 @@ Files are contained within a single folder.  Functions are partitioned into clas
 - **[AnalysisClass](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/master/analysis/AnalysisClass.py)** - perform common database queries, such as calculating the number of tweets that contain a keyword <br>
 - **[NetworkClass](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/master/analysis/NetworkClass.py)** - identify communities and calculate social network metrics <br>
 - **[TopicClass](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/master/analysis/TopicClass.py)** - using Top2Vec, identify topics discussed in social media posts <br>
+- **[topics_words.npy](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/master/analysis/topics_words.npy)** - set of 50 words that collectively uniquely identify each topic vector <br>
 
 **External Links**
 - **Neo4j** - https://neo4j.com/
