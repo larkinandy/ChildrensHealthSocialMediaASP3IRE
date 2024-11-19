@@ -15,4 +15,3 @@ Files are contained within a single folder.  Functions are partitioned into clas
 - **NetworkX** - https://networkx.org/
 - **cuGraph** - https://github.com/rapidsai/cugraph
 - **Top2Vec** - https://github.com/ddangelov/Top2Vec
-- **TODO:** add link to topic modeling
