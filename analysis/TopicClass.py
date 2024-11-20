@@ -127,6 +127,21 @@ class Topic:
             'score':topic_score
         })
         return(postTopics)
+    
+    def getPostVectorsBatch(self,posts):
+        nPosts = posts.count().iloc[0]
+        if(self.model==None):
+            print("cannot get topics for posts: no topic model has been loaded into memory")
+            return(None)
+        
+        # remove old documents except for 1. 1 doc is needed for top2vec models to retain the variable .document_ids
+        docIds = self.model.document_ids
+        self.model.delete_documents(docIds[1:])
+
+        # add new documents of interest
+        self.model.add_documents(list(posts['t.orig_text']))
+
+        return(self.model.document_vectors[1:])
 
     # given all social media posts, identify the primary topic for each post and save to csv
     # INPUTS:
@@ -156,5 +171,11 @@ class Topic:
         # convert topic array to pandas dataframe and then save to csv
         df = ps.concat(topicArr)
         df.to_csv(outputFile,index=False)
+
+    def getAuthorVector(self):
+        authorPosts = []
+        postVectors = self.getPostVectors(authorPosts)
+        authorVector = np.average(postVectors,axis=0)
+        return(authorVector)
 
 # end of TopicClass.py
