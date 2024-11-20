@@ -12,6 +12,7 @@ Files are contained within a single folder.  Functions are partitioned into clas
 - **[topics_words.npy](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/master/analysis/topics_words.npy)** - set of 50 words that collectively uniquely identify each topic vector <br>
 
 **External Links**
+- **Topic model reduced to 5000 topics** - https://drive.google.com/file/d/1vGHkTLB5RAy9FOqDy2qogbnO88_KcdZG/view?usp=drive_link
 - **Neo4j** - https://neo4j.com/
 - **NetworkX** - https://networkx.org/
 - **cuGraph** - https://github.com/rapidsai/cugraph
