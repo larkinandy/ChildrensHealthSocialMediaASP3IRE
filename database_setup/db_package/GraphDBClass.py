@@ -236,5 +236,11 @@ class GraphDAO:
         except Exception as e:
             return e
 
+    def getTweetsForUsers(self,userId):
+        try:
+            result = self.tweetDriver.getTweetsByUser(userId)
+            return result
+        except Exception as e:
+            return e
 
 # end of GraphDBClass.py

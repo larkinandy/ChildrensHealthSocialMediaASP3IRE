@@ -5,7 +5,7 @@
 
 
 # import libraries
-from top2vec import Top2Vec
+from top2vec import Top2Vec as Top2Vec
 import pandas as ps
 import numpy as np
 try:
@@ -48,7 +48,7 @@ class Topic:
             'cluster_selection_method': 'eom'
         }
 
-        if self.debug():
+        if self.debug==True:
             print("top2vec computational device: %s " %(torch.cuda.get_device_name(0)))
     
     # create a topic model from a set of social media posts
@@ -128,8 +128,7 @@ class Topic:
         })
         return(postTopics)
     
-    def getPostVectorsBatch(self,posts):
-        nPosts = posts.count().iloc[0]
+    def getPostVectors(self,posts):
         if(self.model==None):
             print("cannot get topics for posts: no topic model has been loaded into memory")
             return(None)
@@ -139,7 +138,7 @@ class Topic:
         self.model.delete_documents(docIds[1:])
 
         # add new documents of interest
-        self.model.add_documents(list(posts['t.orig_text']))
+        self.model.add_documents(posts)
 
         return(self.model.document_vectors[1:])
 
@@ -172,8 +171,7 @@ class Topic:
         df = ps.concat(topicArr)
         df.to_csv(outputFile,index=False)
 
-    def getAuthorVector(self):
-        authorPosts = []
+    def getAuthorVector(self,authorPosts):
         postVectors = self.getPostVectors(authorPosts)
         authorVector = np.average(postVectors,axis=0)
         return(authorVector)

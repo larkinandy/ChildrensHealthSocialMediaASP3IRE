@@ -31,7 +31,6 @@ class TweetDAO:
         """
         return code
 
-
     # code for creating placce nodes and relationships between places and tweets 
     # runs in batch mode, i.e. performing many updates per commit
     # OUTPUTS:
@@ -553,6 +552,24 @@ class TweetDAO:
 
         with self.driver.session() as session:
             result = session.read_transaction(inLineFxn,kw)
+            return result
+        
+
+    def getTweetsByUser(self,tweetId):
+        def inLineFx(tx,tweetId):
+            query = """
+                MATCH (u:TwitterUser{username:'""" + str(tweetId) + """'})-[p:POSTED]->(t:Tweet)
+                RETURN t.orig_text
+            """
+            print(tweetId)
+            result=tx.run(query,tweetId=tweetId)
+            print(result)
+            tweets = [row.values()[0] for row in result]
+            print(tweets)
+            return(tweets)
+
+        with self.driver.session() as session:
+            result = session.read_transaction(inLineFx,tweetId)
             return result
 
 # end of TweetNodeClass.py

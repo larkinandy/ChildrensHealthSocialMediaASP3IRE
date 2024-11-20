@@ -7,6 +7,7 @@
 from TweetImageClass import TweetImage
 from GraphDBClass import GraphDAO
 from NetworkClass import Network
+from TopicClass import Topic
 import pandas as ps
 
 
@@ -16,7 +17,7 @@ class Analyzer:
     # INPUTS: 
     #     storageFolder (str) - locations for flat file storage (images, metadata, etc)
     #     db_dict (dict) - credentials for connecting to neo4j db
-    def __init__(self, storageFolder,networkFolder,dbDict):
+    def __init__(self, storageFolder,networkFolder,topicFolder,dbDict):
         
         # setup paths for storing intermediary files.  Needed for building database, not 
         # needed during database analysis
@@ -24,6 +25,7 @@ class Analyzer:
         self.tweetImgProcesser = TweetImage(storageFolder + "ImageStore/")
         self.kwDict = self.loadKeywords(storageFolder + "keyword_csvs/")
         self.networkProcessor = Network()
+        self.topicModeler = Topic(topicFolder,modelType ='5000',loadWordKeys=True,debug=False)
 
         # setup connection to Neo4j database.  This is needed for both database development
         # and analysis
