@@ -99,6 +99,97 @@ class SQL_DB:
         except Exception as e:
             print(str(e))
 
+    # retrive tweets a given worker coded during a given time interval
+    # INPUTS:
+    #    userId (str) - unique user id
+    #    startDay (int) - day of the month for start of time range (inclusive)
+    #    endDay (int) - day of the month for end of time range (inclusive)
+    #    startMonth (int) - month of the year for start of time range (inclusive)
+    #    endMonth (int) - month of the year for end of time range (inclusive)
+    #    year (int) - year for time range (time range cannot overlap multiple years)
+    #    tableName (str) - name of the table to retreive records from
+    # OUTPUTS:
+    #    df (pandas dataframe) - contains tweets coded by worker betweeen startdate and enddate
+    def getTweetsOneUser(self,userId,startDay,startMonth,endDay,endMonth,year,tableName):
+        startStamp = str(year) + "-" + str(startMonth) + "-" + str(startDay)
+        endStamp = str(year) + "-" + str(endMonth) + "-" + str(endDay)
+        try:
+            query="""SELECT *from """ + tableName + """ where user_id = '""" + str(userId) + """' and """
+            query2 = """time_submitted >= '""" + startStamp + """' and """
+            query3 = """time_submitted <= '""" + endStamp + """'"""
+            df = psql.read_sql(query+query2+query3,self.conn)
+            return df
+
+        except Exception as e:
+            print(str(e))
+
+    # retreive all users who labeled tweets for a category (place, child, health)
+    # within a given time interval
+    # INPUTS:
+    #    startDay (int) - day of the month for start of time range (inclusive)
+    #    endDay (int) - day of the month for end of time range (inclusive)
+    #    startMonth (int) - month of the year for start of time range (inclusive)
+    #    endMonth (int) - month of the year for end of time range (inclusive)
+    #    year (int) - year for time range (time range cannot overlap multiple years)
+    #    tableName (str) - name of the table to retreive records from
+    # OUTPUTS:
+    #    records (str array) - list of user names who coded tweets for the given catergory
+    def getUserIdsInTime(self,startDay,startMonth,endDay,endMonth,year,tableName):
+        startStamp = str(year) + "-" + str(startMonth) + "-" + str(startDay)
+        endStamp = str(year) + "-" + str(endMonth) + "-" + str(endDay)
+        query="""SELECT distinct(user_id) from """ + tableName + """ where """
+        query2 = """time_submitted >= '""" + startStamp + """' and """
+        query3 = """time_submitted <= '""" + endStamp + """' order by user_id"""
+        records = []
+        try:
+            with self.conn.cursor() as cur:
+                cur.execute(query+query2+query3)
+                for row in cur.fetchall():
+                    records.append(row[0])
+                return(records)
+        except Exception as e:
+            print(str(e))
+
+    # get the number of tweets each user labeled for a specific category (place, child, health) during a 
+    # specific time interval
+    # INPUTS:
+    #    startDay (int) - day of the month for start of time range (inclusive)
+    #    endDay (int) - day of the month for end of time range (inclusive)
+    #    startMonth (int) - month of the year for start of time range (inclusive)
+    #    endMonth (int) - month of the year for end of time range (inclusive)
+    #    year (int) - year for time range (time range cannot overlap multiple years)
+    #    tableName (str) - name of the table to retreive records from
+    # OUTPUTS:
+    #    number of tweets for each user in a pandas dataframe
+    def getUserTweetsInTime(self,startDay,startMonth,endDay,endMonth,year,tableName):
+        startStamp = str(year) + "-" + str(startMonth) + "-" + str(startDay)
+        endStamp = str(year) + "-" + str(endMonth) + "-" + str(endDay)
+        try:
+            query="""SELECT count(user_id) as n_tweets,user_id from (select * from """ + tableName + """ where """
+            query2 = """time_submitted >= '""" + startStamp + """' and """
+            query3 = """time_submitted <= '""" + endStamp + """'"""
+            query4 = """) as a group by user_id order by user_id"""
+            df = psql.read_sql(query+query2+query3+query4,self.conn)
+            return(df)
+        except Exception as e:
+            print(str(e))
+
+    # select 10 random labeled tweets from one worker
+    # INPUTS:
+    #    userId (str) - unique worker id
+    #    tableName (str)- table containing labeled tweets
+    # OUTPUTS:
+    #    dataframe containing 10 randomly selected tweets and accompanying labels
+    def selectRandomForUser(self,userId,tableName):
+        query="""SELECT user_id,img_id,location_cat,location,is_child,age,"""
+        query2 = """is_health, health_impact, health_type from """ + tableName + """  where user_id = '"""
+        query3 = userId + """' ORDER BY random() limit 10;"""
+        try:
+            df = psql.read_sql(query+query2+query3,self.conn)
+            return(df)
+        except Exception as e:
+            print(str(e))
+
     def origTwitterRecords(self):
         query="""SELECT * from twitter_records; """
         df = psql.read_sql(query,self.conn)
