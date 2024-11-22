@@ -14,6 +14,7 @@ Repository consists of python files with code for performing analyses, and anlys
 - **[Child_Model_Performance](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/master/analysis)** - Training and validation performance for candidate model architectures predicting children present and age groups. <br>
 - **[Health_Model_Performance](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/master/website)** - Training and validation performance for candidate model architecxtures predicting physical, mental, and cognitive health symptoms and outcomes. <br>
 - **[filterTrainingRecords.py](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/blob/main/deep_learning/create_training_dataset/analysis/filterTrainingRecords.py)** - Query records from SQL database, clean records, and store in csv
+- **[calcWeeklyPerformance.py](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/blob/main/deep_learning/create_training_dataset/analysis/calcWeeklyPerformance.py)** - Calculate performance of workers for a given time period. Performance metrics include productivity and accuracy. 
 
 TODO:
 - add Place model performance excel file
