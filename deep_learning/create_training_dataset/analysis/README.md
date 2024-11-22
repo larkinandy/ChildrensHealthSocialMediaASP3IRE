@@ -14,7 +14,4 @@ Repository consists of python files with code for performing analyses, and anlys
 - **[calcWeeklyPerformance.py](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/blob/main/deep_learning/create_training_dataset/analysis/calcWeeklyPerformance.py)** - Calculate performance of workers for a given time period. Performance metrics include productivity and accuracy. 
 
 TODO:
-- add Place model performance excel file
-- add Child model performance excel file
-- add health model performance excel file
 - add summary figure/graph/table
