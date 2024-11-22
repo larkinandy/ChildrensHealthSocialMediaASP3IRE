@@ -18,11 +18,97 @@ CREATE TABLE tweet_index (
 	PRIMARY KEY (counter_for)
 );
 
-CREATE TABLE twitter_records (
-	index SERIAL PRIMARY KEY,
-	tweet_id VARCHAR(100) NOT NULL,
-	text VARCHAR(1000) NOT NULL,
-	img_http VARCHAR(10) NOT NULL,
+CREATE TABLE tweet_index (
+	cur_index INTEGER,
+	counter_for INTEGER,
+	PRIMARY KEY (counter_for)
 );
 
+CREATE TABLE sample_indexes (
+	cur_index INTEGER,
+	counter_for INTEGER,
+	PRIMARY KEY (counter_for)
+);
+
+CREATE TABLE twitter_records (
+	img_id VARCHAR(100) PRIMARY KEY,
+	text VARCHAR(1000) NOT NULL,
+	img_http VARCHAR(100) NOT NULL,
+	keyword VARCHAR(100) NOT NULL,
+	category VARCHAR(100) NOT NULL,
+);
+
+CREATE TABLE place_tweets (
+	img_id VARCHAR(100) PRIMARY KEY,
+	text VARCHAR(1000) NOT NULL,
+	img_http VARCHAR(100) NOT NULL,
+	keyword VARCHAR(100) NOT NULL,
+	category VARCHAR(100) NOT NULL,
+);
+
+CREATE TABLE place_tweets2 (
+	img_id VARCHAR(100) PRIMARY KEY,
+	text VARCHAR(1000) NOT NULL,
+	img_http VARCHAR(100) NOT NULL,
+	keyword VARCHAR(100) NOT NULL,
+	category VARCHAR(100) NOT NULL,
+);
+
+CREATE TABLE place_tweets3 (
+	img_id VARCHAR(100) PRIMARY KEY,
+	text VARCHAR(1000) NOT NULL,
+	img_http VARCHAR(100) NOT NULL,
+	keyword VARCHAR(100) NOT NULL,
+	category VARCHAR(100) NOT NULL,
+);
+
+CREATE TABLE child_tweets (
+	img_id VARCHAR(100) PRIMARY KEY,
+	text VARCHAR(1000) NOT NULL,
+	img_http VARCHAR(100) NOT NULL,
+	keyword VARCHAR(100) NOT NULL,
+	category VARCHAR(100) NOT NULL,
+);
+
+CREATE TABLE child_tweets2 (
+	img_id VARCHAR(100) PRIMARY KEY,
+	text VARCHAR(1000) NOT NULL,
+	img_http VARCHAR(100) NOT NULL,
+	keyword VARCHAR(100) NOT NULL,
+	category VARCHAR(100) NOT NULL,
+);
+
+CREATE TABLE child_tweets3 (
+	img_id VARCHAR(100) PRIMARY KEY,
+	text VARCHAR(1000) NOT NULL,
+	img_http VARCHAR(100) NOT NULL,
+	keyword VARCHAR(100) NOT NULL,
+	category VARCHAR(100) NOT NULL,
+);
+
+CREATE TABLE qa_sample (
+	img_id VARCHAR(100) NOT NULL,
+	text VARCHAR(1000) NOT NULL,
+	img_http VARCHAR(10) NOT NULL,
+	location text[],
+	is_child BOOLEAN,
+	user_id VARCHAR(100) NOT NULL,
+	age text[],
+	is_health BOOLEAN,
+	health_impact text[],
+	health_type text[],
+	location_cat text[],
+	time_submitted timestamp NOT NULL,
+	qa_type VARCHAR(10) NOT NULL,
+	sample_month VARCHAR(10) NOT NULL,
+	PRIMARY KEY (img_id,user_id,sample_month)
+);
+
+CREATE TABLE participants (
+	user_id VARCHAR(100) PRIMARY KEY,
+	status VARCHAR(25) NOT NULL,
+);
+
+
 INSERT INTO tweet_index (cur_index, counter_for) VALUES(0,0);
+INSERT INTO sample_indexes (cur_index, counter_for) VALUES(0,0);
