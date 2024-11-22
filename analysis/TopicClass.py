@@ -5,9 +5,10 @@
 
 
 # import libraries
-from top2vec import Top2Vec
+from top2vec import Top2Vec as Top2Vec
 import pandas as ps
 import numpy as np
+import time
 try:
     import torch
 except Exception as e:
@@ -48,7 +49,7 @@ class Topic:
             'cluster_selection_method': 'eom'
         }
 
-        if self.debug():
+        if self.debug==True:
             print("top2vec computational device: %s " %(torch.cuda.get_device_name(0)))
     
     # create a topic model from a set of social media posts
@@ -128,19 +129,23 @@ class Topic:
         })
         return(postTopics)
     
-    def getPostVectorsBatch(self,posts):
-        nPosts = posts.count().iloc[0]
+    def getPostVectors(self,posts):
         if(self.model==None):
             print("cannot get topics for posts: no topic model has been loaded into memory")
             return(None)
         
         # remove old documents except for 1. 1 doc is needed for top2vec models to retain the variable .document_ids
         docIds = self.model.document_ids
-        self.model.delete_documents(docIds[1:])
-
+        try:
+            self.model.delete_documents(docIds[1:])
+            self.model.document_vectors = self.model.document_vectors[0]
+        except:
+            docIds = self.model.document_ids
+            self.model.delete_documents(docIds[1:])
+            self.model.document_vecctors = self.model.document_vectors[0]
+        
         # add new documents of interest
-        self.model.add_documents(list(posts['t.orig_text']))
-
+        self.model.add_documents(posts)
         return(self.model.document_vectors[1:])
 
     # given all social media posts, identify the primary topic for each post and save to csv
@@ -172,8 +177,7 @@ class Topic:
         df = ps.concat(topicArr)
         df.to_csv(outputFile,index=False)
 
-    def getAuthorVector(self):
-        authorPosts = []
+    def getAuthorVector(self,authorPosts):
         postVectors = self.getPostVectors(authorPosts)
         authorVector = np.average(postVectors,axis=0)
         return(authorVector)
