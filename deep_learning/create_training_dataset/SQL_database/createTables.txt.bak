@@ -18,12 +18,6 @@ CREATE TABLE tweet_index (
 	PRIMARY KEY (counter_for)
 );
 
-CREATE TABLE tweet_index (
-	cur_index INTEGER,
-	counter_for INTEGER,
-	PRIMARY KEY (counter_for)
-);
-
 CREATE TABLE sample_indexes (
 	cur_index INTEGER,
 	counter_for INTEGER,
@@ -108,7 +102,6 @@ CREATE TABLE participants (
 	user_id VARCHAR(100) PRIMARY KEY,
 	status VARCHAR(25) NOT NULL,
 );
-
 
 INSERT INTO tweet_index (cur_index, counter_for) VALUES(0,0);
 INSERT INTO sample_indexes (cur_index, counter_for) VALUES(0,0);
