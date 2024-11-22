@@ -19,7 +19,7 @@ Children's environmental health issues can arise quickly and/or within overlooke
 ![GitHub Logo](/images/1x/Overview.png)
 
 **Repository Structure** <br>
-Files are divided into five folders, with each folder corresponding to a unique stage of the research pipeline
+Files are divided into three folders, with each folder corresponding to a unique stage of the research pipeline
 
 - **[database setup](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/master/database_setup)** - ingest records from X (formerly Twitter) and GIS datasets into a Neo4j database. Additional operations include processing social media records (e.g. georeferencing records) <br>
 - **[deep learning](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/master/deep_learning)** - multimodal models for extracting information from X text and imagery <br>
