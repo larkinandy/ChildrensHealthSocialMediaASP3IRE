@@ -9,7 +9,7 @@ Analyses are stored in Excel files. Scripts used to perform statistical analyses
 **Repository Structure** <br>
 Analyses are divided into 4 Excel files.
 
-- **[Twitter_Labeling_QA_Analysis](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/master/deep_learning/create_training_dataset/analysis/Twitter_Labeling_QA_Analysis)** - QA performance for each worker that labeled tweets, stratified by deep learning model label.<br>
+- **[Twitter_Labeling_QA_Analysis](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/blob/main/deep_learning/create_training_dataset/analysis/Twitter_Labeling_QA_Analysis.xlsx)** - QA performance for each worker that labeled tweets, stratified by deep learning model label.<br>
 - **[Place_Model_Performance](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/master/deep_learning)** - Training and validation performance for canddiate model architectures predicting 'safe places'.<br>
 - **[Child_Model_Performance](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/master/analysis)** - Training and validation performance for candidate model architectures predicting children present and age groups. <br>
 - **[Health_Model_Performance](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/master/website)** - Training and validation performance for candidate model architecxtures predicting physical, mental, and cognitive health symptoms and outcomes. <br>
