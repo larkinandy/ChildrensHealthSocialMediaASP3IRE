@@ -1,7 +1,7 @@
 ![GitHub Logo](/Images/Matching.jpg )
 
 # Analysis
-Results from analyzing the performance of deep learning models and workers who labeled the training dataset
+QA results of workers who labeled the training dataset
 
 **Summary** <br>
 Analyses are stored in Excel files. Scripts used to perform statistical analyses are not included, as all derived metrics (e.g. accuracy, precision) are widely known.
