@@ -302,7 +302,7 @@ def nHealthLabels(healthDataset):
     return(sumArr)
 
 # main function
-def main():
+if __name__ == "__main__":
 
     # create an instance of the custom SQL driver
     SQL_Driver = SQL_DB(dbDict)
