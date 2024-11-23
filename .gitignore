@@ -3,3 +3,4 @@
 
 # ignore files containing filepath secrets
 database_setup/db_package/mySecrets.py
+deep_learning/create_training_dataset/tf_records/mySecrets.py

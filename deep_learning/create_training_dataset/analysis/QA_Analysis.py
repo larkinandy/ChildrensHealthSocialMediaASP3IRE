@@ -36,11 +36,11 @@ dbDict = {
 #    perc (float) - percent of tweets that were correctly coded for the label/classification combo
 #    (int) - number of tweets that were correctly coded for the label/classification combo
 def calcPercCorrect(QA_Set,label,category,isNeg=False):
-    locVals = list(QA_Set[questionType])
+    locVals = list(QA_Set[category])
     perc = 0.0
     nLocs = 0.0
     for val in locVals:
-        if locType in val:
+        if label in val:
             nLocs+=1
         perc = nLocs/len(locVals)
         if(isNeg==True):
