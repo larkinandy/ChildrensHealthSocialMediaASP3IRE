@@ -1,14 +1,15 @@
-![GitHub Logo](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/blob/main/images/1x/TrainingDataExample.png)
+<img src="https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/blob/main/images/1x/TrainingDataExample.png" width=1000>
 
 # Create Training Dataset
 Strategically sample database for tweets to label and create a website and backend SQL database for labeling tweets.  Finally, perform QA analysis and screen records with low confidence of quality from training dataset.
 
 
 **Repository Structure** <br>
-This folder contains three subfolders and one word document. One folder contains scripts and datasets for strategically sampling tweets and analyzing labeled records.  The second folder contains code for the frontend react JS website used to label tweets.  The third folder contains the backend server and SQL database for loading and storing training dataset records.
 
-- **[analysis](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/master/deep_learning/create_training_dataset/analysis)** - strategically sample tweets from Neo4j database related to children, safe places, and health.  Analyze labeled records and peform QA analyses.  <br>
-- **[labeled_datasets](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/main/deep_learning/create_training_dataset/labeled_datasets)** - Final training datasets. Includes codebook.
+- **[analysis](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/master/deep_learning/create_training_dataset/analysis)** - Analyze labeled records and peform QA analyses.  <br>
+- **[imageAugmentation](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/main/deep_learning/create_training_dataset/imageAugmentation)** - rotate and change color of training images. Clip faces out of images for age model 
+- **[labeled_datasets](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/main/deep_learning/create_training_dataset/labeled_datasets)** - coded tweets after QA filtering
+- **[tf_records](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/main/deep_learning/create_training_dataset/tf_records)** - create tf records for model training
 - **[website backend](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/master/deep_learning/create_training_dataset/website_backend)** - server for retreiving and storing training records from SQL database  <br>
 - **[website_frontend](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/master/deep_learning/create_training_dataset/website_frontend)** - react JS website for labeling social media records. <br>
 - **[SQL_database](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/main/deep_learning/create_training_dataset/SQL_database)** - scripts for creating, querying, and populating SQL datbabase
@@ -18,4 +19,6 @@ This folder contains three subfolders and one word document. One folder contains
 - **ReactJS** - https://react.dev/
 - **PostgreSQL** - https://www.postgresql.org/
 - **Heroku** - https://www.heroku.com/
-- **AmazonS3 bucket stroage** - https://aws.amazon.com/s3/
+- **AmazonS3 bucket storage** - https://aws.amazon.com/s3/
+- **TFRecords** - https://www.kaggle.com/code/ryanholbrook/tfrecords-basics
+- **Image Augmentation** - https://www.tensorflow.org/tutorials/images/data_augmentation
