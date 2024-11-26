@@ -17,4 +17,6 @@ Strategically sample database for tweets to label and create a website and backe
 - **ReactJS** - https://react.dev/
 - **PostgreSQL** - https://www.postgresql.org/
 - **Heroku** - https://www.heroku.com/
-- **AmazonS3 bucket stroage** - https://aws.amazon.com/s3/
+- **AmazonS3 bucket storage** - https://aws.amazon.com/s3/
+- **TFRecords** - https://www.kaggle.com/code/ryanholbrook/tfrecords-basics
+- **Image Augmentation** - https://www.tensorflow.org/tutorials/images/data_augmentation
