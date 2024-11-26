@@ -5,10 +5,10 @@ Scripts for collecting training datasets, training, and implementing multimodal 
 
 **Repository Structure** <br>
 Files are divided into five folders, with each folder corresponding to a unique stage of the research pipeline
-
+- **[analysis](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/main/deep_learning/analysis)** - predict outcomes of validation datasets and calculate performance metrics
 - **[create_training_dataset](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/master/deep_learning/create_training_dataset)** - sample tweets from db and label them for child age groups, places related to children's health (e.g. school, daycare), and health symptoms and outcomes <br>
 - **[train_models](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/master/deep_learning/train_models)** - train text, image, and multimodal models <br>
-- **[implement_models](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/master/deep_learning/implement_models)** - create predictions for the entire social media dataset (685 million tweets) <br>
+- **[implementation](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/master/deep_learning/implementation)** - create predictions for the entire social media dataset (685 million tweets) <br>
 
 **External Links**
 - **Tensorflow** - https://www.tensorflow.org/
