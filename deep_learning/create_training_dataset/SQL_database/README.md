@@ -1,5 +1,3 @@
-<img src="https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/blob/main/images/analysis/Network.png">
-
 ### SQL Database ### 
 CRUD operations for the SQL database storing coded social media posts
 
