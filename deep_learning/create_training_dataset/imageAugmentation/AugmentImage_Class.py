@@ -9,48 +9,53 @@ import hashlib # hash is a part of the filepath for storing images in manageable
 
 
 class AugmentImage():
-    def __init__(self,imageTrainFolder):  
-       self.imageTrainFolder = imageTrainFolder
+    def __init__(self,imageHomeFolder):  
+       self.imageHomeFolder = imageHomeFolder
 
-    def augmentImage(self,inImg,imgName):
+    def augmentImage(self,imageTrainFolder,imgPath,imgName):
         if(os.path.exists(imageTrainFolder + imgName + '0.jpg')):
             return
+        
+        # load image
+        img = cv2.imread(self.imageHomeFolder + imgPath)
+        img = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)
+
         # Augmented image: original image with 40deg rotation.
         img_rot_pos40 = ndimage.rotate(img, 40, reshape=False)
-        Image.fromarray(inImg).save(self.imageTrainFolder + imgName + '0.jpg')
-        Image.fromarray(img_rot_pos40).save(self.imageTrainFolder + imgName + '1.jpg')
+        Image.fromarray(img).save(imageTrainFolder + imgName + '0.jpg')
+        Image.fromarray(img_rot_pos40).save(imageTrainFolder + imgName + '1.jpg')
         
         # Augmented image: original image with 20deg rotation.
         img_rot_pos20 = ndimage.rotate(img, 20, reshape=False)
-        Image.fromarray(img_rot_pos20).save(self.imageTrainFolder + imgName + '2.jpg')
+        Image.fromarray(img_rot_pos20).save(imageTrainFolder + imgName + '2.jpg')
         
         # Augmented image: original image with -20deg rotation.
         img_rot_neg20 = ndimage.rotate(img, -20, reshape=False)
-        Image.fromarray(img_rot_neg20).save(self.imageTrainFolder + imgName + '3.jpg')
+        Image.fromarray(img_rot_neg20).save(imageTrainFolder + imgName + '3.jpg')
 
         # Augmented image: original image with -40deg rotation.
         img_rot_neg40 = ndimage.rotate(img, -40, reshape=False)
-        Image.fromarray(img_rot_neg40).save(self.imageTrainFolder + imgName + '4.jpg')
+        Image.fromarray(img_rot_neg40).save(imageTrainFolder + imgName + '4.jpg')
 
         # Augmented image: original image flipped laterally.
         img_fliplr = np.fliplr(img)
-        Image.fromarray(img_fliplr).save(self.imageTrainFolder + imgName + '5.jpg')
+        Image.fromarray(img_fliplr).save(imageTrainFolder + imgName + '5.jpg')
 
         # Augmented image: flipped image with 40deg rotation.
         img_fliplr_rot_pos40 = ndimage.rotate(img_fliplr, 40, reshape=False)
-        Image.fromarray(img_fliplr_rot_pos40).save(self.imageTrainFolder + imgName + '6.jpg')
+        Image.fromarray(img_fliplr_rot_pos40).save(imageTrainFolder + imgName + '6.jpg')
 
         # Augmented image: flipped image with 20deg rotation.
         img_fliplr_rot_pos20 = ndimage.rotate(img_fliplr, 20, reshape=False)
-        Image.fromarray(img_fliplr_rot_pos20).save(self.imageTrainFolder + imgName + '7.jpg')
+        Image.fromarray(img_fliplr_rot_pos20).save(imageTrainFolder + imgName + '7.jpg')
 
         # Augmented image: flipped image with -20deg rotation.
         img_fliplr_rot_neg20 = ndimage.rotate(img_fliplr, -20, reshape=False)
-        Image.fromarray(img_fliplr_rot_neg20).save(self.imageTrainFolder + imgName + '8.jpg')
+        Image.fromarray(img_fliplr_rot_neg20).save(imageTrainFolder + imgName + '8.jpg')
 
         # Augmented image: flipped image with -40deg rotation.
         img_fliplr_rot_neg40 = ndimage.rotate(img_fliplr, -40, reshape=False)
-        Image.fromarray(img_fliplr_rot_neg40).save(self.imageTrainFolder + imgName + '9.jpg')
+        Image.fromarray(img_fliplr_rot_neg40).save(imageTrainFolder + imgName + '9.jpg')
 
     def padImage(self,imgName):
         # read image
@@ -103,7 +108,7 @@ class AugmentImage():
         return ImageOps.expand(img, padding)
 
     def copyFile(self,filename,outFolder):
-        imageFilepath = imageHomeFolder + hashKey(filename[:-4],nbins=5000) + "/" + filename
+        imageFilepath = self.imageHomeFolder + self.hashKey(filename[:-4],nbins=5000) + "/" + filename
         if not(os.path.exists(imageFilepath)):
             print("image does not exist: %s" %(imageFilepath))
         else:
@@ -111,6 +116,5 @@ class AugmentImage():
             if not(os.path.exists(outputFilepath)):
                 img = Image.open(imageFilepath)
                 img = img.convert('RGB')
-                img = resize_with_padding(img, (280, 280))
+                img = self.resize_with_padding(img, (280, 280))
                 img.save(outputFilepath)
-
