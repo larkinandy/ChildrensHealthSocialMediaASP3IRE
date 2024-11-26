@@ -1,11 +1,11 @@
 
 
 import tensorflow as tf
-from transformers import *
+#from transformers import *
 
-class TFRecord():
+class TFRecordWrite():
     def __init__(self,nTest):
-        self.nTest
+        self.nTest = nTest
 
     def bytes_feature(self,value):
         """Returns a bytes_list from a string / byte."""
@@ -26,12 +26,14 @@ class TFRecord():
         return array
 
 
-    def parse_single_tweet(self,input_ids,masks,labels):
+    def parse_single_tweet(self,input_ids,masks,labels,vectors,user_stats):
         #define the dictionary -- the structure -- of our single example
         data = {
             'input_ids':self.bytes_feature(self.serialize_array(input_ids)),
             'masks':self.bytes_feature(self.serialize_array(masks)),
-            'labels':self.bytes_feature(self.serialize_array(labels))
+            'labels':self.bytes_feature(self.serialize_array(labels)),
+            'vectors':self.bytes_feature(self.serialize_array(vectors)),
+            'user_stats':self.bytes_feature(self.serialize_array(user_stats)),
         }
         out = tf.train.Example(features=tf.train.Features(feature=data))
         return(out)
@@ -40,6 +42,8 @@ class TFRecord():
         inputIds = tweetDict['input_ids']
         attentionMask = tweetDict['attention_mask']
         labels = tweetDict['labels']
+        vectors = tweetDict['vectors']
+        userStats = tweetDict['user_stats']
         trainCount,testCount = 0,0
         
         trainFilename= origfilename + cat + "DataTrain.tfrecords"
@@ -56,7 +60,7 @@ class TFRecord():
                 curWriter = trainWriter
                 trainCount +=1
             try:
-                out = self.parse_single_tweet(inputIds[index],attentionMask[index],labels[index])
+                out = self.parse_single_tweet(inputIds[index],attentionMask[index],labels[index],vectors[index],userStats[index])
                 curWriter.write(out.SerializeToString())
                 index+=1
             except Exception as e:
