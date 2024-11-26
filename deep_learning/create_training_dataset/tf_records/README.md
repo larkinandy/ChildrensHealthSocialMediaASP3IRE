@@ -1,19 +1,11 @@
-<img src="https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/blob/main/images/analysis/Network.png">
-
-### analysis
-python scripts and custom classes for analyzing social media records.  Analyses include identifying communities within networks, topic modeling, and (mis)information propagation
+### TFRecords ###
+create TF records from training and validation datasets 
 
 **Repository Structure** <br>
-Files are contained within a single folder.  Functions are partitioned into classes based on focus area
 
-- **[AnalysisClass](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/master/analysis/AnalysisClass.py)** - perform common database queries, such as calculating the number of tweets that contain a keyword <br>
-- **[NetworkClass](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/master/analysis/NetworkClass.py)** - identify communities and calculate social network metrics <br>
-- **[TopicClass](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/master/analysis/TopicClass.py)** - using Top2Vec, identify topics discussed in social media posts <br>
-- **[topics_words.npy](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/master/analysis/topics_words.npy)** - set of 50 words that collectively uniquely identify each topic vector <br>
-
-**External Links**
-- **Topic model reduced to 5000 topics** - https://drive.google.com/file/d/1vGHkTLB5RAy9FOqDy2qogbnO88_KcdZG/view?usp=drive_link
-- **Neo4j** - https://neo4j.com/
-- **NetworkX** - https://networkx.org/
-- **cuGraph** - https://github.com/rapidsai/cugraph
-- **Top2Vec** - https://github.com/ddangelov/Top2Vec
+- **[ChildData_Class.py](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/blob/main/deep_learning/create_training_dataset/tf_records/ChildData_Class.py)** - convert labeled child posts to training records <br>
+- **[HealthData_Class.py](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/blob/main/deep_learning/create_training_dataset/tf_records/HealthData_Class.py)** - convert labeled health posts to training records <br>
+- **[PlaceData_Class.py](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/blob/main/deep_learning/create_training_dataset/tf_records/PlaceData_Class.py)** - convert labeled place posts to training records <br>
+- **[TFRecordWrite_Class.py](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/blob/main/deep_learning/create_training_dataset/tf_records/TFRecordWrite_Class.py)** - write reformatted posts to a TF record dataset <br>
+- **[TFRecordsImageWrite_Class.py](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/blob/main/deep_learning/create_training_dataset/tf_records/TFRecordsImageWrite_Class.py)** - convert labeled images to tf records <br>
+- **[createTFRecordsFromLabels.py](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/blob/main/deep_learning/create_training_dataset/tf_records/createTFRecordsFromLabels.py)** - create tf records for child,place,and health training datasets <br>
