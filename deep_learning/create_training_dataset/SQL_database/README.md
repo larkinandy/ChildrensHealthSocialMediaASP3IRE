@@ -1,6 +1,5 @@
 ### SQL Database ### 
-CRUD operations for the SQL database storing coded social media posts
-
+CRUD operations for the SQL database used to label social media posts
 **Repository Structure** <br>
 Files are contained within a single folder.  Functions are partitioned into classes based on focus area
 
