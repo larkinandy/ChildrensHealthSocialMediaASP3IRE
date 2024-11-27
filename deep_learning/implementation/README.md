@@ -1,19 +1,9 @@
-<img src="https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/blob/main/images/analysis/Network.png">
-
-### analysis
-python scripts and custom classes for analyzing social media records.  Analyses include identifying communities within networks, topic modeling, and (mis)information propagation
+### implementation ###
+apply age, place, and health deep learning models to 680 million social media posts
 
 **Repository Structure** <br>
-Files are contained within a single folder.  Functions are partitioned into classes based on focus area
 
-- **[AnalysisClass](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/master/analysis/AnalysisClass.py)** - perform common database queries, such as calculating the number of tweets that contain a keyword <br>
-- **[NetworkClass](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/master/analysis/NetworkClass.py)** - identify communities and calculate social network metrics <br>
-- **[TopicClass](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/master/analysis/TopicClass.py)** - using Top2Vec, identify topics discussed in social media posts <br>
-- **[topics_words.npy](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/master/analysis/topics_words.npy)** - set of 50 words that collectively uniquely identify each topic vector <br>
-
-**External Links**
-- **Topic model reduced to 5000 topics** - https://drive.google.com/file/d/1vGHkTLB5RAy9FOqDy2qogbnO88_KcdZG/view?usp=drive_link
-- **Neo4j** - https://neo4j.com/
-- **NetworkX** - https://networkx.org/
-- **cuGraph** - https://github.com/rapidsai/cugraph
-- **Top2Vec** - https://github.com/ddangelov/Top2Vec
+- **[predictAgesFromFace.py](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/blob/main/deep_learning/implementation/predictAgesFromFace.py)** - predict the age of faces in social media imagery <br>
+- **[predictHealth.py](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/blob/main/deep_learning/implementation/predictHealth.py)** - predict health symptoms and outcomes from social media text <br>
+- **[predictPlace.py](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/blob/main/deep_learning/implementation/predictPlace.py)** - predict safe places mentioned in social media text <br>
+- **[predictPlaceImage.py](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/blob/main/deep_learning/implementation/predictPlaceImage.py)** - predict safe places in social media imagery <br>
