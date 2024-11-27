@@ -26,7 +26,6 @@ elif(modelType=='place'):
     PARENT_FOLDER = secrets['PLACE_FOLDER']
 else:
     PARENT_FOLDER = secrets['HEALTH_FOLDER']
-
 def loadDataset(dataFolder,vector=False,userStats=False):
     recordReader = TFRecordRead(dataFolder,BATCH_SIZE,vector,userStats)
     dataset = recordReader.tfRecords.prefetch(buffer_size=AUTOTUNE)
