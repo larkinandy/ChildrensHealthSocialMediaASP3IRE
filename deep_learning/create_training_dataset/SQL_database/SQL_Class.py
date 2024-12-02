@@ -190,33 +190,51 @@ class SQL_DB:
         except Exception as e:
             print(str(e))
 
+    # get twitter records that were labeled using the original labeling system (i.e. each tweet is labeled for all categories)
+    # OUTPUTS:
+    #    pandas dataframe containing the contents of the twitter_records table
     def origTwitterRecords(self):
         query="""SELECT * from twitter_records; """
         df = psql.read_sql(query,self.conn)
         return(df)
     
+    # get twitter records labeled just for the 'age' label
+    # OUTPUTS:
+    #    pandas dataframe containing the contents of tables that stored records labeled with the 'age' label
     def getChildTwitterRecords(self):
         childT1 = psql.read_sql("""SELECT * from child_tweets; """,self.conn)
         childT2 = psql.read_sql("""SELECT * from child_tweets2; """,self.conn)
         childT3 = psql.read_sql("""SELECT * from child_tweets3; """,self.conn)
         return(ps.concat([childT1,childT2,childT3]))
     
+    # get twitter records labeled just for the 'place' label
+    # OUTPUTS:
+    #    pandas dataframe containing the contents of tables that stored records labeled with the 'place' label
     def getPlaceTwitterRecords(self):
         placeT1 = psql.read_sql("""SELECT * from place_tweets; """,self.conn)
         placeT2 = psql.read_sql("""SELECT * from place_tweets2; """,self.conn)
         placeT3 = psql.read_sql("""SELECT * from place_tweets3; """,self.conn)
         return(ps.concat([placeT1,placeT2,placeT3]))
 
+    # get twitter records labeled just for the 'health' label
+    # OUTPUTS:
+    #    pandas dataframe containing the contents of tables that stored records labeled with the 'health' label
     def getHealthTwitterRecords(self):
         healthT1 = psql.read_sql("""SELECT * from health_tweets; """,self.conn)
         healthT2 = psql.read_sql("""SELECT * from health_tweets2; """,self.conn)
         healthT3 = psql.read_sql("""SELECT * from health_tweets3; """,self.conn)
         return(ps.concat([healthT1,healthT2,healthT3]))
     
+    # get labels that need to be joined with the original twitter records
+    # OUTPUTS:
+    #    pandas dataframe of labels and twitter record ids
     def getTweetLabels(self):
         labels = psql.read_sql("""SELECT * from twitter_labels; """,self.conn)
         return(labels)
     
+    # get Tweets used for QA testing workers 
+    # OUTPUTS:
+    #    pandas dataframe of labeled QA tweets
     def getQATweets(self):
         try:
             df = psql.read_sql("""SELECT * from qa_sample where time_submitted IS NOT NULL; """,self.conn)
@@ -224,6 +242,10 @@ class SQL_DB:
         except Exception as e:
             print(str(e))
 
+    # add a single tweet into a table. Can be used for the twitter_records, child_tweets, place_tweets, or health_tweets tables
+    # INPUTS:
+    #    recordsDict (dict) - contains one tweet to add to table
+    #    tableName (str) - name of table to insert record into
     def insertSingleTweet(self,recordDict,tableName):
         query = """INSERT INTO """ + str(tableName) + """(img_id,text,img_http,keyword,category) VALUES (%s,%s,%s,%s,%s);"""
         try:
@@ -237,11 +259,11 @@ class SQL_DB:
                         recordDict['category']
                     )
                 )
-                conn.commit()
+                self.conn.commit()
                 cur.close()
         except Exception as e:
             print(e)
-            conn.rollback()
+            self.conn.rollback()
 
 # runtime commands used to populate remote SQL database
 
