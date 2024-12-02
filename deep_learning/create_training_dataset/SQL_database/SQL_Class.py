@@ -224,24 +224,24 @@ class SQL_DB:
         except Exception as e:
             print(str(e))
 
-    def insertSingleTweet(recordDict,tableName):
-    query = """INSERT INTO """ + str(tableName) + """(img_id,text,img_http,keyword,category) VALUES (%s,%s,%s,%s,%s);"""
-    try:
-        with conn.cursor() as cur:
-            cur.execute(query,
-                (
-                    str(recordDict['img_id']),
-                    recordDict['text'],
-                    recordDict['img_http'],
-                    recordDict['keyword'],
-                    recordDict['category']
+    def insertSingleTweet(self,recordDict,tableName):
+        query = """INSERT INTO """ + str(tableName) + """(img_id,text,img_http,keyword,category) VALUES (%s,%s,%s,%s,%s);"""
+        try:
+            with self.conn.cursor() as cur:
+                cur.execute(query,
+                    (
+                        str(recordDict['img_id']),
+                        recordDict['text'],
+                        recordDict['img_http'],
+                        recordDict['keyword'],
+                        recordDict['category']
+                    )
                 )
-            )
-            conn.commit()
-            cur.close()
-    except Exception as e:
-        print(e)
-        conn.rollback()
+                conn.commit()
+                cur.close()
+        except Exception as e:
+            print(e)
+            conn.rollback()
 
 # runtime commands used to populate remote SQL database
 

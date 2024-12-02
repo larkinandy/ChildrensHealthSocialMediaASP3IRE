@@ -7,9 +7,11 @@
 import pandas as ps
 import psycopg2
 import pandas.io.sql as psql
+import sys
 
 # custom driver for querying SQL database
 from SQL_Class import SQL_DB
+from mySecrets import secrets
 
 # load runtime arguments
 debug = sys.argv[1] # true or false, whether to run in debug or deployment mode
@@ -66,7 +68,7 @@ def calcLoc(data):
     # for each QA code type, calculate the percent tweets that were correctly labeled by workers
     # and store in a pandas dataframe
     for index in range(len(labels)):
-        tperc,tn = calcPerfAllTimeOneLabel(labels[index],data,searchWord[index],'location',isNeg[index])
+        tperc,tn = calcPercCorrect(data,labels[index],searchWord[index],isNeg[index])
         perc[index] = tperc*100
         n[index] = tn
         df = ps.DataFrame({
@@ -76,10 +78,64 @@ def calcLoc(data):
     })
     return(df)
 
-# 
-def calcPerfAllTimeHealthLabel(label,data,locType,questionType,isNeg):
-    screenedData = data[data['qa_type']==label]
-    return(calcPercHealth(screenedData,locType,questionType,isNeg))
+# for all labels in the 'health' category, calculate percent of coded QA tweets whose worker labels
+# correctly match the QA labels
+def calcHealth(data):
+
+    # QA codes
+    labels = ["emot_neg","emot_pos","phys_neg","phys_pos","cog_neg","cog_pos"]
+
+    # whether QA codes are positive or negative classifications 
+    isNeg = [True,False,True,False,True,False,True,False]
+
+    # labels
+    searchWord = ["emot","emot","phys","phys","cog","cog"]
+    
+    # create arrays to store the percent correct for each label/classification combo
+    perc,n = [0.0 for x in labels],[0 for x in labels]
+
+    # for each QA code type, calculate the percent tweets that were correctly labeled by workers
+    # and store in a pandas dataframe
+    for index in range(len(labels)):
+        tperc,tn = calcPercCorrect(data,labels[index],searchWord[index],isNeg[index])
+        perc[index] = tperc*100
+        n[index] = tn
+        df = ps.DataFrame({
+        'category':labels,
+        '% correct':perc,
+        'n':n
+    })
+    return(df)
+
+# for all labels in the 'age' category, calculate percent of coded QA tweets whose worker labels
+# correctly match the QA labels
+def calcAge(data):
+
+    # QA codes
+    labels = ["baby_neg","baby_pos","toddler_neg","toddler_pos","elem_neg","elem_pos",'middle_neg','middle_pos','high_neg','high_pos']
+
+    # whether QA codes are positive or negative classifications 
+    isNeg = [True,False,True,False,True,False,True,False]
+
+    # labels
+    searchWord = ["baby","baby","toddler","toddler","elem","elem",'middle','middle','high','high']
+    
+    # create arrays to store the percent correct for each label/classification combo
+    perc,n = [0.0 for x in labels],[0 for x in labels]
+
+    # for each QA code type, calculate the percent tweets that were correctly labeled by workers
+    # and store in a pandas dataframe
+    for index in range(len(labels)):
+        tperc,tn = calcPercCorrect(data,labels[index],searchWord[index],isNeg[index])
+        perc[index] = tperc*100
+        n[index] = tn
+        df = ps.DataFrame({
+        'category':labels,
+        '% correct':perc,
+        'n':n
+    })
+    return(df)
+
 
 # main function
 if __name__ == "__main__":
@@ -91,8 +147,18 @@ if __name__ == "__main__":
 
     # query deployment database in the cloud
     else:
-        print("entering deployment mode")0
+        print("entering deployment mode")
         driver = SQL_DB(dbDict,False)
 
-    
+    childRecords = driver.getChildTwitterRecords()
+    childDF = calcAge(childRecords)
+    placeRecords = driver.getPlaceTwitterRecords()
+    placeDF = calcLoc(placeRecords)
+    healthRecords = driver.getHealthTwitterRecords()
+    healthDF = calcHealth()
+    combinedDF = ps.concat([childDF,placeDF,healthDF])
+    combinedDF.to_csv(secrets['QA_FILEPATH'],index=False)
 
+
+    
+# end of QA_Analysis.py

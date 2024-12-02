@@ -154,3 +154,5 @@ if __name__ == "__main__":
 
     # calculate confusion matrix for validation dataset
     calcConfusionMatrix(labels,predictions)
+
+# end of calculateTextPerformanceMetrics.py #

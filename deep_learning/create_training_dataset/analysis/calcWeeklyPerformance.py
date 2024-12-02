@@ -198,3 +198,4 @@ if __name__ == "__main__":
     weeklyExcel = outputFolder + "student_performance_" + str(endDate.month) + '-' + str(endDate.day) + '-' + str(endDate.year) +  ".xlsx"
     writeResultsToExcel(weeklyExcel,[perfCSV,sampleCSV])
     
+# end of calcWeeklyPeformance.py 
