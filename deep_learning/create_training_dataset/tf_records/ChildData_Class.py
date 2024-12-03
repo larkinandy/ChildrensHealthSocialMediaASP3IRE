@@ -27,7 +27,7 @@ class ChildData():
         # load BERT tokenizer from disk
         self.tokenizer = BertTokenizer.from_pretrained(TokenPath)
 
-        # kv pair for converting labels into binary array
+        # kv pairs for converting labels into binary array
         self.childCodingDict = {
             '0 to less than 1 year (baby/infant)':0,
             '1 to 4 years (toddler/pre-school)':1,

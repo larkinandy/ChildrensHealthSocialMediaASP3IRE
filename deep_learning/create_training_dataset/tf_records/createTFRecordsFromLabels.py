@@ -13,7 +13,6 @@ import pandas as ps
 
 # import secrets and custom classes
 from mySecrets import secrets
-from TFRecordWrite_Class import TFRecordWrite
 from ChildData_Class import ChildData
 from PlaceData_Class import PlaceData
 from HealthData_Class import HealthData
