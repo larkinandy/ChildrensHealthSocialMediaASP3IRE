@@ -1,4 +1,9 @@
-#from transformers import BertTokenizer, TFBertForMaskedLM
+# BERT_UpdateDict.py
+# Author: Andrew Larkin
+
+# Summary: add 100 most popular emojis in social media dataset
+#          to BERT model and tokenizer
+
 from transformers import *
 import tensorflow as tf
 import os
@@ -36,3 +41,4 @@ if __name__ == "__main__":
     updateTokenizer(newTokens)
 
 
+# end of BERT_UpdateDict.py
