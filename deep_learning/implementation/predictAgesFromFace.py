@@ -97,48 +97,50 @@ class CustomAccuracy(tf.keras.losses.Loss):
             loss2 = cce(y_true,y_pred)
             return (loss2+loss1)
 
+# main function
+if __name__ == '__main__':
 
-# get absoulute filepaths of images to predict age groups for
-imgList = getImageList(secrets['IMAGE_FOLDER'])
-predDataTensor = tf.constant(imgList)
-predDataset = tf.data.Dataset.from_tensor_slices((predDataTensor))
-predDataset = predDataset.map(_parse_function)
-predDataset = predDataset.batch(512)
+    # get absoulute filepaths of images to predict age groups for
+    imgList = getImageList(secrets['IMAGE_FOLDER'])
+    predDataTensor = tf.constant(imgList)
+    predDataset = tf.data.Dataset.from_tensor_slices((predDataTensor))
+    predDataset = predDataset.map(_parse_function)
+    predDataset = predDataset.batch(512)
 
-# compile image model and load weights
-final_cnn = tf.keras.models.load_model(secrets['MODEL_WEIGHTS_FILEPATH'],custom_objects={'CustomAccuracy':CustomAccuracy},compile=False)
-final_cnn.compile(loss=[CustomAccuracy()],optimizer=tf.keras.optimizers.Adam(learning_rate=0.0001),metrics=['accuracy'])
+    # compile image model and load weights
+    final_cnn = tf.keras.models.load_model(secrets['MODEL_WEIGHTS_FILEPATH'],custom_objects={'CustomAccuracy':CustomAccuracy},compile=False)
+    final_cnn.compile(loss=[CustomAccuracy()],optimizer=tf.keras.optimizers.Adam(learning_rate=0.0001),metrics=['accuracy'])
 
-# predict child age group probabilities for each face in all of the images
-final_cnn_pred = final_cnn.predict(predDataset)
+    # predict child age group probabilities for each face in all of the images
+    final_cnn_pred = final_cnn.predict(predDataset)
 
-# predict child age group classifications for each face in all of the images
-final_cnn_pred2 = final_cnn_pred.argmax(axis=-1)
+    # predict child age group classifications for each face in all of the images
+    final_cnn_pred2 = final_cnn_pred.argmax(axis=-1)
 
-# save per face model predictions to disk
-imgDF = ps.DataFrame({
-     'imgName':imgList,
-})
-imgDF.to_csv(secrets['PRED_FOLDER'] + 'perFacePred.csv',index=False)
-np.save(secrets['PRED_FOLDER'] + 'perFaceProbs.npy', final_cnn_pred)
+    # save per face model predictions to disk
+    imgDF = ps.DataFrame({
+        'imgName':imgList,
+    })
+    imgDF.to_csv(secrets['PRED_FOLDER'] + 'perFacePred.csv',index=False)
+    np.save(secrets['PRED_FOLDER'] + 'perFaceProbs.npy', final_cnn_pred)
 
-# add per face predictions to pandas df
-imgDF['rowIndex'] = range(0, imgDF.count()[0])
-imgDF['maxPred'] = final_cnn_pred2
-imgDF = screenArgMax(imgDF)
+    # add per face predictions to pandas df
+    imgDF['rowIndex'] = range(0, imgDF.count()[0])
+    imgDF['maxPred'] = final_cnn_pred2
+    imgDF = screenArgMax(imgDF)
 
-# combine per face predictions to create predictions for each social media image
-imgList = list(imgDF['imgName'])
-idSeq = list(map(getIdFromFilepath,imgList))
-imgDF['idSeq'] = idSeq
-uniqueIds = list(set(idSeq))
-maxProbs = list(map(getMaxProbs,uniqueIds))
-df = ps.DataFrame({
-     'imgId':uniqueIds
-})
+    # combine per face predictions to create predictions for each social media image
+    imgList = list(imgDF['imgName'])
+    idSeq = list(map(getIdFromFilepath,imgList))
+    imgDF['idSeq'] = idSeq
+    uniqueIds = list(set(idSeq))
+    maxProbs = list(map(getMaxProbs,uniqueIds))
+    df = ps.DataFrame({
+        'imgId':uniqueIds
+    })
 
-# save per image probabilities and classifications to disk
-df.to_csv(secrets['PRED_FOLDER'] + 'perImgPred.csv',index=False)
-np.save(secrets['PRED_FOLDER'] + 'perImgProbs.npy',maxProbs)
+    # save per image probabilities and classifications to disk
+    df.to_csv(secrets['PRED_FOLDER'] + 'perImgPred.csv',index=False)
+    np.save(secrets['PRED_FOLDER'] + 'perImgProbs.npy',maxProbs)
 
 # end of predictAgesFromFace.py
