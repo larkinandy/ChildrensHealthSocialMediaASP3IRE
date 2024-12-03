@@ -150,12 +150,22 @@ if __name__ == "__main__":
         print("entering deployment mode")
         driver = SQL_DB(dbDict,False)
 
-    childRecords = driver.getChildTwitterRecords()
+    # get all QA coded records
+    allRecords = driver.getQATweets()
+
+    # subset QA records to age coded records and claculate QA performance
+    childRecords = allRecords[allRecords['category']=='age']
     childDF = calcAge(childRecords)
-    placeRecords = driver.getPlaceTwitterRecords()
+
+    # subset QA records to place coded records and calculate QA performance
+    placeRecords = allRecords[allRecords['category']=='place']
     placeDF = calcLoc(placeRecords)
-    healthRecords = driver.getHealthTwitterRecords()
+
+    # subset health records and calculate QA performance
+    healthRecords = allRecords[allRecords['category']=='health']
     healthDF = calcHealth()
+
+    # save QA performance to disk
     combinedDF = ps.concat([childDF,placeDF,healthDF])
     combinedDF.to_csv(secrets['QA_FILEPATH'],index=False)
 
