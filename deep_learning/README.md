@@ -11,6 +11,7 @@ Files are divided into five folders, with each folder corresponding to a unique 
 - **[implementation](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/master/deep_learning/implementation)** - create predictions for the entire social media dataset (685 million tweets) <br>
 
 **External Links**
+- **Box Folder Containing Deep Learning Models** - https://oregonstate.box.com/s/d0v8irxu63o0zgm2zuzledk7gbelzt3k
 - **Tensorflow** - https://www.tensorflow.org/
 - **Transformer models** - https://blogs.nvidia.com/blog/2022/03/25/what-is-a-transformer-model/
 - **Multimodal models** - https://en.wikipedia.org/wiki/Multimodal_learning
