@@ -8,8 +8,9 @@ from TweetImageClass import TweetImage
 from GraphDBClass import GraphDAO
 from NetworkClass import Network
 from TopicClass import Topic
+from GISClass import GIS
 import pandas as ps
-
+import numpy as np
 
 class Analyzer:
 
@@ -17,15 +18,16 @@ class Analyzer:
     # INPUTS: 
     #     storageFolder (str) - locations for flat file storage (images, metadata, etc)
     #     db_dict (dict) - credentials for connecting to neo4j db
-    def __init__(self, storageFolder,networkFolder,topicFolder,dbDict):
+    def __init__(self, storageFolder,networkFolder,topicFolder,GISFolder,dbDict):
         
         # setup paths for storing intermediary files.  Needed for building database, not 
         # needed during database analysis
         self.analysisFolder = storageFolder + "Analyses/"
         self.tweetImgProcesser = TweetImage(storageFolder + "ImageStore/")
         self.kwDict = self.loadKeywords(storageFolder + "keyword_csvs/")
-        self.networkProcessor = Network()
+        self.networkProcessor = Network(networkFolder)
         self.topicModeler = Topic(topicFolder,modelType ='5000',loadWordKeys=True,debug=False)
+        self.GISProcessor = GIS(GISFolder,GISFolder)
 
         # setup connection to Neo4j database.  This is needed for both database development
         # and analysis
@@ -184,6 +186,33 @@ class Analyzer:
         # reformat training data and save to csv
         sampDF = self.randomSampleReformat(randomSamp,imgFilenames,sampKW,sampCat)
         sampDF.to_csv(self.analysisFolder + "trainingSample_" + cat + ".csv",index=False)
+
+    # partition dataset of self-reported user home town/cities into subsets
+    # INPUTS:
+    #    inData (pandas dataframe) - self-reported user home town/cities with user ids
+    #    batchSize(int) - number of records in each batch
+    # OUTPUtS:
+    #    list of batches to process. Each batch is stored as an np array of home town/cities and user ids
+    def setupUserLocationBatches(self,inData,batchSize):
+        data = np.c_[np.array(inData['T.id']),np.array(inData['T.location'])]
+        batches = []
+        nRecords = inData.count()[0]
+        startIndex = 0
+        endIndex = startIndex + batchSize
+        while(startIndex < nRecords):
+            batches.append(data[startIndex:endIndex])
+            startIndex +=batchSize
+            endIndex += batchSize
+        return(batches)
+
+    def identifyUserLocations(self,filepath):
+        userLocations = ps.read_csv(filepath)
+        userLocationBatches = self.setupUserLocationBatches(userLocations,1000)
+
+        # was designed to run parallel on multiple threads. However, to increase compatibility it's being called
+        # serially for the GitHub repo code
+        for batch in userLocationBatches:
+            self.GISProcessor.georeferenceUserLocations(batch)
 
 
 # end of AnalysisClass.py

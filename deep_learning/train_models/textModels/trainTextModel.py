@@ -53,6 +53,7 @@ def buildClassifictionModel(vector=False,userStats=False,fixWeights=False,nOutpu
 
     # load BERT weights into first few layers of the model
     btok = TFBertModel.from_pretrained(secrets['PRETRAINED_BERT_BASE_FILEPATH'])
+    print(btok.summary())
 
     #experimental block for freezing BERT weights. Did not improve model performance
     if(fixWeights):
@@ -154,6 +155,6 @@ if __name__ == '__main__':
         print(classificationModel.summary())
 
         # train the model
-        trainModel(classificationModel)
+        #trainModel(classificationModel)
 
 # end of trainTextModel.py
