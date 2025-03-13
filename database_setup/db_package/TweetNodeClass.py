@@ -495,7 +495,20 @@ class TweetDAO:
         with self.driver.session() as session:
             result = session.read_transaction(inLineFx,tweetId)
             return result
-        
+    
+    def getUserIdFromTweetId(self,tweetId):
+        def inLineFx(tx,tweetId):
+            query = """
+                MATCH (t:Tweet{id:'""" + str(tweetId) + """'})<-[p:POSTED]-(n)
+                RETURN n.id
+            """
+            result=tx.run(query,tweetId=tweetId)
+            userId = [row.values()[0] for row in result][0]
+            return(userId)
+
+        with self.driver.session() as session:
+            result = session.read_transaction(inLineFx,tweetId)
+            return result
 
     def getConvIdFromTweetId(self,tweetId):
         def inLineFx(tx,tweetId):

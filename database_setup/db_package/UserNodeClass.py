@@ -118,7 +118,7 @@ class UserDAO:
         t.nToddler = label.isToddler,
         t.nElementary = label.isElem,
         t.nMiddle = label.isMiddle,
-        t.nHigh = label.ishHigh,
+        t.nHigh = label.isHigh,
         t.nPosted = label.nPosted",
         {batchSize:50000,iterateList:True,parallel:true,params:{labels:$labels}})
         """

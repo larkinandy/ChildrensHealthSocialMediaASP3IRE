@@ -206,6 +206,10 @@ class GraphDAO:
     def getUsernameFromTweetId(self,tweetId):
         username = self.tweetDriver.getUsernameFromTweetId(tweetId)
         return(username)
+    
+    def getUserIdFromTweetId(self,tweetId):
+        username = self.tweetDriver.getUserIdFromTweetId(tweetId)
+        return(username)
 
     def getConvIDFromTweetId(self,tweetId):
         convId = self.tweetDriver.getConvIdFromTweetId(tweetId)

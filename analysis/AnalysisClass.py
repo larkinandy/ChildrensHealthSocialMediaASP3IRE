@@ -187,6 +187,7 @@ class Analyzer:
         sampDF = self.randomSampleReformat(randomSamp,imgFilenames,sampKW,sampCat)
         sampDF.to_csv(self.analysisFolder + "trainingSample_" + cat + ".csv",index=False)
 
+<<<<<<< Updated upstream
     # partition dataset of self-reported user home town/cities into subsets
     # INPUTS:
     #    inData (pandas dataframe) - self-reported user home town/cities with user ids
@@ -213,6 +214,10 @@ class Analyzer:
         # serially for the GitHub repo code
         for batch in userLocationBatches:
             self.GISProcessor.georeferenceUserLocations(batch)
+=======
+    def getUserIdFromTweetId(self,tweetId):
+        return(self.graphDBAPI.getUserIdFromTweetId(tweetId))
+>>>>>>> Stashed changes
 
 
 # end of AnalysisClass.py
