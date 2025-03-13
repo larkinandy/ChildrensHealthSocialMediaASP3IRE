@@ -18,16 +18,25 @@ class Analyzer:
     # INPUTS: 
     #     storageFolder (str) - locations for flat file storage (images, metadata, etc)
     #     db_dict (dict) - credentials for connecting to neo4j db
-    def __init__(self, storageFolder,networkFolder,topicFolder,GISFolder,dbDict):
+    def __init__(self,storageFolder,dbDict,networkFolder=None,topicFolder=None,GISFolder=None):
         
         # setup paths for storing intermediary files.  Needed for building database, not 
         # needed during database analysis
         self.analysisFolder = storageFolder + "Analyses/"
         self.tweetImgProcesser = TweetImage(storageFolder + "ImageStore/")
         self.kwDict = self.loadKeywords(storageFolder + "keyword_csvs/")
-        self.networkProcessor = Network(networkFolder)
-        self.topicModeler = Topic(topicFolder,modelType ='5000',loadWordKeys=True,debug=False)
-        self.GISProcessor = GIS(GISFolder,GISFolder)
+        if(networkFolder==None):
+            print("warning: Network class not initialized. Network functions will throw errors")
+        else:
+            self.networkProcessor = Network(networkFolder)
+        if(topicFolder==None):
+            print("warning: Topic class not initialized. Topic functions will throw errors")
+        else:
+            self.topicModeler = Topic(topicFolder,modelType ='5000',loadWordKeys=True,debug=False)
+        if(GISFolder==None):
+            print("warning: GIS class not initialized. GIS functions will throw errors")
+        else:
+            self.GISProcessor = GIS(GISFolder,GISFolder)
 
         # setup connection to Neo4j database.  This is needed for both database development
         # and analysis
