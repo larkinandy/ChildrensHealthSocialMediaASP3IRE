@@ -239,6 +239,20 @@ class TweetDAO:
             MERGE (t)-[:POSTED_ON]->(d)
         """
         return(code)
+    
+    # code for adding tweet topic
+    # runs in batch mode
+    # OUTPUTS:
+    #     code (str) - code block used as part of a transaction for adding place probablities as a property to tweet nodes
+    def addTweetTopicCodeApoc(self):
+        code = """
+        CALL apoc.periodic.iterate('UNWIND $labels as label RETURN label',
+        "MATCH (t:Tweet {id:label.id})
+        SET t.topic = label.topic,
+        t.topicScore = label.score",
+        {batchSize:10000,iterateList:True,parallel:true,params:{labels:$labels}})
+        """
+        return code
 
    
     # insert batch of Tweet nodes.  Relationships between tweets and other nodes are created
@@ -394,6 +408,25 @@ class TweetDAO:
         except Exception as e:
             print(str(e))
             return None
+        
+
+    # create relationships between tweet nodes and authors
+    # INPUTS:
+    #    tx (transaction) - open connection to Neo4j database
+    #    tweetBatch (json array) - set of tweets, each tweet as an independent json object
+    # OUTPUTS:
+    #    result (str) - transaction result
+    def insertTweetTopicsBatch(self,tx,tweetBatch):
+        cypher = self.addTweetTopicCodeApoc()
+        try:
+            result = tx.run(cypher,labels=tweetBatch)
+            if(self.debug):
+                print("result of inserting tweet topics")
+                print(cypher)
+            return(result)
+        except Exception as e:
+            print(str(e))
+            return None
 
     # given a tweet, create tweet node, relationships between tweet and users, and relationships between tweet and referenced tweets
     # INPUTS:
@@ -459,6 +492,21 @@ class TweetDAO:
         with self.driver.session() as session:
             try:
                 result = session.write_transaction(self.insertTweetPlaceProbsBatch,jsonData)    
+                print("completedBatch")
+                return result
+            except Exception as e:
+                return 
+            
+    # update tweet nodes with probabilities they are related to places.  
+    # INPUTS:
+    #    tweetTopics (pandas df) - tweet ids and topics
+    # OUTPUTS:
+    #    results (str arrays) - results of the transactions performed to create the new tweet node and corresponding relationships
+    def insertTweetTopics(self,tweetTopics):
+        jsonData = list(tweetTopics.apply(lambda x: x.to_dict(), axis=1))
+        with self.driver.session() as session:
+            try:
+                result = session.write_transaction(self.insertTweetTopicsBatch,jsonData)    
                 print("completedBatch")
                 return result
             except Exception as e:
