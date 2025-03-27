@@ -736,6 +736,12 @@ class TweetIngest:
     def addTweetTopics(self,topicData):
         self.graphDBAPI.insertTweetTopics(topicData)
 
+    def addStateGeo(self,stateGeo):
+        self.graphDBAPI.addStateGeo(stateGeo)
+
+    def addCityGeo(self,cityGeo):
+        self.graphDBAPI.addCityGeo(cityGeo)
+
 
         
 ### End of TweetIngestClass.py

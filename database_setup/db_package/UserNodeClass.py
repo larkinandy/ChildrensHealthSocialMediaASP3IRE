@@ -197,6 +197,34 @@ class UserDAO:
         {batchSize:50000,iterateList:True,parallel:true,params:{labels:$labels}})
         """
         return code
+    
+    # code for setting the state property on a user node
+    # runs in batch mode
+    # OUTPUTS:
+    #     code (str) - code block used as part of a transaction for setting a relationship property
+    def setStateGeoApoc(self):
+        code = """
+        CALL apoc.periodic.iterate('UNWIND $labels as label RETURN label',
+        "MATCH (a:TwitterUser {id:label.id})
+        SET a.state = label.state,
+        Set a.geoPredType = label.predType
+        {batchSize:50000,iterateList:True,parallel:true,params:{labels:$labels}})
+        """
+        return code
+    
+    # code for setting the geoid property on a user node
+    # runs in batch mode
+    # OUTPUTS:
+    #     code (str) - code block used as part of a transaction for setting a relationship property
+    def setStateGeoApoc(self):
+        code = """
+        CALL apoc.periodic.iterate('UNWIND $labels as label RETURN label',
+        "MATCH (a:TwitterUser {id:label.id})
+        SET a.geoid = label.geoid,
+        Set a.geoPredType = label.predType
+        {batchSize:50000,iterateList:True,parallel:true,params:{labels:$labels}})
+        """
+        return code
 
     # update number of times authors mention child(ren)  
     # INPUTS:
@@ -374,6 +402,43 @@ class UserDAO:
         with self.driver.session() as session:
             result = session.write_transaction(inLineFxn)
             return result
+        
+
+    # batch update user nodes with state attribute. 
+    # INPUTS:
+    #     userBatch (json array) - list of nodes to update each json object corresponds to one
+    #                              and only one user node
+    # OUTPUTS:
+    #     result (array of custom neo4j objects) - result of the batch upsert transaction
+    def setStateGeoBatch(self,userBatch):
+        def inLineFxn(tx):
+            code = self.setStateGeoApoc()
+            results = tx.run(code,labels=userBatch)
+            print(code)
+            records = [record for record in results]
+            print(records)
+            return(results)
+        with self.driver.session() as session:
+            result = session.write_transaction(inLineFxn)
+            return result
+        
+    # batch update user nodes with city attribute. 
+    # INPUTS:
+    #     userBatch (json array) - list of nodes to update each json object corresponds to one
+    #                              and only one user node
+    # OUTPUTS:
+    #     result (array of custom neo4j objects) - result of the batch upsert transaction
+    def setStateGeoBatch(self,userBatch):
+        def inLineFxn(tx):
+            code = self.setCityGeoApoc()
+            results = tx.run(code,labels=userBatch)
+            print(code)
+            records = [record for record in results]
+            print(records)
+            return(results)
+        with self.driver.session() as session:
+            result = session.write_transaction(inLineFxn)
+            return result
 
     # update MENTION relationships between TwitterAuthors with a weight property (n mentions)
     # INPUTS:
@@ -416,6 +481,26 @@ class UserDAO:
         with self.driver.session() as session:
             try:
                 result = session.write_transaction(self.setNMentionsBatch,jsonData)    
+                print("completedBatch")
+                return result
+            except Exception as e:
+                return e
+            
+    def setStateGeo(self,geoInfo):
+        jsonData = list(geoInfo.apply(lambda x: x.to_dict(),axis=1))
+        with self.driver.session() as session:
+            try:
+                result = session.write_transaction(self.setStateGeoBatch,jsonData)
+                print("completedBatch")
+                return result
+            except Exception as e:
+                return e
+            
+    def setCityGeo(self,geoInfo):
+        jsonData = list(geoInfo.apply(lambda x: x.to_dict(),axis=1))
+        with self.driver.session() as session:
+            try:
+                result = session.write_transaction(self.setCityGeoBatch,jsonData)
                 print("completedBatch")
                 return result
             except Exception as e:

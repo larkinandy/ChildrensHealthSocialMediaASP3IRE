@@ -253,6 +253,20 @@ class GraphDAO:
             return result
         except Exception as e:
             return e
+        
+    def insertStateGeo(self,stateBatch):
+        try:
+            result = self.userDriver.setStateGeo(stateBatch)
+            return result
+        except Exception as e:
+            return e
+        
+    def insertCityGeo(self,cityBatch):
+        try:
+            result = self.userDriver.setCityGeo(cityBatch)
+            return result
+        except Exception as e:
+            return e
 
 
 # end of GraphDBClass.py
