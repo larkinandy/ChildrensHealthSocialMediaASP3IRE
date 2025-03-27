@@ -1,92 +1,92 @@
-shortnames
-new york city
-los angeles
-chicago
-houston
-phoenix
-philadelphia
-san antonio
-san diego
-dallas
-austin
-jacksonville
-san jose
-fort worth
-columbus
-charlotte
-indianapolis
-san fransisco
-seattle
-denver
-oklahoma city
-nashville
-el paso
-las vegas
-boston
-portland
-louisville
-memphis
-detroit
-baltimore
-milwaukee
-alburquerque
-tucson
-fresno
-sacramento
-mesa
-kansas city
-atlanta
-colorado springs
-omaha
-raleigh
-virginia beach
-long beach
-miami
-oakland
-minneapolis
-tulsa
-bakersfield
-tampa
-wichita
-alrington
-aurora
-new orleans
-cleveland
-anaheim
-honolulu
-henderson
-stockton
-riverside
-lexington
-corpus christi
-orlando
-irvine
-cincinnati
-santa ana
-newark
-saint paul
-pittsburgh
-greensboro
-lincoln
-durham
-plano
-anchorage
-boise
-huntsville
-des moines
-salt lake city
-little rock
-sioux falls
-tallahassee
-montgomery
-providence
-charleston
-bridgeport
-jackson
-hartford
-fargo
-topeka
-billings
-manchester
-madison
-baton rouge
+shortnames,geoid
+new york city,3651000
+los angeles,644000
+chicago,1714026
+houston,4835000
+phoenix,455000
+philadelphia,4757900
+san antonio,4865000
+san diego,666000
+dallas,4819000
+austin,4805000
+jacksonville,3734200
+san jose,668000
+fort worth,4827000
+columbus,3918014
+charlotte,3712000
+indianapolis,1836003
+san fransisco,667000
+seattle,5363000
+denver,820000
+oklahoma city,4055000
+nashville,4752006
+el paso,4824000
+las vegas,3240000
+boston,2507000
+portland,4159000
+louisville,2148000
+memphis,4748000
+detroit,2622000
+baltimore,2404000
+milwaukee,5553000
+albuquerque,3502000
+tucson,477000
+fresno,627000
+sacramento,664000
+mesa,446000
+kansas city,2036000
+atlanta,1304000
+colorado springs,816000
+omaha,3137000
+raleigh,3755000
+virginia beach,5182000
+long beach,643000
+miami,1245000
+oakland,653000
+minneapolis,2743000
+tulsa,4075000
+bakersfield,603526
+tampa,1271000
+wichita,2079000
+arlington,404020
+aurora,804000
+new orleans,2255000
+cleveland,3916014
+anaheim,602000
+honolulu,1571550
+henderson,3231900
+stockton,675000
+riverside,662000
+lexington,641282
+corpus christi,4817000
+orlando,1253000
+irvine,636770
+cincinnati,3915000
+santa ana,669000
+newark,3451000
+saint paul,3143265
+pittsburgh,4261000
+greensboro,3728000
+lincoln,3128000
+durham,3719000
+plano,4858016
+anchorage,203000
+boise,1608830
+huntsville,137000
+des moines,1921000
+salt lake city,4967000
+little rock,541000
+sioux falls,4659020
+tallahassee,1270600
+montgomery,151000
+providence,4459000
+charleston,4513330
+bridgeport,908000
+jackson,2836000
+hartford,937000
+fargo,3825700
+topeka,2071000
+billings,3006550
+manchester,3345140
+madison,5548000
+baton rouge,2205000
