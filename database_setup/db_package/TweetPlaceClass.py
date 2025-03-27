@@ -53,7 +53,8 @@ class TweetPlaceDAO:
         CALL apoc.periodic.iterate('UNWIND $labels as label RETURN label',
         "MATCH (p:TwitterPlace {id:label.geo_id})
         SET p.cityGeo = label.geoid,
-        p.cityName = label.name",
+        p.cityName = label.name,
+        p.extent = label.extent",
         {batchSize:50000,iterateList:True,parallel:true,params:{labels:$labels}})
         """
         return code
