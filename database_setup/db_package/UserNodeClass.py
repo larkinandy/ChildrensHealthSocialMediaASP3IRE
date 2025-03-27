@@ -206,8 +206,8 @@ class UserDAO:
         code = """
         CALL apoc.periodic.iterate('UNWIND $labels as label RETURN label',
         "MATCH (a:TwitterUser {id:label.id})
-        SET a.state = label.state,
-        Set a.geoPredType = label.predType
+        SET a.state = label.bestChoice,
+        a.geoPredType = label.predType",
         {batchSize:50000,iterateList:True,parallel:true,params:{labels:$labels}})
         """
         return code
@@ -216,12 +216,12 @@ class UserDAO:
     # runs in batch mode
     # OUTPUTS:
     #     code (str) - code block used as part of a transaction for setting a relationship property
-    def setStateGeoApoc(self):
+    def setCityGeoApoc(self):
         code = """
         CALL apoc.periodic.iterate('UNWIND $labels as label RETURN label',
         "MATCH (a:TwitterUser {id:label.id})
         SET a.geoid = label.geoid,
-        Set a.geoPredType = label.predType
+        a.geoPredType = label.predType",
         {batchSize:50000,iterateList:True,parallel:true,params:{labels:$labels}})
         """
         return code
@@ -410,17 +410,14 @@ class UserDAO:
     #                              and only one user node
     # OUTPUTS:
     #     result (array of custom neo4j objects) - result of the batch upsert transaction
-    def setStateGeoBatch(self,userBatch):
-        def inLineFxn(tx):
-            code = self.setStateGeoApoc()
-            results = tx.run(code,labels=userBatch)
-            print(code)
-            records = [record for record in results]
-            print(records)
-            return(results)
-        with self.driver.session() as session:
-            result = session.write_transaction(inLineFxn)
-            return result
+    def setStateGeoBatch(self,tx,userBatch):
+        cypher = self.setStateGeoApoc()
+        try:
+            results = tx.run(cypher,labels=userBatch)
+            return results
+        except Exception as e:
+            print(str(e))
+        return e
         
     # batch update user nodes with city attribute. 
     # INPUTS:
@@ -428,17 +425,15 @@ class UserDAO:
     #                              and only one user node
     # OUTPUTS:
     #     result (array of custom neo4j objects) - result of the batch upsert transaction
-    def setStateGeoBatch(self,userBatch):
-        def inLineFxn(tx):
-            code = self.setCityGeoApoc()
-            results = tx.run(code,labels=userBatch)
-            print(code)
-            records = [record for record in results]
-            print(records)
-            return(results)
-        with self.driver.session() as session:
-            result = session.write_transaction(inLineFxn)
-            return result
+    def setCityGeoBatch(self,tx,userBatch):
+        cypher = self.setCityGeoApoc()
+        try:
+            results = tx.run(cypher,labels=userBatch)
+            return (results)
+        except Exception as e:
+            print(str(e))
+        return e
+
 
     # update MENTION relationships between TwitterAuthors with a weight property (n mentions)
     # INPUTS:
@@ -494,6 +489,7 @@ class UserDAO:
                 print("completedBatch")
                 return result
             except Exception as e:
+                print(str(e))
                 return e
             
     def setCityGeo(self,geoInfo):

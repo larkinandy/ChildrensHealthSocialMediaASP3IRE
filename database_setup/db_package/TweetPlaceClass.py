@@ -43,6 +43,20 @@ class TweetPlaceDAO:
             SET p.placeType = $place_type
         """ 
         return code 
+    
+    # code for setting the city geo id property on a twitter place node
+    # runs in batch mode
+    # OUTPUTS:
+    #     code (str) - code block used as part of a transaction for setting a relationship property
+    def setCityGeoApoc(self):
+        code = """
+        CALL apoc.periodic.iterate('UNWIND $labels as label RETURN label',
+        "MATCH (p:TwitterPlace {id:label.geo_id})
+        SET p.cityGeo = label.geoid,
+        p.cityName = label.name",
+        {batchSize:50000,iterateList:True,parallel:true,params:{labels:$labels}})
+        """
+        return code
 
     # update place node with info
     # INPUTS:
@@ -67,5 +81,28 @@ class TweetPlaceDAO:
             result = session.write_transaction(inLineFxn)
             return result
         
+    # batch update place nodes with city attribute. 
+    # INPUTS:
+    #     placeBatch (json array) - list of nodes to update each json object corresponds to one
+    #                              and only one twitterPlace node
+    # OUTPUTS:
+    #     result (array of custom neo4j objects) - result of the batch upsert transaction
+    def setCityGeoBatch(self,tx,placeBatch):
+        cypher = self.setCityGeoApoc()
+        try:
+            results = tx.run(cypher,labels=placeBatch)
+            return (results)
+        except Exception as e:
+            print(str(e))
+        return e
 
 
+    def setCityGeo(self,geoInfo):
+        jsonData = list(geoInfo.apply(lambda x: x.to_dict(),axis=1))
+        with self.driver.session() as session:
+            try:
+                result = session.write_transaction(self.setCityGeoBatch,jsonData)
+                print("completedBatch")
+                return result
+            except Exception as e:
+                return e
