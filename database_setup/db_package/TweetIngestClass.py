@@ -37,21 +37,24 @@ class TweetIngest:
         # setup interacting with the API
         self.API_KEY = apiDict['API_KEY']
         self.SECRET = apiDict['SECRET']
-        self.twitterAPI = TwitterAPI(
-            self.API_KEY,self.SECRET,self.imageFolder,self.tweetFolder,
-            self.keywordFolder,self.placeFolder,self.userFolder
-        )
+
+        # deprecated, Twitter access is no longer available
+        # self.twitterAPI = TwitterAPI(
+        #     self.API_KEY,self.SECRET,self.imageFolder,self.tweetFolder,
+        #     self.keywordFolder,self.placeFolder,self.userFolder
+        # )
 
         # setup connection to Neo4j database.  This is needed for both database development
         # and analysis
         self.graphDBAPI = GraphDAO(dbDict['dbUri'],dbDict['dbUser'],dbDict['dbPW'])
 
+    # deprecated, Twitter access is no longer available
+    # def downloadTweetsForUsers(self,userIds,year):
+    #     self.twitterAPI.processTweetsForUsers(userIds,year)
 
-    def downloadTweetsForUsers(self,userIds,year):
-        self.twitterAPI.processTweetsForUsers(userIds,year)
-
-    def downloadTweetsForConversations(self,convIds):
-        self.twitterAPI.processTweetsForConversations(convIds)
+    # deprecated, Twitter access is no longer available
+    # def downloadTweetsForConversations(self,convIds):
+    #     self.twitterAPI.processTweetsForConversations(convIds)
 
 
     # given a folder filled with metadata about images, load metadata and download images to
@@ -301,11 +304,12 @@ class TweetIngest:
         orphanIds = self.graphDBAPI.getOrphanPlaceIds()
         return orphanIds
 
+    # deprecated, Twitter access is no longer available
     # query Twitter API for place ids that are missing essential information
-    def collectPlaceInfo(self):
-        orphanPlaceIds = self.graphDBAPI.getOrphanPlaceIds()
-        print("found %i Twitter places that need properties " %(len(orphanPlaceIds)))
-        self.twitterAPI.downloadPlaceSetJson(orphanPlaceIds)
+    # def collectPlaceInfo(self):
+    #     orphanPlaceIds = self.graphDBAPI.getOrphanPlaceIds()
+    #     print("found %i Twitter places that need properties " %(len(orphanPlaceIds)))
+    #     self.twitterAPI.downloadPlaceSetJson(orphanPlaceIds)
 
     # attachments are appendices to the main tweet search return.  Contain extra information,
     # including the media keys (unique ids for each media object) attached to tweets
@@ -696,20 +700,24 @@ class TweetIngest:
         reformatedUserData = self.reformatUserData(rawUserData)
         self.graphDBAPI.processUserInfoBatch(reformatedUserData)
 
-    # look for users with missing data and download data from Twitter
-    def downloadMissingUserData(self):
-        missingUserIds = self.graphDBAPI.getOrphanUsers()
-        self.twitterAPI.getTwitterUserInfo(missingUserIds)
-        dataFilepath = self.userFolder + self.twitterAPI.hashKey(missingUserIds[0]) + "/" + missingUserIds[0] + ".npy"
-        self.ingestUsersFromFile(dataFilepath)
 
+    # deprecated, Twitter access is no longer available
+    # # look for users with missing data and download data from Twitter
+    # def downloadMissingUserData(self):
+    #     missingUserIds = self.graphDBAPI.getOrphanUsers()
+    #     self.twitterAPI.getTwitterUserInfo(missingUserIds)
+    #     dataFilepath = self.userFolder + self.twitterAPI.hashKey(missingUserIds[0]) + "/" + missingUserIds[0] + ".npy"
+    #     self.ingestUsersFromFile(dataFilepath)
+
+
+    # deprecated, Twitter access is no longer available
     # download one year of Twitter data for a specific category
     # INPUTS:
     #    year (int) - year of interest
     #    kwType (str) - category of interest
-    def downloadTwitterDataOneYear(self,year,kwType):
-        self.twitterAPI.processSingleTwitterOneYear(year,kwType)
-        return 0
+    # def downloadTwitterDataOneYear(self,year,kwType):
+    #     self.twitterAPI.processSingleTwitterOneYear(year,kwType)
+    #     return 0
 
     # insert Community nodes with associated properties.  Does not add relationships between nodes
     # INPUTS:
@@ -724,6 +732,9 @@ class TweetIngest:
     def insertCommRelationships(self,commRelData):
         self.graphDBAPI.insertCommRelationships(commRelData)
         return 0
+    
+    def addTweetTopics(self,topicData):
+        self.graphDBAPI.insertTweetTopics(topicData)
 
 
         

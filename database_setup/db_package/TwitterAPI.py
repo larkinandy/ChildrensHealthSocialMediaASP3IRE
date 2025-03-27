@@ -44,7 +44,9 @@ class TwitterAPI:
         self.userFolder = userFolder
         self.keywordDict = self.loadKeywords(keywordFolder)
         self.FIELDS_TO_DOWNLOAD = 'created_at,id,text,author_id,conversation_id,in_reply_to_user_id,referenced_tweets,geo'
-        self.setupAccessToken()
+        # note Twitter API is deprecated, no longer works
+        #self.setupAccessToken()
+
 
     # setup the headers needed to verify an academic account request from the Twitter API
     def setupAccessToken(self):
@@ -66,6 +68,7 @@ class TwitterAPI:
         }
         auth_resp = requests.post(auth_url, headers=auth_headers, data=auth_data)
         print(auth_resp.status_code)
+        print(auth_resp.json())
         access_token = auth_resp.json()['access_token']
         self.accessToken = access_token
         self.headers = {

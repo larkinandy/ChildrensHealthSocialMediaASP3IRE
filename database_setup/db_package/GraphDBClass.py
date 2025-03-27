@@ -246,5 +246,13 @@ class GraphDAO:
             return result
         except Exception as e:
             return e
+        
+    def insertTweetTopics(self,topicBatch):
+        try:
+            result = self.tweetDriver.insertTweetTopics(topicBatch)
+            return result
+        except Exception as e:
+            return e
+
 
 # end of GraphDBClass.py
