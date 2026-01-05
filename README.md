@@ -27,12 +27,12 @@ Files are divided into three folders, with each folder corresponding to a unique
 
 **Additional Links**
 - **Publication** (**TODO** add publication link, currently in press)
-- **Publication Supplemental Materials** [https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/blob/main/Supplemental%20May%2029_2025.docx]
-- **Funding** - [NIH/NIEHS](https://www.niehs.nih.gov/), GRANT13248774
-- **OpenStreetMap** - https://www.openstreetmap.org/
-- **X (formerly Twitter)** - https://twitter.com/home
-- **Advancing Science, Practice, Programming and Policy in Research Translation for Children’s Environmental Health (ASP<sup>3</sup>IRE) Center** - https://health.oregonstate.edu/asp3ire
-- **NVIDIA Accelerator Research Program** - https://www.nvidia.com/en-us/industries/higher-education-research/applied-research-program/
+- [Publication Supplemental Materials](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/blob/main/Supplemental%20May%2029_2025.docx)
+- [Funding, NIH/NIEHS GRANT13248774](https://www.niehs.nih.gov/)
+- [OpenStreetMap](https://www.openstreetmap.org/)
+- [X (formerly Twitter)](https://twitter.com/home)
+- [Advancing Science, Practice, Programming and Policy in Research Translation for Children’s Environmental Health (ASP<sup>3</sup>IRE) Center](https://health.oregonstate.edu/asp3ire)
+- [NVIDIA Accelerator Research Program](https://www.nvidia.com/en-us/industries/higher-education-research/applied-research-program/)
   
 **Related Publications**
 - [Identifying children’s environmental health risks, needs, misconceptions, and opportunities for research translation using social media](https://www.explorationpub.com/Journals/edht/Article/101111)
