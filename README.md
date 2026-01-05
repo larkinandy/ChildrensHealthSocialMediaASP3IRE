@@ -25,7 +25,9 @@ Files are divided into three folders, with each folder corresponding to a unique
 - **[deep learning](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/master/deep_learning)** - multimodal models for extracting information from X text and imagery <br>
 - **[analysis](https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/tree/master/analysis)** - analyzing records for trends related to children's environmental health. <br>
 
-**External Links**
+**Additional Links**
+- **Publication** (**TODO** add publication link, currently in press)
+- **Publication Supplemental Materials** [https://github.com/larkinandy/ChildrensHealthSocialMediaASP3IRE/blob/main/Supplemental%20May%2029_2025.docx]
 - **Funding** - [NIH/NIEHS](https://www.niehs.nih.gov/), GRANT13248774
 - **OpenStreetMap** - https://www.openstreetmap.org/
 - **X (formerly Twitter)** - https://twitter.com/home
