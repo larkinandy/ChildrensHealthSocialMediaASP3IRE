@@ -32,7 +32,7 @@ Files are divided into three folders, with each folder corresponding to a unique
 - [OpenStreetMap](https://www.openstreetmap.org/)
 - [X (formerly Twitter)](https://twitter.com/home)
 - [Advancing Science, Practice, Programming and Policy in Research Translation for Children’s Environmental Health (ASP<sup>3</sup>IRE) Center](https://health.oregonstate.edu/asp3ire)
-- [NVIDIA Accelerator Research Program](https://www.nvidia.com/en-us/industries/higher-education-research/applied-research-program/)
+- [NVIDIA Applied Research Accelerator Program](https://www.nvidia.com/en-us/industries/higher-education-research/applied-research-program/)
   
 **Related Publications**
 - [Identifying children’s environmental health risks, needs, misconceptions, and opportunities for research translation using social media](https://www.explorationpub.com/Journals/edht/Article/101111)
