@@ -10,3 +10,11 @@ deep_learning/implementation/mySecrets.py
 deep_learning/train_models/multiModalModels/mySecrets.py
 deep_learning/analysis/mySecrets.py
 deep_learning/create_training_dataset/analysis/mySecrets.py
+
+# Codex-generated working files, dashboard prototypes, data packets, and conversation notes.
+# Move reviewed scripts/data out of this folder before adding them to the public repo.
+codex_generated/
+
+# Python local caches
+__pycache__/
+*.py[cod]
