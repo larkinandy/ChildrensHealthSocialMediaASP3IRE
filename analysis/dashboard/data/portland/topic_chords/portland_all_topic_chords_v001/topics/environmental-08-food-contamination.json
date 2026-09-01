@@ -1,0 +1,1328 @@
+{
+  "schema_version": "1.0.0",
+  "city_id": "38900",
+  "domain": "environmental",
+  "category_id": "environmental-08",
+  "topic": "Food contamination",
+  "component_labels": [
+    "food contamination"
+  ],
+  "intersections": [
+    {
+      "intersecting_label": "children",
+      "overall_value": 55.32637739,
+      "percent_topic_posts_with_label": 55.4592721,
+      "percent_topic_authors_using_label_on_topic_post": 55.19348269,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 55.32637739,
+          "post_percentage_point_contribution": 55.4592721,
+          "author_percentage_point_contribution": 55.19348269
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school",
+      "overall_value": 12.70018037,
+      "percent_topic_posts_with_label": 11.95840555,
+      "percent_topic_authors_using_label_on_topic_post": 13.44195519,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 12.70018037,
+          "post_percentage_point_contribution": 11.95840555,
+          "author_percentage_point_contribution": 13.44195519
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infants",
+      "overall_value": 11.01896529,
+      "percent_topic_posts_with_label": 10.22530329,
+      "percent_topic_authors_using_label_on_topic_post": 11.81262729,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 11.01896529,
+          "post_percentage_point_contribution": 10.22530329,
+          "author_percentage_point_contribution": 11.81262729
+        }
+      ]
+    },
+    {
+      "intersecting_label": "parents and caregivers",
+      "overall_value": 10.07652476,
+      "percent_topic_posts_with_label": 9.35875217,
+      "percent_topic_authors_using_label_on_topic_post": 10.79429735,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 10.07652476,
+          "post_percentage_point_contribution": 9.35875217,
+          "author_percentage_point_contribution": 10.79429735
+        }
+      ]
+    },
+    {
+      "intersecting_label": "gastrointestinal illness",
+      "overall_value": 8.52943979,
+      "percent_topic_posts_with_label": 10.74523397,
+      "percent_topic_authors_using_label_on_topic_post": 6.31364562,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 8.52943979,
+          "post_percentage_point_contribution": 10.74523397,
+          "author_percentage_point_contribution": 6.31364562
+        }
+      ]
+    },
+    {
+      "intersecting_label": "toddlers",
+      "overall_value": 4.79885778,
+      "percent_topic_posts_with_label": 4.50606586,
+      "percent_topic_authors_using_label_on_topic_post": 5.09164969,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 4.79885778,
+          "post_percentage_point_contribution": 4.50606586,
+          "author_percentage_point_contribution": 5.09164969
+        }
+      ]
+    },
+    {
+      "intersecting_label": "allergens",
+      "overall_value": 3.76976213,
+      "percent_topic_posts_with_label": 3.46620451,
+      "percent_topic_authors_using_label_on_topic_post": 4.07331976,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 3.76976213,
+          "post_percentage_point_contribution": 3.46620451,
+          "author_percentage_point_contribution": 4.07331976
+        }
+      ]
+    },
+    {
+      "intersecting_label": "unhoused populations",
+      "overall_value": 3.58127402,
+      "percent_topic_posts_with_label": 3.29289428,
+      "percent_topic_authors_using_label_on_topic_post": 3.86965377,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 3.58127402,
+          "post_percentage_point_contribution": 3.29289428,
+          "author_percentage_point_contribution": 3.86965377
+        }
+      ]
+    },
+    {
+      "intersecting_label": "classroom",
+      "overall_value": 2.8273216,
+      "percent_topic_posts_with_label": 2.59965338,
+      "percent_topic_authors_using_label_on_topic_post": 3.05498982,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 2.8273216,
+          "post_percentage_point_contribution": 2.59965338,
+          "author_percentage_point_contribution": 3.05498982
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pets and companion animals",
+      "overall_value": 2.8273216,
+      "percent_topic_posts_with_label": 2.59965338,
+      "percent_topic_authors_using_label_on_topic_post": 3.05498982,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 2.8273216,
+          "post_percentage_point_contribution": 2.59965338,
+          "author_percentage_point_contribution": 3.05498982
+        }
+      ]
+    },
+    {
+      "intersecting_label": "students",
+      "overall_value": 2.8273216,
+      "percent_topic_posts_with_label": 2.59965338,
+      "percent_topic_authors_using_label_on_topic_post": 3.05498982,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 2.8273216,
+          "post_percentage_point_contribution": 2.59965338,
+          "author_percentage_point_contribution": 3.05498982
+        }
+      ]
+    },
+    {
+      "intersecting_label": "restaurant or food store",
+      "overall_value": 2.81214372,
+      "percent_topic_posts_with_label": 2.7729636,
+      "percent_topic_authors_using_label_on_topic_post": 2.85132383,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 2.81214372,
+          "post_percentage_point_contribution": 2.7729636,
+          "author_percentage_point_contribution": 2.85132383
+        }
+      ]
+    },
+    {
+      "intersecting_label": "home",
+      "overall_value": 2.63883349,
+      "percent_topic_posts_with_label": 2.42634315,
+      "percent_topic_authors_using_label_on_topic_post": 2.85132383,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 2.63883349,
+          "post_percentage_point_contribution": 2.42634315,
+          "author_percentage_point_contribution": 2.85132383
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cooking or food preparation",
+      "overall_value": 2.45034539,
+      "percent_topic_posts_with_label": 2.25303293,
+      "percent_topic_authors_using_label_on_topic_post": 2.64765784,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 2.45034539,
+          "post_percentage_point_contribution": 2.25303293,
+          "author_percentage_point_contribution": 2.64765784
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental justice",
+      "overall_value": 1.50790485,
+      "percent_topic_posts_with_label": 1.3864818,
+      "percent_topic_authors_using_label_on_topic_post": 1.6293279,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 1.50790485,
+          "post_percentage_point_contribution": 1.3864818,
+          "author_percentage_point_contribution": 1.6293279
+        }
+      ]
+    },
+    {
+      "intersecting_label": "families",
+      "overall_value": 1.40607186,
+      "percent_topic_posts_with_label": 1.3864818,
+      "percent_topic_authors_using_label_on_topic_post": 1.42566191,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 1.40607186,
+          "post_percentage_point_contribution": 1.3864818,
+          "author_percentage_point_contribution": 1.42566191
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adolescents",
+      "overall_value": 1.13092864,
+      "percent_topic_posts_with_label": 1.03986135,
+      "percent_topic_authors_using_label_on_topic_post": 1.22199593,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 1.13092864,
+          "post_percentage_point_contribution": 1.03986135,
+          "author_percentage_point_contribution": 1.22199593
+        }
+      ]
+    },
+    {
+      "intersecting_label": "acute poisoning",
+      "overall_value": 0.94244053,
+      "percent_topic_posts_with_label": 0.86655113,
+      "percent_topic_authors_using_label_on_topic_post": 1.01832994,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.94244053,
+          "post_percentage_point_contribution": 0.86655113,
+          "author_percentage_point_contribution": 1.01832994
+        }
+      ]
+    },
+    {
+      "intersecting_label": "child abuse or neglect",
+      "overall_value": 0.94244053,
+      "percent_topic_posts_with_label": 0.86655113,
+      "percent_topic_authors_using_label_on_topic_post": 1.01832994,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.94244053,
+          "post_percentage_point_contribution": 0.86655113,
+          "author_percentage_point_contribution": 1.01832994
+        }
+      ]
+    },
+    {
+      "intersecting_label": "contaminated drinking water",
+      "overall_value": 0.94244053,
+      "percent_topic_posts_with_label": 0.86655113,
+      "percent_topic_authors_using_label_on_topic_post": 1.01832994,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.94244053,
+          "post_percentage_point_contribution": 0.86655113,
+          "author_percentage_point_contribution": 1.01832994
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infectious disease",
+      "overall_value": 0.94244053,
+      "percent_topic_posts_with_label": 0.86655113,
+      "percent_topic_authors_using_label_on_topic_post": 1.01832994,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.94244053,
+          "post_percentage_point_contribution": 0.86655113,
+          "author_percentage_point_contribution": 1.01832994
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mortality or death",
+      "overall_value": 0.94244053,
+      "percent_topic_posts_with_label": 0.86655113,
+      "percent_topic_authors_using_label_on_topic_post": 1.01832994,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.94244053,
+          "post_percentage_point_contribution": 0.86655113,
+          "author_percentage_point_contribution": 1.01832994
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food insecurity",
+      "overall_value": 0.75395243,
+      "percent_topic_posts_with_label": 0.6932409,
+      "percent_topic_authors_using_label_on_topic_post": 0.81466395,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.75395243,
+          "post_percentage_point_contribution": 0.6932409,
+          "author_percentage_point_contribution": 0.81466395
+        }
+      ]
+    },
+    {
+      "intersecting_label": "playground",
+      "overall_value": 0.75395243,
+      "percent_topic_posts_with_label": 0.6932409,
+      "percent_topic_authors_using_label_on_topic_post": 0.81466395,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.75395243,
+          "post_percentage_point_contribution": 0.6932409,
+          "author_percentage_point_contribution": 0.81466395
+        }
+      ]
+    },
+    {
+      "intersecting_label": "street or roadway",
+      "overall_value": 0.75395243,
+      "percent_topic_posts_with_label": 0.6932409,
+      "percent_topic_authors_using_label_on_topic_post": 0.81466395,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.75395243,
+          "post_percentage_point_contribution": 0.6932409,
+          "author_percentage_point_contribution": 0.81466395
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cancer",
+      "overall_value": 0.56546432,
+      "percent_topic_posts_with_label": 0.51993068,
+      "percent_topic_authors_using_label_on_topic_post": 0.61099796,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.56546432,
+          "post_percentage_point_contribution": 0.51993068,
+          "author_percentage_point_contribution": 0.61099796
+        }
+      ]
+    },
+    {
+      "intersecting_label": "farm or agricultural setting",
+      "overall_value": 0.56546432,
+      "percent_topic_posts_with_label": 0.51993068,
+      "percent_topic_authors_using_label_on_topic_post": 0.61099796,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.56546432,
+          "post_percentage_point_contribution": 0.51993068,
+          "author_percentage_point_contribution": 0.61099796
+        }
+      ]
+    },
+    {
+      "intersecting_label": "garden or yard",
+      "overall_value": 0.56546432,
+      "percent_topic_posts_with_label": 0.51993068,
+      "percent_topic_authors_using_label_on_topic_post": 0.61099796,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.56546432,
+          "post_percentage_point_contribution": 0.51993068,
+          "author_percentage_point_contribution": 0.61099796
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare facility",
+      "overall_value": 0.56546432,
+      "percent_topic_posts_with_label": 0.51993068,
+      "percent_topic_authors_using_label_on_topic_post": 0.61099796,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.56546432,
+          "post_percentage_point_contribution": 0.51993068,
+          "author_percentage_point_contribution": 0.61099796
+        }
+      ]
+    },
+    {
+      "intersecting_label": "household chemicals",
+      "overall_value": 0.56546432,
+      "percent_topic_posts_with_label": 0.51993068,
+      "percent_topic_authors_using_label_on_topic_post": 0.61099796,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.56546432,
+          "post_percentage_point_contribution": 0.51993068,
+          "author_percentage_point_contribution": 0.61099796
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infectious disease exposure",
+      "overall_value": 0.56546432,
+      "percent_topic_posts_with_label": 0.51993068,
+      "percent_topic_authors_using_label_on_topic_post": 0.61099796,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.56546432,
+          "post_percentage_point_contribution": 0.51993068,
+          "author_percentage_point_contribution": 0.61099796
+        }
+      ]
+    },
+    {
+      "intersecting_label": "neighborhood",
+      "overall_value": 0.56546432,
+      "percent_topic_posts_with_label": 0.51993068,
+      "percent_topic_authors_using_label_on_topic_post": 0.61099796,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.56546432,
+          "post_percentage_point_contribution": 0.51993068,
+          "author_percentage_point_contribution": 0.61099796
+        }
+      ]
+    },
+    {
+      "intersecting_label": "outdoor environment",
+      "overall_value": 0.56546432,
+      "percent_topic_posts_with_label": 0.51993068,
+      "percent_topic_authors_using_label_on_topic_post": 0.61099796,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.56546432,
+          "post_percentage_point_contribution": 0.51993068,
+          "author_percentage_point_contribution": 0.61099796
+        }
+      ]
+    },
+    {
+      "intersecting_label": "park or green space",
+      "overall_value": 0.56546432,
+      "percent_topic_posts_with_label": 0.51993068,
+      "percent_topic_authors_using_label_on_topic_post": 0.61099796,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.56546432,
+          "post_percentage_point_contribution": 0.51993068,
+          "author_percentage_point_contribution": 0.61099796
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pesticides",
+      "overall_value": 0.56546432,
+      "percent_topic_posts_with_label": 0.51993068,
+      "percent_topic_authors_using_label_on_topic_post": 0.61099796,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.56546432,
+          "post_percentage_point_contribution": 0.51993068,
+          "author_percentage_point_contribution": 0.61099796
+        }
+      ]
+    },
+    {
+      "intersecting_label": "public transit",
+      "overall_value": 0.56546432,
+      "percent_topic_posts_with_label": 0.51993068,
+      "percent_topic_authors_using_label_on_topic_post": 0.61099796,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.56546432,
+          "post_percentage_point_contribution": 0.51993068,
+          "author_percentage_point_contribution": 0.61099796
+        }
+      ]
+    },
+    {
+      "intersecting_label": "COVID-19",
+      "overall_value": 0.37697621,
+      "percent_topic_posts_with_label": 0.34662045,
+      "percent_topic_authors_using_label_on_topic_post": 0.40733198,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.37697621,
+          "post_percentage_point_contribution": 0.34662045,
+          "author_percentage_point_contribution": 0.40733198
+        }
+      ]
+    },
+    {
+      "intersecting_label": "arsenic",
+      "overall_value": 0.37697621,
+      "percent_topic_posts_with_label": 0.34662045,
+      "percent_topic_authors_using_label_on_topic_post": 0.40733198,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.37697621,
+          "post_percentage_point_contribution": 0.34662045,
+          "author_percentage_point_contribution": 0.40733198
+        }
+      ]
+    },
+    {
+      "intersecting_label": "asthma",
+      "overall_value": 0.37697621,
+      "percent_topic_posts_with_label": 0.34662045,
+      "percent_topic_authors_using_label_on_topic_post": 0.40733198,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.37697621,
+          "post_percentage_point_contribution": 0.34662045,
+          "author_percentage_point_contribution": 0.40733198
+        }
+      ]
+    },
+    {
+      "intersecting_label": "beach or coastal area",
+      "overall_value": 0.37697621,
+      "percent_topic_posts_with_label": 0.34662045,
+      "percent_topic_authors_using_label_on_topic_post": 0.40733198,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.37697621,
+          "post_percentage_point_contribution": 0.34662045,
+          "author_percentage_point_contribution": 0.40733198
+        }
+      ]
+    },
+    {
+      "intersecting_label": "community program or service",
+      "overall_value": 0.37697621,
+      "percent_topic_posts_with_label": 0.34662045,
+      "percent_topic_authors_using_label_on_topic_post": 0.40733198,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.37697621,
+          "post_percentage_point_contribution": 0.34662045,
+          "author_percentage_point_contribution": 0.40733198
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health disparity",
+      "overall_value": 0.37697621,
+      "percent_topic_posts_with_label": 0.34662045,
+      "percent_topic_authors_using_label_on_topic_post": 0.40733198,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.37697621,
+          "post_percentage_point_contribution": 0.34662045,
+          "author_percentage_point_contribution": 0.40733198
+        }
+      ]
+    },
+    {
+      "intersecting_label": "lead exposure",
+      "overall_value": 0.37697621,
+      "percent_topic_posts_with_label": 0.34662045,
+      "percent_topic_authors_using_label_on_topic_post": 0.40733198,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.37697621,
+          "post_percentage_point_contribution": 0.34662045,
+          "author_percentage_point_contribution": 0.40733198
+        }
+      ]
+    },
+    {
+      "intersecting_label": "medical care",
+      "overall_value": 0.37697621,
+      "percent_topic_posts_with_label": 0.34662045,
+      "percent_topic_authors_using_label_on_topic_post": 0.40733198,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.37697621,
+          "post_percentage_point_contribution": 0.34662045,
+          "author_percentage_point_contribution": 0.40733198
+        }
+      ]
+    },
+    {
+      "intersecting_label": "medication use",
+      "overall_value": 0.37697621,
+      "percent_topic_posts_with_label": 0.34662045,
+      "percent_topic_authors_using_label_on_topic_post": 0.40733198,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.37697621,
+          "post_percentage_point_contribution": 0.34662045,
+          "author_percentage_point_contribution": 0.40733198
+        }
+      ]
+    },
+    {
+      "intersecting_label": "racial and ethnic minority populations",
+      "overall_value": 0.37697621,
+      "percent_topic_posts_with_label": 0.34662045,
+      "percent_topic_authors_using_label_on_topic_post": 0.40733198,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.37697621,
+          "post_percentage_point_contribution": 0.34662045,
+          "author_percentage_point_contribution": 0.40733198
+        }
+      ]
+    },
+    {
+      "intersecting_label": "violence or crime",
+      "overall_value": 0.37697621,
+      "percent_topic_posts_with_label": 0.34662045,
+      "percent_topic_authors_using_label_on_topic_post": 0.40733198,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.37697621,
+          "post_percentage_point_contribution": 0.34662045,
+          "author_percentage_point_contribution": 0.40733198
+        }
+      ]
+    },
+    {
+      "intersecting_label": "workplace",
+      "overall_value": 0.37697621,
+      "percent_topic_posts_with_label": 0.34662045,
+      "percent_topic_authors_using_label_on_topic_post": 0.40733198,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.37697621,
+          "post_percentage_point_contribution": 0.34662045,
+          "author_percentage_point_contribution": 0.40733198
+        }
+      ]
+    },
+    {
+      "intersecting_label": "fever",
+      "overall_value": 0.36179833,
+      "percent_topic_posts_with_label": 0.51993068,
+      "percent_topic_authors_using_label_on_topic_post": 0.20366599,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.36179833,
+          "post_percentage_point_contribution": 0.51993068,
+          "author_percentage_point_contribution": 0.20366599
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pregnant people",
+      "overall_value": 0.27514322,
+      "percent_topic_posts_with_label": 0.34662045,
+      "percent_topic_authors_using_label_on_topic_post": 0.20366599,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.27514322,
+          "post_percentage_point_contribution": 0.34662045,
+          "author_percentage_point_contribution": 0.20366599
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adverse birth outcome",
+      "overall_value": 0.18848811,
+      "percent_topic_posts_with_label": 0.17331023,
+      "percent_topic_authors_using_label_on_topic_post": 0.20366599,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.18848811,
+          "post_percentage_point_contribution": 0.17331023,
+          "author_percentage_point_contribution": 0.20366599
+        }
+      ]
+    },
+    {
+      "intersecting_label": "allergic disease",
+      "overall_value": 0.18848811,
+      "percent_topic_posts_with_label": 0.17331023,
+      "percent_topic_authors_using_label_on_topic_post": 0.20366599,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.18848811,
+          "post_percentage_point_contribution": 0.17331023,
+          "author_percentage_point_contribution": 0.20366599
+        }
+      ]
+    },
+    {
+      "intersecting_label": "ambient air pollution",
+      "overall_value": 0.18848811,
+      "percent_topic_posts_with_label": 0.17331023,
+      "percent_topic_authors_using_label_on_topic_post": 0.20366599,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.18848811,
+          "post_percentage_point_contribution": 0.17331023,
+          "author_percentage_point_contribution": 0.20366599
+        }
+      ]
+    },
+    {
+      "intersecting_label": "apartment",
+      "overall_value": 0.18848811,
+      "percent_topic_posts_with_label": 0.17331023,
+      "percent_topic_authors_using_label_on_topic_post": 0.20366599,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.18848811,
+          "post_percentage_point_contribution": 0.17331023,
+          "author_percentage_point_contribution": 0.20366599
+        }
+      ]
+    },
+    {
+      "intersecting_label": "asbestos",
+      "overall_value": 0.18848811,
+      "percent_topic_posts_with_label": 0.17331023,
+      "percent_topic_authors_using_label_on_topic_post": 0.20366599,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.18848811,
+          "post_percentage_point_contribution": 0.17331023,
+          "author_percentage_point_contribution": 0.20366599
+        }
+      ]
+    },
+    {
+      "intersecting_label": "autism",
+      "overall_value": 0.18848811,
+      "percent_topic_posts_with_label": 0.17331023,
+      "percent_topic_authors_using_label_on_topic_post": 0.20366599,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.18848811,
+          "post_percentage_point_contribution": 0.17331023,
+          "author_percentage_point_contribution": 0.20366599
+        }
+      ]
+    },
+    {
+      "intersecting_label": "birth defect",
+      "overall_value": 0.18848811,
+      "percent_topic_posts_with_label": 0.17331023,
+      "percent_topic_authors_using_label_on_topic_post": 0.20366599,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.18848811,
+          "post_percentage_point_contribution": 0.17331023,
+          "author_percentage_point_contribution": 0.20366599
+        }
+      ]
+    },
+    {
+      "intersecting_label": "breastfeeding",
+      "overall_value": 0.18848811,
+      "percent_topic_posts_with_label": 0.17331023,
+      "percent_topic_authors_using_label_on_topic_post": 0.20366599,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.18848811,
+          "post_percentage_point_contribution": 0.17331023,
+          "author_percentage_point_contribution": 0.20366599
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childcare center",
+      "overall_value": 0.18848811,
+      "percent_topic_posts_with_label": 0.17331023,
+      "percent_topic_authors_using_label_on_topic_post": 0.20366599,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.18848811,
+          "post_percentage_point_contribution": 0.17331023,
+          "author_percentage_point_contribution": 0.20366599
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childcare workers",
+      "overall_value": 0.18848811,
+      "percent_topic_posts_with_label": 0.17331023,
+      "percent_topic_authors_using_label_on_topic_post": 0.20366599,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.18848811,
+          "post_percentage_point_contribution": 0.17331023,
+          "author_percentage_point_contribution": 0.20366599
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cleaning or disinfection",
+      "overall_value": 0.18848811,
+      "percent_topic_posts_with_label": 0.17331023,
+      "percent_topic_authors_using_label_on_topic_post": 0.20366599,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.18848811,
+          "post_percentage_point_contribution": 0.17331023,
+          "author_percentage_point_contribution": 0.20366599
+        }
+      ]
+    },
+    {
+      "intersecting_label": "climate change",
+      "overall_value": 0.18848811,
+      "percent_topic_posts_with_label": 0.17331023,
+      "percent_topic_authors_using_label_on_topic_post": 0.20366599,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.18848811,
+          "post_percentage_point_contribution": 0.17331023,
+          "author_percentage_point_contribution": 0.20366599
+        }
+      ]
+    },
+    {
+      "intersecting_label": "commercial area",
+      "overall_value": 0.18848811,
+      "percent_topic_posts_with_label": 0.17331023,
+      "percent_topic_authors_using_label_on_topic_post": 0.20366599,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.18848811,
+          "post_percentage_point_contribution": 0.17331023,
+          "author_percentage_point_contribution": 0.20366599
+        }
+      ]
+    },
+    {
+      "intersecting_label": "dental caries",
+      "overall_value": 0.18848811,
+      "percent_topic_posts_with_label": 0.17331023,
+      "percent_topic_authors_using_label_on_topic_post": 0.20366599,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.18848811,
+          "post_percentage_point_contribution": 0.17331023,
+          "author_percentage_point_contribution": 0.20366599
+        }
+      ]
+    },
+    {
+      "intersecting_label": "dental clinic",
+      "overall_value": 0.18848811,
+      "percent_topic_posts_with_label": 0.17331023,
+      "percent_topic_authors_using_label_on_topic_post": 0.20366599,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.18848811,
+          "post_percentage_point_contribution": 0.17331023,
+          "author_percentage_point_contribution": 0.20366599
+        }
+      ]
+    },
+    {
+      "intersecting_label": "discrimination",
+      "overall_value": 0.18848811,
+      "percent_topic_posts_with_label": 0.17331023,
+      "percent_topic_authors_using_label_on_topic_post": 0.20366599,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.18848811,
+          "post_percentage_point_contribution": 0.17331023,
+          "author_percentage_point_contribution": 0.20366599
+        }
+      ]
+    },
+    {
+      "intersecting_label": "drug exposure or use",
+      "overall_value": 0.18848811,
+      "percent_topic_posts_with_label": 0.17331023,
+      "percent_topic_authors_using_label_on_topic_post": 0.20366599,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.18848811,
+          "post_percentage_point_contribution": 0.17331023,
+          "author_percentage_point_contribution": 0.20366599
+        }
+      ]
+    },
+    {
+      "intersecting_label": "endocrine-disrupting chemicals",
+      "overall_value": 0.18848811,
+      "percent_topic_posts_with_label": 0.17331023,
+      "percent_topic_authors_using_label_on_topic_post": 0.20366599,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.18848811,
+          "post_percentage_point_contribution": 0.17331023,
+          "author_percentage_point_contribution": 0.20366599
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental policy or regulation",
+      "overall_value": 0.18848811,
+      "percent_topic_posts_with_label": 0.17331023,
+      "percent_topic_authors_using_label_on_topic_post": 0.20366599,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.18848811,
+          "post_percentage_point_contribution": 0.17331023,
+          "author_percentage_point_contribution": 0.20366599
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental testing",
+      "overall_value": 0.18848811,
+      "percent_topic_posts_with_label": 0.17331023,
+      "percent_topic_authors_using_label_on_topic_post": 0.20366599,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.18848811,
+          "post_percentage_point_contribution": 0.17331023,
+          "author_percentage_point_contribution": 0.20366599
+        }
+      ]
+    },
+    {
+      "intersecting_label": "extreme heat",
+      "overall_value": 0.18848811,
+      "percent_topic_posts_with_label": 0.17331023,
+      "percent_topic_authors_using_label_on_topic_post": 0.20366599,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.18848811,
+          "post_percentage_point_contribution": 0.17331023,
+          "author_percentage_point_contribution": 0.20366599
+        }
+      ]
+    },
+    {
+      "intersecting_label": "fire hazard",
+      "overall_value": 0.18848811,
+      "percent_topic_posts_with_label": 0.17331023,
+      "percent_topic_authors_using_label_on_topic_post": 0.20366599,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.18848811,
+          "post_percentage_point_contribution": 0.17331023,
+          "author_percentage_point_contribution": 0.20366599
+        }
+      ]
+    },
+    {
+      "intersecting_label": "generic smoke",
+      "overall_value": 0.18848811,
+      "percent_topic_posts_with_label": 0.17331023,
+      "percent_topic_authors_using_label_on_topic_post": 0.20366599,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.18848811,
+          "post_percentage_point_contribution": 0.17331023,
+          "author_percentage_point_contribution": 0.20366599
+        }
+      ]
+    },
+    {
+      "intersecting_label": "hazardous chemicals",
+      "overall_value": 0.18848811,
+      "percent_topic_posts_with_label": 0.17331023,
+      "percent_topic_authors_using_label_on_topic_post": 0.20366599,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.18848811,
+          "post_percentage_point_contribution": 0.17331023,
+          "author_percentage_point_contribution": 0.20366599
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health education or awareness",
+      "overall_value": 0.18848811,
+      "percent_topic_posts_with_label": 0.17331023,
+      "percent_topic_authors_using_label_on_topic_post": 0.20366599,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.18848811,
+          "post_percentage_point_contribution": 0.17331023,
+          "author_percentage_point_contribution": 0.20366599
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health screening or testing",
+      "overall_value": 0.18848811,
+      "percent_topic_posts_with_label": 0.17331023,
+      "percent_topic_authors_using_label_on_topic_post": 0.20366599,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.18848811,
+          "post_percentage_point_contribution": 0.17331023,
+          "author_percentage_point_contribution": 0.20366599
+        }
+      ]
+    },
+    {
+      "intersecting_label": "industrial chemicals",
+      "overall_value": 0.18848811,
+      "percent_topic_posts_with_label": 0.17331023,
+      "percent_topic_authors_using_label_on_topic_post": 0.20366599,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.18848811,
+          "post_percentage_point_contribution": 0.17331023,
+          "author_percentage_point_contribution": 0.20366599
+        }
+      ]
+    },
+    {
+      "intersecting_label": "industrial site",
+      "overall_value": 0.18848811,
+      "percent_topic_posts_with_label": 0.17331023,
+      "percent_topic_authors_using_label_on_topic_post": 0.20366599,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.18848811,
+          "post_percentage_point_contribution": 0.17331023,
+          "author_percentage_point_contribution": 0.20366599
+        }
+      ]
+    },
+    {
+      "intersecting_label": "injury",
+      "overall_value": 0.18848811,
+      "percent_topic_posts_with_label": 0.17331023,
+      "percent_topic_authors_using_label_on_topic_post": 0.20366599,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.18848811,
+          "post_percentage_point_contribution": 0.17331023,
+          "author_percentage_point_contribution": 0.20366599
+        }
+      ]
+    },
+    {
+      "intersecting_label": "lead poisoning",
+      "overall_value": 0.18848811,
+      "percent_topic_posts_with_label": 0.17331023,
+      "percent_topic_authors_using_label_on_topic_post": 0.20366599,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.18848811,
+          "post_percentage_point_contribution": 0.17331023,
+          "author_percentage_point_contribution": 0.20366599
+        }
+      ]
+    },
+    {
+      "intersecting_label": "liver disease",
+      "overall_value": 0.18848811,
+      "percent_topic_posts_with_label": 0.17331023,
+      "percent_topic_authors_using_label_on_topic_post": 0.20366599,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.18848811,
+          "post_percentage_point_contribution": 0.17331023,
+          "author_percentage_point_contribution": 0.20366599
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mask use",
+      "overall_value": 0.18848811,
+      "percent_topic_posts_with_label": 0.17331023,
+      "percent_topic_authors_using_label_on_topic_post": 0.20366599,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.18848811,
+          "post_percentage_point_contribution": 0.17331023,
+          "author_percentage_point_contribution": 0.20366599
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mental health condition",
+      "overall_value": 0.18848811,
+      "percent_topic_posts_with_label": 0.17331023,
+      "percent_topic_authors_using_label_on_topic_post": 0.20366599,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.18848811,
+          "post_percentage_point_contribution": 0.17331023,
+          "author_percentage_point_contribution": 0.20366599
+        }
+      ]
+    },
+    {
+      "intersecting_label": "motor vehicle",
+      "overall_value": 0.18848811,
+      "percent_topic_posts_with_label": 0.17331023,
+      "percent_topic_authors_using_label_on_topic_post": 0.20366599,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.18848811,
+          "post_percentage_point_contribution": 0.17331023,
+          "author_percentage_point_contribution": 0.20366599
+        }
+      ]
+    },
+    {
+      "intersecting_label": "poverty or financial hardship",
+      "overall_value": 0.18848811,
+      "percent_topic_posts_with_label": 0.17331023,
+      "percent_topic_authors_using_label_on_topic_post": 0.20366599,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.18848811,
+          "post_percentage_point_contribution": 0.17331023,
+          "author_percentage_point_contribution": 0.20366599
+        }
+      ]
+    },
+    {
+      "intersecting_label": "reproductive health condition",
+      "overall_value": 0.18848811,
+      "percent_topic_posts_with_label": 0.17331023,
+      "percent_topic_authors_using_label_on_topic_post": 0.20366599,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.18848811,
+          "post_percentage_point_contribution": 0.17331023,
+          "author_percentage_point_contribution": 0.20366599
+        }
+      ]
+    },
+    {
+      "intersecting_label": "river lake or water body",
+      "overall_value": 0.18848811,
+      "percent_topic_posts_with_label": 0.17331023,
+      "percent_topic_authors_using_label_on_topic_post": 0.20366599,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.18848811,
+          "post_percentage_point_contribution": 0.17331023,
+          "author_percentage_point_contribution": 0.20366599
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school closure",
+      "overall_value": 0.18848811,
+      "percent_topic_posts_with_label": 0.17331023,
+      "percent_topic_authors_using_label_on_topic_post": 0.20366599,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.18848811,
+          "post_percentage_point_contribution": 0.17331023,
+          "author_percentage_point_contribution": 0.20366599
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sewage or wastewater",
+      "overall_value": 0.18848811,
+      "percent_topic_posts_with_label": 0.17331023,
+      "percent_topic_authors_using_label_on_topic_post": 0.20366599,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.18848811,
+          "post_percentage_point_contribution": 0.17331023,
+          "author_percentage_point_contribution": 0.20366599
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sleep problem",
+      "overall_value": 0.18848811,
+      "percent_topic_posts_with_label": 0.17331023,
+      "percent_topic_authors_using_label_on_topic_post": 0.20366599,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.18848811,
+          "post_percentage_point_contribution": 0.17331023,
+          "author_percentage_point_contribution": 0.20366599
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sports or recreation facility",
+      "overall_value": 0.18848811,
+      "percent_topic_posts_with_label": 0.17331023,
+      "percent_topic_authors_using_label_on_topic_post": 0.20366599,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.18848811,
+          "post_percentage_point_contribution": 0.17331023,
+          "author_percentage_point_contribution": 0.20366599
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sports participation",
+      "overall_value": 0.18848811,
+      "percent_topic_posts_with_label": 0.17331023,
+      "percent_topic_authors_using_label_on_topic_post": 0.20366599,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.18848811,
+          "post_percentage_point_contribution": 0.17331023,
+          "author_percentage_point_contribution": 0.20366599
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic hazard",
+      "overall_value": 0.18848811,
+      "percent_topic_posts_with_label": 0.17331023,
+      "percent_topic_authors_using_label_on_topic_post": 0.20366599,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.18848811,
+          "post_percentage_point_contribution": 0.17331023,
+          "author_percentage_point_contribution": 0.20366599
+        }
+      ]
+    },
+    {
+      "intersecting_label": "vision problem",
+      "overall_value": 0.18848811,
+      "percent_topic_posts_with_label": 0.17331023,
+      "percent_topic_authors_using_label_on_topic_post": 0.20366599,
+      "links": [
+        {
+          "component_label": "food contamination",
+          "value": 0.18848811,
+          "post_percentage_point_contribution": 0.17331023,
+          "author_percentage_point_contribution": 0.20366599
+        }
+      ]
+    }
+  ]
+}

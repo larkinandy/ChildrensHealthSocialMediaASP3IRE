@@ -1,0 +1,1384 @@
+{
+  "schema_version": "1.0.0",
+  "city_id": "38900",
+  "domain": "environmental",
+  "category_id": "environmental-03",
+  "topic": "Heat",
+  "component_labels": [
+    "extreme heat"
+  ],
+  "intersections": [
+    {
+      "intersecting_label": "children",
+      "overall_value": 65.58000997,
+      "percent_topic_posts_with_label": 65.04237288,
+      "percent_topic_authors_using_label_on_topic_post": 66.11764706,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 65.58000997,
+          "post_percentage_point_contribution": 65.04237288,
+          "author_percentage_point_contribution": 66.11764706
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school",
+      "overall_value": 31.25423729,
+      "percent_topic_posts_with_label": 30.50847458,
+      "percent_topic_authors_using_label_on_topic_post": 32.0,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 31.25423729,
+          "post_percentage_point_contribution": 30.50847458,
+          "author_percentage_point_contribution": 32.0
+        }
+      ]
+    },
+    {
+      "intersecting_label": "parents and caregivers",
+      "overall_value": 9.14332004,
+      "percent_topic_posts_with_label": 9.11016949,
+      "percent_topic_authors_using_label_on_topic_post": 9.17647059,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 9.14332004,
+          "post_percentage_point_contribution": 9.11016949,
+          "author_percentage_point_contribution": 9.17647059
+        }
+      ]
+    },
+    {
+      "intersecting_label": "outdoor environment",
+      "overall_value": 8.82552343,
+      "percent_topic_posts_with_label": 8.47457627,
+      "percent_topic_authors_using_label_on_topic_post": 9.17647059,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 8.82552343,
+          "post_percentage_point_contribution": 8.47457627,
+          "author_percentage_point_contribution": 9.17647059
+        }
+      ]
+    },
+    {
+      "intersecting_label": "outdoor play or recreation",
+      "overall_value": 8.49601196,
+      "percent_topic_posts_with_label": 8.05084746,
+      "percent_topic_authors_using_label_on_topic_post": 8.94117647,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 8.49601196,
+          "post_percentage_point_contribution": 8.05084746,
+          "author_percentage_point_contribution": 8.94117647
+        }
+      ]
+    },
+    {
+      "intersecting_label": "home",
+      "overall_value": 6.93095713,
+      "percent_topic_posts_with_label": 6.56779661,
+      "percent_topic_authors_using_label_on_topic_post": 7.29411765,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 6.93095713,
+          "post_percentage_point_contribution": 6.56779661,
+          "author_percentage_point_contribution": 7.29411765
+        }
+      ]
+    },
+    {
+      "intersecting_label": "students",
+      "overall_value": 6.70737787,
+      "percent_topic_posts_with_label": 6.3559322,
+      "percent_topic_authors_using_label_on_topic_post": 7.05882353,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 6.70737787,
+          "post_percentage_point_contribution": 6.3559322,
+          "author_percentage_point_contribution": 7.05882353
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infants",
+      "overall_value": 6.14257228,
+      "percent_topic_posts_with_label": 5.93220339,
+      "percent_topic_authors_using_label_on_topic_post": 6.35294118,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 6.14257228,
+          "post_percentage_point_contribution": 5.93220339,
+          "author_percentage_point_contribution": 6.35294118
+        }
+      ]
+    },
+    {
+      "intersecting_label": "park or green space",
+      "overall_value": 6.02492522,
+      "percent_topic_posts_with_label": 5.93220339,
+      "percent_topic_authors_using_label_on_topic_post": 6.11764706,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 6.02492522,
+          "post_percentage_point_contribution": 5.93220339,
+          "author_percentage_point_contribution": 6.11764706
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pets and companion animals",
+      "overall_value": 4.47158524,
+      "percent_topic_posts_with_label": 4.23728814,
+      "percent_topic_authors_using_label_on_topic_post": 4.70588235,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 4.47158524,
+          "post_percentage_point_contribution": 4.23728814,
+          "author_percentage_point_contribution": 4.70588235
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adolescents",
+      "overall_value": 3.35368893,
+      "percent_topic_posts_with_label": 3.1779661,
+      "percent_topic_authors_using_label_on_topic_post": 3.52941176,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 3.35368893,
+          "post_percentage_point_contribution": 3.1779661,
+          "author_percentage_point_contribution": 3.52941176
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sports participation",
+      "overall_value": 3.35368893,
+      "percent_topic_posts_with_label": 3.1779661,
+      "percent_topic_authors_using_label_on_topic_post": 3.52941176,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 3.35368893,
+          "post_percentage_point_contribution": 3.1779661,
+          "author_percentage_point_contribution": 3.52941176
+        }
+      ]
+    },
+    {
+      "intersecting_label": "heat-related illness",
+      "overall_value": 3.11839482,
+      "percent_topic_posts_with_label": 3.1779661,
+      "percent_topic_authors_using_label_on_topic_post": 3.05882353,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 3.11839482,
+          "post_percentage_point_contribution": 3.1779661,
+          "author_percentage_point_contribution": 3.05882353
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school closure",
+      "overall_value": 2.90653041,
+      "percent_topic_posts_with_label": 2.75423729,
+      "percent_topic_authors_using_label_on_topic_post": 3.05882353,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 2.90653041,
+          "post_percentage_point_contribution": 2.75423729,
+          "author_percentage_point_contribution": 3.05882353
+        }
+      ]
+    },
+    {
+      "intersecting_label": "families",
+      "overall_value": 2.68295115,
+      "percent_topic_posts_with_label": 2.54237288,
+      "percent_topic_authors_using_label_on_topic_post": 2.82352941,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 2.68295115,
+          "post_percentage_point_contribution": 2.54237288,
+          "author_percentage_point_contribution": 2.82352941
+        }
+      ]
+    },
+    {
+      "intersecting_label": "child abuse or neglect",
+      "overall_value": 2.45937188,
+      "percent_topic_posts_with_label": 2.33050847,
+      "percent_topic_authors_using_label_on_topic_post": 2.58823529,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 2.45937188,
+          "post_percentage_point_contribution": 2.33050847,
+          "author_percentage_point_contribution": 2.58823529
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mortality or death",
+      "overall_value": 1.7886341,
+      "percent_topic_posts_with_label": 1.69491525,
+      "percent_topic_authors_using_label_on_topic_post": 1.88235294,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 1.7886341,
+          "post_percentage_point_contribution": 1.69491525,
+          "author_percentage_point_contribution": 1.88235294
+        }
+      ]
+    },
+    {
+      "intersecting_label": "walking or bicycling",
+      "overall_value": 1.7886341,
+      "percent_topic_posts_with_label": 1.69491525,
+      "percent_topic_authors_using_label_on_topic_post": 1.88235294,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 1.7886341,
+          "post_percentage_point_contribution": 1.69491525,
+          "author_percentage_point_contribution": 1.88235294
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildfire smoke",
+      "overall_value": 1.56505484,
+      "percent_topic_posts_with_label": 1.48305085,
+      "percent_topic_authors_using_label_on_topic_post": 1.64705882,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 1.56505484,
+          "post_percentage_point_contribution": 1.48305085,
+          "author_percentage_point_contribution": 1.64705882
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sports or recreation facility",
+      "overall_value": 1.44740778,
+      "percent_topic_posts_with_label": 1.48305085,
+      "percent_topic_authors_using_label_on_topic_post": 1.41176471,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 1.44740778,
+          "post_percentage_point_contribution": 1.48305085,
+          "author_percentage_point_contribution": 1.41176471
+        }
+      ]
+    },
+    {
+      "intersecting_label": "swimming or water recreation",
+      "overall_value": 1.44740778,
+      "percent_topic_posts_with_label": 1.48305085,
+      "percent_topic_authors_using_label_on_topic_post": 1.41176471,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 1.44740778,
+          "post_percentage_point_contribution": 1.48305085,
+          "author_percentage_point_contribution": 1.41176471
+        }
+      ]
+    },
+    {
+      "intersecting_label": "activity cancellation",
+      "overall_value": 1.34147557,
+      "percent_topic_posts_with_label": 1.27118644,
+      "percent_topic_authors_using_label_on_topic_post": 1.41176471,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 1.34147557,
+          "post_percentage_point_contribution": 1.27118644,
+          "author_percentage_point_contribution": 1.41176471
+        }
+      ]
+    },
+    {
+      "intersecting_label": "climate change",
+      "overall_value": 1.34147557,
+      "percent_topic_posts_with_label": 1.27118644,
+      "percent_topic_authors_using_label_on_topic_post": 1.41176471,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 1.34147557,
+          "post_percentage_point_contribution": 1.27118644,
+          "author_percentage_point_contribution": 1.41176471
+        }
+      ]
+    },
+    {
+      "intersecting_label": "extreme cold",
+      "overall_value": 1.34147557,
+      "percent_topic_posts_with_label": 1.27118644,
+      "percent_topic_authors_using_label_on_topic_post": 1.41176471,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 1.34147557,
+          "post_percentage_point_contribution": 1.27118644,
+          "author_percentage_point_contribution": 1.41176471
+        }
+      ]
+    },
+    {
+      "intersecting_label": "toddlers",
+      "overall_value": 1.34147557,
+      "percent_topic_posts_with_label": 1.27118644,
+      "percent_topic_authors_using_label_on_topic_post": 1.41176471,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 1.34147557,
+          "post_percentage_point_contribution": 1.27118644,
+          "author_percentage_point_contribution": 1.41176471
+        }
+      ]
+    },
+    {
+      "intersecting_label": "indoor environment",
+      "overall_value": 1.11789631,
+      "percent_topic_posts_with_label": 1.05932203,
+      "percent_topic_authors_using_label_on_topic_post": 1.17647059,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 1.11789631,
+          "post_percentage_point_contribution": 1.05932203,
+          "author_percentage_point_contribution": 1.17647059
+        }
+      ]
+    },
+    {
+      "intersecting_label": "river lake or water body",
+      "overall_value": 1.11789631,
+      "percent_topic_posts_with_label": 1.05932203,
+      "percent_topic_authors_using_label_on_topic_post": 1.17647059,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 1.11789631,
+          "post_percentage_point_contribution": 1.05932203,
+          "author_percentage_point_contribution": 1.17647059
+        }
+      ]
+    },
+    {
+      "intersecting_label": "unsafe housing conditions",
+      "overall_value": 1.11789631,
+      "percent_topic_posts_with_label": 1.05932203,
+      "percent_topic_authors_using_label_on_topic_post": 1.17647059,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 1.11789631,
+          "post_percentage_point_contribution": 1.05932203,
+          "author_percentage_point_contribution": 1.17647059
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health disparity",
+      "overall_value": 0.89431705,
+      "percent_topic_posts_with_label": 0.84745763,
+      "percent_topic_authors_using_label_on_topic_post": 0.94117647,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.89431705,
+          "post_percentage_point_contribution": 0.84745763,
+          "author_percentage_point_contribution": 0.94117647
+        }
+      ]
+    },
+    {
+      "intersecting_label": "housing quality",
+      "overall_value": 0.89431705,
+      "percent_topic_posts_with_label": 0.84745763,
+      "percent_topic_authors_using_label_on_topic_post": 0.94117647,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.89431705,
+          "post_percentage_point_contribution": 0.84745763,
+          "author_percentage_point_contribution": 0.94117647
+        }
+      ]
+    },
+    {
+      "intersecting_label": "swimming pool",
+      "overall_value": 0.89431705,
+      "percent_topic_posts_with_label": 0.84745763,
+      "percent_topic_authors_using_label_on_topic_post": 0.94117647,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.89431705,
+          "post_percentage_point_contribution": 0.84745763,
+          "author_percentage_point_contribution": 0.94117647
+        }
+      ]
+    },
+    {
+      "intersecting_label": "teachers and school staff",
+      "overall_value": 0.89431705,
+      "percent_topic_posts_with_label": 0.84745763,
+      "percent_topic_authors_using_label_on_topic_post": 0.94117647,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.89431705,
+          "post_percentage_point_contribution": 0.84745763,
+          "author_percentage_point_contribution": 0.94117647
+        }
+      ]
+    },
+    {
+      "intersecting_label": "unhoused populations",
+      "overall_value": 0.89431705,
+      "percent_topic_posts_with_label": 0.84745763,
+      "percent_topic_authors_using_label_on_topic_post": 0.94117647,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.89431705,
+          "post_percentage_point_contribution": 0.84745763,
+          "author_percentage_point_contribution": 0.94117647
+        }
+      ]
+    },
+    {
+      "intersecting_label": "violence or crime",
+      "overall_value": 0.89431705,
+      "percent_topic_posts_with_label": 0.84745763,
+      "percent_topic_authors_using_label_on_topic_post": 0.94117647,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.89431705,
+          "post_percentage_point_contribution": 0.84745763,
+          "author_percentage_point_contribution": 0.94117647
+        }
+      ]
+    },
+    {
+      "intersecting_label": "shelter or temporary housing",
+      "overall_value": 0.77666999,
+      "percent_topic_posts_with_label": 0.84745763,
+      "percent_topic_authors_using_label_on_topic_post": 0.70588235,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.77666999,
+          "post_percentage_point_contribution": 0.84745763,
+          "author_percentage_point_contribution": 0.70588235
+        }
+      ]
+    },
+    {
+      "intersecting_label": "advocacy",
+      "overall_value": 0.67073779,
+      "percent_topic_posts_with_label": 0.63559322,
+      "percent_topic_authors_using_label_on_topic_post": 0.70588235,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.67073779,
+          "post_percentage_point_contribution": 0.63559322,
+          "author_percentage_point_contribution": 0.70588235
+        }
+      ]
+    },
+    {
+      "intersecting_label": "apartment",
+      "overall_value": 0.67073779,
+      "percent_topic_posts_with_label": 0.63559322,
+      "percent_topic_authors_using_label_on_topic_post": 0.70588235,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.67073779,
+          "post_percentage_point_contribution": 0.63559322,
+          "author_percentage_point_contribution": 0.70588235
+        }
+      ]
+    },
+    {
+      "intersecting_label": "classroom",
+      "overall_value": 0.67073779,
+      "percent_topic_posts_with_label": 0.63559322,
+      "percent_topic_authors_using_label_on_topic_post": 0.70588235,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.67073779,
+          "post_percentage_point_contribution": 0.63559322,
+          "author_percentage_point_contribution": 0.70588235
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cooking or food preparation",
+      "overall_value": 0.67073779,
+      "percent_topic_posts_with_label": 0.63559322,
+      "percent_topic_authors_using_label_on_topic_post": 0.70588235,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.67073779,
+          "post_percentage_point_contribution": 0.63559322,
+          "author_percentage_point_contribution": 0.70588235
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food insecurity",
+      "overall_value": 0.67073779,
+      "percent_topic_posts_with_label": 0.63559322,
+      "percent_topic_authors_using_label_on_topic_post": 0.70588235,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.67073779,
+          "post_percentage_point_contribution": 0.63559322,
+          "author_percentage_point_contribution": 0.70588235
+        }
+      ]
+    },
+    {
+      "intersecting_label": "low-income populations",
+      "overall_value": 0.67073779,
+      "percent_topic_posts_with_label": 0.63559322,
+      "percent_topic_authors_using_label_on_topic_post": 0.70588235,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.67073779,
+          "post_percentage_point_contribution": 0.63559322,
+          "author_percentage_point_contribution": 0.70588235
+        }
+      ]
+    },
+    {
+      "intersecting_label": "shortness of breath",
+      "overall_value": 0.67073779,
+      "percent_topic_posts_with_label": 0.63559322,
+      "percent_topic_authors_using_label_on_topic_post": 0.70588235,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.67073779,
+          "post_percentage_point_contribution": 0.63559322,
+          "author_percentage_point_contribution": 0.70588235
+        }
+      ]
+    },
+    {
+      "intersecting_label": "COVID-19",
+      "overall_value": 0.44715852,
+      "percent_topic_posts_with_label": 0.42372881,
+      "percent_topic_authors_using_label_on_topic_post": 0.47058824,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.44715852,
+          "post_percentage_point_contribution": 0.42372881,
+          "author_percentage_point_contribution": 0.47058824
+        }
+      ]
+    },
+    {
+      "intersecting_label": "anxiety",
+      "overall_value": 0.44715852,
+      "percent_topic_posts_with_label": 0.42372881,
+      "percent_topic_authors_using_label_on_topic_post": 0.47058824,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.44715852,
+          "post_percentage_point_contribution": 0.42372881,
+          "author_percentage_point_contribution": 0.47058824
+        }
+      ]
+    },
+    {
+      "intersecting_label": "asthma",
+      "overall_value": 0.44715852,
+      "percent_topic_posts_with_label": 0.42372881,
+      "percent_topic_authors_using_label_on_topic_post": 0.47058824,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.44715852,
+          "post_percentage_point_contribution": 0.42372881,
+          "author_percentage_point_contribution": 0.47058824
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cancer",
+      "overall_value": 0.44715852,
+      "percent_topic_posts_with_label": 0.42372881,
+      "percent_topic_authors_using_label_on_topic_post": 0.47058824,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.44715852,
+          "post_percentage_point_contribution": 0.42372881,
+          "author_percentage_point_contribution": 0.47058824
+        }
+      ]
+    },
+    {
+      "intersecting_label": "children with disabilities",
+      "overall_value": 0.44715852,
+      "percent_topic_posts_with_label": 0.42372881,
+      "percent_topic_authors_using_label_on_topic_post": 0.47058824,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.44715852,
+          "post_percentage_point_contribution": 0.42372881,
+          "author_percentage_point_contribution": 0.47058824
+        }
+      ]
+    },
+    {
+      "intersecting_label": "drought",
+      "overall_value": 0.44715852,
+      "percent_topic_posts_with_label": 0.42372881,
+      "percent_topic_authors_using_label_on_topic_post": 0.47058824,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.44715852,
+          "post_percentage_point_contribution": 0.42372881,
+          "author_percentage_point_contribution": 0.47058824
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental justice",
+      "overall_value": 0.44715852,
+      "percent_topic_posts_with_label": 0.42372881,
+      "percent_topic_authors_using_label_on_topic_post": 0.47058824,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.44715852,
+          "post_percentage_point_contribution": 0.42372881,
+          "author_percentage_point_contribution": 0.47058824
+        }
+      ]
+    },
+    {
+      "intersecting_label": "flooding",
+      "overall_value": 0.44715852,
+      "percent_topic_posts_with_label": 0.42372881,
+      "percent_topic_authors_using_label_on_topic_post": 0.47058824,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.44715852,
+          "post_percentage_point_contribution": 0.42372881,
+          "author_percentage_point_contribution": 0.47058824
+        }
+      ]
+    },
+    {
+      "intersecting_label": "gastrointestinal illness",
+      "overall_value": 0.44715852,
+      "percent_topic_posts_with_label": 0.42372881,
+      "percent_topic_authors_using_label_on_topic_post": 0.47058824,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.44715852,
+          "post_percentage_point_contribution": 0.42372881,
+          "author_percentage_point_contribution": 0.47058824
+        }
+      ]
+    },
+    {
+      "intersecting_label": "housing instability or homelessness",
+      "overall_value": 0.44715852,
+      "percent_topic_posts_with_label": 0.42372881,
+      "percent_topic_authors_using_label_on_topic_post": 0.47058824,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.44715852,
+          "post_percentage_point_contribution": 0.42372881,
+          "author_percentage_point_contribution": 0.47058824
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mask use",
+      "overall_value": 0.44715852,
+      "percent_topic_posts_with_label": 0.42372881,
+      "percent_topic_authors_using_label_on_topic_post": 0.47058824,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.44715852,
+          "post_percentage_point_contribution": 0.42372881,
+          "author_percentage_point_contribution": 0.47058824
+        }
+      ]
+    },
+    {
+      "intersecting_label": "motor vehicle",
+      "overall_value": 0.44715852,
+      "percent_topic_posts_with_label": 0.42372881,
+      "percent_topic_authors_using_label_on_topic_post": 0.47058824,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.44715852,
+          "post_percentage_point_contribution": 0.42372881,
+          "author_percentage_point_contribution": 0.47058824
+        }
+      ]
+    },
+    {
+      "intersecting_label": "neighborhood",
+      "overall_value": 0.44715852,
+      "percent_topic_posts_with_label": 0.42372881,
+      "percent_topic_authors_using_label_on_topic_post": 0.47058824,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.44715852,
+          "post_percentage_point_contribution": 0.42372881,
+          "author_percentage_point_contribution": 0.47058824
+        }
+      ]
+    },
+    {
+      "intersecting_label": "playground",
+      "overall_value": 0.44715852,
+      "percent_topic_posts_with_label": 0.42372881,
+      "percent_topic_authors_using_label_on_topic_post": 0.47058824,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.44715852,
+          "post_percentage_point_contribution": 0.42372881,
+          "author_percentage_point_contribution": 0.47058824
+        }
+      ]
+    },
+    {
+      "intersecting_label": "public transit",
+      "overall_value": 0.44715852,
+      "percent_topic_posts_with_label": 0.42372881,
+      "percent_topic_authors_using_label_on_topic_post": 0.47058824,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.44715852,
+          "post_percentage_point_contribution": 0.42372881,
+          "author_percentage_point_contribution": 0.47058824
+        }
+      ]
+    },
+    {
+      "intersecting_label": "skin condition",
+      "overall_value": 0.44715852,
+      "percent_topic_posts_with_label": 0.42372881,
+      "percent_topic_authors_using_label_on_topic_post": 0.47058824,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.44715852,
+          "post_percentage_point_contribution": 0.42372881,
+          "author_percentage_point_contribution": 0.47058824
+        }
+      ]
+    },
+    {
+      "intersecting_label": "stress or distress",
+      "overall_value": 0.44715852,
+      "percent_topic_posts_with_label": 0.42372881,
+      "percent_topic_authors_using_label_on_topic_post": 0.47058824,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.44715852,
+          "post_percentage_point_contribution": 0.42372881,
+          "author_percentage_point_contribution": 0.47058824
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic hazard",
+      "overall_value": 0.44715852,
+      "percent_topic_posts_with_label": 0.42372881,
+      "percent_topic_authors_using_label_on_topic_post": 0.47058824,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.44715852,
+          "post_percentage_point_contribution": 0.42372881,
+          "author_percentage_point_contribution": 0.47058824
+        }
+      ]
+    },
+    {
+      "intersecting_label": "winter storm or snow hazard",
+      "overall_value": 0.44715852,
+      "percent_topic_posts_with_label": 0.42372881,
+      "percent_topic_authors_using_label_on_topic_post": 0.47058824,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.44715852,
+          "post_percentage_point_contribution": 0.42372881,
+          "author_percentage_point_contribution": 0.47058824
+        }
+      ]
+    },
+    {
+      "intersecting_label": "workers",
+      "overall_value": 0.44715852,
+      "percent_topic_posts_with_label": 0.42372881,
+      "percent_topic_authors_using_label_on_topic_post": 0.47058824,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.44715852,
+          "post_percentage_point_contribution": 0.42372881,
+          "author_percentage_point_contribution": 0.47058824
+        }
+      ]
+    },
+    {
+      "intersecting_label": "youth engagement",
+      "overall_value": 0.44715852,
+      "percent_topic_posts_with_label": 0.42372881,
+      "percent_topic_authors_using_label_on_topic_post": 0.47058824,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.44715852,
+          "post_percentage_point_contribution": 0.42372881,
+          "author_percentage_point_contribution": 0.47058824
+        }
+      ]
+    },
+    {
+      "intersecting_label": "air filtration",
+      "overall_value": 0.22357926,
+      "percent_topic_posts_with_label": 0.21186441,
+      "percent_topic_authors_using_label_on_topic_post": 0.23529412,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.22357926,
+          "post_percentage_point_contribution": 0.21186441,
+          "author_percentage_point_contribution": 0.23529412
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cleaning or disinfection",
+      "overall_value": 0.22357926,
+      "percent_topic_posts_with_label": 0.21186441,
+      "percent_topic_authors_using_label_on_topic_post": 0.23529412,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.22357926,
+          "post_percentage_point_contribution": 0.21186441,
+          "author_percentage_point_contribution": 0.23529412
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cognitive or learning problem",
+      "overall_value": 0.22357926,
+      "percent_topic_posts_with_label": 0.21186441,
+      "percent_topic_authors_using_label_on_topic_post": 0.23529412,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.22357926,
+          "post_percentage_point_contribution": 0.21186441,
+          "author_percentage_point_contribution": 0.23529412
+        }
+      ]
+    },
+    {
+      "intersecting_label": "disability",
+      "overall_value": 0.22357926,
+      "percent_topic_posts_with_label": 0.21186441,
+      "percent_topic_authors_using_label_on_topic_post": 0.23529412,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.22357926,
+          "post_percentage_point_contribution": 0.21186441,
+          "author_percentage_point_contribution": 0.23529412
+        }
+      ]
+    },
+    {
+      "intersecting_label": "educational access",
+      "overall_value": 0.22357926,
+      "percent_topic_posts_with_label": 0.21186441,
+      "percent_topic_authors_using_label_on_topic_post": 0.23529412,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.22357926,
+          "post_percentage_point_contribution": 0.21186441,
+          "author_percentage_point_contribution": 0.23529412
+        }
+      ]
+    },
+    {
+      "intersecting_label": "farm or agricultural setting",
+      "overall_value": 0.22357926,
+      "percent_topic_posts_with_label": 0.21186441,
+      "percent_topic_authors_using_label_on_topic_post": 0.23529412,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.22357926,
+          "post_percentage_point_contribution": 0.21186441,
+          "author_percentage_point_contribution": 0.23529412
+        }
+      ]
+    },
+    {
+      "intersecting_label": "fire hazard",
+      "overall_value": 0.22357926,
+      "percent_topic_posts_with_label": 0.21186441,
+      "percent_topic_authors_using_label_on_topic_post": 0.23529412,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.22357926,
+          "post_percentage_point_contribution": 0.21186441,
+          "author_percentage_point_contribution": 0.23529412
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food access",
+      "overall_value": 0.22357926,
+      "percent_topic_posts_with_label": 0.21186441,
+      "percent_topic_authors_using_label_on_topic_post": 0.23529412,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.22357926,
+          "post_percentage_point_contribution": 0.21186441,
+          "author_percentage_point_contribution": 0.23529412
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food contamination",
+      "overall_value": 0.22357926,
+      "percent_topic_posts_with_label": 0.21186441,
+      "percent_topic_authors_using_label_on_topic_post": 0.23529412,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.22357926,
+          "post_percentage_point_contribution": 0.21186441,
+          "author_percentage_point_contribution": 0.23529412
+        }
+      ]
+    },
+    {
+      "intersecting_label": "foster youth",
+      "overall_value": 0.22357926,
+      "percent_topic_posts_with_label": 0.21186441,
+      "percent_topic_authors_using_label_on_topic_post": 0.23529412,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.22357926,
+          "post_percentage_point_contribution": 0.21186441,
+          "author_percentage_point_contribution": 0.23529412
+        }
+      ]
+    },
+    {
+      "intersecting_label": "garden or yard",
+      "overall_value": 0.22357926,
+      "percent_topic_posts_with_label": 0.21186441,
+      "percent_topic_authors_using_label_on_topic_post": 0.23529412,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.22357926,
+          "post_percentage_point_contribution": 0.21186441,
+          "author_percentage_point_contribution": 0.23529412
+        }
+      ]
+    },
+    {
+      "intersecting_label": "general severe weather",
+      "overall_value": 0.22357926,
+      "percent_topic_posts_with_label": 0.21186441,
+      "percent_topic_authors_using_label_on_topic_post": 0.23529412,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.22357926,
+          "post_percentage_point_contribution": 0.21186441,
+          "author_percentage_point_contribution": 0.23529412
+        }
+      ]
+    },
+    {
+      "intersecting_label": "green-space access",
+      "overall_value": 0.22357926,
+      "percent_topic_posts_with_label": 0.21186441,
+      "percent_topic_authors_using_label_on_topic_post": 0.23529412,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.22357926,
+          "post_percentage_point_contribution": 0.21186441,
+          "author_percentage_point_contribution": 0.23529412
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health education or awareness",
+      "overall_value": 0.22357926,
+      "percent_topic_posts_with_label": 0.21186441,
+      "percent_topic_authors_using_label_on_topic_post": 0.23529412,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.22357926,
+          "post_percentage_point_contribution": 0.21186441,
+          "author_percentage_point_contribution": 0.23529412
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare access",
+      "overall_value": 0.22357926,
+      "percent_topic_posts_with_label": 0.21186441,
+      "percent_topic_authors_using_label_on_topic_post": 0.23529412,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.22357926,
+          "post_percentage_point_contribution": 0.21186441,
+          "author_percentage_point_contribution": 0.23529412
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare facility",
+      "overall_value": 0.22357926,
+      "percent_topic_posts_with_label": 0.21186441,
+      "percent_topic_authors_using_label_on_topic_post": 0.23529412,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.22357926,
+          "post_percentage_point_contribution": 0.21186441,
+          "author_percentage_point_contribution": 0.23529412
+        }
+      ]
+    },
+    {
+      "intersecting_label": "hurricane or severe storm",
+      "overall_value": 0.22357926,
+      "percent_topic_posts_with_label": 0.21186441,
+      "percent_topic_authors_using_label_on_topic_post": 0.23529412,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.22357926,
+          "post_percentage_point_contribution": 0.21186441,
+          "author_percentage_point_contribution": 0.23529412
+        }
+      ]
+    },
+    {
+      "intersecting_label": "indoor air quality",
+      "overall_value": 0.22357926,
+      "percent_topic_posts_with_label": 0.21186441,
+      "percent_topic_authors_using_label_on_topic_post": 0.23529412,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.22357926,
+          "post_percentage_point_contribution": 0.21186441,
+          "author_percentage_point_contribution": 0.23529412
+        }
+      ]
+    },
+    {
+      "intersecting_label": "insects and pests",
+      "overall_value": 0.22357926,
+      "percent_topic_posts_with_label": 0.21186441,
+      "percent_topic_authors_using_label_on_topic_post": 0.23529412,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.22357926,
+          "post_percentage_point_contribution": 0.21186441,
+          "author_percentage_point_contribution": 0.23529412
+        }
+      ]
+    },
+    {
+      "intersecting_label": "natural disaster",
+      "overall_value": 0.22357926,
+      "percent_topic_posts_with_label": 0.21186441,
+      "percent_topic_authors_using_label_on_topic_post": 0.23529412,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.22357926,
+          "post_percentage_point_contribution": 0.21186441,
+          "author_percentage_point_contribution": 0.23529412
+        }
+      ]
+    },
+    {
+      "intersecting_label": "obesity",
+      "overall_value": 0.22357926,
+      "percent_topic_posts_with_label": 0.21186441,
+      "percent_topic_authors_using_label_on_topic_post": 0.23529412,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.22357926,
+          "post_percentage_point_contribution": 0.21186441,
+          "author_percentage_point_contribution": 0.23529412
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pain",
+      "overall_value": 0.22357926,
+      "percent_topic_posts_with_label": 0.21186441,
+      "percent_topic_authors_using_label_on_topic_post": 0.23529412,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.22357926,
+          "post_percentage_point_contribution": 0.21186441,
+          "author_percentage_point_contribution": 0.23529412
+        }
+      ]
+    },
+    {
+      "intersecting_label": "poverty or financial hardship",
+      "overall_value": 0.22357926,
+      "percent_topic_posts_with_label": 0.21186441,
+      "percent_topic_authors_using_label_on_topic_post": 0.23529412,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.22357926,
+          "post_percentage_point_contribution": 0.21186441,
+          "author_percentage_point_contribution": 0.23529412
+        }
+      ]
+    },
+    {
+      "intersecting_label": "racial and ethnic minority populations",
+      "overall_value": 0.22357926,
+      "percent_topic_posts_with_label": 0.21186441,
+      "percent_topic_authors_using_label_on_topic_post": 0.23529412,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.22357926,
+          "post_percentage_point_contribution": 0.21186441,
+          "author_percentage_point_contribution": 0.23529412
+        }
+      ]
+    },
+    {
+      "intersecting_label": "restaurant or food store",
+      "overall_value": 0.22357926,
+      "percent_topic_posts_with_label": 0.21186441,
+      "percent_topic_authors_using_label_on_topic_post": 0.23529412,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.22357926,
+          "post_percentage_point_contribution": 0.21186441,
+          "author_percentage_point_contribution": 0.23529412
+        }
+      ]
+    },
+    {
+      "intersecting_label": "rural populations",
+      "overall_value": 0.22357926,
+      "percent_topic_posts_with_label": 0.21186441,
+      "percent_topic_authors_using_label_on_topic_post": 0.23529412,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.22357926,
+          "post_percentage_point_contribution": 0.21186441,
+          "author_percentage_point_contribution": 0.23529412
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sleep problem",
+      "overall_value": 0.22357926,
+      "percent_topic_posts_with_label": 0.21186441,
+      "percent_topic_authors_using_label_on_topic_post": 0.23529412,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.22357926,
+          "post_percentage_point_contribution": 0.21186441,
+          "author_percentage_point_contribution": 0.23529412
+        }
+      ]
+    },
+    {
+      "intersecting_label": "social support",
+      "overall_value": 0.22357926,
+      "percent_topic_posts_with_label": 0.21186441,
+      "percent_topic_authors_using_label_on_topic_post": 0.23529412,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.22357926,
+          "post_percentage_point_contribution": 0.21186441,
+          "author_percentage_point_contribution": 0.23529412
+        }
+      ]
+    },
+    {
+      "intersecting_label": "street or roadway",
+      "overall_value": 0.22357926,
+      "percent_topic_posts_with_label": 0.21186441,
+      "percent_topic_authors_using_label_on_topic_post": 0.23529412,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.22357926,
+          "post_percentage_point_contribution": 0.21186441,
+          "author_percentage_point_contribution": 0.23529412
+        }
+      ]
+    },
+    {
+      "intersecting_label": "tornado",
+      "overall_value": 0.22357926,
+      "percent_topic_posts_with_label": 0.21186441,
+      "percent_topic_authors_using_label_on_topic_post": 0.23529412,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.22357926,
+          "post_percentage_point_contribution": 0.21186441,
+          "author_percentage_point_contribution": 0.23529412
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic safety",
+      "overall_value": 0.22357926,
+      "percent_topic_posts_with_label": 0.21186441,
+      "percent_topic_authors_using_label_on_topic_post": 0.23529412,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.22357926,
+          "post_percentage_point_contribution": 0.21186441,
+          "author_percentage_point_contribution": 0.23529412
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic-related air pollution",
+      "overall_value": 0.22357926,
+      "percent_topic_posts_with_label": 0.21186441,
+      "percent_topic_authors_using_label_on_topic_post": 0.23529412,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.22357926,
+          "post_percentage_point_contribution": 0.21186441,
+          "author_percentage_point_contribution": 0.23529412
+        }
+      ]
+    },
+    {
+      "intersecting_label": "transportation access",
+      "overall_value": 0.22357926,
+      "percent_topic_posts_with_label": 0.21186441,
+      "percent_topic_authors_using_label_on_topic_post": 0.23529412,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.22357926,
+          "post_percentage_point_contribution": 0.21186441,
+          "author_percentage_point_contribution": 0.23529412
+        }
+      ]
+    },
+    {
+      "intersecting_label": "water pollution",
+      "overall_value": 0.22357926,
+      "percent_topic_posts_with_label": 0.21186441,
+      "percent_topic_authors_using_label_on_topic_post": 0.23529412,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.22357926,
+          "post_percentage_point_contribution": 0.21186441,
+          "author_percentage_point_contribution": 0.23529412
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildlife",
+      "overall_value": 0.22357926,
+      "percent_topic_posts_with_label": 0.21186441,
+      "percent_topic_authors_using_label_on_topic_post": 0.23529412,
+      "links": [
+        {
+          "component_label": "extreme heat",
+          "value": 0.22357926,
+          "post_percentage_point_contribution": 0.21186441,
+          "author_percentage_point_contribution": 0.23529412
+        }
+      ]
+    }
+  ]
+}

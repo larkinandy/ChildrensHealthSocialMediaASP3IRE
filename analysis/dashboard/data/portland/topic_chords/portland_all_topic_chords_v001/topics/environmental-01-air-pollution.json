@@ -1,0 +1,3868 @@
+{
+  "schema_version": "1.0.0",
+  "city_id": "38900",
+  "domain": "environmental",
+  "category_id": "environmental-01",
+  "topic": "Air pollution",
+  "component_labels": [
+    "ambient air pollution",
+    "traffic-related air pollution",
+    "wildfire smoke",
+    "secondhand tobacco smoke",
+    "vaping aerosol",
+    "dust and particulate matter",
+    "smog or ozone",
+    "carbon monoxide",
+    "generic smoke"
+  ],
+  "intersections": [
+    {
+      "intersecting_label": "children",
+      "overall_value": 52.1029539,
+      "percent_topic_posts_with_label": 51.5936255,
+      "percent_topic_authors_using_label_on_topic_post": 52.61228231,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 22.49330917,
+          "post_percentage_point_contribution": 33.84240815,
+          "author_percentage_point_contribution": 11.1442102
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 4.38016495,
+          "post_percentage_point_contribution": 2.67264276,
+          "author_percentage_point_contribution": 6.08768714
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 7.53305395,
+          "post_percentage_point_contribution": 4.60934042,
+          "author_percentage_point_contribution": 10.45676749
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 10.22793945,
+          "post_percentage_point_contribution": 6.04249668,
+          "author_percentage_point_contribution": 14.41338222
+        },
+        {
+          "component_label": "vaping aerosol",
+          "value": 3.51760541,
+          "post_percentage_point_contribution": 2.20783533,
+          "author_percentage_point_contribution": 4.8273755
+        },
+        {
+          "component_label": "dust and particulate matter",
+          "value": 1.31168726,
+          "post_percentage_point_contribution": 0.71381142,
+          "author_percentage_point_contribution": 1.90956309
+        },
+        {
+          "component_label": "smog or ozone",
+          "value": 0.32044903,
+          "post_percentage_point_contribution": 0.18260292,
+          "author_percentage_point_contribution": 0.45829514
+        },
+        {
+          "component_label": "carbon monoxide",
+          "value": 0.250381,
+          "post_percentage_point_contribution": 0.14940239,
+          "author_percentage_point_contribution": 0.35135961
+        },
+        {
+          "component_label": "generic smoke",
+          "value": 2.06836368,
+          "post_percentage_point_contribution": 1.17308544,
+          "author_percentage_point_contribution": 2.96364192
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school",
+      "overall_value": 49.35491763,
+      "percent_topic_posts_with_label": 67.72908367,
+      "percent_topic_authors_using_label_on_topic_post": 30.9807516,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 30.44430132,
+          "post_percentage_point_contribution": 56.7563081,
+          "author_percentage_point_contribution": 4.13229453
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 5.52381065,
+          "post_percentage_point_contribution": 3.38645418,
+          "author_percentage_point_contribution": 7.66116712
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 2.59679279,
+          "post_percentage_point_contribution": 1.52722444,
+          "author_percentage_point_contribution": 3.66636114
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 3.88291776,
+          "post_percentage_point_contribution": 2.17463479,
+          "author_percentage_point_contribution": 5.59120073
+        },
+        {
+          "component_label": "vaping aerosol",
+          "value": 3.72368607,
+          "post_percentage_point_contribution": 2.10823373,
+          "author_percentage_point_contribution": 5.33913841
+        },
+        {
+          "component_label": "dust and particulate matter",
+          "value": 0.37972157,
+          "post_percentage_point_contribution": 0.23240372,
+          "author_percentage_point_contribution": 0.52703941
+        },
+        {
+          "component_label": "smog or ozone",
+          "value": 0.24971912,
+          "post_percentage_point_contribution": 0.13280212,
+          "author_percentage_point_contribution": 0.36663611
+        },
+        {
+          "component_label": "carbon monoxide",
+          "value": 0.03187677,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.03055301
+        },
+        {
+          "component_label": "generic smoke",
+          "value": 2.52209159,
+          "post_percentage_point_contribution": 1.37782205,
+          "author_percentage_point_contribution": 3.66636114
+        }
+      ]
+    },
+    {
+      "intersecting_label": "students",
+      "overall_value": 11.2034447,
+      "percent_topic_posts_with_label": 6.2749004,
+      "percent_topic_authors_using_label_on_topic_post": 16.131989,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 1.04103902,
+          "post_percentage_point_contribution": 0.63081009,
+          "author_percentage_point_contribution": 1.45126795
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 2.75785797,
+          "post_percentage_point_contribution": 1.5438247,
+          "author_percentage_point_contribution": 3.97189123
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.68672758,
+          "post_percentage_point_contribution": 0.36520584,
+          "author_percentage_point_contribution": 1.00824931
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 2.85150264,
+          "post_percentage_point_contribution": 1.5936255,
+          "author_percentage_point_contribution": 4.10937977
+        },
+        {
+          "component_label": "vaping aerosol",
+          "value": 2.96108569,
+          "post_percentage_point_contribution": 1.66002656,
+          "author_percentage_point_contribution": 4.26214482
+        },
+        {
+          "component_label": "smog or ozone",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "generic smoke",
+          "value": 0.84280203,
+          "post_percentage_point_contribution": 0.44820717,
+          "author_percentage_point_contribution": 1.23739688
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adolescents",
+      "overall_value": 6.75830135,
+      "percent_topic_posts_with_label": 3.98406375,
+      "percent_topic_authors_using_label_on_topic_post": 9.53253896,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.08600642,
+          "post_percentage_point_contribution": 0.0498008,
+          "author_percentage_point_contribution": 0.12221204
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.28923414,
+          "post_percentage_point_contribution": 0.16600266,
+          "author_percentage_point_contribution": 0.41246563
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 2.74522898,
+          "post_percentage_point_contribution": 1.61022576,
+          "author_percentage_point_contribution": 3.8802322
+        },
+        {
+          "component_label": "vaping aerosol",
+          "value": 3.23967649,
+          "post_percentage_point_contribution": 1.94223108,
+          "author_percentage_point_contribution": 4.53712191
+        },
+        {
+          "component_label": "smog or ozone",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "generic smoke",
+          "value": 0.21086598,
+          "post_percentage_point_contribution": 0.11620186,
+          "author_percentage_point_contribution": 0.30553009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "parents and caregivers",
+      "overall_value": 5.71828178,
+      "percent_topic_posts_with_label": 3.187251,
+      "percent_topic_authors_using_label_on_topic_post": 8.24931256,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.47652348,
+          "post_percentage_point_contribution": 0.26560425,
+          "author_percentage_point_contribution": 0.68744271
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 1.09450679,
+          "post_percentage_point_contribution": 0.63081009,
+          "author_percentage_point_contribution": 1.55820348
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 3.04643023,
+          "post_percentage_point_contribution": 1.69322709,
+          "author_percentage_point_contribution": 4.39963336
+        },
+        {
+          "component_label": "vaping aerosol",
+          "value": 0.7262426,
+          "post_percentage_point_contribution": 0.39840637,
+          "author_percentage_point_contribution": 1.05407883
+        },
+        {
+          "component_label": "carbon monoxide",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        },
+        {
+          "component_label": "generic smoke",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        }
+      ]
+    },
+    {
+      "intersecting_label": "home",
+      "overall_value": 4.96515314,
+      "percent_topic_posts_with_label": 2.68924303,
+      "percent_topic_authors_using_label_on_topic_post": 7.24106324,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.43700846,
+          "post_percentage_point_contribution": 0.23240372,
+          "author_percentage_point_contribution": 0.6416132
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.15607445,
+          "post_percentage_point_contribution": 0.08300133,
+          "author_percentage_point_contribution": 0.22914757
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.90721745,
+          "post_percentage_point_contribution": 0.5312085,
+          "author_percentage_point_contribution": 1.2832264
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 1.52952961,
+          "post_percentage_point_contribution": 0.81341301,
+          "author_percentage_point_contribution": 2.2456462
+        },
+        {
+          "component_label": "vaping aerosol",
+          "value": 0.34336379,
+          "post_percentage_point_contribution": 0.18260292,
+          "author_percentage_point_contribution": 0.50412466
+        },
+        {
+          "component_label": "dust and particulate matter",
+          "value": 0.3121489,
+          "post_percentage_point_contribution": 0.16600266,
+          "author_percentage_point_contribution": 0.45829514
+        },
+        {
+          "component_label": "carbon monoxide",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        },
+        {
+          "component_label": "generic smoke",
+          "value": 1.15495093,
+          "post_percentage_point_contribution": 0.61420983,
+          "author_percentage_point_contribution": 1.69569203
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infants",
+      "overall_value": 4.24919631,
+      "percent_topic_posts_with_label": 2.35723772,
+      "percent_topic_authors_using_label_on_topic_post": 6.1411549,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.32044903,
+          "post_percentage_point_contribution": 0.18260292,
+          "author_percentage_point_contribution": 0.45829514
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.49943824,
+          "post_percentage_point_contribution": 0.26560425,
+          "author_percentage_point_contribution": 0.73327223
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.54725339,
+          "post_percentage_point_contribution": 0.31540505,
+          "author_percentage_point_contribution": 0.77910174
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 2.16411318,
+          "post_percentage_point_contribution": 1.21181939,
+          "author_percentage_point_contribution": 3.11640697
+        },
+        {
+          "component_label": "vaping aerosol",
+          "value": 0.15607445,
+          "post_percentage_point_contribution": 0.08300133,
+          "author_percentage_point_contribution": 0.22914757
+        },
+        {
+          "component_label": "dust and particulate matter",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "carbon monoxide",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "generic smoke",
+          "value": 0.43700846,
+          "post_percentage_point_contribution": 0.23240372,
+          "author_percentage_point_contribution": 0.6416132
+        }
+      ]
+    },
+    {
+      "intersecting_label": "indoor environment",
+      "overall_value": 2.99662943,
+      "percent_topic_posts_with_label": 1.5936255,
+      "percent_topic_authors_using_label_on_topic_post": 4.39963336,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.34336379,
+          "post_percentage_point_contribution": 0.18260292,
+          "author_percentage_point_contribution": 0.50412466
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.6242978,
+          "post_percentage_point_contribution": 0.33200531,
+          "author_percentage_point_contribution": 0.91659028
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.49943824,
+          "post_percentage_point_contribution": 0.26560425,
+          "author_percentage_point_contribution": 0.73327223
+        },
+        {
+          "component_label": "vaping aerosol",
+          "value": 0.43700846,
+          "post_percentage_point_contribution": 0.23240372,
+          "author_percentage_point_contribution": 0.6416132
+        },
+        {
+          "component_label": "dust and particulate matter",
+          "value": 0.3121489,
+          "post_percentage_point_contribution": 0.16600266,
+          "author_percentage_point_contribution": 0.45829514
+        },
+        {
+          "component_label": "smog or ozone",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "generic smoke",
+          "value": 0.71794247,
+          "post_percentage_point_contribution": 0.38180611,
+          "author_percentage_point_contribution": 1.05407883
+        }
+      ]
+    },
+    {
+      "intersecting_label": "street or roadway",
+      "overall_value": 2.87574115,
+      "percent_topic_posts_with_label": 1.62682603,
+      "percent_topic_authors_using_label_on_topic_post": 4.12465628,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.26631938,
+          "post_percentage_point_contribution": 0.16600266,
+          "author_percentage_point_contribution": 0.36663611
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 1.76661974,
+          "post_percentage_point_contribution": 1.0126162,
+          "author_percentage_point_contribution": 2.52062328
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.03121489,
+          "post_percentage_point_contribution": 0.01660027,
+          "author_percentage_point_contribution": 0.04582951
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.68672758,
+          "post_percentage_point_contribution": 0.36520584,
+          "author_percentage_point_contribution": 1.00824931
+        },
+        {
+          "component_label": "vaping aerosol",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        }
+      ]
+    },
+    {
+      "intersecting_label": "outdoor environment",
+      "overall_value": 2.74691031,
+      "percent_topic_posts_with_label": 1.46082337,
+      "percent_topic_authors_using_label_on_topic_post": 4.03299725,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.37457868,
+          "post_percentage_point_contribution": 0.19920319,
+          "author_percentage_point_contribution": 0.54995417
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.3121489,
+          "post_percentage_point_contribution": 0.16600266,
+          "author_percentage_point_contribution": 0.45829514
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.9364467,
+          "post_percentage_point_contribution": 0.49800797,
+          "author_percentage_point_contribution": 1.37488543
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.74915736,
+          "post_percentage_point_contribution": 0.39840637,
+          "author_percentage_point_contribution": 1.09990834
+        },
+        {
+          "component_label": "vaping aerosol",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "dust and particulate matter",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "smog or ozone",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        },
+        {
+          "component_label": "generic smoke",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        }
+      ]
+    },
+    {
+      "intersecting_label": "motor vehicle",
+      "overall_value": 2.12261251,
+      "percent_topic_posts_with_label": 1.12881806,
+      "percent_topic_authors_using_label_on_topic_post": 3.11640697,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.24971912,
+          "post_percentage_point_contribution": 0.13280212,
+          "author_percentage_point_contribution": 0.36663611
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 1.5607445,
+          "post_percentage_point_contribution": 0.83001328,
+          "author_percentage_point_contribution": 2.29147571
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.18728934,
+          "post_percentage_point_contribution": 0.09960159,
+          "author_percentage_point_contribution": 0.27497709
+        },
+        {
+          "component_label": "vaping aerosol",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "carbon monoxide",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "asthma",
+      "overall_value": 2.03095349,
+      "percent_topic_posts_with_label": 1.12881806,
+      "percent_topic_authors_using_label_on_topic_post": 2.93308891,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.78867238,
+          "post_percentage_point_contribution": 0.43160691,
+          "author_percentage_point_contribution": 1.14573786
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.76575762,
+          "post_percentage_point_contribution": 0.43160691,
+          "author_percentage_point_contribution": 1.09990834
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.28923414,
+          "post_percentage_point_contribution": 0.16600266,
+          "author_percentage_point_contribution": 0.41246563
+        },
+        {
+          "component_label": "dust and particulate matter",
+          "value": 0.09364467,
+          "post_percentage_point_contribution": 0.0498008,
+          "author_percentage_point_contribution": 0.13748854
+        },
+        {
+          "component_label": "carbon monoxide",
+          "value": 0.03121489,
+          "post_percentage_point_contribution": 0.01660027,
+          "author_percentage_point_contribution": 0.04582951
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school closure",
+      "overall_value": 1.84366415,
+      "percent_topic_posts_with_label": 1.02921647,
+      "percent_topic_authors_using_label_on_topic_post": 2.65811182,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.28093401,
+          "post_percentage_point_contribution": 0.14940239,
+          "author_percentage_point_contribution": 0.41246563
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.18728934,
+          "post_percentage_point_contribution": 0.09960159,
+          "author_percentage_point_contribution": 0.27497709
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 1.02377688,
+          "post_percentage_point_contribution": 0.5810093,
+          "author_percentage_point_contribution": 1.46654445
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "vaping aerosol",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "generic smoke",
+          "value": 0.22680436,
+          "post_percentage_point_contribution": 0.13280212,
+          "author_percentage_point_contribution": 0.3208066
+        }
+      ]
+    },
+    {
+      "intersecting_label": "families",
+      "overall_value": 1.74803383,
+      "percent_topic_posts_with_label": 0.92961487,
+      "percent_topic_authors_using_label_on_topic_post": 2.5664528,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.56186802,
+          "post_percentage_point_contribution": 0.29880478,
+          "author_percentage_point_contribution": 0.82493126
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.68672758,
+          "post_percentage_point_contribution": 0.36520584,
+          "author_percentage_point_contribution": 1.00824931
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.3121489,
+          "post_percentage_point_contribution": 0.16600266,
+          "author_percentage_point_contribution": 0.45829514
+        },
+        {
+          "component_label": "vaping aerosol",
+          "value": 0.18728934,
+          "post_percentage_point_contribution": 0.09960159,
+          "author_percentage_point_contribution": 0.27497709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "unhoused populations",
+      "overall_value": 1.62317428,
+      "percent_topic_posts_with_label": 0.86321381,
+      "percent_topic_authors_using_label_on_topic_post": 2.38313474,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.43700846,
+          "post_percentage_point_contribution": 0.23240372,
+          "author_percentage_point_contribution": 0.6416132
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.09364467,
+          "post_percentage_point_contribution": 0.0498008,
+          "author_percentage_point_contribution": 0.13748854
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.43700846,
+          "post_percentage_point_contribution": 0.23240372,
+          "author_percentage_point_contribution": 0.6416132
+        },
+        {
+          "component_label": "vaping aerosol",
+          "value": 0.21850423,
+          "post_percentage_point_contribution": 0.11620186,
+          "author_percentage_point_contribution": 0.3208066
+        },
+        {
+          "component_label": "dust and particulate matter",
+          "value": 0.18728934,
+          "post_percentage_point_contribution": 0.09960159,
+          "author_percentage_point_contribution": 0.27497709
+        },
+        {
+          "component_label": "generic smoke",
+          "value": 0.18728934,
+          "post_percentage_point_contribution": 0.09960159,
+          "author_percentage_point_contribution": 0.27497709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "fire hazard",
+      "overall_value": 1.59394503,
+      "percent_topic_posts_with_label": 0.89641434,
+      "percent_topic_authors_using_label_on_topic_post": 2.29147571,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.09364467,
+          "post_percentage_point_contribution": 0.0498008,
+          "author_percentage_point_contribution": 0.13748854
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.52433864,
+          "post_percentage_point_contribution": 0.31540505,
+          "author_percentage_point_contribution": 0.73327223
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "vaping aerosol",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "generic smoke",
+          "value": 0.78867238,
+          "post_percentage_point_contribution": 0.43160691,
+          "author_percentage_point_contribution": 1.14573786
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cough",
+      "overall_value": 1.49831472,
+      "percent_topic_posts_with_label": 0.79681275,
+      "percent_topic_authors_using_label_on_topic_post": 2.19981668,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.3121489,
+          "post_percentage_point_contribution": 0.16600266,
+          "author_percentage_point_contribution": 0.45829514
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.68672758,
+          "post_percentage_point_contribution": 0.36520584,
+          "author_percentage_point_contribution": 1.00824931
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.18728934,
+          "post_percentage_point_contribution": 0.09960159,
+          "author_percentage_point_contribution": 0.27497709
+        },
+        {
+          "component_label": "vaping aerosol",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        },
+        {
+          "component_label": "dust and particulate matter",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "generic smoke",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        }
+      ]
+    },
+    {
+      "intersecting_label": "park or green space",
+      "overall_value": 1.49831472,
+      "percent_topic_posts_with_label": 0.79681275,
+      "percent_topic_authors_using_label_on_topic_post": 2.19981668,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.37457868,
+          "post_percentage_point_contribution": 0.19920319,
+          "author_percentage_point_contribution": 0.54995417
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.34336379,
+          "post_percentage_point_contribution": 0.18260292,
+          "author_percentage_point_contribution": 0.50412466
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.43700846,
+          "post_percentage_point_contribution": 0.23240372,
+          "author_percentage_point_contribution": 0.6416132
+        },
+        {
+          "component_label": "dust and particulate matter",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "generic smoke",
+          "value": 0.15607445,
+          "post_percentage_point_contribution": 0.08300133,
+          "author_percentage_point_contribution": 0.22914757
+        }
+      ]
+    },
+    {
+      "intersecting_label": "classroom",
+      "overall_value": 1.46908547,
+      "percent_topic_posts_with_label": 0.83001328,
+      "percent_topic_authors_using_label_on_topic_post": 2.10815765,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.14975996,
+          "post_percentage_point_contribution": 0.11620186,
+          "author_percentage_point_contribution": 0.18331806
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.16437458,
+          "post_percentage_point_contribution": 0.09960159,
+          "author_percentage_point_contribution": 0.22914757
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.37457868,
+          "post_percentage_point_contribution": 0.19920319,
+          "author_percentage_point_contribution": 0.54995417
+        },
+        {
+          "component_label": "vaping aerosol",
+          "value": 0.43700846,
+          "post_percentage_point_contribution": 0.23240372,
+          "author_percentage_point_contribution": 0.6416132
+        },
+        {
+          "component_label": "dust and particulate matter",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "generic smoke",
+          "value": 0.21850423,
+          "post_percentage_point_contribution": 0.11620186,
+          "author_percentage_point_contribution": 0.3208066
+        }
+      ]
+    },
+    {
+      "intersecting_label": "toddlers",
+      "overall_value": 1.39005542,
+      "percent_topic_posts_with_label": 0.76361222,
+      "percent_topic_authors_using_label_on_topic_post": 2.01649863,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.44530859,
+          "post_percentage_point_contribution": 0.24900398,
+          "author_percentage_point_contribution": 0.6416132
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.18728934,
+          "post_percentage_point_contribution": 0.09960159,
+          "author_percentage_point_contribution": 0.27497709
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.13315969,
+          "post_percentage_point_contribution": 0.08300133,
+          "author_percentage_point_contribution": 0.18331806
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.40579357,
+          "post_percentage_point_contribution": 0.21580345,
+          "author_percentage_point_contribution": 0.59578368
+        },
+        {
+          "component_label": "vaping aerosol",
+          "value": 0.03121489,
+          "post_percentage_point_contribution": 0.01660027,
+          "author_percentage_point_contribution": 0.04582951
+        },
+        {
+          "component_label": "dust and particulate matter",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "generic smoke",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildfire",
+      "overall_value": 1.31102538,
+      "percent_topic_posts_with_label": 0.69721116,
+      "percent_topic_authors_using_label_on_topic_post": 1.9248396,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.03121489,
+          "post_percentage_point_contribution": 0.01660027,
+          "author_percentage_point_contribution": 0.04582951
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 1.21738071,
+          "post_percentage_point_contribution": 0.64741036,
+          "author_percentage_point_contribution": 1.78735105
+        },
+        {
+          "component_label": "generic smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "drug exposure or use",
+      "overall_value": 1.28179613,
+      "percent_topic_posts_with_label": 0.73041169,
+      "percent_topic_authors_using_label_on_topic_post": 1.83318057,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.56186802,
+          "post_percentage_point_contribution": 0.29880478,
+          "author_percentage_point_contribution": 0.82493126
+        },
+        {
+          "component_label": "vaping aerosol",
+          "value": 0.53263877,
+          "post_percentage_point_contribution": 0.33200531,
+          "author_percentage_point_contribution": 0.73327223
+        },
+        {
+          "component_label": "generic smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental justice",
+      "overall_value": 1.25256688,
+      "percent_topic_posts_with_label": 0.76361222,
+      "percent_topic_authors_using_label_on_topic_post": 1.74152154,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.74482851,
+          "post_percentage_point_contribution": 0.4814077,
+          "author_percentage_point_contribution": 1.00824931
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.32044903,
+          "post_percentage_point_contribution": 0.18260292,
+          "author_percentage_point_contribution": 0.45829514
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.18728934,
+          "post_percentage_point_contribution": 0.09960159,
+          "author_percentage_point_contribution": 0.27497709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "COVID-19",
+      "overall_value": 1.2485956,
+      "percent_topic_posts_with_label": 0.66401062,
+      "percent_topic_authors_using_label_on_topic_post": 1.83318057,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.34336379,
+          "post_percentage_point_contribution": 0.18260292,
+          "author_percentage_point_contribution": 0.50412466
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.53065313,
+          "post_percentage_point_contribution": 0.28220452,
+          "author_percentage_point_contribution": 0.77910174
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.18728934,
+          "post_percentage_point_contribution": 0.09960159,
+          "author_percentage_point_contribution": 0.27497709
+        },
+        {
+          "component_label": "vaping aerosol",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "generic smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic hazard",
+      "overall_value": 1.20276608,
+      "percent_topic_posts_with_label": 0.66401062,
+      "percent_topic_authors_using_label_on_topic_post": 1.74152154,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 1.07790652,
+          "post_percentage_point_contribution": 0.59760956,
+          "author_percentage_point_contribution": 1.55820348
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "teachers and school staff",
+      "overall_value": 1.06130626,
+      "percent_topic_posts_with_label": 0.56440903,
+      "percent_topic_authors_using_label_on_topic_post": 1.55820348,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.24971912,
+          "post_percentage_point_contribution": 0.13280212,
+          "author_percentage_point_contribution": 0.36663611
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.37457868,
+          "post_percentage_point_contribution": 0.19920319,
+          "author_percentage_point_contribution": 0.54995417
+        },
+        {
+          "component_label": "vaping aerosol",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        },
+        {
+          "component_label": "carbon monoxide",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "generic smoke",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        }
+      ]
+    },
+    {
+      "intersecting_label": "climate change",
+      "overall_value": 1.04867727,
+      "percent_topic_posts_with_label": 0.63081009,
+      "percent_topic_authors_using_label_on_topic_post": 1.46654445,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.46822335,
+          "post_percentage_point_contribution": 0.24900398,
+          "author_percentage_point_contribution": 0.68744271
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.45559437,
+          "post_percentage_point_contribution": 0.31540505,
+          "author_percentage_point_contribution": 0.59578368
+        },
+        {
+          "component_label": "carbon monoxide",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health education or awareness",
+      "overall_value": 1.03207701,
+      "percent_topic_posts_with_label": 0.59760956,
+      "percent_topic_authors_using_label_on_topic_post": 1.46654445,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.53065313,
+          "post_percentage_point_contribution": 0.28220452,
+          "author_percentage_point_contribution": 0.77910174
+        },
+        {
+          "component_label": "vaping aerosol",
+          "value": 0.25170476,
+          "post_percentage_point_contribution": 0.18260292,
+          "author_percentage_point_contribution": 0.3208066
+        }
+      ]
+    },
+    {
+      "intersecting_label": "violence or crime",
+      "overall_value": 0.99887648,
+      "percent_topic_posts_with_label": 0.5312085,
+      "percent_topic_authors_using_label_on_topic_post": 1.46654445,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.09364467,
+          "post_percentage_point_contribution": 0.0498008,
+          "author_percentage_point_contribution": 0.13748854
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.43700846,
+          "post_percentage_point_contribution": 0.23240372,
+          "author_percentage_point_contribution": 0.6416132
+        },
+        {
+          "component_label": "vaping aerosol",
+          "value": 0.18728934,
+          "post_percentage_point_contribution": 0.09960159,
+          "author_percentage_point_contribution": 0.27497709
+        },
+        {
+          "component_label": "generic smoke",
+          "value": 0.09364467,
+          "post_percentage_point_contribution": 0.0498008,
+          "author_percentage_point_contribution": 0.13748854
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cancer",
+      "overall_value": 0.95304696,
+      "percent_topic_posts_with_label": 0.5312085,
+      "percent_topic_authors_using_label_on_topic_post": 1.37488543,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.54725339,
+          "post_percentage_point_contribution": 0.31540505,
+          "author_percentage_point_contribution": 0.77910174
+        },
+        {
+          "component_label": "vaping aerosol",
+          "value": 0.15607445,
+          "post_percentage_point_contribution": 0.08300133,
+          "author_percentage_point_contribution": 0.22914757
+        },
+        {
+          "component_label": "dust and particulate matter",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental policy or regulation",
+      "overall_value": 0.94438926,
+      "percent_topic_posts_with_label": 0.69721116,
+      "percent_topic_authors_using_label_on_topic_post": 1.19156737,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.40844109,
+          "post_percentage_point_contribution": 0.28220452,
+          "author_percentage_point_contribution": 0.53467767
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.11024494,
+          "post_percentage_point_contribution": 0.08300133,
+          "author_percentage_point_contribution": 0.13748854
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.33139669,
+          "post_percentage_point_contribution": 0.26560425,
+          "author_percentage_point_contribution": 0.39718912
+        },
+        {
+          "component_label": "vaping aerosol",
+          "value": 0.03187677,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.03055301
+        }
+      ]
+    },
+    {
+      "intersecting_label": "activity cancellation",
+      "overall_value": 0.9364467,
+      "percent_topic_posts_with_label": 0.49800797,
+      "percent_topic_authors_using_label_on_topic_post": 1.37488543,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.34336379,
+          "post_percentage_point_contribution": 0.18260292,
+          "author_percentage_point_contribution": 0.50412466
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.18728934,
+          "post_percentage_point_contribution": 0.09960159,
+          "author_percentage_point_contribution": 0.27497709
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.21850423,
+          "post_percentage_point_contribution": 0.11620186,
+          "author_percentage_point_contribution": 0.3208066
+        },
+        {
+          "component_label": "generic smoke",
+          "value": 0.18728934,
+          "post_percentage_point_contribution": 0.09960159,
+          "author_percentage_point_contribution": 0.27497709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "advocacy",
+      "overall_value": 0.8779882,
+      "percent_topic_posts_with_label": 0.56440903,
+      "percent_topic_authors_using_label_on_topic_post": 1.19156737,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.21218974,
+          "post_percentage_point_contribution": 0.14940239,
+          "author_percentage_point_contribution": 0.27497709
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.15607445,
+          "post_percentage_point_contribution": 0.08300133,
+          "author_percentage_point_contribution": 0.22914757
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.38486445,
+          "post_percentage_point_contribution": 0.26560425,
+          "author_percentage_point_contribution": 0.50412466
+        },
+        {
+          "component_label": "dust and particulate matter",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "walking or bicycling",
+      "overall_value": 0.8281874,
+      "percent_topic_posts_with_label": 0.46480744,
+      "percent_topic_authors_using_label_on_topic_post": 1.19156737,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.21850423,
+          "post_percentage_point_contribution": 0.11620186,
+          "author_percentage_point_contribution": 0.3208066
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.39117894,
+          "post_percentage_point_contribution": 0.23240372,
+          "author_percentage_point_contribution": 0.54995417
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.09364467,
+          "post_percentage_point_contribution": 0.0498008,
+          "author_percentage_point_contribution": 0.13748854
+        },
+        {
+          "component_label": "dust and particulate matter",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "smog or ozone",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pregnant people",
+      "overall_value": 0.81158714,
+      "percent_topic_posts_with_label": 0.43160691,
+      "percent_topic_authors_using_label_on_topic_post": 1.19156737,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.49943824,
+          "post_percentage_point_contribution": 0.26560425,
+          "author_percentage_point_contribution": 0.73327223
+        },
+        {
+          "component_label": "generic smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "substance use disorder",
+      "overall_value": 0.81158714,
+      "percent_topic_posts_with_label": 0.43160691,
+      "percent_topic_authors_using_label_on_topic_post": 1.19156737,
+      "links": [
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.3121489,
+          "post_percentage_point_contribution": 0.16600266,
+          "author_percentage_point_contribution": 0.45829514
+        },
+        {
+          "component_label": "vaping aerosol",
+          "value": 0.49943824,
+          "post_percentage_point_contribution": 0.26560425,
+          "author_percentage_point_contribution": 0.73327223
+        }
+      ]
+    },
+    {
+      "intersecting_label": "neighborhood",
+      "overall_value": 0.74915736,
+      "percent_topic_posts_with_label": 0.39840637,
+      "percent_topic_authors_using_label_on_topic_post": 1.09990834,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.18728934,
+          "post_percentage_point_contribution": 0.09960159,
+          "author_percentage_point_contribution": 0.27497709
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.3121489,
+          "post_percentage_point_contribution": 0.16600266,
+          "author_percentage_point_contribution": 0.45829514
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.15607445,
+          "post_percentage_point_contribution": 0.08300133,
+          "author_percentage_point_contribution": 0.22914757
+        },
+        {
+          "component_label": "vaping aerosol",
+          "value": 0.03121489,
+          "post_percentage_point_contribution": 0.01660027,
+          "author_percentage_point_contribution": 0.04582951
+        },
+        {
+          "component_label": "smog or ozone",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "outdoor play or recreation",
+      "overall_value": 0.74915736,
+      "percent_topic_posts_with_label": 0.39840637,
+      "percent_topic_authors_using_label_on_topic_post": 1.09990834,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.09364467,
+          "post_percentage_point_contribution": 0.0498008,
+          "author_percentage_point_contribution": 0.13748854
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.28093401,
+          "post_percentage_point_contribution": 0.14940239,
+          "author_percentage_point_contribution": 0.41246563
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.18728934,
+          "post_percentage_point_contribution": 0.09960159,
+          "author_percentage_point_contribution": 0.27497709
+        },
+        {
+          "component_label": "dust and particulate matter",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "generic smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "alcohol exposure or use",
+      "overall_value": 0.68672758,
+      "percent_topic_posts_with_label": 0.36520584,
+      "percent_topic_authors_using_label_on_topic_post": 1.00824931,
+      "links": [
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.09364467,
+          "post_percentage_point_contribution": 0.0498008,
+          "author_percentage_point_contribution": 0.13748854
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.53065313,
+          "post_percentage_point_contribution": 0.28220452,
+          "author_percentage_point_contribution": 0.77910174
+        },
+        {
+          "component_label": "vaping aerosol",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic safety",
+      "overall_value": 0.65749833,
+      "percent_topic_posts_with_label": 0.39840637,
+      "percent_topic_authors_using_label_on_topic_post": 0.91659028,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.1019448,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.13748854
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.55555353,
+          "post_percentage_point_contribution": 0.33200531,
+          "author_percentage_point_contribution": 0.77910174
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health disparity",
+      "overall_value": 0.64089806,
+      "percent_topic_posts_with_label": 0.36520584,
+      "percent_topic_authors_using_label_on_topic_post": 0.91659028,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.26631938,
+          "post_percentage_point_contribution": 0.16600266,
+          "author_percentage_point_contribution": 0.36663611
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.18728934,
+          "post_percentage_point_contribution": 0.09960159,
+          "author_percentage_point_contribution": 0.27497709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mask use",
+      "overall_value": 0.6242978,
+      "percent_topic_posts_with_label": 0.33200531,
+      "percent_topic_authors_using_label_on_topic_post": 0.91659028,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.43700846,
+          "post_percentage_point_contribution": 0.23240372,
+          "author_percentage_point_contribution": 0.6416132
+        },
+        {
+          "component_label": "dust and particulate matter",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mortality or death",
+      "overall_value": 0.6242978,
+      "percent_topic_posts_with_label": 0.33200531,
+      "percent_topic_authors_using_label_on_topic_post": 0.91659028,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "vaping aerosol",
+          "value": 0.24971912,
+          "post_percentage_point_contribution": 0.13280212,
+          "author_percentage_point_contribution": 0.36663611
+        }
+      ]
+    },
+    {
+      "intersecting_label": "playground",
+      "overall_value": 0.6242978,
+      "percent_topic_posts_with_label": 0.33200531,
+      "percent_topic_authors_using_label_on_topic_post": 0.91659028,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.18728934,
+          "post_percentage_point_contribution": 0.09960159,
+          "author_percentage_point_contribution": 0.27497709
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "vaping aerosol",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "dust and particulate matter",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "generic smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "stress or distress",
+      "overall_value": 0.6242978,
+      "percent_topic_posts_with_label": 0.33200531,
+      "percent_topic_authors_using_label_on_topic_post": 0.91659028,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.15607445,
+          "post_percentage_point_contribution": 0.08300133,
+          "author_percentage_point_contribution": 0.22914757
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        },
+        {
+          "component_label": "vaping aerosol",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "generic smoke",
+          "value": 0.03121489,
+          "post_percentage_point_contribution": 0.01660027,
+          "author_percentage_point_contribution": 0.04582951
+        }
+      ]
+    },
+    {
+      "intersecting_label": "transportation access",
+      "overall_value": 0.6242978,
+      "percent_topic_posts_with_label": 0.33200531,
+      "percent_topic_authors_using_label_on_topic_post": 0.91659028,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.03121489,
+          "post_percentage_point_contribution": 0.01660027,
+          "author_percentage_point_contribution": 0.04582951
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.56186802,
+          "post_percentage_point_contribution": 0.29880478,
+          "author_percentage_point_contribution": 0.82493126
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.03121489,
+          "post_percentage_point_contribution": 0.01660027,
+          "author_percentage_point_contribution": 0.04582951
+        }
+      ]
+    },
+    {
+      "intersecting_label": "racial and ethnic minority populations",
+      "overall_value": 0.56186802,
+      "percent_topic_posts_with_label": 0.29880478,
+      "percent_topic_authors_using_label_on_topic_post": 0.82493126,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.3121489,
+          "post_percentage_point_contribution": 0.16600266,
+          "author_percentage_point_contribution": 0.45829514
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "water pollution",
+      "overall_value": 0.56186802,
+      "percent_topic_posts_with_label": 0.29880478,
+      "percent_topic_authors_using_label_on_topic_post": 0.82493126,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.56186802,
+          "post_percentage_point_contribution": 0.29880478,
+          "author_percentage_point_contribution": 0.82493126
+        }
+      ]
+    },
+    {
+      "intersecting_label": "evacuation",
+      "overall_value": 0.49943824,
+      "percent_topic_posts_with_label": 0.26560425,
+      "percent_topic_authors_using_label_on_topic_post": 0.73327223,
+      "links": [
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.49943824,
+          "post_percentage_point_contribution": 0.26560425,
+          "author_percentage_point_contribution": 0.73327223
+        }
+      ]
+    },
+    {
+      "intersecting_label": "extreme heat",
+      "overall_value": 0.49943824,
+      "percent_topic_posts_with_label": 0.26560425,
+      "percent_topic_authors_using_label_on_topic_post": 0.73327223,
+      "links": [
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.43700846,
+          "post_percentage_point_contribution": 0.23240372,
+          "author_percentage_point_contribution": 0.6416132
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pets and companion animals",
+      "overall_value": 0.49943824,
+      "percent_topic_posts_with_label": 0.26560425,
+      "percent_topic_authors_using_label_on_topic_post": 0.73327223,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.37457868,
+          "post_percentage_point_contribution": 0.19920319,
+          "author_percentage_point_contribution": 0.54995417
+        }
+      ]
+    },
+    {
+      "intersecting_label": "respiratory illness",
+      "overall_value": 0.49943824,
+      "percent_topic_posts_with_label": 0.26560425,
+      "percent_topic_authors_using_label_on_topic_post": 0.73327223,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.18728934,
+          "post_percentage_point_contribution": 0.09960159,
+          "author_percentage_point_contribution": 0.27497709
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        },
+        {
+          "component_label": "vaping aerosol",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        }
+      ]
+    },
+    {
+      "intersecting_label": "shortness of breath",
+      "overall_value": 0.49943824,
+      "percent_topic_posts_with_label": 0.26560425,
+      "percent_topic_authors_using_label_on_topic_post": 0.73327223,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.17688438,
+          "post_percentage_point_contribution": 0.09406817,
+          "author_percentage_point_contribution": 0.25970058
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.23931416,
+          "post_percentage_point_contribution": 0.1272687,
+          "author_percentage_point_contribution": 0.35135961
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "generic smoke",
+          "value": 0.02080993,
+          "post_percentage_point_contribution": 0.01106684,
+          "author_percentage_point_contribution": 0.03055301
+        }
+      ]
+    },
+    {
+      "intersecting_label": "air filtration",
+      "overall_value": 0.43700846,
+      "percent_topic_posts_with_label": 0.23240372,
+      "percent_topic_authors_using_label_on_topic_post": 0.6416132,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.24971912,
+          "post_percentage_point_contribution": 0.13280212,
+          "author_percentage_point_contribution": 0.36663611
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.18728934,
+          "post_percentage_point_contribution": 0.09960159,
+          "author_percentage_point_contribution": 0.27497709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "child abuse or neglect",
+      "overall_value": 0.43700846,
+      "percent_topic_posts_with_label": 0.23240372,
+      "percent_topic_authors_using_label_on_topic_post": 0.6416132,
+      "links": [
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.24971912,
+          "post_percentage_point_contribution": 0.13280212,
+          "author_percentage_point_contribution": 0.36663611
+        },
+        {
+          "component_label": "vaping aerosol",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "generic smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "household chemicals",
+      "overall_value": 0.43700846,
+      "percent_topic_posts_with_label": 0.23240372,
+      "percent_topic_authors_using_label_on_topic_post": 0.6416132,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "dust and particulate matter",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "generic smoke",
+          "value": 0.18728934,
+          "post_percentage_point_contribution": 0.09960159,
+          "author_percentage_point_contribution": 0.27497709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "workplace",
+      "overall_value": 0.43700846,
+      "percent_topic_posts_with_label": 0.23240372,
+      "percent_topic_authors_using_label_on_topic_post": 0.6416132,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.18728934,
+          "post_percentage_point_contribution": 0.09960159,
+          "author_percentage_point_contribution": 0.27497709
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.18728934,
+          "post_percentage_point_contribution": 0.09960159,
+          "author_percentage_point_contribution": 0.27497709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "beach or coastal area",
+      "overall_value": 0.39117894,
+      "percent_topic_posts_with_label": 0.23240372,
+      "percent_topic_authors_using_label_on_topic_post": 0.54995417,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.03951502,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.04582951
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.16437458,
+          "post_percentage_point_contribution": 0.09960159,
+          "author_percentage_point_contribution": 0.22914757
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "vaping aerosol",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childcare center",
+      "overall_value": 0.37457868,
+      "percent_topic_posts_with_label": 0.19920319,
+      "percent_topic_authors_using_label_on_topic_post": 0.54995417,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "vaping aerosol",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "contaminated drinking water",
+      "overall_value": 0.37457868,
+      "percent_topic_posts_with_label": 0.19920319,
+      "percent_topic_authors_using_label_on_topic_post": 0.54995417,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.3121489,
+          "post_percentage_point_contribution": 0.16600266,
+          "author_percentage_point_contribution": 0.45829514
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "headache or migraine",
+      "overall_value": 0.37457868,
+      "percent_topic_posts_with_label": 0.19920319,
+      "percent_topic_authors_using_label_on_topic_post": 0.54995417,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        },
+        {
+          "component_label": "generic smoke",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        }
+      ]
+    },
+    {
+      "intersecting_label": "natural disaster",
+      "overall_value": 0.37457868,
+      "percent_topic_posts_with_label": 0.19920319,
+      "percent_topic_authors_using_label_on_topic_post": 0.54995417,
+      "links": [
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.37457868,
+          "post_percentage_point_contribution": 0.19920319,
+          "author_percentage_point_contribution": 0.54995417
+        }
+      ]
+    },
+    {
+      "intersecting_label": "public transit",
+      "overall_value": 0.37457868,
+      "percent_topic_posts_with_label": 0.19920319,
+      "percent_topic_authors_using_label_on_topic_post": 0.54995417,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.15607445,
+          "post_percentage_point_contribution": 0.08300133,
+          "author_percentage_point_contribution": 0.22914757
+        },
+        {
+          "component_label": "vaping aerosol",
+          "value": 0.03121489,
+          "post_percentage_point_contribution": 0.01660027,
+          "author_percentage_point_contribution": 0.04582951
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adverse birth outcome",
+      "overall_value": 0.3121489,
+      "percent_topic_posts_with_label": 0.16600266,
+      "percent_topic_authors_using_label_on_topic_post": 0.45829514,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.18728934,
+          "post_percentage_point_contribution": 0.09960159,
+          "author_percentage_point_contribution": 0.27497709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "injury",
+      "overall_value": 0.3121489,
+      "percent_topic_posts_with_label": 0.16600266,
+      "percent_topic_authors_using_label_on_topic_post": 0.45829514,
+      "links": [
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.18728934,
+          "post_percentage_point_contribution": 0.09960159,
+          "author_percentage_point_contribution": 0.27497709
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "generic smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "low-income populations",
+      "overall_value": 0.3121489,
+      "percent_topic_posts_with_label": 0.16600266,
+      "percent_topic_authors_using_label_on_topic_post": 0.45829514,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.21850423,
+          "post_percentage_point_contribution": 0.11620186,
+          "author_percentage_point_contribution": 0.3208066
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.03121489,
+          "post_percentage_point_contribution": 0.01660027,
+          "author_percentage_point_contribution": 0.04582951
+        },
+        {
+          "component_label": "smog or ozone",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "restaurant or food store",
+      "overall_value": 0.3121489,
+      "percent_topic_posts_with_label": 0.16600266,
+      "percent_topic_authors_using_label_on_topic_post": 0.45829514,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "vaping aerosol",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        }
+      ]
+    },
+    {
+      "intersecting_label": "workers",
+      "overall_value": 0.3121489,
+      "percent_topic_posts_with_label": 0.16600266,
+      "percent_topic_authors_using_label_on_topic_post": 0.45829514,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.03121489,
+          "post_percentage_point_contribution": 0.01660027,
+          "author_percentage_point_contribution": 0.04582951
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "vaping aerosol",
+          "value": 0.03121489,
+          "post_percentage_point_contribution": 0.01660027,
+          "author_percentage_point_contribution": 0.04582951
+        },
+        {
+          "component_label": "dust and particulate matter",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "anxiety",
+      "overall_value": 0.24971912,
+      "percent_topic_posts_with_label": 0.13280212,
+      "percent_topic_authors_using_label_on_topic_post": 0.36663611,
+      "links": [
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        },
+        {
+          "component_label": "smog or ozone",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "apartment",
+      "overall_value": 0.24971912,
+      "percent_topic_posts_with_label": 0.13280212,
+      "percent_topic_authors_using_label_on_topic_post": 0.36663611,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.18728934,
+          "post_percentage_point_contribution": 0.09960159,
+          "author_percentage_point_contribution": 0.27497709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cognitive or learning problem",
+      "overall_value": 0.24971912,
+      "percent_topic_posts_with_label": 0.13280212,
+      "percent_topic_authors_using_label_on_topic_post": 0.36663611,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "dust and particulate matter",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "commercial area",
+      "overall_value": 0.24971912,
+      "percent_topic_posts_with_label": 0.13280212,
+      "percent_topic_authors_using_label_on_topic_post": 0.36663611,
+      "links": [
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        },
+        {
+          "component_label": "vaping aerosol",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        }
+      ]
+    },
+    {
+      "intersecting_label": "general severe weather",
+      "overall_value": 0.24971912,
+      "percent_topic_posts_with_label": 0.13280212,
+      "percent_topic_authors_using_label_on_topic_post": 0.36663611,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.18728934,
+          "post_percentage_point_contribution": 0.09960159,
+          "author_percentage_point_contribution": 0.27497709
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "hazardous chemicals",
+      "overall_value": 0.24971912,
+      "percent_topic_posts_with_label": 0.13280212,
+      "percent_topic_authors_using_label_on_topic_post": 0.36663611,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.15607445,
+          "post_percentage_point_contribution": 0.08300133,
+          "author_percentage_point_contribution": 0.22914757
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.03121489,
+          "post_percentage_point_contribution": 0.01660027,
+          "author_percentage_point_contribution": 0.04582951
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.03121489,
+          "post_percentage_point_contribution": 0.01660027,
+          "author_percentage_point_contribution": 0.04582951
+        },
+        {
+          "component_label": "vaping aerosol",
+          "value": 0.03121489,
+          "post_percentage_point_contribution": 0.01660027,
+          "author_percentage_point_contribution": 0.04582951
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare facility",
+      "overall_value": 0.24971912,
+      "percent_topic_posts_with_label": 0.13280212,
+      "percent_topic_authors_using_label_on_topic_post": 0.36663611,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "vaping aerosol",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "noise pollution",
+      "overall_value": 0.24971912,
+      "percent_topic_posts_with_label": 0.13280212,
+      "percent_topic_authors_using_label_on_topic_post": 0.36663611,
+      "links": [
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.18728934,
+          "post_percentage_point_contribution": 0.09960159,
+          "author_percentage_point_contribution": 0.27497709
+        },
+        {
+          "component_label": "vaping aerosol",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "inhaler use",
+      "overall_value": 0.20388961,
+      "percent_topic_posts_with_label": 0.13280212,
+      "percent_topic_authors_using_label_on_topic_post": 0.27497709,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.14145983,
+          "post_percentage_point_contribution": 0.09960159,
+          "author_percentage_point_contribution": 0.18331806
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "air-quality monitoring",
+      "overall_value": 0.18728934,
+      "percent_topic_posts_with_label": 0.09960159,
+      "percent_topic_authors_using_label_on_topic_post": 0.27497709,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        },
+        {
+          "component_label": "carbon monoxide",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "allergens",
+      "overall_value": 0.18728934,
+      "percent_topic_posts_with_label": 0.09960159,
+      "percent_topic_authors_using_label_on_topic_post": 0.27497709,
+      "links": [
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "dust and particulate matter",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "community program or service",
+      "overall_value": 0.18728934,
+      "percent_topic_posts_with_label": 0.09960159,
+      "percent_topic_authors_using_label_on_topic_post": 0.27497709,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "vaping aerosol",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "fire safety",
+      "overall_value": 0.18728934,
+      "percent_topic_posts_with_label": 0.09960159,
+      "percent_topic_authors_using_label_on_topic_post": 0.27497709,
+      "links": [
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "generic smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food insecurity",
+      "overall_value": 0.18728934,
+      "percent_topic_posts_with_label": 0.09960159,
+      "percent_topic_authors_using_label_on_topic_post": 0.27497709,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "garden or yard",
+      "overall_value": 0.18728934,
+      "percent_topic_posts_with_label": 0.09960159,
+      "percent_topic_authors_using_label_on_topic_post": 0.27497709,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "dust and particulate matter",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "indoor air quality",
+      "overall_value": 0.18728934,
+      "percent_topic_posts_with_label": 0.09960159,
+      "percent_topic_authors_using_label_on_topic_post": 0.27497709,
+      "links": [
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        },
+        {
+          "component_label": "vaping aerosol",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "industrial site",
+      "overall_value": 0.18728934,
+      "percent_topic_posts_with_label": 0.09960159,
+      "percent_topic_authors_using_label_on_topic_post": 0.27497709,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.18728934,
+          "post_percentage_point_contribution": 0.09960159,
+          "author_percentage_point_contribution": 0.27497709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "medical care",
+      "overall_value": 0.18728934,
+      "percent_topic_posts_with_label": 0.09960159,
+      "percent_topic_authors_using_label_on_topic_post": 0.27497709,
+      "links": [
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        },
+        {
+          "component_label": "dust and particulate matter",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "poverty or financial hardship",
+      "overall_value": 0.18728934,
+      "percent_topic_posts_with_label": 0.09960159,
+      "percent_topic_authors_using_label_on_topic_post": 0.27497709,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "generic smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "scientific research",
+      "overall_value": 0.18728934,
+      "percent_topic_posts_with_label": 0.09960159,
+      "percent_topic_authors_using_label_on_topic_post": 0.27497709,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "dust and particulate matter",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sleep problem",
+      "overall_value": 0.18728934,
+      "percent_topic_posts_with_label": 0.09960159,
+      "percent_topic_authors_using_label_on_topic_post": 0.27497709,
+      "links": [
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "generic smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "social support",
+      "overall_value": 0.18728934,
+      "percent_topic_posts_with_label": 0.09960159,
+      "percent_topic_authors_using_label_on_topic_post": 0.27497709,
+      "links": [
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        },
+        {
+          "component_label": "vaping aerosol",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "unsafe housing conditions",
+      "overall_value": 0.18728934,
+      "percent_topic_posts_with_label": 0.09960159,
+      "percent_topic_authors_using_label_on_topic_post": 0.27497709,
+      "links": [
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "smog or ozone",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "carbon monoxide",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildlife",
+      "overall_value": 0.18728934,
+      "percent_topic_posts_with_label": 0.09960159,
+      "percent_topic_authors_using_label_on_topic_post": 0.27497709,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "bronchitis",
+      "overall_value": 0.12485956,
+      "percent_topic_posts_with_label": 0.06640106,
+      "percent_topic_authors_using_label_on_topic_post": 0.18331806,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "vaping aerosol",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "child welfare services",
+      "overall_value": 0.12485956,
+      "percent_topic_posts_with_label": 0.06640106,
+      "percent_topic_authors_using_label_on_topic_post": 0.18331806,
+      "links": [
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "children with disabilities",
+      "overall_value": 0.12485956,
+      "percent_topic_posts_with_label": 0.06640106,
+      "percent_topic_authors_using_label_on_topic_post": 0.18331806,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "carbon monoxide",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cooking or food preparation",
+      "overall_value": 0.12485956,
+      "percent_topic_posts_with_label": 0.06640106,
+      "percent_topic_authors_using_label_on_topic_post": 0.18331806,
+      "links": [
+        {
+          "component_label": "generic smoke",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        }
+      ]
+    },
+    {
+      "intersecting_label": "discrimination",
+      "overall_value": 0.12485956,
+      "percent_topic_posts_with_label": 0.06640106,
+      "percent_topic_authors_using_label_on_topic_post": 0.18331806,
+      "links": [
+        {
+          "component_label": "vaping aerosol",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "carbon monoxide",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "educational access",
+      "overall_value": 0.12485956,
+      "percent_topic_posts_with_label": 0.06640106,
+      "percent_topic_authors_using_label_on_topic_post": 0.18331806,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "emergency response",
+      "overall_value": 0.12485956,
+      "percent_topic_posts_with_label": 0.06640106,
+      "percent_topic_authors_using_label_on_topic_post": 0.18331806,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        }
+      ]
+    },
+    {
+      "intersecting_label": "farm or agricultural setting",
+      "overall_value": 0.12485956,
+      "percent_topic_posts_with_label": 0.06640106,
+      "percent_topic_authors_using_label_on_topic_post": 0.18331806,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food contamination",
+      "overall_value": 0.12485956,
+      "percent_topic_posts_with_label": 0.06640106,
+      "percent_topic_authors_using_label_on_topic_post": 0.18331806,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "generic smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "foster youth",
+      "overall_value": 0.12485956,
+      "percent_topic_posts_with_label": 0.06640106,
+      "percent_topic_authors_using_label_on_topic_post": 0.18331806,
+      "links": [
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare access",
+      "overall_value": 0.12485956,
+      "percent_topic_posts_with_label": 0.06640106,
+      "percent_topic_authors_using_label_on_topic_post": 0.18331806,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        }
+      ]
+    },
+    {
+      "intersecting_label": "heat-related illness",
+      "overall_value": 0.12485956,
+      "percent_topic_posts_with_label": 0.06640106,
+      "percent_topic_authors_using_label_on_topic_post": 0.18331806,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.09364467,
+          "post_percentage_point_contribution": 0.0498008,
+          "author_percentage_point_contribution": 0.13748854
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.03121489,
+          "post_percentage_point_contribution": 0.01660027,
+          "author_percentage_point_contribution": 0.04582951
+        }
+      ]
+    },
+    {
+      "intersecting_label": "industrial chemicals",
+      "overall_value": 0.12485956,
+      "percent_topic_posts_with_label": 0.06640106,
+      "percent_topic_authors_using_label_on_topic_post": 0.18331806,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.03121489,
+          "post_percentage_point_contribution": 0.01660027,
+          "author_percentage_point_contribution": 0.04582951
+        },
+        {
+          "component_label": "smog or ozone",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "carbon monoxide",
+          "value": 0.03121489,
+          "post_percentage_point_contribution": 0.01660027,
+          "author_percentage_point_contribution": 0.04582951
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mental health condition",
+      "overall_value": 0.12485956,
+      "percent_topic_posts_with_label": 0.06640106,
+      "percent_topic_authors_using_label_on_topic_post": 0.18331806,
+      "links": [
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mold and dampness",
+      "overall_value": 0.12485956,
+      "percent_topic_posts_with_label": 0.06640106,
+      "percent_topic_authors_using_label_on_topic_post": 0.18331806,
+      "links": [
+        {
+          "component_label": "dust and particulate matter",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        }
+      ]
+    },
+    {
+      "intersecting_label": "shelter or temporary housing",
+      "overall_value": 0.12485956,
+      "percent_topic_posts_with_label": 0.06640106,
+      "percent_topic_authors_using_label_on_topic_post": 0.18331806,
+      "links": [
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.12485956,
+          "post_percentage_point_contribution": 0.06640106,
+          "author_percentage_point_contribution": 0.18331806
+        }
+      ]
+    },
+    {
+      "intersecting_label": "urban environment",
+      "overall_value": 0.12485956,
+      "percent_topic_posts_with_label": 0.06640106,
+      "percent_topic_authors_using_label_on_topic_post": 0.18331806,
+      "links": [
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "youth engagement",
+      "overall_value": 0.12485956,
+      "percent_topic_posts_with_label": 0.06640106,
+      "percent_topic_authors_using_label_on_topic_post": 0.18331806,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        },
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "allergic disease",
+      "overall_value": 0.06242978,
+      "percent_topic_posts_with_label": 0.03320053,
+      "percent_topic_authors_using_label_on_topic_post": 0.09165903,
+      "links": [
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "autism",
+      "overall_value": 0.06242978,
+      "percent_topic_posts_with_label": 0.03320053,
+      "percent_topic_authors_using_label_on_topic_post": 0.09165903,
+      "links": [
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cardiovascular condition",
+      "overall_value": 0.06242978,
+      "percent_topic_posts_with_label": 0.03320053,
+      "percent_topic_authors_using_label_on_topic_post": 0.09165903,
+      "links": [
+        {
+          "component_label": "vaping aerosol",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "dental care",
+      "overall_value": 0.06242978,
+      "percent_topic_posts_with_label": 0.03320053,
+      "percent_topic_authors_using_label_on_topic_post": 0.09165903,
+      "links": [
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "dental clinic",
+      "overall_value": 0.06242978,
+      "percent_topic_posts_with_label": 0.03320053,
+      "percent_topic_authors_using_label_on_topic_post": 0.09165903,
+      "links": [
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "depression",
+      "overall_value": 0.06242978,
+      "percent_topic_posts_with_label": 0.03320053,
+      "percent_topic_authors_using_label_on_topic_post": 0.09165903,
+      "links": [
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "developmental delay",
+      "overall_value": 0.06242978,
+      "percent_topic_posts_with_label": 0.03320053,
+      "percent_topic_authors_using_label_on_topic_post": 0.09165903,
+      "links": [
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "disability",
+      "overall_value": 0.06242978,
+      "percent_topic_posts_with_label": 0.03320053,
+      "percent_topic_authors_using_label_on_topic_post": 0.09165903,
+      "links": [
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "disaster preparedness",
+      "overall_value": 0.06242978,
+      "percent_topic_posts_with_label": 0.03320053,
+      "percent_topic_authors_using_label_on_topic_post": 0.09165903,
+      "links": [
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "drought",
+      "overall_value": 0.06242978,
+      "percent_topic_posts_with_label": 0.03320053,
+      "percent_topic_authors_using_label_on_topic_post": 0.09165903,
+      "links": [
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "endocrine-disrupting chemicals",
+      "overall_value": 0.06242978,
+      "percent_topic_posts_with_label": 0.03320053,
+      "percent_topic_authors_using_label_on_topic_post": 0.09165903,
+      "links": [
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "extreme cold",
+      "overall_value": 0.06242978,
+      "percent_topic_posts_with_label": 0.03320053,
+      "percent_topic_authors_using_label_on_topic_post": 0.09165903,
+      "links": [
+        {
+          "component_label": "smog or ozone",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "flooding",
+      "overall_value": 0.06242978,
+      "percent_topic_posts_with_label": 0.03320053,
+      "percent_topic_authors_using_label_on_topic_post": 0.09165903,
+      "links": [
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food access",
+      "overall_value": 0.06242978,
+      "percent_topic_posts_with_label": 0.03320053,
+      "percent_topic_authors_using_label_on_topic_post": 0.09165903,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "gastrointestinal illness",
+      "overall_value": 0.06242978,
+      "percent_topic_posts_with_label": 0.03320053,
+      "percent_topic_authors_using_label_on_topic_post": 0.09165903,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "green-space access",
+      "overall_value": 0.06242978,
+      "percent_topic_posts_with_label": 0.03320053,
+      "percent_topic_authors_using_label_on_topic_post": 0.09165903,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare workers",
+      "overall_value": 0.06242978,
+      "percent_topic_posts_with_label": 0.03320053,
+      "percent_topic_authors_using_label_on_topic_post": 0.09165903,
+      "links": [
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "housing quality",
+      "overall_value": 0.06242978,
+      "percent_topic_posts_with_label": 0.03320053,
+      "percent_topic_authors_using_label_on_topic_post": 0.09165903,
+      "links": [
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "hurricane or severe storm",
+      "overall_value": 0.06242978,
+      "percent_topic_posts_with_label": 0.03320053,
+      "percent_topic_authors_using_label_on_topic_post": 0.09165903,
+      "links": [
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infectious disease",
+      "overall_value": 0.06242978,
+      "percent_topic_posts_with_label": 0.03320053,
+      "percent_topic_authors_using_label_on_topic_post": 0.09165903,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "influenza",
+      "overall_value": 0.06242978,
+      "percent_topic_posts_with_label": 0.03320053,
+      "percent_topic_authors_using_label_on_topic_post": 0.09165903,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "insects and pests",
+      "overall_value": 0.06242978,
+      "percent_topic_posts_with_label": 0.03320053,
+      "percent_topic_authors_using_label_on_topic_post": 0.09165903,
+      "links": [
+        {
+          "component_label": "dust and particulate matter",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "lead exposure",
+      "overall_value": 0.06242978,
+      "percent_topic_posts_with_label": 0.03320053,
+      "percent_topic_authors_using_label_on_topic_post": 0.09165903,
+      "links": [
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pesticides",
+      "overall_value": 0.06242978,
+      "percent_topic_posts_with_label": 0.03320053,
+      "percent_topic_authors_using_label_on_topic_post": 0.09165903,
+      "links": [
+        {
+          "component_label": "smog or ozone",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pollen",
+      "overall_value": 0.06242978,
+      "percent_topic_posts_with_label": 0.03320053,
+      "percent_topic_authors_using_label_on_topic_post": 0.09165903,
+      "links": [
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "radiation",
+      "overall_value": 0.06242978,
+      "percent_topic_posts_with_label": 0.03320053,
+      "percent_topic_authors_using_label_on_topic_post": 0.09165903,
+      "links": [
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "river lake or water body",
+      "overall_value": 0.06242978,
+      "percent_topic_posts_with_label": 0.03320053,
+      "percent_topic_authors_using_label_on_topic_post": 0.09165903,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "skin condition",
+      "overall_value": 0.06242978,
+      "percent_topic_posts_with_label": 0.03320053,
+      "percent_topic_authors_using_label_on_topic_post": 0.09165903,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sports or recreation facility",
+      "overall_value": 0.06242978,
+      "percent_topic_posts_with_label": 0.03320053,
+      "percent_topic_authors_using_label_on_topic_post": 0.09165903,
+      "links": [
+        {
+          "component_label": "vaping aerosol",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sports participation",
+      "overall_value": 0.06242978,
+      "percent_topic_posts_with_label": 0.03320053,
+      "percent_topic_authors_using_label_on_topic_post": 0.09165903,
+      "links": [
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "swimming or water recreation",
+      "overall_value": 0.06242978,
+      "percent_topic_posts_with_label": 0.03320053,
+      "percent_topic_authors_using_label_on_topic_post": 0.09165903,
+      "links": [
+        {
+          "component_label": "secondhand tobacco smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "vaccination",
+      "overall_value": 0.06242978,
+      "percent_topic_posts_with_label": 0.03320053,
+      "percent_topic_authors_using_label_on_topic_post": 0.09165903,
+      "links": [
+        {
+          "component_label": "vaping aerosol",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "ventilation",
+      "overall_value": 0.06242978,
+      "percent_topic_posts_with_label": 0.03320053,
+      "percent_topic_authors_using_label_on_topic_post": 0.09165903,
+      "links": [
+        {
+          "component_label": "wildfire smoke",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wheezing",
+      "overall_value": 0.06242978,
+      "percent_topic_posts_with_label": 0.03320053,
+      "percent_topic_authors_using_label_on_topic_post": 0.09165903,
+      "links": [
+        {
+          "component_label": "ambient air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    },
+    {
+      "intersecting_label": "winter storm or snow hazard",
+      "overall_value": 0.06242978,
+      "percent_topic_posts_with_label": 0.03320053,
+      "percent_topic_authors_using_label_on_topic_post": 0.09165903,
+      "links": [
+        {
+          "component_label": "traffic-related air pollution",
+          "value": 0.06242978,
+          "post_percentage_point_contribution": 0.03320053,
+          "author_percentage_point_contribution": 0.09165903
+        }
+      ]
+    }
+  ]
+}

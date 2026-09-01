@@ -1,0 +1,1244 @@
+{
+  "schema_version": "1.0.0",
+  "city_id": "38900",
+  "domain": "environmental",
+  "category_id": "environmental-11",
+  "topic": "Climate change",
+  "component_labels": [
+    "climate change"
+  ],
+  "intersections": [
+    {
+      "intersecting_label": "children",
+      "overall_value": 71.90209241,
+      "percent_topic_posts_with_label": 70.02141328,
+      "percent_topic_authors_using_label_on_topic_post": 73.78277154,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 71.90209241,
+          "post_percentage_point_contribution": 70.02141328,
+          "author_percentage_point_contribution": 73.78277154
+        }
+      ]
+    },
+    {
+      "intersecting_label": "advocacy",
+      "overall_value": 25.39478222,
+      "percent_topic_posts_with_label": 25.69593148,
+      "percent_topic_authors_using_label_on_topic_post": 25.09363296,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 25.39478222,
+          "post_percentage_point_contribution": 25.69593148,
+          "author_percentage_point_contribution": 25.09363296
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school",
+      "overall_value": 14.07501865,
+      "percent_topic_posts_with_label": 12.41970021,
+      "percent_topic_authors_using_label_on_topic_post": 15.73033708,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 14.07501865,
+          "post_percentage_point_contribution": 12.41970021,
+          "author_percentage_point_contribution": 15.73033708
+        }
+      ]
+    },
+    {
+      "intersecting_label": "students",
+      "overall_value": 13.05848952,
+      "percent_topic_posts_with_label": 12.63383298,
+      "percent_topic_authors_using_label_on_topic_post": 13.48314607,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 13.05848952,
+          "post_percentage_point_contribution": 12.63383298,
+          "author_percentage_point_contribution": 13.48314607
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adolescents",
+      "overall_value": 10.83696236,
+      "percent_topic_posts_with_label": 8.56531049,
+      "percent_topic_authors_using_label_on_topic_post": 13.10861423,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 10.83696236,
+          "post_percentage_point_contribution": 8.56531049,
+          "author_percentage_point_contribution": 13.10861423
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental justice",
+      "overall_value": 9.82043324,
+      "percent_topic_posts_with_label": 8.77944325,
+      "percent_topic_authors_using_label_on_topic_post": 10.86142322,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 9.82043324,
+          "post_percentage_point_contribution": 8.77944325,
+          "author_percentage_point_contribution": 10.86142322
+        }
+      ]
+    },
+    {
+      "intersecting_label": "youth engagement",
+      "overall_value": 8.66956989,
+      "percent_topic_posts_with_label": 6.85224839,
+      "percent_topic_authors_using_label_on_topic_post": 10.48689139,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 8.66956989,
+          "post_percentage_point_contribution": 6.85224839,
+          "author_percentage_point_contribution": 10.48689139
+        }
+      ]
+    },
+    {
+      "intersecting_label": "families",
+      "overall_value": 5.00364908,
+      "percent_topic_posts_with_label": 3.64025696,
+      "percent_topic_authors_using_label_on_topic_post": 6.3670412,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 5.00364908,
+          "post_percentage_point_contribution": 3.64025696,
+          "author_percentage_point_contribution": 6.3670412
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental policy or regulation",
+      "overall_value": 4.54891771,
+      "percent_topic_posts_with_label": 3.85438972,
+      "percent_topic_authors_using_label_on_topic_post": 5.24344569,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 4.54891771,
+          "post_percentage_point_contribution": 3.85438972,
+          "author_percentage_point_contribution": 5.24344569
+        }
+      ]
+    },
+    {
+      "intersecting_label": "parents and caregivers",
+      "overall_value": 3.93338627,
+      "percent_topic_posts_with_label": 2.99785867,
+      "percent_topic_authors_using_label_on_topic_post": 4.86891386,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 3.93338627,
+          "post_percentage_point_contribution": 2.99785867,
+          "author_percentage_point_contribution": 4.86891386
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health education or awareness",
+      "overall_value": 3.85318673,
+      "percent_topic_posts_with_label": 3.21199143,
+      "percent_topic_authors_using_label_on_topic_post": 4.49438202,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 3.85318673,
+          "post_percentage_point_contribution": 3.21199143,
+          "author_percentage_point_contribution": 4.49438202
+        }
+      ]
+    },
+    {
+      "intersecting_label": "unhoused populations",
+      "overall_value": 3.63905397,
+      "percent_topic_posts_with_label": 2.78372591,
+      "percent_topic_authors_using_label_on_topic_post": 4.49438202,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 3.63905397,
+          "post_percentage_point_contribution": 2.78372591,
+          "author_percentage_point_contribution": 4.49438202
+        }
+      ]
+    },
+    {
+      "intersecting_label": "poverty or financial hardship",
+      "overall_value": 3.31825582,
+      "percent_topic_posts_with_label": 3.64025696,
+      "percent_topic_authors_using_label_on_topic_post": 2.99625468,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 3.31825582,
+          "post_percentage_point_contribution": 3.64025696,
+          "author_percentage_point_contribution": 2.99625468
+        }
+      ]
+    },
+    {
+      "intersecting_label": "violence or crime",
+      "overall_value": 3.02392352,
+      "percent_topic_posts_with_label": 3.4261242,
+      "percent_topic_authors_using_label_on_topic_post": 2.62172285,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 3.02392352,
+          "post_percentage_point_contribution": 3.4261242,
+          "author_percentage_point_contribution": 2.62172285
+        }
+      ]
+    },
+    {
+      "intersecting_label": "racial and ethnic minority populations",
+      "overall_value": 2.86312345,
+      "percent_topic_posts_with_label": 2.35546039,
+      "percent_topic_authors_using_label_on_topic_post": 3.37078652,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 2.86312345,
+          "post_percentage_point_contribution": 2.35546039,
+          "author_percentage_point_contribution": 3.37078652
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food insecurity",
+      "overall_value": 2.56879115,
+      "percent_topic_posts_with_label": 2.14132762,
+      "percent_topic_authors_using_label_on_topic_post": 2.99625468,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 2.56879115,
+          "post_percentage_point_contribution": 2.14132762,
+          "author_percentage_point_contribution": 2.99625468
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildfire smoke",
+      "overall_value": 2.38152523,
+      "percent_topic_posts_with_label": 2.14132762,
+      "percent_topic_authors_using_label_on_topic_post": 2.62172285,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 2.38152523,
+          "post_percentage_point_contribution": 2.14132762,
+          "author_percentage_point_contribution": 2.62172285
+        }
+      ]
+    },
+    {
+      "intersecting_label": "ambient air pollution",
+      "overall_value": 2.35465839,
+      "percent_topic_posts_with_label": 1.7130621,
+      "percent_topic_authors_using_label_on_topic_post": 2.99625468,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 2.35465839,
+          "post_percentage_point_contribution": 1.7130621,
+          "author_percentage_point_contribution": 2.99625468
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildfire",
+      "overall_value": 2.08719294,
+      "percent_topic_posts_with_label": 1.92719486,
+      "percent_topic_authors_using_label_on_topic_post": 2.24719101,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 2.08719294,
+          "post_percentage_point_contribution": 1.92719486,
+          "author_percentage_point_contribution": 2.24719101
+        }
+      ]
+    },
+    {
+      "intersecting_label": "child abuse or neglect",
+      "overall_value": 2.06032609,
+      "percent_topic_posts_with_label": 1.49892934,
+      "percent_topic_authors_using_label_on_topic_post": 2.62172285,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 2.06032609,
+          "post_percentage_point_contribution": 1.49892934,
+          "author_percentage_point_contribution": 2.62172285
+        }
+      ]
+    },
+    {
+      "intersecting_label": "teachers and school staff",
+      "overall_value": 1.98012655,
+      "percent_topic_posts_with_label": 1.7130621,
+      "percent_topic_authors_using_label_on_topic_post": 2.24719101,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 1.98012655,
+          "post_percentage_point_contribution": 1.7130621,
+          "author_percentage_point_contribution": 2.24719101
+        }
+      ]
+    },
+    {
+      "intersecting_label": "discrimination",
+      "overall_value": 1.89992702,
+      "percent_topic_posts_with_label": 1.92719486,
+      "percent_topic_authors_using_label_on_topic_post": 1.87265918,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 1.89992702,
+          "post_percentage_point_contribution": 1.92719486,
+          "author_percentage_point_contribution": 1.87265918
+        }
+      ]
+    },
+    {
+      "intersecting_label": "extreme heat",
+      "overall_value": 1.76599379,
+      "percent_topic_posts_with_label": 1.28479657,
+      "percent_topic_authors_using_label_on_topic_post": 2.24719101,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 1.76599379,
+          "post_percentage_point_contribution": 1.28479657,
+          "author_percentage_point_contribution": 2.24719101
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health disparity",
+      "overall_value": 1.76599379,
+      "percent_topic_posts_with_label": 1.28479657,
+      "percent_topic_authors_using_label_on_topic_post": 2.24719101,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 1.76599379,
+          "post_percentage_point_contribution": 1.28479657,
+          "author_percentage_point_contribution": 2.24719101
+        }
+      ]
+    },
+    {
+      "intersecting_label": "home",
+      "overall_value": 1.76599379,
+      "percent_topic_posts_with_label": 1.28479657,
+      "percent_topic_authors_using_label_on_topic_post": 2.24719101,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 1.76599379,
+          "post_percentage_point_contribution": 1.28479657,
+          "author_percentage_point_contribution": 2.24719101
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infants",
+      "overall_value": 1.76599379,
+      "percent_topic_posts_with_label": 1.28479657,
+      "percent_topic_authors_using_label_on_topic_post": 2.24719101,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 1.76599379,
+          "post_percentage_point_contribution": 1.28479657,
+          "author_percentage_point_contribution": 2.24719101
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mental health condition",
+      "overall_value": 1.76599379,
+      "percent_topic_posts_with_label": 1.28479657,
+      "percent_topic_authors_using_label_on_topic_post": 2.24719101,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 1.76599379,
+          "post_percentage_point_contribution": 1.28479657,
+          "author_percentage_point_contribution": 2.24719101
+        }
+      ]
+    },
+    {
+      "intersecting_label": "water pollution",
+      "overall_value": 1.76599379,
+      "percent_topic_posts_with_label": 1.28479657,
+      "percent_topic_authors_using_label_on_topic_post": 2.24719101,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 1.76599379,
+          "post_percentage_point_contribution": 1.28479657,
+          "author_percentage_point_contribution": 2.24719101
+        }
+      ]
+    },
+    {
+      "intersecting_label": "contaminated drinking water",
+      "overall_value": 1.68579426,
+      "percent_topic_posts_with_label": 1.49892934,
+      "percent_topic_authors_using_label_on_topic_post": 1.87265918,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 1.68579426,
+          "post_percentage_point_contribution": 1.49892934,
+          "author_percentage_point_contribution": 1.87265918
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school closure",
+      "overall_value": 1.68579426,
+      "percent_topic_posts_with_label": 1.49892934,
+      "percent_topic_authors_using_label_on_topic_post": 1.87265918,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 1.68579426,
+          "post_percentage_point_contribution": 1.49892934,
+          "author_percentage_point_contribution": 1.87265918
+        }
+      ]
+    },
+    {
+      "intersecting_label": "housing instability or homelessness",
+      "overall_value": 1.57872787,
+      "percent_topic_posts_with_label": 1.28479657,
+      "percent_topic_authors_using_label_on_topic_post": 1.87265918,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 1.57872787,
+          "post_percentage_point_contribution": 1.28479657,
+          "author_percentage_point_contribution": 1.87265918
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mortality or death",
+      "overall_value": 1.57872787,
+      "percent_topic_posts_with_label": 1.28479657,
+      "percent_topic_authors_using_label_on_topic_post": 1.87265918,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 1.57872787,
+          "post_percentage_point_contribution": 1.28479657,
+          "author_percentage_point_contribution": 1.87265918
+        }
+      ]
+    },
+    {
+      "intersecting_label": "outdoor environment",
+      "overall_value": 1.57872787,
+      "percent_topic_posts_with_label": 1.28479657,
+      "percent_topic_authors_using_label_on_topic_post": 1.87265918,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 1.57872787,
+          "post_percentage_point_contribution": 1.28479657,
+          "author_percentage_point_contribution": 1.87265918
+        }
+      ]
+    },
+    {
+      "intersecting_label": "outdoor play or recreation",
+      "overall_value": 1.47166149,
+      "percent_topic_posts_with_label": 1.07066381,
+      "percent_topic_authors_using_label_on_topic_post": 1.87265918,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 1.47166149,
+          "post_percentage_point_contribution": 1.07066381,
+          "author_percentage_point_contribution": 1.87265918
+        }
+      ]
+    },
+    {
+      "intersecting_label": "scientific research",
+      "overall_value": 1.47166149,
+      "percent_topic_posts_with_label": 1.07066381,
+      "percent_topic_authors_using_label_on_topic_post": 1.87265918,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 1.47166149,
+          "post_percentage_point_contribution": 1.07066381,
+          "author_percentage_point_contribution": 1.87265918
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare access",
+      "overall_value": 1.39146196,
+      "percent_topic_posts_with_label": 1.28479657,
+      "percent_topic_authors_using_label_on_topic_post": 1.49812734,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 1.39146196,
+          "post_percentage_point_contribution": 1.28479657,
+          "author_percentage_point_contribution": 1.49812734
+        }
+      ]
+    },
+    {
+      "intersecting_label": "park or green space",
+      "overall_value": 1.28439558,
+      "percent_topic_posts_with_label": 1.07066381,
+      "percent_topic_authors_using_label_on_topic_post": 1.49812734,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 1.28439558,
+          "post_percentage_point_contribution": 1.07066381,
+          "author_percentage_point_contribution": 1.49812734
+        }
+      ]
+    },
+    {
+      "intersecting_label": "asthma",
+      "overall_value": 1.1773292,
+      "percent_topic_posts_with_label": 0.85653105,
+      "percent_topic_authors_using_label_on_topic_post": 1.49812734,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 1.1773292,
+          "post_percentage_point_contribution": 0.85653105,
+          "author_percentage_point_contribution": 1.49812734
+        }
+      ]
+    },
+    {
+      "intersecting_label": "educational access",
+      "overall_value": 1.1773292,
+      "percent_topic_posts_with_label": 0.85653105,
+      "percent_topic_authors_using_label_on_topic_post": 1.49812734,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 1.1773292,
+          "post_percentage_point_contribution": 0.85653105,
+          "author_percentage_point_contribution": 1.49812734
+        }
+      ]
+    },
+    {
+      "intersecting_label": "flooding",
+      "overall_value": 1.1773292,
+      "percent_topic_posts_with_label": 0.85653105,
+      "percent_topic_authors_using_label_on_topic_post": 1.49812734,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 1.1773292,
+          "post_percentage_point_contribution": 0.85653105,
+          "author_percentage_point_contribution": 1.49812734
+        }
+      ]
+    },
+    {
+      "intersecting_label": "hurricane or severe storm",
+      "overall_value": 1.1773292,
+      "percent_topic_posts_with_label": 0.85653105,
+      "percent_topic_authors_using_label_on_topic_post": 1.49812734,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 1.1773292,
+          "post_percentage_point_contribution": 0.85653105,
+          "author_percentage_point_contribution": 1.49812734
+        }
+      ]
+    },
+    {
+      "intersecting_label": "anxiety",
+      "overall_value": 0.8829969,
+      "percent_topic_posts_with_label": 0.64239829,
+      "percent_topic_authors_using_label_on_topic_post": 1.12359551,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 0.8829969,
+          "post_percentage_point_contribution": 0.64239829,
+          "author_percentage_point_contribution": 1.12359551
+        }
+      ]
+    },
+    {
+      "intersecting_label": "drought",
+      "overall_value": 0.8829969,
+      "percent_topic_posts_with_label": 0.64239829,
+      "percent_topic_authors_using_label_on_topic_post": 1.12359551,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 0.8829969,
+          "post_percentage_point_contribution": 0.64239829,
+          "author_percentage_point_contribution": 1.12359551
+        }
+      ]
+    },
+    {
+      "intersecting_label": "stress or distress",
+      "overall_value": 0.8829969,
+      "percent_topic_posts_with_label": 0.64239829,
+      "percent_topic_authors_using_label_on_topic_post": 1.12359551,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 0.8829969,
+          "post_percentage_point_contribution": 0.64239829,
+          "author_percentage_point_contribution": 1.12359551
+        }
+      ]
+    },
+    {
+      "intersecting_label": "toddlers",
+      "overall_value": 0.8829969,
+      "percent_topic_posts_with_label": 0.64239829,
+      "percent_topic_authors_using_label_on_topic_post": 1.12359551,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 0.8829969,
+          "post_percentage_point_contribution": 0.64239829,
+          "author_percentage_point_contribution": 1.12359551
+        }
+      ]
+    },
+    {
+      "intersecting_label": "COVID-19",
+      "overall_value": 0.69573098,
+      "percent_topic_posts_with_label": 0.64239829,
+      "percent_topic_authors_using_label_on_topic_post": 0.74906367,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 0.69573098,
+          "post_percentage_point_contribution": 0.64239829,
+          "author_percentage_point_contribution": 0.74906367
+        }
+      ]
+    },
+    {
+      "intersecting_label": "community program or service",
+      "overall_value": 0.5886646,
+      "percent_topic_posts_with_label": 0.42826552,
+      "percent_topic_authors_using_label_on_topic_post": 0.74906367,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 0.5886646,
+          "post_percentage_point_contribution": 0.42826552,
+          "author_percentage_point_contribution": 0.74906367
+        }
+      ]
+    },
+    {
+      "intersecting_label": "heat-related illness",
+      "overall_value": 0.5886646,
+      "percent_topic_posts_with_label": 0.42826552,
+      "percent_topic_authors_using_label_on_topic_post": 0.74906367,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 0.5886646,
+          "post_percentage_point_contribution": 0.42826552,
+          "author_percentage_point_contribution": 0.74906367
+        }
+      ]
+    },
+    {
+      "intersecting_label": "low-income populations",
+      "overall_value": 0.5886646,
+      "percent_topic_posts_with_label": 0.42826552,
+      "percent_topic_authors_using_label_on_topic_post": 0.74906367,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 0.5886646,
+          "post_percentage_point_contribution": 0.42826552,
+          "author_percentage_point_contribution": 0.74906367
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pesticides",
+      "overall_value": 0.5886646,
+      "percent_topic_posts_with_label": 0.42826552,
+      "percent_topic_authors_using_label_on_topic_post": 0.74906367,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 0.5886646,
+          "post_percentage_point_contribution": 0.42826552,
+          "author_percentage_point_contribution": 0.74906367
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pets and companion animals",
+      "overall_value": 0.5886646,
+      "percent_topic_posts_with_label": 0.42826552,
+      "percent_topic_authors_using_label_on_topic_post": 0.74906367,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 0.5886646,
+          "post_percentage_point_contribution": 0.42826552,
+          "author_percentage_point_contribution": 0.74906367
+        }
+      ]
+    },
+    {
+      "intersecting_label": "reproductive health condition",
+      "overall_value": 0.5886646,
+      "percent_topic_posts_with_label": 0.42826552,
+      "percent_topic_authors_using_label_on_topic_post": 0.74906367,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 0.5886646,
+          "post_percentage_point_contribution": 0.42826552,
+          "author_percentage_point_contribution": 0.74906367
+        }
+      ]
+    },
+    {
+      "intersecting_label": "river lake or water body",
+      "overall_value": 0.5886646,
+      "percent_topic_posts_with_label": 0.42826552,
+      "percent_topic_authors_using_label_on_topic_post": 0.74906367,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 0.5886646,
+          "post_percentage_point_contribution": 0.42826552,
+          "author_percentage_point_contribution": 0.74906367
+        }
+      ]
+    },
+    {
+      "intersecting_label": "walking or bicycling",
+      "overall_value": 0.5886646,
+      "percent_topic_posts_with_label": 0.42826552,
+      "percent_topic_authors_using_label_on_topic_post": 0.74906367,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 0.5886646,
+          "post_percentage_point_contribution": 0.42826552,
+          "author_percentage_point_contribution": 0.74906367
+        }
+      ]
+    },
+    {
+      "intersecting_label": "general severe weather",
+      "overall_value": 0.40139868,
+      "percent_topic_posts_with_label": 0.42826552,
+      "percent_topic_authors_using_label_on_topic_post": 0.37453184,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 0.40139868,
+          "post_percentage_point_contribution": 0.42826552,
+          "author_percentage_point_contribution": 0.37453184
+        }
+      ]
+    },
+    {
+      "intersecting_label": "activity cancellation",
+      "overall_value": 0.2943323,
+      "percent_topic_posts_with_label": 0.21413276,
+      "percent_topic_authors_using_label_on_topic_post": 0.37453184,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 0.2943323,
+          "post_percentage_point_contribution": 0.21413276,
+          "author_percentage_point_contribution": 0.37453184
+        }
+      ]
+    },
+    {
+      "intersecting_label": "allergens",
+      "overall_value": 0.2943323,
+      "percent_topic_posts_with_label": 0.21413276,
+      "percent_topic_authors_using_label_on_topic_post": 0.37453184,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 0.2943323,
+          "post_percentage_point_contribution": 0.21413276,
+          "author_percentage_point_contribution": 0.37453184
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cancer",
+      "overall_value": 0.2943323,
+      "percent_topic_posts_with_label": 0.21413276,
+      "percent_topic_authors_using_label_on_topic_post": 0.37453184,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 0.2943323,
+          "post_percentage_point_contribution": 0.21413276,
+          "author_percentage_point_contribution": 0.37453184
+        }
+      ]
+    },
+    {
+      "intersecting_label": "carbon monoxide",
+      "overall_value": 0.2943323,
+      "percent_topic_posts_with_label": 0.21413276,
+      "percent_topic_authors_using_label_on_topic_post": 0.37453184,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 0.2943323,
+          "post_percentage_point_contribution": 0.21413276,
+          "author_percentage_point_contribution": 0.37453184
+        }
+      ]
+    },
+    {
+      "intersecting_label": "child welfare services",
+      "overall_value": 0.2943323,
+      "percent_topic_posts_with_label": 0.21413276,
+      "percent_topic_authors_using_label_on_topic_post": 0.37453184,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 0.2943323,
+          "post_percentage_point_contribution": 0.21413276,
+          "author_percentage_point_contribution": 0.37453184
+        }
+      ]
+    },
+    {
+      "intersecting_label": "children with disabilities",
+      "overall_value": 0.2943323,
+      "percent_topic_posts_with_label": 0.21413276,
+      "percent_topic_authors_using_label_on_topic_post": 0.37453184,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 0.2943323,
+          "post_percentage_point_contribution": 0.21413276,
+          "author_percentage_point_contribution": 0.37453184
+        }
+      ]
+    },
+    {
+      "intersecting_label": "community resilience",
+      "overall_value": 0.2943323,
+      "percent_topic_posts_with_label": 0.21413276,
+      "percent_topic_authors_using_label_on_topic_post": 0.37453184,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 0.2943323,
+          "post_percentage_point_contribution": 0.21413276,
+          "author_percentage_point_contribution": 0.37453184
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cough",
+      "overall_value": 0.2943323,
+      "percent_topic_posts_with_label": 0.21413276,
+      "percent_topic_authors_using_label_on_topic_post": 0.37453184,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 0.2943323,
+          "post_percentage_point_contribution": 0.21413276,
+          "author_percentage_point_contribution": 0.37453184
+        }
+      ]
+    },
+    {
+      "intersecting_label": "depression",
+      "overall_value": 0.2943323,
+      "percent_topic_posts_with_label": 0.21413276,
+      "percent_topic_authors_using_label_on_topic_post": 0.37453184,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 0.2943323,
+          "post_percentage_point_contribution": 0.21413276,
+          "author_percentage_point_contribution": 0.37453184
+        }
+      ]
+    },
+    {
+      "intersecting_label": "diabetes",
+      "overall_value": 0.2943323,
+      "percent_topic_posts_with_label": 0.21413276,
+      "percent_topic_authors_using_label_on_topic_post": 0.37453184,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 0.2943323,
+          "post_percentage_point_contribution": 0.21413276,
+          "author_percentage_point_contribution": 0.37453184
+        }
+      ]
+    },
+    {
+      "intersecting_label": "fertility problem",
+      "overall_value": 0.2943323,
+      "percent_topic_posts_with_label": 0.21413276,
+      "percent_topic_authors_using_label_on_topic_post": 0.37453184,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 0.2943323,
+          "post_percentage_point_contribution": 0.21413276,
+          "author_percentage_point_contribution": 0.37453184
+        }
+      ]
+    },
+    {
+      "intersecting_label": "fire hazard",
+      "overall_value": 0.2943323,
+      "percent_topic_posts_with_label": 0.21413276,
+      "percent_topic_authors_using_label_on_topic_post": 0.37453184,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 0.2943323,
+          "post_percentage_point_contribution": 0.21413276,
+          "author_percentage_point_contribution": 0.37453184
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food contamination",
+      "overall_value": 0.2943323,
+      "percent_topic_posts_with_label": 0.21413276,
+      "percent_topic_authors_using_label_on_topic_post": 0.37453184,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 0.2943323,
+          "post_percentage_point_contribution": 0.21413276,
+          "author_percentage_point_contribution": 0.37453184
+        }
+      ]
+    },
+    {
+      "intersecting_label": "foster youth",
+      "overall_value": 0.2943323,
+      "percent_topic_posts_with_label": 0.21413276,
+      "percent_topic_authors_using_label_on_topic_post": 0.37453184,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 0.2943323,
+          "post_percentage_point_contribution": 0.21413276,
+          "author_percentage_point_contribution": 0.37453184
+        }
+      ]
+    },
+    {
+      "intersecting_label": "industrial site",
+      "overall_value": 0.2943323,
+      "percent_topic_posts_with_label": 0.21413276,
+      "percent_topic_authors_using_label_on_topic_post": 0.37453184,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 0.2943323,
+          "post_percentage_point_contribution": 0.21413276,
+          "author_percentage_point_contribution": 0.37453184
+        }
+      ]
+    },
+    {
+      "intersecting_label": "injury",
+      "overall_value": 0.2943323,
+      "percent_topic_posts_with_label": 0.21413276,
+      "percent_topic_authors_using_label_on_topic_post": 0.37453184,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 0.2943323,
+          "post_percentage_point_contribution": 0.21413276,
+          "author_percentage_point_contribution": 0.37453184
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mask use",
+      "overall_value": 0.2943323,
+      "percent_topic_posts_with_label": 0.21413276,
+      "percent_topic_authors_using_label_on_topic_post": 0.37453184,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 0.2943323,
+          "post_percentage_point_contribution": 0.21413276,
+          "author_percentage_point_contribution": 0.37453184
+        }
+      ]
+    },
+    {
+      "intersecting_label": "natural disaster",
+      "overall_value": 0.2943323,
+      "percent_topic_posts_with_label": 0.21413276,
+      "percent_topic_authors_using_label_on_topic_post": 0.37453184,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 0.2943323,
+          "post_percentage_point_contribution": 0.21413276,
+          "author_percentage_point_contribution": 0.37453184
+        }
+      ]
+    },
+    {
+      "intersecting_label": "noise pollution",
+      "overall_value": 0.2943323,
+      "percent_topic_posts_with_label": 0.21413276,
+      "percent_topic_authors_using_label_on_topic_post": 0.37453184,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 0.2943323,
+          "post_percentage_point_contribution": 0.21413276,
+          "author_percentage_point_contribution": 0.37453184
+        }
+      ]
+    },
+    {
+      "intersecting_label": "obesity",
+      "overall_value": 0.2943323,
+      "percent_topic_posts_with_label": 0.21413276,
+      "percent_topic_authors_using_label_on_topic_post": 0.37453184,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 0.2943323,
+          "post_percentage_point_contribution": 0.21413276,
+          "author_percentage_point_contribution": 0.37453184
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pollen",
+      "overall_value": 0.2943323,
+      "percent_topic_posts_with_label": 0.21413276,
+      "percent_topic_authors_using_label_on_topic_post": 0.37453184,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 0.2943323,
+          "post_percentage_point_contribution": 0.21413276,
+          "author_percentage_point_contribution": 0.37453184
+        }
+      ]
+    },
+    {
+      "intersecting_label": "poor sanitation",
+      "overall_value": 0.2943323,
+      "percent_topic_posts_with_label": 0.21413276,
+      "percent_topic_authors_using_label_on_topic_post": 0.37453184,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 0.2943323,
+          "post_percentage_point_contribution": 0.21413276,
+          "author_percentage_point_contribution": 0.37453184
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pregnant people",
+      "overall_value": 0.2943323,
+      "percent_topic_posts_with_label": 0.21413276,
+      "percent_topic_authors_using_label_on_topic_post": 0.37453184,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 0.2943323,
+          "post_percentage_point_contribution": 0.21413276,
+          "author_percentage_point_contribution": 0.37453184
+        }
+      ]
+    },
+    {
+      "intersecting_label": "preterm birth",
+      "overall_value": 0.2943323,
+      "percent_topic_posts_with_label": 0.21413276,
+      "percent_topic_authors_using_label_on_topic_post": 0.37453184,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 0.2943323,
+          "post_percentage_point_contribution": 0.21413276,
+          "author_percentage_point_contribution": 0.37453184
+        }
+      ]
+    },
+    {
+      "intersecting_label": "rural populations",
+      "overall_value": 0.2943323,
+      "percent_topic_posts_with_label": 0.21413276,
+      "percent_topic_authors_using_label_on_topic_post": 0.37453184,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 0.2943323,
+          "post_percentage_point_contribution": 0.21413276,
+          "author_percentage_point_contribution": 0.37453184
+        }
+      ]
+    },
+    {
+      "intersecting_label": "social support",
+      "overall_value": 0.2943323,
+      "percent_topic_posts_with_label": 0.21413276,
+      "percent_topic_authors_using_label_on_topic_post": 0.37453184,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 0.2943323,
+          "post_percentage_point_contribution": 0.21413276,
+          "author_percentage_point_contribution": 0.37453184
+        }
+      ]
+    },
+    {
+      "intersecting_label": "street or roadway",
+      "overall_value": 0.2943323,
+      "percent_topic_posts_with_label": 0.21413276,
+      "percent_topic_authors_using_label_on_topic_post": 0.37453184,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 0.2943323,
+          "post_percentage_point_contribution": 0.21413276,
+          "author_percentage_point_contribution": 0.37453184
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic-related air pollution",
+      "overall_value": 0.2943323,
+      "percent_topic_posts_with_label": 0.21413276,
+      "percent_topic_authors_using_label_on_topic_post": 0.37453184,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 0.2943323,
+          "post_percentage_point_contribution": 0.21413276,
+          "author_percentage_point_contribution": 0.37453184
+        }
+      ]
+    },
+    {
+      "intersecting_label": "transportation access",
+      "overall_value": 0.2943323,
+      "percent_topic_posts_with_label": 0.21413276,
+      "percent_topic_authors_using_label_on_topic_post": 0.37453184,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 0.2943323,
+          "post_percentage_point_contribution": 0.21413276,
+          "author_percentage_point_contribution": 0.37453184
+        }
+      ]
+    },
+    {
+      "intersecting_label": "unsafe housing conditions",
+      "overall_value": 0.2943323,
+      "percent_topic_posts_with_label": 0.21413276,
+      "percent_topic_authors_using_label_on_topic_post": 0.37453184,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 0.2943323,
+          "post_percentage_point_contribution": 0.21413276,
+          "author_percentage_point_contribution": 0.37453184
+        }
+      ]
+    },
+    {
+      "intersecting_label": "vaccination",
+      "overall_value": 0.2943323,
+      "percent_topic_posts_with_label": 0.21413276,
+      "percent_topic_authors_using_label_on_topic_post": 0.37453184,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 0.2943323,
+          "post_percentage_point_contribution": 0.21413276,
+          "author_percentage_point_contribution": 0.37453184
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildlife",
+      "overall_value": 0.2943323,
+      "percent_topic_posts_with_label": 0.21413276,
+      "percent_topic_authors_using_label_on_topic_post": 0.37453184,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 0.2943323,
+          "post_percentage_point_contribution": 0.21413276,
+          "author_percentage_point_contribution": 0.37453184
+        }
+      ]
+    },
+    {
+      "intersecting_label": "winter storm or snow hazard",
+      "overall_value": 0.2943323,
+      "percent_topic_posts_with_label": 0.21413276,
+      "percent_topic_authors_using_label_on_topic_post": 0.37453184,
+      "links": [
+        {
+          "component_label": "climate change",
+          "value": 0.2943323,
+          "post_percentage_point_contribution": 0.21413276,
+          "author_percentage_point_contribution": 0.37453184
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1216 @@
+{
+  "schema_version": "1.0.0",
+  "city_id": "38900",
+  "domain": "social_structural",
+  "category_id": "social_structural-09",
+  "topic": "Traffic safety hazards",
+  "component_labels": [
+    "traffic hazard"
+  ],
+  "intersections": [
+    {
+      "intersecting_label": "children",
+      "overall_value": 53.66094409,
+      "percent_topic_posts_with_label": 50.11185682,
+      "percent_topic_authors_using_label_on_topic_post": 57.21003135,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 53.66094409,
+          "post_percentage_point_contribution": 50.11185682,
+          "author_percentage_point_contribution": 57.21003135
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school",
+      "overall_value": 22.59490298,
+      "percent_topic_posts_with_label": 20.58165548,
+      "percent_topic_authors_using_label_on_topic_post": 24.60815047,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 22.59490298,
+          "post_percentage_point_contribution": 20.58165548,
+          "author_percentage_point_contribution": 24.60815047
+        }
+      ]
+    },
+    {
+      "intersecting_label": "violence or crime",
+      "overall_value": 17.92829943,
+      "percent_topic_posts_with_label": 16.10738255,
+      "percent_topic_authors_using_label_on_topic_post": 19.7492163,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 17.92829943,
+          "post_percentage_point_contribution": 16.10738255,
+          "author_percentage_point_contribution": 19.7492163
+        }
+      ]
+    },
+    {
+      "intersecting_label": "street or roadway",
+      "overall_value": 17.64830672,
+      "percent_topic_posts_with_label": 16.3310962,
+      "percent_topic_authors_using_label_on_topic_post": 18.96551724,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 17.64830672,
+          "post_percentage_point_contribution": 16.3310962,
+          "author_percentage_point_contribution": 18.96551724
+        }
+      ]
+    },
+    {
+      "intersecting_label": "motor vehicle",
+      "overall_value": 16.70856914,
+      "percent_topic_posts_with_label": 14.76510067,
+      "percent_topic_authors_using_label_on_topic_post": 18.65203762,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 16.70856914,
+          "post_percentage_point_contribution": 14.76510067,
+          "author_percentage_point_contribution": 18.65203762
+        }
+      ]
+    },
+    {
+      "intersecting_label": "injury",
+      "overall_value": 14.19968021,
+      "percent_topic_posts_with_label": 17.11409396,
+      "percent_topic_authors_using_label_on_topic_post": 11.28526646,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 14.19968021,
+          "post_percentage_point_contribution": 17.11409396,
+          "author_percentage_point_contribution": 11.28526646
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adolescents",
+      "overall_value": 9.87075102,
+      "percent_topic_posts_with_label": 8.61297539,
+      "percent_topic_authors_using_label_on_topic_post": 11.12852665,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 9.87075102,
+          "post_percentage_point_contribution": 8.61297539,
+          "author_percentage_point_contribution": 11.12852665
+        }
+      ]
+    },
+    {
+      "intersecting_label": "students",
+      "overall_value": 7.93464616,
+      "percent_topic_posts_with_label": 6.93512304,
+      "percent_topic_authors_using_label_on_topic_post": 8.93416928,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 7.93464616,
+          "post_percentage_point_contribution": 6.93512304,
+          "author_percentage_point_contribution": 8.93416928
+        }
+      ]
+    },
+    {
+      "intersecting_label": "parents and caregivers",
+      "overall_value": 7.34117383,
+      "percent_topic_posts_with_label": 7.15883669,
+      "percent_topic_authors_using_label_on_topic_post": 7.52351097,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 7.34117383,
+          "post_percentage_point_contribution": 7.15883669,
+          "author_percentage_point_contribution": 7.52351097
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mortality or death",
+      "overall_value": 6.67003289,
+      "percent_topic_posts_with_label": 5.81655481,
+      "percent_topic_authors_using_label_on_topic_post": 7.52351097,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 6.67003289,
+          "post_percentage_point_contribution": 5.81655481,
+          "author_percentage_point_contribution": 7.52351097
+        }
+      ]
+    },
+    {
+      "intersecting_label": "child abuse or neglect",
+      "overall_value": 3.35745794,
+      "percent_topic_posts_with_label": 2.79642058,
+      "percent_topic_authors_using_label_on_topic_post": 3.9184953,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 3.35745794,
+          "post_percentage_point_contribution": 2.79642058,
+          "author_percentage_point_contribution": 3.9184953
+        }
+      ]
+    },
+    {
+      "intersecting_label": "toddlers",
+      "overall_value": 3.06641981,
+      "percent_topic_posts_with_label": 2.68456376,
+      "percent_topic_authors_using_label_on_topic_post": 3.44827586,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 3.06641981,
+          "post_percentage_point_contribution": 2.68456376,
+          "author_percentage_point_contribution": 3.44827586
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic safety",
+      "overall_value": 2.87619308,
+      "percent_topic_posts_with_label": 2.46085011,
+      "percent_topic_authors_using_label_on_topic_post": 3.29153605,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 2.87619308,
+          "post_percentage_point_contribution": 2.46085011,
+          "author_percentage_point_contribution": 3.29153605
+        }
+      ]
+    },
+    {
+      "intersecting_label": "walking or bicycling",
+      "overall_value": 2.85375159,
+      "percent_topic_posts_with_label": 2.57270694,
+      "percent_topic_authors_using_label_on_topic_post": 3.13479624,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 2.85375159,
+          "post_percentage_point_contribution": 2.57270694,
+          "author_percentage_point_contribution": 3.13479624
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infants",
+      "overall_value": 2.52922654,
+      "percent_topic_posts_with_label": 2.23713647,
+      "percent_topic_authors_using_label_on_topic_post": 2.82131661,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 2.52922654,
+          "post_percentage_point_contribution": 2.23713647,
+          "author_percentage_point_contribution": 2.82131661
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic-related air pollution",
+      "overall_value": 2.33899981,
+      "percent_topic_posts_with_label": 2.01342282,
+      "percent_topic_authors_using_label_on_topic_post": 2.6645768,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 2.33899981,
+          "post_percentage_point_contribution": 2.01342282,
+          "author_percentage_point_contribution": 2.6645768
+        }
+      ]
+    },
+    {
+      "intersecting_label": "neighborhood",
+      "overall_value": 2.31655832,
+      "percent_topic_posts_with_label": 2.12527964,
+      "percent_topic_authors_using_label_on_topic_post": 2.50783699,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 2.31655832,
+          "post_percentage_point_contribution": 2.12527964,
+          "author_percentage_point_contribution": 2.50783699
+        }
+      ]
+    },
+    {
+      "intersecting_label": "transportation access",
+      "overall_value": 2.31655832,
+      "percent_topic_posts_with_label": 2.12527964,
+      "percent_topic_authors_using_label_on_topic_post": 2.50783699,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 2.31655832,
+          "post_percentage_point_contribution": 2.12527964,
+          "author_percentage_point_contribution": 2.50783699
+        }
+      ]
+    },
+    {
+      "intersecting_label": "families",
+      "overall_value": 2.2830714,
+      "percent_topic_posts_with_label": 1.901566,
+      "percent_topic_authors_using_label_on_topic_post": 2.6645768,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 2.2830714,
+          "post_percentage_point_contribution": 1.901566,
+          "author_percentage_point_contribution": 2.6645768
+        }
+      ]
+    },
+    {
+      "intersecting_label": "unhoused populations",
+      "overall_value": 1.74587813,
+      "percent_topic_posts_with_label": 1.4541387,
+      "percent_topic_authors_using_label_on_topic_post": 2.03761755,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 1.74587813,
+          "post_percentage_point_contribution": 1.4541387,
+          "author_percentage_point_contribution": 2.03761755
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pets and companion animals",
+      "overall_value": 1.61157981,
+      "percent_topic_posts_with_label": 1.34228188,
+      "percent_topic_authors_using_label_on_topic_post": 1.88087774,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 1.61157981,
+          "post_percentage_point_contribution": 1.34228188,
+          "author_percentage_point_contribution": 1.88087774
+        }
+      ]
+    },
+    {
+      "intersecting_label": "foster youth",
+      "overall_value": 1.58843702,
+      "percent_topic_posts_with_label": 3.02013423,
+      "percent_topic_authors_using_label_on_topic_post": 0.15673981,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 1.58843702,
+          "post_percentage_point_contribution": 3.02013423,
+          "author_percentage_point_contribution": 0.15673981
+        }
+      ]
+    },
+    {
+      "intersecting_label": "alcohol exposure or use",
+      "overall_value": 1.47728149,
+      "percent_topic_posts_with_label": 1.23042506,
+      "percent_topic_authors_using_label_on_topic_post": 1.72413793,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 1.47728149,
+          "post_percentage_point_contribution": 1.23042506,
+          "author_percentage_point_contribution": 1.72413793
+        }
+      ]
+    },
+    {
+      "intersecting_label": "outdoor play or recreation",
+      "overall_value": 1.47728149,
+      "percent_topic_posts_with_label": 1.23042506,
+      "percent_topic_authors_using_label_on_topic_post": 1.72413793,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 1.47728149,
+          "post_percentage_point_contribution": 1.23042506,
+          "author_percentage_point_contribution": 1.72413793
+        }
+      ]
+    },
+    {
+      "intersecting_label": "stress or distress",
+      "overall_value": 1.47728149,
+      "percent_topic_posts_with_label": 1.23042506,
+      "percent_topic_authors_using_label_on_topic_post": 1.72413793,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 1.47728149,
+          "post_percentage_point_contribution": 1.23042506,
+          "author_percentage_point_contribution": 1.72413793
+        }
+      ]
+    },
+    {
+      "intersecting_label": "playground",
+      "overall_value": 1.07438654,
+      "percent_topic_posts_with_label": 0.89485459,
+      "percent_topic_authors_using_label_on_topic_post": 1.2539185,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 1.07438654,
+          "post_percentage_point_contribution": 0.89485459,
+          "author_percentage_point_contribution": 1.2539185
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school closure",
+      "overall_value": 1.07438654,
+      "percent_topic_posts_with_label": 0.89485459,
+      "percent_topic_authors_using_label_on_topic_post": 1.2539185,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 1.07438654,
+          "post_percentage_point_contribution": 0.89485459,
+          "author_percentage_point_contribution": 1.2539185
+        }
+      ]
+    },
+    {
+      "intersecting_label": "racial and ethnic minority populations",
+      "overall_value": 0.99601663,
+      "percent_topic_posts_with_label": 0.89485459,
+      "percent_topic_authors_using_label_on_topic_post": 1.09717868,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.99601663,
+          "post_percentage_point_contribution": 0.89485459,
+          "author_percentage_point_contribution": 1.09717868
+        }
+      ]
+    },
+    {
+      "intersecting_label": "public transit",
+      "overall_value": 0.94008822,
+      "percent_topic_posts_with_label": 0.78299776,
+      "percent_topic_authors_using_label_on_topic_post": 1.09717868,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.94008822,
+          "post_percentage_point_contribution": 0.78299776,
+          "author_percentage_point_contribution": 1.09717868
+        }
+      ]
+    },
+    {
+      "intersecting_label": "children with disabilities",
+      "overall_value": 0.80578991,
+      "percent_topic_posts_with_label": 0.67114094,
+      "percent_topic_authors_using_label_on_topic_post": 0.94043887,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.80578991,
+          "post_percentage_point_contribution": 0.67114094,
+          "author_percentage_point_contribution": 0.94043887
+        }
+      ]
+    },
+    {
+      "intersecting_label": "emergency response",
+      "overall_value": 0.80578991,
+      "percent_topic_posts_with_label": 0.67114094,
+      "percent_topic_authors_using_label_on_topic_post": 0.94043887,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.80578991,
+          "post_percentage_point_contribution": 0.67114094,
+          "author_percentage_point_contribution": 0.94043887
+        }
+      ]
+    },
+    {
+      "intersecting_label": "park or green space",
+      "overall_value": 0.78334841,
+      "percent_topic_posts_with_label": 0.78299776,
+      "percent_topic_authors_using_label_on_topic_post": 0.78369906,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.78334841,
+          "post_percentage_point_contribution": 0.78299776,
+          "author_percentage_point_contribution": 0.78369906
+        }
+      ]
+    },
+    {
+      "intersecting_label": "home",
+      "overall_value": 0.67149159,
+      "percent_topic_posts_with_label": 0.55928412,
+      "percent_topic_authors_using_label_on_topic_post": 0.78369906,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.67149159,
+          "post_percentage_point_contribution": 0.55928412,
+          "author_percentage_point_contribution": 0.78369906
+        }
+      ]
+    },
+    {
+      "intersecting_label": "unsafe housing conditions",
+      "overall_value": 0.67149159,
+      "percent_topic_posts_with_label": 0.55928412,
+      "percent_topic_authors_using_label_on_topic_post": 0.78369906,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.67149159,
+          "post_percentage_point_contribution": 0.55928412,
+          "author_percentage_point_contribution": 0.78369906
+        }
+      ]
+    },
+    {
+      "intersecting_label": "COVID-19",
+      "overall_value": 0.53719327,
+      "percent_topic_posts_with_label": 0.44742729,
+      "percent_topic_authors_using_label_on_topic_post": 0.62695925,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.53719327,
+          "post_percentage_point_contribution": 0.44742729,
+          "author_percentage_point_contribution": 0.62695925
+        }
+      ]
+    },
+    {
+      "intersecting_label": "advocacy",
+      "overall_value": 0.53719327,
+      "percent_topic_posts_with_label": 0.44742729,
+      "percent_topic_authors_using_label_on_topic_post": 0.62695925,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.53719327,
+          "post_percentage_point_contribution": 0.44742729,
+          "author_percentage_point_contribution": 0.62695925
+        }
+      ]
+    },
+    {
+      "intersecting_label": "community program or service",
+      "overall_value": 0.53719327,
+      "percent_topic_posts_with_label": 0.44742729,
+      "percent_topic_authors_using_label_on_topic_post": 0.62695925,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.53719327,
+          "post_percentage_point_contribution": 0.44742729,
+          "author_percentage_point_contribution": 0.62695925
+        }
+      ]
+    },
+    {
+      "intersecting_label": "discrimination",
+      "overall_value": 0.53719327,
+      "percent_topic_posts_with_label": 0.44742729,
+      "percent_topic_authors_using_label_on_topic_post": 0.62695925,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.53719327,
+          "post_percentage_point_contribution": 0.44742729,
+          "author_percentage_point_contribution": 0.62695925
+        }
+      ]
+    },
+    {
+      "intersecting_label": "fire hazard",
+      "overall_value": 0.53719327,
+      "percent_topic_posts_with_label": 0.44742729,
+      "percent_topic_authors_using_label_on_topic_post": 0.62695925,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.53719327,
+          "post_percentage_point_contribution": 0.44742729,
+          "author_percentage_point_contribution": 0.62695925
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mental health condition",
+      "overall_value": 0.53719327,
+      "percent_topic_posts_with_label": 0.44742729,
+      "percent_topic_authors_using_label_on_topic_post": 0.62695925,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.53719327,
+          "post_percentage_point_contribution": 0.44742729,
+          "author_percentage_point_contribution": 0.62695925
+        }
+      ]
+    },
+    {
+      "intersecting_label": "outdoor environment",
+      "overall_value": 0.53719327,
+      "percent_topic_posts_with_label": 0.44742729,
+      "percent_topic_authors_using_label_on_topic_post": 0.62695925,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.53719327,
+          "post_percentage_point_contribution": 0.44742729,
+          "author_percentage_point_contribution": 0.62695925
+        }
+      ]
+    },
+    {
+      "intersecting_label": "violence-related injury",
+      "overall_value": 0.53719327,
+      "percent_topic_posts_with_label": 0.44742729,
+      "percent_topic_authors_using_label_on_topic_post": 0.62695925,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.53719327,
+          "post_percentage_point_contribution": 0.44742729,
+          "author_percentage_point_contribution": 0.62695925
+        }
+      ]
+    },
+    {
+      "intersecting_label": "activity cancellation",
+      "overall_value": 0.40289495,
+      "percent_topic_posts_with_label": 0.33557047,
+      "percent_topic_authors_using_label_on_topic_post": 0.47021944,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.40289495,
+          "post_percentage_point_contribution": 0.33557047,
+          "author_percentage_point_contribution": 0.47021944
+        }
+      ]
+    },
+    {
+      "intersecting_label": "apartment",
+      "overall_value": 0.40289495,
+      "percent_topic_posts_with_label": 0.33557047,
+      "percent_topic_authors_using_label_on_topic_post": 0.47021944,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.40289495,
+          "post_percentage_point_contribution": 0.33557047,
+          "author_percentage_point_contribution": 0.47021944
+        }
+      ]
+    },
+    {
+      "intersecting_label": "extreme cold",
+      "overall_value": 0.40289495,
+      "percent_topic_posts_with_label": 0.33557047,
+      "percent_topic_authors_using_label_on_topic_post": 0.47021944,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.40289495,
+          "post_percentage_point_contribution": 0.33557047,
+          "author_percentage_point_contribution": 0.47021944
+        }
+      ]
+    },
+    {
+      "intersecting_label": "general severe weather",
+      "overall_value": 0.40289495,
+      "percent_topic_posts_with_label": 0.33557047,
+      "percent_topic_authors_using_label_on_topic_post": 0.47021944,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.40289495,
+          "post_percentage_point_contribution": 0.33557047,
+          "author_percentage_point_contribution": 0.47021944
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pregnant people",
+      "overall_value": 0.40289495,
+      "percent_topic_posts_with_label": 0.33557047,
+      "percent_topic_authors_using_label_on_topic_post": 0.47021944,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.40289495,
+          "post_percentage_point_contribution": 0.33557047,
+          "author_percentage_point_contribution": 0.47021944
+        }
+      ]
+    },
+    {
+      "intersecting_label": "winter storm or snow hazard",
+      "overall_value": 0.40289495,
+      "percent_topic_posts_with_label": 0.33557047,
+      "percent_topic_authors_using_label_on_topic_post": 0.47021944,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.40289495,
+          "post_percentage_point_contribution": 0.33557047,
+          "author_percentage_point_contribution": 0.47021944
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental justice",
+      "overall_value": 0.32452505,
+      "percent_topic_posts_with_label": 0.33557047,
+      "percent_topic_authors_using_label_on_topic_post": 0.31347962,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.32452505,
+          "post_percentage_point_contribution": 0.33557047,
+          "author_percentage_point_contribution": 0.31347962
+        }
+      ]
+    },
+    {
+      "intersecting_label": "classroom",
+      "overall_value": 0.26859664,
+      "percent_topic_posts_with_label": 0.22371365,
+      "percent_topic_authors_using_label_on_topic_post": 0.31347962,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.26859664,
+          "post_percentage_point_contribution": 0.22371365,
+          "author_percentage_point_contribution": 0.31347962
+        }
+      ]
+    },
+    {
+      "intersecting_label": "drug exposure or use",
+      "overall_value": 0.26859664,
+      "percent_topic_posts_with_label": 0.22371365,
+      "percent_topic_authors_using_label_on_topic_post": 0.31347962,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.26859664,
+          "post_percentage_point_contribution": 0.22371365,
+          "author_percentage_point_contribution": 0.31347962
+        }
+      ]
+    },
+    {
+      "intersecting_label": "extreme heat",
+      "overall_value": 0.26859664,
+      "percent_topic_posts_with_label": 0.22371365,
+      "percent_topic_authors_using_label_on_topic_post": 0.31347962,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.26859664,
+          "post_percentage_point_contribution": 0.22371365,
+          "author_percentage_point_contribution": 0.31347962
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare workers",
+      "overall_value": 0.26859664,
+      "percent_topic_posts_with_label": 0.22371365,
+      "percent_topic_authors_using_label_on_topic_post": 0.31347962,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.26859664,
+          "post_percentage_point_contribution": 0.22371365,
+          "author_percentage_point_contribution": 0.31347962
+        }
+      ]
+    },
+    {
+      "intersecting_label": "medical care",
+      "overall_value": 0.26859664,
+      "percent_topic_posts_with_label": 0.22371365,
+      "percent_topic_authors_using_label_on_topic_post": 0.31347962,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.26859664,
+          "post_percentage_point_contribution": 0.22371365,
+          "author_percentage_point_contribution": 0.31347962
+        }
+      ]
+    },
+    {
+      "intersecting_label": "noise pollution",
+      "overall_value": 0.26859664,
+      "percent_topic_posts_with_label": 0.22371365,
+      "percent_topic_authors_using_label_on_topic_post": 0.31347962,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.26859664,
+          "post_percentage_point_contribution": 0.22371365,
+          "author_percentage_point_contribution": 0.31347962
+        }
+      ]
+    },
+    {
+      "intersecting_label": "shortness of breath",
+      "overall_value": 0.26859664,
+      "percent_topic_posts_with_label": 0.22371365,
+      "percent_topic_authors_using_label_on_topic_post": 0.31347962,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.26859664,
+          "post_percentage_point_contribution": 0.22371365,
+          "author_percentage_point_contribution": 0.31347962
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sports or recreation facility",
+      "overall_value": 0.26859664,
+      "percent_topic_posts_with_label": 0.22371365,
+      "percent_topic_authors_using_label_on_topic_post": 0.31347962,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.26859664,
+          "post_percentage_point_contribution": 0.22371365,
+          "author_percentage_point_contribution": 0.31347962
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sports participation",
+      "overall_value": 0.26859664,
+      "percent_topic_posts_with_label": 0.22371365,
+      "percent_topic_authors_using_label_on_topic_post": 0.31347962,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.26859664,
+          "post_percentage_point_contribution": 0.22371365,
+          "author_percentage_point_contribution": 0.31347962
+        }
+      ]
+    },
+    {
+      "intersecting_label": "teachers and school staff",
+      "overall_value": 0.26859664,
+      "percent_topic_posts_with_label": 0.22371365,
+      "percent_topic_authors_using_label_on_topic_post": 0.31347962,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.26859664,
+          "post_percentage_point_contribution": 0.22371365,
+          "author_percentage_point_contribution": 0.31347962
+        }
+      ]
+    },
+    {
+      "intersecting_label": "workplace",
+      "overall_value": 0.26859664,
+      "percent_topic_posts_with_label": 0.22371365,
+      "percent_topic_authors_using_label_on_topic_post": 0.31347962,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.26859664,
+          "post_percentage_point_contribution": 0.22371365,
+          "author_percentage_point_contribution": 0.31347962
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adverse birth outcome",
+      "overall_value": 0.13429832,
+      "percent_topic_posts_with_label": 0.11185682,
+      "percent_topic_authors_using_label_on_topic_post": 0.15673981,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.13429832,
+          "post_percentage_point_contribution": 0.11185682,
+          "author_percentage_point_contribution": 0.15673981
+        }
+      ]
+    },
+    {
+      "intersecting_label": "ambient air pollution",
+      "overall_value": 0.13429832,
+      "percent_topic_posts_with_label": 0.11185682,
+      "percent_topic_authors_using_label_on_topic_post": 0.15673981,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.13429832,
+          "post_percentage_point_contribution": 0.11185682,
+          "author_percentage_point_contribution": 0.15673981
+        }
+      ]
+    },
+    {
+      "intersecting_label": "animal-related exposure",
+      "overall_value": 0.13429832,
+      "percent_topic_posts_with_label": 0.11185682,
+      "percent_topic_authors_using_label_on_topic_post": 0.15673981,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.13429832,
+          "post_percentage_point_contribution": 0.11185682,
+          "author_percentage_point_contribution": 0.15673981
+        }
+      ]
+    },
+    {
+      "intersecting_label": "anxiety",
+      "overall_value": 0.13429832,
+      "percent_topic_posts_with_label": 0.11185682,
+      "percent_topic_authors_using_label_on_topic_post": 0.15673981,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.13429832,
+          "post_percentage_point_contribution": 0.11185682,
+          "author_percentage_point_contribution": 0.15673981
+        }
+      ]
+    },
+    {
+      "intersecting_label": "beach or coastal area",
+      "overall_value": 0.13429832,
+      "percent_topic_posts_with_label": 0.11185682,
+      "percent_topic_authors_using_label_on_topic_post": 0.15673981,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.13429832,
+          "post_percentage_point_contribution": 0.11185682,
+          "author_percentage_point_contribution": 0.15673981
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cardiovascular condition",
+      "overall_value": 0.13429832,
+      "percent_topic_posts_with_label": 0.11185682,
+      "percent_topic_authors_using_label_on_topic_post": 0.15673981,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.13429832,
+          "post_percentage_point_contribution": 0.11185682,
+          "author_percentage_point_contribution": 0.15673981
+        }
+      ]
+    },
+    {
+      "intersecting_label": "child welfare services",
+      "overall_value": 0.13429832,
+      "percent_topic_posts_with_label": 0.11185682,
+      "percent_topic_authors_using_label_on_topic_post": 0.15673981,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.13429832,
+          "post_percentage_point_contribution": 0.11185682,
+          "author_percentage_point_contribution": 0.15673981
+        }
+      ]
+    },
+    {
+      "intersecting_label": "developmental delay",
+      "overall_value": 0.13429832,
+      "percent_topic_posts_with_label": 0.11185682,
+      "percent_topic_authors_using_label_on_topic_post": 0.15673981,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.13429832,
+          "post_percentage_point_contribution": 0.11185682,
+          "author_percentage_point_contribution": 0.15673981
+        }
+      ]
+    },
+    {
+      "intersecting_label": "earthquake",
+      "overall_value": 0.13429832,
+      "percent_topic_posts_with_label": 0.11185682,
+      "percent_topic_authors_using_label_on_topic_post": 0.15673981,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.13429832,
+          "post_percentage_point_contribution": 0.11185682,
+          "author_percentage_point_contribution": 0.15673981
+        }
+      ]
+    },
+    {
+      "intersecting_label": "educational access",
+      "overall_value": 0.13429832,
+      "percent_topic_posts_with_label": 0.11185682,
+      "percent_topic_authors_using_label_on_topic_post": 0.15673981,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.13429832,
+          "post_percentage_point_contribution": 0.11185682,
+          "author_percentage_point_contribution": 0.15673981
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food contamination",
+      "overall_value": 0.13429832,
+      "percent_topic_posts_with_label": 0.11185682,
+      "percent_topic_authors_using_label_on_topic_post": 0.15673981,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.13429832,
+          "post_percentage_point_contribution": 0.11185682,
+          "author_percentage_point_contribution": 0.15673981
+        }
+      ]
+    },
+    {
+      "intersecting_label": "garden or yard",
+      "overall_value": 0.13429832,
+      "percent_topic_posts_with_label": 0.11185682,
+      "percent_topic_authors_using_label_on_topic_post": 0.15673981,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.13429832,
+          "post_percentage_point_contribution": 0.11185682,
+          "author_percentage_point_contribution": 0.15673981
+        }
+      ]
+    },
+    {
+      "intersecting_label": "gastrointestinal illness",
+      "overall_value": 0.13429832,
+      "percent_topic_posts_with_label": 0.11185682,
+      "percent_topic_authors_using_label_on_topic_post": 0.15673981,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.13429832,
+          "post_percentage_point_contribution": 0.11185682,
+          "author_percentage_point_contribution": 0.15673981
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health education or awareness",
+      "overall_value": 0.13429832,
+      "percent_topic_posts_with_label": 0.11185682,
+      "percent_topic_authors_using_label_on_topic_post": 0.15673981,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.13429832,
+          "post_percentage_point_contribution": 0.11185682,
+          "author_percentage_point_contribution": 0.15673981
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare access",
+      "overall_value": 0.13429832,
+      "percent_topic_posts_with_label": 0.11185682,
+      "percent_topic_authors_using_label_on_topic_post": 0.15673981,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.13429832,
+          "post_percentage_point_contribution": 0.11185682,
+          "author_percentage_point_contribution": 0.15673981
+        }
+      ]
+    },
+    {
+      "intersecting_label": "household chemicals",
+      "overall_value": 0.13429832,
+      "percent_topic_posts_with_label": 0.11185682,
+      "percent_topic_authors_using_label_on_topic_post": 0.15673981,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.13429832,
+          "post_percentage_point_contribution": 0.11185682,
+          "author_percentage_point_contribution": 0.15673981
+        }
+      ]
+    },
+    {
+      "intersecting_label": "housing instability or homelessness",
+      "overall_value": 0.13429832,
+      "percent_topic_posts_with_label": 0.11185682,
+      "percent_topic_authors_using_label_on_topic_post": 0.15673981,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.13429832,
+          "post_percentage_point_contribution": 0.11185682,
+          "author_percentage_point_contribution": 0.15673981
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infectious disease exposure",
+      "overall_value": 0.13429832,
+      "percent_topic_posts_with_label": 0.11185682,
+      "percent_topic_authors_using_label_on_topic_post": 0.15673981,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.13429832,
+          "post_percentage_point_contribution": 0.11185682,
+          "author_percentage_point_contribution": 0.15673981
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mask use",
+      "overall_value": 0.13429832,
+      "percent_topic_posts_with_label": 0.11185682,
+      "percent_topic_authors_using_label_on_topic_post": 0.15673981,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.13429832,
+          "post_percentage_point_contribution": 0.11185682,
+          "author_percentage_point_contribution": 0.15673981
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pain",
+      "overall_value": 0.13429832,
+      "percent_topic_posts_with_label": 0.11185682,
+      "percent_topic_authors_using_label_on_topic_post": 0.15673981,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.13429832,
+          "post_percentage_point_contribution": 0.11185682,
+          "author_percentage_point_contribution": 0.15673981
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pneumonia",
+      "overall_value": 0.13429832,
+      "percent_topic_posts_with_label": 0.11185682,
+      "percent_topic_authors_using_label_on_topic_post": 0.15673981,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.13429832,
+          "post_percentage_point_contribution": 0.11185682,
+          "author_percentage_point_contribution": 0.15673981
+        }
+      ]
+    },
+    {
+      "intersecting_label": "rural populations",
+      "overall_value": 0.13429832,
+      "percent_topic_posts_with_label": 0.11185682,
+      "percent_topic_authors_using_label_on_topic_post": 0.15673981,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.13429832,
+          "post_percentage_point_contribution": 0.11185682,
+          "author_percentage_point_contribution": 0.15673981
+        }
+      ]
+    },
+    {
+      "intersecting_label": "secondhand tobacco smoke",
+      "overall_value": 0.13429832,
+      "percent_topic_posts_with_label": 0.11185682,
+      "percent_topic_authors_using_label_on_topic_post": 0.15673981,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.13429832,
+          "post_percentage_point_contribution": 0.11185682,
+          "author_percentage_point_contribution": 0.15673981
+        }
+      ]
+    },
+    {
+      "intersecting_label": "shelter or temporary housing",
+      "overall_value": 0.13429832,
+      "percent_topic_posts_with_label": 0.11185682,
+      "percent_topic_authors_using_label_on_topic_post": 0.15673981,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.13429832,
+          "post_percentage_point_contribution": 0.11185682,
+          "author_percentage_point_contribution": 0.15673981
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildlife",
+      "overall_value": 0.13429832,
+      "percent_topic_posts_with_label": 0.11185682,
+      "percent_topic_authors_using_label_on_topic_post": 0.15673981,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.13429832,
+          "post_percentage_point_contribution": 0.11185682,
+          "author_percentage_point_contribution": 0.15673981
+        }
+      ]
+    },
+    {
+      "intersecting_label": "youth engagement",
+      "overall_value": 0.13429832,
+      "percent_topic_posts_with_label": 0.11185682,
+      "percent_topic_authors_using_label_on_topic_post": 0.15673981,
+      "links": [
+        {
+          "component_label": "traffic hazard",
+          "value": 0.13429832,
+          "post_percentage_point_contribution": 0.11185682,
+          "author_percentage_point_contribution": 0.15673981
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3380 @@
+{
+  "schema_version": "1.0.0",
+  "city_id": "38900",
+  "domain": "social_structural",
+  "category_id": "social_structural-07",
+  "topic": "Inequality and environmental justice",
+  "component_labels": [
+    "health disparity",
+    "discrimination",
+    "environmental justice"
+  ],
+  "intersections": [
+    {
+      "intersecting_label": "children",
+      "overall_value": 50.82767009,
+      "percent_topic_posts_with_label": 47.57160648,
+      "percent_topic_authors_using_label_on_topic_post": 54.0837337,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 14.26097263,
+          "post_percentage_point_contribution": 12.52446184,
+          "author_percentage_point_contribution": 15.99748341
+        },
+        {
+          "component_label": "discrimination",
+          "value": 25.68826594,
+          "post_percentage_point_contribution": 24.82654332,
+          "author_percentage_point_contribution": 26.54998856
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 10.87843152,
+          "post_percentage_point_contribution": 10.22060132,
+          "author_percentage_point_contribution": 11.53626173
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school",
+      "overall_value": 26.69576853,
+      "percent_topic_posts_with_label": 22.54047323,
+      "percent_topic_authors_using_label_on_topic_post": 30.85106383,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 4.43416974,
+          "post_percentage_point_contribution": 3.54919054,
+          "author_percentage_point_contribution": 5.31914894
+        },
+        {
+          "component_label": "discrimination",
+          "value": 18.85497284,
+          "post_percentage_point_contribution": 16.05586195,
+          "author_percentage_point_contribution": 21.65408373
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 3.40662595,
+          "post_percentage_point_contribution": 2.93542074,
+          "author_percentage_point_contribution": 3.87783116
+        }
+      ]
+    },
+    {
+      "intersecting_label": "racial and ethnic minority populations",
+      "overall_value": 18.14070605,
+      "percent_topic_posts_with_label": 15.69115816,
+      "percent_topic_authors_using_label_on_topic_post": 20.59025395,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 1.78371027,
+          "post_percentage_point_contribution": 1.40544387,
+          "author_percentage_point_contribution": 2.16197666
+        },
+        {
+          "component_label": "discrimination",
+          "value": 13.86541083,
+          "post_percentage_point_contribution": 12.15086284,
+          "author_percentage_point_contribution": 15.57995882
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 2.49158496,
+          "post_percentage_point_contribution": 2.13485145,
+          "author_percentage_point_contribution": 2.84831846
+        }
+      ]
+    },
+    {
+      "intersecting_label": "students",
+      "overall_value": 13.2134838,
+      "percent_topic_posts_with_label": 11.19017968,
+      "percent_topic_authors_using_label_on_topic_post": 15.23678792,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 2.15035855,
+          "post_percentage_point_contribution": 1.76125245,
+          "author_percentage_point_contribution": 2.53946465
+        },
+        {
+          "component_label": "discrimination",
+          "value": 9.1278804,
+          "post_percentage_point_contribution": 7.70325565,
+          "author_percentage_point_contribution": 10.55250515
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 1.93524485,
+          "post_percentage_point_contribution": 1.72567159,
+          "author_percentage_point_contribution": 2.14481812
+        }
+      ]
+    },
+    {
+      "intersecting_label": "child abuse or neglect",
+      "overall_value": 11.72530894,
+      "percent_topic_posts_with_label": 9.51787938,
+      "percent_topic_authors_using_label_on_topic_post": 13.9327385,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.6697663,
+          "post_percentage_point_contribution": 0.51592243,
+          "author_percentage_point_contribution": 0.82361016
+        },
+        {
+          "component_label": "discrimination",
+          "value": 9.94223056,
+          "post_percentage_point_contribution": 8.14801637,
+          "author_percentage_point_contribution": 11.73644475
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 1.11331209,
+          "post_percentage_point_contribution": 0.85394058,
+          "author_percentage_point_contribution": 1.3726836
+        }
+      ]
+    },
+    {
+      "intersecting_label": "parents and caregivers",
+      "overall_value": 8.9973445,
+      "percent_topic_posts_with_label": 7.1161715,
+      "percent_topic_authors_using_label_on_topic_post": 10.8785175,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 3.69992535,
+          "post_percentage_point_contribution": 2.7842021,
+          "author_percentage_point_contribution": 4.61564859
+        },
+        {
+          "component_label": "discrimination",
+          "value": 4.19905402,
+          "post_percentage_point_contribution": 3.35349582,
+          "author_percentage_point_contribution": 5.04461222
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 1.09836514,
+          "post_percentage_point_contribution": 0.97847358,
+          "author_percentage_point_contribution": 1.21825669
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adolescents",
+      "overall_value": 7.83892446,
+      "percent_topic_posts_with_label": 6.13769792,
+      "percent_topic_authors_using_label_on_topic_post": 9.540151,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.84293145,
+          "post_percentage_point_contribution": 0.60487458,
+          "author_percentage_point_contribution": 1.08098833
+        },
+        {
+          "component_label": "discrimination",
+          "value": 6.43902102,
+          "post_percentage_point_contribution": 5.08806262,
+          "author_percentage_point_contribution": 7.78997941
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.55697199,
+          "post_percentage_point_contribution": 0.44476072,
+          "author_percentage_point_contribution": 0.66918325
+        }
+      ]
+    },
+    {
+      "intersecting_label": "families",
+      "overall_value": 6.53686837,
+      "percent_topic_posts_with_label": 5.28375734,
+      "percent_topic_authors_using_label_on_topic_post": 7.78997941,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 1.3284095,
+          "post_percentage_point_contribution": 1.0496353,
+          "author_percentage_point_contribution": 1.60718371
+        },
+        {
+          "component_label": "discrimination",
+          "value": 3.51879652,
+          "post_percentage_point_contribution": 2.89094467,
+          "author_percentage_point_contribution": 4.14664836
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 1.68966235,
+          "post_percentage_point_contribution": 1.34317737,
+          "author_percentage_point_contribution": 2.03614733
+        }
+      ]
+    },
+    {
+      "intersecting_label": "teachers and school staff",
+      "overall_value": 5.61225144,
+      "percent_topic_posts_with_label": 4.91015833,
+      "percent_topic_authors_using_label_on_topic_post": 6.31434454,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.64371254,
+          "post_percentage_point_contribution": 0.498132,
+          "author_percentage_point_contribution": 0.78929307
+        },
+        {
+          "component_label": "discrimination",
+          "value": 4.44238423,
+          "post_percentage_point_contribution": 4.01174168,
+          "author_percentage_point_contribution": 4.87302677
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.52615468,
+          "post_percentage_point_contribution": 0.40028465,
+          "author_percentage_point_contribution": 0.65202471
+        }
+      ]
+    },
+    {
+      "intersecting_label": "violence or crime",
+      "overall_value": 5.43629164,
+      "percent_topic_posts_with_label": 4.18075076,
+      "percent_topic_authors_using_label_on_topic_post": 6.69183253,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.25100235,
+          "post_percentage_point_contribution": 0.20458993,
+          "author_percentage_point_contribution": 0.29741478
+        },
+        {
+          "component_label": "discrimination",
+          "value": 4.20733363,
+          "post_percentage_point_contribution": 3.17559153,
+          "author_percentage_point_contribution": 5.23907573
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.97795566,
+          "post_percentage_point_contribution": 0.80056929,
+          "author_percentage_point_contribution": 1.15534203
+        }
+      ]
+    },
+    {
+      "intersecting_label": "poverty or financial hardship",
+      "overall_value": 5.17891347,
+      "percent_topic_posts_with_label": 4.18075076,
+      "percent_topic_authors_using_label_on_topic_post": 6.17707618,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 3.05651247,
+          "post_percentage_point_contribution": 2.46397438,
+          "author_percentage_point_contribution": 3.64905056
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.79717533,
+          "post_percentage_point_contribution": 0.60487458,
+          "author_percentage_point_contribution": 0.98947609
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 1.32522566,
+          "post_percentage_point_contribution": 1.1119018,
+          "author_percentage_point_contribution": 1.53854953
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infants",
+      "overall_value": 4.94511036,
+      "percent_topic_posts_with_label": 3.57587618,
+      "percent_topic_authors_using_label_on_topic_post": 6.31434454,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 3.7148723,
+          "post_percentage_point_contribution": 2.6596691,
+          "author_percentage_point_contribution": 4.7700755
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.63005377,
+          "post_percentage_point_contribution": 0.45365593,
+          "author_percentage_point_contribution": 0.80645161
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.60018429,
+          "post_percentage_point_contribution": 0.46255115,
+          "author_percentage_point_contribution": 0.73781743
+        }
+      ]
+    },
+    {
+      "intersecting_label": "unhoused populations",
+      "overall_value": 4.48693356,
+      "percent_topic_posts_with_label": 3.38018146,
+      "percent_topic_authors_using_label_on_topic_post": 5.59368566,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.81274603,
+          "post_percentage_point_contribution": 0.59597936,
+          "author_percentage_point_contribution": 1.0295127
+        },
+        {
+          "component_label": "discrimination",
+          "value": 2.72577727,
+          "post_percentage_point_contribution": 2.03700409,
+          "author_percentage_point_contribution": 3.41455045
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.94841026,
+          "post_percentage_point_contribution": 0.74719801,
+          "author_percentage_point_contribution": 1.14962251
+        }
+      ]
+    },
+    {
+      "intersecting_label": "child welfare services",
+      "overall_value": 3.91438274,
+      "percent_topic_posts_with_label": 3.02437289,
+      "percent_topic_authors_using_label_on_topic_post": 4.80439259,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.36220882,
+          "post_percentage_point_contribution": 0.26685643,
+          "author_percentage_point_contribution": 0.4575612
+        },
+        {
+          "component_label": "discrimination",
+          "value": 3.22046647,
+          "post_percentage_point_contribution": 2.51734567,
+          "author_percentage_point_contribution": 3.92358728
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.33170745,
+          "post_percentage_point_contribution": 0.24017079,
+          "author_percentage_point_contribution": 0.42324411
+        }
+      ]
+    },
+    {
+      "intersecting_label": "educational access",
+      "overall_value": 3.48862737,
+      "percent_topic_posts_with_label": 2.7219356,
+      "percent_topic_authors_using_label_on_topic_post": 4.25531915,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.706935,
+          "post_percentage_point_contribution": 0.59597936,
+          "author_percentage_point_contribution": 0.81789064
+        },
+        {
+          "component_label": "discrimination",
+          "value": 2.0105708,
+          "post_percentage_point_contribution": 1.53887209,
+          "author_percentage_point_contribution": 2.4822695
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.77112158,
+          "post_percentage_point_contribution": 0.58708415,
+          "author_percentage_point_contribution": 0.955159
+        }
+      ]
+    },
+    {
+      "intersecting_label": "children with disabilities",
+      "overall_value": 3.36472626,
+      "percent_topic_posts_with_label": 2.50845045,
+      "percent_topic_authors_using_label_on_topic_post": 4.22100206,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.96652477,
+          "post_percentage_point_contribution": 0.72051236,
+          "author_percentage_point_contribution": 1.21253718
+        },
+        {
+          "component_label": "discrimination",
+          "value": 2.03186101,
+          "post_percentage_point_contribution": 1.52997687,
+          "author_percentage_point_contribution": 2.53374514
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.36634048,
+          "post_percentage_point_contribution": 0.25796122,
+          "author_percentage_point_contribution": 0.47471974
+        }
+      ]
+    },
+    {
+      "intersecting_label": "advocacy",
+      "overall_value": 2.62885332,
+      "percent_topic_posts_with_label": 2.13485145,
+      "percent_topic_authors_using_label_on_topic_post": 3.12285518,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.26053759,
+          "post_percentage_point_contribution": 0.17790429,
+          "author_percentage_point_contribution": 0.3431709
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.84737906,
+          "post_percentage_point_contribution": 0.61376979,
+          "author_percentage_point_contribution": 1.08098833
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 1.52093666,
+          "post_percentage_point_contribution": 1.34317737,
+          "author_percentage_point_contribution": 1.69869595
+        }
+      ]
+    },
+    {
+      "intersecting_label": "low-income populations",
+      "overall_value": 2.60027202,
+      "percent_topic_posts_with_label": 1.97473759,
+      "percent_topic_authors_using_label_on_topic_post": 3.22580645,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 1.35700708,
+          "post_percentage_point_contribution": 1.0496353,
+          "author_percentage_point_contribution": 1.66437886
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.42575536,
+          "post_percentage_point_contribution": 0.30243729,
+          "author_percentage_point_contribution": 0.54907344
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.81750958,
+          "post_percentage_point_contribution": 0.62266501,
+          "author_percentage_point_contribution": 1.01235415
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mental health condition",
+      "overall_value": 2.01629845,
+      "percent_topic_posts_with_label": 1.45881516,
+      "percent_topic_authors_using_label_on_topic_post": 2.57378174,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.46896767,
+          "post_percentage_point_contribution": 0.32022772,
+          "author_percentage_point_contribution": 0.61770762
+        },
+        {
+          "component_label": "discrimination",
+          "value": 1.44724741,
+          "post_percentage_point_contribution": 1.05853051,
+          "author_percentage_point_contribution": 1.83596431
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.10008337,
+          "post_percentage_point_contribution": 0.08005693,
+          "author_percentage_point_contribution": 0.12010981
+        }
+      ]
+    },
+    {
+      "intersecting_label": "COVID-19",
+      "overall_value": 1.81613171,
+      "percent_topic_posts_with_label": 1.2987013,
+      "percent_topic_authors_using_label_on_topic_post": 2.33356211,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 1.64233466,
+          "post_percentage_point_contribution": 1.1741683,
+          "author_percentage_point_contribution": 2.11050103
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.07816128,
+          "post_percentage_point_contribution": 0.05337129,
+          "author_percentage_point_contribution": 0.10295127
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.09563576,
+          "post_percentage_point_contribution": 0.07116171,
+          "author_percentage_point_contribution": 0.12010981
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare access",
+      "overall_value": 1.66933625,
+      "percent_topic_posts_with_label": 1.24533001,
+      "percent_topic_authors_using_label_on_topic_post": 2.09334248,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.92299652,
+          "post_percentage_point_contribution": 0.68493151,
+          "author_percentage_point_contribution": 1.16106154
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.53155825,
+          "post_percentage_point_contribution": 0.38249422,
+          "author_percentage_point_contribution": 0.68062228
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.21478147,
+          "post_percentage_point_contribution": 0.17790429,
+          "author_percentage_point_contribution": 0.25165866
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food insecurity",
+      "overall_value": 1.58291164,
+      "percent_topic_posts_with_label": 1.20974915,
+      "percent_topic_authors_using_label_on_topic_post": 1.95607412,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.61003547,
+          "post_percentage_point_contribution": 0.45365593,
+          "author_percentage_point_contribution": 0.76641501
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.336471,
+          "post_percentage_point_contribution": 0.26685643,
+          "author_percentage_point_contribution": 0.40608556
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.63640517,
+          "post_percentage_point_contribution": 0.48923679,
+          "author_percentage_point_contribution": 0.78357355
+        }
+      ]
+    },
+    {
+      "intersecting_label": "housing instability or homelessness",
+      "overall_value": 1.58101599,
+      "percent_topic_posts_with_label": 1.10300658,
+      "percent_topic_authors_using_label_on_topic_post": 2.05902539,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.34314648,
+          "post_percentage_point_contribution": 0.24017079,
+          "author_percentage_point_contribution": 0.44612217
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.65134398,
+          "post_percentage_point_contribution": 0.44476072,
+          "author_percentage_point_contribution": 0.85792725
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.58652553,
+          "post_percentage_point_contribution": 0.41807508,
+          "author_percentage_point_contribution": 0.75497598
+        }
+      ]
+    },
+    {
+      "intersecting_label": "social support",
+      "overall_value": 1.34716404,
+      "percent_topic_posts_with_label": 0.97847358,
+      "percent_topic_authors_using_label_on_topic_post": 1.7158545,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.30406584,
+          "post_percentage_point_contribution": 0.21348514,
+          "author_percentage_point_contribution": 0.39464653
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.77366539,
+          "post_percentage_point_contribution": 0.56929372,
+          "author_percentage_point_contribution": 0.97803706
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.26943281,
+          "post_percentage_point_contribution": 0.19569472,
+          "author_percentage_point_contribution": 0.3431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "youth engagement",
+      "overall_value": 1.18257815,
+      "percent_topic_posts_with_label": 0.88952144,
+      "percent_topic_authors_using_label_on_topic_post": 1.47563487,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.04066849,
+          "post_percentage_point_contribution": 0.03558086,
+          "author_percentage_point_contribution": 0.04575612
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.36634048,
+          "post_percentage_point_contribution": 0.25796122,
+          "author_percentage_point_contribution": 0.47471974
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.77556918,
+          "post_percentage_point_contribution": 0.59597936,
+          "author_percentage_point_contribution": 0.955159
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mortality or death",
+      "overall_value": 1.18131438,
+      "percent_topic_posts_with_label": 0.81835972,
+      "percent_topic_authors_using_label_on_topic_post": 1.54426905,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.59923646,
+          "post_percentage_point_contribution": 0.40917986,
+          "author_percentage_point_contribution": 0.78929307
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.06100273,
+          "post_percentage_point_contribution": 0.05337129,
+          "author_percentage_point_contribution": 0.06863418
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.52107519,
+          "post_percentage_point_contribution": 0.35580857,
+          "author_percentage_point_contribution": 0.6863418
+        }
+      ]
+    },
+    {
+      "intersecting_label": "climate change",
+      "overall_value": 1.10694441,
+      "percent_topic_posts_with_label": 0.97847358,
+      "percent_topic_authors_using_label_on_topic_post": 1.23541524,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.12327737,
+          "post_percentage_point_contribution": 0.09784736,
+          "author_percentage_point_contribution": 0.14870739
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.15441062,
+          "post_percentage_point_contribution": 0.16011386,
+          "author_percentage_point_contribution": 0.14870739
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.82925641,
+          "post_percentage_point_contribution": 0.72051236,
+          "author_percentage_point_contribution": 0.93800046
+        }
+      ]
+    },
+    {
+      "intersecting_label": "foster youth",
+      "overall_value": 1.0167285,
+      "percent_topic_posts_with_label": 0.72940758,
+      "percent_topic_authors_using_label_on_topic_post": 1.30404942,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.1302688,
+          "post_percentage_point_contribution": 0.08895214,
+          "author_percentage_point_contribution": 0.17158545
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.70408339,
+          "post_percentage_point_contribution": 0.51592243,
+          "author_percentage_point_contribution": 0.89224434
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.18237632,
+          "post_percentage_point_contribution": 0.124533,
+          "author_percentage_point_contribution": 0.24021963
+        }
+      ]
+    },
+    {
+      "intersecting_label": "classroom",
+      "overall_value": 1.01609661,
+      "percent_topic_posts_with_label": 0.69382672,
+      "percent_topic_authors_using_label_on_topic_post": 1.33836651,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.07816128,
+          "post_percentage_point_contribution": 0.05337129,
+          "author_percentage_point_contribution": 0.10295127
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.93793534,
+          "post_percentage_point_contribution": 0.64045543,
+          "author_percentage_point_contribution": 1.23541524
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pregnant people",
+      "overall_value": 0.99004285,
+      "percent_topic_posts_with_label": 0.67603629,
+      "percent_topic_authors_using_label_on_topic_post": 1.30404942,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.6383171,
+          "post_percentage_point_contribution": 0.4358655,
+          "author_percentage_point_contribution": 0.8407687
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.20843007,
+          "post_percentage_point_contribution": 0.14232343,
+          "author_percentage_point_contribution": 0.27453672
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.14329568,
+          "post_percentage_point_contribution": 0.09784736,
+          "author_percentage_point_contribution": 0.18874399
+        }
+      ]
+    },
+    {
+      "intersecting_label": "neighborhood",
+      "overall_value": 0.90361825,
+      "percent_topic_posts_with_label": 0.64045543,
+      "percent_topic_authors_using_label_on_topic_post": 1.16678106,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.11311025,
+          "post_percentage_point_contribution": 0.08895214,
+          "author_percentage_point_contribution": 0.13726836
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.43433464,
+          "post_percentage_point_contribution": 0.30243729,
+          "author_percentage_point_contribution": 0.56623198
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.35617336,
+          "post_percentage_point_contribution": 0.249066,
+          "author_percentage_point_contribution": 0.46328071
+        }
+      ]
+    },
+    {
+      "intersecting_label": "reproductive health condition",
+      "overall_value": 0.90361825,
+      "percent_topic_posts_with_label": 0.64045543,
+      "percent_topic_authors_using_label_on_topic_post": 1.16678106,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.28690729,
+          "post_percentage_point_contribution": 0.21348514,
+          "author_percentage_point_contribution": 0.36032944
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.48644215,
+          "post_percentage_point_contribution": 0.33801815,
+          "author_percentage_point_contribution": 0.63486616
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.1302688,
+          "post_percentage_point_contribution": 0.08895214,
+          "author_percentage_point_contribution": 0.17158545
+        }
+      ]
+    },
+    {
+      "intersecting_label": "contaminated drinking water",
+      "overall_value": 0.87819637,
+      "percent_topic_posts_with_label": 0.65824586,
+      "percent_topic_authors_using_label_on_topic_post": 1.09814688,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.16934944,
+          "post_percentage_point_contribution": 0.11563779,
+          "author_percentage_point_contribution": 0.22306108
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.68279318,
+          "post_percentage_point_contribution": 0.52481765,
+          "author_percentage_point_contribution": 0.8407687
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cancer",
+      "overall_value": 0.83498407,
+      "percent_topic_posts_with_label": 0.64045543,
+      "percent_topic_authors_using_label_on_topic_post": 1.0295127,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.62655399,
+          "post_percentage_point_contribution": 0.498132,
+          "author_percentage_point_contribution": 0.75497598
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.05210752,
+          "post_percentage_point_contribution": 0.03558086,
+          "author_percentage_point_contribution": 0.06863418
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.15632256,
+          "post_percentage_point_contribution": 0.10674257,
+          "author_percentage_point_contribution": 0.20590254
+        }
+      ]
+    },
+    {
+      "intersecting_label": "park or green space",
+      "overall_value": 0.79177176,
+      "percent_topic_posts_with_label": 0.62266501,
+      "percent_topic_authors_using_label_on_topic_post": 0.96087852,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.13979589,
+          "post_percentage_point_contribution": 0.14232343,
+          "author_percentage_point_contribution": 0.13726836
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.28659135,
+          "post_percentage_point_contribution": 0.19569472,
+          "author_percentage_point_contribution": 0.37748799
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.36538451,
+          "post_percentage_point_contribution": 0.28464686,
+          "author_percentage_point_contribution": 0.44612217
+        }
+      ]
+    },
+    {
+      "intersecting_label": "vaccination",
+      "overall_value": 0.78224466,
+      "percent_topic_posts_with_label": 0.56929372,
+      "percent_topic_authors_using_label_on_topic_post": 0.99519561,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.60844762,
+          "post_percentage_point_contribution": 0.44476072,
+          "author_percentage_point_contribution": 0.77213452
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.12168952,
+          "post_percentage_point_contribution": 0.08895214,
+          "author_percentage_point_contribution": 0.1544269
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.05210752,
+          "post_percentage_point_contribution": 0.03558086,
+          "author_percentage_point_contribution": 0.06863418
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare facility",
+      "overall_value": 0.78161278,
+      "percent_topic_posts_with_label": 0.53371286,
+      "percent_topic_authors_using_label_on_topic_post": 1.0295127,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.7034515,
+          "post_percentage_point_contribution": 0.48034158,
+          "author_percentage_point_contribution": 0.92656143
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.07816128,
+          "post_percentage_point_contribution": 0.05337129,
+          "author_percentage_point_contribution": 0.10295127
+        }
+      ]
+    },
+    {
+      "intersecting_label": "home",
+      "overall_value": 0.7034515,
+      "percent_topic_posts_with_label": 0.48034158,
+      "percent_topic_authors_using_label_on_topic_post": 0.92656143,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.23448383,
+          "post_percentage_point_contribution": 0.16011386,
+          "author_percentage_point_contribution": 0.30885381
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.18237632,
+          "post_percentage_point_contribution": 0.124533,
+          "author_percentage_point_contribution": 0.24021963
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.28659135,
+          "post_percentage_point_contribution": 0.19569472,
+          "author_percentage_point_contribution": 0.37748799
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infectious disease",
+      "overall_value": 0.65197587,
+      "percent_topic_posts_with_label": 0.48034158,
+      "percent_topic_authors_using_label_on_topic_post": 0.82361016,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.50423258,
+          "post_percentage_point_contribution": 0.373599,
+          "author_percentage_point_contribution": 0.63486616
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.10421504,
+          "post_percentage_point_contribution": 0.07116171,
+          "author_percentage_point_contribution": 0.13726836
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.04352825,
+          "post_percentage_point_contribution": 0.03558086,
+          "author_percentage_point_contribution": 0.05147563
+        }
+      ]
+    },
+    {
+      "intersecting_label": "medical care",
+      "overall_value": 0.57318271,
+      "percent_topic_posts_with_label": 0.39138943,
+      "percent_topic_authors_using_label_on_topic_post": 0.75497598,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.46896767,
+          "post_percentage_point_contribution": 0.32022772,
+          "author_percentage_point_contribution": 0.61770762
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.07816128,
+          "post_percentage_point_contribution": 0.05337129,
+          "author_percentage_point_contribution": 0.10295127
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "workers",
+      "overall_value": 0.56491937,
+      "percent_topic_posts_with_label": 0.40917986,
+      "percent_topic_authors_using_label_on_topic_post": 0.72065889,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.07816128,
+          "post_percentage_point_contribution": 0.05337129,
+          "author_percentage_point_contribution": 0.10295127
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.18237632,
+          "post_percentage_point_contribution": 0.124533,
+          "author_percentage_point_contribution": 0.24021963
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.30438178,
+          "post_percentage_point_contribution": 0.23127557,
+          "author_percentage_point_contribution": 0.37748799
+        }
+      ]
+    },
+    {
+      "intersecting_label": "community program or service",
+      "overall_value": 0.5299704,
+      "percent_topic_posts_with_label": 0.373599,
+      "percent_topic_authors_using_label_on_topic_post": 0.6863418,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.07816128,
+          "post_percentage_point_contribution": 0.05337129,
+          "author_percentage_point_contribution": 0.10295127
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.07816128,
+          "post_percentage_point_contribution": 0.05337129,
+          "author_percentage_point_contribution": 0.10295127
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.37364784,
+          "post_percentage_point_contribution": 0.26685643,
+          "author_percentage_point_contribution": 0.48043926
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school closure",
+      "overall_value": 0.50391664,
+      "percent_topic_posts_with_label": 0.35580857,
+      "percent_topic_authors_using_label_on_topic_post": 0.65202471,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.39080639,
+          "post_percentage_point_contribution": 0.26685643,
+          "author_percentage_point_contribution": 0.51475635
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.08705649,
+          "post_percentage_point_contribution": 0.07116171,
+          "author_percentage_point_contribution": 0.10295127
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childcare center",
+      "overall_value": 0.49502143,
+      "percent_topic_posts_with_label": 0.33801815,
+      "percent_topic_authors_using_label_on_topic_post": 0.65202471,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.23448383,
+          "post_percentage_point_contribution": 0.16011386,
+          "author_percentage_point_contribution": 0.30885381
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.23448383,
+          "post_percentage_point_contribution": 0.16011386,
+          "author_percentage_point_contribution": 0.30885381
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mask use",
+      "overall_value": 0.49502143,
+      "percent_topic_posts_with_label": 0.33801815,
+      "percent_topic_authors_using_label_on_topic_post": 0.65202471,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.31264511,
+          "post_percentage_point_contribution": 0.21348514,
+          "author_percentage_point_contribution": 0.41180508
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.15632256,
+          "post_percentage_point_contribution": 0.10674257,
+          "author_percentage_point_contribution": 0.20590254
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "lead exposure",
+      "overall_value": 0.45180912,
+      "percent_topic_posts_with_label": 0.32022772,
+      "percent_topic_authors_using_label_on_topic_post": 0.58339053,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.07816128,
+          "post_percentage_point_contribution": 0.05337129,
+          "author_percentage_point_contribution": 0.10295127
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.0651344,
+          "post_percentage_point_contribution": 0.04447607,
+          "author_percentage_point_contribution": 0.08579272
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.30851345,
+          "post_percentage_point_contribution": 0.22238036,
+          "author_percentage_point_contribution": 0.39464653
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sports participation",
+      "overall_value": 0.45180912,
+      "percent_topic_posts_with_label": 0.32022772,
+      "percent_topic_authors_using_label_on_topic_post": 0.58339053,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.15632256,
+          "post_percentage_point_contribution": 0.10674257,
+          "author_percentage_point_contribution": 0.20590254
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.26943281,
+          "post_percentage_point_contribution": 0.19569472,
+          "author_percentage_point_contribution": 0.3431709
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "ambient air pollution",
+      "overall_value": 0.42638725,
+      "percent_topic_posts_with_label": 0.33801815,
+      "percent_topic_authors_using_label_on_topic_post": 0.51475635,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.10008337,
+          "post_percentage_point_contribution": 0.08005693,
+          "author_percentage_point_contribution": 0.12010981
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.32630388,
+          "post_percentage_point_contribution": 0.25796122,
+          "author_percentage_point_contribution": 0.39464653
+        }
+      ]
+    },
+    {
+      "intersecting_label": "drug exposure or use",
+      "overall_value": 0.41686015,
+      "percent_topic_posts_with_label": 0.28464686,
+      "percent_topic_authors_using_label_on_topic_post": 0.54907344,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.23448383,
+          "post_percentage_point_contribution": 0.16011386,
+          "author_percentage_point_contribution": 0.30885381
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.07816128,
+          "post_percentage_point_contribution": 0.05337129,
+          "author_percentage_point_contribution": 0.10295127
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.10421504,
+          "post_percentage_point_contribution": 0.07116171,
+          "author_percentage_point_contribution": 0.13726836
+        }
+      ]
+    },
+    {
+      "intersecting_label": "housing quality",
+      "overall_value": 0.41686015,
+      "percent_topic_posts_with_label": 0.28464686,
+      "percent_topic_authors_using_label_on_topic_post": 0.54907344,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.1302688,
+          "post_percentage_point_contribution": 0.08895214,
+          "author_percentage_point_contribution": 0.17158545
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.15632256,
+          "post_percentage_point_contribution": 0.10674257,
+          "author_percentage_point_contribution": 0.20590254
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.1302688,
+          "post_percentage_point_contribution": 0.08895214,
+          "author_percentage_point_contribution": 0.17158545
+        }
+      ]
+    },
+    {
+      "intersecting_label": "obesity",
+      "overall_value": 0.40859682,
+      "percent_topic_posts_with_label": 0.30243729,
+      "percent_topic_authors_using_label_on_topic_post": 0.51475635,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.26530114,
+          "post_percentage_point_contribution": 0.20458993,
+          "author_percentage_point_contribution": 0.32601235
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.09118816,
+          "post_percentage_point_contribution": 0.0622665,
+          "author_percentage_point_contribution": 0.12010981
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.05210752,
+          "post_percentage_point_contribution": 0.03558086,
+          "author_percentage_point_contribution": 0.06863418
+        }
+      ]
+    },
+    {
+      "intersecting_label": "autism",
+      "overall_value": 0.39080639,
+      "percent_topic_posts_with_label": 0.26685643,
+      "percent_topic_authors_using_label_on_topic_post": 0.51475635,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.07816128,
+          "post_percentage_point_contribution": 0.05337129,
+          "author_percentage_point_contribution": 0.10295127
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.28659135,
+          "post_percentage_point_contribution": 0.19569472,
+          "author_percentage_point_contribution": 0.37748799
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "hazardous chemicals",
+      "overall_value": 0.36475263,
+      "percent_topic_posts_with_label": 0.249066,
+      "percent_topic_authors_using_label_on_topic_post": 0.48043926,
+      "links": [
+        {
+          "component_label": "discrimination",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.33869887,
+          "post_percentage_point_contribution": 0.23127557,
+          "author_percentage_point_contribution": 0.44612217
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childhood cancer",
+      "overall_value": 0.33996264,
+      "percent_topic_posts_with_label": 0.30243729,
+      "percent_topic_authors_using_label_on_topic_post": 0.37748799,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.21827311,
+          "post_percentage_point_contribution": 0.21348514,
+          "author_percentage_point_contribution": 0.22306108
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.09563576,
+          "post_percentage_point_contribution": 0.07116171,
+          "author_percentage_point_contribution": 0.12010981
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food contamination",
+      "overall_value": 0.28659135,
+      "percent_topic_posts_with_label": 0.19569472,
+      "percent_topic_authors_using_label_on_topic_post": 0.37748799,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.05210752,
+          "post_percentage_point_contribution": 0.03558086,
+          "author_percentage_point_contribution": 0.06863418
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.20843007,
+          "post_percentage_point_contribution": 0.14232343,
+          "author_percentage_point_contribution": 0.27453672
+        }
+      ]
+    },
+    {
+      "intersecting_label": "stress or distress",
+      "overall_value": 0.28659135,
+      "percent_topic_posts_with_label": 0.19569472,
+      "percent_topic_authors_using_label_on_topic_post": 0.37748799,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.07816128,
+          "post_percentage_point_contribution": 0.05337129,
+          "author_percentage_point_contribution": 0.10295127
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.15632256,
+          "post_percentage_point_contribution": 0.10674257,
+          "author_percentage_point_contribution": 0.20590254
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.05210752,
+          "post_percentage_point_contribution": 0.03558086,
+          "author_percentage_point_contribution": 0.06863418
+        }
+      ]
+    },
+    {
+      "intersecting_label": "workplace",
+      "overall_value": 0.28659135,
+      "percent_topic_posts_with_label": 0.19569472,
+      "percent_topic_authors_using_label_on_topic_post": 0.37748799,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.07816128,
+          "post_percentage_point_contribution": 0.05337129,
+          "author_percentage_point_contribution": 0.10295127
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.15632256,
+          "post_percentage_point_contribution": 0.10674257,
+          "author_percentage_point_contribution": 0.20590254
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.05210752,
+          "post_percentage_point_contribution": 0.03558086,
+          "author_percentage_point_contribution": 0.06863418
+        }
+      ]
+    },
+    {
+      "intersecting_label": "street or roadway",
+      "overall_value": 0.27895991,
+      "percent_topic_posts_with_label": 0.249066,
+      "percent_topic_authors_using_label_on_topic_post": 0.30885381,
+      "links": [
+        {
+          "component_label": "discrimination",
+          "value": 0.14774328,
+          "post_percentage_point_contribution": 0.10674257,
+          "author_percentage_point_contribution": 0.18874399
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.13121662,
+          "post_percentage_point_contribution": 0.14232343,
+          "author_percentage_point_contribution": 0.12010981
+        }
+      ]
+    },
+    {
+      "intersecting_label": "water pollution",
+      "overall_value": 0.26943281,
+      "percent_topic_posts_with_label": 0.19569472,
+      "percent_topic_authors_using_label_on_topic_post": 0.3431709,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.05210752,
+          "post_percentage_point_contribution": 0.03558086,
+          "author_percentage_point_contribution": 0.06863418
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.21732529,
+          "post_percentage_point_contribution": 0.16011386,
+          "author_percentage_point_contribution": 0.27453672
+        }
+      ]
+    },
+    {
+      "intersecting_label": "diabetes",
+      "overall_value": 0.26053759,
+      "percent_topic_posts_with_label": 0.17790429,
+      "percent_topic_authors_using_label_on_topic_post": 0.3431709,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.26053759,
+          "post_percentage_point_contribution": 0.17790429,
+          "author_percentage_point_contribution": 0.3431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health education or awareness",
+      "overall_value": 0.26053759,
+      "percent_topic_posts_with_label": 0.17790429,
+      "percent_topic_authors_using_label_on_topic_post": 0.3431709,
+      "links": [
+        {
+          "component_label": "discrimination",
+          "value": 0.10421504,
+          "post_percentage_point_contribution": 0.07116171,
+          "author_percentage_point_contribution": 0.13726836
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.15632256,
+          "post_percentage_point_contribution": 0.10674257,
+          "author_percentage_point_contribution": 0.20590254
+        }
+      ]
+    },
+    {
+      "intersecting_label": "playground",
+      "overall_value": 0.26053759,
+      "percent_topic_posts_with_label": 0.17790429,
+      "percent_topic_authors_using_label_on_topic_post": 0.3431709,
+      "links": [
+        {
+          "component_label": "discrimination",
+          "value": 0.15632256,
+          "post_percentage_point_contribution": 0.10674257,
+          "author_percentage_point_contribution": 0.20590254
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.10421504,
+          "post_percentage_point_contribution": 0.07116171,
+          "author_percentage_point_contribution": 0.13726836
+        }
+      ]
+    },
+    {
+      "intersecting_label": "public transit",
+      "overall_value": 0.26053759,
+      "percent_topic_posts_with_label": 0.17790429,
+      "percent_topic_authors_using_label_on_topic_post": 0.3431709,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.20843007,
+          "post_percentage_point_contribution": 0.14232343,
+          "author_percentage_point_contribution": 0.27453672
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "toddlers",
+      "overall_value": 0.26053759,
+      "percent_topic_posts_with_label": 0.17790429,
+      "percent_topic_authors_using_label_on_topic_post": 0.3431709,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.1302688,
+          "post_percentage_point_contribution": 0.08895214,
+          "author_percentage_point_contribution": 0.17158545
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.10421504,
+          "post_percentage_point_contribution": 0.07116171,
+          "author_percentage_point_contribution": 0.13726836
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "depression",
+      "overall_value": 0.25227426,
+      "percent_topic_posts_with_label": 0.19569472,
+      "percent_topic_authors_using_label_on_topic_post": 0.30885381,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.06100273,
+          "post_percentage_point_contribution": 0.05337129,
+          "author_percentage_point_contribution": 0.06863418
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.16521777,
+          "post_percentage_point_contribution": 0.124533,
+          "author_percentage_point_contribution": 0.20590254
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "apartment",
+      "overall_value": 0.24337905,
+      "percent_topic_posts_with_label": 0.17790429,
+      "percent_topic_authors_using_label_on_topic_post": 0.30885381,
+      "links": [
+        {
+          "component_label": "discrimination",
+          "value": 0.19127153,
+          "post_percentage_point_contribution": 0.14232343,
+          "author_percentage_point_contribution": 0.24021963
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.05210752,
+          "post_percentage_point_contribution": 0.03558086,
+          "author_percentage_point_contribution": 0.06863418
+        }
+      ]
+    },
+    {
+      "intersecting_label": "outdoor environment",
+      "overall_value": 0.23448383,
+      "percent_topic_posts_with_label": 0.16011386,
+      "percent_topic_authors_using_label_on_topic_post": 0.30885381,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.05210752,
+          "post_percentage_point_contribution": 0.03558086,
+          "author_percentage_point_contribution": 0.06863418
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.18237632,
+          "post_percentage_point_contribution": 0.124533,
+          "author_percentage_point_contribution": 0.24021963
+        }
+      ]
+    },
+    {
+      "intersecting_label": "transportation access",
+      "overall_value": 0.2262205,
+      "percent_topic_posts_with_label": 0.17790429,
+      "percent_topic_authors_using_label_on_topic_post": 0.27453672,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.11882977,
+          "post_percentage_point_contribution": 0.08895214,
+          "author_percentage_point_contribution": 0.14870739
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.04066849,
+          "post_percentage_point_contribution": 0.03558086,
+          "author_percentage_point_contribution": 0.04575612
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.06672225,
+          "post_percentage_point_contribution": 0.05337129,
+          "author_percentage_point_contribution": 0.08007321
+        }
+      ]
+    },
+    {
+      "intersecting_label": "anxiety",
+      "overall_value": 0.20843007,
+      "percent_topic_posts_with_label": 0.14232343,
+      "percent_topic_authors_using_label_on_topic_post": 0.27453672,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.15632256,
+          "post_percentage_point_contribution": 0.10674257,
+          "author_percentage_point_contribution": 0.20590254
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental policy or regulation",
+      "overall_value": 0.20843007,
+      "percent_topic_posts_with_label": 0.14232343,
+      "percent_topic_authors_using_label_on_topic_post": 0.27453672,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.07816128,
+          "post_percentage_point_contribution": 0.05337129,
+          "author_percentage_point_contribution": 0.10295127
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.07816128,
+          "post_percentage_point_contribution": 0.05337129,
+          "author_percentage_point_contribution": 0.10295127
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.05210752,
+          "post_percentage_point_contribution": 0.03558086,
+          "author_percentage_point_contribution": 0.06863418
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sports or recreation facility",
+      "overall_value": 0.20843007,
+      "percent_topic_posts_with_label": 0.14232343,
+      "percent_topic_authors_using_label_on_topic_post": 0.27453672,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.05210752,
+          "post_percentage_point_contribution": 0.03558086,
+          "author_percentage_point_contribution": 0.06863418
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.10421504,
+          "post_percentage_point_contribution": 0.07116171,
+          "author_percentage_point_contribution": 0.13726836
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.05210752,
+          "post_percentage_point_contribution": 0.03558086,
+          "author_percentage_point_contribution": 0.06863418
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic-related air pollution",
+      "overall_value": 0.20843007,
+      "percent_topic_posts_with_label": 0.14232343,
+      "percent_topic_authors_using_label_on_topic_post": 0.27453672,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.05210752,
+          "post_percentage_point_contribution": 0.03558086,
+          "author_percentage_point_contribution": 0.06863418
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.15632256,
+          "post_percentage_point_contribution": 0.10674257,
+          "author_percentage_point_contribution": 0.20590254
+        }
+      ]
+    },
+    {
+      "intersecting_label": "unsafe housing conditions",
+      "overall_value": 0.20843007,
+      "percent_topic_posts_with_label": 0.14232343,
+      "percent_topic_authors_using_label_on_topic_post": 0.27453672,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.05210752,
+          "post_percentage_point_contribution": 0.03558086,
+          "author_percentage_point_contribution": 0.06863418
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.05210752,
+          "post_percentage_point_contribution": 0.03558086,
+          "author_percentage_point_contribution": 0.06863418
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.10421504,
+          "post_percentage_point_contribution": 0.07116171,
+          "author_percentage_point_contribution": 0.13726836
+        }
+      ]
+    },
+    {
+      "intersecting_label": "farm or agricultural setting",
+      "overall_value": 0.19127153,
+      "percent_topic_posts_with_label": 0.14232343,
+      "percent_topic_authors_using_label_on_topic_post": 0.24021963,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.05210752,
+          "post_percentage_point_contribution": 0.03558086,
+          "author_percentage_point_contribution": 0.06863418
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.13916401,
+          "post_percentage_point_contribution": 0.10674257,
+          "author_percentage_point_contribution": 0.17158545
+        }
+      ]
+    },
+    {
+      "intersecting_label": "asthma",
+      "overall_value": 0.18237632,
+      "percent_topic_posts_with_label": 0.124533,
+      "percent_topic_authors_using_label_on_topic_post": 0.24021963,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.16934944,
+          "post_percentage_point_contribution": 0.11563779,
+          "author_percentage_point_contribution": 0.22306108
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.01302688,
+          "post_percentage_point_contribution": 0.00889521,
+          "author_percentage_point_contribution": 0.01715854
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cardiovascular condition",
+      "overall_value": 0.18237632,
+      "percent_topic_posts_with_label": 0.124533,
+      "percent_topic_authors_using_label_on_topic_post": 0.24021963,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.18237632,
+          "post_percentage_point_contribution": 0.124533,
+          "author_percentage_point_contribution": 0.24021963
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childcare workers",
+      "overall_value": 0.18237632,
+      "percent_topic_posts_with_label": 0.124533,
+      "percent_topic_authors_using_label_on_topic_post": 0.24021963,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.1302688,
+          "post_percentage_point_contribution": 0.08895214,
+          "author_percentage_point_contribution": 0.17158545
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.05210752,
+          "post_percentage_point_contribution": 0.03558086,
+          "author_percentage_point_contribution": 0.06863418
+        }
+      ]
+    },
+    {
+      "intersecting_label": "medication use",
+      "overall_value": 0.18237632,
+      "percent_topic_posts_with_label": 0.124533,
+      "percent_topic_authors_using_label_on_topic_post": 0.24021963,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.15632256,
+          "post_percentage_point_contribution": 0.10674257,
+          "author_percentage_point_contribution": 0.20590254
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "motor vehicle",
+      "overall_value": 0.18237632,
+      "percent_topic_posts_with_label": 0.124533,
+      "percent_topic_authors_using_label_on_topic_post": 0.24021963,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.10421504,
+          "post_percentage_point_contribution": 0.07116171,
+          "author_percentage_point_contribution": 0.13726836
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.05210752,
+          "post_percentage_point_contribution": 0.03558086,
+          "author_percentage_point_contribution": 0.06863418
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "rural populations",
+      "overall_value": 0.18237632,
+      "percent_topic_posts_with_label": 0.124533,
+      "percent_topic_authors_using_label_on_topic_post": 0.24021963,
+      "links": [
+        {
+          "component_label": "discrimination",
+          "value": 0.15632256,
+          "post_percentage_point_contribution": 0.10674257,
+          "author_percentage_point_contribution": 0.20590254
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pesticides",
+      "overall_value": 0.17411298,
+      "percent_topic_posts_with_label": 0.14232343,
+      "percent_topic_authors_using_label_on_topic_post": 0.20590254,
+      "links": [
+        {
+          "component_label": "environmental justice",
+          "value": 0.17411298,
+          "post_percentage_point_contribution": 0.14232343,
+          "author_percentage_point_contribution": 0.20590254
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adverse birth outcome",
+      "overall_value": 0.15632256,
+      "percent_topic_posts_with_label": 0.10674257,
+      "percent_topic_authors_using_label_on_topic_post": 0.20590254,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.15632256,
+          "post_percentage_point_contribution": 0.10674257,
+          "author_percentage_point_contribution": 0.20590254
+        }
+      ]
+    },
+    {
+      "intersecting_label": "disability",
+      "overall_value": 0.15632256,
+      "percent_topic_posts_with_label": 0.10674257,
+      "percent_topic_authors_using_label_on_topic_post": 0.20590254,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.11724192,
+          "post_percentage_point_contribution": 0.08005693,
+          "author_percentage_point_contribution": 0.1544269
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.03908064,
+          "post_percentage_point_contribution": 0.02668564,
+          "author_percentage_point_contribution": 0.05147563
+        }
+      ]
+    },
+    {
+      "intersecting_label": "extreme heat",
+      "overall_value": 0.15632256,
+      "percent_topic_posts_with_label": 0.10674257,
+      "percent_topic_authors_using_label_on_topic_post": 0.20590254,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.10421504,
+          "post_percentage_point_contribution": 0.07116171,
+          "author_percentage_point_contribution": 0.13726836
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.05210752,
+          "post_percentage_point_contribution": 0.03558086,
+          "author_percentage_point_contribution": 0.06863418
+        }
+      ]
+    },
+    {
+      "intersecting_label": "fever",
+      "overall_value": 0.15632256,
+      "percent_topic_posts_with_label": 0.10674257,
+      "percent_topic_authors_using_label_on_topic_post": 0.20590254,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.1302688,
+          "post_percentage_point_contribution": 0.08895214,
+          "author_percentage_point_contribution": 0.17158545
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare workers",
+      "overall_value": 0.15632256,
+      "percent_topic_posts_with_label": 0.10674257,
+      "percent_topic_authors_using_label_on_topic_post": 0.20590254,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.1302688,
+          "post_percentage_point_contribution": 0.08895214,
+          "author_percentage_point_contribution": 0.17158545
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildfire",
+      "overall_value": 0.15632256,
+      "percent_topic_posts_with_label": 0.10674257,
+      "percent_topic_authors_using_label_on_topic_post": 0.20590254,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.1302688,
+          "post_percentage_point_contribution": 0.08895214,
+          "author_percentage_point_contribution": 0.17158545
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildlife",
+      "overall_value": 0.15632256,
+      "percent_topic_posts_with_label": 0.10674257,
+      "percent_topic_authors_using_label_on_topic_post": 0.20590254,
+      "links": [
+        {
+          "component_label": "environmental justice",
+          "value": 0.15632256,
+          "post_percentage_point_contribution": 0.10674257,
+          "author_percentage_point_contribution": 0.20590254
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic hazard",
+      "overall_value": 0.14805923,
+      "percent_topic_posts_with_label": 0.124533,
+      "percent_topic_authors_using_label_on_topic_post": 0.17158545,
+      "links": [
+        {
+          "component_label": "discrimination",
+          "value": 0.09563576,
+          "post_percentage_point_contribution": 0.07116171,
+          "author_percentage_point_contribution": 0.12010981
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.05242346,
+          "post_percentage_point_contribution": 0.05337129,
+          "author_percentage_point_contribution": 0.05147563
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food access",
+      "overall_value": 0.13916401,
+      "percent_topic_posts_with_label": 0.10674257,
+      "percent_topic_authors_using_label_on_topic_post": 0.17158545,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.01302688,
+          "post_percentage_point_contribution": 0.00889521,
+          "author_percentage_point_contribution": 0.01715854
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.12613713,
+          "post_percentage_point_contribution": 0.09784736,
+          "author_percentage_point_contribution": 0.1544269
+        }
+      ]
+    },
+    {
+      "intersecting_label": "allergens",
+      "overall_value": 0.1302688,
+      "percent_topic_posts_with_label": 0.08895214,
+      "percent_topic_authors_using_label_on_topic_post": 0.17158545,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.1302688,
+          "post_percentage_point_contribution": 0.08895214,
+          "author_percentage_point_contribution": 0.17158545
+        }
+      ]
+    },
+    {
+      "intersecting_label": "birth defect",
+      "overall_value": 0.1302688,
+      "percent_topic_posts_with_label": 0.08895214,
+      "percent_topic_authors_using_label_on_topic_post": 0.17158545,
+      "links": [
+        {
+          "component_label": "discrimination",
+          "value": 0.05210752,
+          "post_percentage_point_contribution": 0.03558086,
+          "author_percentage_point_contribution": 0.06863418
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.07816128,
+          "post_percentage_point_contribution": 0.05337129,
+          "author_percentage_point_contribution": 0.10295127
+        }
+      ]
+    },
+    {
+      "intersecting_label": "industrial site",
+      "overall_value": 0.1302688,
+      "percent_topic_posts_with_label": 0.08895214,
+      "percent_topic_authors_using_label_on_topic_post": 0.17158545,
+      "links": [
+        {
+          "component_label": "environmental justice",
+          "value": 0.1302688,
+          "post_percentage_point_contribution": 0.08895214,
+          "author_percentage_point_contribution": 0.17158545
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pets and companion animals",
+      "overall_value": 0.1302688,
+      "percent_topic_posts_with_label": 0.08895214,
+      "percent_topic_authors_using_label_on_topic_post": 0.17158545,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.07816128,
+          "post_percentage_point_contribution": 0.05337129,
+          "author_percentage_point_contribution": 0.10295127
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "breastfeeding",
+      "overall_value": 0.11374214,
+      "percent_topic_posts_with_label": 0.124533,
+      "percent_topic_authors_using_label_on_topic_post": 0.10295127,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.06163462,
+          "post_percentage_point_contribution": 0.08895214,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "alcohol exposure or use",
+      "overall_value": 0.10421504,
+      "percent_topic_posts_with_label": 0.07116171,
+      "percent_topic_authors_using_label_on_topic_post": 0.13726836,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.05210752,
+          "post_percentage_point_contribution": 0.03558086,
+          "author_percentage_point_contribution": 0.06863418
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.05210752,
+          "post_percentage_point_contribution": 0.03558086,
+          "author_percentage_point_contribution": 0.06863418
+        }
+      ]
+    },
+    {
+      "intersecting_label": "developmental delay",
+      "overall_value": 0.10421504,
+      "percent_topic_posts_with_label": 0.07116171,
+      "percent_topic_authors_using_label_on_topic_post": 0.13726836,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.05210752,
+          "post_percentage_point_contribution": 0.03558086,
+          "author_percentage_point_contribution": 0.06863418
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "indoor environment",
+      "overall_value": 0.10421504,
+      "percent_topic_posts_with_label": 0.07116171,
+      "percent_topic_authors_using_label_on_topic_post": 0.13726836,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.05210752,
+          "post_percentage_point_contribution": 0.03558086,
+          "author_percentage_point_contribution": 0.06863418
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "outdoor play or recreation",
+      "overall_value": 0.10421504,
+      "percent_topic_posts_with_label": 0.07116171,
+      "percent_topic_authors_using_label_on_topic_post": 0.13726836,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.05210752,
+          "post_percentage_point_contribution": 0.03558086,
+          "author_percentage_point_contribution": 0.06863418
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "poor sanitation",
+      "overall_value": 0.10421504,
+      "percent_topic_posts_with_label": 0.07116171,
+      "percent_topic_authors_using_label_on_topic_post": 0.13726836,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.07816128,
+          "post_percentage_point_contribution": 0.05337129,
+          "author_percentage_point_contribution": 0.10295127
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "restaurant or food store",
+      "overall_value": 0.10421504,
+      "percent_topic_posts_with_label": 0.07116171,
+      "percent_topic_authors_using_label_on_topic_post": 0.13726836,
+      "links": [
+        {
+          "component_label": "discrimination",
+          "value": 0.10421504,
+          "post_percentage_point_contribution": 0.07116171,
+          "author_percentage_point_contribution": 0.13726836
+        }
+      ]
+    },
+    {
+      "intersecting_label": "seizure",
+      "overall_value": 0.10421504,
+      "percent_topic_posts_with_label": 0.07116171,
+      "percent_topic_authors_using_label_on_topic_post": 0.13726836,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.10421504,
+          "post_percentage_point_contribution": 0.07116171,
+          "author_percentage_point_contribution": 0.13726836
+        }
+      ]
+    },
+    {
+      "intersecting_label": "swimming or water recreation",
+      "overall_value": 0.10421504,
+      "percent_topic_posts_with_label": 0.07116171,
+      "percent_topic_authors_using_label_on_topic_post": 0.13726836,
+      "links": [
+        {
+          "component_label": "discrimination",
+          "value": 0.10421504,
+          "post_percentage_point_contribution": 0.07116171,
+          "author_percentage_point_contribution": 0.13726836
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildfire smoke",
+      "overall_value": 0.10421504,
+      "percent_topic_posts_with_label": 0.07116171,
+      "percent_topic_authors_using_label_on_topic_post": 0.13726836,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.07816128,
+          "post_percentage_point_contribution": 0.05337129,
+          "author_percentage_point_contribution": 0.10295127
+        }
+      ]
+    },
+    {
+      "intersecting_label": "garden or yard",
+      "overall_value": 0.08705649,
+      "percent_topic_posts_with_label": 0.07116171,
+      "percent_topic_authors_using_label_on_topic_post": 0.10295127,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.01747449,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.01715854
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.04352825,
+          "post_percentage_point_contribution": 0.03558086,
+          "author_percentage_point_contribution": 0.05147563
+        }
+      ]
+    },
+    {
+      "intersecting_label": "hurricane or severe storm",
+      "overall_value": 0.07879316,
+      "percent_topic_posts_with_label": 0.08895214,
+      "percent_topic_authors_using_label_on_topic_post": 0.06863418,
+      "links": [
+        {
+          "component_label": "discrimination",
+          "value": 0.03526492,
+          "post_percentage_point_contribution": 0.05337129,
+          "author_percentage_point_contribution": 0.01715854
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.04352825,
+          "post_percentage_point_contribution": 0.03558086,
+          "author_percentage_point_contribution": 0.05147563
+        }
+      ]
+    },
+    {
+      "intersecting_label": "PFAS",
+      "overall_value": 0.07816128,
+      "percent_topic_posts_with_label": 0.05337129,
+      "percent_topic_authors_using_label_on_topic_post": 0.10295127,
+      "links": [
+        {
+          "component_label": "environmental justice",
+          "value": 0.07816128,
+          "post_percentage_point_contribution": 0.05337129,
+          "author_percentage_point_contribution": 0.10295127
+        }
+      ]
+    },
+    {
+      "intersecting_label": "community resilience",
+      "overall_value": 0.07816128,
+      "percent_topic_posts_with_label": 0.05337129,
+      "percent_topic_authors_using_label_on_topic_post": 0.10295127,
+      "links": [
+        {
+          "component_label": "discrimination",
+          "value": 0.05210752,
+          "post_percentage_point_contribution": 0.03558086,
+          "author_percentage_point_contribution": 0.06863418
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "dental care",
+      "overall_value": 0.07816128,
+      "percent_topic_posts_with_label": 0.05337129,
+      "percent_topic_authors_using_label_on_topic_post": 0.10295127,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.07816128,
+          "post_percentage_point_contribution": 0.05337129,
+          "author_percentage_point_contribution": 0.10295127
+        }
+      ]
+    },
+    {
+      "intersecting_label": "endocrine-disrupting chemicals",
+      "overall_value": 0.07816128,
+      "percent_topic_posts_with_label": 0.05337129,
+      "percent_topic_authors_using_label_on_topic_post": 0.10295127,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.05210752,
+          "post_percentage_point_contribution": 0.03558086,
+          "author_percentage_point_contribution": 0.06863418
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "fire hazard",
+      "overall_value": 0.07816128,
+      "percent_topic_posts_with_label": 0.05337129,
+      "percent_topic_authors_using_label_on_topic_post": 0.10295127,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "flooding",
+      "overall_value": 0.07816128,
+      "percent_topic_posts_with_label": 0.05337129,
+      "percent_topic_authors_using_label_on_topic_post": 0.10295127,
+      "links": [
+        {
+          "component_label": "environmental justice",
+          "value": 0.07816128,
+          "post_percentage_point_contribution": 0.05337129,
+          "author_percentage_point_contribution": 0.10295127
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infectious disease exposure",
+      "overall_value": 0.07816128,
+      "percent_topic_posts_with_label": 0.05337129,
+      "percent_topic_authors_using_label_on_topic_post": 0.10295127,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.07816128,
+          "post_percentage_point_contribution": 0.05337129,
+          "author_percentage_point_contribution": 0.10295127
+        }
+      ]
+    },
+    {
+      "intersecting_label": "kidney disease",
+      "overall_value": 0.07816128,
+      "percent_topic_posts_with_label": 0.05337129,
+      "percent_topic_authors_using_label_on_topic_post": 0.10295127,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.07816128,
+          "post_percentage_point_contribution": 0.05337129,
+          "author_percentage_point_contribution": 0.10295127
+        }
+      ]
+    },
+    {
+      "intersecting_label": "lead poisoning",
+      "overall_value": 0.07816128,
+      "percent_topic_posts_with_label": 0.05337129,
+      "percent_topic_authors_using_label_on_topic_post": 0.10295127,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.05210752,
+          "post_percentage_point_contribution": 0.03558086,
+          "author_percentage_point_contribution": 0.06863418
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pain",
+      "overall_value": 0.07816128,
+      "percent_topic_posts_with_label": 0.05337129,
+      "percent_topic_authors_using_label_on_topic_post": 0.10295127,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.05210752,
+          "post_percentage_point_contribution": 0.03558086,
+          "author_percentage_point_contribution": 0.06863418
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "secondhand tobacco smoke",
+      "overall_value": 0.07816128,
+      "percent_topic_posts_with_label": 0.05337129,
+      "percent_topic_authors_using_label_on_topic_post": 0.10295127,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.07816128,
+          "post_percentage_point_contribution": 0.05337129,
+          "author_percentage_point_contribution": 0.10295127
+        }
+      ]
+    },
+    {
+      "intersecting_label": "walking or bicycling",
+      "overall_value": 0.06989795,
+      "percent_topic_posts_with_label": 0.07116171,
+      "percent_topic_authors_using_label_on_topic_post": 0.06863418,
+      "links": [
+        {
+          "component_label": "discrimination",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.04384419,
+          "post_percentage_point_contribution": 0.05337129,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "activity cancellation",
+      "overall_value": 0.05210752,
+      "percent_topic_posts_with_label": 0.03558086,
+      "percent_topic_authors_using_label_on_topic_post": 0.06863418,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "acute poisoning",
+      "overall_value": 0.05210752,
+      "percent_topic_posts_with_label": 0.03558086,
+      "percent_topic_authors_using_label_on_topic_post": 0.06863418,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.05210752,
+          "post_percentage_point_contribution": 0.03558086,
+          "author_percentage_point_contribution": 0.06863418
+        }
+      ]
+    },
+    {
+      "intersecting_label": "asbestos",
+      "overall_value": 0.05210752,
+      "percent_topic_posts_with_label": 0.03558086,
+      "percent_topic_authors_using_label_on_topic_post": 0.06863418,
+      "links": [
+        {
+          "component_label": "discrimination",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "beach or coastal area",
+      "overall_value": 0.05210752,
+      "percent_topic_posts_with_label": 0.03558086,
+      "percent_topic_authors_using_label_on_topic_post": 0.06863418,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.05210752,
+          "post_percentage_point_contribution": 0.03558086,
+          "author_percentage_point_contribution": 0.06863418
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cough",
+      "overall_value": 0.05210752,
+      "percent_topic_posts_with_label": 0.03558086,
+      "percent_topic_authors_using_label_on_topic_post": 0.06863418,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.05210752,
+          "post_percentage_point_contribution": 0.03558086,
+          "author_percentage_point_contribution": 0.06863418
+        }
+      ]
+    },
+    {
+      "intersecting_label": "household chemicals",
+      "overall_value": 0.05210752,
+      "percent_topic_posts_with_label": 0.03558086,
+      "percent_topic_authors_using_label_on_topic_post": 0.06863418,
+      "links": [
+        {
+          "component_label": "discrimination",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "industrial chemicals",
+      "overall_value": 0.05210752,
+      "percent_topic_posts_with_label": 0.03558086,
+      "percent_topic_authors_using_label_on_topic_post": 0.06863418,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "injury",
+      "overall_value": 0.05210752,
+      "percent_topic_posts_with_label": 0.03558086,
+      "percent_topic_authors_using_label_on_topic_post": 0.06863418,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mold and dampness",
+      "overall_value": 0.05210752,
+      "percent_topic_posts_with_label": 0.03558086,
+      "percent_topic_authors_using_label_on_topic_post": 0.06863418,
+      "links": [
+        {
+          "component_label": "environmental justice",
+          "value": 0.05210752,
+          "post_percentage_point_contribution": 0.03558086,
+          "author_percentage_point_contribution": 0.06863418
+        }
+      ]
+    },
+    {
+      "intersecting_label": "plastics or microplastics",
+      "overall_value": 0.05210752,
+      "percent_topic_posts_with_label": 0.03558086,
+      "percent_topic_authors_using_label_on_topic_post": 0.06863418,
+      "links": [
+        {
+          "component_label": "environmental justice",
+          "value": 0.05210752,
+          "post_percentage_point_contribution": 0.03558086,
+          "author_percentage_point_contribution": 0.06863418
+        }
+      ]
+    },
+    {
+      "intersecting_label": "radiation",
+      "overall_value": 0.05210752,
+      "percent_topic_posts_with_label": 0.03558086,
+      "percent_topic_authors_using_label_on_topic_post": 0.06863418,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "scientific research",
+      "overall_value": 0.05210752,
+      "percent_topic_posts_with_label": 0.03558086,
+      "percent_topic_authors_using_label_on_topic_post": 0.06863418,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sleep problem",
+      "overall_value": 0.05210752,
+      "percent_topic_posts_with_label": 0.03558086,
+      "percent_topic_authors_using_label_on_topic_post": 0.06863418,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.05210752,
+          "post_percentage_point_contribution": 0.03558086,
+          "author_percentage_point_contribution": 0.06863418
+        }
+      ]
+    },
+    {
+      "intersecting_label": "substance use disorder",
+      "overall_value": 0.05210752,
+      "percent_topic_posts_with_label": 0.03558086,
+      "percent_topic_authors_using_label_on_topic_post": 0.06863418,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "urban environment",
+      "overall_value": 0.05210752,
+      "percent_topic_posts_with_label": 0.03558086,
+      "percent_topic_authors_using_label_on_topic_post": 0.06863418,
+      "links": [
+        {
+          "component_label": "discrimination",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic safety",
+      "overall_value": 0.04384419,
+      "percent_topic_posts_with_label": 0.05337129,
+      "percent_topic_authors_using_label_on_topic_post": 0.03431709,
+      "links": [
+        {
+          "component_label": "environmental justice",
+          "value": 0.04384419,
+          "post_percentage_point_contribution": 0.05337129,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "ventilation",
+      "overall_value": 0.03494897,
+      "percent_topic_posts_with_label": 0.03558086,
+      "percent_topic_authors_using_label_on_topic_post": 0.03431709,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.03494897,
+          "post_percentage_point_contribution": 0.03558086,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "RSV",
+      "overall_value": 0.02605376,
+      "percent_topic_posts_with_label": 0.01779043,
+      "percent_topic_authors_using_label_on_topic_post": 0.03431709,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "air filtration",
+      "overall_value": 0.02605376,
+      "percent_topic_posts_with_label": 0.01779043,
+      "percent_topic_authors_using_label_on_topic_post": 0.03431709,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "arsenic",
+      "overall_value": 0.02605376,
+      "percent_topic_posts_with_label": 0.01779043,
+      "percent_topic_authors_using_label_on_topic_post": 0.03431709,
+      "links": [
+        {
+          "component_label": "environmental justice",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "carbon monoxide",
+      "overall_value": 0.02605376,
+      "percent_topic_posts_with_label": 0.01779043,
+      "percent_topic_authors_using_label_on_topic_post": 0.03431709,
+      "links": [
+        {
+          "component_label": "discrimination",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cleaning or disinfection",
+      "overall_value": 0.02605376,
+      "percent_topic_posts_with_label": 0.01779043,
+      "percent_topic_authors_using_label_on_topic_post": 0.03431709,
+      "links": [
+        {
+          "component_label": "environmental justice",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "commercial area",
+      "overall_value": 0.02605376,
+      "percent_topic_posts_with_label": 0.01779043,
+      "percent_topic_authors_using_label_on_topic_post": 0.03431709,
+      "links": [
+        {
+          "component_label": "discrimination",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "dental caries",
+      "overall_value": 0.02605376,
+      "percent_topic_posts_with_label": 0.01779043,
+      "percent_topic_authors_using_label_on_topic_post": 0.03431709,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.01302688,
+          "post_percentage_point_contribution": 0.00889521,
+          "author_percentage_point_contribution": 0.01715854
+        },
+        {
+          "component_label": "discrimination",
+          "value": 0.01302688,
+          "post_percentage_point_contribution": 0.00889521,
+          "author_percentage_point_contribution": 0.01715854
+        }
+      ]
+    },
+    {
+      "intersecting_label": "dental clinic",
+      "overall_value": 0.02605376,
+      "percent_topic_posts_with_label": 0.01779043,
+      "percent_topic_authors_using_label_on_topic_post": 0.03431709,
+      "links": [
+        {
+          "component_label": "discrimination",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "drought",
+      "overall_value": 0.02605376,
+      "percent_topic_posts_with_label": 0.01779043,
+      "percent_topic_authors_using_label_on_topic_post": 0.03431709,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "extreme cold",
+      "overall_value": 0.02605376,
+      "percent_topic_posts_with_label": 0.01779043,
+      "percent_topic_authors_using_label_on_topic_post": 0.03431709,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "gastrointestinal illness",
+      "overall_value": 0.02605376,
+      "percent_topic_posts_with_label": 0.01779043,
+      "percent_topic_authors_using_label_on_topic_post": 0.03431709,
+      "links": [
+        {
+          "component_label": "discrimination",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "hazardous waste",
+      "overall_value": 0.02605376,
+      "percent_topic_posts_with_label": 0.01779043,
+      "percent_topic_authors_using_label_on_topic_post": 0.03431709,
+      "links": [
+        {
+          "component_label": "environmental justice",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health screening or testing",
+      "overall_value": 0.02605376,
+      "percent_topic_posts_with_label": 0.01779043,
+      "percent_topic_authors_using_label_on_topic_post": 0.03431709,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "heat-related illness",
+      "overall_value": 0.02605376,
+      "percent_topic_posts_with_label": 0.01779043,
+      "percent_topic_authors_using_label_on_topic_post": 0.03431709,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.01302688,
+          "post_percentage_point_contribution": 0.00889521,
+          "author_percentage_point_contribution": 0.01715854
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.01302688,
+          "post_percentage_point_contribution": 0.00889521,
+          "author_percentage_point_contribution": 0.01715854
+        }
+      ]
+    },
+    {
+      "intersecting_label": "indoor air quality",
+      "overall_value": 0.02605376,
+      "percent_topic_posts_with_label": 0.01779043,
+      "percent_topic_authors_using_label_on_topic_post": 0.03431709,
+      "links": [
+        {
+          "component_label": "environmental justice",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "influenza",
+      "overall_value": 0.02605376,
+      "percent_topic_posts_with_label": 0.01779043,
+      "percent_topic_authors_using_label_on_topic_post": 0.03431709,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "inhaler use",
+      "overall_value": 0.02605376,
+      "percent_topic_posts_with_label": 0.01779043,
+      "percent_topic_authors_using_label_on_topic_post": 0.03431709,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mercury",
+      "overall_value": 0.02605376,
+      "percent_topic_posts_with_label": 0.01779043,
+      "percent_topic_authors_using_label_on_topic_post": 0.03431709,
+      "links": [
+        {
+          "component_label": "environmental justice",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "noise pollution",
+      "overall_value": 0.02605376,
+      "percent_topic_posts_with_label": 0.01779043,
+      "percent_topic_authors_using_label_on_topic_post": 0.03431709,
+      "links": [
+        {
+          "component_label": "discrimination",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "preterm birth",
+      "overall_value": 0.02605376,
+      "percent_topic_posts_with_label": 0.01779043,
+      "percent_topic_authors_using_label_on_topic_post": 0.03431709,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.01302688,
+          "post_percentage_point_contribution": 0.00889521,
+          "author_percentage_point_contribution": 0.01715854
+        },
+        {
+          "component_label": "environmental justice",
+          "value": 0.01302688,
+          "post_percentage_point_contribution": 0.00889521,
+          "author_percentage_point_contribution": 0.01715854
+        }
+      ]
+    },
+    {
+      "intersecting_label": "radon",
+      "overall_value": 0.02605376,
+      "percent_topic_posts_with_label": 0.01779043,
+      "percent_topic_authors_using_label_on_topic_post": 0.03431709,
+      "links": [
+        {
+          "component_label": "environmental justice",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sewage or wastewater",
+      "overall_value": 0.02605376,
+      "percent_topic_posts_with_label": 0.01779043,
+      "percent_topic_authors_using_label_on_topic_post": 0.03431709,
+      "links": [
+        {
+          "component_label": "environmental justice",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "shelter or temporary housing",
+      "overall_value": 0.02605376,
+      "percent_topic_posts_with_label": 0.01779043,
+      "percent_topic_authors_using_label_on_topic_post": 0.03431709,
+      "links": [
+        {
+          "component_label": "discrimination",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "skin condition",
+      "overall_value": 0.02605376,
+      "percent_topic_posts_with_label": 0.01779043,
+      "percent_topic_authors_using_label_on_topic_post": 0.03431709,
+      "links": [
+        {
+          "component_label": "discrimination",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "toothache or dental problem",
+      "overall_value": 0.02605376,
+      "percent_topic_posts_with_label": 0.01779043,
+      "percent_topic_authors_using_label_on_topic_post": 0.03431709,
+      "links": [
+        {
+          "component_label": "health disparity",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "vaping aerosol",
+      "overall_value": 0.02605376,
+      "percent_topic_posts_with_label": 0.01779043,
+      "percent_topic_authors_using_label_on_topic_post": 0.03431709,
+      "links": [
+        {
+          "component_label": "discrimination",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    },
+    {
+      "intersecting_label": "winter storm or snow hazard",
+      "overall_value": 0.02605376,
+      "percent_topic_posts_with_label": 0.01779043,
+      "percent_topic_authors_using_label_on_topic_post": 0.03431709,
+      "links": [
+        {
+          "component_label": "discrimination",
+          "value": 0.02605376,
+          "post_percentage_point_contribution": 0.01779043,
+          "author_percentage_point_contribution": 0.03431709
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1174 @@
+{
+  "schema_version": "1.0.0",
+  "city_id": "38900",
+  "domain": "health",
+  "category_id": "health-04",
+  "topic": "Sleep health",
+  "component_labels": [
+    "sleep problem"
+  ],
+  "intersections": [
+    {
+      "intersecting_label": "students",
+      "overall_value": 26.68737347,
+      "percent_topic_posts_with_label": 25.46063652,
+      "percent_topic_authors_using_label_on_topic_post": 27.91411043,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 26.68737347,
+          "post_percentage_point_contribution": 25.46063652,
+          "author_percentage_point_contribution": 27.91411043
+        }
+      ]
+    },
+    {
+      "intersecting_label": "children",
+      "overall_value": 24.83660634,
+      "percent_topic_posts_with_label": 23.70184255,
+      "percent_topic_authors_using_label_on_topic_post": 25.97137014,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 24.83660634,
+          "post_percentage_point_contribution": 23.70184255,
+          "author_percentage_point_contribution": 25.97137014
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school",
+      "overall_value": 20.20018292,
+      "percent_topic_posts_with_label": 18.9279732,
+      "percent_topic_authors_using_label_on_topic_post": 21.47239264,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 20.20018292,
+          "post_percentage_point_contribution": 18.9279732,
+          "author_percentage_point_contribution": 21.47239264
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infants",
+      "overall_value": 16.84341955,
+      "percent_topic_posts_with_label": 16.91792295,
+      "percent_topic_authors_using_label_on_topic_post": 16.76891616,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 16.84341955,
+          "post_percentage_point_contribution": 16.91792295,
+          "author_percentage_point_contribution": 16.76891616
+        }
+      ]
+    },
+    {
+      "intersecting_label": "parents and caregivers",
+      "overall_value": 8.67245224,
+      "percent_topic_posts_with_label": 8.04020101,
+      "percent_topic_authors_using_label_on_topic_post": 9.30470348,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 8.67245224,
+          "post_percentage_point_contribution": 8.04020101,
+          "author_percentage_point_contribution": 9.30470348
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adolescents",
+      "overall_value": 3.90603323,
+      "percent_topic_posts_with_label": 3.51758794,
+      "percent_topic_authors_using_label_on_topic_post": 4.29447853,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 3.90603323,
+          "post_percentage_point_contribution": 3.51758794,
+          "author_percentage_point_contribution": 4.29447853
+        }
+      ]
+    },
+    {
+      "intersecting_label": "toddlers",
+      "overall_value": 3.05052872,
+      "percent_topic_posts_with_label": 2.93132328,
+      "percent_topic_authors_using_label_on_topic_post": 3.16973415,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 3.05052872,
+          "post_percentage_point_contribution": 2.93132328,
+          "author_percentage_point_contribution": 3.16973415
+        }
+      ]
+    },
+    {
+      "intersecting_label": "stress or distress",
+      "overall_value": 2.97602532,
+      "percent_topic_posts_with_label": 2.680067,
+      "percent_topic_authors_using_label_on_topic_post": 3.27198364,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 2.97602532,
+          "post_percentage_point_contribution": 2.680067,
+          "author_percentage_point_contribution": 3.27198364
+        }
+      ]
+    },
+    {
+      "intersecting_label": "home",
+      "overall_value": 2.88302453,
+      "percent_topic_posts_with_label": 2.59631491,
+      "percent_topic_authors_using_label_on_topic_post": 3.16973415,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 2.88302453,
+          "post_percentage_point_contribution": 2.59631491,
+          "author_percentage_point_contribution": 3.16973415
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school closure",
+      "overall_value": 2.79002374,
+      "percent_topic_posts_with_label": 2.51256281,
+      "percent_topic_authors_using_label_on_topic_post": 3.06748466,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 2.79002374,
+          "post_percentage_point_contribution": 2.51256281,
+          "author_percentage_point_contribution": 3.06748466
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mental health condition",
+      "overall_value": 1.1160095,
+      "percent_topic_posts_with_label": 1.00502513,
+      "percent_topic_authors_using_label_on_topic_post": 1.22699387,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 1.1160095,
+          "post_percentage_point_contribution": 1.00502513,
+          "author_percentage_point_contribution": 1.22699387
+        }
+      ]
+    },
+    {
+      "intersecting_label": "unhoused populations",
+      "overall_value": 1.0230087,
+      "percent_topic_posts_with_label": 0.92127303,
+      "percent_topic_authors_using_label_on_topic_post": 1.12474438,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 1.0230087,
+          "post_percentage_point_contribution": 0.92127303,
+          "author_percentage_point_contribution": 1.12474438
+        }
+      ]
+    },
+    {
+      "intersecting_label": "anxiety",
+      "overall_value": 0.93000791,
+      "percent_topic_posts_with_label": 0.83752094,
+      "percent_topic_authors_using_label_on_topic_post": 1.02249489,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.93000791,
+          "post_percentage_point_contribution": 0.83752094,
+          "author_percentage_point_contribution": 1.02249489
+        }
+      ]
+    },
+    {
+      "intersecting_label": "gastrointestinal illness",
+      "overall_value": 0.74400633,
+      "percent_topic_posts_with_label": 0.67001675,
+      "percent_topic_authors_using_label_on_topic_post": 0.81799591,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.74400633,
+          "post_percentage_point_contribution": 0.67001675,
+          "author_percentage_point_contribution": 0.81799591
+        }
+      ]
+    },
+    {
+      "intersecting_label": "workers",
+      "overall_value": 0.74400633,
+      "percent_topic_posts_with_label": 0.67001675,
+      "percent_topic_authors_using_label_on_topic_post": 0.81799591,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.74400633,
+          "post_percentage_point_contribution": 0.67001675,
+          "author_percentage_point_contribution": 0.81799591
+        }
+      ]
+    },
+    {
+      "intersecting_label": "depression",
+      "overall_value": 0.65100554,
+      "percent_topic_posts_with_label": 0.58626466,
+      "percent_topic_authors_using_label_on_topic_post": 0.71574642,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.65100554,
+          "post_percentage_point_contribution": 0.58626466,
+          "author_percentage_point_contribution": 0.71574642
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food insecurity",
+      "overall_value": 0.55800475,
+      "percent_topic_posts_with_label": 0.50251256,
+      "percent_topic_authors_using_label_on_topic_post": 0.61349693,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.55800475,
+          "post_percentage_point_contribution": 0.50251256,
+          "author_percentage_point_contribution": 0.61349693
+        }
+      ]
+    },
+    {
+      "intersecting_label": "respiratory illness",
+      "overall_value": 0.55800475,
+      "percent_topic_posts_with_label": 0.50251256,
+      "percent_topic_authors_using_label_on_topic_post": 0.61349693,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.55800475,
+          "post_percentage_point_contribution": 0.50251256,
+          "author_percentage_point_contribution": 0.61349693
+        }
+      ]
+    },
+    {
+      "intersecting_label": "workplace",
+      "overall_value": 0.55800475,
+      "percent_topic_posts_with_label": 0.50251256,
+      "percent_topic_authors_using_label_on_topic_post": 0.61349693,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.55800475,
+          "post_percentage_point_contribution": 0.50251256,
+          "author_percentage_point_contribution": 0.61349693
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cough",
+      "overall_value": 0.46500396,
+      "percent_topic_posts_with_label": 0.41876047,
+      "percent_topic_authors_using_label_on_topic_post": 0.51124744,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.46500396,
+          "post_percentage_point_contribution": 0.41876047,
+          "author_percentage_point_contribution": 0.51124744
+        }
+      ]
+    },
+    {
+      "intersecting_label": "drug exposure or use",
+      "overall_value": 0.46500396,
+      "percent_topic_posts_with_label": 0.41876047,
+      "percent_topic_authors_using_label_on_topic_post": 0.51124744,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.46500396,
+          "post_percentage_point_contribution": 0.41876047,
+          "author_percentage_point_contribution": 0.51124744
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pregnant people",
+      "overall_value": 0.46500396,
+      "percent_topic_posts_with_label": 0.41876047,
+      "percent_topic_authors_using_label_on_topic_post": 0.51124744,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.46500396,
+          "post_percentage_point_contribution": 0.41876047,
+          "author_percentage_point_contribution": 0.51124744
+        }
+      ]
+    },
+    {
+      "intersecting_label": "shortness of breath",
+      "overall_value": 0.46500396,
+      "percent_topic_posts_with_label": 0.41876047,
+      "percent_topic_authors_using_label_on_topic_post": 0.51124744,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.46500396,
+          "post_percentage_point_contribution": 0.41876047,
+          "author_percentage_point_contribution": 0.51124744
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sports participation",
+      "overall_value": 0.46500396,
+      "percent_topic_posts_with_label": 0.41876047,
+      "percent_topic_authors_using_label_on_topic_post": 0.51124744,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.46500396,
+          "post_percentage_point_contribution": 0.41876047,
+          "author_percentage_point_contribution": 0.51124744
+        }
+      ]
+    },
+    {
+      "intersecting_label": "teachers and school staff",
+      "overall_value": 0.46500396,
+      "percent_topic_posts_with_label": 0.41876047,
+      "percent_topic_authors_using_label_on_topic_post": 0.51124744,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.46500396,
+          "post_percentage_point_contribution": 0.41876047,
+          "author_percentage_point_contribution": 0.51124744
+        }
+      ]
+    },
+    {
+      "intersecting_label": "asthma",
+      "overall_value": 0.37200317,
+      "percent_topic_posts_with_label": 0.33500838,
+      "percent_topic_authors_using_label_on_topic_post": 0.40899796,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.37200317,
+          "post_percentage_point_contribution": 0.33500838,
+          "author_percentage_point_contribution": 0.40899796
+        }
+      ]
+    },
+    {
+      "intersecting_label": "classroom",
+      "overall_value": 0.37200317,
+      "percent_topic_posts_with_label": 0.33500838,
+      "percent_topic_authors_using_label_on_topic_post": 0.40899796,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.37200317,
+          "post_percentage_point_contribution": 0.33500838,
+          "author_percentage_point_contribution": 0.40899796
+        }
+      ]
+    },
+    {
+      "intersecting_label": "families",
+      "overall_value": 0.37200317,
+      "percent_topic_posts_with_label": 0.33500838,
+      "percent_topic_authors_using_label_on_topic_post": 0.40899796,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.37200317,
+          "post_percentage_point_contribution": 0.33500838,
+          "author_percentage_point_contribution": 0.40899796
+        }
+      ]
+    },
+    {
+      "intersecting_label": "headache or migraine",
+      "overall_value": 0.37200317,
+      "percent_topic_posts_with_label": 0.33500838,
+      "percent_topic_authors_using_label_on_topic_post": 0.40899796,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.37200317,
+          "post_percentage_point_contribution": 0.33500838,
+          "author_percentage_point_contribution": 0.40899796
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infectious disease",
+      "overall_value": 0.37200317,
+      "percent_topic_posts_with_label": 0.33500838,
+      "percent_topic_authors_using_label_on_topic_post": 0.40899796,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.37200317,
+          "post_percentage_point_contribution": 0.33500838,
+          "author_percentage_point_contribution": 0.40899796
+        }
+      ]
+    },
+    {
+      "intersecting_label": "noise pollution",
+      "overall_value": 0.37200317,
+      "percent_topic_posts_with_label": 0.33500838,
+      "percent_topic_authors_using_label_on_topic_post": 0.40899796,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.37200317,
+          "post_percentage_point_contribution": 0.33500838,
+          "author_percentage_point_contribution": 0.40899796
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pets and companion animals",
+      "overall_value": 0.37200317,
+      "percent_topic_posts_with_label": 0.33500838,
+      "percent_topic_authors_using_label_on_topic_post": 0.40899796,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.37200317,
+          "post_percentage_point_contribution": 0.33500838,
+          "author_percentage_point_contribution": 0.40899796
+        }
+      ]
+    },
+    {
+      "intersecting_label": "violence or crime",
+      "overall_value": 0.37200317,
+      "percent_topic_posts_with_label": 0.33500838,
+      "percent_topic_authors_using_label_on_topic_post": 0.40899796,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.37200317,
+          "post_percentage_point_contribution": 0.33500838,
+          "author_percentage_point_contribution": 0.40899796
+        }
+      ]
+    },
+    {
+      "intersecting_label": "child abuse or neglect",
+      "overall_value": 0.27900237,
+      "percent_topic_posts_with_label": 0.25125628,
+      "percent_topic_authors_using_label_on_topic_post": 0.30674847,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.27900237,
+          "post_percentage_point_contribution": 0.25125628,
+          "author_percentage_point_contribution": 0.30674847
+        }
+      ]
+    },
+    {
+      "intersecting_label": "obesity",
+      "overall_value": 0.27900237,
+      "percent_topic_posts_with_label": 0.25125628,
+      "percent_topic_authors_using_label_on_topic_post": 0.30674847,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.27900237,
+          "post_percentage_point_contribution": 0.25125628,
+          "author_percentage_point_contribution": 0.30674847
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pain",
+      "overall_value": 0.27900237,
+      "percent_topic_posts_with_label": 0.25125628,
+      "percent_topic_authors_using_label_on_topic_post": 0.30674847,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.27900237,
+          "post_percentage_point_contribution": 0.25125628,
+          "author_percentage_point_contribution": 0.30674847
+        }
+      ]
+    },
+    {
+      "intersecting_label": "social support",
+      "overall_value": 0.27900237,
+      "percent_topic_posts_with_label": 0.25125628,
+      "percent_topic_authors_using_label_on_topic_post": 0.30674847,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.27900237,
+          "post_percentage_point_contribution": 0.25125628,
+          "author_percentage_point_contribution": 0.30674847
+        }
+      ]
+    },
+    {
+      "intersecting_label": "COVID-19",
+      "overall_value": 0.18600158,
+      "percent_topic_posts_with_label": 0.16750419,
+      "percent_topic_authors_using_label_on_topic_post": 0.20449898,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.18600158,
+          "post_percentage_point_contribution": 0.16750419,
+          "author_percentage_point_contribution": 0.20449898
+        }
+      ]
+    },
+    {
+      "intersecting_label": "breastfeeding",
+      "overall_value": 0.18600158,
+      "percent_topic_posts_with_label": 0.16750419,
+      "percent_topic_authors_using_label_on_topic_post": 0.20449898,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.18600158,
+          "post_percentage_point_contribution": 0.16750419,
+          "author_percentage_point_contribution": 0.20449898
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childcare center",
+      "overall_value": 0.18600158,
+      "percent_topic_posts_with_label": 0.16750419,
+      "percent_topic_authors_using_label_on_topic_post": 0.20449898,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.18600158,
+          "post_percentage_point_contribution": 0.16750419,
+          "author_percentage_point_contribution": 0.20449898
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cleaning or disinfection",
+      "overall_value": 0.18600158,
+      "percent_topic_posts_with_label": 0.16750419,
+      "percent_topic_authors_using_label_on_topic_post": 0.20449898,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.18600158,
+          "post_percentage_point_contribution": 0.16750419,
+          "author_percentage_point_contribution": 0.20449898
+        }
+      ]
+    },
+    {
+      "intersecting_label": "developmental delay",
+      "overall_value": 0.18600158,
+      "percent_topic_posts_with_label": 0.16750419,
+      "percent_topic_authors_using_label_on_topic_post": 0.20449898,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.18600158,
+          "post_percentage_point_contribution": 0.16750419,
+          "author_percentage_point_contribution": 0.20449898
+        }
+      ]
+    },
+    {
+      "intersecting_label": "fever",
+      "overall_value": 0.18600158,
+      "percent_topic_posts_with_label": 0.16750419,
+      "percent_topic_authors_using_label_on_topic_post": 0.20449898,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.18600158,
+          "post_percentage_point_contribution": 0.16750419,
+          "author_percentage_point_contribution": 0.20449898
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health disparity",
+      "overall_value": 0.18600158,
+      "percent_topic_posts_with_label": 0.16750419,
+      "percent_topic_authors_using_label_on_topic_post": 0.20449898,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.18600158,
+          "post_percentage_point_contribution": 0.16750419,
+          "author_percentage_point_contribution": 0.20449898
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare facility",
+      "overall_value": 0.18600158,
+      "percent_topic_posts_with_label": 0.16750419,
+      "percent_topic_authors_using_label_on_topic_post": 0.20449898,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.18600158,
+          "post_percentage_point_contribution": 0.16750419,
+          "author_percentage_point_contribution": 0.20449898
+        }
+      ]
+    },
+    {
+      "intersecting_label": "housing instability or homelessness",
+      "overall_value": 0.18600158,
+      "percent_topic_posts_with_label": 0.16750419,
+      "percent_topic_authors_using_label_on_topic_post": 0.20449898,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.18600158,
+          "post_percentage_point_contribution": 0.16750419,
+          "author_percentage_point_contribution": 0.20449898
+        }
+      ]
+    },
+    {
+      "intersecting_label": "injury",
+      "overall_value": 0.18600158,
+      "percent_topic_posts_with_label": 0.16750419,
+      "percent_topic_authors_using_label_on_topic_post": 0.20449898,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.18600158,
+          "post_percentage_point_contribution": 0.16750419,
+          "author_percentage_point_contribution": 0.20449898
+        }
+      ]
+    },
+    {
+      "intersecting_label": "malnutrition",
+      "overall_value": 0.18600158,
+      "percent_topic_posts_with_label": 0.16750419,
+      "percent_topic_authors_using_label_on_topic_post": 0.20449898,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.18600158,
+          "post_percentage_point_contribution": 0.16750419,
+          "author_percentage_point_contribution": 0.20449898
+        }
+      ]
+    },
+    {
+      "intersecting_label": "medical care",
+      "overall_value": 0.18600158,
+      "percent_topic_posts_with_label": 0.16750419,
+      "percent_topic_authors_using_label_on_topic_post": 0.20449898,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.18600158,
+          "post_percentage_point_contribution": 0.16750419,
+          "author_percentage_point_contribution": 0.20449898
+        }
+      ]
+    },
+    {
+      "intersecting_label": "medication use",
+      "overall_value": 0.18600158,
+      "percent_topic_posts_with_label": 0.16750419,
+      "percent_topic_authors_using_label_on_topic_post": 0.20449898,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.18600158,
+          "post_percentage_point_contribution": 0.16750419,
+          "author_percentage_point_contribution": 0.20449898
+        }
+      ]
+    },
+    {
+      "intersecting_label": "neighborhood",
+      "overall_value": 0.18600158,
+      "percent_topic_posts_with_label": 0.16750419,
+      "percent_topic_authors_using_label_on_topic_post": 0.20449898,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.18600158,
+          "post_percentage_point_contribution": 0.16750419,
+          "author_percentage_point_contribution": 0.20449898
+        }
+      ]
+    },
+    {
+      "intersecting_label": "outdoor environment",
+      "overall_value": 0.18600158,
+      "percent_topic_posts_with_label": 0.16750419,
+      "percent_topic_authors_using_label_on_topic_post": 0.20449898,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.18600158,
+          "post_percentage_point_contribution": 0.16750419,
+          "author_percentage_point_contribution": 0.20449898
+        }
+      ]
+    },
+    {
+      "intersecting_label": "park or green space",
+      "overall_value": 0.18600158,
+      "percent_topic_posts_with_label": 0.16750419,
+      "percent_topic_authors_using_label_on_topic_post": 0.20449898,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.18600158,
+          "post_percentage_point_contribution": 0.16750419,
+          "author_percentage_point_contribution": 0.20449898
+        }
+      ]
+    },
+    {
+      "intersecting_label": "public transit",
+      "overall_value": 0.18600158,
+      "percent_topic_posts_with_label": 0.16750419,
+      "percent_topic_authors_using_label_on_topic_post": 0.20449898,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.18600158,
+          "post_percentage_point_contribution": 0.16750419,
+          "author_percentage_point_contribution": 0.20449898
+        }
+      ]
+    },
+    {
+      "intersecting_label": "river lake or water body",
+      "overall_value": 0.18600158,
+      "percent_topic_posts_with_label": 0.16750419,
+      "percent_topic_authors_using_label_on_topic_post": 0.20449898,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.18600158,
+          "post_percentage_point_contribution": 0.16750419,
+          "author_percentage_point_contribution": 0.20449898
+        }
+      ]
+    },
+    {
+      "intersecting_label": "toothache or dental problem",
+      "overall_value": 0.18600158,
+      "percent_topic_posts_with_label": 0.16750419,
+      "percent_topic_authors_using_label_on_topic_post": 0.20449898,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.18600158,
+          "post_percentage_point_contribution": 0.16750419,
+          "author_percentage_point_contribution": 0.20449898
+        }
+      ]
+    },
+    {
+      "intersecting_label": "youth engagement",
+      "overall_value": 0.18600158,
+      "percent_topic_posts_with_label": 0.16750419,
+      "percent_topic_authors_using_label_on_topic_post": 0.20449898,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.18600158,
+          "post_percentage_point_contribution": 0.16750419,
+          "author_percentage_point_contribution": 0.20449898
+        }
+      ]
+    },
+    {
+      "intersecting_label": "alcohol exposure or use",
+      "overall_value": 0.09300079,
+      "percent_topic_posts_with_label": 0.08375209,
+      "percent_topic_authors_using_label_on_topic_post": 0.10224949,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.09300079,
+          "post_percentage_point_contribution": 0.08375209,
+          "author_percentage_point_contribution": 0.10224949
+        }
+      ]
+    },
+    {
+      "intersecting_label": "allergens",
+      "overall_value": 0.09300079,
+      "percent_topic_posts_with_label": 0.08375209,
+      "percent_topic_authors_using_label_on_topic_post": 0.10224949,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.09300079,
+          "post_percentage_point_contribution": 0.08375209,
+          "author_percentage_point_contribution": 0.10224949
+        }
+      ]
+    },
+    {
+      "intersecting_label": "apartment",
+      "overall_value": 0.09300079,
+      "percent_topic_posts_with_label": 0.08375209,
+      "percent_topic_authors_using_label_on_topic_post": 0.10224949,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.09300079,
+          "post_percentage_point_contribution": 0.08375209,
+          "author_percentage_point_contribution": 0.10224949
+        }
+      ]
+    },
+    {
+      "intersecting_label": "autism",
+      "overall_value": 0.09300079,
+      "percent_topic_posts_with_label": 0.08375209,
+      "percent_topic_authors_using_label_on_topic_post": 0.10224949,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.09300079,
+          "post_percentage_point_contribution": 0.08375209,
+          "author_percentage_point_contribution": 0.10224949
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cooking or food preparation",
+      "overall_value": 0.09300079,
+      "percent_topic_posts_with_label": 0.08375209,
+      "percent_topic_authors_using_label_on_topic_post": 0.10224949,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.09300079,
+          "post_percentage_point_contribution": 0.08375209,
+          "author_percentage_point_contribution": 0.10224949
+        }
+      ]
+    },
+    {
+      "intersecting_label": "educational access",
+      "overall_value": 0.09300079,
+      "percent_topic_posts_with_label": 0.08375209,
+      "percent_topic_authors_using_label_on_topic_post": 0.10224949,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.09300079,
+          "post_percentage_point_contribution": 0.08375209,
+          "author_percentage_point_contribution": 0.10224949
+        }
+      ]
+    },
+    {
+      "intersecting_label": "extreme cold",
+      "overall_value": 0.09300079,
+      "percent_topic_posts_with_label": 0.08375209,
+      "percent_topic_authors_using_label_on_topic_post": 0.10224949,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.09300079,
+          "post_percentage_point_contribution": 0.08375209,
+          "author_percentage_point_contribution": 0.10224949
+        }
+      ]
+    },
+    {
+      "intersecting_label": "extreme heat",
+      "overall_value": 0.09300079,
+      "percent_topic_posts_with_label": 0.08375209,
+      "percent_topic_authors_using_label_on_topic_post": 0.10224949,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.09300079,
+          "post_percentage_point_contribution": 0.08375209,
+          "author_percentage_point_contribution": 0.10224949
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food contamination",
+      "overall_value": 0.09300079,
+      "percent_topic_posts_with_label": 0.08375209,
+      "percent_topic_authors_using_label_on_topic_post": 0.10224949,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.09300079,
+          "post_percentage_point_contribution": 0.08375209,
+          "author_percentage_point_contribution": 0.10224949
+        }
+      ]
+    },
+    {
+      "intersecting_label": "foster youth",
+      "overall_value": 0.09300079,
+      "percent_topic_posts_with_label": 0.08375209,
+      "percent_topic_authors_using_label_on_topic_post": 0.10224949,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.09300079,
+          "post_percentage_point_contribution": 0.08375209,
+          "author_percentage_point_contribution": 0.10224949
+        }
+      ]
+    },
+    {
+      "intersecting_label": "generic smoke",
+      "overall_value": 0.09300079,
+      "percent_topic_posts_with_label": 0.08375209,
+      "percent_topic_authors_using_label_on_topic_post": 0.10224949,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.09300079,
+          "post_percentage_point_contribution": 0.08375209,
+          "author_percentage_point_contribution": 0.10224949
+        }
+      ]
+    },
+    {
+      "intersecting_label": "influenza",
+      "overall_value": 0.09300079,
+      "percent_topic_posts_with_label": 0.08375209,
+      "percent_topic_authors_using_label_on_topic_post": 0.10224949,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.09300079,
+          "post_percentage_point_contribution": 0.08375209,
+          "author_percentage_point_contribution": 0.10224949
+        }
+      ]
+    },
+    {
+      "intersecting_label": "insects and pests",
+      "overall_value": 0.09300079,
+      "percent_topic_posts_with_label": 0.08375209,
+      "percent_topic_authors_using_label_on_topic_post": 0.10224949,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.09300079,
+          "post_percentage_point_contribution": 0.08375209,
+          "author_percentage_point_contribution": 0.10224949
+        }
+      ]
+    },
+    {
+      "intersecting_label": "kidney disease",
+      "overall_value": 0.09300079,
+      "percent_topic_posts_with_label": 0.08375209,
+      "percent_topic_authors_using_label_on_topic_post": 0.10224949,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.09300079,
+          "post_percentage_point_contribution": 0.08375209,
+          "author_percentage_point_contribution": 0.10224949
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mortality or death",
+      "overall_value": 0.09300079,
+      "percent_topic_posts_with_label": 0.08375209,
+      "percent_topic_authors_using_label_on_topic_post": 0.10224949,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.09300079,
+          "post_percentage_point_contribution": 0.08375209,
+          "author_percentage_point_contribution": 0.10224949
+        }
+      ]
+    },
+    {
+      "intersecting_label": "motor vehicle",
+      "overall_value": 0.09300079,
+      "percent_topic_posts_with_label": 0.08375209,
+      "percent_topic_authors_using_label_on_topic_post": 0.10224949,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.09300079,
+          "post_percentage_point_contribution": 0.08375209,
+          "author_percentage_point_contribution": 0.10224949
+        }
+      ]
+    },
+    {
+      "intersecting_label": "outdoor play or recreation",
+      "overall_value": 0.09300079,
+      "percent_topic_posts_with_label": 0.08375209,
+      "percent_topic_authors_using_label_on_topic_post": 0.10224949,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.09300079,
+          "post_percentage_point_contribution": 0.08375209,
+          "author_percentage_point_contribution": 0.10224949
+        }
+      ]
+    },
+    {
+      "intersecting_label": "playground",
+      "overall_value": 0.09300079,
+      "percent_topic_posts_with_label": 0.08375209,
+      "percent_topic_authors_using_label_on_topic_post": 0.10224949,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.09300079,
+          "post_percentage_point_contribution": 0.08375209,
+          "author_percentage_point_contribution": 0.10224949
+        }
+      ]
+    },
+    {
+      "intersecting_label": "poverty or financial hardship",
+      "overall_value": 0.09300079,
+      "percent_topic_posts_with_label": 0.08375209,
+      "percent_topic_authors_using_label_on_topic_post": 0.10224949,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.09300079,
+          "post_percentage_point_contribution": 0.08375209,
+          "author_percentage_point_contribution": 0.10224949
+        }
+      ]
+    },
+    {
+      "intersecting_label": "reproductive health condition",
+      "overall_value": 0.09300079,
+      "percent_topic_posts_with_label": 0.08375209,
+      "percent_topic_authors_using_label_on_topic_post": 0.10224949,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.09300079,
+          "post_percentage_point_contribution": 0.08375209,
+          "author_percentage_point_contribution": 0.10224949
+        }
+      ]
+    },
+    {
+      "intersecting_label": "street or roadway",
+      "overall_value": 0.09300079,
+      "percent_topic_posts_with_label": 0.08375209,
+      "percent_topic_authors_using_label_on_topic_post": 0.10224949,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.09300079,
+          "post_percentage_point_contribution": 0.08375209,
+          "author_percentage_point_contribution": 0.10224949
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic-related air pollution",
+      "overall_value": 0.09300079,
+      "percent_topic_posts_with_label": 0.08375209,
+      "percent_topic_authors_using_label_on_topic_post": 0.10224949,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.09300079,
+          "post_percentage_point_contribution": 0.08375209,
+          "author_percentage_point_contribution": 0.10224949
+        }
+      ]
+    },
+    {
+      "intersecting_label": "unsafe housing conditions",
+      "overall_value": 0.09300079,
+      "percent_topic_posts_with_label": 0.08375209,
+      "percent_topic_authors_using_label_on_topic_post": 0.10224949,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.09300079,
+          "post_percentage_point_contribution": 0.08375209,
+          "author_percentage_point_contribution": 0.10224949
+        }
+      ]
+    },
+    {
+      "intersecting_label": "walking or bicycling",
+      "overall_value": 0.09300079,
+      "percent_topic_posts_with_label": 0.08375209,
+      "percent_topic_authors_using_label_on_topic_post": 0.10224949,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.09300079,
+          "post_percentage_point_contribution": 0.08375209,
+          "author_percentage_point_contribution": 0.10224949
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildfire smoke",
+      "overall_value": 0.09300079,
+      "percent_topic_posts_with_label": 0.08375209,
+      "percent_topic_authors_using_label_on_topic_post": 0.10224949,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.09300079,
+          "post_percentage_point_contribution": 0.08375209,
+          "author_percentage_point_contribution": 0.10224949
+        }
+      ]
+    },
+    {
+      "intersecting_label": "winter storm or snow hazard",
+      "overall_value": 0.09300079,
+      "percent_topic_posts_with_label": 0.08375209,
+      "percent_topic_authors_using_label_on_topic_post": 0.10224949,
+      "links": [
+        {
+          "component_label": "sleep problem",
+          "value": 0.09300079,
+          "post_percentage_point_contribution": 0.08375209,
+          "author_percentage_point_contribution": 0.10224949
+        }
+      ]
+    }
+  ]
+}

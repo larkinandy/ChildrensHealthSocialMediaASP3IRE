@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import json
+import math
 from html import escape
 from pathlib import Path
 from urllib.parse import urlparse
@@ -7,13 +9,17 @@ from urllib.parse import urlparse
 import altair as alt
 import pandas as pd
 import streamlit as st
+import streamlit.components.v1 as components
 
 
 APP_DIR = Path(__file__).resolve().parent
 DATA_DIR = APP_DIR / "data"
 PORTLAND_DATA_DIR = DATA_DIR / "portland"
+PORTLAND_CHORD_DIR = PORTLAND_DATA_DIR / "topic_chords" / "portland_all_topic_chords_v001"
+CHORD_TEMPLATE_PATH = APP_DIR / "grouped_chord_component.html"
 DATA_VERSION = "synthetic_bar_attention_shares_v1"
 PORTLAND_DATA_VERSION = "portland_dashboard_packet_v007_prepared_v1"
+CHORD_DEFAULT_INTERSECTIONS = 12
 
 COLORS = {
     "orange": "#ef5b21",
@@ -130,9 +136,25 @@ def inject_css() -> None:
             letter-spacing: 0 !important;
             color: #111827;
         }
+        .connection-panel-title {
+            color: #111827;
+            font-size: 1.5rem;
+            font-weight: 800;
+            line-height: 1.2;
+            margin: 0 0 0.65rem 0;
+        }
+        .connections-slider-label {
+            color: #667085;
+            font-size: 0.82rem;
+            font-weight: 650;
+            line-height: 1.15;
+            margin: 0;
+            text-align: right;
+            transform: translateY(-0.22rem);
+        }
         div[data-testid="stVerticalBlock"] { gap: 0.7rem; }
         .panel {
-            background: #ffffff;
+            background: #f3f6f8;
             border: 1px solid #d9e2ec;
             border-radius: 8px;
             padding: 1rem 1.1rem;
@@ -158,11 +180,6 @@ def inject_css() -> None:
         .panel.disabled .box {
             border-color: #b8c2cf !important;
             background: #d5dce5 !important;
-        }
-        .panel.disabled .disabled-link {
-            color: #98a2b3 !important;
-            border-color: #d6dee8;
-            background: #eef2f6;
         }
         .small-meta {
             color: #0b3b7a;
@@ -248,24 +265,6 @@ def inject_css() -> None:
         }
         .tree-toggle:hover {
             color: #ef5b21 !important;
-        }
-        .clear-link {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            border: 1px solid #cbd8e6;
-            border-radius: 8px;
-            padding: 0.38rem 0.62rem;
-            color: #0d4f73 !important;
-            text-decoration: none !important;
-            font-size: 0.78rem;
-            font-weight: 700;
-            white-space: nowrap;
-            background: #ffffff;
-        }
-        .disabled-link {
-            color: #8a96a8 !important;
-            background: #f5f7fa;
         }
         .control-label {
             color: #0b2b63;
@@ -364,7 +363,7 @@ def inject_css() -> None:
         .metric-card {
             border: 1px solid #dce5ef;
             border-radius: 8px;
-            background: #ffffff;
+            background: #f3f6f8;
             min-height: 5.4rem;
             padding: 0.86rem;
             text-align: center;
@@ -381,9 +380,7 @@ def inject_css() -> None:
             margin-top: 0.12rem;
         }
         .metric-note {
-            color: #33415c;
-            font-size: 0.78rem;
-            margin-top: 0.05rem;
+            display: none;
         }
         .summary-text {
             color: #0d2250;
@@ -445,7 +442,17 @@ def inject_css() -> None:
             padding: 1rem 1.1rem;
             box-shadow: 0 1px 3px rgba(15, 23, 42, 0.03);
         }
-        .overview-profile-panel-marker {
+        div[data-testid="stColumn"]:has(.connections-left-panel-marker) > div[data-testid="stVerticalBlock"],
+        div[data-testid="stColumn"]:has(.connections-center-panel-marker) > div[data-testid="stVerticalBlock"] {
+            background: #f3f6f8;
+            border: 1px solid #d9e2ec;
+            border-radius: 8px;
+            padding: 1rem 1.1rem;
+            box-shadow: 0 1px 3px rgba(15, 23, 42, 0.03);
+        }
+        .overview-profile-panel-marker,
+        .connections-left-panel-marker,
+        .connections-center-panel-marker {
             display: none;
         }
         .overview-profile-panel h3 {
@@ -936,71 +943,353 @@ def summary_view_for_group(topic_group: str) -> str:
     }[topic_group]
 
 
+@st.cache_data
+def load_chord_index() -> dict:
+    return json.loads((PORTLAND_CHORD_DIR / "topic_chord_index.json").read_text(encoding="utf-8"))
+
+
+@st.cache_data
+def load_chord_topic(relative_file: str) -> dict:
+    path = PORTLAND_CHORD_DIR / relative_file
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def load_chord_template() -> str:
+    return CHORD_TEMPLATE_PATH.read_text(encoding="utf-8")
+
+
+def selected_chord_topic(selected_label: str, data: dict[str, pd.DataFrame]) -> dict | None:
+    domain_selection = domain_from_selection(selected_label)
+    if domain_selection is not None:
+        rows = data["overview_summary"][data["overview_summary"]["topic_group"].eq(domain_selection)]
+        if rows.empty:
+            return None
+        selected_label = str(rows.sort_values("attention_share_pct", ascending=False).iloc[0]["label"])
+    index = load_chord_index()
+    topic_lookup = {topic["topic"]: topic for topic in index["topics"]}
+    return topic_lookup.get(selected_label)
+
+
+def flatten_chord_links(chord: dict, intersection_limit: int) -> list[dict]:
+    rows = []
+    intersections = sorted(chord["intersections"], key=lambda item: float(item["overall_value"]), reverse=True)
+    for intersection in intersections[:intersection_limit]:
+        links = sorted(intersection.get("links", []), key=lambda item: float(item["value"]), reverse=True)
+        for link in links:
+            rows.append(
+                {
+                    "component_label": link["component_label"],
+                    "intersecting_label": intersection["intersecting_label"],
+                    "value": float(link["value"]),
+                    "overall_value": float(intersection["overall_value"]),
+                    "post_pct": float(intersection["percent_topic_posts_with_label"]),
+                    "author_pct": float(intersection["percent_topic_authors_using_label_on_topic_post"]),
+                    "post_contribution": float(link["post_percentage_point_contribution"]),
+                    "author_contribution": float(link["author_percentage_point_contribution"]),
+                }
+            )
+    return rows
+
+
+def slug(value: str) -> str:
+    return "".join(char.lower() if char.isalnum() else "-" for char in value).strip("-")
+
+
+def arc_path(cx: float, cy: float, radius: float, start_deg: float, end_deg: float) -> str:
+    start = polar_point(cx, cy, radius, start_deg)
+    end = polar_point(cx, cy, radius, end_deg)
+    large_arc = 1 if abs(end_deg - start_deg) > 180 else 0
+    sweep = 1
+    return f"M {start[0]:.2f} {start[1]:.2f} A {radius} {radius} 0 {large_arc} {sweep} {end[0]:.2f} {end[1]:.2f}"
+
+
+def polar_point(cx: float, cy: float, radius: float, deg: float) -> tuple[float, float]:
+    rad = math.radians(deg)
+    return cx + radius * math.cos(rad), cy + radius * math.sin(rad)
+
+
+def label_anchor(angle: float) -> str:
+    return "end" if 90 < angle < 270 else "start"
+
+
+def label_rotation(angle: float) -> float:
+    rotation = angle
+    if 90 < angle < 270:
+        rotation += 180
+    return rotation
+
+
+def weighted_segments(values: list[tuple[str, float]], start: float, end: float, gap: float) -> dict[str, tuple[float, float, float]]:
+    if not values:
+        return {}
+    total = sum(value for _, value in values) or 1
+    usable = max(0, end - start - gap * (len(values) - 1))
+    cursor = start
+    segments = {}
+    for label, value in values:
+        span = max(2.0, usable * value / total)
+        segment_end = min(end, cursor + span)
+        segments[label] = (cursor, segment_end, (cursor + segment_end) / 2)
+        cursor = segment_end + gap
+    return segments
+
+
+def chord_hover_css(component_labels: list[str], intersections: list[str]) -> str:
+    rules = ['.chord-svg:has(.chord-node:hover) .chord-link { opacity: 0.045; }']
+    for label in component_labels:
+        label_slug = slug(label)
+        rules.append(
+            f'.chord-svg:has(.node-component-{label_slug}:hover) .link-component-{label_slug} '
+            "{ opacity: 0.82; }"
+        )
+    for label in intersections:
+        label_slug = slug(label)
+        rules.append(
+            f'.chord-svg:has(.node-intersection-{label_slug}:hover) .link-intersection-{label_slug} '
+            "{ opacity: 0.82; }"
+        )
+    return "\n".join(rules)
+
+
+def build_chord_svg(chord: dict, links: list[dict]) -> str:
+    width, height = 940, 690
+    cx, cy, radius = 470, 352, 252
+    component_labels = [label for label in chord["component_labels"] if any(row["component_label"] == label for row in links)]
+    intersections = []
+    for row in links:
+        if row["intersecting_label"] not in intersections:
+            intersections.append(row["intersecting_label"])
+    max_value = max((row["value"] for row in links), default=1)
+    component_palette = [COLORS["orange"], COLORS["green"], COLORS["blue"], COLORS["purple"], COLORS["teal"], "#b7791f"]
+    component_totals = {label: sum(row["value"] for row in links if row["component_label"] == label) for label in component_labels}
+    intersection_totals = {label: max(row["overall_value"] for row in links if row["intersecting_label"] == label) for label in intersections}
+    component_segments = weighted_segments([(label, component_totals[label]) for label in component_labels], -82, 82, 3.5)
+    intersection_segments = weighted_segments([(label, intersection_totals[label]) for label in intersections], 108, 252, 1.2)
+    component_angles = {label: segment[2] for label, segment in component_segments.items()}
+    intersection_angles = {label: segment[2] for label, segment in intersection_segments.items()}
+    component_colors = {
+        label: component_palette[index % len(component_palette)]
+        for index, label in enumerate(component_labels)
+    }
+    visible_intersection_labels = set(intersections[: min(10, len(intersections))])
+
+    svg = [
+        f'<svg class="chord-svg" viewBox="0 0 {width} {height}" role="img" aria-label="Chord diagram for {escape(chord["topic"])}">',
+        "<defs>",
+        '<filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#0f172a" flood-opacity="0.10"/></filter>',
+        "</defs>",
+        f'<circle cx="{cx}" cy="{cy}" r="{radius}" fill="#f8fafb" stroke="#d9e2ec" stroke-width="2"/>',
+        f'<path d="{arc_path(cx, cy, radius + 28, -82, 82)}" fill="none" stroke="#c6d8f4" stroke-width="10" stroke-linecap="round" opacity="0.95"/>',
+        f'<path d="{arc_path(cx, cy, radius + 22, 108, 252)}" fill="none" stroke="#e1e7ef" stroke-width="9" stroke-linecap="round" opacity="0.95"/>',
+        f'<text x="{cx}" y="43" text-anchor="middle" class="chord-main-title">{escape(chord["topic"])} intersections by subgroup</text>',
+        f'<text x="{polar_point(cx, cy, radius + 50, 2)[0]:.2f}" y="{polar_point(cx, cy, radius + 50, 2)[1]:.2f}" text-anchor="middle" class="chord-side-title">{escape(chord["topic"])}</text>',
+        f'<text x="{polar_point(cx, cy, radius + 48, 182)[0]:.2f}" y="{polar_point(cx, cy, radius + 48, 182)[1]:.2f}" text-anchor="middle" class="chord-side-title muted">Intersecting labels</text>',
+    ]
+
+    for label, (start, end, angle) in component_segments.items():
+        color = component_colors[label]
+        svg.append(
+            f'<g class="chord-node component-node node-component-{slug(label)}">'
+            f'<path d="{arc_path(cx, cy, radius + 12, start, end)}" fill="none" stroke="{color}" stroke-width="16" stroke-linecap="round">'
+            f'<title>{escape(label)} component total: {component_totals[label]:.2f}%</title></path></g>'
+        )
+
+    for label, (start, end, angle) in intersection_segments.items():
+        svg.append(
+            f'<g class="chord-node intersection-node node-intersection-{slug(label)}">'
+            f'<path d="{arc_path(cx, cy, radius + 12, start, end)}" fill="none" stroke="#b9c4d2" stroke-width="11" stroke-linecap="round">'
+            f'<title>{escape(label)} overall value: {intersection_totals[label]:.2f}%</title></path></g>'
+        )
+
+    for row in reversed(links):
+        c_angle = component_angles[row["component_label"]]
+        i_angle = intersection_angles[row["intersecting_label"]]
+        c_outer = polar_point(cx, cy, radius - 10, c_angle)
+        i_outer = polar_point(cx, cy, radius - 10, i_angle)
+        c_inner = (cx - 86, cy)
+        i_inner = (cx + 86, cy)
+        stroke_width = 0.9 + 16 * (row["value"] / max_value)
+        color = component_colors[row["component_label"]]
+        comp_class = slug(row["component_label"])
+        int_class = slug(row["intersecting_label"])
+        tooltip = (
+            f'{row["component_label"]} to {row["intersecting_label"]}\\n'
+            f'Link value: {row["value"]:.2f}%\\n'
+            f'Overall label value: {row["overall_value"]:.2f}%\\n'
+            f'Posts with label: {row["post_pct"]:.2f}%\\n'
+            f'Authors using label: {row["author_pct"]:.2f}%'
+        )
+        svg.append(
+            f'<path class="chord-link link-component-{comp_class} link-intersection-{int_class}" d="M {c_outer[0]:.2f} {c_outer[1]:.2f} '
+            f'C {c_inner[0]:.2f} {c_inner[1]:.2f}, {i_inner[0]:.2f} {i_inner[1]:.2f}, {i_outer[0]:.2f} {i_outer[1]:.2f}" '
+            f'fill="none" stroke="{color}" stroke-width="{stroke_width:.2f}" stroke-linecap="round" opacity="0.30">'
+            f"<title>{escape(tooltip)}</title></path>"
+        )
+
+    for label, angle in component_angles.items():
+        lx, ly = polar_point(cx, cy, radius + 32, angle)
+        rotation = label_rotation(angle)
+        svg.append(
+            f'<text x="{lx:.2f}" y="{ly:.2f}" text-anchor="{label_anchor(angle)}" dominant-baseline="middle" '
+            f'transform="rotate({rotation:.2f} {lx:.2f} {ly:.2f})" class="chord-label chord-label-component">{escape(label)}</text>'
+        )
+
+    for label, angle in intersection_angles.items():
+        if label not in visible_intersection_labels:
+            continue
+        lx, ly = polar_point(cx, cy, radius + 26, angle)
+        rotation = label_rotation(angle)
+        svg.append(
+            f'<text x="{lx:.2f}" y="{ly:.2f}" text-anchor="{label_anchor(angle)}" dominant-baseline="middle" '
+            f'transform="rotate({rotation:.2f} {lx:.2f} {ly:.2f})" class="chord-label">{escape(label)}</text>'
+        )
+
+    svg.append(f'<text x="{cx}" y="{cy - 6}" text-anchor="middle" class="chord-center-title">{len(links)}</text>')
+    svg.append(f'<text x="{cx}" y="{cy + 22}" text-anchor="middle" class="chord-center-subtitle">component-label chords</text>')
+    svg.append("</svg>")
+    return "".join(svg)
+
+
+def chord_panel(chord_meta: dict | None) -> tuple[dict | None, list[dict]]:
+    if chord_meta is None:
+        st.markdown(
+            """
+            <div>
+                <div class="muted">Select a topic to load its chord diagram.</div>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+        return None, []
+    chord = load_chord_topic(chord_meta["file"])
+    max_labels = min(50, len(chord["intersections"]))
+    if max_labels:
+        _, slider_col = st.columns([0.78, 0.22], gap="small", vertical_alignment="center")
+        with slider_col:
+            label_col, control_col = st.columns([0.30, 0.70], gap="small", vertical_alignment="center")
+            with label_col:
+                st.markdown('<div class="connections-slider-label">labels</div>', unsafe_allow_html=True)
+            with control_col:
+                label_limit = st.slider(
+                    "labels",
+                    min_value=1,
+                    max_value=max_labels,
+                    value=min(20, max_labels),
+                    step=1,
+                    key=f"connections_label_limit_{chord['category_id']}",
+                    label_visibility="collapsed",
+                )
+    else:
+        label_limit = 0
+    chord_payload = {**chord, "_render_theme": "light_grey_v4", "_label_limit": label_limit}
+    encoded = json.dumps(chord_payload, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+    html = load_chord_template().replace("__TOPIC_PAYLOAD__", encoded)
+    links = flatten_chord_links(chord, label_limit)
+    components.html(html, height=820, scrolling=False)
+    return chord, links
+
+
+def frozen_chord_context_panel(chord: dict | None, links: list[dict]) -> None:
+    if chord is None:
+        title = "Connection statistics"
+        body = ""
+        topic = "No topic selected"
+        total_links = 0
+        intersections = 0
+        components_count = 0
+    else:
+        title = "Connection statistics"
+        topic = chord["topic"]
+        total_links = sum(len(item.get("links", [])) for item in chord["intersections"])
+        intersections = len(chord["intersections"])
+        components_count = len(chord["component_labels"])
+        body = ""
+    summary_html = f'<div class="summary-text">{escape(body)}</div>' if body else ""
+    st.markdown(
+        f"""
+        <div class="panel">
+            <div class="connection-panel-title">{title}</div>
+            <div class="small-meta">{escape(topic)}</div>
+            <div class="metric-grid">
+                <div class="metric-card">
+                    <div class="metric-label">Connections shown</div>
+                    <div class="metric-value" style="color:#111827;">{len(links)}</div>
+                    <div class="metric-note">top ranked</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-label">Available connections</div>
+                    <div class="metric-value" style="color:#111827;">{total_links}</div>
+                    <div class="metric-note">not post counts</div>
+                </div>
+            </div>
+            <div style="height:.65rem"></div>
+            <div class="metric-grid">
+                <div class="metric-card">
+                    <div class="metric-label">Topic labels</div>
+                    <div class="metric-value" style="color:#111827;">{components_count}</div>
+                    <div class="metric-note">topic labels</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-label">Labels</div>
+                    <div class="metric-value" style="color:#111827;">{intersections}</div>
+                    <div class="metric-note">labels</div>
+                </div>
+            </div>
+            {summary_html}
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
 def ontology_tree(active: bool, selected_label: str) -> None:
     data = load_portland_data(PORTLAND_DATA_VERSION)
     ontology_rows = portland_ontology_rows(data)
     collapsed_items = st.session_state.get("collapsed_ontology", default_collapsed_ontology())
     if active:
-        with st.container(border=True):
-            header_cols = st.columns([0.58, 0.42], gap="small", vertical_alignment="center")
-            with header_cols[0]:
-                st.markdown('<h3 style="margin:0">Ontology</h3>', unsafe_allow_html=True)
-            with header_cols[1]:
-                if st.button("↻ Clear", key="clear_ontology", use_container_width=True):
-                    st.session_state.selected_label = default_portland_label(data)
-                    st.session_state.collapsed_ontology = default_collapsed_ontology()
+        st.markdown('<span class="connections-left-panel-marker"></span>', unsafe_allow_html=True)
+        st.markdown('<div class="connection-panel-title">Topic selection</div>', unsafe_allow_html=True)
+        st.markdown('<div class="muted" style="margin-top:.25rem">Click a category to load its chord diagram</div>', unsafe_allow_html=True)
+
+        for topic_group, domain_label in ONTOLOGY_DOMAINS:
+            domain_key = f"domain::{topic_group}"
+            domain_collapsed = domain_key in collapsed_items
+            domain_chev = "›" if domain_collapsed else "⌄"
+            domain_selected = selected_label == domain_selection_value(topic_group)
+            row = st.columns([0.08, 0.92], gap="small", vertical_alignment="center")
+            with row[0]:
+                if st.button(domain_chev, key=f"toggle_{domain_key}"):
+                    toggle_ontology_item(domain_key)
+                    st.rerun()
+            with row[1]:
+                domain_text = f"● {domain_label}" if domain_selected else domain_label
+                if st.button(domain_text, key=f"title_{domain_key}"):
+                    st.session_state.selected_label = domain_selection_value(topic_group)
+                    if domain_collapsed:
+                        toggle_ontology_item(domain_key)
                     st.query_params["page"] = "Ontology"
                     st.query_params["label"] = st.session_state.selected_label
                     st.rerun()
-            st.markdown('<div class="muted" style="margin-top:.25rem">Click a category to view the time series</div>', unsafe_allow_html=True)
+            if domain_collapsed:
+                continue
 
-            for topic_group, domain_label in ONTOLOGY_DOMAINS:
-                domain_key = f"domain::{topic_group}"
-                domain_collapsed = domain_key in collapsed_items
-                domain_chev = "›" if domain_collapsed else "⌄"
-                domain_selected = selected_label == domain_selection_value(topic_group)
-                row = st.columns([0.08, 0.92], gap="small", vertical_alignment="center")
-                with row[0]:
-                    if st.button(domain_chev, key=f"toggle_{domain_key}"):
-                        toggle_ontology_item(domain_key)
-                        st.rerun()
+            labels = ontology_rows[ontology_rows["topic_group"] == topic_group]["label"].tolist()
+            for label in labels:
+                label_text = f"■ {label}" if label == selected_label else f"□ {label}"
+                row = st.columns([0.12, 0.88], gap="small", vertical_alignment="center")
                 with row[1]:
-                    domain_text = f"● {domain_label}" if domain_selected else domain_label
-                    if st.button(domain_text, key=f"title_{domain_key}"):
-                        st.session_state.selected_label = domain_selection_value(topic_group)
-                        if domain_collapsed:
-                            toggle_ontology_item(domain_key)
+                    if st.button(label_text, key=f"label_{topic_group}_{label}"):
+                        st.session_state.selected_label = label
                         st.query_params["page"] = "Ontology"
-                        st.query_params["label"] = st.session_state.selected_label
+                        st.query_params["label"] = label
                         st.rerun()
-                if domain_collapsed:
-                    continue
-
-                labels = ontology_rows[ontology_rows["topic_group"] == topic_group]["label"].tolist()
-                for label in labels:
-                    label_text = f"■ {label}" if label == selected_label else f"□ {label}"
-                    row = st.columns([0.12, 0.88], gap="small", vertical_alignment="center")
-                    with row[1]:
-                        if st.button(label_text, key=f"label_{topic_group}_{label}"):
-                            st.session_state.selected_label = label
-                            st.query_params["page"] = "Ontology"
-                            st.query_params["label"] = label
-                            st.rerun()
         return
 
     wrapper_class = "panel" if active else "panel disabled"
-    clear_button = (
-        '<span class="clear-link disabled-link">↻ Clear selection</span>'
-        if active
-        else '<span class="clear-link disabled-link">↻ Clear selection</span>'
-    )
     html = [
         f'<div class="{wrapper_class}">',
-        '<div style="display:flex;align-items:center;justify-content:space-between;gap:.75rem;">'
-        '<h3 style="margin:0">Ontology</h3>'
-        f"{clear_button}"
-        "</div>",
-        f'<div class="muted" style="margin-top:.55rem">{"Click a label to explore intersections" if active else "🔒 Available on Ontology page"}</div>',
+        '<div class="connection-panel-title">Topic selection</div>',
+        f'<div class="muted" style="margin-top:.55rem">{"Click a label to explore intersections" if active else "🔒 Available on Connections page"}</div>',
     ]
 
     for topic_group, domain_label in ONTOLOGY_DOMAINS:
@@ -1457,6 +1746,11 @@ def overview_profile_panel(title: str, group: str, data: dict[str, pd.DataFrame]
 
 def header() -> str:
     page = st.session_state.get("current_page", "Overview")
+    display_page = "Connections" if page == "Ontology" else page
+    if st.session_state.get("page_switch") == "Ontology":
+        st.session_state.page_switch = "Connections"
+    if st.session_state.get("page_switch") not in {"Overview", "Connections"}:
+        st.session_state.page_switch = display_page
 
     left, right = st.columns([0.58, 0.42], vertical_alignment="center")
     with left:
@@ -1466,14 +1760,15 @@ def header() -> str:
         with c1:
             st.selectbox("City / region", ["Portland CBSA"], index=0)
         with c2:
-            selected_page = st.segmented_control(
+            selected_display_page = st.segmented_control(
                 "View",
-                ["Overview", "Ontology"],
+                ["Overview", "Connections"],
                 key="page_switch",
                 selection_mode="single",
                 required=True,
                 width="stretch",
             )
+            selected_page = "Ontology" if selected_display_page == "Connections" else selected_display_page
             if selected_page and selected_page != page:
                 st.session_state.current_page = selected_page
                 st.query_params["page"] = selected_page
@@ -1627,60 +1922,16 @@ def ontology_page() -> None:
         selected_label = default_portland_label(data)
         st.session_state.selected_label = selected_label
         domain_selection = None
-    if domain_selection is not None:
-        selected_group = domain_selection
-        chart_labels: list[str] = []
-        chart_title = f"{domain_display_name(selected_group)} attention over time"
-    else:
-        selected_row = data["overview_summary"][data["overview_summary"]["label"].eq(selected_label)].iloc[0]
-        selected_group = str(selected_row["topic_group"])
-        chart_labels = [selected_label]
-        chart_title = f"{escape(selected_label)} attention over time"
-    attention_column, attention_label = attention_column_for_group(selected_group)
-    left, center, right = st.columns([0.23, 0.43, 0.34], gap="medium")
+    chord_meta = selected_chord_topic(selected_label, data)
+    left, center, right = st.columns([0.19, 0.59, 0.22], gap="medium")
     with left:
         ontology_tree(active=True, selected_label=selected_label)
     with center:
-        with st.container(border=True):
-            title_col, toggle_col = st.columns([0.68, 0.32], gap="small", vertical_alignment="center")
-            with title_col:
-                st.markdown(
-                    f'<div class="chart-title">{chart_title}</div>',
-                    unsafe_allow_html=True,
-                )
-            with toggle_col:
-                ontology_local_only = local_events_only_control("ontology_local_events_only")
-            ontology_events = filter_local_events(data["events"], ontology_local_only)
-            ontology_has_events = bool(chart_labels) and has_events_for_labels(ontology_events, chart_labels)
-            ontology_chart_state = selectable_altair_chart(
-                line_chart(
-                    data["timeseries"],
-                    "",
-                    chart_labels,
-                    events=ontology_events if chart_labels else None,
-                    height=ONTOLOGY_CHART_HEIGHT,
-                    attention_column=attention_column,
-                    attention_label=attention_label,
-                    value_column="attention_weighted_topic_value",
-                    y_axis_title="Attention-weighted topic value",
-                    color_map=overview_color_map(selected_group, data=data),
-                    event_selection_name="ontology_event_select" if ontology_has_events else None,
-                ),
-                key="ontology_time_series",
-                selection_name="ontology_event_select",
-                has_selectable_events=ontology_has_events,
-            )
+        st.markdown('<span class="connections-center-panel-marker"></span>', unsafe_allow_html=True)
+        st.markdown('<div class="connection-panel-title">Topic label connections</div>', unsafe_allow_html=True)
+        chord, links = chord_panel(chord_meta)
     with right:
-        intersection_panel("wildfire smoke")
-        metric_cards("wildfire smoke")
-        rank_summary_panel(
-            "Generated Summary",
-            selected_group,
-            summary_view_for_group(selected_group),
-            labels=chart_labels,
-            selected_event=selected_event_id(ontology_chart_state, "ontology_event_select"),
-            data=data,
-        )
+        frozen_chord_context_panel(chord, links)
 
 
 def footer() -> None:
@@ -1700,12 +1951,14 @@ def footer() -> None:
 def main() -> None:
     inject_css()
     query_page = st.query_params.get("page")
+    if query_page == "Connections":
+        query_page = "Ontology"
     if query_page not in {"Overview", "Ontology"}:
         query_page = "Overview"
     if "current_page" not in st.session_state:
         st.session_state.current_page = query_page
     if "page_switch" not in st.session_state:
-        st.session_state.page_switch = st.session_state.current_page
+        st.session_state.page_switch = "Connections" if st.session_state.current_page == "Ontology" else st.session_state.current_page
     portland_data = load_portland_data(PORTLAND_DATA_VERSION)
     if "selected_label" not in st.session_state:
         st.session_state.selected_label = default_portland_label(portland_data)

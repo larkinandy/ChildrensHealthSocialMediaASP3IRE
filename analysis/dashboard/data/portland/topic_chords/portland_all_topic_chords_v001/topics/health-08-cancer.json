@@ -1,0 +1,2341 @@
+{
+  "schema_version": "1.0.0",
+  "city_id": "38900",
+  "domain": "health",
+  "category_id": "health-08",
+  "topic": "Cancer",
+  "component_labels": [
+    "cancer",
+    "childhood cancer"
+  ],
+  "intersections": [
+    {
+      "intersecting_label": "children",
+      "overall_value": 69.00767562,
+      "percent_topic_posts_with_label": 67.78413737,
+      "percent_topic_authors_using_label_on_topic_post": 70.23121387,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 38.32518429,
+          "post_percentage_point_contribution": 18.17252657,
+          "author_percentage_point_contribution": 58.477842
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 30.68249133,
+          "post_percentage_point_contribution": 49.61161079,
+          "author_percentage_point_contribution": 11.75337187
+        }
+      ]
+    },
+    {
+      "intersecting_label": "advocacy",
+      "overall_value": 17.98796194,
+      "percent_topic_posts_with_label": 31.92968111,
+      "percent_topic_authors_using_label_on_topic_post": 4.04624277,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 1.14007849,
+          "post_percentage_point_contribution": 0.44971382,
+          "author_percentage_point_contribution": 1.83044316
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 16.84788345,
+          "post_percentage_point_contribution": 31.47996729,
+          "author_percentage_point_contribution": 2.21579961
+        }
+      ]
+    },
+    {
+      "intersecting_label": "medical care",
+      "overall_value": 6.07117594,
+      "percent_topic_posts_with_label": 2.41210139,
+      "percent_topic_authors_using_label_on_topic_post": 9.73025048,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 5.25588748,
+          "post_percentage_point_contribution": 2.03393295,
+          "author_percentage_point_contribution": 8.477842
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.81528846,
+          "post_percentage_point_contribution": 0.37816844,
+          "author_percentage_point_contribution": 1.25240848
+        }
+      ]
+    },
+    {
+      "intersecting_label": "families",
+      "overall_value": 5.13551282,
+      "percent_topic_posts_with_label": 2.37121832,
+      "percent_topic_authors_using_label_on_topic_post": 7.89980732,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 4.42825139,
+          "post_percentage_point_contribution": 2.06459526,
+          "author_percentage_point_contribution": 6.79190751
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.70726143,
+          "post_percentage_point_contribution": 0.30662306,
+          "author_percentage_point_contribution": 1.10789981
+        }
+      ]
+    },
+    {
+      "intersecting_label": "parents and caregivers",
+      "overall_value": 4.56760044,
+      "percent_topic_posts_with_label": 1.71708913,
+      "percent_topic_authors_using_label_on_topic_post": 7.41811175,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 4.25520727,
+          "post_percentage_point_contribution": 1.57399836,
+          "author_percentage_point_contribution": 6.93641618
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.31239316,
+          "post_percentage_point_contribution": 0.14309076,
+          "author_percentage_point_contribution": 0.48169557
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adolescents",
+      "overall_value": 3.60562721,
+      "percent_topic_posts_with_label": 1.4309076,
+      "percent_topic_authors_using_label_on_topic_post": 5.78034682,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 3.4596514,
+          "post_percentage_point_contribution": 1.37980376,
+          "author_percentage_point_contribution": 5.53949904
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.14597581,
+          "post_percentage_point_contribution": 0.05110384,
+          "author_percentage_point_contribution": 0.24084778
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mortality or death",
+      "overall_value": 3.52386106,
+      "percent_topic_posts_with_label": 1.26737531,
+      "percent_topic_authors_using_label_on_topic_post": 5.78034682,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 3.11512879,
+          "post_percentage_point_contribution": 1.12428455,
+          "author_percentage_point_contribution": 5.10597303
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.40873228,
+          "post_percentage_point_contribution": 0.14309076,
+          "author_percentage_point_contribution": 0.6743738
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school",
+      "overall_value": 2.99106165,
+      "percent_topic_posts_with_label": 1.16516762,
+      "percent_topic_authors_using_label_on_topic_post": 4.81695568,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 2.43341927,
+          "post_percentage_point_contribution": 0.86876533,
+          "author_percentage_point_contribution": 3.99807322
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.55764238,
+          "post_percentage_point_contribution": 0.29640229,
+          "author_percentage_point_contribution": 0.81888247
+        }
+      ]
+    },
+    {
+      "intersecting_label": "community program or service",
+      "overall_value": 2.94167112,
+      "percent_topic_posts_with_label": 2.8004906,
+      "percent_topic_authors_using_label_on_topic_post": 3.08285164,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 1.33933424,
+          "post_percentage_point_contribution": 0.51103843,
+          "author_percentage_point_contribution": 2.16763006
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 1.60233687,
+          "post_percentage_point_contribution": 2.28945217,
+          "author_percentage_point_contribution": 0.91522158
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sports participation",
+      "overall_value": 2.38843017,
+      "percent_topic_posts_with_label": 2.65739984,
+      "percent_topic_authors_using_label_on_topic_post": 2.1194605,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 1.20211206,
+          "post_percentage_point_contribution": 0.42927228,
+          "author_percentage_point_contribution": 1.97495183
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 1.18631811,
+          "post_percentage_point_contribution": 2.22812756,
+          "author_percentage_point_contribution": 0.14450867
+        }
+      ]
+    },
+    {
+      "intersecting_label": "child abuse or neglect",
+      "overall_value": 2.28015698,
+      "percent_topic_posts_with_label": 0.89942764,
+      "percent_topic_authors_using_label_on_topic_post": 3.66088632,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 1.76850806,
+          "post_percentage_point_contribution": 0.69501226,
+          "author_percentage_point_contribution": 2.84200385
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.51164892,
+          "post_percentage_point_contribution": 0.20441537,
+          "author_percentage_point_contribution": 0.81888247
+        }
+      ]
+    },
+    {
+      "intersecting_label": "activity cancellation",
+      "overall_value": 2.19585041,
+      "percent_topic_posts_with_label": 3.33197056,
+      "percent_topic_authors_using_label_on_topic_post": 1.05973025,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.52551293,
+          "post_percentage_point_contribution": 0.18397383,
+          "author_percentage_point_contribution": 0.86705202
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 1.67033748,
+          "post_percentage_point_contribution": 3.14799673,
+          "author_percentage_point_contribution": 0.19267823
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mental health condition",
+      "overall_value": 1.96776381,
+      "percent_topic_posts_with_label": 0.75633688,
+      "percent_topic_authors_using_label_on_topic_post": 3.17919075,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.6868199,
+          "post_percentage_point_contribution": 0.26573998,
+          "author_percentage_point_contribution": 1.10789981
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 1.28094392,
+          "post_percentage_point_contribution": 0.49059689,
+          "author_percentage_point_contribution": 2.07129094
+        }
+      ]
+    },
+    {
+      "intersecting_label": "students",
+      "overall_value": 1.93710151,
+      "percent_topic_posts_with_label": 0.69501226,
+      "percent_topic_authors_using_label_on_topic_post": 3.17919075,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 1.76193053,
+          "post_percentage_point_contribution": 0.63368765,
+          "author_percentage_point_contribution": 2.89017341
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.17517098,
+          "post_percentage_point_contribution": 0.06132461,
+          "author_percentage_point_contribution": 0.28901734
+        }
+      ]
+    },
+    {
+      "intersecting_label": "scientific research",
+      "overall_value": 1.83934448,
+      "percent_topic_posts_with_label": 0.98119379,
+      "percent_topic_authors_using_label_on_topic_post": 2.69749518,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.87585488,
+          "post_percentage_point_contribution": 0.30662306,
+          "author_percentage_point_contribution": 1.44508671
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.9634896,
+          "post_percentage_point_contribution": 0.67457073,
+          "author_percentage_point_contribution": 1.25240848
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health disparity",
+      "overall_value": 1.6378634,
+      "percent_topic_posts_with_label": 0.67457073,
+      "percent_topic_authors_using_label_on_topic_post": 2.60115607,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 1.26196952,
+          "post_percentage_point_contribution": 0.50081766,
+          "author_percentage_point_contribution": 2.02312139
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.37589387,
+          "post_percentage_point_contribution": 0.17375307,
+          "author_percentage_point_contribution": 0.57803468
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infants",
+      "overall_value": 1.63492911,
+      "percent_topic_posts_with_label": 0.57236304,
+      "percent_topic_authors_using_label_on_topic_post": 2.69749518,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 1.43056297,
+          "post_percentage_point_contribution": 0.50081766,
+          "author_percentage_point_contribution": 2.36030829
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.20436614,
+          "post_percentage_point_contribution": 0.07154538,
+          "author_percentage_point_contribution": 0.3371869
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare facility",
+      "overall_value": 1.61306967,
+      "percent_topic_posts_with_label": 0.81766149,
+      "percent_topic_authors_using_label_on_topic_post": 2.40847784,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 1.34591177,
+          "post_percentage_point_contribution": 0.57236304,
+          "author_percentage_point_contribution": 2.1194605
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.26715789,
+          "post_percentage_point_contribution": 0.24529845,
+          "author_percentage_point_contribution": 0.28901734
+        }
+      ]
+    },
+    {
+      "intersecting_label": "poverty or financial hardship",
+      "overall_value": 1.49335473,
+      "percent_topic_posts_with_label": 0.67457073,
+      "percent_topic_authors_using_label_on_topic_post": 2.31213873,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 1.25979343,
+          "post_percentage_point_contribution": 0.59280458,
+          "author_percentage_point_contribution": 1.92678227
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.2335613,
+          "post_percentage_point_contribution": 0.08176615,
+          "author_percentage_point_contribution": 0.38535645
+        }
+      ]
+    },
+    {
+      "intersecting_label": "children with disabilities",
+      "overall_value": 1.38831122,
+      "percent_topic_posts_with_label": 1.0425184,
+      "percent_topic_authors_using_label_on_topic_post": 1.73410405,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 1.3299209,
+          "post_percentage_point_contribution": 1.02207686,
+          "author_percentage_point_contribution": 1.63776493
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare access",
+      "overall_value": 1.29480793,
+      "percent_topic_posts_with_label": 0.47015536,
+      "percent_topic_authors_using_label_on_topic_post": 2.1194605,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 1.06124663,
+          "post_percentage_point_contribution": 0.38838921,
+          "author_percentage_point_contribution": 1.73410405
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.2335613,
+          "post_percentage_point_contribution": 0.08176615,
+          "author_percentage_point_contribution": 0.38535645
+        }
+      ]
+    },
+    {
+      "intersecting_label": "teachers and school staff",
+      "overall_value": 1.21162387,
+      "percent_topic_posts_with_label": 0.59280458,
+      "percent_topic_authors_using_label_on_topic_post": 1.83044316,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 1.21162387,
+          "post_percentage_point_contribution": 0.59280458,
+          "author_percentage_point_contribution": 1.83044316
+        }
+      ]
+    },
+    {
+      "intersecting_label": "child welfare services",
+      "overall_value": 1.08907311,
+      "percent_topic_posts_with_label": 1.02207686,
+      "percent_topic_authors_using_label_on_topic_post": 1.15606936,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 1.08907311,
+          "post_percentage_point_contribution": 1.02207686,
+          "author_percentage_point_contribution": 1.15606936
+        }
+      ]
+    },
+    {
+      "intersecting_label": "unhoused populations",
+      "overall_value": 1.05396014,
+      "percent_topic_posts_with_label": 0.47015536,
+      "percent_topic_authors_using_label_on_topic_post": 1.63776493,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.84301648,
+          "post_percentage_point_contribution": 0.33728536,
+          "author_percentage_point_contribution": 1.34874759
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.21094367,
+          "post_percentage_point_contribution": 0.13286999,
+          "author_percentage_point_contribution": 0.28901734
+        }
+      ]
+    },
+    {
+      "intersecting_label": "low-income populations",
+      "overall_value": 0.97229246,
+      "percent_topic_posts_with_label": 0.98119379,
+      "percent_topic_authors_using_label_on_topic_post": 0.96339114,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.91390214,
+          "post_percentage_point_contribution": 0.96075225,
+          "author_percentage_point_contribution": 0.86705202
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "vaccination",
+      "overall_value": 0.95468674,
+      "percent_topic_posts_with_label": 0.36794767,
+      "percent_topic_authors_using_label_on_topic_post": 1.54142582,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.72112544,
+          "post_percentage_point_contribution": 0.28618152,
+          "author_percentage_point_contribution": 1.15606936
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.2335613,
+          "post_percentage_point_contribution": 0.08176615,
+          "author_percentage_point_contribution": 0.38535645
+        }
+      ]
+    },
+    {
+      "intersecting_label": "breastfeeding",
+      "overall_value": 0.88607565,
+      "percent_topic_posts_with_label": 0.3270646,
+      "percent_topic_authors_using_label_on_topic_post": 1.44508671,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.88607565,
+          "post_percentage_point_contribution": 0.3270646,
+          "author_percentage_point_contribution": 1.44508671
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infectious disease",
+      "overall_value": 0.88607565,
+      "percent_topic_posts_with_label": 0.3270646,
+      "percent_topic_authors_using_label_on_topic_post": 1.44508671,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.4671226,
+          "post_percentage_point_contribution": 0.1635323,
+          "author_percentage_point_contribution": 0.77071291
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.41895305,
+          "post_percentage_point_contribution": 0.1635323,
+          "author_percentage_point_contribution": 0.6743738
+        }
+      ]
+    },
+    {
+      "intersecting_label": "COVID-19",
+      "overall_value": 0.81746456,
+      "percent_topic_posts_with_label": 0.28618152,
+      "percent_topic_authors_using_label_on_topic_post": 1.34874759,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.81746456,
+          "post_percentage_point_contribution": 0.28618152,
+          "author_percentage_point_contribution": 1.34874759
+        }
+      ]
+    },
+    {
+      "intersecting_label": "medication use",
+      "overall_value": 0.71090467,
+      "percent_topic_posts_with_label": 0.26573998,
+      "percent_topic_authors_using_label_on_topic_post": 1.15606936,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.59412402,
+          "post_percentage_point_contribution": 0.22485691,
+          "author_percentage_point_contribution": 0.96339114
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.11678065,
+          "post_percentage_point_contribution": 0.04088307,
+          "author_percentage_point_contribution": 0.19267823
+        }
+      ]
+    },
+    {
+      "intersecting_label": "racial and ethnic minority populations",
+      "overall_value": 0.70068391,
+      "percent_topic_posts_with_label": 0.24529845,
+      "percent_topic_authors_using_label_on_topic_post": 1.15606936,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.55470809,
+          "post_percentage_point_contribution": 0.1941946,
+          "author_percentage_point_contribution": 0.91522158
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.14597581,
+          "post_percentage_point_contribution": 0.05110384,
+          "author_percentage_point_contribution": 0.24084778
+        }
+      ]
+    },
+    {
+      "intersecting_label": "stress or distress",
+      "overall_value": 0.70068391,
+      "percent_topic_posts_with_label": 0.24529845,
+      "percent_topic_authors_using_label_on_topic_post": 1.15606936,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.29195163,
+          "post_percentage_point_contribution": 0.10220769,
+          "author_percentage_point_contribution": 0.48169557
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.40873228,
+          "post_percentage_point_contribution": 0.14309076,
+          "author_percentage_point_contribution": 0.6743738
+        }
+      ]
+    },
+    {
+      "intersecting_label": "disability",
+      "overall_value": 0.67153798,
+      "percent_topic_posts_with_label": 0.57236304,
+      "percent_topic_authors_using_label_on_topic_post": 0.77071291,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.55475732,
+          "post_percentage_point_contribution": 0.53147997,
+          "author_percentage_point_contribution": 0.57803468
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.11678065,
+          "post_percentage_point_contribution": 0.04088307,
+          "author_percentage_point_contribution": 0.19267823
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pets and companion animals",
+      "overall_value": 0.65251435,
+      "percent_topic_posts_with_label": 0.24529845,
+      "percent_topic_authors_using_label_on_topic_post": 1.05973025,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.65251435,
+          "post_percentage_point_contribution": 0.24529845,
+          "author_percentage_point_contribution": 1.05973025
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pain",
+      "overall_value": 0.62336842,
+      "percent_topic_posts_with_label": 0.57236304,
+      "percent_topic_authors_using_label_on_topic_post": 0.6743738,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.37958635,
+          "post_percentage_point_contribution": 0.47015536,
+          "author_percentage_point_contribution": 0.28901734
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.24378207,
+          "post_percentage_point_contribution": 0.10220769,
+          "author_percentage_point_contribution": 0.38535645
+        }
+      ]
+    },
+    {
+      "intersecting_label": "housing instability or homelessness",
+      "overall_value": 0.60434479,
+      "percent_topic_posts_with_label": 0.24529845,
+      "percent_topic_authors_using_label_on_topic_post": 0.96339114,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.60434479,
+          "post_percentage_point_contribution": 0.24529845,
+          "author_percentage_point_contribution": 0.96339114
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental justice",
+      "overall_value": 0.58390325,
+      "percent_topic_posts_with_label": 0.20441537,
+      "percent_topic_authors_using_label_on_topic_post": 0.96339114,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.35034195,
+          "post_percentage_point_contribution": 0.12264922,
+          "author_percentage_point_contribution": 0.57803468
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.2335613,
+          "post_percentage_point_contribution": 0.08176615,
+          "author_percentage_point_contribution": 0.38535645
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare workers",
+      "overall_value": 0.58390325,
+      "percent_topic_posts_with_label": 0.20441537,
+      "percent_topic_authors_using_label_on_topic_post": 0.96339114,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.4671226,
+          "post_percentage_point_contribution": 0.1635323,
+          "author_percentage_point_contribution": 0.77071291
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.11678065,
+          "post_percentage_point_contribution": 0.04088307,
+          "author_percentage_point_contribution": 0.19267823
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pregnant people",
+      "overall_value": 0.58390325,
+      "percent_topic_posts_with_label": 0.20441537,
+      "percent_topic_authors_using_label_on_topic_post": 0.96339114,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.4671226,
+          "post_percentage_point_contribution": 0.1635323,
+          "author_percentage_point_contribution": 0.77071291
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.11678065,
+          "post_percentage_point_contribution": 0.04088307,
+          "author_percentage_point_contribution": 0.19267823
+        }
+      ]
+    },
+    {
+      "intersecting_label": "violence or crime",
+      "overall_value": 0.58390325,
+      "percent_topic_posts_with_label": 0.20441537,
+      "percent_topic_authors_using_label_on_topic_post": 0.96339114,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.4671226,
+          "post_percentage_point_contribution": 0.1635323,
+          "author_percentage_point_contribution": 0.77071291
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.11678065,
+          "post_percentage_point_contribution": 0.04088307,
+          "author_percentage_point_contribution": 0.19267823
+        }
+      ]
+    },
+    {
+      "intersecting_label": "secondhand tobacco smoke",
+      "overall_value": 0.5357337,
+      "percent_topic_posts_with_label": 0.20441537,
+      "percent_topic_authors_using_label_on_topic_post": 0.86705202,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.5357337,
+          "post_percentage_point_contribution": 0.20441537,
+          "author_percentage_point_contribution": 0.86705202
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food insecurity",
+      "overall_value": 0.52551293,
+      "percent_topic_posts_with_label": 0.18397383,
+      "percent_topic_authors_using_label_on_topic_post": 0.86705202,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.52551293,
+          "post_percentage_point_contribution": 0.18397383,
+          "author_percentage_point_contribution": 0.86705202
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health education or awareness",
+      "overall_value": 0.52551293,
+      "percent_topic_posts_with_label": 0.18397383,
+      "percent_topic_authors_using_label_on_topic_post": 0.86705202,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.35034195,
+          "post_percentage_point_contribution": 0.12264922,
+          "author_percentage_point_contribution": 0.57803468
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.17517098,
+          "post_percentage_point_contribution": 0.06132461,
+          "author_percentage_point_contribution": 0.28901734
+        }
+      ]
+    },
+    {
+      "intersecting_label": "radiation",
+      "overall_value": 0.4671226,
+      "percent_topic_posts_with_label": 0.1635323,
+      "percent_topic_authors_using_label_on_topic_post": 0.77071291,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.4671226,
+          "post_percentage_point_contribution": 0.1635323,
+          "author_percentage_point_contribution": 0.77071291
+        }
+      ]
+    },
+    {
+      "intersecting_label": "asthma",
+      "overall_value": 0.40873228,
+      "percent_topic_posts_with_label": 0.14309076,
+      "percent_topic_authors_using_label_on_topic_post": 0.6743738,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.40873228,
+          "post_percentage_point_contribution": 0.14309076,
+          "author_percentage_point_contribution": 0.6743738
+        }
+      ]
+    },
+    {
+      "intersecting_label": "birth defect",
+      "overall_value": 0.40873228,
+      "percent_topic_posts_with_label": 0.14309076,
+      "percent_topic_authors_using_label_on_topic_post": 0.6743738,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.40873228,
+          "post_percentage_point_contribution": 0.14309076,
+          "author_percentage_point_contribution": 0.6743738
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mask use",
+      "overall_value": 0.40873228,
+      "percent_topic_posts_with_label": 0.14309076,
+      "percent_topic_authors_using_label_on_topic_post": 0.6743738,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.35034195,
+          "post_percentage_point_contribution": 0.12264922,
+          "author_percentage_point_contribution": 0.57803468
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "reproductive health condition",
+      "overall_value": 0.40873228,
+      "percent_topic_posts_with_label": 0.14309076,
+      "percent_topic_authors_using_label_on_topic_post": 0.6743738,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.40873228,
+          "post_percentage_point_contribution": 0.14309076,
+          "author_percentage_point_contribution": 0.6743738
+        }
+      ]
+    },
+    {
+      "intersecting_label": "skin condition",
+      "overall_value": 0.40873228,
+      "percent_topic_posts_with_label": 0.14309076,
+      "percent_topic_authors_using_label_on_topic_post": 0.6743738,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.40873228,
+          "post_percentage_point_contribution": 0.14309076,
+          "author_percentage_point_contribution": 0.6743738
+        }
+      ]
+    },
+    {
+      "intersecting_label": "walking or bicycling",
+      "overall_value": 0.37078349,
+      "percent_topic_posts_with_label": 0.1635323,
+      "percent_topic_authors_using_label_on_topic_post": 0.57803468,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.25400284,
+          "post_percentage_point_contribution": 0.12264922,
+          "author_percentage_point_contribution": 0.38535645
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.11678065,
+          "post_percentage_point_contribution": 0.04088307,
+          "author_percentage_point_contribution": 0.19267823
+        }
+      ]
+    },
+    {
+      "intersecting_label": "diabetes",
+      "overall_value": 0.35034195,
+      "percent_topic_posts_with_label": 0.12264922,
+      "percent_topic_authors_using_label_on_topic_post": 0.57803468,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.2335613,
+          "post_percentage_point_contribution": 0.08176615,
+          "author_percentage_point_contribution": 0.38535645
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.11678065,
+          "post_percentage_point_contribution": 0.04088307,
+          "author_percentage_point_contribution": 0.19267823
+        }
+      ]
+    },
+    {
+      "intersecting_label": "home",
+      "overall_value": 0.35034195,
+      "percent_topic_posts_with_label": 0.12264922,
+      "percent_topic_authors_using_label_on_topic_post": 0.57803468,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.35034195,
+          "post_percentage_point_contribution": 0.12264922,
+          "author_percentage_point_contribution": 0.57803468
+        }
+      ]
+    },
+    {
+      "intersecting_label": "injury",
+      "overall_value": 0.35034195,
+      "percent_topic_posts_with_label": 0.12264922,
+      "percent_topic_authors_using_label_on_topic_post": 0.57803468,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.29195163,
+          "post_percentage_point_contribution": 0.10220769,
+          "author_percentage_point_contribution": 0.48169557
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "social support",
+      "overall_value": 0.35034195,
+      "percent_topic_posts_with_label": 0.12264922,
+      "percent_topic_authors_using_label_on_topic_post": 0.57803468,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.2335613,
+          "post_percentage_point_contribution": 0.08176615,
+          "author_percentage_point_contribution": 0.38535645
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.11678065,
+          "post_percentage_point_contribution": 0.04088307,
+          "author_percentage_point_contribution": 0.19267823
+        }
+      ]
+    },
+    {
+      "intersecting_label": "substance use disorder",
+      "overall_value": 0.35034195,
+      "percent_topic_posts_with_label": 0.12264922,
+      "percent_topic_authors_using_label_on_topic_post": 0.57803468,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.35034195,
+          "post_percentage_point_contribution": 0.12264922,
+          "author_percentage_point_contribution": 0.57803468
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pesticides",
+      "overall_value": 0.31239316,
+      "percent_topic_posts_with_label": 0.14309076,
+      "percent_topic_authors_using_label_on_topic_post": 0.48169557,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.27297723,
+          "post_percentage_point_contribution": 0.11242845,
+          "author_percentage_point_contribution": 0.43352601
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.03941593,
+          "post_percentage_point_contribution": 0.03066231,
+          "author_percentage_point_contribution": 0.04816956
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adverse birth outcome",
+      "overall_value": 0.3021724,
+      "percent_topic_posts_with_label": 0.12264922,
+      "percent_topic_authors_using_label_on_topic_post": 0.48169557,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.3021724,
+          "post_percentage_point_contribution": 0.12264922,
+          "author_percentage_point_contribution": 0.48169557
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental policy or regulation",
+      "overall_value": 0.29195163,
+      "percent_topic_posts_with_label": 0.10220769,
+      "percent_topic_authors_using_label_on_topic_post": 0.48169557,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.2335613,
+          "post_percentage_point_contribution": 0.08176615,
+          "author_percentage_point_contribution": 0.38535645
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "kidney disease",
+      "overall_value": 0.29195163,
+      "percent_topic_posts_with_label": 0.10220769,
+      "percent_topic_authors_using_label_on_topic_post": 0.48169557,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.17517098,
+          "post_percentage_point_contribution": 0.06132461,
+          "author_percentage_point_contribution": 0.28901734
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.11678065,
+          "post_percentage_point_contribution": 0.04088307,
+          "author_percentage_point_contribution": 0.19267823
+        }
+      ]
+    },
+    {
+      "intersecting_label": "park or green space",
+      "overall_value": 0.29195163,
+      "percent_topic_posts_with_label": 0.10220769,
+      "percent_topic_authors_using_label_on_topic_post": 0.48169557,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.17517098,
+          "post_percentage_point_contribution": 0.06132461,
+          "author_percentage_point_contribution": 0.28901734
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.11678065,
+          "post_percentage_point_contribution": 0.04088307,
+          "author_percentage_point_contribution": 0.19267823
+        }
+      ]
+    },
+    {
+      "intersecting_label": "autism",
+      "overall_value": 0.2335613,
+      "percent_topic_posts_with_label": 0.08176615,
+      "percent_topic_authors_using_label_on_topic_post": 0.38535645,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.14597581,
+          "post_percentage_point_contribution": 0.05110384,
+          "author_percentage_point_contribution": 0.24084778
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.08758549,
+          "post_percentage_point_contribution": 0.03066231,
+          "author_percentage_point_contribution": 0.14450867
+        }
+      ]
+    },
+    {
+      "intersecting_label": "contaminated drinking water",
+      "overall_value": 0.2335613,
+      "percent_topic_posts_with_label": 0.08176615,
+      "percent_topic_authors_using_label_on_topic_post": 0.38535645,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.17517098,
+          "post_percentage_point_contribution": 0.06132461,
+          "author_percentage_point_contribution": 0.28901734
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "dental caries",
+      "overall_value": 0.2335613,
+      "percent_topic_posts_with_label": 0.08176615,
+      "percent_topic_authors_using_label_on_topic_post": 0.38535645,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.11678065,
+          "post_percentage_point_contribution": 0.04088307,
+          "author_percentage_point_contribution": 0.19267823
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.11678065,
+          "post_percentage_point_contribution": 0.04088307,
+          "author_percentage_point_contribution": 0.19267823
+        }
+      ]
+    },
+    {
+      "intersecting_label": "developmental delay",
+      "overall_value": 0.2335613,
+      "percent_topic_posts_with_label": 0.08176615,
+      "percent_topic_authors_using_label_on_topic_post": 0.38535645,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.17517098,
+          "post_percentage_point_contribution": 0.06132461,
+          "author_percentage_point_contribution": 0.28901734
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "foster youth",
+      "overall_value": 0.2335613,
+      "percent_topic_posts_with_label": 0.08176615,
+      "percent_topic_authors_using_label_on_topic_post": 0.38535645,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.2335613,
+          "post_percentage_point_contribution": 0.08176615,
+          "author_percentage_point_contribution": 0.38535645
+        }
+      ]
+    },
+    {
+      "intersecting_label": "indoor environment",
+      "overall_value": 0.2335613,
+      "percent_topic_posts_with_label": 0.08176615,
+      "percent_topic_authors_using_label_on_topic_post": 0.38535645,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.17517098,
+          "post_percentage_point_contribution": 0.06132461,
+          "author_percentage_point_contribution": 0.28901734
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "obesity",
+      "overall_value": 0.2335613,
+      "percent_topic_posts_with_label": 0.08176615,
+      "percent_topic_authors_using_label_on_topic_post": 0.38535645,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.11678065,
+          "post_percentage_point_contribution": 0.04088307,
+          "author_percentage_point_contribution": 0.19267823
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.11678065,
+          "post_percentage_point_contribution": 0.04088307,
+          "author_percentage_point_contribution": 0.19267823
+        }
+      ]
+    },
+    {
+      "intersecting_label": "toddlers",
+      "overall_value": 0.2335613,
+      "percent_topic_posts_with_label": 0.08176615,
+      "percent_topic_authors_using_label_on_topic_post": 0.38535645,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.11678065,
+          "post_percentage_point_contribution": 0.04088307,
+          "author_percentage_point_contribution": 0.19267823
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.11678065,
+          "post_percentage_point_contribution": 0.04088307,
+          "author_percentage_point_contribution": 0.19267823
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sports or recreation facility",
+      "overall_value": 0.21898834,
+      "percent_topic_posts_with_label": 0.24529845,
+      "percent_topic_authors_using_label_on_topic_post": 0.19267823,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.11313741,
+          "post_percentage_point_contribution": 0.08176615,
+          "author_percentage_point_contribution": 0.14450867
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.10585093,
+          "post_percentage_point_contribution": 0.1635323,
+          "author_percentage_point_contribution": 0.04816956
+        }
+      ]
+    },
+    {
+      "intersecting_label": "garden or yard",
+      "overall_value": 0.18539174,
+      "percent_topic_posts_with_label": 0.08176615,
+      "percent_topic_authors_using_label_on_topic_post": 0.28901734,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.08758549,
+          "post_percentage_point_contribution": 0.03066231,
+          "author_percentage_point_contribution": 0.14450867
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.09780626,
+          "post_percentage_point_contribution": 0.05110384,
+          "author_percentage_point_contribution": 0.14450867
+        }
+      ]
+    },
+    {
+      "intersecting_label": "PFAS",
+      "overall_value": 0.17517098,
+      "percent_topic_posts_with_label": 0.06132461,
+      "percent_topic_authors_using_label_on_topic_post": 0.28901734,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.17517098,
+          "post_percentage_point_contribution": 0.06132461,
+          "author_percentage_point_contribution": 0.28901734
+        }
+      ]
+    },
+    {
+      "intersecting_label": "depression",
+      "overall_value": 0.17517098,
+      "percent_topic_posts_with_label": 0.06132461,
+      "percent_topic_authors_using_label_on_topic_post": 0.28901734,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.11678065,
+          "post_percentage_point_contribution": 0.04088307,
+          "author_percentage_point_contribution": 0.19267823
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "discrimination",
+      "overall_value": 0.17517098,
+      "percent_topic_posts_with_label": 0.06132461,
+      "percent_topic_authors_using_label_on_topic_post": 0.28901734,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.11678065,
+          "post_percentage_point_contribution": 0.04088307,
+          "author_percentage_point_contribution": 0.19267823
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "drug exposure or use",
+      "overall_value": 0.17517098,
+      "percent_topic_posts_with_label": 0.06132461,
+      "percent_topic_authors_using_label_on_topic_post": 0.28901734,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.11678065,
+          "post_percentage_point_contribution": 0.04088307,
+          "author_percentage_point_contribution": 0.19267823
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "educational access",
+      "overall_value": 0.17517098,
+      "percent_topic_posts_with_label": 0.06132461,
+      "percent_topic_authors_using_label_on_topic_post": 0.28901734,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.17517098,
+          "post_percentage_point_contribution": 0.06132461,
+          "author_percentage_point_contribution": 0.28901734
+        }
+      ]
+    },
+    {
+      "intersecting_label": "endocrine-disrupting chemicals",
+      "overall_value": 0.17517098,
+      "percent_topic_posts_with_label": 0.06132461,
+      "percent_topic_authors_using_label_on_topic_post": 0.28901734,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.11678065,
+          "post_percentage_point_contribution": 0.04088307,
+          "author_percentage_point_contribution": 0.19267823
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food contamination",
+      "overall_value": 0.17517098,
+      "percent_topic_posts_with_label": 0.06132461,
+      "percent_topic_authors_using_label_on_topic_post": 0.28901734,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.17517098,
+          "post_percentage_point_contribution": 0.06132461,
+          "author_percentage_point_contribution": 0.28901734
+        }
+      ]
+    },
+    {
+      "intersecting_label": "liver disease",
+      "overall_value": 0.17517098,
+      "percent_topic_posts_with_label": 0.06132461,
+      "percent_topic_authors_using_label_on_topic_post": 0.28901734,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.11678065,
+          "post_percentage_point_contribution": 0.04088307,
+          "author_percentage_point_contribution": 0.19267823
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "outdoor play or recreation",
+      "overall_value": 0.17517098,
+      "percent_topic_posts_with_label": 0.06132461,
+      "percent_topic_authors_using_label_on_topic_post": 0.28901734,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.17517098,
+          "post_percentage_point_contribution": 0.06132461,
+          "author_percentage_point_contribution": 0.28901734
+        }
+      ]
+    },
+    {
+      "intersecting_label": "vaping aerosol",
+      "overall_value": 0.17517098,
+      "percent_topic_posts_with_label": 0.06132461,
+      "percent_topic_authors_using_label_on_topic_post": 0.28901734,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.17517098,
+          "post_percentage_point_contribution": 0.06132461,
+          "author_percentage_point_contribution": 0.28901734
+        }
+      ]
+    },
+    {
+      "intersecting_label": "commercial area",
+      "overall_value": 0.12700142,
+      "percent_topic_posts_with_label": 0.06132461,
+      "percent_topic_authors_using_label_on_topic_post": 0.19267823,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.06861109,
+          "post_percentage_point_contribution": 0.04088307,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "allergens",
+      "overall_value": 0.11678065,
+      "percent_topic_posts_with_label": 0.04088307,
+      "percent_topic_authors_using_label_on_topic_post": 0.19267823,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.11678065,
+          "post_percentage_point_contribution": 0.04088307,
+          "author_percentage_point_contribution": 0.19267823
+        }
+      ]
+    },
+    {
+      "intersecting_label": "ambient air pollution",
+      "overall_value": 0.11678065,
+      "percent_topic_posts_with_label": 0.04088307,
+      "percent_topic_authors_using_label_on_topic_post": 0.19267823,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.11678065,
+          "post_percentage_point_contribution": 0.04088307,
+          "author_percentage_point_contribution": 0.19267823
+        }
+      ]
+    },
+    {
+      "intersecting_label": "anxiety",
+      "overall_value": 0.11678065,
+      "percent_topic_posts_with_label": 0.04088307,
+      "percent_topic_authors_using_label_on_topic_post": 0.19267823,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "beach or coastal area",
+      "overall_value": 0.11678065,
+      "percent_topic_posts_with_label": 0.04088307,
+      "percent_topic_authors_using_label_on_topic_post": 0.19267823,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.11678065,
+          "post_percentage_point_contribution": 0.04088307,
+          "author_percentage_point_contribution": 0.19267823
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cardiovascular condition",
+      "overall_value": 0.11678065,
+      "percent_topic_posts_with_label": 0.04088307,
+      "percent_topic_authors_using_label_on_topic_post": 0.19267823,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.11678065,
+          "post_percentage_point_contribution": 0.04088307,
+          "author_percentage_point_contribution": 0.19267823
+        }
+      ]
+    },
+    {
+      "intersecting_label": "dental care",
+      "overall_value": 0.11678065,
+      "percent_topic_posts_with_label": 0.04088307,
+      "percent_topic_authors_using_label_on_topic_post": 0.19267823,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "extreme heat",
+      "overall_value": 0.11678065,
+      "percent_topic_posts_with_label": 0.04088307,
+      "percent_topic_authors_using_label_on_topic_post": 0.19267823,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.11678065,
+          "post_percentage_point_contribution": 0.04088307,
+          "author_percentage_point_contribution": 0.19267823
+        }
+      ]
+    },
+    {
+      "intersecting_label": "gastrointestinal illness",
+      "overall_value": 0.11678065,
+      "percent_topic_posts_with_label": 0.04088307,
+      "percent_topic_authors_using_label_on_topic_post": 0.19267823,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "industrial chemicals",
+      "overall_value": 0.11678065,
+      "percent_topic_posts_with_label": 0.04088307,
+      "percent_topic_authors_using_label_on_topic_post": 0.19267823,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.11678065,
+          "post_percentage_point_contribution": 0.04088307,
+          "author_percentage_point_contribution": 0.19267823
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infectious disease exposure",
+      "overall_value": 0.11678065,
+      "percent_topic_posts_with_label": 0.04088307,
+      "percent_topic_authors_using_label_on_topic_post": 0.19267823,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "lead exposure",
+      "overall_value": 0.11678065,
+      "percent_topic_posts_with_label": 0.04088307,
+      "percent_topic_authors_using_label_on_topic_post": 0.19267823,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "lead poisoning",
+      "overall_value": 0.11678065,
+      "percent_topic_posts_with_label": 0.04088307,
+      "percent_topic_authors_using_label_on_topic_post": 0.19267823,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.11678065,
+          "post_percentage_point_contribution": 0.04088307,
+          "author_percentage_point_contribution": 0.19267823
+        }
+      ]
+    },
+    {
+      "intersecting_label": "malnutrition",
+      "overall_value": 0.11678065,
+      "percent_topic_posts_with_label": 0.04088307,
+      "percent_topic_authors_using_label_on_topic_post": 0.19267823,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.11678065,
+          "post_percentage_point_contribution": 0.04088307,
+          "author_percentage_point_contribution": 0.19267823
+        }
+      ]
+    },
+    {
+      "intersecting_label": "playground",
+      "overall_value": 0.11678065,
+      "percent_topic_posts_with_label": 0.04088307,
+      "percent_topic_authors_using_label_on_topic_post": 0.19267823,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.11678065,
+          "post_percentage_point_contribution": 0.04088307,
+          "author_percentage_point_contribution": 0.19267823
+        }
+      ]
+    },
+    {
+      "intersecting_label": "respiratory illness",
+      "overall_value": 0.11678065,
+      "percent_topic_posts_with_label": 0.04088307,
+      "percent_topic_authors_using_label_on_topic_post": 0.19267823,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "river lake or water body",
+      "overall_value": 0.11678065,
+      "percent_topic_posts_with_label": 0.04088307,
+      "percent_topic_authors_using_label_on_topic_post": 0.19267823,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.11678065,
+          "post_percentage_point_contribution": 0.04088307,
+          "author_percentage_point_contribution": 0.19267823
+        }
+      ]
+    },
+    {
+      "intersecting_label": "seizure",
+      "overall_value": 0.11678065,
+      "percent_topic_posts_with_label": 0.04088307,
+      "percent_topic_authors_using_label_on_topic_post": 0.19267823,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        },
+        {
+          "component_label": "childhood cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "urban environment",
+      "overall_value": 0.11678065,
+      "percent_topic_posts_with_label": 0.04088307,
+      "percent_topic_authors_using_label_on_topic_post": 0.19267823,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.11678065,
+          "post_percentage_point_contribution": 0.04088307,
+          "author_percentage_point_contribution": 0.19267823
+        }
+      ]
+    },
+    {
+      "intersecting_label": "workplace",
+      "overall_value": 0.11678065,
+      "percent_topic_posts_with_label": 0.04088307,
+      "percent_topic_authors_using_label_on_topic_post": 0.19267823,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.11678065,
+          "post_percentage_point_contribution": 0.04088307,
+          "author_percentage_point_contribution": 0.19267823
+        }
+      ]
+    },
+    {
+      "intersecting_label": "hurricane or severe storm",
+      "overall_value": 0.07883186,
+      "percent_topic_posts_with_label": 0.06132461,
+      "percent_topic_authors_using_label_on_topic_post": 0.09633911,
+      "links": [
+        {
+          "component_label": "childhood cancer",
+          "value": 0.07883186,
+          "post_percentage_point_contribution": 0.06132461,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "acute poisoning",
+      "overall_value": 0.05839033,
+      "percent_topic_posts_with_label": 0.02044154,
+      "percent_topic_authors_using_label_on_topic_post": 0.09633911,
+      "links": [
+        {
+          "component_label": "childhood cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adverse pregnancy outcome",
+      "overall_value": 0.05839033,
+      "percent_topic_posts_with_label": 0.02044154,
+      "percent_topic_authors_using_label_on_topic_post": 0.09633911,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "alcohol exposure or use",
+      "overall_value": 0.05839033,
+      "percent_topic_posts_with_label": 0.02044154,
+      "percent_topic_authors_using_label_on_topic_post": 0.09633911,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "allergic disease",
+      "overall_value": 0.05839033,
+      "percent_topic_posts_with_label": 0.02044154,
+      "percent_topic_authors_using_label_on_topic_post": 0.09633911,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "bronchitis",
+      "overall_value": 0.05839033,
+      "percent_topic_posts_with_label": 0.02044154,
+      "percent_topic_authors_using_label_on_topic_post": 0.09633911,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childcare center",
+      "overall_value": 0.05839033,
+      "percent_topic_posts_with_label": 0.02044154,
+      "percent_topic_authors_using_label_on_topic_post": 0.09633911,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "classroom",
+      "overall_value": 0.05839033,
+      "percent_topic_posts_with_label": 0.02044154,
+      "percent_topic_authors_using_label_on_topic_post": 0.09633911,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cleaning or disinfection",
+      "overall_value": 0.05839033,
+      "percent_topic_posts_with_label": 0.02044154,
+      "percent_topic_authors_using_label_on_topic_post": 0.09633911,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "climate change",
+      "overall_value": 0.05839033,
+      "percent_topic_posts_with_label": 0.02044154,
+      "percent_topic_authors_using_label_on_topic_post": 0.09633911,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cooking or food preparation",
+      "overall_value": 0.05839033,
+      "percent_topic_posts_with_label": 0.02044154,
+      "percent_topic_authors_using_label_on_topic_post": 0.09633911,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cough",
+      "overall_value": 0.05839033,
+      "percent_topic_posts_with_label": 0.02044154,
+      "percent_topic_authors_using_label_on_topic_post": 0.09633911,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "dust and particulate matter",
+      "overall_value": 0.05839033,
+      "percent_topic_posts_with_label": 0.02044154,
+      "percent_topic_authors_using_label_on_topic_post": 0.09633911,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "emergency response",
+      "overall_value": 0.05839033,
+      "percent_topic_posts_with_label": 0.02044154,
+      "percent_topic_authors_using_label_on_topic_post": 0.09633911,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental remediation",
+      "overall_value": 0.05839033,
+      "percent_topic_posts_with_label": 0.02044154,
+      "percent_topic_authors_using_label_on_topic_post": 0.09633911,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental testing",
+      "overall_value": 0.05839033,
+      "percent_topic_posts_with_label": 0.02044154,
+      "percent_topic_authors_using_label_on_topic_post": 0.09633911,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "farm or agricultural setting",
+      "overall_value": 0.05839033,
+      "percent_topic_posts_with_label": 0.02044154,
+      "percent_topic_authors_using_label_on_topic_post": 0.09633911,
+      "links": [
+        {
+          "component_label": "childhood cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "fever",
+      "overall_value": 0.05839033,
+      "percent_topic_posts_with_label": 0.02044154,
+      "percent_topic_authors_using_label_on_topic_post": 0.09633911,
+      "links": [
+        {
+          "component_label": "childhood cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "fire hazard",
+      "overall_value": 0.05839033,
+      "percent_topic_posts_with_label": 0.02044154,
+      "percent_topic_authors_using_label_on_topic_post": 0.09633911,
+      "links": [
+        {
+          "component_label": "childhood cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "fire safety",
+      "overall_value": 0.05839033,
+      "percent_topic_posts_with_label": 0.02044154,
+      "percent_topic_authors_using_label_on_topic_post": 0.09633911,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "headache or migraine",
+      "overall_value": 0.05839033,
+      "percent_topic_posts_with_label": 0.02044154,
+      "percent_topic_authors_using_label_on_topic_post": 0.09633911,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health screening or testing",
+      "overall_value": 0.05839033,
+      "percent_topic_posts_with_label": 0.02044154,
+      "percent_topic_authors_using_label_on_topic_post": 0.09633911,
+      "links": [
+        {
+          "component_label": "childhood cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "hearing problem",
+      "overall_value": 0.05839033,
+      "percent_topic_posts_with_label": 0.02044154,
+      "percent_topic_authors_using_label_on_topic_post": 0.09633911,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "housing quality",
+      "overall_value": 0.05839033,
+      "percent_topic_posts_with_label": 0.02044154,
+      "percent_topic_authors_using_label_on_topic_post": 0.09633911,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "industrial site",
+      "overall_value": 0.05839033,
+      "percent_topic_posts_with_label": 0.02044154,
+      "percent_topic_authors_using_label_on_topic_post": 0.09633911,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "influenza",
+      "overall_value": 0.05839033,
+      "percent_topic_posts_with_label": 0.02044154,
+      "percent_topic_authors_using_label_on_topic_post": 0.09633911,
+      "links": [
+        {
+          "component_label": "childhood cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "inhaler use",
+      "overall_value": 0.05839033,
+      "percent_topic_posts_with_label": 0.02044154,
+      "percent_topic_authors_using_label_on_topic_post": 0.09633911,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "neighborhood",
+      "overall_value": 0.05839033,
+      "percent_topic_posts_with_label": 0.02044154,
+      "percent_topic_authors_using_label_on_topic_post": 0.09633911,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pneumonia",
+      "overall_value": 0.05839033,
+      "percent_topic_posts_with_label": 0.02044154,
+      "percent_topic_authors_using_label_on_topic_post": 0.09633911,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "restaurant or food store",
+      "overall_value": 0.05839033,
+      "percent_topic_posts_with_label": 0.02044154,
+      "percent_topic_authors_using_label_on_topic_post": 0.09633911,
+      "links": [
+        {
+          "component_label": "childhood cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "rural populations",
+      "overall_value": 0.05839033,
+      "percent_topic_posts_with_label": 0.02044154,
+      "percent_topic_authors_using_label_on_topic_post": 0.09633911,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school closure",
+      "overall_value": 0.05839033,
+      "percent_topic_posts_with_label": 0.02044154,
+      "percent_topic_authors_using_label_on_topic_post": 0.09633911,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "street or roadway",
+      "overall_value": 0.05839033,
+      "percent_topic_posts_with_label": 0.02044154,
+      "percent_topic_authors_using_label_on_topic_post": 0.09633911,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "transportation access",
+      "overall_value": 0.05839033,
+      "percent_topic_posts_with_label": 0.02044154,
+      "percent_topic_authors_using_label_on_topic_post": 0.09633911,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "unsafe housing conditions",
+      "overall_value": 0.05839033,
+      "percent_topic_posts_with_label": 0.02044154,
+      "percent_topic_authors_using_label_on_topic_post": 0.09633911,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildfire",
+      "overall_value": 0.05839033,
+      "percent_topic_posts_with_label": 0.02044154,
+      "percent_topic_authors_using_label_on_topic_post": 0.09633911,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildfire smoke",
+      "overall_value": 0.05839033,
+      "percent_topic_posts_with_label": 0.02044154,
+      "percent_topic_authors_using_label_on_topic_post": 0.09633911,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    },
+    {
+      "intersecting_label": "workers",
+      "overall_value": 0.05839033,
+      "percent_topic_posts_with_label": 0.02044154,
+      "percent_topic_authors_using_label_on_topic_post": 0.09633911,
+      "links": [
+        {
+          "component_label": "cancer",
+          "value": 0.05839033,
+          "post_percentage_point_contribution": 0.02044154,
+          "author_percentage_point_contribution": 0.09633911
+        }
+      ]
+    }
+  ]
+}

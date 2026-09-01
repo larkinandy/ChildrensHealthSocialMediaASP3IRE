@@ -1,0 +1,457 @@
+{
+  "schema_version": "1.0.0",
+  "city_id": "38900",
+  "domain": "environmental",
+  "category_id": "environmental-10",
+  "topic": "Radiation",
+  "component_labels": [
+    "radiation",
+    "radon"
+  ],
+  "intersections": [
+    {
+      "intersecting_label": "children",
+      "overall_value": 72.79411765,
+      "percent_topic_posts_with_label": 70.58823529,
+      "percent_topic_authors_using_label_on_topic_post": 75.0,
+      "links": [
+        {
+          "component_label": "radiation",
+          "value": 60.66176471,
+          "post_percentage_point_contribution": 58.82352941,
+          "author_percentage_point_contribution": 62.5
+        },
+        {
+          "component_label": "radon",
+          "value": 12.13235294,
+          "post_percentage_point_contribution": 11.76470588,
+          "author_percentage_point_contribution": 12.5
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school",
+      "overall_value": 27.20588235,
+      "percent_topic_posts_with_label": 29.41176471,
+      "percent_topic_authors_using_label_on_topic_post": 25.0,
+      "links": [
+        {
+          "component_label": "radiation",
+          "value": 9.09926471,
+          "post_percentage_point_contribution": 8.82352941,
+          "author_percentage_point_contribution": 9.375
+        },
+        {
+          "component_label": "radon",
+          "value": 18.10661765,
+          "post_percentage_point_contribution": 20.58823529,
+          "author_percentage_point_contribution": 15.625
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cancer",
+      "overall_value": 24.26470588,
+      "percent_topic_posts_with_label": 23.52941176,
+      "percent_topic_authors_using_label_on_topic_post": 25.0,
+      "links": [
+        {
+          "component_label": "radiation",
+          "value": 24.26470588,
+          "post_percentage_point_contribution": 23.52941176,
+          "author_percentage_point_contribution": 25.0
+        }
+      ]
+    },
+    {
+      "intersecting_label": "families",
+      "overall_value": 12.13235294,
+      "percent_topic_posts_with_label": 11.76470588,
+      "percent_topic_authors_using_label_on_topic_post": 12.5,
+      "links": [
+        {
+          "component_label": "radiation",
+          "value": 12.13235294,
+          "post_percentage_point_contribution": 11.76470588,
+          "author_percentage_point_contribution": 12.5
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infants",
+      "overall_value": 12.13235294,
+      "percent_topic_posts_with_label": 11.76470588,
+      "percent_topic_authors_using_label_on_topic_post": 12.5,
+      "links": [
+        {
+          "component_label": "radiation",
+          "value": 12.13235294,
+          "post_percentage_point_contribution": 11.76470588,
+          "author_percentage_point_contribution": 12.5
+        }
+      ]
+    },
+    {
+      "intersecting_label": "lead exposure",
+      "overall_value": 9.09926471,
+      "percent_topic_posts_with_label": 8.82352941,
+      "percent_topic_authors_using_label_on_topic_post": 9.375,
+      "links": [
+        {
+          "component_label": "radon",
+          "value": 9.09926471,
+          "post_percentage_point_contribution": 8.82352941,
+          "author_percentage_point_contribution": 9.375
+        }
+      ]
+    },
+    {
+      "intersecting_label": "medication use",
+      "overall_value": 9.09926471,
+      "percent_topic_posts_with_label": 8.82352941,
+      "percent_topic_authors_using_label_on_topic_post": 9.375,
+      "links": [
+        {
+          "component_label": "radiation",
+          "value": 9.09926471,
+          "post_percentage_point_contribution": 8.82352941,
+          "author_percentage_point_contribution": 9.375
+        }
+      ]
+    },
+    {
+      "intersecting_label": "parents and caregivers",
+      "overall_value": 9.09926471,
+      "percent_topic_posts_with_label": 8.82352941,
+      "percent_topic_authors_using_label_on_topic_post": 9.375,
+      "links": [
+        {
+          "component_label": "radiation",
+          "value": 9.09926471,
+          "post_percentage_point_contribution": 8.82352941,
+          "author_percentage_point_contribution": 9.375
+        }
+      ]
+    },
+    {
+      "intersecting_label": "unhoused populations",
+      "overall_value": 9.09926471,
+      "percent_topic_posts_with_label": 8.82352941,
+      "percent_topic_authors_using_label_on_topic_post": 9.375,
+      "links": [
+        {
+          "component_label": "radiation",
+          "value": 9.09926471,
+          "post_percentage_point_contribution": 8.82352941,
+          "author_percentage_point_contribution": 9.375
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental justice",
+      "overall_value": 6.06617647,
+      "percent_topic_posts_with_label": 5.88235294,
+      "percent_topic_authors_using_label_on_topic_post": 6.25,
+      "links": [
+        {
+          "component_label": "radiation",
+          "value": 3.03308824,
+          "post_percentage_point_contribution": 2.94117647,
+          "author_percentage_point_contribution": 3.125
+        },
+        {
+          "component_label": "radon",
+          "value": 3.03308824,
+          "post_percentage_point_contribution": 2.94117647,
+          "author_percentage_point_contribution": 3.125
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental testing",
+      "overall_value": 6.06617647,
+      "percent_topic_posts_with_label": 5.88235294,
+      "percent_topic_authors_using_label_on_topic_post": 6.25,
+      "links": [
+        {
+          "component_label": "radon",
+          "value": 6.06617647,
+          "post_percentage_point_contribution": 5.88235294,
+          "author_percentage_point_contribution": 6.25
+        }
+      ]
+    },
+    {
+      "intersecting_label": "fire hazard",
+      "overall_value": 6.06617647,
+      "percent_topic_posts_with_label": 5.88235294,
+      "percent_topic_authors_using_label_on_topic_post": 6.25,
+      "links": [
+        {
+          "component_label": "radiation",
+          "value": 6.06617647,
+          "post_percentage_point_contribution": 5.88235294,
+          "author_percentage_point_contribution": 6.25
+        }
+      ]
+    },
+    {
+      "intersecting_label": "medical care",
+      "overall_value": 6.06617647,
+      "percent_topic_posts_with_label": 5.88235294,
+      "percent_topic_authors_using_label_on_topic_post": 6.25,
+      "links": [
+        {
+          "component_label": "radiation",
+          "value": 6.06617647,
+          "post_percentage_point_contribution": 5.88235294,
+          "author_percentage_point_contribution": 6.25
+        }
+      ]
+    },
+    {
+      "intersecting_label": "scientific research",
+      "overall_value": 6.06617647,
+      "percent_topic_posts_with_label": 5.88235294,
+      "percent_topic_authors_using_label_on_topic_post": 6.25,
+      "links": [
+        {
+          "component_label": "radiation",
+          "value": 6.06617647,
+          "post_percentage_point_contribution": 5.88235294,
+          "author_percentage_point_contribution": 6.25
+        }
+      ]
+    },
+    {
+      "intersecting_label": "students",
+      "overall_value": 6.06617647,
+      "percent_topic_posts_with_label": 5.88235294,
+      "percent_topic_authors_using_label_on_topic_post": 6.25,
+      "links": [
+        {
+          "component_label": "radiation",
+          "value": 3.03308824,
+          "post_percentage_point_contribution": 2.94117647,
+          "author_percentage_point_contribution": 3.125
+        },
+        {
+          "component_label": "radon",
+          "value": 3.03308824,
+          "post_percentage_point_contribution": 2.94117647,
+          "author_percentage_point_contribution": 3.125
+        }
+      ]
+    },
+    {
+      "intersecting_label": "COVID-19",
+      "overall_value": 3.03308824,
+      "percent_topic_posts_with_label": 2.94117647,
+      "percent_topic_authors_using_label_on_topic_post": 3.125,
+      "links": [
+        {
+          "component_label": "radiation",
+          "value": 3.03308824,
+          "post_percentage_point_contribution": 2.94117647,
+          "author_percentage_point_contribution": 3.125
+        }
+      ]
+    },
+    {
+      "intersecting_label": "allergic disease",
+      "overall_value": 3.03308824,
+      "percent_topic_posts_with_label": 2.94117647,
+      "percent_topic_authors_using_label_on_topic_post": 3.125,
+      "links": [
+        {
+          "component_label": "radiation",
+          "value": 3.03308824,
+          "post_percentage_point_contribution": 2.94117647,
+          "author_percentage_point_contribution": 3.125
+        }
+      ]
+    },
+    {
+      "intersecting_label": "child abuse or neglect",
+      "overall_value": 3.03308824,
+      "percent_topic_posts_with_label": 2.94117647,
+      "percent_topic_authors_using_label_on_topic_post": 3.125,
+      "links": [
+        {
+          "component_label": "radiation",
+          "value": 3.03308824,
+          "post_percentage_point_contribution": 2.94117647,
+          "author_percentage_point_contribution": 3.125
+        }
+      ]
+    },
+    {
+      "intersecting_label": "child welfare services",
+      "overall_value": 3.03308824,
+      "percent_topic_posts_with_label": 2.94117647,
+      "percent_topic_authors_using_label_on_topic_post": 3.125,
+      "links": [
+        {
+          "component_label": "radiation",
+          "value": 3.03308824,
+          "post_percentage_point_contribution": 2.94117647,
+          "author_percentage_point_contribution": 3.125
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health disparity",
+      "overall_value": 3.03308824,
+      "percent_topic_posts_with_label": 2.94117647,
+      "percent_topic_authors_using_label_on_topic_post": 3.125,
+      "links": [
+        {
+          "component_label": "radiation",
+          "value": 3.03308824,
+          "post_percentage_point_contribution": 2.94117647,
+          "author_percentage_point_contribution": 3.125
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health education or awareness",
+      "overall_value": 3.03308824,
+      "percent_topic_posts_with_label": 2.94117647,
+      "percent_topic_authors_using_label_on_topic_post": 3.125,
+      "links": [
+        {
+          "component_label": "radon",
+          "value": 3.03308824,
+          "post_percentage_point_contribution": 2.94117647,
+          "author_percentage_point_contribution": 3.125
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare facility",
+      "overall_value": 3.03308824,
+      "percent_topic_posts_with_label": 2.94117647,
+      "percent_topic_authors_using_label_on_topic_post": 3.125,
+      "links": [
+        {
+          "component_label": "radiation",
+          "value": 3.03308824,
+          "post_percentage_point_contribution": 2.94117647,
+          "author_percentage_point_contribution": 3.125
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mortality or death",
+      "overall_value": 3.03308824,
+      "percent_topic_posts_with_label": 2.94117647,
+      "percent_topic_authors_using_label_on_topic_post": 3.125,
+      "links": [
+        {
+          "component_label": "radiation",
+          "value": 3.03308824,
+          "post_percentage_point_contribution": 2.94117647,
+          "author_percentage_point_contribution": 3.125
+        }
+      ]
+    },
+    {
+      "intersecting_label": "neighborhood",
+      "overall_value": 3.03308824,
+      "percent_topic_posts_with_label": 2.94117647,
+      "percent_topic_authors_using_label_on_topic_post": 3.125,
+      "links": [
+        {
+          "component_label": "radon",
+          "value": 3.03308824,
+          "post_percentage_point_contribution": 2.94117647,
+          "author_percentage_point_contribution": 3.125
+        }
+      ]
+    },
+    {
+      "intersecting_label": "park or green space",
+      "overall_value": 3.03308824,
+      "percent_topic_posts_with_label": 2.94117647,
+      "percent_topic_authors_using_label_on_topic_post": 3.125,
+      "links": [
+        {
+          "component_label": "radon",
+          "value": 3.03308824,
+          "post_percentage_point_contribution": 2.94117647,
+          "author_percentage_point_contribution": 3.125
+        }
+      ]
+    },
+    {
+      "intersecting_label": "playground",
+      "overall_value": 3.03308824,
+      "percent_topic_posts_with_label": 2.94117647,
+      "percent_topic_authors_using_label_on_topic_post": 3.125,
+      "links": [
+        {
+          "component_label": "radiation",
+          "value": 3.03308824,
+          "post_percentage_point_contribution": 2.94117647,
+          "author_percentage_point_contribution": 3.125
+        }
+      ]
+    },
+    {
+      "intersecting_label": "unsafe housing conditions",
+      "overall_value": 3.03308824,
+      "percent_topic_posts_with_label": 2.94117647,
+      "percent_topic_authors_using_label_on_topic_post": 3.125,
+      "links": [
+        {
+          "component_label": "radon",
+          "value": 3.03308824,
+          "post_percentage_point_contribution": 2.94117647,
+          "author_percentage_point_contribution": 3.125
+        }
+      ]
+    },
+    {
+      "intersecting_label": "violence or crime",
+      "overall_value": 3.03308824,
+      "percent_topic_posts_with_label": 2.94117647,
+      "percent_topic_authors_using_label_on_topic_post": 3.125,
+      "links": [
+        {
+          "component_label": "radiation",
+          "value": 3.03308824,
+          "post_percentage_point_contribution": 2.94117647,
+          "author_percentage_point_contribution": 3.125
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildfire smoke",
+      "overall_value": 3.03308824,
+      "percent_topic_posts_with_label": 2.94117647,
+      "percent_topic_authors_using_label_on_topic_post": 3.125,
+      "links": [
+        {
+          "component_label": "radiation",
+          "value": 3.03308824,
+          "post_percentage_point_contribution": 2.94117647,
+          "author_percentage_point_contribution": 3.125
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildlife",
+      "overall_value": 3.03308824,
+      "percent_topic_posts_with_label": 2.94117647,
+      "percent_topic_authors_using_label_on_topic_post": 3.125,
+      "links": [
+        {
+          "component_label": "radiation",
+          "value": 3.03308824,
+          "post_percentage_point_contribution": 2.94117647,
+          "author_percentage_point_contribution": 3.125
+        }
+      ]
+    }
+  ]
+}

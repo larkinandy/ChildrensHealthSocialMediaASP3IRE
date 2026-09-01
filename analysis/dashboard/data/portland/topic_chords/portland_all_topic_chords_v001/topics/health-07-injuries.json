@@ -1,0 +1,2026 @@
+{
+  "schema_version": "1.0.0",
+  "city_id": "38900",
+  "domain": "health",
+  "category_id": "health-07",
+  "topic": "Injuries",
+  "component_labels": [
+    "injury",
+    "musculoskeletal injury",
+    "violence-related injury"
+  ],
+  "intersections": [
+    {
+      "intersecting_label": "children",
+      "overall_value": 44.15177339,
+      "percent_topic_posts_with_label": 41.12044818,
+      "percent_topic_authors_using_label_on_topic_post": 47.18309859,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 43.08220784,
+          "post_percentage_point_contribution": 40.16806723,
+          "author_percentage_point_contribution": 45.99634846
+        },
+        {
+          "component_label": "musculoskeletal injury",
+          "value": 0.67883335,
+          "post_percentage_point_contribution": 0.58823529,
+          "author_percentage_point_contribution": 0.7694314
+        },
+        {
+          "component_label": "violence-related injury",
+          "value": 0.39073219,
+          "post_percentage_point_contribution": 0.36414566,
+          "author_percentage_point_contribution": 0.41731873
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school",
+      "overall_value": 12.87437041,
+      "percent_topic_posts_with_label": 11.82072829,
+      "percent_topic_authors_using_label_on_topic_post": 13.92801252,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 12.53869623,
+          "post_percentage_point_contribution": 11.54061625,
+          "author_percentage_point_contribution": 13.53677621
+        },
+        {
+          "component_label": "musculoskeletal injury",
+          "value": 0.10070225,
+          "post_percentage_point_contribution": 0.08403361,
+          "author_percentage_point_contribution": 0.11737089
+        },
+        {
+          "component_label": "violence-related injury",
+          "value": 0.23497192,
+          "post_percentage_point_contribution": 0.19607843,
+          "author_percentage_point_contribution": 0.27386541
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adolescents",
+      "overall_value": 11.61524704,
+      "percent_topic_posts_with_label": 10.47619048,
+      "percent_topic_authors_using_label_on_topic_post": 12.7543036,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 10.31723018,
+          "post_percentage_point_contribution": 9.32773109,
+          "author_percentage_point_contribution": 11.30672926
+        },
+        {
+          "component_label": "musculoskeletal injury",
+          "value": 0.67979774,
+          "post_percentage_point_contribution": 0.6162465,
+          "author_percentage_point_contribution": 0.74334898
+        },
+        {
+          "component_label": "violence-related injury",
+          "value": 0.61821912,
+          "post_percentage_point_contribution": 0.53221289,
+          "author_percentage_point_contribution": 0.70422535
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sports participation",
+      "overall_value": 8.86225852,
+      "percent_topic_posts_with_label": 7.78711485,
+      "percent_topic_authors_using_label_on_topic_post": 9.93740219,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 8.45944951,
+          "post_percentage_point_contribution": 7.45098039,
+          "author_percentage_point_contribution": 9.46791862
+        },
+        {
+          "component_label": "musculoskeletal injury",
+          "value": 0.36924159,
+          "post_percentage_point_contribution": 0.30812325,
+          "author_percentage_point_contribution": 0.43035994
+        },
+        {
+          "component_label": "violence-related injury",
+          "value": 0.03356742,
+          "post_percentage_point_contribution": 0.0280112,
+          "author_percentage_point_contribution": 0.03912363
+        }
+      ]
+    },
+    {
+      "intersecting_label": "violence or crime",
+      "overall_value": 8.44879736,
+      "percent_topic_posts_with_label": 7.89915966,
+      "percent_topic_authors_using_label_on_topic_post": 8.99843505,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 8.31452769,
+          "post_percentage_point_contribution": 7.78711485,
+          "author_percentage_point_contribution": 8.84194053
+        },
+        {
+          "component_label": "violence-related injury",
+          "value": 0.13426967,
+          "post_percentage_point_contribution": 0.11204482,
+          "author_percentage_point_contribution": 0.15649452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "motor vehicle",
+      "overall_value": 8.23049408,
+      "percent_topic_posts_with_label": 7.61904762,
+      "percent_topic_authors_using_label_on_topic_post": 8.84194053,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 7.84724688,
+          "post_percentage_point_contribution": 7.28291317,
+          "author_percentage_point_contribution": 8.41158059
+        },
+        {
+          "component_label": "musculoskeletal injury",
+          "value": 0.03356742,
+          "post_percentage_point_contribution": 0.0280112,
+          "author_percentage_point_contribution": 0.03912363
+        },
+        {
+          "component_label": "violence-related injury",
+          "value": 0.34967978,
+          "post_percentage_point_contribution": 0.30812325,
+          "author_percentage_point_contribution": 0.39123631
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic hazard",
+      "overall_value": 7.3320314,
+      "percent_topic_posts_with_label": 8.79551821,
+      "percent_topic_authors_using_label_on_topic_post": 5.8685446,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 7.08305388,
+          "post_percentage_point_contribution": 8.57142857,
+          "author_percentage_point_contribution": 5.59467919
+        },
+        {
+          "component_label": "violence-related injury",
+          "value": 0.24897753,
+          "post_percentage_point_contribution": 0.22408964,
+          "author_percentage_point_contribution": 0.27386541
+        }
+      ]
+    },
+    {
+      "intersecting_label": "parents and caregivers",
+      "overall_value": 5.73447219,
+      "percent_topic_posts_with_label": 4.81792717,
+      "percent_topic_authors_using_label_on_topic_post": 6.65101721,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 5.49950027,
+          "post_percentage_point_contribution": 4.62184874,
+          "author_percentage_point_contribution": 6.3771518
+        },
+        {
+          "component_label": "musculoskeletal injury",
+          "value": 0.23497192,
+          "post_percentage_point_contribution": 0.19607843,
+          "author_percentage_point_contribution": 0.27386541
+        }
+      ]
+    },
+    {
+      "intersecting_label": "medical care",
+      "overall_value": 4.99066293,
+      "percent_topic_posts_with_label": 4.42577031,
+      "percent_topic_authors_using_label_on_topic_post": 5.55555556,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 4.87595508,
+          "post_percentage_point_contribution": 4.31372549,
+          "author_percentage_point_contribution": 5.43818466
+        },
+        {
+          "component_label": "musculoskeletal injury",
+          "value": 0.11470785,
+          "post_percentage_point_contribution": 0.11204482,
+          "author_percentage_point_contribution": 0.11737089
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infants",
+      "overall_value": 4.6492024,
+      "percent_topic_posts_with_label": 3.97759104,
+      "percent_topic_authors_using_label_on_topic_post": 5.32081377,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 4.51493273,
+          "post_percentage_point_contribution": 3.86554622,
+          "author_percentage_point_contribution": 5.16431925
+        },
+        {
+          "component_label": "musculoskeletal injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        },
+        {
+          "component_label": "violence-related injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "students",
+      "overall_value": 3.78802225,
+      "percent_topic_posts_with_label": 3.58543417,
+      "percent_topic_authors_using_label_on_topic_post": 3.99061033,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 3.50547731,
+          "post_percentage_point_contribution": 3.33333333,
+          "author_percentage_point_contribution": 3.67762128
+        },
+        {
+          "component_label": "musculoskeletal injury",
+          "value": 0.16783709,
+          "post_percentage_point_contribution": 0.14005602,
+          "author_percentage_point_contribution": 0.19561815
+        },
+        {
+          "component_label": "violence-related injury",
+          "value": 0.11470785,
+          "post_percentage_point_contribution": 0.11204482,
+          "author_percentage_point_contribution": 0.11737089
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mortality or death",
+      "overall_value": 3.75422469,
+      "percent_topic_posts_with_label": 3.36134454,
+      "percent_topic_authors_using_label_on_topic_post": 4.14710485,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 3.72065728,
+          "post_percentage_point_contribution": 3.33333333,
+          "author_percentage_point_contribution": 4.10798122
+        },
+        {
+          "component_label": "violence-related injury",
+          "value": 0.03356742,
+          "post_percentage_point_contribution": 0.0280112,
+          "author_percentage_point_contribution": 0.03912363
+        }
+      ]
+    },
+    {
+      "intersecting_label": "playground",
+      "overall_value": 3.58615747,
+      "percent_topic_posts_with_label": 3.02521008,
+      "percent_topic_authors_using_label_on_topic_post": 4.14710485,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 3.41832038,
+          "post_percentage_point_contribution": 2.88515406,
+          "author_percentage_point_contribution": 3.9514867
+        },
+        {
+          "component_label": "musculoskeletal injury",
+          "value": 0.16783709,
+          "post_percentage_point_contribution": 0.14005602,
+          "author_percentage_point_contribution": 0.19561815
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare facility",
+      "overall_value": 3.25048329,
+      "percent_topic_posts_with_label": 2.74509804,
+      "percent_topic_authors_using_label_on_topic_post": 3.75586854,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 3.18334846,
+          "post_percentage_point_contribution": 2.68907563,
+          "author_percentage_point_contribution": 3.67762128
+        },
+        {
+          "component_label": "violence-related injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "toddlers",
+      "overall_value": 3.02106758,
+      "percent_topic_posts_with_label": 2.5210084,
+      "percent_topic_authors_using_label_on_topic_post": 3.52112676,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 2.98750016,
+          "post_percentage_point_contribution": 2.4929972,
+          "author_percentage_point_contribution": 3.48200313
+        },
+        {
+          "component_label": "violence-related injury",
+          "value": 0.03356742,
+          "post_percentage_point_contribution": 0.0280112,
+          "author_percentage_point_contribution": 0.03912363
+        }
+      ]
+    },
+    {
+      "intersecting_label": "home",
+      "overall_value": 2.82544943,
+      "percent_topic_posts_with_label": 2.5210084,
+      "percent_topic_authors_using_label_on_topic_post": 3.12989045,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 2.82544943,
+          "post_percentage_point_contribution": 2.5210084,
+          "author_percentage_point_contribution": 3.12989045
+        }
+      ]
+    },
+    {
+      "intersecting_label": "fire hazard",
+      "overall_value": 2.6129325,
+      "percent_topic_posts_with_label": 2.40896359,
+      "percent_topic_authors_using_label_on_topic_post": 2.81690141,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 2.54579766,
+          "post_percentage_point_contribution": 2.35294118,
+          "author_percentage_point_contribution": 2.73865415
+        },
+        {
+          "component_label": "musculoskeletal injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "outdoor play or recreation",
+      "overall_value": 2.4839889,
+      "percent_topic_posts_with_label": 2.07282913,
+      "percent_topic_authors_using_label_on_topic_post": 2.89514867,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 2.4839889,
+          "post_percentage_point_contribution": 2.07282913,
+          "author_percentage_point_contribution": 2.89514867
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sports or recreation facility",
+      "overall_value": 2.14831472,
+      "percent_topic_posts_with_label": 1.79271709,
+      "percent_topic_authors_using_label_on_topic_post": 2.50391236,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 2.11474731,
+          "post_percentage_point_contribution": 1.76470588,
+          "author_percentage_point_contribution": 2.46478873
+        },
+        {
+          "component_label": "violence-related injury",
+          "value": 0.03356742,
+          "post_percentage_point_contribution": 0.0280112,
+          "author_percentage_point_contribution": 0.03912363
+        }
+      ]
+    },
+    {
+      "intersecting_label": "families",
+      "overall_value": 2.07006746,
+      "percent_topic_posts_with_label": 1.79271709,
+      "percent_topic_authors_using_label_on_topic_post": 2.34741784,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 1.96936521,
+          "post_percentage_point_contribution": 1.70868347,
+          "author_percentage_point_contribution": 2.23004695
+        },
+        {
+          "component_label": "violence-related injury",
+          "value": 0.10070225,
+          "post_percentage_point_contribution": 0.08403361,
+          "author_percentage_point_contribution": 0.11737089
+        }
+      ]
+    },
+    {
+      "intersecting_label": "child abuse or neglect",
+      "overall_value": 2.01404505,
+      "percent_topic_posts_with_label": 1.68067227,
+      "percent_topic_authors_using_label_on_topic_post": 2.34741784,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 1.94691022,
+          "post_percentage_point_contribution": 1.62464986,
+          "author_percentage_point_contribution": 2.26917058
+        },
+        {
+          "component_label": "violence-related injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pets and companion animals",
+      "overall_value": 1.87977538,
+      "percent_topic_posts_with_label": 1.56862745,
+      "percent_topic_authors_using_label_on_topic_post": 2.19092332,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 1.87977538,
+          "post_percentage_point_contribution": 1.56862745,
+          "author_percentage_point_contribution": 2.19092332
+        }
+      ]
+    },
+    {
+      "intersecting_label": "street or roadway",
+      "overall_value": 1.46098815,
+      "percent_topic_posts_with_label": 1.9047619,
+      "percent_topic_authors_using_label_on_topic_post": 1.0172144,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 1.46098815,
+          "post_percentage_point_contribution": 1.9047619,
+          "author_percentage_point_contribution": 1.0172144
+        }
+      ]
+    },
+    {
+      "intersecting_label": "emergency response",
+      "overall_value": 1.3426967,
+      "percent_topic_posts_with_label": 1.12044818,
+      "percent_topic_authors_using_label_on_topic_post": 1.56494523,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 1.30912929,
+          "post_percentage_point_contribution": 1.09243697,
+          "author_percentage_point_contribution": 1.5258216
+        },
+        {
+          "component_label": "violence-related injury",
+          "value": 0.03356742,
+          "post_percentage_point_contribution": 0.0280112,
+          "author_percentage_point_contribution": 0.03912363
+        }
+      ]
+    },
+    {
+      "intersecting_label": "park or green space",
+      "overall_value": 1.33158428,
+      "percent_topic_posts_with_label": 1.17647059,
+      "percent_topic_authors_using_label_on_topic_post": 1.48669797,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 1.33158428,
+          "post_percentage_point_contribution": 1.17647059,
+          "author_percentage_point_contribution": 1.48669797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "teachers and school staff",
+      "overall_value": 1.20842703,
+      "percent_topic_posts_with_label": 1.00840336,
+      "percent_topic_authors_using_label_on_topic_post": 1.4084507,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 1.20842703,
+          "post_percentage_point_contribution": 1.00840336,
+          "author_percentage_point_contribution": 1.4084507
+        }
+      ]
+    },
+    {
+      "intersecting_label": "swimming or water recreation",
+      "overall_value": 1.1693034,
+      "percent_topic_posts_with_label": 1.00840336,
+      "percent_topic_authors_using_label_on_topic_post": 1.33020344,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 1.1693034,
+          "post_percentage_point_contribution": 1.00840336,
+          "author_percentage_point_contribution": 1.33020344
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pain",
+      "overall_value": 1.02392131,
+      "percent_topic_posts_with_label": 0.95238095,
+      "percent_topic_authors_using_label_on_topic_post": 1.09546166,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.62111229,
+          "post_percentage_point_contribution": 0.6162465,
+          "author_percentage_point_contribution": 0.62597809
+        },
+        {
+          "component_label": "musculoskeletal injury",
+          "value": 0.40280901,
+          "post_percentage_point_contribution": 0.33613445,
+          "author_percentage_point_contribution": 0.46948357
+        }
+      ]
+    },
+    {
+      "intersecting_label": "unhoused populations",
+      "overall_value": 1.00702253,
+      "percent_topic_posts_with_label": 0.84033613,
+      "percent_topic_authors_using_label_on_topic_post": 1.17370892,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 1.00702253,
+          "post_percentage_point_contribution": 0.84033613,
+          "author_percentage_point_contribution": 1.17370892
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mental health condition",
+      "overall_value": 0.87275286,
+      "percent_topic_posts_with_label": 0.72829132,
+      "percent_topic_authors_using_label_on_topic_post": 1.0172144,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.87275286,
+          "post_percentage_point_contribution": 0.72829132,
+          "author_percentage_point_contribution": 1.0172144
+        }
+      ]
+    },
+    {
+      "intersecting_label": "river lake or water body",
+      "overall_value": 0.80561802,
+      "percent_topic_posts_with_label": 0.67226891,
+      "percent_topic_authors_using_label_on_topic_post": 0.93896714,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.80561802,
+          "post_percentage_point_contribution": 0.67226891,
+          "author_percentage_point_contribution": 0.93896714
+        }
+      ]
+    },
+    {
+      "intersecting_label": "COVID-19",
+      "overall_value": 0.67134835,
+      "percent_topic_posts_with_label": 0.56022409,
+      "percent_topic_authors_using_label_on_topic_post": 0.78247261,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.60421352,
+          "post_percentage_point_contribution": 0.50420168,
+          "author_percentage_point_contribution": 0.70422535
+        },
+        {
+          "component_label": "musculoskeletal injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "walking or bicycling",
+      "overall_value": 0.67134835,
+      "percent_topic_posts_with_label": 0.56022409,
+      "percent_topic_authors_using_label_on_topic_post": 0.78247261,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.53707868,
+          "post_percentage_point_contribution": 0.44817927,
+          "author_percentage_point_contribution": 0.62597809
+        },
+        {
+          "component_label": "musculoskeletal injury",
+          "value": 0.13426967,
+          "post_percentage_point_contribution": 0.11204482,
+          "author_percentage_point_contribution": 0.15649452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "outdoor environment",
+      "overall_value": 0.56508989,
+      "percent_topic_posts_with_label": 0.50420168,
+      "percent_topic_authors_using_label_on_topic_post": 0.62597809,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.56508989,
+          "post_percentage_point_contribution": 0.50420168,
+          "author_percentage_point_contribution": 0.62597809
+        }
+      ]
+    },
+    {
+      "intersecting_label": "headache or migraine",
+      "overall_value": 0.53707868,
+      "percent_topic_posts_with_label": 0.44817927,
+      "percent_topic_authors_using_label_on_topic_post": 0.62597809,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.53707868,
+          "post_percentage_point_contribution": 0.44817927,
+          "author_percentage_point_contribution": 0.62597809
+        }
+      ]
+    },
+    {
+      "intersecting_label": "workplace",
+      "overall_value": 0.53707868,
+      "percent_topic_posts_with_label": 0.44817927,
+      "percent_topic_authors_using_label_on_topic_post": 0.62597809,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.53707868,
+          "post_percentage_point_contribution": 0.44817927,
+          "author_percentage_point_contribution": 0.62597809
+        }
+      ]
+    },
+    {
+      "intersecting_label": "foster youth",
+      "overall_value": 0.49841533,
+      "percent_topic_posts_with_label": 0.84033613,
+      "percent_topic_authors_using_label_on_topic_post": 0.15649452,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.49841533,
+          "post_percentage_point_contribution": 0.84033613,
+          "author_percentage_point_contribution": 0.15649452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "classroom",
+      "overall_value": 0.46994385,
+      "percent_topic_posts_with_label": 0.39215686,
+      "percent_topic_authors_using_label_on_topic_post": 0.54773083,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.46994385,
+          "post_percentage_point_contribution": 0.39215686,
+          "author_percentage_point_contribution": 0.54773083
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school closure",
+      "overall_value": 0.46994385,
+      "percent_topic_posts_with_label": 0.39215686,
+      "percent_topic_authors_using_label_on_topic_post": 0.54773083,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.46994385,
+          "post_percentage_point_contribution": 0.39215686,
+          "author_percentage_point_contribution": 0.54773083
+        }
+      ]
+    },
+    {
+      "intersecting_label": "alcohol exposure or use",
+      "overall_value": 0.40280901,
+      "percent_topic_posts_with_label": 0.33613445,
+      "percent_topic_authors_using_label_on_topic_post": 0.46948357,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.36924159,
+          "post_percentage_point_contribution": 0.30812325,
+          "author_percentage_point_contribution": 0.43035994
+        },
+        {
+          "component_label": "violence-related injury",
+          "value": 0.03356742,
+          "post_percentage_point_contribution": 0.0280112,
+          "author_percentage_point_contribution": 0.03912363
+        }
+      ]
+    },
+    {
+      "intersecting_label": "beach or coastal area",
+      "overall_value": 0.40280901,
+      "percent_topic_posts_with_label": 0.33613445,
+      "percent_topic_authors_using_label_on_topic_post": 0.46948357,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.40280901,
+          "post_percentage_point_contribution": 0.33613445,
+          "author_percentage_point_contribution": 0.46948357
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childcare center",
+      "overall_value": 0.40280901,
+      "percent_topic_posts_with_label": 0.33613445,
+      "percent_topic_authors_using_label_on_topic_post": 0.46948357,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.40280901,
+          "post_percentage_point_contribution": 0.33613445,
+          "author_percentage_point_contribution": 0.46948357
+        }
+      ]
+    },
+    {
+      "intersecting_label": "children with disabilities",
+      "overall_value": 0.40280901,
+      "percent_topic_posts_with_label": 0.33613445,
+      "percent_topic_authors_using_label_on_topic_post": 0.46948357,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.33567418,
+          "post_percentage_point_contribution": 0.28011204,
+          "author_percentage_point_contribution": 0.39123631
+        },
+        {
+          "component_label": "musculoskeletal injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infectious disease",
+      "overall_value": 0.40280901,
+      "percent_topic_posts_with_label": 0.33613445,
+      "percent_topic_authors_using_label_on_topic_post": 0.46948357,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.40280901,
+          "post_percentage_point_contribution": 0.33613445,
+          "author_percentage_point_contribution": 0.46948357
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildlife",
+      "overall_value": 0.40280901,
+      "percent_topic_posts_with_label": 0.33613445,
+      "percent_topic_authors_using_label_on_topic_post": 0.46948357,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.40280901,
+          "post_percentage_point_contribution": 0.33613445,
+          "author_percentage_point_contribution": 0.46948357
+        }
+      ]
+    },
+    {
+      "intersecting_label": "workers",
+      "overall_value": 0.40280901,
+      "percent_topic_posts_with_label": 0.33613445,
+      "percent_topic_authors_using_label_on_topic_post": 0.46948357,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.33567418,
+          "post_percentage_point_contribution": 0.28011204,
+          "author_percentage_point_contribution": 0.39123631
+        },
+        {
+          "component_label": "musculoskeletal injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "apartment",
+      "overall_value": 0.36368538,
+      "percent_topic_posts_with_label": 0.33613445,
+      "percent_topic_authors_using_label_on_topic_post": 0.39123631,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.36368538,
+          "post_percentage_point_contribution": 0.33613445,
+          "author_percentage_point_contribution": 0.39123631
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic safety",
+      "overall_value": 0.36368538,
+      "percent_topic_posts_with_label": 0.33613445,
+      "percent_topic_authors_using_label_on_topic_post": 0.39123631,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.33011796,
+          "post_percentage_point_contribution": 0.30812325,
+          "author_percentage_point_contribution": 0.35211268
+        },
+        {
+          "component_label": "violence-related injury",
+          "value": 0.03356742,
+          "post_percentage_point_contribution": 0.0280112,
+          "author_percentage_point_contribution": 0.03912363
+        }
+      ]
+    },
+    {
+      "intersecting_label": "activity cancellation",
+      "overall_value": 0.33567418,
+      "percent_topic_posts_with_label": 0.28011204,
+      "percent_topic_authors_using_label_on_topic_post": 0.39123631,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.20140451,
+          "post_percentage_point_contribution": 0.16806723,
+          "author_percentage_point_contribution": 0.23474178
+        },
+        {
+          "component_label": "musculoskeletal injury",
+          "value": 0.13426967,
+          "post_percentage_point_contribution": 0.11204482,
+          "author_percentage_point_contribution": 0.15649452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cancer",
+      "overall_value": 0.33567418,
+      "percent_topic_posts_with_label": 0.28011204,
+      "percent_topic_authors_using_label_on_topic_post": 0.39123631,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.33567418,
+          "post_percentage_point_contribution": 0.28011204,
+          "author_percentage_point_contribution": 0.39123631
+        }
+      ]
+    },
+    {
+      "intersecting_label": "seizure",
+      "overall_value": 0.33567418,
+      "percent_topic_posts_with_label": 0.28011204,
+      "percent_topic_authors_using_label_on_topic_post": 0.39123631,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.30210676,
+          "post_percentage_point_contribution": 0.25210084,
+          "author_percentage_point_contribution": 0.35211268
+        },
+        {
+          "component_label": "musculoskeletal injury",
+          "value": 0.03356742,
+          "post_percentage_point_contribution": 0.0280112,
+          "author_percentage_point_contribution": 0.03912363
+        }
+      ]
+    },
+    {
+      "intersecting_label": "stress or distress",
+      "overall_value": 0.33567418,
+      "percent_topic_posts_with_label": 0.28011204,
+      "percent_topic_authors_using_label_on_topic_post": 0.39123631,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.33567418,
+          "post_percentage_point_contribution": 0.28011204,
+          "author_percentage_point_contribution": 0.39123631
+        }
+      ]
+    },
+    {
+      "intersecting_label": "vaccination",
+      "overall_value": 0.33567418,
+      "percent_topic_posts_with_label": 0.28011204,
+      "percent_topic_authors_using_label_on_topic_post": 0.39123631,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.33567418,
+          "post_percentage_point_contribution": 0.28011204,
+          "author_percentage_point_contribution": 0.39123631
+        }
+      ]
+    },
+    {
+      "intersecting_label": "child welfare services",
+      "overall_value": 0.29655055,
+      "percent_topic_posts_with_label": 0.28011204,
+      "percent_topic_authors_using_label_on_topic_post": 0.31298905,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.29655055,
+          "post_percentage_point_contribution": 0.28011204,
+          "author_percentage_point_contribution": 0.31298905
+        }
+      ]
+    },
+    {
+      "intersecting_label": "neighborhood",
+      "overall_value": 0.29655055,
+      "percent_topic_posts_with_label": 0.28011204,
+      "percent_topic_authors_using_label_on_topic_post": 0.31298905,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.29655055,
+          "post_percentage_point_contribution": 0.28011204,
+          "author_percentage_point_contribution": 0.31298905
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adverse birth outcome",
+      "overall_value": 0.26853934,
+      "percent_topic_posts_with_label": 0.22408964,
+      "percent_topic_authors_using_label_on_topic_post": 0.31298905,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.26853934,
+          "post_percentage_point_contribution": 0.22408964,
+          "author_percentage_point_contribution": 0.31298905
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cardiovascular condition",
+      "overall_value": 0.26853934,
+      "percent_topic_posts_with_label": 0.22408964,
+      "percent_topic_authors_using_label_on_topic_post": 0.31298905,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.26853934,
+          "post_percentage_point_contribution": 0.22408964,
+          "author_percentage_point_contribution": 0.31298905
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cognitive or learning problem",
+      "overall_value": 0.26853934,
+      "percent_topic_posts_with_label": 0.22408964,
+      "percent_topic_authors_using_label_on_topic_post": 0.31298905,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.26853934,
+          "post_percentage_point_contribution": 0.22408964,
+          "author_percentage_point_contribution": 0.31298905
+        }
+      ]
+    },
+    {
+      "intersecting_label": "poverty or financial hardship",
+      "overall_value": 0.26853934,
+      "percent_topic_posts_with_label": 0.22408964,
+      "percent_topic_authors_using_label_on_topic_post": 0.31298905,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.20140451,
+          "post_percentage_point_contribution": 0.16806723,
+          "author_percentage_point_contribution": 0.23474178
+        },
+        {
+          "component_label": "musculoskeletal injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pregnant people",
+      "overall_value": 0.26853934,
+      "percent_topic_posts_with_label": 0.22408964,
+      "percent_topic_authors_using_label_on_topic_post": 0.31298905,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.26853934,
+          "post_percentage_point_contribution": 0.22408964,
+          "author_percentage_point_contribution": 0.31298905
+        }
+      ]
+    },
+    {
+      "intersecting_label": "racial and ethnic minority populations",
+      "overall_value": 0.26853934,
+      "percent_topic_posts_with_label": 0.22408964,
+      "percent_topic_authors_using_label_on_topic_post": 0.31298905,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.20140451,
+          "post_percentage_point_contribution": 0.16806723,
+          "author_percentage_point_contribution": 0.23474178
+        },
+        {
+          "component_label": "violence-related injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "social support",
+      "overall_value": 0.26853934,
+      "percent_topic_posts_with_label": 0.22408964,
+      "percent_topic_authors_using_label_on_topic_post": 0.31298905,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.26853934,
+          "post_percentage_point_contribution": 0.22408964,
+          "author_percentage_point_contribution": 0.31298905
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cough",
+      "overall_value": 0.20140451,
+      "percent_topic_posts_with_label": 0.16806723,
+      "percent_topic_authors_using_label_on_topic_post": 0.23474178,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.20140451,
+          "post_percentage_point_contribution": 0.16806723,
+          "author_percentage_point_contribution": 0.23474178
+        }
+      ]
+    },
+    {
+      "intersecting_label": "dental care",
+      "overall_value": 0.20140451,
+      "percent_topic_posts_with_label": 0.16806723,
+      "percent_topic_authors_using_label_on_topic_post": 0.23474178,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.20140451,
+          "post_percentage_point_contribution": 0.16806723,
+          "author_percentage_point_contribution": 0.23474178
+        }
+      ]
+    },
+    {
+      "intersecting_label": "disability",
+      "overall_value": 0.20140451,
+      "percent_topic_posts_with_label": 0.16806723,
+      "percent_topic_authors_using_label_on_topic_post": 0.23474178,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.20140451,
+          "post_percentage_point_contribution": 0.16806723,
+          "author_percentage_point_contribution": 0.23474178
+        }
+      ]
+    },
+    {
+      "intersecting_label": "drug exposure or use",
+      "overall_value": 0.20140451,
+      "percent_topic_posts_with_label": 0.16806723,
+      "percent_topic_authors_using_label_on_topic_post": 0.23474178,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.20140451,
+          "post_percentage_point_contribution": 0.16806723,
+          "author_percentage_point_contribution": 0.23474178
+        }
+      ]
+    },
+    {
+      "intersecting_label": "earthquake",
+      "overall_value": 0.20140451,
+      "percent_topic_posts_with_label": 0.16806723,
+      "percent_topic_authors_using_label_on_topic_post": 0.23474178,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.20140451,
+          "post_percentage_point_contribution": 0.16806723,
+          "author_percentage_point_contribution": 0.23474178
+        }
+      ]
+    },
+    {
+      "intersecting_label": "extreme cold",
+      "overall_value": 0.20140451,
+      "percent_topic_posts_with_label": 0.16806723,
+      "percent_topic_authors_using_label_on_topic_post": 0.23474178,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.20140451,
+          "post_percentage_point_contribution": 0.16806723,
+          "author_percentage_point_contribution": 0.23474178
+        }
+      ]
+    },
+    {
+      "intersecting_label": "medication use",
+      "overall_value": 0.20140451,
+      "percent_topic_posts_with_label": 0.16806723,
+      "percent_topic_authors_using_label_on_topic_post": 0.23474178,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.20140451,
+          "post_percentage_point_contribution": 0.16806723,
+          "author_percentage_point_contribution": 0.23474178
+        }
+      ]
+    },
+    {
+      "intersecting_label": "public transit",
+      "overall_value": 0.20140451,
+      "percent_topic_posts_with_label": 0.16806723,
+      "percent_topic_authors_using_label_on_topic_post": 0.23474178,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.20140451,
+          "post_percentage_point_contribution": 0.16806723,
+          "author_percentage_point_contribution": 0.23474178
+        }
+      ]
+    },
+    {
+      "intersecting_label": "substance use disorder",
+      "overall_value": 0.20140451,
+      "percent_topic_posts_with_label": 0.16806723,
+      "percent_topic_authors_using_label_on_topic_post": 0.23474178,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.20140451,
+          "post_percentage_point_contribution": 0.16806723,
+          "author_percentage_point_contribution": 0.23474178
+        }
+      ]
+    },
+    {
+      "intersecting_label": "swimming pool",
+      "overall_value": 0.20140451,
+      "percent_topic_posts_with_label": 0.16806723,
+      "percent_topic_authors_using_label_on_topic_post": 0.23474178,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.20140451,
+          "post_percentage_point_contribution": 0.16806723,
+          "author_percentage_point_contribution": 0.23474178
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildfire smoke",
+      "overall_value": 0.20140451,
+      "percent_topic_posts_with_label": 0.16806723,
+      "percent_topic_authors_using_label_on_topic_post": 0.23474178,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.20140451,
+          "post_percentage_point_contribution": 0.16806723,
+          "author_percentage_point_contribution": 0.23474178
+        }
+      ]
+    },
+    {
+      "intersecting_label": "acute poisoning",
+      "overall_value": 0.13426967,
+      "percent_topic_posts_with_label": 0.11204482,
+      "percent_topic_authors_using_label_on_topic_post": 0.15649452,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.13426967,
+          "post_percentage_point_contribution": 0.11204482,
+          "author_percentage_point_contribution": 0.15649452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "animal-related exposure",
+      "overall_value": 0.13426967,
+      "percent_topic_posts_with_label": 0.11204482,
+      "percent_topic_authors_using_label_on_topic_post": 0.15649452,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.13426967,
+          "post_percentage_point_contribution": 0.11204482,
+          "author_percentage_point_contribution": 0.15649452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "contaminated drinking water",
+      "overall_value": 0.13426967,
+      "percent_topic_posts_with_label": 0.11204482,
+      "percent_topic_authors_using_label_on_topic_post": 0.15649452,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.13426967,
+          "post_percentage_point_contribution": 0.11204482,
+          "author_percentage_point_contribution": 0.15649452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "dental clinic",
+      "overall_value": 0.13426967,
+      "percent_topic_posts_with_label": 0.11204482,
+      "percent_topic_authors_using_label_on_topic_post": 0.15649452,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.13426967,
+          "post_percentage_point_contribution": 0.11204482,
+          "author_percentage_point_contribution": 0.15649452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "depression",
+      "overall_value": 0.13426967,
+      "percent_topic_posts_with_label": 0.11204482,
+      "percent_topic_authors_using_label_on_topic_post": 0.15649452,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.13426967,
+          "post_percentage_point_contribution": 0.11204482,
+          "author_percentage_point_contribution": 0.15649452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "farm or agricultural setting",
+      "overall_value": 0.13426967,
+      "percent_topic_posts_with_label": 0.11204482,
+      "percent_topic_authors_using_label_on_topic_post": 0.15649452,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.13426967,
+          "post_percentage_point_contribution": 0.11204482,
+          "author_percentage_point_contribution": 0.15649452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "gastrointestinal illness",
+      "overall_value": 0.13426967,
+      "percent_topic_posts_with_label": 0.11204482,
+      "percent_topic_authors_using_label_on_topic_post": 0.15649452,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.13426967,
+          "post_percentage_point_contribution": 0.11204482,
+          "author_percentage_point_contribution": 0.15649452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare workers",
+      "overall_value": 0.13426967,
+      "percent_topic_posts_with_label": 0.11204482,
+      "percent_topic_authors_using_label_on_topic_post": 0.15649452,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.13426967,
+          "post_percentage_point_contribution": 0.11204482,
+          "author_percentage_point_contribution": 0.15649452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "natural disaster",
+      "overall_value": 0.13426967,
+      "percent_topic_posts_with_label": 0.11204482,
+      "percent_topic_authors_using_label_on_topic_post": 0.15649452,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.13426967,
+          "post_percentage_point_contribution": 0.11204482,
+          "author_percentage_point_contribution": 0.15649452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "obesity",
+      "overall_value": 0.13426967,
+      "percent_topic_posts_with_label": 0.11204482,
+      "percent_topic_authors_using_label_on_topic_post": 0.15649452,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.13426967,
+          "post_percentage_point_contribution": 0.11204482,
+          "author_percentage_point_contribution": 0.15649452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "shortness of breath",
+      "overall_value": 0.13426967,
+      "percent_topic_posts_with_label": 0.11204482,
+      "percent_topic_authors_using_label_on_topic_post": 0.15649452,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        },
+        {
+          "component_label": "musculoskeletal injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sleep problem",
+      "overall_value": 0.13426967,
+      "percent_topic_posts_with_label": 0.11204482,
+      "percent_topic_authors_using_label_on_topic_post": 0.15649452,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.13426967,
+          "post_percentage_point_contribution": 0.11204482,
+          "author_percentage_point_contribution": 0.15649452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "toothache or dental problem",
+      "overall_value": 0.13426967,
+      "percent_topic_posts_with_label": 0.11204482,
+      "percent_topic_authors_using_label_on_topic_post": 0.15649452,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.13426967,
+          "post_percentage_point_contribution": 0.11204482,
+          "author_percentage_point_contribution": 0.15649452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "winter storm or snow hazard",
+      "overall_value": 0.13426967,
+      "percent_topic_posts_with_label": 0.11204482,
+      "percent_topic_authors_using_label_on_topic_post": 0.15649452,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.13426967,
+          "post_percentage_point_contribution": 0.11204482,
+          "author_percentage_point_contribution": 0.15649452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "youth engagement",
+      "overall_value": 0.13426967,
+      "percent_topic_posts_with_label": 0.11204482,
+      "percent_topic_authors_using_label_on_topic_post": 0.15649452,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.13426967,
+          "post_percentage_point_contribution": 0.11204482,
+          "author_percentage_point_contribution": 0.15649452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "allergens",
+      "overall_value": 0.06713484,
+      "percent_topic_posts_with_label": 0.05602241,
+      "percent_topic_authors_using_label_on_topic_post": 0.07824726,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "anxiety",
+      "overall_value": 0.06713484,
+      "percent_topic_posts_with_label": 0.05602241,
+      "percent_topic_authors_using_label_on_topic_post": 0.07824726,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "autism",
+      "overall_value": 0.06713484,
+      "percent_topic_posts_with_label": 0.05602241,
+      "percent_topic_authors_using_label_on_topic_post": 0.07824726,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "breastfeeding",
+      "overall_value": 0.06713484,
+      "percent_topic_posts_with_label": 0.05602241,
+      "percent_topic_authors_using_label_on_topic_post": 0.07824726,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "bronchitis",
+      "overall_value": 0.06713484,
+      "percent_topic_posts_with_label": 0.05602241,
+      "percent_topic_authors_using_label_on_topic_post": 0.07824726,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childcare workers",
+      "overall_value": 0.06713484,
+      "percent_topic_posts_with_label": 0.05602241,
+      "percent_topic_authors_using_label_on_topic_post": 0.07824726,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childhood cancer",
+      "overall_value": 0.06713484,
+      "percent_topic_posts_with_label": 0.05602241,
+      "percent_topic_authors_using_label_on_topic_post": 0.07824726,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cleaning and disinfecting chemicals",
+      "overall_value": 0.06713484,
+      "percent_topic_posts_with_label": 0.05602241,
+      "percent_topic_authors_using_label_on_topic_post": 0.07824726,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "climate change",
+      "overall_value": 0.06713484,
+      "percent_topic_posts_with_label": 0.05602241,
+      "percent_topic_authors_using_label_on_topic_post": 0.07824726,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "community program or service",
+      "overall_value": 0.06713484,
+      "percent_topic_posts_with_label": 0.05602241,
+      "percent_topic_authors_using_label_on_topic_post": 0.07824726,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cooking or food preparation",
+      "overall_value": 0.06713484,
+      "percent_topic_posts_with_label": 0.05602241,
+      "percent_topic_authors_using_label_on_topic_post": 0.07824726,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "dental caries",
+      "overall_value": 0.06713484,
+      "percent_topic_posts_with_label": 0.05602241,
+      "percent_topic_authors_using_label_on_topic_post": 0.07824726,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "developmental delay",
+      "overall_value": 0.06713484,
+      "percent_topic_posts_with_label": 0.05602241,
+      "percent_topic_authors_using_label_on_topic_post": 0.07824726,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "diabetes",
+      "overall_value": 0.06713484,
+      "percent_topic_posts_with_label": 0.05602241,
+      "percent_topic_authors_using_label_on_topic_post": 0.07824726,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "disaster preparedness",
+      "overall_value": 0.06713484,
+      "percent_topic_posts_with_label": 0.05602241,
+      "percent_topic_authors_using_label_on_topic_post": 0.07824726,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "discrimination",
+      "overall_value": 0.06713484,
+      "percent_topic_posts_with_label": 0.05602241,
+      "percent_topic_authors_using_label_on_topic_post": 0.07824726,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "drought",
+      "overall_value": 0.06713484,
+      "percent_topic_posts_with_label": 0.05602241,
+      "percent_topic_authors_using_label_on_topic_post": 0.07824726,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "evacuation",
+      "overall_value": 0.06713484,
+      "percent_topic_posts_with_label": 0.05602241,
+      "percent_topic_authors_using_label_on_topic_post": 0.07824726,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "fever",
+      "overall_value": 0.06713484,
+      "percent_topic_posts_with_label": 0.05602241,
+      "percent_topic_authors_using_label_on_topic_post": 0.07824726,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food contamination",
+      "overall_value": 0.06713484,
+      "percent_topic_posts_with_label": 0.05602241,
+      "percent_topic_authors_using_label_on_topic_post": 0.07824726,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "garden or yard",
+      "overall_value": 0.06713484,
+      "percent_topic_posts_with_label": 0.05602241,
+      "percent_topic_authors_using_label_on_topic_post": 0.07824726,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "general severe weather",
+      "overall_value": 0.06713484,
+      "percent_topic_posts_with_label": 0.05602241,
+      "percent_topic_authors_using_label_on_topic_post": 0.07824726,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "generic smoke",
+      "overall_value": 0.06713484,
+      "percent_topic_posts_with_label": 0.05602241,
+      "percent_topic_authors_using_label_on_topic_post": 0.07824726,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "hazardous chemicals",
+      "overall_value": 0.06713484,
+      "percent_topic_posts_with_label": 0.05602241,
+      "percent_topic_authors_using_label_on_topic_post": 0.07824726,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health disparity",
+      "overall_value": 0.06713484,
+      "percent_topic_posts_with_label": 0.05602241,
+      "percent_topic_authors_using_label_on_topic_post": 0.07824726,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare access",
+      "overall_value": 0.06713484,
+      "percent_topic_posts_with_label": 0.05602241,
+      "percent_topic_authors_using_label_on_topic_post": 0.07824726,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "heat-related illness",
+      "overall_value": 0.06713484,
+      "percent_topic_posts_with_label": 0.05602241,
+      "percent_topic_authors_using_label_on_topic_post": 0.07824726,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "housing instability or homelessness",
+      "overall_value": 0.06713484,
+      "percent_topic_posts_with_label": 0.05602241,
+      "percent_topic_authors_using_label_on_topic_post": 0.07824726,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "malnutrition",
+      "overall_value": 0.06713484,
+      "percent_topic_posts_with_label": 0.05602241,
+      "percent_topic_authors_using_label_on_topic_post": 0.07824726,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "noise pollution",
+      "overall_value": 0.06713484,
+      "percent_topic_posts_with_label": 0.05602241,
+      "percent_topic_authors_using_label_on_topic_post": 0.07824726,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "plastics or microplastics",
+      "overall_value": 0.06713484,
+      "percent_topic_posts_with_label": 0.05602241,
+      "percent_topic_authors_using_label_on_topic_post": 0.07824726,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pneumonia",
+      "overall_value": 0.06713484,
+      "percent_topic_posts_with_label": 0.05602241,
+      "percent_topic_authors_using_label_on_topic_post": 0.07824726,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "restaurant or food store",
+      "overall_value": 0.06713484,
+      "percent_topic_posts_with_label": 0.05602241,
+      "percent_topic_authors_using_label_on_topic_post": 0.07824726,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "rural populations",
+      "overall_value": 0.06713484,
+      "percent_topic_posts_with_label": 0.05602241,
+      "percent_topic_authors_using_label_on_topic_post": 0.07824726,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "secondhand tobacco smoke",
+      "overall_value": 0.06713484,
+      "percent_topic_posts_with_label": 0.05602241,
+      "percent_topic_authors_using_label_on_topic_post": 0.07824726,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "skin condition",
+      "overall_value": 0.06713484,
+      "percent_topic_posts_with_label": 0.05602241,
+      "percent_topic_authors_using_label_on_topic_post": 0.07824726,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "transportation access",
+      "overall_value": 0.06713484,
+      "percent_topic_posts_with_label": 0.05602241,
+      "percent_topic_authors_using_label_on_topic_post": 0.07824726,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "water pollution",
+      "overall_value": 0.06713484,
+      "percent_topic_posts_with_label": 0.05602241,
+      "percent_topic_authors_using_label_on_topic_post": 0.07824726,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildfire",
+      "overall_value": 0.06713484,
+      "percent_topic_posts_with_label": 0.05602241,
+      "percent_topic_authors_using_label_on_topic_post": 0.07824726,
+      "links": [
+        {
+          "component_label": "injury",
+          "value": 0.06713484,
+          "post_percentage_point_contribution": 0.05602241,
+          "author_percentage_point_contribution": 0.07824726
+        }
+      ]
+    }
+  ]
+}

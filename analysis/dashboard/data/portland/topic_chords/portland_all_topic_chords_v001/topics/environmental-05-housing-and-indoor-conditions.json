@@ -1,0 +1,1739 @@
+{
+  "schema_version": "1.0.0",
+  "city_id": "38900",
+  "domain": "environmental",
+  "category_id": "environmental-05",
+  "topic": "Housing and indoor conditions",
+  "component_labels": [
+    "unsafe housing conditions",
+    "mold and dampness",
+    "indoor air quality",
+    "poor sanitation"
+  ],
+  "intersections": [
+    {
+      "intersecting_label": "children",
+      "overall_value": 44.95996408,
+      "percent_topic_posts_with_label": 45.34161491,
+      "percent_topic_authors_using_label_on_topic_post": 44.57831325,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 33.61221283,
+          "post_percentage_point_contribution": 33.85093168,
+          "author_percentage_point_contribution": 33.37349398
+        },
+        {
+          "component_label": "mold and dampness",
+          "value": 2.64561351,
+          "post_percentage_point_contribution": 3.00207039,
+          "author_percentage_point_contribution": 2.28915663
+        },
+        {
+          "component_label": "indoor air quality",
+          "value": 2.5157774,
+          "post_percentage_point_contribution": 2.38095238,
+          "author_percentage_point_contribution": 2.65060241
+        },
+        {
+          "component_label": "poor sanitation",
+          "value": 6.18636035,
+          "post_percentage_point_contribution": 6.10766046,
+          "author_percentage_point_contribution": 6.26506024
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school",
+      "overall_value": 31.60293347,
+      "percent_topic_posts_with_label": 30.43478261,
+      "percent_topic_authors_using_label_on_topic_post": 32.77108434,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 20.64918057,
+          "post_percentage_point_contribution": 19.77225673,
+          "author_percentage_point_contribution": 21.52610442
+        },
+        {
+          "component_label": "mold and dampness",
+          "value": 1.93569308,
+          "post_percentage_point_contribution": 1.86335404,
+          "author_percentage_point_contribution": 2.00803213
+        },
+        {
+          "component_label": "indoor air quality",
+          "value": 3.71922472,
+          "post_percentage_point_contribution": 3.62318841,
+          "author_percentage_point_contribution": 3.81526104
+        },
+        {
+          "component_label": "poor sanitation",
+          "value": 5.29883509,
+          "post_percentage_point_contribution": 5.17598344,
+          "author_percentage_point_contribution": 5.42168675
+        }
+      ]
+    },
+    {
+      "intersecting_label": "home",
+      "overall_value": 17.90316546,
+      "percent_topic_posts_with_label": 16.77018634,
+      "percent_topic_authors_using_label_on_topic_post": 19.03614458,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 15.88715109,
+          "post_percentage_point_contribution": 14.9068323,
+          "author_percentage_point_contribution": 16.86746988
+        },
+        {
+          "component_label": "mold and dampness",
+          "value": 0.44800319,
+          "post_percentage_point_contribution": 0.41407867,
+          "author_percentage_point_contribution": 0.48192771
+        },
+        {
+          "component_label": "indoor air quality",
+          "value": 0.67200479,
+          "post_percentage_point_contribution": 0.62111801,
+          "author_percentage_point_contribution": 0.72289157
+        },
+        {
+          "component_label": "poor sanitation",
+          "value": 0.89600639,
+          "post_percentage_point_contribution": 0.82815735,
+          "author_percentage_point_contribution": 0.96385542
+        }
+      ]
+    },
+    {
+      "intersecting_label": "child abuse or neglect",
+      "overall_value": 12.95816808,
+      "percent_topic_posts_with_label": 12.42236025,
+      "percent_topic_authors_using_label_on_topic_post": 13.4939759,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 11.45039786,
+          "post_percentage_point_contribution": 10.97308489,
+          "author_percentage_point_contribution": 11.92771084
+        },
+        {
+          "component_label": "poor sanitation",
+          "value": 1.50777021,
+          "post_percentage_point_contribution": 1.44927536,
+          "author_percentage_point_contribution": 1.56626506
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infants",
+      "overall_value": 9.28758512,
+      "percent_topic_posts_with_label": 8.69565217,
+      "percent_topic_authors_using_label_on_topic_post": 9.87951807,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 6.82356756,
+          "post_percentage_point_contribution": 6.41821946,
+          "author_percentage_point_contribution": 7.22891566
+        },
+        {
+          "component_label": "mold and dampness",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        },
+        {
+          "component_label": "indoor air quality",
+          "value": 0.44800319,
+          "post_percentage_point_contribution": 0.41407867,
+          "author_percentage_point_contribution": 0.48192771
+        },
+        {
+          "component_label": "poor sanitation",
+          "value": 1.79201277,
+          "post_percentage_point_contribution": 1.6563147,
+          "author_percentage_point_contribution": 1.92771084
+        }
+      ]
+    },
+    {
+      "intersecting_label": "parents and caregivers",
+      "overall_value": 6.72004789,
+      "percent_topic_posts_with_label": 6.21118012,
+      "percent_topic_authors_using_label_on_topic_post": 7.22891566,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 5.82404151,
+          "post_percentage_point_contribution": 5.38302277,
+          "author_percentage_point_contribution": 6.26506024
+        },
+        {
+          "component_label": "indoor air quality",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        },
+        {
+          "component_label": "poor sanitation",
+          "value": 0.67200479,
+          "post_percentage_point_contribution": 0.62111801,
+          "author_percentage_point_contribution": 0.72289157
+        }
+      ]
+    },
+    {
+      "intersecting_label": "families",
+      "overall_value": 5.60003991,
+      "percent_topic_posts_with_label": 5.17598344,
+      "percent_topic_authors_using_label_on_topic_post": 6.02409639,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 4.92803512,
+          "post_percentage_point_contribution": 4.55486542,
+          "author_percentage_point_contribution": 5.30120482
+        },
+        {
+          "component_label": "indoor air quality",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        },
+        {
+          "component_label": "poor sanitation",
+          "value": 0.44800319,
+          "post_percentage_point_contribution": 0.41407867,
+          "author_percentage_point_contribution": 0.48192771
+        }
+      ]
+    },
+    {
+      "intersecting_label": "unhoused populations",
+      "overall_value": 5.35907606,
+      "percent_topic_posts_with_label": 5.17598344,
+      "percent_topic_authors_using_label_on_topic_post": 5.54216867,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 2.34353563,
+          "post_percentage_point_contribution": 2.27743271,
+          "author_percentage_point_contribution": 2.40963855
+        },
+        {
+          "component_label": "indoor air quality",
+          "value": 0.61176383,
+          "post_percentage_point_contribution": 0.62111801,
+          "author_percentage_point_contribution": 0.60240964
+        },
+        {
+          "component_label": "poor sanitation",
+          "value": 2.4037766,
+          "post_percentage_point_contribution": 2.27743271,
+          "author_percentage_point_contribution": 2.53012048
+        }
+      ]
+    },
+    {
+      "intersecting_label": "students",
+      "overall_value": 4.35955,
+      "percent_topic_posts_with_label": 4.14078675,
+      "percent_topic_authors_using_label_on_topic_post": 4.57831325,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 2.79153883,
+          "post_percentage_point_contribution": 2.69151139,
+          "author_percentage_point_contribution": 2.89156627
+        },
+        {
+          "component_label": "mold and dampness",
+          "value": 0.67200479,
+          "post_percentage_point_contribution": 0.62111801,
+          "author_percentage_point_contribution": 0.72289157
+        },
+        {
+          "component_label": "indoor air quality",
+          "value": 0.89600639,
+          "post_percentage_point_contribution": 0.82815735,
+          "author_percentage_point_contribution": 0.96385542
+        }
+      ]
+    },
+    {
+      "intersecting_label": "indoor environment",
+      "overall_value": 3.80802714,
+      "percent_topic_posts_with_label": 3.51966874,
+      "percent_topic_authors_using_label_on_topic_post": 4.09638554,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 2.68801916,
+          "post_percentage_point_contribution": 2.48447205,
+          "author_percentage_point_contribution": 2.89156627
+        },
+        {
+          "component_label": "mold and dampness",
+          "value": 0.44800319,
+          "post_percentage_point_contribution": 0.41407867,
+          "author_percentage_point_contribution": 0.48192771
+        },
+        {
+          "component_label": "poor sanitation",
+          "value": 0.67200479,
+          "post_percentage_point_contribution": 0.62111801,
+          "author_percentage_point_contribution": 0.72289157
+        }
+      ]
+    },
+    {
+      "intersecting_label": "child welfare services",
+      "overall_value": 3.34306169,
+      "percent_topic_posts_with_label": 3.3126294,
+      "percent_topic_authors_using_label_on_topic_post": 3.37349398,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 2.73129786,
+          "post_percentage_point_contribution": 2.69151139,
+          "author_percentage_point_contribution": 2.77108434
+        },
+        {
+          "component_label": "poor sanitation",
+          "value": 0.61176383,
+          "post_percentage_point_contribution": 0.62111801,
+          "author_percentage_point_contribution": 0.60240964
+        }
+      ]
+    },
+    {
+      "intersecting_label": "violence or crime",
+      "overall_value": 3.13602235,
+      "percent_topic_posts_with_label": 2.89855072,
+      "percent_topic_authors_using_label_on_topic_post": 3.37349398,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 3.13602235,
+          "post_percentage_point_contribution": 2.89855072,
+          "author_percentage_point_contribution": 3.37349398
+        }
+      ]
+    },
+    {
+      "intersecting_label": "housing instability or homelessness",
+      "overall_value": 2.91202075,
+      "percent_topic_posts_with_label": 2.69151139,
+      "percent_topic_authors_using_label_on_topic_post": 3.13253012,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 2.01601437,
+          "post_percentage_point_contribution": 1.86335404,
+          "author_percentage_point_contribution": 2.1686747
+        },
+        {
+          "component_label": "mold and dampness",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        },
+        {
+          "component_label": "poor sanitation",
+          "value": 0.67200479,
+          "post_percentage_point_contribution": 0.62111801,
+          "author_percentage_point_contribution": 0.72289157
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mortality or death",
+      "overall_value": 2.79153883,
+      "percent_topic_posts_with_label": 2.69151139,
+      "percent_topic_authors_using_label_on_topic_post": 2.89156627,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 2.79153883,
+          "post_percentage_point_contribution": 2.69151139,
+          "author_percentage_point_contribution": 2.89156627
+        }
+      ]
+    },
+    {
+      "intersecting_label": "teachers and school staff",
+      "overall_value": 2.68801916,
+      "percent_topic_posts_with_label": 2.48447205,
+      "percent_topic_authors_using_label_on_topic_post": 2.89156627,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 1.79201277,
+          "post_percentage_point_contribution": 1.6563147,
+          "author_percentage_point_contribution": 1.92771084
+        },
+        {
+          "component_label": "mold and dampness",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        },
+        {
+          "component_label": "indoor air quality",
+          "value": 0.67200479,
+          "post_percentage_point_contribution": 0.62111801,
+          "author_percentage_point_contribution": 0.72289157
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food insecurity",
+      "overall_value": 2.34353563,
+      "percent_topic_posts_with_label": 2.27743271,
+      "percent_topic_authors_using_label_on_topic_post": 2.40963855,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 1.28376861,
+          "post_percentage_point_contribution": 1.24223602,
+          "author_percentage_point_contribution": 1.3253012
+        },
+        {
+          "component_label": "mold and dampness",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        },
+        {
+          "component_label": "indoor air quality",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        },
+        {
+          "component_label": "poor sanitation",
+          "value": 0.61176383,
+          "post_percentage_point_contribution": 0.62111801,
+          "author_percentage_point_contribution": 0.60240964
+        }
+      ]
+    },
+    {
+      "intersecting_label": "fire hazard",
+      "overall_value": 2.24001596,
+      "percent_topic_posts_with_label": 2.07039337,
+      "percent_topic_authors_using_label_on_topic_post": 2.40963855,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 2.24001596,
+          "post_percentage_point_contribution": 2.07039337,
+          "author_percentage_point_contribution": 2.40963855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pets and companion animals",
+      "overall_value": 2.24001596,
+      "percent_topic_posts_with_label": 2.07039337,
+      "percent_topic_authors_using_label_on_topic_post": 2.40963855,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 1.90401357,
+          "post_percentage_point_contribution": 1.75983437,
+          "author_percentage_point_contribution": 2.04819277
+        },
+        {
+          "component_label": "poor sanitation",
+          "value": 0.33600239,
+          "post_percentage_point_contribution": 0.31055901,
+          "author_percentage_point_contribution": 0.36144578
+        }
+      ]
+    },
+    {
+      "intersecting_label": "classroom",
+      "overall_value": 2.01601437,
+      "percent_topic_posts_with_label": 1.86335404,
+      "percent_topic_authors_using_label_on_topic_post": 2.1686747,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 1.34400958,
+          "post_percentage_point_contribution": 1.24223602,
+          "author_percentage_point_contribution": 1.44578313
+        },
+        {
+          "component_label": "indoor air quality",
+          "value": 0.44800319,
+          "post_percentage_point_contribution": 0.41407867,
+          "author_percentage_point_contribution": 0.48192771
+        },
+        {
+          "component_label": "poor sanitation",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        }
+      ]
+    },
+    {
+      "intersecting_label": "playground",
+      "overall_value": 2.01601437,
+      "percent_topic_posts_with_label": 1.86335404,
+      "percent_topic_authors_using_label_on_topic_post": 2.1686747,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 2.01601437,
+          "post_percentage_point_contribution": 1.86335404,
+          "author_percentage_point_contribution": 2.1686747
+        }
+      ]
+    },
+    {
+      "intersecting_label": "poverty or financial hardship",
+      "overall_value": 2.01601437,
+      "percent_topic_posts_with_label": 1.86335404,
+      "percent_topic_authors_using_label_on_topic_post": 2.1686747,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 1.79201277,
+          "post_percentage_point_contribution": 1.6563147,
+          "author_percentage_point_contribution": 1.92771084
+        },
+        {
+          "component_label": "mold and dampness",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        }
+      ]
+    },
+    {
+      "intersecting_label": "foster youth",
+      "overall_value": 1.79201277,
+      "percent_topic_posts_with_label": 1.6563147,
+      "percent_topic_authors_using_label_on_topic_post": 1.92771084,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 1.34400958,
+          "post_percentage_point_contribution": 1.24223602,
+          "author_percentage_point_contribution": 1.44578313
+        },
+        {
+          "component_label": "poor sanitation",
+          "value": 0.44800319,
+          "post_percentage_point_contribution": 0.41407867,
+          "author_percentage_point_contribution": 0.48192771
+        }
+      ]
+    },
+    {
+      "intersecting_label": "contaminated drinking water",
+      "overall_value": 1.56801118,
+      "percent_topic_posts_with_label": 1.44927536,
+      "percent_topic_authors_using_label_on_topic_post": 1.68674699,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 1.12000798,
+          "post_percentage_point_contribution": 1.03519669,
+          "author_percentage_point_contribution": 1.20481928
+        },
+        {
+          "component_label": "poor sanitation",
+          "value": 0.44800319,
+          "post_percentage_point_contribution": 0.41407867,
+          "author_percentage_point_contribution": 0.48192771
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental justice",
+      "overall_value": 1.56801118,
+      "percent_topic_posts_with_label": 1.44927536,
+      "percent_topic_authors_using_label_on_topic_post": 1.68674699,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.78400559,
+          "post_percentage_point_contribution": 0.72463768,
+          "author_percentage_point_contribution": 0.84337349
+        },
+        {
+          "component_label": "mold and dampness",
+          "value": 0.33600239,
+          "post_percentage_point_contribution": 0.31055901,
+          "author_percentage_point_contribution": 0.36144578
+        },
+        {
+          "component_label": "indoor air quality",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        },
+        {
+          "component_label": "poor sanitation",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school closure",
+      "overall_value": 1.56801118,
+      "percent_topic_posts_with_label": 1.44927536,
+      "percent_topic_authors_using_label_on_topic_post": 1.68674699,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.89600639,
+          "post_percentage_point_contribution": 0.82815735,
+          "author_percentage_point_contribution": 0.96385542
+        },
+        {
+          "component_label": "indoor air quality",
+          "value": 0.44800319,
+          "post_percentage_point_contribution": 0.41407867,
+          "author_percentage_point_contribution": 0.48192771
+        },
+        {
+          "component_label": "poor sanitation",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cleaning or disinfection",
+      "overall_value": 1.43056699,
+      "percent_topic_posts_with_label": 1.6563147,
+      "percent_topic_authors_using_label_on_topic_post": 1.20481928,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.67200479,
+          "post_percentage_point_contribution": 0.62111801,
+          "author_percentage_point_contribution": 0.72289157
+        },
+        {
+          "component_label": "mold and dampness",
+          "value": 0.7585622,
+          "post_percentage_point_contribution": 1.03519669,
+          "author_percentage_point_contribution": 0.48192771
+        }
+      ]
+    },
+    {
+      "intersecting_label": "extreme heat",
+      "overall_value": 1.34400958,
+      "percent_topic_posts_with_label": 1.24223602,
+      "percent_topic_authors_using_label_on_topic_post": 1.44578313,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 1.12000798,
+          "post_percentage_point_contribution": 1.03519669,
+          "author_percentage_point_contribution": 1.20481928
+        },
+        {
+          "component_label": "indoor air quality",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        }
+      ]
+    },
+    {
+      "intersecting_label": "neighborhood",
+      "overall_value": 1.34400958,
+      "percent_topic_posts_with_label": 1.24223602,
+      "percent_topic_authors_using_label_on_topic_post": 1.44578313,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 1.34400958,
+          "post_percentage_point_contribution": 1.24223602,
+          "author_percentage_point_contribution": 1.44578313
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health disparity",
+      "overall_value": 1.12000798,
+      "percent_topic_posts_with_label": 1.03519669,
+      "percent_topic_authors_using_label_on_topic_post": 1.20481928,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.44800319,
+          "post_percentage_point_contribution": 0.41407867,
+          "author_percentage_point_contribution": 0.48192771
+        },
+        {
+          "component_label": "poor sanitation",
+          "value": 0.67200479,
+          "post_percentage_point_contribution": 0.62111801,
+          "author_percentage_point_contribution": 0.72289157
+        }
+      ]
+    },
+    {
+      "intersecting_label": "household chemicals",
+      "overall_value": 1.12000798,
+      "percent_topic_posts_with_label": 1.03519669,
+      "percent_topic_authors_using_label_on_topic_post": 1.20481928,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.67200479,
+          "post_percentage_point_contribution": 0.62111801,
+          "author_percentage_point_contribution": 0.72289157
+        },
+        {
+          "component_label": "indoor air quality",
+          "value": 0.44800319,
+          "post_percentage_point_contribution": 0.41407867,
+          "author_percentage_point_contribution": 0.48192771
+        }
+      ]
+    },
+    {
+      "intersecting_label": "low-income populations",
+      "overall_value": 1.12000798,
+      "percent_topic_posts_with_label": 1.03519669,
+      "percent_topic_authors_using_label_on_topic_post": 1.20481928,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.67200479,
+          "post_percentage_point_contribution": 0.62111801,
+          "author_percentage_point_contribution": 0.72289157
+        },
+        {
+          "component_label": "poor sanitation",
+          "value": 0.44800319,
+          "post_percentage_point_contribution": 0.41407867,
+          "author_percentage_point_contribution": 0.48192771
+        }
+      ]
+    },
+    {
+      "intersecting_label": "toddlers",
+      "overall_value": 1.12000798,
+      "percent_topic_posts_with_label": 1.03519669,
+      "percent_topic_authors_using_label_on_topic_post": 1.20481928,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.89600639,
+          "post_percentage_point_contribution": 0.82815735,
+          "author_percentage_point_contribution": 0.96385542
+        },
+        {
+          "component_label": "poor sanitation",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic hazard",
+      "overall_value": 1.12000798,
+      "percent_topic_posts_with_label": 1.03519669,
+      "percent_topic_authors_using_label_on_topic_post": 1.20481928,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 1.12000798,
+          "post_percentage_point_contribution": 1.03519669,
+          "author_percentage_point_contribution": 1.20481928
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adolescents",
+      "overall_value": 0.89600639,
+      "percent_topic_posts_with_label": 0.82815735,
+      "percent_topic_authors_using_label_on_topic_post": 0.96385542,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.44800319,
+          "post_percentage_point_contribution": 0.41407867,
+          "author_percentage_point_contribution": 0.48192771
+        },
+        {
+          "component_label": "indoor air quality",
+          "value": 0.44800319,
+          "post_percentage_point_contribution": 0.41407867,
+          "author_percentage_point_contribution": 0.48192771
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childcare center",
+      "overall_value": 0.89600639,
+      "percent_topic_posts_with_label": 0.82815735,
+      "percent_topic_authors_using_label_on_topic_post": 0.96385542,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.67200479,
+          "post_percentage_point_contribution": 0.62111801,
+          "author_percentage_point_contribution": 0.72289157
+        },
+        {
+          "component_label": "poor sanitation",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        }
+      ]
+    },
+    {
+      "intersecting_label": "park or green space",
+      "overall_value": 0.89600639,
+      "percent_topic_posts_with_label": 0.82815735,
+      "percent_topic_authors_using_label_on_topic_post": 0.96385542,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.89600639,
+          "post_percentage_point_contribution": 0.82815735,
+          "author_percentage_point_contribution": 0.96385542
+        }
+      ]
+    },
+    {
+      "intersecting_label": "street or roadway",
+      "overall_value": 0.89600639,
+      "percent_topic_posts_with_label": 0.82815735,
+      "percent_topic_authors_using_label_on_topic_post": 0.96385542,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.89600639,
+          "post_percentage_point_contribution": 0.82815735,
+          "author_percentage_point_contribution": 0.96385542
+        }
+      ]
+    },
+    {
+      "intersecting_label": "asthma",
+      "overall_value": 0.86208187,
+      "percent_topic_posts_with_label": 1.24223602,
+      "percent_topic_authors_using_label_on_topic_post": 0.48192771,
+      "links": [
+        {
+          "component_label": "mold and dampness",
+          "value": 0.86208187,
+          "post_percentage_point_contribution": 1.24223602,
+          "author_percentage_point_contribution": 0.48192771
+        }
+      ]
+    },
+    {
+      "intersecting_label": "air filtration",
+      "overall_value": 0.67200479,
+      "percent_topic_posts_with_label": 0.62111801,
+      "percent_topic_authors_using_label_on_topic_post": 0.72289157,
+      "links": [
+        {
+          "component_label": "indoor air quality",
+          "value": 0.67200479,
+          "post_percentage_point_contribution": 0.62111801,
+          "author_percentage_point_contribution": 0.72289157
+        }
+      ]
+    },
+    {
+      "intersecting_label": "children with disabilities",
+      "overall_value": 0.67200479,
+      "percent_topic_posts_with_label": 0.62111801,
+      "percent_topic_authors_using_label_on_topic_post": 0.72289157,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.67200479,
+          "post_percentage_point_contribution": 0.62111801,
+          "author_percentage_point_contribution": 0.72289157
+        }
+      ]
+    },
+    {
+      "intersecting_label": "flooding",
+      "overall_value": 0.67200479,
+      "percent_topic_posts_with_label": 0.62111801,
+      "percent_topic_authors_using_label_on_topic_post": 0.72289157,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.67200479,
+          "post_percentage_point_contribution": 0.62111801,
+          "author_percentage_point_contribution": 0.72289157
+        }
+      ]
+    },
+    {
+      "intersecting_label": "hazardous chemicals",
+      "overall_value": 0.67200479,
+      "percent_topic_posts_with_label": 0.62111801,
+      "percent_topic_authors_using_label_on_topic_post": 0.72289157,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.67200479,
+          "post_percentage_point_contribution": 0.62111801,
+          "author_percentage_point_contribution": 0.72289157
+        }
+      ]
+    },
+    {
+      "intersecting_label": "motor vehicle",
+      "overall_value": 0.67200479,
+      "percent_topic_posts_with_label": 0.62111801,
+      "percent_topic_authors_using_label_on_topic_post": 0.72289157,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.67200479,
+          "post_percentage_point_contribution": 0.62111801,
+          "author_percentage_point_contribution": 0.72289157
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sports or recreation facility",
+      "overall_value": 0.67200479,
+      "percent_topic_posts_with_label": 0.62111801,
+      "percent_topic_authors_using_label_on_topic_post": 0.72289157,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.44800319,
+          "post_percentage_point_contribution": 0.41407867,
+          "author_percentage_point_contribution": 0.48192771
+        },
+        {
+          "component_label": "mold and dampness",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        }
+      ]
+    },
+    {
+      "intersecting_label": "stress or distress",
+      "overall_value": 0.67200479,
+      "percent_topic_posts_with_label": 0.62111801,
+      "percent_topic_authors_using_label_on_topic_post": 0.72289157,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.67200479,
+          "post_percentage_point_contribution": 0.62111801,
+          "author_percentage_point_contribution": 0.72289157
+        }
+      ]
+    },
+    {
+      "intersecting_label": "COVID-19",
+      "overall_value": 0.44800319,
+      "percent_topic_posts_with_label": 0.41407867,
+      "percent_topic_authors_using_label_on_topic_post": 0.48192771,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.33600239,
+          "post_percentage_point_contribution": 0.31055901,
+          "author_percentage_point_contribution": 0.36144578
+        },
+        {
+          "component_label": "indoor air quality",
+          "value": 0.1120008,
+          "post_percentage_point_contribution": 0.10351967,
+          "author_percentage_point_contribution": 0.12048193
+        }
+      ]
+    },
+    {
+      "intersecting_label": "allergens",
+      "overall_value": 0.44800319,
+      "percent_topic_posts_with_label": 0.41407867,
+      "percent_topic_authors_using_label_on_topic_post": 0.48192771,
+      "links": [
+        {
+          "component_label": "mold and dampness",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        },
+        {
+          "component_label": "indoor air quality",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        }
+      ]
+    },
+    {
+      "intersecting_label": "apartment",
+      "overall_value": 0.44800319,
+      "percent_topic_posts_with_label": 0.41407867,
+      "percent_topic_authors_using_label_on_topic_post": 0.48192771,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.44800319,
+          "post_percentage_point_contribution": 0.41407867,
+          "author_percentage_point_contribution": 0.48192771
+        }
+      ]
+    },
+    {
+      "intersecting_label": "beach or coastal area",
+      "overall_value": 0.44800319,
+      "percent_topic_posts_with_label": 0.41407867,
+      "percent_topic_authors_using_label_on_topic_post": 0.48192771,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.44800319,
+          "post_percentage_point_contribution": 0.41407867,
+          "author_percentage_point_contribution": 0.48192771
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cleaning and disinfecting chemicals",
+      "overall_value": 0.44800319,
+      "percent_topic_posts_with_label": 0.41407867,
+      "percent_topic_authors_using_label_on_topic_post": 0.48192771,
+      "links": [
+        {
+          "component_label": "indoor air quality",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        },
+        {
+          "component_label": "poor sanitation",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        }
+      ]
+    },
+    {
+      "intersecting_label": "climate change",
+      "overall_value": 0.44800319,
+      "percent_topic_posts_with_label": 0.41407867,
+      "percent_topic_authors_using_label_on_topic_post": 0.48192771,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        },
+        {
+          "component_label": "poor sanitation",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        }
+      ]
+    },
+    {
+      "intersecting_label": "discrimination",
+      "overall_value": 0.44800319,
+      "percent_topic_posts_with_label": 0.41407867,
+      "percent_topic_authors_using_label_on_topic_post": 0.48192771,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.44800319,
+          "post_percentage_point_contribution": 0.41407867,
+          "author_percentage_point_contribution": 0.48192771
+        }
+      ]
+    },
+    {
+      "intersecting_label": "dust and particulate matter",
+      "overall_value": 0.44800319,
+      "percent_topic_posts_with_label": 0.41407867,
+      "percent_topic_authors_using_label_on_topic_post": 0.48192771,
+      "links": [
+        {
+          "component_label": "mold and dampness",
+          "value": 0.44800319,
+          "post_percentage_point_contribution": 0.41407867,
+          "author_percentage_point_contribution": 0.48192771
+        }
+      ]
+    },
+    {
+      "intersecting_label": "educational access",
+      "overall_value": 0.44800319,
+      "percent_topic_posts_with_label": 0.41407867,
+      "percent_topic_authors_using_label_on_topic_post": 0.48192771,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        },
+        {
+          "component_label": "poor sanitation",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental policy or regulation",
+      "overall_value": 0.44800319,
+      "percent_topic_posts_with_label": 0.41407867,
+      "percent_topic_authors_using_label_on_topic_post": 0.48192771,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        },
+        {
+          "component_label": "indoor air quality",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        }
+      ]
+    },
+    {
+      "intersecting_label": "garden or yard",
+      "overall_value": 0.44800319,
+      "percent_topic_posts_with_label": 0.41407867,
+      "percent_topic_authors_using_label_on_topic_post": 0.48192771,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.44800319,
+          "post_percentage_point_contribution": 0.41407867,
+          "author_percentage_point_contribution": 0.48192771
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare workers",
+      "overall_value": 0.44800319,
+      "percent_topic_posts_with_label": 0.41407867,
+      "percent_topic_authors_using_label_on_topic_post": 0.48192771,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        },
+        {
+          "component_label": "poor sanitation",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        }
+      ]
+    },
+    {
+      "intersecting_label": "heat-related illness",
+      "overall_value": 0.44800319,
+      "percent_topic_posts_with_label": 0.41407867,
+      "percent_topic_authors_using_label_on_topic_post": 0.48192771,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.44800319,
+          "post_percentage_point_contribution": 0.41407867,
+          "author_percentage_point_contribution": 0.48192771
+        }
+      ]
+    },
+    {
+      "intersecting_label": "housing quality",
+      "overall_value": 0.44800319,
+      "percent_topic_posts_with_label": 0.41407867,
+      "percent_topic_authors_using_label_on_topic_post": 0.48192771,
+      "links": [
+        {
+          "component_label": "mold and dampness",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        },
+        {
+          "component_label": "poor sanitation",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        }
+      ]
+    },
+    {
+      "intersecting_label": "insects and pests",
+      "overall_value": 0.44800319,
+      "percent_topic_posts_with_label": 0.41407867,
+      "percent_topic_authors_using_label_on_topic_post": 0.48192771,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.44800319,
+          "post_percentage_point_contribution": 0.41407867,
+          "author_percentage_point_contribution": 0.48192771
+        }
+      ]
+    },
+    {
+      "intersecting_label": "lead exposure",
+      "overall_value": 0.44800319,
+      "percent_topic_posts_with_label": 0.41407867,
+      "percent_topic_authors_using_label_on_topic_post": 0.48192771,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.33600239,
+          "post_percentage_point_contribution": 0.31055901,
+          "author_percentage_point_contribution": 0.36144578
+        },
+        {
+          "component_label": "mold and dampness",
+          "value": 0.1120008,
+          "post_percentage_point_contribution": 0.10351967,
+          "author_percentage_point_contribution": 0.12048193
+        }
+      ]
+    },
+    {
+      "intersecting_label": "natural disaster",
+      "overall_value": 0.44800319,
+      "percent_topic_posts_with_label": 0.41407867,
+      "percent_topic_authors_using_label_on_topic_post": 0.48192771,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.44800319,
+          "post_percentage_point_contribution": 0.41407867,
+          "author_percentage_point_contribution": 0.48192771
+        }
+      ]
+    },
+    {
+      "intersecting_label": "outdoor environment",
+      "overall_value": 0.44800319,
+      "percent_topic_posts_with_label": 0.41407867,
+      "percent_topic_authors_using_label_on_topic_post": 0.48192771,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.44800319,
+          "post_percentage_point_contribution": 0.41407867,
+          "author_percentage_point_contribution": 0.48192771
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pregnant people",
+      "overall_value": 0.44800319,
+      "percent_topic_posts_with_label": 0.41407867,
+      "percent_topic_authors_using_label_on_topic_post": 0.48192771,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.44800319,
+          "post_percentage_point_contribution": 0.41407867,
+          "author_percentage_point_contribution": 0.48192771
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sewage or wastewater",
+      "overall_value": 0.44800319,
+      "percent_topic_posts_with_label": 0.41407867,
+      "percent_topic_authors_using_label_on_topic_post": 0.48192771,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.44800319,
+          "post_percentage_point_contribution": 0.41407867,
+          "author_percentage_point_contribution": 0.48192771
+        }
+      ]
+    },
+    {
+      "intersecting_label": "water pollution",
+      "overall_value": 0.44800319,
+      "percent_topic_posts_with_label": 0.41407867,
+      "percent_topic_authors_using_label_on_topic_post": 0.48192771,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.44800319,
+          "post_percentage_point_contribution": 0.41407867,
+          "author_percentage_point_contribution": 0.48192771
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildfire smoke",
+      "overall_value": 0.44800319,
+      "percent_topic_posts_with_label": 0.41407867,
+      "percent_topic_authors_using_label_on_topic_post": 0.48192771,
+      "links": [
+        {
+          "component_label": "indoor air quality",
+          "value": 0.44800319,
+          "post_percentage_point_contribution": 0.41407867,
+          "author_percentage_point_contribution": 0.48192771
+        }
+      ]
+    },
+    {
+      "intersecting_label": "workplace",
+      "overall_value": 0.44800319,
+      "percent_topic_posts_with_label": 0.41407867,
+      "percent_topic_authors_using_label_on_topic_post": 0.48192771,
+      "links": [
+        {
+          "component_label": "poor sanitation",
+          "value": 0.44800319,
+          "post_percentage_point_contribution": 0.41407867,
+          "author_percentage_point_contribution": 0.48192771
+        }
+      ]
+    },
+    {
+      "intersecting_label": "advocacy",
+      "overall_value": 0.2240016,
+      "percent_topic_posts_with_label": 0.20703934,
+      "percent_topic_authors_using_label_on_topic_post": 0.24096386,
+      "links": [
+        {
+          "component_label": "indoor air quality",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        }
+      ]
+    },
+    {
+      "intersecting_label": "anxiety",
+      "overall_value": 0.2240016,
+      "percent_topic_posts_with_label": 0.20703934,
+      "percent_topic_authors_using_label_on_topic_post": 0.24096386,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        }
+      ]
+    },
+    {
+      "intersecting_label": "asbestos",
+      "overall_value": 0.2240016,
+      "percent_topic_posts_with_label": 0.20703934,
+      "percent_topic_authors_using_label_on_topic_post": 0.24096386,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.1120008,
+          "post_percentage_point_contribution": 0.10351967,
+          "author_percentage_point_contribution": 0.12048193
+        },
+        {
+          "component_label": "mold and dampness",
+          "value": 0.1120008,
+          "post_percentage_point_contribution": 0.10351967,
+          "author_percentage_point_contribution": 0.12048193
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cancer",
+      "overall_value": 0.2240016,
+      "percent_topic_posts_with_label": 0.20703934,
+      "percent_topic_authors_using_label_on_topic_post": 0.24096386,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        }
+      ]
+    },
+    {
+      "intersecting_label": "carbon monoxide",
+      "overall_value": 0.2240016,
+      "percent_topic_posts_with_label": 0.20703934,
+      "percent_topic_authors_using_label_on_topic_post": 0.24096386,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childcare workers",
+      "overall_value": 0.2240016,
+      "percent_topic_posts_with_label": 0.20703934,
+      "percent_topic_authors_using_label_on_topic_post": 0.24096386,
+      "links": [
+        {
+          "component_label": "poor sanitation",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        }
+      ]
+    },
+    {
+      "intersecting_label": "drug exposure or use",
+      "overall_value": 0.2240016,
+      "percent_topic_posts_with_label": 0.20703934,
+      "percent_topic_authors_using_label_on_topic_post": 0.24096386,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        }
+      ]
+    },
+    {
+      "intersecting_label": "emergency response",
+      "overall_value": 0.2240016,
+      "percent_topic_posts_with_label": 0.20703934,
+      "percent_topic_authors_using_label_on_topic_post": 0.24096386,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        }
+      ]
+    },
+    {
+      "intersecting_label": "evacuation",
+      "overall_value": 0.2240016,
+      "percent_topic_posts_with_label": 0.20703934,
+      "percent_topic_authors_using_label_on_topic_post": 0.24096386,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        }
+      ]
+    },
+    {
+      "intersecting_label": "extreme cold",
+      "overall_value": 0.2240016,
+      "percent_topic_posts_with_label": 0.20703934,
+      "percent_topic_authors_using_label_on_topic_post": 0.24096386,
+      "links": [
+        {
+          "component_label": "poor sanitation",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        }
+      ]
+    },
+    {
+      "intersecting_label": "fever",
+      "overall_value": 0.2240016,
+      "percent_topic_posts_with_label": 0.20703934,
+      "percent_topic_authors_using_label_on_topic_post": 0.24096386,
+      "links": [
+        {
+          "component_label": "poor sanitation",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare access",
+      "overall_value": 0.2240016,
+      "percent_topic_posts_with_label": 0.20703934,
+      "percent_topic_authors_using_label_on_topic_post": 0.24096386,
+      "links": [
+        {
+          "component_label": "poor sanitation",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        }
+      ]
+    },
+    {
+      "intersecting_label": "hurricane or severe storm",
+      "overall_value": 0.2240016,
+      "percent_topic_posts_with_label": 0.20703934,
+      "percent_topic_authors_using_label_on_topic_post": 0.24096386,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        }
+      ]
+    },
+    {
+      "intersecting_label": "industrial chemicals",
+      "overall_value": 0.2240016,
+      "percent_topic_posts_with_label": 0.20703934,
+      "percent_topic_authors_using_label_on_topic_post": 0.24096386,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        }
+      ]
+    },
+    {
+      "intersecting_label": "industrial site",
+      "overall_value": 0.2240016,
+      "percent_topic_posts_with_label": 0.20703934,
+      "percent_topic_authors_using_label_on_topic_post": 0.24096386,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        }
+      ]
+    },
+    {
+      "intersecting_label": "medical care",
+      "overall_value": 0.2240016,
+      "percent_topic_posts_with_label": 0.20703934,
+      "percent_topic_authors_using_label_on_topic_post": 0.24096386,
+      "links": [
+        {
+          "component_label": "mold and dampness",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pesticides",
+      "overall_value": 0.2240016,
+      "percent_topic_posts_with_label": 0.20703934,
+      "percent_topic_authors_using_label_on_topic_post": 0.24096386,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        }
+      ]
+    },
+    {
+      "intersecting_label": "radon",
+      "overall_value": 0.2240016,
+      "percent_topic_posts_with_label": 0.20703934,
+      "percent_topic_authors_using_label_on_topic_post": 0.24096386,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        }
+      ]
+    },
+    {
+      "intersecting_label": "restaurant or food store",
+      "overall_value": 0.2240016,
+      "percent_topic_posts_with_label": 0.20703934,
+      "percent_topic_authors_using_label_on_topic_post": 0.24096386,
+      "links": [
+        {
+          "component_label": "poor sanitation",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        }
+      ]
+    },
+    {
+      "intersecting_label": "scientific research",
+      "overall_value": 0.2240016,
+      "percent_topic_posts_with_label": 0.20703934,
+      "percent_topic_authors_using_label_on_topic_post": 0.24096386,
+      "links": [
+        {
+          "component_label": "mold and dampness",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        }
+      ]
+    },
+    {
+      "intersecting_label": "secondhand tobacco smoke",
+      "overall_value": 0.2240016,
+      "percent_topic_posts_with_label": 0.20703934,
+      "percent_topic_authors_using_label_on_topic_post": 0.24096386,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sleep problem",
+      "overall_value": 0.2240016,
+      "percent_topic_posts_with_label": 0.20703934,
+      "percent_topic_authors_using_label_on_topic_post": 0.24096386,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        }
+      ]
+    },
+    {
+      "intersecting_label": "smog or ozone",
+      "overall_value": 0.2240016,
+      "percent_topic_posts_with_label": 0.20703934,
+      "percent_topic_authors_using_label_on_topic_post": 0.24096386,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        }
+      ]
+    },
+    {
+      "intersecting_label": "social support",
+      "overall_value": 0.2240016,
+      "percent_topic_posts_with_label": 0.20703934,
+      "percent_topic_authors_using_label_on_topic_post": 0.24096386,
+      "links": [
+        {
+          "component_label": "poor sanitation",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        }
+      ]
+    },
+    {
+      "intersecting_label": "transportation access",
+      "overall_value": 0.2240016,
+      "percent_topic_posts_with_label": 0.20703934,
+      "percent_topic_authors_using_label_on_topic_post": 0.24096386,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        }
+      ]
+    },
+    {
+      "intersecting_label": "vaping aerosol",
+      "overall_value": 0.2240016,
+      "percent_topic_posts_with_label": 0.20703934,
+      "percent_topic_authors_using_label_on_topic_post": 0.24096386,
+      "links": [
+        {
+          "component_label": "indoor air quality",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        }
+      ]
+    },
+    {
+      "intersecting_label": "ventilation",
+      "overall_value": 0.2240016,
+      "percent_topic_posts_with_label": 0.20703934,
+      "percent_topic_authors_using_label_on_topic_post": 0.24096386,
+      "links": [
+        {
+          "component_label": "indoor air quality",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        }
+      ]
+    },
+    {
+      "intersecting_label": "walking or bicycling",
+      "overall_value": 0.2240016,
+      "percent_topic_posts_with_label": 0.20703934,
+      "percent_topic_authors_using_label_on_topic_post": 0.24096386,
+      "links": [
+        {
+          "component_label": "poor sanitation",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        }
+      ]
+    },
+    {
+      "intersecting_label": "winter storm or snow hazard",
+      "overall_value": 0.2240016,
+      "percent_topic_posts_with_label": 0.20703934,
+      "percent_topic_authors_using_label_on_topic_post": 0.24096386,
+      "links": [
+        {
+          "component_label": "unsafe housing conditions",
+          "value": 0.2240016,
+          "post_percentage_point_contribution": 0.20703934,
+          "author_percentage_point_contribution": 0.24096386
+        }
+      ]
+    }
+  ]
+}

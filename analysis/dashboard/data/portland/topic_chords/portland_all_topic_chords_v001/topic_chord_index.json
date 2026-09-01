@@ -1,0 +1,254 @@
+{
+  "schema_version": "1.0.0",
+  "city_id": "38900",
+  "topics": [
+    {
+      "domain": "environmental",
+      "category_id": "environmental-01",
+      "topic": "Air pollution",
+      "file": "topics/environmental-01-air-pollution.json",
+      "component_label_count": 9,
+      "intersecting_label_count": 145
+    },
+    {
+      "domain": "environmental",
+      "category_id": "environmental-02",
+      "topic": "Water pollution",
+      "file": "topics/environmental-02-water-pollution.json",
+      "component_label_count": 3,
+      "intersecting_label_count": 97
+    },
+    {
+      "domain": "environmental",
+      "category_id": "environmental-03",
+      "topic": "Heat",
+      "file": "topics/environmental-03-heat.json",
+      "component_label_count": 1,
+      "intersecting_label_count": 98
+    },
+    {
+      "domain": "environmental",
+      "category_id": "environmental-04",
+      "topic": "Chemicals and toxic metals",
+      "file": "topics/environmental-04-chemicals-and-toxic-metals.json",
+      "component_label_count": 17,
+      "intersecting_label_count": 121
+    },
+    {
+      "domain": "environmental",
+      "category_id": "environmental-05",
+      "topic": "Housing and indoor conditions",
+      "file": "topics/environmental-05-housing-and-indoor-conditions.json",
+      "component_label_count": 4,
+      "intersecting_label_count": 97
+    },
+    {
+      "domain": "environmental",
+      "category_id": "environmental-06",
+      "topic": "Allergens and biological exposures",
+      "file": "topics/environmental-06-allergens-and-biological-exposures.json",
+      "component_label_count": 4,
+      "intersecting_label_count": 88
+    },
+    {
+      "domain": "environmental",
+      "category_id": "environmental-07",
+      "topic": "Cold, severe weather, and natural hazards",
+      "file": "topics/environmental-07-cold-severe-weather-and-natural-hazards.json",
+      "component_label_count": 10,
+      "intersecting_label_count": 131
+    },
+    {
+      "domain": "environmental",
+      "category_id": "environmental-08",
+      "topic": "Food contamination",
+      "file": "topics/environmental-08-food-contamination.json",
+      "component_label_count": 1,
+      "intersecting_label_count": 94
+    },
+    {
+      "domain": "environmental",
+      "category_id": "environmental-09",
+      "topic": "Noise pollution",
+      "file": "topics/environmental-09-noise-pollution.json",
+      "component_label_count": 1,
+      "intersecting_label_count": 56
+    },
+    {
+      "domain": "environmental",
+      "category_id": "environmental-10",
+      "topic": "Radiation",
+      "file": "topics/environmental-10-radiation.json",
+      "component_label_count": 2,
+      "intersecting_label_count": 30
+    },
+    {
+      "domain": "environmental",
+      "category_id": "environmental-11",
+      "topic": "Climate change",
+      "file": "topics/environmental-11-climate-change.json",
+      "component_label_count": 1,
+      "intersecting_label_count": 88
+    },
+    {
+      "domain": "health",
+      "category_id": "health-01",
+      "topic": "Respiratory and allergic health",
+      "file": "topics/health-01-respiratory-and-allergic-health.json",
+      "component_label_count": 8,
+      "intersecting_label_count": 142
+    },
+    {
+      "domain": "health",
+      "category_id": "health-02",
+      "topic": "Infectious diseases",
+      "file": "topics/health-02-infectious-diseases.json",
+      "component_label_count": 4,
+      "intersecting_label_count": 158
+    },
+    {
+      "domain": "health",
+      "category_id": "health-03",
+      "topic": "Mental and behavioral health",
+      "file": "topics/health-03-mental-and-behavioral-health.json",
+      "component_label_count": 5,
+      "intersecting_label_count": 157
+    },
+    {
+      "domain": "health",
+      "category_id": "health-04",
+      "topic": "Sleep health",
+      "file": "topics/health-04-sleep-health.json",
+      "component_label_count": 1,
+      "intersecting_label_count": 83
+    },
+    {
+      "domain": "health",
+      "category_id": "health-05",
+      "topic": "Birth, developmental and neurological health",
+      "file": "topics/health-05-birth-developmental-and-neurological-health.json",
+      "component_label_count": 11,
+      "intersecting_label_count": 139
+    },
+    {
+      "domain": "health",
+      "category_id": "health-06",
+      "topic": "Food insecurity and nutrition",
+      "file": "topics/health-06-food-insecurity-and-nutrition.json",
+      "component_label_count": 2,
+      "intersecting_label_count": 124
+    },
+    {
+      "domain": "health",
+      "category_id": "health-07",
+      "topic": "Injuries",
+      "file": "topics/health-07-injuries.json",
+      "component_label_count": 3,
+      "intersecting_label_count": 127
+    },
+    {
+      "domain": "health",
+      "category_id": "health-08",
+      "topic": "Cancer",
+      "file": "topics/health-08-cancer.json",
+      "component_label_count": 2,
+      "intersecting_label_count": 138
+    },
+    {
+      "domain": "health",
+      "category_id": "health-09",
+      "topic": "Mortality",
+      "file": "topics/health-09-mortality.json",
+      "component_label_count": 1,
+      "intersecting_label_count": 135
+    },
+    {
+      "domain": "health",
+      "category_id": "health-10",
+      "topic": "Other health conditions",
+      "file": "topics/health-10-other-health-conditions.json",
+      "component_label_count": 14,
+      "intersecting_label_count": 147
+    },
+    {
+      "domain": "social_structural",
+      "category_id": "social_structural-01",
+      "topic": "Violence and crime",
+      "file": "topics/social_structural-01-violence-and-crime.json",
+      "component_label_count": 1,
+      "intersecting_label_count": 144
+    },
+    {
+      "domain": "social_structural",
+      "category_id": "social_structural-02",
+      "topic": "Child maltreatment and welfare",
+      "file": "topics/social_structural-02-child-maltreatment-and-welfare.json",
+      "component_label_count": 2,
+      "intersecting_label_count": 154
+    },
+    {
+      "domain": "social_structural",
+      "category_id": "social_structural-03",
+      "topic": "School and activity disruption",
+      "file": "topics/social_structural-03-school-and-activity-disruption.json",
+      "component_label_count": 2,
+      "intersecting_label_count": 146
+    },
+    {
+      "domain": "social_structural",
+      "category_id": "social_structural-04",
+      "topic": "Service access",
+      "file": "topics/social_structural-04-service-access.json",
+      "component_label_count": 3,
+      "intersecting_label_count": 136
+    },
+    {
+      "domain": "social_structural",
+      "category_id": "social_structural-05",
+      "topic": "Economic and housing insecurity",
+      "file": "topics/social_structural-05-economic-and-housing-insecurity.json",
+      "component_label_count": 2,
+      "intersecting_label_count": 143
+    },
+    {
+      "domain": "social_structural",
+      "category_id": "social_structural-06",
+      "topic": "Food security and access",
+      "file": "topics/social_structural-06-food-security-and-access.json",
+      "component_label_count": 2,
+      "intersecting_label_count": 130
+    },
+    {
+      "domain": "social_structural",
+      "category_id": "social_structural-07",
+      "topic": "Inequality and environmental justice",
+      "file": "topics/social_structural-07-inequality-and-environmental-justice.json",
+      "component_label_count": 3,
+      "intersecting_label_count": 162
+    },
+    {
+      "domain": "social_structural",
+      "category_id": "social_structural-08",
+      "topic": "Alcohol and drug exposure",
+      "file": "topics/social_structural-08-alcohol-and-drug-exposure.json",
+      "component_label_count": 2,
+      "intersecting_label_count": 123
+    },
+    {
+      "domain": "social_structural",
+      "category_id": "social_structural-09",
+      "topic": "Traffic safety hazards",
+      "file": "topics/social_structural-09-traffic-safety-hazards.json",
+      "component_label_count": 1,
+      "intersecting_label_count": 86
+    },
+    {
+      "domain": "social_structural",
+      "category_id": "social_structural-10",
+      "topic": "Community support and resources",
+      "file": "topics/social_structural-10-community-support-and-resources.json",
+      "component_label_count": 3,
+      "intersecting_label_count": 120
+    }
+  ]
+}

@@ -1,0 +1,5395 @@
+{
+  "schema_version": "1.0.0",
+  "city_id": "38900",
+  "domain": "health",
+  "category_id": "health-10",
+  "topic": "Other health conditions",
+  "component_labels": [
+    "lead poisoning",
+    "acute poisoning",
+    "heat-related illness",
+    "dental caries",
+    "toothache or dental problem",
+    "skin condition",
+    "obesity",
+    "diabetes",
+    "gastrointestinal illness",
+    "cardiovascular condition",
+    "kidney disease",
+    "liver disease",
+    "fever",
+    "pain"
+  ],
+  "intersections": [
+    {
+      "intersecting_label": "children",
+      "overall_value": 49.19345611,
+      "percent_topic_posts_with_label": 47.66681204,
+      "percent_topic_authors_using_label_on_topic_post": 50.72010019,
+      "links": [
+        {
+          "component_label": "lead poisoning",
+          "value": 0.93314411,
+          "post_percentage_point_contribution": 1.17749673,
+          "author_percentage_point_contribution": 0.68879148
+        },
+        {
+          "component_label": "acute poisoning",
+          "value": 1.88912026,
+          "post_percentage_point_contribution": 1.78805059,
+          "author_percentage_point_contribution": 1.99018994
+        },
+        {
+          "component_label": "heat-related illness",
+          "value": 1.84075767,
+          "post_percentage_point_contribution": 1.7226341,
+          "author_percentage_point_contribution": 1.95888124
+        },
+        {
+          "component_label": "dental caries",
+          "value": 1.15754158,
+          "post_percentage_point_contribution": 1.17022823,
+          "author_percentage_point_contribution": 1.14485494
+        },
+        {
+          "component_label": "toothache or dental problem",
+          "value": 1.88007788,
+          "post_percentage_point_contribution": 1.64994912,
+          "author_percentage_point_contribution": 2.11020664
+        },
+        {
+          "component_label": "skin condition",
+          "value": 4.45256738,
+          "post_percentage_point_contribution": 4.13577555,
+          "author_percentage_point_contribution": 4.76935922
+        },
+        {
+          "component_label": "obesity",
+          "value": 7.27858934,
+          "post_percentage_point_contribution": 6.85419392,
+          "author_percentage_point_contribution": 7.70298476
+        },
+        {
+          "component_label": "diabetes",
+          "value": 4.34952515,
+          "post_percentage_point_contribution": 4.02674807,
+          "author_percentage_point_contribution": 4.67230223
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 10.01285186,
+          "post_percentage_point_contribution": 9.74705626,
+          "author_percentage_point_contribution": 10.27864746
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 4.26625647,
+          "post_percentage_point_contribution": 3.93952609,
+          "author_percentage_point_contribution": 4.59298685
+        },
+        {
+          "component_label": "kidney disease",
+          "value": 0.74280048,
+          "post_percentage_point_contribution": 0.71958133,
+          "author_percentage_point_contribution": 0.76601962
+        },
+        {
+          "component_label": "liver disease",
+          "value": 0.27584133,
+          "post_percentage_point_contribution": 0.28347143,
+          "author_percentage_point_contribution": 0.26821123
+        },
+        {
+          "component_label": "fever",
+          "value": 4.74094926,
+          "post_percentage_point_contribution": 5.02980084,
+          "author_percentage_point_contribution": 4.45209768
+        },
+        {
+          "component_label": "pain",
+          "value": 5.37343332,
+          "post_percentage_point_contribution": 5.42229975,
+          "author_percentage_point_contribution": 5.3245669
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school",
+      "overall_value": 13.65152334,
+      "percent_topic_posts_with_label": 13.21412996,
+      "percent_topic_authors_using_label_on_topic_post": 14.08891672,
+      "links": [
+        {
+          "component_label": "lead poisoning",
+          "value": 0.2124568,
+          "post_percentage_point_contribution": 0.17444396,
+          "author_percentage_point_contribution": 0.25046963
+        },
+        {
+          "component_label": "acute poisoning",
+          "value": 0.51045954,
+          "post_percentage_point_contribution": 0.56694287,
+          "author_percentage_point_contribution": 0.45397621
+        },
+        {
+          "component_label": "heat-related illness",
+          "value": 0.31393359,
+          "post_percentage_point_contribution": 0.28347143,
+          "author_percentage_point_contribution": 0.34439574
+        },
+        {
+          "component_label": "dental caries",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "toothache or dental problem",
+          "value": 0.65442428,
+          "post_percentage_point_contribution": 0.58874836,
+          "author_percentage_point_contribution": 0.72010019
+        },
+        {
+          "component_label": "skin condition",
+          "value": 1.6213826,
+          "post_percentage_point_contribution": 1.39555168,
+          "author_percentage_point_contribution": 1.84721353
+        },
+        {
+          "component_label": "obesity",
+          "value": 1.24343207,
+          "post_percentage_point_contribution": 1.04666376,
+          "author_percentage_point_contribution": 1.44020038
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.39192885,
+          "post_percentage_point_contribution": 0.39249891,
+          "author_percentage_point_contribution": 0.3913588
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 3.39595666,
+          "post_percentage_point_contribution": 2.87832534,
+          "author_percentage_point_contribution": 3.91358798
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.52471435,
+          "post_percentage_point_contribution": 0.50152638,
+          "author_percentage_point_contribution": 0.54790232
+        },
+        {
+          "component_label": "kidney disease",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "fever",
+          "value": 2.13940989,
+          "post_percentage_point_contribution": 2.68207588,
+          "author_percentage_point_contribution": 1.59674389
+        },
+        {
+          "component_label": "pain",
+          "value": 2.43096793,
+          "post_percentage_point_contribution": 2.52943742,
+          "author_percentage_point_contribution": 2.33249843
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infants",
+      "overall_value": 12.63896736,
+      "percent_topic_posts_with_label": 11.25163541,
+      "percent_topic_authors_using_label_on_topic_post": 14.02629931,
+      "links": [
+        {
+          "component_label": "lead poisoning",
+          "value": 0.09057405,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.09392611
+        },
+        {
+          "component_label": "acute poisoning",
+          "value": 0.72272631,
+          "post_percentage_point_contribution": 0.61055386,
+          "author_percentage_point_contribution": 0.83489877
+        },
+        {
+          "component_label": "heat-related illness",
+          "value": 0.1593426,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.18785222
+        },
+        {
+          "component_label": "dental caries",
+          "value": 0.24469852,
+          "post_percentage_point_contribution": 0.21805495,
+          "author_percentage_point_contribution": 0.2713421
+        },
+        {
+          "component_label": "toothache or dental problem",
+          "value": 0.48417893,
+          "post_percentage_point_contribution": 0.4361099,
+          "author_percentage_point_contribution": 0.53224796
+        },
+        {
+          "component_label": "skin condition",
+          "value": 1.05475742,
+          "post_percentage_point_contribution": 0.95944178,
+          "author_percentage_point_contribution": 1.15007305
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.52210529,
+          "post_percentage_point_contribution": 0.50152638,
+          "author_percentage_point_contribution": 0.5426842
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.60084356,
+          "post_percentage_point_contribution": 0.52333188,
+          "author_percentage_point_contribution": 0.67835525
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 3.71466597,
+          "post_percentage_point_contribution": 3.33624073,
+          "author_percentage_point_contribution": 4.09309121
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.71855182,
+          "post_percentage_point_contribution": 0.61055386,
+          "author_percentage_point_contribution": 0.82654978
+        },
+        {
+          "component_label": "kidney disease",
+          "value": 0.0796713,
+          "post_percentage_point_contribution": 0.06541648,
+          "author_percentage_point_contribution": 0.09392611
+        },
+        {
+          "component_label": "liver disease",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "fever",
+          "value": 2.15068266,
+          "post_percentage_point_contribution": 1.94068905,
+          "author_percentage_point_contribution": 2.36067627
+        },
+        {
+          "component_label": "pain",
+          "value": 2.04305472,
+          "post_percentage_point_contribution": 1.78805059,
+          "author_percentage_point_contribution": 2.29805886
+        }
+      ]
+    },
+    {
+      "intersecting_label": "parents and caregivers",
+      "overall_value": 9.88093408,
+      "percent_topic_posts_with_label": 8.678587,
+      "percent_topic_authors_using_label_on_topic_post": 11.08328115,
+      "links": [
+        {
+          "component_label": "lead poisoning",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "acute poisoning",
+          "value": 0.61789746,
+          "post_percentage_point_contribution": 0.58874836,
+          "author_percentage_point_contribution": 0.64704655
+        },
+        {
+          "component_label": "heat-related illness",
+          "value": 0.27172214,
+          "post_percentage_point_contribution": 0.26166594,
+          "author_percentage_point_contribution": 0.28177833
+        },
+        {
+          "component_label": "dental caries",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "toothache or dental problem",
+          "value": 0.40925924,
+          "post_percentage_point_contribution": 0.34888792,
+          "author_percentage_point_contribution": 0.46963056
+        },
+        {
+          "component_label": "skin condition",
+          "value": 0.66392749,
+          "post_percentage_point_contribution": 0.54513737,
+          "author_percentage_point_contribution": 0.7827176
+        },
+        {
+          "component_label": "obesity",
+          "value": 1.3463084,
+          "post_percentage_point_contribution": 1.22110772,
+          "author_percentage_point_contribution": 1.47150908
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.73074351,
+          "post_percentage_point_contribution": 0.74138683,
+          "author_percentage_point_contribution": 0.72010019
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 2.1089136,
+          "post_percentage_point_contribution": 1.7444396,
+          "author_percentage_point_contribution": 2.4733876
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.65917588,
+          "post_percentage_point_contribution": 0.56694287,
+          "author_percentage_point_contribution": 0.75140889
+        },
+        {
+          "component_label": "kidney disease",
+          "value": 0.23379578,
+          "post_percentage_point_contribution": 0.19624945,
+          "author_percentage_point_contribution": 0.2713421
+        },
+        {
+          "component_label": "fever",
+          "value": 1.1381367,
+          "post_percentage_point_contribution": 1.00305277,
+          "author_percentage_point_contribution": 1.27322062
+        },
+        {
+          "component_label": "pain",
+          "value": 1.5417113,
+          "post_percentage_point_contribution": 1.33013519,
+          "author_percentage_point_contribution": 1.75328741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adolescents",
+      "overall_value": 7.32585438,
+      "percent_topic_posts_with_label": 6.32359355,
+      "percent_topic_authors_using_label_on_topic_post": 8.32811522,
+      "links": [
+        {
+          "component_label": "acute poisoning",
+          "value": 0.37319893,
+          "post_percentage_point_contribution": 0.37069341,
+          "author_percentage_point_contribution": 0.37570445
+        },
+        {
+          "component_label": "dental caries",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "toothache or dental problem",
+          "value": 0.1327855,
+          "post_percentage_point_contribution": 0.10902747,
+          "author_percentage_point_contribution": 0.15654352
+        },
+        {
+          "component_label": "skin condition",
+          "value": 1.15285802,
+          "post_percentage_point_contribution": 0.95944178,
+          "author_percentage_point_contribution": 1.34627426
+        },
+        {
+          "component_label": "obesity",
+          "value": 1.24343207,
+          "post_percentage_point_contribution": 1.04666376,
+          "author_percentage_point_contribution": 1.44020038
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.89818978,
+          "post_percentage_point_contribution": 0.76319232,
+          "author_percentage_point_contribution": 1.03318723
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.43106473,
+          "post_percentage_point_contribution": 0.39249891,
+          "author_percentage_point_contribution": 0.46963056
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 1.6963023,
+          "post_percentage_point_contribution": 1.48277366,
+          "author_percentage_point_contribution": 1.90983093
+        },
+        {
+          "component_label": "kidney disease",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "liver disease",
+          "value": 0.09057405,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.09392611
+        },
+        {
+          "component_label": "fever",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "pain",
+          "value": 1.04187802,
+          "post_percentage_point_contribution": 0.89402529,
+          "author_percentage_point_contribution": 1.18973075
+        }
+      ]
+    },
+    {
+      "intersecting_label": "students",
+      "overall_value": 4.81998383,
+      "percent_topic_posts_with_label": 4.31748801,
+      "percent_topic_authors_using_label_on_topic_post": 5.32247965,
+      "links": [
+        {
+          "component_label": "acute poisoning",
+          "value": 0.10298693,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.07514089
+        },
+        {
+          "component_label": "heat-related illness",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "dental caries",
+          "value": 0.23901389,
+          "post_percentage_point_contribution": 0.19624945,
+          "author_percentage_point_contribution": 0.28177833
+        },
+        {
+          "component_label": "toothache or dental problem",
+          "value": 0.24667517,
+          "post_percentage_point_contribution": 0.26166594,
+          "author_percentage_point_contribution": 0.23168441
+        },
+        {
+          "component_label": "skin condition",
+          "value": 0.2124568,
+          "post_percentage_point_contribution": 0.17444396,
+          "author_percentage_point_contribution": 0.25046963
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.87163268,
+          "post_percentage_point_contribution": 0.74138683,
+          "author_percentage_point_contribution": 1.00187852
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.39036342,
+          "post_percentage_point_contribution": 0.39249891,
+          "author_percentage_point_contribution": 0.38822793
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.61081329,
+          "post_percentage_point_contribution": 0.50152638,
+          "author_percentage_point_contribution": 0.72010019
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.38896388,
+          "post_percentage_point_contribution": 0.32708242,
+          "author_percentage_point_contribution": 0.45084534
+        },
+        {
+          "component_label": "kidney disease",
+          "value": 0.1593426,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.18785222
+        },
+        {
+          "component_label": "liver disease",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "fever",
+          "value": 0.1593426,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.18785222
+        },
+        {
+          "component_label": "pain",
+          "value": 1.27904998,
+          "post_percentage_point_contribution": 1.19930222,
+          "author_percentage_point_contribution": 1.35879775
+        }
+      ]
+    },
+    {
+      "intersecting_label": "medical care",
+      "overall_value": 3.75769985,
+      "percent_topic_posts_with_label": 3.44526821,
+      "percent_topic_authors_using_label_on_topic_post": 4.0701315,
+      "links": [
+        {
+          "component_label": "lead poisoning",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "acute poisoning",
+          "value": 0.1593426,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.18785222
+        },
+        {
+          "component_label": "toothache or dental problem",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "skin condition",
+          "value": 0.28737649,
+          "post_percentage_point_contribution": 0.26166594,
+          "author_percentage_point_contribution": 0.31308704
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.08535593,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.08348988
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.23901389,
+          "post_percentage_point_contribution": 0.19624945,
+          "author_percentage_point_contribution": 0.28177833
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.25150051,
+          "post_percentage_point_contribution": 0.21078645,
+          "author_percentage_point_contribution": 0.29221457
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.50458489,
+          "post_percentage_point_contribution": 0.4143044,
+          "author_percentage_point_contribution": 0.59486537
+        },
+        {
+          "component_label": "kidney disease",
+          "value": 0.26557099,
+          "post_percentage_point_contribution": 0.21805495,
+          "author_percentage_point_contribution": 0.31308704
+        },
+        {
+          "component_label": "fever",
+          "value": 0.91207593,
+          "post_percentage_point_contribution": 0.84314581,
+          "author_percentage_point_contribution": 0.98100605
+        },
+        {
+          "component_label": "pain",
+          "value": 0.89353602,
+          "post_percentage_point_contribution": 0.95217328,
+          "author_percentage_point_contribution": 0.83489877
+        }
+      ]
+    },
+    {
+      "intersecting_label": "toddlers",
+      "overall_value": 3.39540367,
+      "percent_topic_posts_with_label": 3.09638029,
+      "percent_topic_authors_using_label_on_topic_post": 3.69442705,
+      "links": [
+        {
+          "component_label": "acute poisoning",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "heat-related illness",
+          "value": 0.19680244,
+          "post_percentage_point_contribution": 0.17444396,
+          "author_percentage_point_contribution": 0.21916093
+        },
+        {
+          "component_label": "dental caries",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "toothache or dental problem",
+          "value": 0.2124568,
+          "post_percentage_point_contribution": 0.17444396,
+          "author_percentage_point_contribution": 0.25046963
+        },
+        {
+          "component_label": "skin condition",
+          "value": 0.1593426,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.18785222
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.23426229,
+          "post_percentage_point_contribution": 0.21805495,
+          "author_percentage_point_contribution": 0.25046963
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.03745985,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.0313087
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 1.87409832,
+          "post_percentage_point_contribution": 1.7444396,
+          "author_percentage_point_contribution": 2.00375704
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "kidney disease",
+          "value": 0.0796713,
+          "post_percentage_point_contribution": 0.06541648,
+          "author_percentage_point_contribution": 0.09392611
+        },
+        {
+          "component_label": "fever",
+          "value": 0.19205084,
+          "post_percentage_point_contribution": 0.19624945,
+          "author_percentage_point_contribution": 0.18785222
+        },
+        {
+          "component_label": "pain",
+          "value": 0.19680244,
+          "post_percentage_point_contribution": 0.17444396,
+          "author_percentage_point_contribution": 0.21916093
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food contamination",
+      "overall_value": 2.73792089,
+      "percent_topic_posts_with_label": 3.09638029,
+      "percent_topic_authors_using_label_on_topic_post": 2.37946149,
+      "links": [
+        {
+          "component_label": "lead poisoning",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "acute poisoning",
+          "value": 0.24469852,
+          "post_percentage_point_contribution": 0.21805495,
+          "author_percentage_point_contribution": 0.2713421
+        },
+        {
+          "component_label": "dental caries",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 2.27983254,
+          "post_percentage_point_contribution": 2.66027039,
+          "author_percentage_point_contribution": 1.8993947
+        },
+        {
+          "component_label": "liver disease",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "fever",
+          "value": 0.05404722,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.02087247
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare facility",
+      "overall_value": 2.68981772,
+      "percent_topic_posts_with_label": 2.31138247,
+      "percent_topic_authors_using_label_on_topic_post": 3.06825297,
+      "links": [
+        {
+          "component_label": "acute poisoning",
+          "value": 0.26557099,
+          "post_percentage_point_contribution": 0.21805495,
+          "author_percentage_point_contribution": 0.31308704
+        },
+        {
+          "component_label": "skin condition",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.1593426,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.18785222
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.31393359,
+          "post_percentage_point_contribution": 0.28347143,
+          "author_percentage_point_contribution": 0.34439574
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.53114199,
+          "post_percentage_point_contribution": 0.4361099,
+          "author_percentage_point_contribution": 0.62617408
+        },
+        {
+          "component_label": "kidney disease",
+          "value": 0.1593426,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.18785222
+        },
+        {
+          "component_label": "liver disease",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "fever",
+          "value": 0.51548764,
+          "post_percentage_point_contribution": 0.4361099,
+          "author_percentage_point_contribution": 0.59486537
+        },
+        {
+          "component_label": "pain",
+          "value": 0.53254153,
+          "post_percentage_point_contribution": 0.50152638,
+          "author_percentage_point_contribution": 0.56355667
+        }
+      ]
+    },
+    {
+      "intersecting_label": "home",
+      "overall_value": 2.59309253,
+      "percent_topic_posts_with_label": 2.1805495,
+      "percent_topic_authors_using_label_on_topic_post": 3.00563557,
+      "links": [
+        {
+          "component_label": "lead poisoning",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "acute poisoning",
+          "value": 0.26557099,
+          "post_percentage_point_contribution": 0.21805495,
+          "author_percentage_point_contribution": 0.31308704
+        },
+        {
+          "component_label": "heat-related illness",
+          "value": 0.1593426,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.18785222
+        },
+        {
+          "component_label": "dental caries",
+          "value": 0.16549374,
+          "post_percentage_point_contribution": 0.17444396,
+          "author_percentage_point_contribution": 0.15654352
+        },
+        {
+          "component_label": "skin condition",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 1.22162657,
+          "post_percentage_point_contribution": 1.00305277,
+          "author_percentage_point_contribution": 1.44020038
+        },
+        {
+          "component_label": "kidney disease",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "liver disease",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "fever",
+          "value": 0.19680244,
+          "post_percentage_point_contribution": 0.17444396,
+          "author_percentage_point_contribution": 0.21916093
+        },
+        {
+          "component_label": "pain",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        }
+      ]
+    },
+    {
+      "intersecting_label": "COVID-19",
+      "overall_value": 2.47736093,
+      "percent_topic_posts_with_label": 2.13693851,
+      "percent_topic_authors_using_label_on_topic_post": 2.81778334,
+      "links": [
+        {
+          "component_label": "heat-related illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "dental caries",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "skin condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.19680244,
+          "post_percentage_point_contribution": 0.17444396,
+          "author_percentage_point_contribution": 0.21916093
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.31868519,
+          "post_percentage_point_contribution": 0.26166594,
+          "author_percentage_point_contribution": 0.37570445
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.76065267,
+          "post_percentage_point_contribution": 0.67597034,
+          "author_percentage_point_contribution": 0.845335
+        },
+        {
+          "component_label": "kidney disease",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "fever",
+          "value": 0.82942122,
+          "post_percentage_point_contribution": 0.71958133,
+          "author_percentage_point_contribution": 0.93926111
+        }
+      ]
+    },
+    {
+      "intersecting_label": "medication use",
+      "overall_value": 2.47736093,
+      "percent_topic_posts_with_label": 2.13693851,
+      "percent_topic_authors_using_label_on_topic_post": 2.81778334,
+      "links": [
+        {
+          "component_label": "acute poisoning",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "toothache or dental problem",
+          "value": 0.0265571,
+          "post_percentage_point_contribution": 0.02180549,
+          "author_percentage_point_contribution": 0.0313087
+        },
+        {
+          "component_label": "skin condition",
+          "value": 0.1593426,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.18785222
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.1593426,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.18785222
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.44671909,
+          "post_percentage_point_contribution": 0.39249891,
+          "author_percentage_point_contribution": 0.50093926
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.2124568,
+          "post_percentage_point_contribution": 0.17444396,
+          "author_percentage_point_contribution": 0.25046963
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "fever",
+          "value": 0.47802779,
+          "post_percentage_point_contribution": 0.39249891,
+          "author_percentage_point_contribution": 0.56355667
+        },
+        {
+          "component_label": "pain",
+          "value": 0.83557237,
+          "post_percentage_point_contribution": 0.76319232,
+          "author_percentage_point_contribution": 0.90795241
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mortality or death",
+      "overall_value": 2.39293802,
+      "percent_topic_posts_with_label": 2.09332752,
+      "percent_topic_authors_using_label_on_topic_post": 2.69254853,
+      "links": [
+        {
+          "component_label": "acute poisoning",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "heat-related illness",
+          "value": 0.23426229,
+          "post_percentage_point_contribution": 0.21805495,
+          "author_percentage_point_contribution": 0.25046963
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.07081893,
+          "post_percentage_point_contribution": 0.05814799,
+          "author_percentage_point_contribution": 0.08348988
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.29212809,
+          "post_percentage_point_contribution": 0.23986044,
+          "author_percentage_point_contribution": 0.34439574
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.15049023,
+          "post_percentage_point_contribution": 0.12356447,
+          "author_percentage_point_contribution": 0.17741599
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.4857628,
+          "post_percentage_point_contribution": 0.4288414,
+          "author_percentage_point_contribution": 0.5426842
+        },
+        {
+          "component_label": "kidney disease",
+          "value": 0.23379578,
+          "post_percentage_point_contribution": 0.19624945,
+          "author_percentage_point_contribution": 0.2713421
+        },
+        {
+          "component_label": "liver disease",
+          "value": 0.2124568,
+          "post_percentage_point_contribution": 0.17444396,
+          "author_percentage_point_contribution": 0.25046963
+        },
+        {
+          "component_label": "fever",
+          "value": 0.05879883,
+          "post_percentage_point_contribution": 0.06541648,
+          "author_percentage_point_contribution": 0.05218117
+        },
+        {
+          "component_label": "pain",
+          "value": 0.54819588,
+          "post_percentage_point_contribution": 0.50152638,
+          "author_percentage_point_contribution": 0.59486537
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infectious disease",
+      "overall_value": 2.16817894,
+      "percent_topic_posts_with_label": 1.83166158,
+      "percent_topic_authors_using_label_on_topic_post": 2.50469631,
+      "links": [
+        {
+          "component_label": "acute poisoning",
+          "value": 0.1593426,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.18785222
+        },
+        {
+          "component_label": "skin condition",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.1327855,
+          "post_percentage_point_contribution": 0.10902747,
+          "author_percentage_point_contribution": 0.15654352
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.61081329,
+          "post_percentage_point_contribution": 0.50152638,
+          "author_percentage_point_contribution": 0.72010019
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.15459099,
+          "post_percentage_point_contribution": 0.15263846,
+          "author_percentage_point_contribution": 0.15654352
+        },
+        {
+          "component_label": "kidney disease",
+          "value": 0.0265571,
+          "post_percentage_point_contribution": 0.02180549,
+          "author_percentage_point_contribution": 0.0313087
+        },
+        {
+          "component_label": "liver disease",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "fever",
+          "value": 0.71229008,
+          "post_percentage_point_contribution": 0.61055386,
+          "author_percentage_point_contribution": 0.8140263
+        },
+        {
+          "component_label": "pain",
+          "value": 0.1593426,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.18785222
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health disparity",
+      "overall_value": 2.06195054,
+      "percent_topic_posts_with_label": 1.7444396,
+      "percent_topic_authors_using_label_on_topic_post": 2.37946149,
+      "links": [
+        {
+          "component_label": "lead poisoning",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "acute poisoning",
+          "value": 0.0796713,
+          "post_percentage_point_contribution": 0.06541648,
+          "author_percentage_point_contribution": 0.09392611
+        },
+        {
+          "component_label": "heat-related illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "dental caries",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "toothache or dental problem",
+          "value": 0.0265571,
+          "post_percentage_point_contribution": 0.02180549,
+          "author_percentage_point_contribution": 0.0313087
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.51278641,
+          "post_percentage_point_contribution": 0.47245239,
+          "author_percentage_point_contribution": 0.55312043
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.44261832,
+          "post_percentage_point_contribution": 0.36342492,
+          "author_percentage_point_contribution": 0.52181173
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.28327573,
+          "post_percentage_point_contribution": 0.23259195,
+          "author_percentage_point_contribution": 0.33395951
+        },
+        {
+          "component_label": "kidney disease",
+          "value": 0.1593426,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.18785222
+        },
+        {
+          "component_label": "fever",
+          "value": 0.23901389,
+          "post_percentage_point_contribution": 0.19624945,
+          "author_percentage_point_contribution": 0.28177833
+        },
+        {
+          "component_label": "pain",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        }
+      ]
+    },
+    {
+      "intersecting_label": "stress or distress",
+      "overall_value": 2.04014505,
+      "percent_topic_posts_with_label": 1.70082861,
+      "percent_topic_authors_using_label_on_topic_post": 2.37946149,
+      "links": [
+        {
+          "component_label": "toothache or dental problem",
+          "value": 0.0265571,
+          "post_percentage_point_contribution": 0.02180549,
+          "author_percentage_point_contribution": 0.0313087
+        },
+        {
+          "component_label": "skin condition",
+          "value": 0.31868519,
+          "post_percentage_point_contribution": 0.26166594,
+          "author_percentage_point_contribution": 0.37570445
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.1593426,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.18785222
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.51548764,
+          "post_percentage_point_contribution": 0.4361099,
+          "author_percentage_point_contribution": 0.59486537
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.1593426,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.18785222
+        },
+        {
+          "component_label": "fever",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "pain",
+          "value": 0.75450153,
+          "post_percentage_point_contribution": 0.63235935,
+          "author_percentage_point_contribution": 0.87664371
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food insecurity",
+      "overall_value": 1.95572215,
+      "percent_topic_posts_with_label": 1.65721762,
+      "percent_topic_authors_using_label_on_topic_post": 2.25422668,
+      "links": [
+        {
+          "component_label": "lead poisoning",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "obesity",
+          "value": 1.10589497,
+          "post_percentage_point_contribution": 0.95944178,
+          "author_percentage_point_contribution": 1.25234815
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.58425619,
+          "post_percentage_point_contribution": 0.47972089,
+          "author_percentage_point_contribution": 0.68879148
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.1593426,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.18785222
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cancer",
+      "overall_value": 1.92330747,
+      "percent_topic_posts_with_label": 2.09332752,
+      "percent_topic_authors_using_label_on_topic_post": 1.75328741,
+      "links": [
+        {
+          "component_label": "lead poisoning",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "dental caries",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "skin condition",
+          "value": 0.37179939,
+          "post_percentage_point_contribution": 0.30527693,
+          "author_percentage_point_contribution": 0.43832185
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.2124568,
+          "post_percentage_point_contribution": 0.17444396,
+          "author_percentage_point_contribution": 0.25046963
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "kidney disease",
+          "value": 0.1593426,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.18785222
+        },
+        {
+          "component_label": "liver disease",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "pain",
+          "value": 0.5954525,
+          "post_percentage_point_contribution": 1.00305277,
+          "author_percentage_point_contribution": 0.18785222
+        }
+      ]
+    },
+    {
+      "intersecting_label": "families",
+      "overall_value": 1.84278962,
+      "percent_topic_posts_with_label": 1.7444396,
+      "percent_topic_authors_using_label_on_topic_post": 1.94113964,
+      "links": [
+        {
+          "component_label": "lead poisoning",
+          "value": 0.07491969,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "heat-related illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "toothache or dental problem",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "skin condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.30303084,
+          "post_percentage_point_contribution": 0.26166594,
+          "author_percentage_point_contribution": 0.34439574
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.23901389,
+          "post_percentage_point_contribution": 0.19624945,
+          "author_percentage_point_contribution": 0.28177833
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.2124568,
+          "post_percentage_point_contribution": 0.17444396,
+          "author_percentage_point_contribution": 0.25046963
+        },
+        {
+          "component_label": "fever",
+          "value": 0.22335954,
+          "post_percentage_point_contribution": 0.19624945,
+          "author_percentage_point_contribution": 0.25046963
+        },
+        {
+          "component_label": "pain",
+          "value": 0.52443786,
+          "post_percentage_point_contribution": 0.61055386,
+          "author_percentage_point_contribution": 0.43832185
+        }
+      ]
+    },
+    {
+      "intersecting_label": "unhoused populations",
+      "overall_value": 1.64654016,
+      "percent_topic_posts_with_label": 1.35194069,
+      "percent_topic_authors_using_label_on_topic_post": 1.94113964,
+      "links": [
+        {
+          "component_label": "acute poisoning",
+          "value": 0.42491359,
+          "post_percentage_point_contribution": 0.34888792,
+          "author_percentage_point_contribution": 0.50093926
+        },
+        {
+          "component_label": "dental caries",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "skin condition",
+          "value": 0.2124568,
+          "post_percentage_point_contribution": 0.17444396,
+          "author_percentage_point_contribution": 0.25046963
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.37179939,
+          "post_percentage_point_contribution": 0.30527693,
+          "author_percentage_point_contribution": 0.43832185
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "fever",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "pain",
+          "value": 0.26557099,
+          "post_percentage_point_contribution": 0.21805495,
+          "author_percentage_point_contribution": 0.31308704
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mental health condition",
+      "overall_value": 1.61523146,
+      "percent_topic_posts_with_label": 1.35194069,
+      "percent_topic_authors_using_label_on_topic_post": 1.87852223,
+      "links": [
+        {
+          "component_label": "lead poisoning",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "dental caries",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.66392749,
+          "post_percentage_point_contribution": 0.54513737,
+          "author_percentage_point_contribution": 0.7827176
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.19680244,
+          "post_percentage_point_contribution": 0.17444396,
+          "author_percentage_point_contribution": 0.21916093
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.2124568,
+          "post_percentage_point_contribution": 0.17444396,
+          "author_percentage_point_contribution": 0.25046963
+        },
+        {
+          "component_label": "kidney disease",
+          "value": 0.0796713,
+          "post_percentage_point_contribution": 0.06541648,
+          "author_percentage_point_contribution": 0.09392611
+        },
+        {
+          "component_label": "fever",
+          "value": 0.03745985,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.0313087
+        },
+        {
+          "component_label": "pain",
+          "value": 0.31868519,
+          "post_percentage_point_contribution": 0.26166594,
+          "author_percentage_point_contribution": 0.37570445
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cough",
+      "overall_value": 1.54031177,
+      "percent_topic_posts_with_label": 1.26471871,
+      "percent_topic_authors_using_label_on_topic_post": 1.81590482,
+      "links": [
+        {
+          "component_label": "acute poisoning",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "toothache or dental problem",
+          "value": 0.0265571,
+          "post_percentage_point_contribution": 0.02180549,
+          "author_percentage_point_contribution": 0.0313087
+        },
+        {
+          "component_label": "skin condition",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.2124568,
+          "post_percentage_point_contribution": 0.17444396,
+          "author_percentage_point_contribution": 0.25046963
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "fever",
+          "value": 0.87638428,
+          "post_percentage_point_contribution": 0.71958133,
+          "author_percentage_point_contribution": 1.03318723
+        },
+        {
+          "component_label": "pain",
+          "value": 0.1593426,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.18785222
+        }
+      ]
+    },
+    {
+      "intersecting_label": "poverty or financial hardship",
+      "overall_value": 1.40277466,
+      "percent_topic_posts_with_label": 1.17749673,
+      "percent_topic_authors_using_label_on_topic_post": 1.6280526,
+      "links": [
+        {
+          "component_label": "acute poisoning",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "dental caries",
+          "value": 0.01770473,
+          "post_percentage_point_contribution": 0.014537,
+          "author_percentage_point_contribution": 0.02087247
+        },
+        {
+          "component_label": "toothache or dental problem",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "skin condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.44261832,
+          "post_percentage_point_contribution": 0.36342492,
+          "author_percentage_point_contribution": 0.52181173
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.28327573,
+          "post_percentage_point_contribution": 0.23259195,
+          "author_percentage_point_contribution": 0.33395951
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "kidney disease",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "pain",
+          "value": 0.23426229,
+          "post_percentage_point_contribution": 0.21805495,
+          "author_percentage_point_contribution": 0.25046963
+        }
+      ]
+    },
+    {
+      "intersecting_label": "injury",
+      "overall_value": 1.39327146,
+      "percent_topic_posts_with_label": 1.22110772,
+      "percent_topic_authors_using_label_on_topic_post": 1.56543519,
+      "links": [
+        {
+          "component_label": "acute poisoning",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "heat-related illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "dental caries",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "toothache or dental problem",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "skin condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.2124568,
+          "post_percentage_point_contribution": 0.17444396,
+          "author_percentage_point_contribution": 0.25046963
+        },
+        {
+          "component_label": "fever",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "pain",
+          "value": 0.49033008,
+          "post_percentage_point_contribution": 0.47972089,
+          "author_percentage_point_contribution": 0.50093926
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pets and companion animals",
+      "overall_value": 1.27474077,
+      "percent_topic_posts_with_label": 1.04666376,
+      "percent_topic_authors_using_label_on_topic_post": 1.50281778,
+      "links": [
+        {
+          "component_label": "acute poisoning",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "heat-related illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "toothache or dental problem",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "skin condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.2124568,
+          "post_percentage_point_contribution": 0.17444396,
+          "author_percentage_point_contribution": 0.25046963
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.53114199,
+          "post_percentage_point_contribution": 0.4361099,
+          "author_percentage_point_contribution": 0.62617408
+        },
+        {
+          "component_label": "kidney disease",
+          "value": 0.1593426,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.18785222
+        },
+        {
+          "component_label": "pain",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        }
+      ]
+    },
+    {
+      "intersecting_label": "vaccination",
+      "overall_value": 1.21212336,
+      "percent_topic_posts_with_label": 1.04666376,
+      "percent_topic_authors_using_label_on_topic_post": 1.37758297,
+      "links": [
+        {
+          "component_label": "acute poisoning",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "skin condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.0265571,
+          "post_percentage_point_contribution": 0.02180549,
+          "author_percentage_point_contribution": 0.0313087
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.28737649,
+          "post_percentage_point_contribution": 0.26166594,
+          "author_percentage_point_contribution": 0.31308704
+        },
+        {
+          "component_label": "kidney disease",
+          "value": 0.0265571,
+          "post_percentage_point_contribution": 0.02180549,
+          "author_percentage_point_contribution": 0.0313087
+        },
+        {
+          "component_label": "liver disease",
+          "value": 0.10147679,
+          "post_percentage_point_contribution": 0.10902747,
+          "author_percentage_point_contribution": 0.09392611
+        },
+        {
+          "component_label": "fever",
+          "value": 0.45147069,
+          "post_percentage_point_contribution": 0.37069341,
+          "author_percentage_point_contribution": 0.53224796
+        },
+        {
+          "component_label": "pain",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sports participation",
+      "overall_value": 1.08408947,
+      "percent_topic_posts_with_label": 0.91583079,
+      "percent_topic_authors_using_label_on_topic_post": 1.25234815,
+      "links": [
+        {
+          "component_label": "heat-related illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "dental caries",
+          "value": 0.0265571,
+          "post_percentage_point_contribution": 0.02180549,
+          "author_percentage_point_contribution": 0.0313087
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.34524229,
+          "post_percentage_point_contribution": 0.28347143,
+          "author_percentage_point_contribution": 0.40701315
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.1593426,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.18785222
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.26557099,
+          "post_percentage_point_contribution": 0.21805495,
+          "author_percentage_point_contribution": 0.31308704
+        },
+        {
+          "component_label": "pain",
+          "value": 0.18114809,
+          "post_percentage_point_contribution": 0.17444396,
+          "author_percentage_point_contribution": 0.18785222
+        }
+      ]
+    },
+    {
+      "intersecting_label": "dental care",
+      "overall_value": 1.06228398,
+      "percent_topic_posts_with_label": 0.8722198,
+      "percent_topic_authors_using_label_on_topic_post": 1.25234815,
+      "links": [
+        {
+          "component_label": "dental caries",
+          "value": 0.1858997,
+          "post_percentage_point_contribution": 0.15263846,
+          "author_percentage_point_contribution": 0.21916093
+        },
+        {
+          "component_label": "toothache or dental problem",
+          "value": 0.63737039,
+          "post_percentage_point_contribution": 0.52333188,
+          "author_percentage_point_contribution": 0.75140889
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.0265571,
+          "post_percentage_point_contribution": 0.02180549,
+          "author_percentage_point_contribution": 0.0313087
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "pain",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        }
+      ]
+    },
+    {
+      "intersecting_label": "extreme heat",
+      "overall_value": 1.05278077,
+      "percent_topic_posts_with_label": 0.91583079,
+      "percent_topic_authors_using_label_on_topic_post": 1.18973075,
+      "links": [
+        {
+          "component_label": "heat-related illness",
+          "value": 0.73409557,
+          "post_percentage_point_contribution": 0.65416485,
+          "author_percentage_point_contribution": 0.8140263
+        },
+        {
+          "component_label": "skin condition",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "pain",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sleep problem",
+      "overall_value": 1.00916978,
+      "percent_topic_posts_with_label": 0.82860881,
+      "percent_topic_authors_using_label_on_topic_post": 1.18973075,
+      "links": [
+        {
+          "component_label": "toothache or dental problem",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.1593426,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.18785222
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.42491359,
+          "post_percentage_point_contribution": 0.34888792,
+          "author_percentage_point_contribution": 0.50093926
+        },
+        {
+          "component_label": "kidney disease",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "fever",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "pain",
+          "value": 0.1593426,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.18785222
+        }
+      ]
+    },
+    {
+      "intersecting_label": "anxiety",
+      "overall_value": 0.92474687,
+      "percent_topic_posts_with_label": 0.78499782,
+      "percent_topic_authors_using_label_on_topic_post": 1.06449593,
+      "links": [
+        {
+          "component_label": "heat-related illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "toothache or dental problem",
+          "value": 0.1593426,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.18785222
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.08535593,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.08348988
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.02133898,
+          "post_percentage_point_contribution": 0.02180549,
+          "author_percentage_point_contribution": 0.02087247
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.1593426,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.18785222
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.23379578,
+          "post_percentage_point_contribution": 0.19624945,
+          "author_percentage_point_contribution": 0.2713421
+        },
+        {
+          "component_label": "fever",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "pain",
+          "value": 0.1593426,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.18785222
+        }
+      ]
+    },
+    {
+      "intersecting_label": "children with disabilities",
+      "overall_value": 0.89623725,
+      "percent_topic_posts_with_label": 0.91583079,
+      "percent_topic_authors_using_label_on_topic_post": 0.87664371,
+      "links": [
+        {
+          "component_label": "skin condition",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.12803389,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.14368824,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.15654352
+        },
+        {
+          "component_label": "kidney disease",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "fever",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "pain",
+          "value": 0.30582992,
+          "post_percentage_point_contribution": 0.39249891,
+          "author_percentage_point_contribution": 0.21916093
+        }
+      ]
+    },
+    {
+      "intersecting_label": "asthma",
+      "overall_value": 0.89343817,
+      "percent_topic_posts_with_label": 0.78499782,
+      "percent_topic_authors_using_label_on_topic_post": 1.00187852,
+      "links": [
+        {
+          "component_label": "heat-related illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "dental caries",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "skin condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.29212809,
+          "post_percentage_point_contribution": 0.23986044,
+          "author_percentage_point_contribution": 0.34439574
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.25606779,
+          "post_percentage_point_contribution": 0.26166594,
+          "author_percentage_point_contribution": 0.25046963
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.0796713,
+          "post_percentage_point_contribution": 0.06541648,
+          "author_percentage_point_contribution": 0.09392611
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        }
+      ]
+    },
+    {
+      "intersecting_label": "activity cancellation",
+      "overall_value": 0.87163268,
+      "percent_topic_posts_with_label": 0.74138683,
+      "percent_topic_authors_using_label_on_topic_post": 1.00187852,
+      "links": [
+        {
+          "component_label": "heat-related illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.44671909,
+          "post_percentage_point_contribution": 0.39249891,
+          "author_percentage_point_contribution": 0.50093926
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.2124568,
+          "post_percentage_point_contribution": 0.17444396,
+          "author_percentage_point_contribution": 0.25046963
+        },
+        {
+          "component_label": "kidney disease",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "fever",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "pain",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "headache or migraine",
+      "overall_value": 0.79671298,
+      "percent_topic_posts_with_label": 0.65416485,
+      "percent_topic_authors_using_label_on_topic_post": 0.93926111,
+      "links": [
+        {
+          "component_label": "toothache or dental problem",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.28327573,
+          "post_percentage_point_contribution": 0.23259195,
+          "author_percentage_point_contribution": 0.33395951
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "fever",
+          "value": 0.23016153,
+          "post_percentage_point_contribution": 0.18898096,
+          "author_percentage_point_contribution": 0.2713421
+        },
+        {
+          "component_label": "pain",
+          "value": 0.12393313,
+          "post_percentage_point_contribution": 0.10175898,
+          "author_percentage_point_contribution": 0.14610728
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childhood cancer",
+      "overall_value": 0.76540428,
+      "percent_topic_posts_with_label": 0.65416485,
+      "percent_topic_authors_using_label_on_topic_post": 0.87664371,
+      "links": [
+        {
+          "component_label": "acute poisoning",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "dental caries",
+          "value": 0.0796713,
+          "post_percentage_point_contribution": 0.06541648,
+          "author_percentage_point_contribution": 0.09392611
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "kidney disease",
+          "value": 0.0796713,
+          "post_percentage_point_contribution": 0.06541648,
+          "author_percentage_point_contribution": 0.09392611
+        },
+        {
+          "component_label": "liver disease",
+          "value": 0.0265571,
+          "post_percentage_point_contribution": 0.02180549,
+          "author_percentage_point_contribution": 0.0313087
+        },
+        {
+          "component_label": "fever",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "pain",
+          "value": 0.20770519,
+          "post_percentage_point_contribution": 0.19624945,
+          "author_percentage_point_contribution": 0.21916093
+        }
+      ]
+    },
+    {
+      "intersecting_label": "child abuse or neglect",
+      "overall_value": 0.74359878,
+      "percent_topic_posts_with_label": 0.61055386,
+      "percent_topic_authors_using_label_on_topic_post": 0.87664371,
+      "links": [
+        {
+          "component_label": "heat-related illness",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "dental caries",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "skin condition",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.31868519,
+          "post_percentage_point_contribution": 0.26166594,
+          "author_percentage_point_contribution": 0.37570445
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "fever",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "pain",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "household chemicals",
+      "overall_value": 0.74359878,
+      "percent_topic_posts_with_label": 0.61055386,
+      "percent_topic_authors_using_label_on_topic_post": 0.87664371,
+      "links": [
+        {
+          "component_label": "acute poisoning",
+          "value": 0.63737039,
+          "post_percentage_point_contribution": 0.52333188,
+          "author_percentage_point_contribution": 0.75140889
+        },
+        {
+          "component_label": "skin condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "pain",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "teachers and school staff",
+      "overall_value": 0.74359878,
+      "percent_topic_posts_with_label": 0.61055386,
+      "percent_topic_authors_using_label_on_topic_post": 0.87664371,
+      "links": [
+        {
+          "component_label": "acute poisoning",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.2124568,
+          "post_percentage_point_contribution": 0.17444396,
+          "author_percentage_point_contribution": 0.25046963
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.26557099,
+          "post_percentage_point_contribution": 0.21805495,
+          "author_percentage_point_contribution": 0.31308704
+        },
+        {
+          "component_label": "liver disease",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "fever",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "depression",
+      "overall_value": 0.73409557,
+      "percent_topic_posts_with_label": 0.65416485,
+      "percent_topic_authors_using_label_on_topic_post": 0.8140263,
+      "links": [
+        {
+          "component_label": "acute poisoning",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "heat-related illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "toothache or dental problem",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.31961822,
+          "post_percentage_point_contribution": 0.30527693,
+          "author_percentage_point_contribution": 0.33395951
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.02133898,
+          "post_percentage_point_contribution": 0.02180549,
+          "author_percentage_point_contribution": 0.02087247
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.02133898,
+          "post_percentage_point_contribution": 0.02180549,
+          "author_percentage_point_contribution": 0.02087247
+        },
+        {
+          "component_label": "kidney disease",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "pain",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "low-income populations",
+      "overall_value": 0.7329896,
+      "percent_topic_posts_with_label": 1.09027475,
+      "percent_topic_authors_using_label_on_topic_post": 0.37570445,
+      "links": [
+        {
+          "component_label": "lead poisoning",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "pain",
+          "value": 0.5205328,
+          "post_percentage_point_contribution": 0.91583079,
+          "author_percentage_point_contribution": 0.12523482
+        }
+      ]
+    },
+    {
+      "intersecting_label": "lead exposure",
+      "overall_value": 0.70558595,
+      "percent_topic_posts_with_label": 0.78499782,
+      "percent_topic_authors_using_label_on_topic_post": 0.62617408,
+      "links": [
+        {
+          "component_label": "lead poisoning",
+          "value": 0.70558595,
+          "post_percentage_point_contribution": 0.78499782,
+          "author_percentage_point_contribution": 0.62617408
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school closure",
+      "overall_value": 0.69048458,
+      "percent_topic_posts_with_label": 0.56694287,
+      "percent_topic_authors_using_label_on_topic_post": 0.8140263,
+      "links": [
+        {
+          "component_label": "heat-related illness",
+          "value": 0.1593426,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.18785222
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.2124568,
+          "post_percentage_point_contribution": 0.17444396,
+          "author_percentage_point_contribution": 0.25046963
+        },
+        {
+          "component_label": "fever",
+          "value": 0.1593426,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.18785222
+        },
+        {
+          "component_label": "pain",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        }
+      ]
+    },
+    {
+      "intersecting_label": "child welfare services",
+      "overall_value": 0.6798754,
+      "percent_topic_posts_with_label": 1.04666376,
+      "percent_topic_authors_using_label_on_topic_post": 0.31308704,
+      "links": [
+        {
+          "component_label": "toothache or dental problem",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "skin condition",
+          "value": 0.03745985,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.0313087
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.03745985,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.0313087
+        },
+        {
+          "component_label": "pain",
+          "value": 0.49872731,
+          "post_percentage_point_contribution": 0.8722198,
+          "author_percentage_point_contribution": 0.12523482
+        }
+      ]
+    },
+    {
+      "intersecting_label": "outdoor play or recreation",
+      "overall_value": 0.63737039,
+      "percent_topic_posts_with_label": 0.52333188,
+      "percent_topic_authors_using_label_on_topic_post": 0.75140889,
+      "links": [
+        {
+          "component_label": "heat-related illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "toothache or dental problem",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "skin condition",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.1593426,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.18785222
+        },
+        {
+          "component_label": "liver disease",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "fever",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "pain",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare access",
+      "overall_value": 0.60606168,
+      "percent_topic_posts_with_label": 0.52333188,
+      "percent_topic_authors_using_label_on_topic_post": 0.68879148,
+      "links": [
+        {
+          "component_label": "skin condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.23426229,
+          "post_percentage_point_contribution": 0.21805495,
+          "author_percentage_point_contribution": 0.25046963
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "kidney disease",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "fever",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "pain",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "allergens",
+      "overall_value": 0.58425619,
+      "percent_topic_posts_with_label": 0.47972089,
+      "percent_topic_authors_using_label_on_topic_post": 0.68879148,
+      "links": [
+        {
+          "component_label": "acute poisoning",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "skin condition",
+          "value": 0.31868519,
+          "post_percentage_point_contribution": 0.26166594,
+          "author_percentage_point_contribution": 0.37570445
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "motor vehicle",
+      "overall_value": 0.58425619,
+      "percent_topic_posts_with_label": 0.47972089,
+      "percent_topic_authors_using_label_on_topic_post": 0.68879148,
+      "links": [
+        {
+          "component_label": "heat-related illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "toothache or dental problem",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.1858997,
+          "post_percentage_point_contribution": 0.15263846,
+          "author_percentage_point_contribution": 0.21916093
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "fever",
+          "value": 0.0265571,
+          "post_percentage_point_contribution": 0.02180549,
+          "author_percentage_point_contribution": 0.0313087
+        },
+        {
+          "component_label": "pain",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        }
+      ]
+    },
+    {
+      "intersecting_label": "respiratory illness",
+      "overall_value": 0.55294748,
+      "percent_topic_posts_with_label": 0.47972089,
+      "percent_topic_authors_using_label_on_topic_post": 0.62617408,
+      "links": [
+        {
+          "component_label": "acute poisoning",
+          "value": 0.03745985,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.0313087
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.03745985,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.0313087
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "liver disease",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "fever",
+          "value": 0.26557099,
+          "post_percentage_point_contribution": 0.21805495,
+          "author_percentage_point_contribution": 0.31308704
+        }
+      ]
+    },
+    {
+      "intersecting_label": "shortness of breath",
+      "overall_value": 0.55294748,
+      "percent_topic_posts_with_label": 0.47972089,
+      "percent_topic_authors_using_label_on_topic_post": 0.62617408,
+      "links": [
+        {
+          "component_label": "toothache or dental problem",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.11713115,
+          "post_percentage_point_contribution": 0.10902747,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.09057405,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.09392611
+        },
+        {
+          "component_label": "fever",
+          "value": 0.1593426,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.18785222
+        },
+        {
+          "component_label": "pain",
+          "value": 0.1327855,
+          "post_percentage_point_contribution": 0.10902747,
+          "author_percentage_point_contribution": 0.15654352
+        }
+      ]
+    },
+    {
+      "intersecting_label": "influenza",
+      "overall_value": 0.53114199,
+      "percent_topic_posts_with_label": 0.4361099,
+      "percent_topic_authors_using_label_on_topic_post": 0.62617408,
+      "links": [
+        {
+          "component_label": "toothache or dental problem",
+          "value": 0.01770473,
+          "post_percentage_point_contribution": 0.014537,
+          "author_percentage_point_contribution": 0.02087247
+        },
+        {
+          "component_label": "skin condition",
+          "value": 0.01770473,
+          "post_percentage_point_contribution": 0.014537,
+          "author_percentage_point_contribution": 0.02087247
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.23016153,
+          "post_percentage_point_contribution": 0.18898096,
+          "author_percentage_point_contribution": 0.2713421
+        },
+        {
+          "component_label": "fever",
+          "value": 0.26557099,
+          "post_percentage_point_contribution": 0.21805495,
+          "author_percentage_point_contribution": 0.31308704
+        }
+      ]
+    },
+    {
+      "intersecting_label": "reproductive health condition",
+      "overall_value": 0.53114199,
+      "percent_topic_posts_with_label": 0.4361099,
+      "percent_topic_authors_using_label_on_topic_post": 0.62617408,
+      "links": [
+        {
+          "component_label": "diabetes",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "kidney disease",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "pain",
+          "value": 0.26557099,
+          "post_percentage_point_contribution": 0.21805495,
+          "author_percentage_point_contribution": 0.31308704
+        }
+      ]
+    },
+    {
+      "intersecting_label": "violence or crime",
+      "overall_value": 0.53114199,
+      "percent_topic_posts_with_label": 0.4361099,
+      "percent_topic_authors_using_label_on_topic_post": 0.62617408,
+      "links": [
+        {
+          "component_label": "acute poisoning",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "heat-related illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "pain",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "workers",
+      "overall_value": 0.53114199,
+      "percent_topic_posts_with_label": 0.4361099,
+      "percent_topic_authors_using_label_on_topic_post": 0.62617408,
+      "links": [
+        {
+          "component_label": "lead poisoning",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "pain",
+          "value": 0.26557099,
+          "post_percentage_point_contribution": 0.21805495,
+          "author_percentage_point_contribution": 0.31308704
+        }
+      ]
+    },
+    {
+      "intersecting_label": "street or roadway",
+      "overall_value": 0.51493465,
+      "percent_topic_posts_with_label": 0.65416485,
+      "percent_topic_authors_using_label_on_topic_post": 0.37570445,
+      "links": [
+        {
+          "component_label": "acute poisoning",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.1593426,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.18785222
+        },
+        {
+          "component_label": "fever",
+          "value": 0.24936365,
+          "post_percentage_point_contribution": 0.4361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "pain",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "restaurant or food store",
+      "overall_value": 0.49983328,
+      "percent_topic_posts_with_label": 0.4361099,
+      "percent_topic_authors_using_label_on_topic_post": 0.56355667,
+      "links": [
+        {
+          "component_label": "acute poisoning",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.29212809,
+          "post_percentage_point_contribution": 0.23986044,
+          "author_percentage_point_contribution": 0.34439574
+        },
+        {
+          "component_label": "fever",
+          "value": 0.04836259,
+          "post_percentage_point_contribution": 0.06541648,
+          "author_percentage_point_contribution": 0.0313087
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childcare center",
+      "overall_value": 0.47802779,
+      "percent_topic_posts_with_label": 0.39249891,
+      "percent_topic_authors_using_label_on_topic_post": 0.56355667,
+      "links": [
+        {
+          "component_label": "lead poisoning",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "acute poisoning",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "skin condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.0265571,
+          "post_percentage_point_contribution": 0.02180549,
+          "author_percentage_point_contribution": 0.0313087
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.0796713,
+          "post_percentage_point_contribution": 0.06541648,
+          "author_percentage_point_contribution": 0.09392611
+        },
+        {
+          "component_label": "fever",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "pain",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "classroom",
+      "overall_value": 0.47802779,
+      "percent_topic_posts_with_label": 0.39249891,
+      "percent_topic_authors_using_label_on_topic_post": 0.56355667,
+      "links": [
+        {
+          "component_label": "acute poisoning",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "heat-related illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "toothache or dental problem",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "skin condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "fever",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "pain",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        }
+      ]
+    },
+    {
+      "intersecting_label": "discrimination",
+      "overall_value": 0.47802779,
+      "percent_topic_posts_with_label": 0.39249891,
+      "percent_topic_authors_using_label_on_topic_post": 0.56355667,
+      "links": [
+        {
+          "component_label": "dental caries",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "skin condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.2124568,
+          "post_percentage_point_contribution": 0.17444396,
+          "author_percentage_point_contribution": 0.25046963
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "fever",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "pain",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "park or green space",
+      "overall_value": 0.47802779,
+      "percent_topic_posts_with_label": 0.39249891,
+      "percent_topic_authors_using_label_on_topic_post": 0.56355667,
+      "links": [
+        {
+          "component_label": "acute poisoning",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.1593426,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.18785222
+        },
+        {
+          "component_label": "fever",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "pain",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "workplace",
+      "overall_value": 0.47802779,
+      "percent_topic_posts_with_label": 0.39249891,
+      "percent_topic_authors_using_label_on_topic_post": 0.56355667,
+      "links": [
+        {
+          "component_label": "skin condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.1593426,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.18785222
+        },
+        {
+          "component_label": "fever",
+          "value": 0.1593426,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.18785222
+        },
+        {
+          "component_label": "pain",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        }
+      ]
+    },
+    {
+      "intersecting_label": "substance use disorder",
+      "overall_value": 0.46852458,
+      "percent_topic_posts_with_label": 0.4361099,
+      "percent_topic_authors_using_label_on_topic_post": 0.50093926,
+      "links": [
+        {
+          "component_label": "toothache or dental problem",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.1593426,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.18785222
+        },
+        {
+          "component_label": "pain",
+          "value": 0.14983939,
+          "post_percentage_point_contribution": 0.17444396,
+          "author_percentage_point_contribution": 0.12523482
+        }
+      ]
+    },
+    {
+      "intersecting_label": "walking or bicycling",
+      "overall_value": 0.44671909,
+      "percent_topic_posts_with_label": 0.39249891,
+      "percent_topic_authors_using_label_on_topic_post": 0.50093926,
+      "links": [
+        {
+          "component_label": "obesity",
+          "value": 0.23426229,
+          "post_percentage_point_contribution": 0.21805495,
+          "author_percentage_point_contribution": 0.25046963
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "pain",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "dental clinic",
+      "overall_value": 0.42491359,
+      "percent_topic_posts_with_label": 0.34888792,
+      "percent_topic_authors_using_label_on_topic_post": 0.50093926,
+      "links": [
+        {
+          "component_label": "dental caries",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "toothache or dental problem",
+          "value": 0.2124568,
+          "post_percentage_point_contribution": 0.17444396,
+          "author_percentage_point_contribution": 0.25046963
+        },
+        {
+          "component_label": "skin condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        }
+      ]
+    },
+    {
+      "intersecting_label": "drug exposure or use",
+      "overall_value": 0.42491359,
+      "percent_topic_posts_with_label": 0.34888792,
+      "percent_topic_authors_using_label_on_topic_post": 0.50093926,
+      "links": [
+        {
+          "component_label": "acute poisoning",
+          "value": 0.2124568,
+          "post_percentage_point_contribution": 0.17444396,
+          "author_percentage_point_contribution": 0.25046963
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "pain",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health education or awareness",
+      "overall_value": 0.42491359,
+      "percent_topic_posts_with_label": 0.34888792,
+      "percent_topic_authors_using_label_on_topic_post": 0.50093926,
+      "links": [
+        {
+          "component_label": "heat-related illness",
+          "value": 0.0796713,
+          "post_percentage_point_contribution": 0.06541648,
+          "author_percentage_point_contribution": 0.09392611
+        },
+        {
+          "component_label": "skin condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.0796713,
+          "post_percentage_point_contribution": 0.06541648,
+          "author_percentage_point_contribution": 0.09392611
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "fever",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "malnutrition",
+      "overall_value": 0.42491359,
+      "percent_topic_posts_with_label": 0.34888792,
+      "percent_topic_authors_using_label_on_topic_post": 0.50093926,
+      "links": [
+        {
+          "component_label": "skin condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.1858997,
+          "post_percentage_point_contribution": 0.15263846,
+          "author_percentage_point_contribution": 0.21916093
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.0265571,
+          "post_percentage_point_contribution": 0.02180549,
+          "author_percentage_point_contribution": 0.0313087
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "fever",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "outdoor environment",
+      "overall_value": 0.41541038,
+      "percent_topic_posts_with_label": 0.39249891,
+      "percent_topic_authors_using_label_on_topic_post": 0.43832185,
+      "links": [
+        {
+          "component_label": "heat-related illness",
+          "value": 0.1593426,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.18785222
+        },
+        {
+          "component_label": "skin condition",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "fever",
+          "value": 0.09672519,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "disability",
+      "overall_value": 0.39360489,
+      "percent_topic_posts_with_label": 0.34888792,
+      "percent_topic_authors_using_label_on_topic_post": 0.43832185,
+      "links": [
+        {
+          "component_label": "skin condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "fever",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "pain",
+          "value": 0.23426229,
+          "post_percentage_point_contribution": 0.21805495,
+          "author_percentage_point_contribution": 0.25046963
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare workers",
+      "overall_value": 0.39360489,
+      "percent_topic_posts_with_label": 0.34888792,
+      "percent_topic_authors_using_label_on_topic_post": 0.43832185,
+      "links": [
+        {
+          "component_label": "diabetes",
+          "value": 0.07491969,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.1593426,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.18785222
+        },
+        {
+          "component_label": "fever",
+          "value": 0.1593426,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.18785222
+        }
+      ]
+    },
+    {
+      "intersecting_label": "housing instability or homelessness",
+      "overall_value": 0.39360489,
+      "percent_topic_posts_with_label": 0.34888792,
+      "percent_topic_authors_using_label_on_topic_post": 0.43832185,
+      "links": [
+        {
+          "component_label": "heat-related illness",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "kidney disease",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "pain",
+          "value": 0.07491969,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adverse birth outcome",
+      "overall_value": 0.38410168,
+      "percent_topic_posts_with_label": 0.39249891,
+      "percent_topic_authors_using_label_on_topic_post": 0.37570445,
+      "links": [
+        {
+          "component_label": "acute poisoning",
+          "value": 0.0265571,
+          "post_percentage_point_contribution": 0.02180549,
+          "author_percentage_point_contribution": 0.0313087
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "kidney disease",
+          "value": 0.0265571,
+          "post_percentage_point_contribution": 0.02180549,
+          "author_percentage_point_contribution": 0.0313087
+        },
+        {
+          "component_label": "fever",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "pain",
+          "value": 0.17164488,
+          "post_percentage_point_contribution": 0.21805495,
+          "author_percentage_point_contribution": 0.12523482
+        }
+      ]
+    },
+    {
+      "intersecting_label": "alcohol exposure or use",
+      "overall_value": 0.37179939,
+      "percent_topic_posts_with_label": 0.30527693,
+      "percent_topic_authors_using_label_on_topic_post": 0.43832185,
+      "links": [
+        {
+          "component_label": "acute poisoning",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "dental caries",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.0265571,
+          "post_percentage_point_contribution": 0.02180549,
+          "author_percentage_point_contribution": 0.0313087
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "fever",
+          "value": 0.0796713,
+          "post_percentage_point_contribution": 0.06541648,
+          "author_percentage_point_contribution": 0.09392611
+        },
+        {
+          "component_label": "pain",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "contaminated drinking water",
+      "overall_value": 0.37179939,
+      "percent_topic_posts_with_label": 0.30527693,
+      "percent_topic_authors_using_label_on_topic_post": 0.43832185,
+      "links": [
+        {
+          "component_label": "lead poisoning",
+          "value": 0.1593426,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.18785222
+        },
+        {
+          "component_label": "dental caries",
+          "value": 0.0796713,
+          "post_percentage_point_contribution": 0.06541648,
+          "author_percentage_point_contribution": 0.09392611
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "pain",
+          "value": 0.0265571,
+          "post_percentage_point_contribution": 0.02180549,
+          "author_percentage_point_contribution": 0.0313087
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health screening or testing",
+      "overall_value": 0.37179939,
+      "percent_topic_posts_with_label": 0.30527693,
+      "percent_topic_authors_using_label_on_topic_post": 0.43832185,
+      "links": [
+        {
+          "component_label": "lead poisoning",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.0265571,
+          "post_percentage_point_contribution": 0.02180549,
+          "author_percentage_point_contribution": 0.0313087
+        },
+        {
+          "component_label": "pain",
+          "value": 0.0796713,
+          "post_percentage_point_contribution": 0.06541648,
+          "author_percentage_point_contribution": 0.09392611
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pregnant people",
+      "overall_value": 0.37179939,
+      "percent_topic_posts_with_label": 0.30527693,
+      "percent_topic_authors_using_label_on_topic_post": 0.43832185,
+      "links": [
+        {
+          "component_label": "skin condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.1327855,
+          "post_percentage_point_contribution": 0.10902747,
+          "author_percentage_point_contribution": 0.15654352
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.1327855,
+          "post_percentage_point_contribution": 0.10902747,
+          "author_percentage_point_contribution": 0.15654352
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "racial and ethnic minority populations",
+      "overall_value": 0.37179939,
+      "percent_topic_posts_with_label": 0.30527693,
+      "percent_topic_authors_using_label_on_topic_post": 0.43832185,
+      "links": [
+        {
+          "component_label": "heat-related illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.07081893,
+          "post_percentage_point_contribution": 0.05814799,
+          "author_percentage_point_contribution": 0.08348988
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.12393313,
+          "post_percentage_point_contribution": 0.10175898,
+          "author_percentage_point_contribution": 0.14610728
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.07081893,
+          "post_percentage_point_contribution": 0.05814799,
+          "author_percentage_point_contribution": 0.08348988
+        },
+        {
+          "component_label": "kidney disease",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "seizure",
+      "overall_value": 0.34049069,
+      "percent_topic_posts_with_label": 0.30527693,
+      "percent_topic_authors_using_label_on_topic_post": 0.37570445,
+      "links": [
+        {
+          "component_label": "acute poisoning",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "fever",
+          "value": 0.12803389,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "pain",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        }
+      ]
+    },
+    {
+      "intersecting_label": "indoor environment",
+      "overall_value": 0.31868519,
+      "percent_topic_posts_with_label": 0.26166594,
+      "percent_topic_authors_using_label_on_topic_post": 0.37570445,
+      "links": [
+        {
+          "component_label": "acute poisoning",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "heat-related illness",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "skin condition",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mask use",
+      "overall_value": 0.31868519,
+      "percent_topic_posts_with_label": 0.26166594,
+      "percent_topic_authors_using_label_on_topic_post": 0.37570445,
+      "links": [
+        {
+          "component_label": "skin condition",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.0265571,
+          "post_percentage_point_contribution": 0.02180549,
+          "author_percentage_point_contribution": 0.0313087
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.0796713,
+          "post_percentage_point_contribution": 0.06541648,
+          "author_percentage_point_contribution": 0.09392611
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "musculoskeletal injury",
+      "overall_value": 0.31868519,
+      "percent_topic_posts_with_label": 0.26166594,
+      "percent_topic_authors_using_label_on_topic_post": 0.37570445,
+      "links": [
+        {
+          "component_label": "pain",
+          "value": 0.31868519,
+          "post_percentage_point_contribution": 0.26166594,
+          "author_percentage_point_contribution": 0.37570445
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sports or recreation facility",
+      "overall_value": 0.31868519,
+      "percent_topic_posts_with_label": 0.26166594,
+      "percent_topic_authors_using_label_on_topic_post": 0.37570445,
+      "links": [
+        {
+          "component_label": "heat-related illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.1593426,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.18785222
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "pain",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cleaning or disinfection",
+      "overall_value": 0.26557099,
+      "percent_topic_posts_with_label": 0.21805495,
+      "percent_topic_authors_using_label_on_topic_post": 0.31308704,
+      "links": [
+        {
+          "component_label": "toothache or dental problem",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "skin condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "pain",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cooking or food preparation",
+      "overall_value": 0.26557099,
+      "percent_topic_posts_with_label": 0.21805495,
+      "percent_topic_authors_using_label_on_topic_post": 0.31308704,
+      "links": [
+        {
+          "component_label": "dental caries",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.1593426,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.18785222
+        }
+      ]
+    },
+    {
+      "intersecting_label": "foster youth",
+      "overall_value": 0.26557099,
+      "percent_topic_posts_with_label": 0.21805495,
+      "percent_topic_authors_using_label_on_topic_post": 0.31308704,
+      "links": [
+        {
+          "component_label": "acute poisoning",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "fever",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "garden or yard",
+      "overall_value": 0.26557099,
+      "percent_topic_posts_with_label": 0.21805495,
+      "percent_topic_authors_using_label_on_topic_post": 0.31308704,
+      "links": [
+        {
+          "component_label": "heat-related illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "skin condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        }
+      ]
+    },
+    {
+      "intersecting_label": "playground",
+      "overall_value": 0.26557099,
+      "percent_topic_posts_with_label": 0.21805495,
+      "percent_topic_authors_using_label_on_topic_post": 0.31308704,
+      "links": [
+        {
+          "component_label": "toothache or dental problem",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "skin condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "pain",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "social support",
+      "overall_value": 0.26557099,
+      "percent_topic_posts_with_label": 0.21805495,
+      "percent_topic_authors_using_label_on_topic_post": 0.31308704,
+      "links": [
+        {
+          "component_label": "skin condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "autism",
+      "overall_value": 0.23426229,
+      "percent_topic_posts_with_label": 0.21805495,
+      "percent_topic_authors_using_label_on_topic_post": 0.25046963,
+      "links": [
+        {
+          "component_label": "lead poisoning",
+          "value": 0.12803389,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "acute poisoning",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adverse pregnancy outcome",
+      "overall_value": 0.2124568,
+      "percent_topic_posts_with_label": 0.17444396,
+      "percent_topic_authors_using_label_on_topic_post": 0.25046963,
+      "links": [
+        {
+          "component_label": "diabetes",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "pain",
+          "value": 0.1593426,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.18785222
+        }
+      ]
+    },
+    {
+      "intersecting_label": "ambient air pollution",
+      "overall_value": 0.2124568,
+      "percent_topic_posts_with_label": 0.17444396,
+      "percent_topic_authors_using_label_on_topic_post": 0.25046963,
+      "links": [
+        {
+          "component_label": "heat-related illness",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "skin condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "breastfeeding",
+      "overall_value": 0.2124568,
+      "percent_topic_posts_with_label": 0.17444396,
+      "percent_topic_authors_using_label_on_topic_post": 0.25046963,
+      "links": [
+        {
+          "component_label": "skin condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "fever",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental justice",
+      "overall_value": 0.2124568,
+      "percent_topic_posts_with_label": 0.17444396,
+      "percent_topic_authors_using_label_on_topic_post": 0.25046963,
+      "links": [
+        {
+          "component_label": "lead poisoning",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "heat-related illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        }
+      ]
+    },
+    {
+      "intersecting_label": "fire hazard",
+      "overall_value": 0.2124568,
+      "percent_topic_posts_with_label": 0.17444396,
+      "percent_topic_authors_using_label_on_topic_post": 0.25046963,
+      "links": [
+        {
+          "component_label": "acute poisoning",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "heat-related illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "insects and pests",
+      "overall_value": 0.2124568,
+      "percent_topic_posts_with_label": 0.17444396,
+      "percent_topic_authors_using_label_on_topic_post": 0.25046963,
+      "links": [
+        {
+          "component_label": "skin condition",
+          "value": 0.1593426,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.18785222
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "public transit",
+      "overall_value": 0.2124568,
+      "percent_topic_posts_with_label": 0.17444396,
+      "percent_topic_authors_using_label_on_topic_post": 0.25046963,
+      "links": [
+        {
+          "component_label": "heat-related illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        }
+      ]
+    },
+    {
+      "intersecting_label": "animal-related exposure",
+      "overall_value": 0.1593426,
+      "percent_topic_posts_with_label": 0.13083297,
+      "percent_topic_authors_using_label_on_topic_post": 0.18785222,
+      "links": [
+        {
+          "component_label": "acute poisoning",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "beach or coastal area",
+      "overall_value": 0.1593426,
+      "percent_topic_posts_with_label": 0.13083297,
+      "percent_topic_authors_using_label_on_topic_post": 0.18785222,
+      "links": [
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "fever",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cleaning and disinfecting chemicals",
+      "overall_value": 0.1593426,
+      "percent_topic_posts_with_label": 0.13083297,
+      "percent_topic_authors_using_label_on_topic_post": 0.18785222,
+      "links": [
+        {
+          "component_label": "acute poisoning",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        },
+        {
+          "component_label": "skin condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "climate change",
+      "overall_value": 0.1593426,
+      "percent_topic_posts_with_label": 0.13083297,
+      "percent_topic_authors_using_label_on_topic_post": 0.18785222,
+      "links": [
+        {
+          "component_label": "heat-related illness",
+          "value": 0.0796713,
+          "post_percentage_point_contribution": 0.06541648,
+          "author_percentage_point_contribution": 0.09392611
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.0265571,
+          "post_percentage_point_contribution": 0.02180549,
+          "author_percentage_point_contribution": 0.0313087
+        }
+      ]
+    },
+    {
+      "intersecting_label": "community program or service",
+      "overall_value": 0.1593426,
+      "percent_topic_posts_with_label": 0.13083297,
+      "percent_topic_authors_using_label_on_topic_post": 0.18785222,
+      "links": [
+        {
+          "component_label": "obesity",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "pain",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "industrial site",
+      "overall_value": 0.1593426,
+      "percent_topic_posts_with_label": 0.13083297,
+      "percent_topic_authors_using_label_on_topic_post": 0.18785222,
+      "links": [
+        {
+          "component_label": "acute poisoning",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "liver disease",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infectious disease exposure",
+      "overall_value": 0.1593426,
+      "percent_topic_posts_with_label": 0.13083297,
+      "percent_topic_authors_using_label_on_topic_post": 0.18785222,
+      "links": [
+        {
+          "component_label": "skin condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "fever",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "neighborhood",
+      "overall_value": 0.1593426,
+      "percent_topic_posts_with_label": 0.13083297,
+      "percent_topic_authors_using_label_on_topic_post": 0.18785222,
+      "links": [
+        {
+          "component_label": "lead poisoning",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "skin condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "pain",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pesticides",
+      "overall_value": 0.1593426,
+      "percent_topic_posts_with_label": 0.13083297,
+      "percent_topic_authors_using_label_on_topic_post": 0.18785222,
+      "links": [
+        {
+          "component_label": "lead poisoning",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "acute poisoning",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic hazard",
+      "overall_value": 0.1593426,
+      "percent_topic_posts_with_label": 0.13083297,
+      "percent_topic_authors_using_label_on_topic_post": 0.18785222,
+      "links": [
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "pain",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "shelter or temporary housing",
+      "overall_value": 0.14983939,
+      "percent_topic_posts_with_label": 0.17444396,
+      "percent_topic_authors_using_label_on_topic_post": 0.12523482,
+      "links": [
+        {
+          "component_label": "skin condition",
+          "value": 0.05926534,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.0313087
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.03745985,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.0313087
+        }
+      ]
+    },
+    {
+      "intersecting_label": "advocacy",
+      "overall_value": 0.12803389,
+      "percent_topic_posts_with_label": 0.13083297,
+      "percent_topic_authors_using_label_on_topic_post": 0.12523482,
+      "links": [
+        {
+          "component_label": "lead poisoning",
+          "value": 0.12803389,
+          "post_percentage_point_contribution": 0.13083297,
+          "author_percentage_point_contribution": 0.12523482
+        }
+      ]
+    },
+    {
+      "intersecting_label": "apartment",
+      "overall_value": 0.1062284,
+      "percent_topic_posts_with_label": 0.08722198,
+      "percent_topic_authors_using_label_on_topic_post": 0.12523482,
+      "links": [
+        {
+          "component_label": "heat-related illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "skin condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "birth defect",
+      "overall_value": 0.1062284,
+      "percent_topic_posts_with_label": 0.08722198,
+      "percent_topic_authors_using_label_on_topic_post": 0.12523482,
+      "links": [
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "fever",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childcare workers",
+      "overall_value": 0.1062284,
+      "percent_topic_posts_with_label": 0.08722198,
+      "percent_topic_authors_using_label_on_topic_post": 0.12523482,
+      "links": [
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cognitive or learning problem",
+      "overall_value": 0.1062284,
+      "percent_topic_posts_with_label": 0.08722198,
+      "percent_topic_authors_using_label_on_topic_post": 0.12523482,
+      "links": [
+        {
+          "component_label": "obesity",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.0265571,
+          "post_percentage_point_contribution": 0.02180549,
+          "author_percentage_point_contribution": 0.0313087
+        },
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.0265571,
+          "post_percentage_point_contribution": 0.02180549,
+          "author_percentage_point_contribution": 0.0313087
+        }
+      ]
+    },
+    {
+      "intersecting_label": "developmental delay",
+      "overall_value": 0.1062284,
+      "percent_topic_posts_with_label": 0.08722198,
+      "percent_topic_authors_using_label_on_topic_post": 0.12523482,
+      "links": [
+        {
+          "component_label": "obesity",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        }
+      ]
+    },
+    {
+      "intersecting_label": "earthquake",
+      "overall_value": 0.1062284,
+      "percent_topic_posts_with_label": 0.08722198,
+      "percent_topic_authors_using_label_on_topic_post": 0.12523482,
+      "links": [
+        {
+          "component_label": "fever",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "pain",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental policy or regulation",
+      "overall_value": 0.1062284,
+      "percent_topic_posts_with_label": 0.08722198,
+      "percent_topic_authors_using_label_on_topic_post": 0.12523482,
+      "links": [
+        {
+          "component_label": "lead poisoning",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "obesity",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "farm or agricultural setting",
+      "overall_value": 0.1062284,
+      "percent_topic_posts_with_label": 0.08722198,
+      "percent_topic_authors_using_label_on_topic_post": 0.12523482,
+      "links": [
+        {
+          "component_label": "heat-related illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "pain",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food access",
+      "overall_value": 0.1062284,
+      "percent_topic_posts_with_label": 0.08722198,
+      "percent_topic_authors_using_label_on_topic_post": 0.12523482,
+      "links": [
+        {
+          "component_label": "obesity",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        }
+      ]
+    },
+    {
+      "intersecting_label": "plastics or microplastics",
+      "overall_value": 0.1062284,
+      "percent_topic_posts_with_label": 0.08722198,
+      "percent_topic_authors_using_label_on_topic_post": 0.12523482,
+      "links": [
+        {
+          "component_label": "acute poisoning",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "skin condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pneumonia",
+      "overall_value": 0.1062284,
+      "percent_topic_posts_with_label": 0.08722198,
+      "percent_topic_authors_using_label_on_topic_post": 0.12523482,
+      "links": [
+        {
+          "component_label": "liver disease",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "fever",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "swimming or water recreation",
+      "overall_value": 0.1062284,
+      "percent_topic_posts_with_label": 0.08722198,
+      "percent_topic_authors_using_label_on_topic_post": 0.12523482,
+      "links": [
+        {
+          "component_label": "heat-related illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "skin condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "swimming pool",
+      "overall_value": 0.1062284,
+      "percent_topic_posts_with_label": 0.08722198,
+      "percent_topic_authors_using_label_on_topic_post": 0.12523482,
+      "links": [
+        {
+          "component_label": "skin condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "unsafe housing conditions",
+      "overall_value": 0.1062284,
+      "percent_topic_posts_with_label": 0.08722198,
+      "percent_topic_authors_using_label_on_topic_post": 0.12523482,
+      "links": [
+        {
+          "component_label": "heat-related illness",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildfire",
+      "overall_value": 0.1062284,
+      "percent_topic_posts_with_label": 0.08722198,
+      "percent_topic_authors_using_label_on_topic_post": 0.12523482,
+      "links": [
+        {
+          "component_label": "heat-related illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        },
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "winter storm or snow hazard",
+      "overall_value": 0.1062284,
+      "percent_topic_posts_with_label": 0.08722198,
+      "percent_topic_authors_using_label_on_topic_post": 0.12523482,
+      "links": [
+        {
+          "component_label": "pain",
+          "value": 0.1062284,
+          "post_percentage_point_contribution": 0.08722198,
+          "author_percentage_point_contribution": 0.12523482
+        }
+      ]
+    },
+    {
+      "intersecting_label": "youth engagement",
+      "overall_value": 0.1062284,
+      "percent_topic_posts_with_label": 0.08722198,
+      "percent_topic_authors_using_label_on_topic_post": 0.12523482,
+      "links": [
+        {
+          "component_label": "heat-related illness",
+          "value": 0.0265571,
+          "post_percentage_point_contribution": 0.02180549,
+          "author_percentage_point_contribution": 0.0313087
+        },
+        {
+          "component_label": "diabetes",
+          "value": 0.0265571,
+          "post_percentage_point_contribution": 0.02180549,
+          "author_percentage_point_contribution": 0.0313087
+        },
+        {
+          "component_label": "pain",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "RSV",
+      "overall_value": 0.0531142,
+      "percent_topic_posts_with_label": 0.04361099,
+      "percent_topic_authors_using_label_on_topic_post": 0.06261741,
+      "links": [
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "commercial area",
+      "overall_value": 0.0531142,
+      "percent_topic_posts_with_label": 0.04361099,
+      "percent_topic_authors_using_label_on_topic_post": 0.06261741,
+      "links": [
+        {
+          "component_label": "skin condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "educational access",
+      "overall_value": 0.0531142,
+      "percent_topic_posts_with_label": 0.04361099,
+      "percent_topic_authors_using_label_on_topic_post": 0.06261741,
+      "links": [
+        {
+          "component_label": "kidney disease",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "emergency response",
+      "overall_value": 0.0531142,
+      "percent_topic_posts_with_label": 0.04361099,
+      "percent_topic_authors_using_label_on_topic_post": 0.06261741,
+      "links": [
+        {
+          "component_label": "acute poisoning",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "flooding",
+      "overall_value": 0.0531142,
+      "percent_topic_posts_with_label": 0.04361099,
+      "percent_topic_authors_using_label_on_topic_post": 0.06261741,
+      "links": [
+        {
+          "component_label": "heat-related illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "hazardous chemicals",
+      "overall_value": 0.0531142,
+      "percent_topic_posts_with_label": 0.04361099,
+      "percent_topic_authors_using_label_on_topic_post": 0.06261741,
+      "links": [
+        {
+          "component_label": "acute poisoning",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "hearing problem",
+      "overall_value": 0.0531142,
+      "percent_topic_posts_with_label": 0.04361099,
+      "percent_topic_authors_using_label_on_topic_post": 0.06261741,
+      "links": [
+        {
+          "component_label": "pain",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "industrial chemicals",
+      "overall_value": 0.0531142,
+      "percent_topic_posts_with_label": 0.04361099,
+      "percent_topic_authors_using_label_on_topic_post": 0.06261741,
+      "links": [
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "inhaler use",
+      "overall_value": 0.0531142,
+      "percent_topic_posts_with_label": 0.04361099,
+      "percent_topic_authors_using_label_on_topic_post": 0.06261741,
+      "links": [
+        {
+          "component_label": "obesity",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "natural disaster",
+      "overall_value": 0.0531142,
+      "percent_topic_posts_with_label": 0.04361099,
+      "percent_topic_authors_using_label_on_topic_post": 0.06261741,
+      "links": [
+        {
+          "component_label": "pain",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "poor sanitation",
+      "overall_value": 0.0531142,
+      "percent_topic_posts_with_label": 0.04361099,
+      "percent_topic_authors_using_label_on_topic_post": 0.06261741,
+      "links": [
+        {
+          "component_label": "fever",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "preterm birth",
+      "overall_value": 0.0531142,
+      "percent_topic_posts_with_label": 0.04361099,
+      "percent_topic_authors_using_label_on_topic_post": 0.06261741,
+      "links": [
+        {
+          "component_label": "heat-related illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "river lake or water body",
+      "overall_value": 0.0531142,
+      "percent_topic_posts_with_label": 0.04361099,
+      "percent_topic_authors_using_label_on_topic_post": 0.06261741,
+      "links": [
+        {
+          "component_label": "pain",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "rural populations",
+      "overall_value": 0.0531142,
+      "percent_topic_posts_with_label": 0.04361099,
+      "percent_topic_authors_using_label_on_topic_post": 0.06261741,
+      "links": [
+        {
+          "component_label": "skin condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "scientific research",
+      "overall_value": 0.0531142,
+      "percent_topic_posts_with_label": 0.04361099,
+      "percent_topic_authors_using_label_on_topic_post": 0.06261741,
+      "links": [
+        {
+          "component_label": "pain",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic safety",
+      "overall_value": 0.0531142,
+      "percent_topic_posts_with_label": 0.04361099,
+      "percent_topic_authors_using_label_on_topic_post": 0.06261741,
+      "links": [
+        {
+          "component_label": "obesity",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "transportation access",
+      "overall_value": 0.0531142,
+      "percent_topic_posts_with_label": 0.04361099,
+      "percent_topic_authors_using_label_on_topic_post": 0.06261741,
+      "links": [
+        {
+          "component_label": "kidney disease",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "vaping aerosol",
+      "overall_value": 0.0531142,
+      "percent_topic_posts_with_label": 0.04361099,
+      "percent_topic_authors_using_label_on_topic_post": 0.06261741,
+      "links": [
+        {
+          "component_label": "cardiovascular condition",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "vision problem",
+      "overall_value": 0.0531142,
+      "percent_topic_posts_with_label": 0.04361099,
+      "percent_topic_authors_using_label_on_topic_post": 0.06261741,
+      "links": [
+        {
+          "component_label": "diabetes",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "water pollution",
+      "overall_value": 0.0531142,
+      "percent_topic_posts_with_label": 0.04361099,
+      "percent_topic_authors_using_label_on_topic_post": 0.06261741,
+      "links": [
+        {
+          "component_label": "gastrointestinal illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildfire smoke",
+      "overall_value": 0.0531142,
+      "percent_topic_posts_with_label": 0.04361099,
+      "percent_topic_authors_using_label_on_topic_post": 0.06261741,
+      "links": [
+        {
+          "component_label": "heat-related illness",
+          "value": 0.0531142,
+          "post_percentage_point_contribution": 0.04361099,
+          "author_percentage_point_contribution": 0.06261741
+        }
+      ]
+    }
+  ]
+}

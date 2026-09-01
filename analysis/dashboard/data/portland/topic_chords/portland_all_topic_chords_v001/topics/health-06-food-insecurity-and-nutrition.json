@@ -1,0 +1,1935 @@
+{
+  "schema_version": "1.0.0",
+  "city_id": "38900",
+  "domain": "health",
+  "category_id": "health-06",
+  "topic": "Food insecurity and nutrition",
+  "component_labels": [
+    "food insecurity",
+    "malnutrition"
+  ],
+  "intersections": [
+    {
+      "intersecting_label": "children",
+      "overall_value": 52.18568276,
+      "percent_topic_posts_with_label": 51.47512109,
+      "percent_topic_authors_using_label_on_topic_post": 52.89624443,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 50.24001182,
+          "post_percentage_point_contribution": 49.77983267,
+          "author_percentage_point_contribution": 50.70019096
+        },
+        {
+          "component_label": "malnutrition",
+          "value": 1.94567094,
+          "post_percentage_point_contribution": 1.69528842,
+          "author_percentage_point_contribution": 2.19605347
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school",
+      "overall_value": 21.60760829,
+      "percent_topic_posts_with_label": 19.72699251,
+      "percent_topic_authors_using_label_on_topic_post": 23.48822406,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 21.4999211,
+          "post_percentage_point_contribution": 19.63892558,
+          "author_percentage_point_contribution": 23.36091661
+        },
+        {
+          "component_label": "malnutrition",
+          "value": 0.10768719,
+          "post_percentage_point_contribution": 0.08806693,
+          "author_percentage_point_contribution": 0.12730745
+        }
+      ]
+    },
+    {
+      "intersecting_label": "parents and caregivers",
+      "overall_value": 18.1056024,
+      "percent_topic_posts_with_label": 16.16028181,
+      "percent_topic_authors_using_label_on_topic_post": 20.05092298,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 17.70177544,
+          "post_percentage_point_contribution": 15.83003082,
+          "author_percentage_point_contribution": 19.57352005
+        },
+        {
+          "component_label": "malnutrition",
+          "value": 0.40382696,
+          "post_percentage_point_contribution": 0.33025099,
+          "author_percentage_point_contribution": 0.47740293
+        }
+      ]
+    },
+    {
+      "intersecting_label": "students",
+      "overall_value": 14.34156796,
+      "percent_topic_posts_with_label": 12.76970498,
+      "percent_topic_authors_using_label_on_topic_post": 15.91343094,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 14.28772436,
+          "post_percentage_point_contribution": 12.72567151,
+          "author_percentage_point_contribution": 15.84977721
+        },
+        {
+          "component_label": "malnutrition",
+          "value": 0.05384359,
+          "post_percentage_point_contribution": 0.04403347,
+          "author_percentage_point_contribution": 0.06365372
+        }
+      ]
+    },
+    {
+      "intersecting_label": "families",
+      "overall_value": 10.37196927,
+      "percent_topic_posts_with_label": 9.15896081,
+      "percent_topic_authors_using_label_on_topic_post": 11.58497772,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 10.17250832,
+          "post_percentage_point_contribution": 8.98282695,
+          "author_percentage_point_contribution": 11.36218969
+        },
+        {
+          "component_label": "malnutrition",
+          "value": 0.19946095,
+          "post_percentage_point_contribution": 0.17613386,
+          "author_percentage_point_contribution": 0.22278803
+        }
+      ]
+    },
+    {
+      "intersecting_label": "poverty or financial hardship",
+      "overall_value": 10.02666673,
+      "percent_topic_posts_with_label": 9.4231616,
+      "percent_topic_authors_using_label_on_topic_post": 10.63017187,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 9.85412758,
+          "post_percentage_point_contribution": 9.26904447,
+          "author_percentage_point_contribution": 10.43921069
+        },
+        {
+          "component_label": "malnutrition",
+          "value": 0.17253915,
+          "post_percentage_point_contribution": 0.15411713,
+          "author_percentage_point_contribution": 0.19096117
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infants",
+      "overall_value": 6.19178915,
+      "percent_topic_posts_with_label": 5.63628358,
+      "percent_topic_authors_using_label_on_topic_post": 6.74729472,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 5.53956271,
+          "post_percentage_point_contribution": 5.06384852,
+          "author_percentage_point_contribution": 6.01527689
+        },
+        {
+          "component_label": "malnutrition",
+          "value": 0.65222644,
+          "post_percentage_point_contribution": 0.57243505,
+          "author_percentage_point_contribution": 0.73201782
+        }
+      ]
+    },
+    {
+      "intersecting_label": "community program or service",
+      "overall_value": 5.59950961,
+      "percent_topic_posts_with_label": 5.15191546,
+      "percent_topic_authors_using_label_on_topic_post": 6.04710376,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 5.59950961,
+          "post_percentage_point_contribution": 5.15191546,
+          "author_percentage_point_contribution": 6.04710376
+        }
+      ]
+    },
+    {
+      "intersecting_label": "unhoused populations",
+      "overall_value": 5.42097927,
+      "percent_topic_posts_with_label": 4.66754734,
+      "percent_topic_authors_using_label_on_topic_post": 6.1744112,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 5.27536192,
+          "post_percentage_point_contribution": 4.53544694,
+          "author_percentage_point_contribution": 6.01527689
+        },
+        {
+          "component_label": "malnutrition",
+          "value": 0.14561735,
+          "post_percentage_point_contribution": 0.1321004,
+          "author_percentage_point_contribution": 0.15913431
+        }
+      ]
+    },
+    {
+      "intersecting_label": "low-income populations",
+      "overall_value": 4.04306254,
+      "percent_topic_posts_with_label": 3.5667107,
+      "percent_topic_authors_using_label_on_topic_post": 4.51941439,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 4.01614075,
+          "post_percentage_point_contribution": 3.54469397,
+          "author_percentage_point_contribution": 4.48758752
+        },
+        {
+          "component_label": "malnutrition",
+          "value": 0.0269218,
+          "post_percentage_point_contribution": 0.02201673,
+          "author_percentage_point_contribution": 0.03182686
+        }
+      ]
+    },
+    {
+      "intersecting_label": "housing instability or homelessness",
+      "overall_value": 3.83248111,
+      "percent_topic_posts_with_label": 3.65477763,
+      "percent_topic_authors_using_label_on_topic_post": 4.0101846,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 3.77863752,
+          "post_percentage_point_contribution": 3.61074417,
+          "author_percentage_point_contribution": 3.94653087
+        },
+        {
+          "component_label": "malnutrition",
+          "value": 0.05384359,
+          "post_percentage_point_contribution": 0.04403347,
+          "author_percentage_point_contribution": 0.06365372
+        }
+      ]
+    },
+    {
+      "intersecting_label": "child abuse or neglect",
+      "overall_value": 3.7836547,
+      "percent_topic_posts_with_label": 3.30250991,
+      "percent_topic_authors_using_label_on_topic_post": 4.26479949,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 3.31988084,
+          "post_percentage_point_contribution": 2.88419199,
+          "author_percentage_point_contribution": 3.7555697
+        },
+        {
+          "component_label": "malnutrition",
+          "value": 0.46377386,
+          "post_percentage_point_contribution": 0.41831792,
+          "author_percentage_point_contribution": 0.50922979
+        }
+      ]
+    },
+    {
+      "intersecting_label": "home",
+      "overall_value": 3.15715182,
+      "percent_topic_posts_with_label": 2.68604139,
+      "percent_topic_authors_using_label_on_topic_post": 3.62826225,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 3.07638643,
+          "post_percentage_point_contribution": 2.61999119,
+          "author_percentage_point_contribution": 3.53278167
+        },
+        {
+          "component_label": "malnutrition",
+          "value": 0.08076539,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09548059
+        }
+      ]
+    },
+    {
+      "intersecting_label": "educational access",
+      "overall_value": 2.92215719,
+      "percent_topic_posts_with_label": 2.59797446,
+      "percent_topic_authors_using_label_on_topic_post": 3.24633991,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 2.92215719,
+          "post_percentage_point_contribution": 2.59797446,
+          "author_percentage_point_contribution": 3.24633991
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare access",
+      "overall_value": 1.84768177,
+      "percent_topic_posts_with_label": 1.84940555,
+      "percent_topic_authors_using_label_on_topic_post": 1.84595799,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 1.84768177,
+          "post_percentage_point_contribution": 1.84940555,
+          "author_percentage_point_contribution": 1.84595799
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adolescents",
+      "overall_value": 1.7253915,
+      "percent_topic_posts_with_label": 1.54117129,
+      "percent_topic_authors_using_label_on_topic_post": 1.90961171,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 1.67154791,
+          "post_percentage_point_contribution": 1.49713782,
+          "author_percentage_point_contribution": 1.84595799
+        },
+        {
+          "component_label": "malnutrition",
+          "value": 0.05384359,
+          "post_percentage_point_contribution": 0.04403347,
+          "author_percentage_point_contribution": 0.06365372
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental justice",
+      "overall_value": 1.41214006,
+      "percent_topic_posts_with_label": 1.23293703,
+      "percent_topic_authors_using_label_on_topic_post": 1.59134309,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 1.41214006,
+          "post_percentage_point_contribution": 1.23293703,
+          "author_percentage_point_contribution": 1.59134309
+        }
+      ]
+    },
+    {
+      "intersecting_label": "racial and ethnic minority populations",
+      "overall_value": 1.41214006,
+      "percent_topic_posts_with_label": 1.23293703,
+      "percent_topic_authors_using_label_on_topic_post": 1.59134309,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 1.41214006,
+          "post_percentage_point_contribution": 1.23293703,
+          "author_percentage_point_contribution": 1.59134309
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health disparity",
+      "overall_value": 1.39012333,
+      "percent_topic_posts_with_label": 1.18890357,
+      "percent_topic_authors_using_label_on_topic_post": 1.59134309,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 1.39012333,
+          "post_percentage_point_contribution": 1.18890357,
+          "author_percentage_point_contribution": 1.59134309
+        }
+      ]
+    },
+    {
+      "intersecting_label": "obesity",
+      "overall_value": 1.28243614,
+      "percent_topic_posts_with_label": 1.10083664,
+      "percent_topic_authors_using_label_on_topic_post": 1.46403565,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 1.09398356,
+          "post_percentage_point_contribution": 0.94671951,
+          "author_percentage_point_contribution": 1.24124761
+        },
+        {
+          "component_label": "malnutrition",
+          "value": 0.18845258,
+          "post_percentage_point_contribution": 0.15411713,
+          "author_percentage_point_contribution": 0.22278803
+        }
+      ]
+    },
+    {
+      "intersecting_label": "toddlers",
+      "overall_value": 1.26041941,
+      "percent_topic_posts_with_label": 1.05680317,
+      "percent_topic_authors_using_label_on_topic_post": 1.46403565,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 1.26041941,
+          "post_percentage_point_contribution": 1.05680317,
+          "author_percentage_point_contribution": 1.46403565
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mental health condition",
+      "overall_value": 1.20657581,
+      "percent_topic_posts_with_label": 1.0127697,
+      "percent_topic_authors_using_label_on_topic_post": 1.40038192,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 1.15273222,
+          "post_percentage_point_contribution": 0.96873624,
+          "author_percentage_point_contribution": 1.3367282
+        },
+        {
+          "component_label": "malnutrition",
+          "value": 0.05384359,
+          "post_percentage_point_contribution": 0.04403347,
+          "author_percentage_point_contribution": 0.06365372
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school closure",
+      "overall_value": 1.12090536,
+      "percent_topic_posts_with_label": 0.96873624,
+      "percent_topic_authors_using_label_on_topic_post": 1.27307447,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 1.12090536,
+          "post_percentage_point_contribution": 0.96873624,
+          "author_percentage_point_contribution": 1.27307447
+        }
+      ]
+    },
+    {
+      "intersecting_label": "classroom",
+      "overall_value": 1.07687189,
+      "percent_topic_posts_with_label": 0.88066931,
+      "percent_topic_authors_using_label_on_topic_post": 1.27307447,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 1.07687189,
+          "post_percentage_point_contribution": 0.88066931,
+          "author_percentage_point_contribution": 1.27307447
+        }
+      ]
+    },
+    {
+      "intersecting_label": "COVID-19",
+      "overall_value": 1.05725163,
+      "percent_topic_posts_with_label": 0.96873624,
+      "percent_topic_authors_using_label_on_topic_post": 1.14576703,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 1.05725163,
+          "post_percentage_point_contribution": 0.96873624,
+          "author_percentage_point_contribution": 1.14576703
+        }
+      ]
+    },
+    {
+      "intersecting_label": "child welfare services",
+      "overall_value": 1.0230283,
+      "percent_topic_posts_with_label": 0.83663584,
+      "percent_topic_authors_using_label_on_topic_post": 1.20942075,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 1.0230283,
+          "post_percentage_point_contribution": 0.83663584,
+          "author_percentage_point_contribution": 1.20942075
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cooking or food preparation",
+      "overall_value": 1.0230283,
+      "percent_topic_posts_with_label": 0.83663584,
+      "percent_topic_authors_using_label_on_topic_post": 1.20942075,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 1.0230283,
+          "post_percentage_point_contribution": 0.83663584,
+          "author_percentage_point_contribution": 1.20942075
+        }
+      ]
+    },
+    {
+      "intersecting_label": "violence or crime",
+      "overall_value": 0.97158118,
+      "percent_topic_posts_with_label": 0.92470277,
+      "percent_topic_authors_using_label_on_topic_post": 1.01845958,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.91773758,
+          "post_percentage_point_contribution": 0.88066931,
+          "author_percentage_point_contribution": 0.95480586
+        },
+        {
+          "component_label": "malnutrition",
+          "value": 0.05384359,
+          "post_percentage_point_contribution": 0.04403347,
+          "author_percentage_point_contribution": 0.06365372
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mortality or death",
+      "overall_value": 0.9691847,
+      "percent_topic_posts_with_label": 0.79260238,
+      "percent_topic_authors_using_label_on_topic_post": 1.14576703,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.86149751,
+          "post_percentage_point_contribution": 0.70453545,
+          "author_percentage_point_contribution": 1.01845958
+        },
+        {
+          "component_label": "malnutrition",
+          "value": 0.10768719,
+          "post_percentage_point_contribution": 0.08806693,
+          "author_percentage_point_contribution": 0.12730745
+        }
+      ]
+    },
+    {
+      "intersecting_label": "stress or distress",
+      "overall_value": 0.86149751,
+      "percent_topic_posts_with_label": 0.70453545,
+      "percent_topic_authors_using_label_on_topic_post": 1.01845958,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.69996673,
+          "post_percentage_point_contribution": 0.57243505,
+          "author_percentage_point_contribution": 0.82749841
+        },
+        {
+          "component_label": "malnutrition",
+          "value": 0.16153078,
+          "post_percentage_point_contribution": 0.1321004,
+          "author_percentage_point_contribution": 0.19096117
+        }
+      ]
+    },
+    {
+      "intersecting_label": "teachers and school staff",
+      "overall_value": 0.82967065,
+      "percent_topic_posts_with_label": 0.70453545,
+      "percent_topic_authors_using_label_on_topic_post": 0.95480586,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.82967065,
+          "post_percentage_point_contribution": 0.70453545,
+          "author_percentage_point_contribution": 0.95480586
+        }
+      ]
+    },
+    {
+      "intersecting_label": "social support",
+      "overall_value": 0.80765392,
+      "percent_topic_posts_with_label": 0.66050198,
+      "percent_topic_authors_using_label_on_topic_post": 0.95480586,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.80765392,
+          "post_percentage_point_contribution": 0.66050198,
+          "author_percentage_point_contribution": 0.95480586
+        }
+      ]
+    },
+    {
+      "intersecting_label": "discrimination",
+      "overall_value": 0.79784379,
+      "percent_topic_posts_with_label": 0.70453545,
+      "percent_topic_authors_using_label_on_topic_post": 0.89115213,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.79784379,
+          "post_percentage_point_contribution": 0.70453545,
+          "author_percentage_point_contribution": 0.89115213
+        }
+      ]
+    },
+    {
+      "intersecting_label": "depression",
+      "overall_value": 0.69996673,
+      "percent_topic_posts_with_label": 0.57243505,
+      "percent_topic_authors_using_label_on_topic_post": 0.82749841,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.69996673,
+          "post_percentage_point_contribution": 0.57243505,
+          "author_percentage_point_contribution": 0.82749841
+        }
+      ]
+    },
+    {
+      "intersecting_label": "advocacy",
+      "overall_value": 0.64612314,
+      "percent_topic_posts_with_label": 0.52840159,
+      "percent_topic_authors_using_label_on_topic_post": 0.76384468,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.64612314,
+          "post_percentage_point_contribution": 0.52840159,
+          "author_percentage_point_contribution": 0.76384468
+        }
+      ]
+    },
+    {
+      "intersecting_label": "diabetes",
+      "overall_value": 0.64612314,
+      "percent_topic_posts_with_label": 0.52840159,
+      "percent_topic_authors_using_label_on_topic_post": 0.76384468,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.59227954,
+          "post_percentage_point_contribution": 0.48436812,
+          "author_percentage_point_contribution": 0.70019096
+        },
+        {
+          "component_label": "malnutrition",
+          "value": 0.05384359,
+          "post_percentage_point_contribution": 0.04403347,
+          "author_percentage_point_contribution": 0.06365372
+        }
+      ]
+    },
+    {
+      "intersecting_label": "foster youth",
+      "overall_value": 0.64612314,
+      "percent_topic_posts_with_label": 0.52840159,
+      "percent_topic_authors_using_label_on_topic_post": 0.76384468,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.64612314,
+          "post_percentage_point_contribution": 0.52840159,
+          "author_percentage_point_contribution": 0.76384468
+        }
+      ]
+    },
+    {
+      "intersecting_label": "shelter or temporary housing",
+      "overall_value": 0.63631301,
+      "percent_topic_posts_with_label": 0.57243505,
+      "percent_topic_authors_using_label_on_topic_post": 0.70019096,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.63631301,
+          "post_percentage_point_contribution": 0.57243505,
+          "author_percentage_point_contribution": 0.70019096
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cancer",
+      "overall_value": 0.59227954,
+      "percent_topic_posts_with_label": 0.48436812,
+      "percent_topic_authors_using_label_on_topic_post": 0.70019096,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.48459235,
+          "post_percentage_point_contribution": 0.39630119,
+          "author_percentage_point_contribution": 0.57288351
+        },
+        {
+          "component_label": "malnutrition",
+          "value": 0.10768719,
+          "post_percentage_point_contribution": 0.08806693,
+          "author_percentage_point_contribution": 0.12730745
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infectious disease",
+      "overall_value": 0.59227954,
+      "percent_topic_posts_with_label": 0.48436812,
+      "percent_topic_authors_using_label_on_topic_post": 0.70019096,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.45767055,
+          "post_percentage_point_contribution": 0.37428446,
+          "author_percentage_point_contribution": 0.54105665
+        },
+        {
+          "component_label": "malnutrition",
+          "value": 0.13460899,
+          "post_percentage_point_contribution": 0.11008366,
+          "author_percentage_point_contribution": 0.15913431
+        }
+      ]
+    },
+    {
+      "intersecting_label": "drug exposure or use",
+      "overall_value": 0.56045268,
+      "percent_topic_posts_with_label": 0.48436812,
+      "percent_topic_authors_using_label_on_topic_post": 0.63653724,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.56045268,
+          "post_percentage_point_contribution": 0.48436812,
+          "author_percentage_point_contribution": 0.63653724
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pregnant people",
+      "overall_value": 0.53843595,
+      "percent_topic_posts_with_label": 0.44033465,
+      "percent_topic_authors_using_label_on_topic_post": 0.63653724,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.53843595,
+          "post_percentage_point_contribution": 0.44033465,
+          "author_percentage_point_contribution": 0.63653724
+        }
+      ]
+    },
+    {
+      "intersecting_label": "restaurant or food store",
+      "overall_value": 0.53843595,
+      "percent_topic_posts_with_label": 0.44033465,
+      "percent_topic_authors_using_label_on_topic_post": 0.63653724,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.53843595,
+          "post_percentage_point_contribution": 0.44033465,
+          "author_percentage_point_contribution": 0.63653724
+        }
+      ]
+    },
+    {
+      "intersecting_label": "breastfeeding",
+      "overall_value": 0.48459235,
+      "percent_topic_posts_with_label": 0.39630119,
+      "percent_topic_authors_using_label_on_topic_post": 0.57288351,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.43074876,
+          "post_percentage_point_contribution": 0.35226772,
+          "author_percentage_point_contribution": 0.50922979
+        },
+        {
+          "component_label": "malnutrition",
+          "value": 0.05384359,
+          "post_percentage_point_contribution": 0.04403347,
+          "author_percentage_point_contribution": 0.06365372
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childcare center",
+      "overall_value": 0.48459235,
+      "percent_topic_posts_with_label": 0.39630119,
+      "percent_topic_authors_using_label_on_topic_post": 0.57288351,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.48459235,
+          "post_percentage_point_contribution": 0.39630119,
+          "author_percentage_point_contribution": 0.57288351
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sports participation",
+      "overall_value": 0.48459235,
+      "percent_topic_posts_with_label": 0.39630119,
+      "percent_topic_authors_using_label_on_topic_post": 0.57288351,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.43074876,
+          "post_percentage_point_contribution": 0.35226772,
+          "author_percentage_point_contribution": 0.50922979
+        },
+        {
+          "component_label": "malnutrition",
+          "value": 0.05384359,
+          "post_percentage_point_contribution": 0.04403347,
+          "author_percentage_point_contribution": 0.06365372
+        }
+      ]
+    },
+    {
+      "intersecting_label": "climate change",
+      "overall_value": 0.47478222,
+      "percent_topic_posts_with_label": 0.44033465,
+      "percent_topic_authors_using_label_on_topic_post": 0.50922979,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.47478222,
+          "post_percentage_point_contribution": 0.44033465,
+          "author_percentage_point_contribution": 0.50922979
+        }
+      ]
+    },
+    {
+      "intersecting_label": "transportation access",
+      "overall_value": 0.45516196,
+      "percent_topic_posts_with_label": 0.52840159,
+      "percent_topic_authors_using_label_on_topic_post": 0.38192234,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.45516196,
+          "post_percentage_point_contribution": 0.52840159,
+          "author_percentage_point_contribution": 0.38192234
+        }
+      ]
+    },
+    {
+      "intersecting_label": "housing quality",
+      "overall_value": 0.45276549,
+      "percent_topic_posts_with_label": 0.39630119,
+      "percent_topic_authors_using_label_on_topic_post": 0.50922979,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.45276549,
+          "post_percentage_point_contribution": 0.39630119,
+          "author_percentage_point_contribution": 0.50922979
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food access",
+      "overall_value": 0.43074876,
+      "percent_topic_posts_with_label": 0.35226772,
+      "percent_topic_authors_using_label_on_topic_post": 0.50922979,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.43074876,
+          "post_percentage_point_contribution": 0.35226772,
+          "author_percentage_point_contribution": 0.50922979
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sleep problem",
+      "overall_value": 0.43074876,
+      "percent_topic_posts_with_label": 0.35226772,
+      "percent_topic_authors_using_label_on_topic_post": 0.50922979,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.32306157,
+          "post_percentage_point_contribution": 0.26420079,
+          "author_percentage_point_contribution": 0.38192234
+        },
+        {
+          "component_label": "malnutrition",
+          "value": 0.10768719,
+          "post_percentage_point_contribution": 0.08806693,
+          "author_percentage_point_contribution": 0.12730745
+        }
+      ]
+    },
+    {
+      "intersecting_label": "anxiety",
+      "overall_value": 0.37690516,
+      "percent_topic_posts_with_label": 0.30823426,
+      "percent_topic_authors_using_label_on_topic_post": 0.44557607,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.32306157,
+          "post_percentage_point_contribution": 0.26420079,
+          "author_percentage_point_contribution": 0.38192234
+        },
+        {
+          "component_label": "malnutrition",
+          "value": 0.05384359,
+          "post_percentage_point_contribution": 0.04403347,
+          "author_percentage_point_contribution": 0.06365372
+        }
+      ]
+    },
+    {
+      "intersecting_label": "children with disabilities",
+      "overall_value": 0.37690516,
+      "percent_topic_posts_with_label": 0.30823426,
+      "percent_topic_authors_using_label_on_topic_post": 0.44557607,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.37690516,
+          "post_percentage_point_contribution": 0.30823426,
+          "author_percentage_point_contribution": 0.44557607
+        }
+      ]
+    },
+    {
+      "intersecting_label": "contaminated drinking water",
+      "overall_value": 0.37690516,
+      "percent_topic_posts_with_label": 0.30823426,
+      "percent_topic_authors_using_label_on_topic_post": 0.44557607,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.37690516,
+          "post_percentage_point_contribution": 0.30823426,
+          "author_percentage_point_contribution": 0.44557607
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health education or awareness",
+      "overall_value": 0.37690516,
+      "percent_topic_posts_with_label": 0.30823426,
+      "percent_topic_authors_using_label_on_topic_post": 0.44557607,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.37690516,
+          "post_percentage_point_contribution": 0.30823426,
+          "author_percentage_point_contribution": 0.44557607
+        }
+      ]
+    },
+    {
+      "intersecting_label": "medical care",
+      "overall_value": 0.37690516,
+      "percent_topic_posts_with_label": 0.30823426,
+      "percent_topic_authors_using_label_on_topic_post": 0.44557607,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.29613977,
+          "post_percentage_point_contribution": 0.24218406,
+          "author_percentage_point_contribution": 0.35009548
+        },
+        {
+          "component_label": "malnutrition",
+          "value": 0.08076539,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09548059
+        }
+      ]
+    },
+    {
+      "intersecting_label": "outdoor play or recreation",
+      "overall_value": 0.37690516,
+      "percent_topic_posts_with_label": 0.30823426,
+      "percent_topic_authors_using_label_on_topic_post": 0.44557607,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.37690516,
+          "post_percentage_point_contribution": 0.30823426,
+          "author_percentage_point_contribution": 0.44557607
+        }
+      ]
+    },
+    {
+      "intersecting_label": "activity cancellation",
+      "overall_value": 0.32306157,
+      "percent_topic_posts_with_label": 0.26420079,
+      "percent_topic_authors_using_label_on_topic_post": 0.38192234,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.32306157,
+          "post_percentage_point_contribution": 0.26420079,
+          "author_percentage_point_contribution": 0.38192234
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare facility",
+      "overall_value": 0.32306157,
+      "percent_topic_posts_with_label": 0.26420079,
+      "percent_topic_authors_using_label_on_topic_post": 0.38192234,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.26921797,
+          "post_percentage_point_contribution": 0.22016733,
+          "author_percentage_point_contribution": 0.31826862
+        },
+        {
+          "component_label": "malnutrition",
+          "value": 0.05384359,
+          "post_percentage_point_contribution": 0.04403347,
+          "author_percentage_point_contribution": 0.06365372
+        }
+      ]
+    },
+    {
+      "intersecting_label": "unsafe housing conditions",
+      "overall_value": 0.32306157,
+      "percent_topic_posts_with_label": 0.26420079,
+      "percent_topic_authors_using_label_on_topic_post": 0.38192234,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.32306157,
+          "post_percentage_point_contribution": 0.26420079,
+          "author_percentage_point_contribution": 0.38192234
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pets and companion animals",
+      "overall_value": 0.29123471,
+      "percent_topic_posts_with_label": 0.26420079,
+      "percent_topic_authors_using_label_on_topic_post": 0.31826862,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.23739111,
+          "post_percentage_point_contribution": 0.22016733,
+          "author_percentage_point_contribution": 0.25461489
+        },
+        {
+          "component_label": "malnutrition",
+          "value": 0.05384359,
+          "post_percentage_point_contribution": 0.04403347,
+          "author_percentage_point_contribution": 0.06365372
+        }
+      ]
+    },
+    {
+      "intersecting_label": "extreme cold",
+      "overall_value": 0.26921797,
+      "percent_topic_posts_with_label": 0.22016733,
+      "percent_topic_authors_using_label_on_topic_post": 0.31826862,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.21537438,
+          "post_percentage_point_contribution": 0.17613386,
+          "author_percentage_point_contribution": 0.25461489
+        },
+        {
+          "component_label": "malnutrition",
+          "value": 0.05384359,
+          "post_percentage_point_contribution": 0.04403347,
+          "author_percentage_point_contribution": 0.06365372
+        }
+      ]
+    },
+    {
+      "intersecting_label": "farm or agricultural setting",
+      "overall_value": 0.26921797,
+      "percent_topic_posts_with_label": 0.22016733,
+      "percent_topic_authors_using_label_on_topic_post": 0.31826862,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.26921797,
+          "post_percentage_point_contribution": 0.22016733,
+          "author_percentage_point_contribution": 0.31826862
+        }
+      ]
+    },
+    {
+      "intersecting_label": "gastrointestinal illness",
+      "overall_value": 0.26921797,
+      "percent_topic_posts_with_label": 0.22016733,
+      "percent_topic_authors_using_label_on_topic_post": 0.31826862,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.16153078,
+          "post_percentage_point_contribution": 0.1321004,
+          "author_percentage_point_contribution": 0.19096117
+        },
+        {
+          "component_label": "malnutrition",
+          "value": 0.10768719,
+          "post_percentage_point_contribution": 0.08806693,
+          "author_percentage_point_contribution": 0.12730745
+        }
+      ]
+    },
+    {
+      "intersecting_label": "park or green space",
+      "overall_value": 0.26921797,
+      "percent_topic_posts_with_label": 0.22016733,
+      "percent_topic_authors_using_label_on_topic_post": 0.31826862,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.26921797,
+          "post_percentage_point_contribution": 0.22016733,
+          "author_percentage_point_contribution": 0.31826862
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childcare workers",
+      "overall_value": 0.22758098,
+      "percent_topic_posts_with_label": 0.26420079,
+      "percent_topic_authors_using_label_on_topic_post": 0.19096117,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.22758098,
+          "post_percentage_point_contribution": 0.26420079,
+          "author_percentage_point_contribution": 0.19096117
+        }
+      ]
+    },
+    {
+      "intersecting_label": "allergens",
+      "overall_value": 0.21537438,
+      "percent_topic_posts_with_label": 0.17613386,
+      "percent_topic_authors_using_label_on_topic_post": 0.25461489,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.21537438,
+          "post_percentage_point_contribution": 0.17613386,
+          "author_percentage_point_contribution": 0.25461489
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food contamination",
+      "overall_value": 0.21537438,
+      "percent_topic_posts_with_label": 0.17613386,
+      "percent_topic_authors_using_label_on_topic_post": 0.25461489,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.21537438,
+          "post_percentage_point_contribution": 0.17613386,
+          "author_percentage_point_contribution": 0.25461489
+        }
+      ]
+    },
+    {
+      "intersecting_label": "garden or yard",
+      "overall_value": 0.21537438,
+      "percent_topic_posts_with_label": 0.17613386,
+      "percent_topic_authors_using_label_on_topic_post": 0.25461489,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.21537438,
+          "post_percentage_point_contribution": 0.17613386,
+          "author_percentage_point_contribution": 0.25461489
+        }
+      ]
+    },
+    {
+      "intersecting_label": "medication use",
+      "overall_value": 0.21537438,
+      "percent_topic_posts_with_label": 0.17613386,
+      "percent_topic_authors_using_label_on_topic_post": 0.25461489,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.21537438,
+          "post_percentage_point_contribution": 0.17613386,
+          "author_percentage_point_contribution": 0.25461489
+        }
+      ]
+    },
+    {
+      "intersecting_label": "walking or bicycling",
+      "overall_value": 0.21537438,
+      "percent_topic_posts_with_label": 0.17613386,
+      "percent_topic_authors_using_label_on_topic_post": 0.25461489,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.21537438,
+          "post_percentage_point_contribution": 0.17613386,
+          "author_percentage_point_contribution": 0.25461489
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cough",
+      "overall_value": 0.16153078,
+      "percent_topic_posts_with_label": 0.1321004,
+      "percent_topic_authors_using_label_on_topic_post": 0.19096117,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.16153078,
+          "post_percentage_point_contribution": 0.1321004,
+          "author_percentage_point_contribution": 0.19096117
+        }
+      ]
+    },
+    {
+      "intersecting_label": "extreme heat",
+      "overall_value": 0.16153078,
+      "percent_topic_posts_with_label": 0.1321004,
+      "percent_topic_authors_using_label_on_topic_post": 0.19096117,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.16153078,
+          "post_percentage_point_contribution": 0.1321004,
+          "author_percentage_point_contribution": 0.19096117
+        }
+      ]
+    },
+    {
+      "intersecting_label": "flooding",
+      "overall_value": 0.16153078,
+      "percent_topic_posts_with_label": 0.1321004,
+      "percent_topic_authors_using_label_on_topic_post": 0.19096117,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.16153078,
+          "post_percentage_point_contribution": 0.1321004,
+          "author_percentage_point_contribution": 0.19096117
+        }
+      ]
+    },
+    {
+      "intersecting_label": "poor sanitation",
+      "overall_value": 0.16153078,
+      "percent_topic_posts_with_label": 0.1321004,
+      "percent_topic_authors_using_label_on_topic_post": 0.19096117,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.16153078,
+          "post_percentage_point_contribution": 0.1321004,
+          "author_percentage_point_contribution": 0.19096117
+        }
+      ]
+    },
+    {
+      "intersecting_label": "reproductive health condition",
+      "overall_value": 0.16153078,
+      "percent_topic_posts_with_label": 0.1321004,
+      "percent_topic_authors_using_label_on_topic_post": 0.19096117,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.16153078,
+          "post_percentage_point_contribution": 0.1321004,
+          "author_percentage_point_contribution": 0.19096117
+        }
+      ]
+    },
+    {
+      "intersecting_label": "water pollution",
+      "overall_value": 0.16153078,
+      "percent_topic_posts_with_label": 0.1321004,
+      "percent_topic_authors_using_label_on_topic_post": 0.19096117,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.16153078,
+          "post_percentage_point_contribution": 0.1321004,
+          "author_percentage_point_contribution": 0.19096117
+        }
+      ]
+    },
+    {
+      "intersecting_label": "youth engagement",
+      "overall_value": 0.16153078,
+      "percent_topic_posts_with_label": 0.1321004,
+      "percent_topic_authors_using_label_on_topic_post": 0.19096117,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.16153078,
+          "post_percentage_point_contribution": 0.1321004,
+          "author_percentage_point_contribution": 0.19096117
+        }
+      ]
+    },
+    {
+      "intersecting_label": "rural populations",
+      "overall_value": 0.12970392,
+      "percent_topic_posts_with_label": 0.1321004,
+      "percent_topic_authors_using_label_on_topic_post": 0.12730745,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.12970392,
+          "post_percentage_point_contribution": 0.1321004,
+          "author_percentage_point_contribution": 0.12730745
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adverse pregnancy outcome",
+      "overall_value": 0.10768719,
+      "percent_topic_posts_with_label": 0.08806693,
+      "percent_topic_authors_using_label_on_topic_post": 0.12730745,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.10768719,
+          "post_percentage_point_contribution": 0.08806693,
+          "author_percentage_point_contribution": 0.12730745
+        }
+      ]
+    },
+    {
+      "intersecting_label": "alcohol exposure or use",
+      "overall_value": 0.10768719,
+      "percent_topic_posts_with_label": 0.08806693,
+      "percent_topic_authors_using_label_on_topic_post": 0.12730745,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.10768719,
+          "post_percentage_point_contribution": 0.08806693,
+          "author_percentage_point_contribution": 0.12730745
+        }
+      ]
+    },
+    {
+      "intersecting_label": "ambient air pollution",
+      "overall_value": 0.10768719,
+      "percent_topic_posts_with_label": 0.08806693,
+      "percent_topic_authors_using_label_on_topic_post": 0.12730745,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.10768719,
+          "post_percentage_point_contribution": 0.08806693,
+          "author_percentage_point_contribution": 0.12730745
+        }
+      ]
+    },
+    {
+      "intersecting_label": "apartment",
+      "overall_value": 0.10768719,
+      "percent_topic_posts_with_label": 0.08806693,
+      "percent_topic_authors_using_label_on_topic_post": 0.12730745,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.10768719,
+          "post_percentage_point_contribution": 0.08806693,
+          "author_percentage_point_contribution": 0.12730745
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cognitive or learning problem",
+      "overall_value": 0.10768719,
+      "percent_topic_posts_with_label": 0.08806693,
+      "percent_topic_authors_using_label_on_topic_post": 0.12730745,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.10768719,
+          "post_percentage_point_contribution": 0.08806693,
+          "author_percentage_point_contribution": 0.12730745
+        }
+      ]
+    },
+    {
+      "intersecting_label": "developmental delay",
+      "overall_value": 0.10768719,
+      "percent_topic_posts_with_label": 0.08806693,
+      "percent_topic_authors_using_label_on_topic_post": 0.12730745,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.05384359,
+          "post_percentage_point_contribution": 0.04403347,
+          "author_percentage_point_contribution": 0.06365372
+        },
+        {
+          "component_label": "malnutrition",
+          "value": 0.05384359,
+          "post_percentage_point_contribution": 0.04403347,
+          "author_percentage_point_contribution": 0.06365372
+        }
+      ]
+    },
+    {
+      "intersecting_label": "disability",
+      "overall_value": 0.10768719,
+      "percent_topic_posts_with_label": 0.08806693,
+      "percent_topic_authors_using_label_on_topic_post": 0.12730745,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.10768719,
+          "post_percentage_point_contribution": 0.08806693,
+          "author_percentage_point_contribution": 0.12730745
+        }
+      ]
+    },
+    {
+      "intersecting_label": "drought",
+      "overall_value": 0.10768719,
+      "percent_topic_posts_with_label": 0.08806693,
+      "percent_topic_authors_using_label_on_topic_post": 0.12730745,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.10768719,
+          "post_percentage_point_contribution": 0.08806693,
+          "author_percentage_point_contribution": 0.12730745
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental policy or regulation",
+      "overall_value": 0.10768719,
+      "percent_topic_posts_with_label": 0.08806693,
+      "percent_topic_authors_using_label_on_topic_post": 0.12730745,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.10768719,
+          "post_percentage_point_contribution": 0.08806693,
+          "author_percentage_point_contribution": 0.12730745
+        }
+      ]
+    },
+    {
+      "intersecting_label": "general severe weather",
+      "overall_value": 0.10768719,
+      "percent_topic_posts_with_label": 0.08806693,
+      "percent_topic_authors_using_label_on_topic_post": 0.12730745,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.10768719,
+          "post_percentage_point_contribution": 0.08806693,
+          "author_percentage_point_contribution": 0.12730745
+        }
+      ]
+    },
+    {
+      "intersecting_label": "headache or migraine",
+      "overall_value": 0.10768719,
+      "percent_topic_posts_with_label": 0.08806693,
+      "percent_topic_authors_using_label_on_topic_post": 0.12730745,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.10768719,
+          "post_percentage_point_contribution": 0.08806693,
+          "author_percentage_point_contribution": 0.12730745
+        }
+      ]
+    },
+    {
+      "intersecting_label": "lead poisoning",
+      "overall_value": 0.10768719,
+      "percent_topic_posts_with_label": 0.08806693,
+      "percent_topic_authors_using_label_on_topic_post": 0.12730745,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.10768719,
+          "post_percentage_point_contribution": 0.08806693,
+          "author_percentage_point_contribution": 0.12730745
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mask use",
+      "overall_value": 0.10768719,
+      "percent_topic_posts_with_label": 0.08806693,
+      "percent_topic_authors_using_label_on_topic_post": 0.12730745,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.10768719,
+          "post_percentage_point_contribution": 0.08806693,
+          "author_percentage_point_contribution": 0.12730745
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sports or recreation facility",
+      "overall_value": 0.10768719,
+      "percent_topic_posts_with_label": 0.08806693,
+      "percent_topic_authors_using_label_on_topic_post": 0.12730745,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.10768719,
+          "post_percentage_point_contribution": 0.08806693,
+          "author_percentage_point_contribution": 0.12730745
+        }
+      ]
+    },
+    {
+      "intersecting_label": "vaccination",
+      "overall_value": 0.10768719,
+      "percent_topic_posts_with_label": 0.08806693,
+      "percent_topic_authors_using_label_on_topic_post": 0.12730745,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.10768719,
+          "post_percentage_point_contribution": 0.08806693,
+          "author_percentage_point_contribution": 0.12730745
+        }
+      ]
+    },
+    {
+      "intersecting_label": "workers",
+      "overall_value": 0.10768719,
+      "percent_topic_posts_with_label": 0.08806693,
+      "percent_topic_authors_using_label_on_topic_post": 0.12730745,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.10768719,
+          "post_percentage_point_contribution": 0.08806693,
+          "author_percentage_point_contribution": 0.12730745
+        }
+      ]
+    },
+    {
+      "intersecting_label": "dental care",
+      "overall_value": 0.07586033,
+      "percent_topic_posts_with_label": 0.08806693,
+      "percent_topic_authors_using_label_on_topic_post": 0.06365372,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.07586033,
+          "post_percentage_point_contribution": 0.08806693,
+          "author_percentage_point_contribution": 0.06365372
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adverse birth outcome",
+      "overall_value": 0.05384359,
+      "percent_topic_posts_with_label": 0.04403347,
+      "percent_topic_authors_using_label_on_topic_post": 0.06365372,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.05384359,
+          "post_percentage_point_contribution": 0.04403347,
+          "author_percentage_point_contribution": 0.06365372
+        }
+      ]
+    },
+    {
+      "intersecting_label": "asthma",
+      "overall_value": 0.05384359,
+      "percent_topic_posts_with_label": 0.04403347,
+      "percent_topic_authors_using_label_on_topic_post": 0.06365372,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.05384359,
+          "post_percentage_point_contribution": 0.04403347,
+          "author_percentage_point_contribution": 0.06365372
+        }
+      ]
+    },
+    {
+      "intersecting_label": "autism",
+      "overall_value": 0.05384359,
+      "percent_topic_posts_with_label": 0.04403347,
+      "percent_topic_authors_using_label_on_topic_post": 0.06365372,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.05384359,
+          "post_percentage_point_contribution": 0.04403347,
+          "author_percentage_point_contribution": 0.06365372
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cleaning or disinfection",
+      "overall_value": 0.05384359,
+      "percent_topic_posts_with_label": 0.04403347,
+      "percent_topic_authors_using_label_on_topic_post": 0.06365372,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.05384359,
+          "post_percentage_point_contribution": 0.04403347,
+          "author_percentage_point_contribution": 0.06365372
+        }
+      ]
+    },
+    {
+      "intersecting_label": "fever",
+      "overall_value": 0.05384359,
+      "percent_topic_posts_with_label": 0.04403347,
+      "percent_topic_authors_using_label_on_topic_post": 0.06365372,
+      "links": [
+        {
+          "component_label": "malnutrition",
+          "value": 0.05384359,
+          "post_percentage_point_contribution": 0.04403347,
+          "author_percentage_point_contribution": 0.06365372
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare workers",
+      "overall_value": 0.05384359,
+      "percent_topic_posts_with_label": 0.04403347,
+      "percent_topic_authors_using_label_on_topic_post": 0.06365372,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.05384359,
+          "post_percentage_point_contribution": 0.04403347,
+          "author_percentage_point_contribution": 0.06365372
+        }
+      ]
+    },
+    {
+      "intersecting_label": "household chemicals",
+      "overall_value": 0.05384359,
+      "percent_topic_posts_with_label": 0.04403347,
+      "percent_topic_authors_using_label_on_topic_post": 0.06365372,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.05384359,
+          "post_percentage_point_contribution": 0.04403347,
+          "author_percentage_point_contribution": 0.06365372
+        }
+      ]
+    },
+    {
+      "intersecting_label": "hurricane or severe storm",
+      "overall_value": 0.05384359,
+      "percent_topic_posts_with_label": 0.04403347,
+      "percent_topic_authors_using_label_on_topic_post": 0.06365372,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.05384359,
+          "post_percentage_point_contribution": 0.04403347,
+          "author_percentage_point_contribution": 0.06365372
+        }
+      ]
+    },
+    {
+      "intersecting_label": "indoor air quality",
+      "overall_value": 0.05384359,
+      "percent_topic_posts_with_label": 0.04403347,
+      "percent_topic_authors_using_label_on_topic_post": 0.06365372,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.05384359,
+          "post_percentage_point_contribution": 0.04403347,
+          "author_percentage_point_contribution": 0.06365372
+        }
+      ]
+    },
+    {
+      "intersecting_label": "indoor environment",
+      "overall_value": 0.05384359,
+      "percent_topic_posts_with_label": 0.04403347,
+      "percent_topic_authors_using_label_on_topic_post": 0.06365372,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.05384359,
+          "post_percentage_point_contribution": 0.04403347,
+          "author_percentage_point_contribution": 0.06365372
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infectious disease exposure",
+      "overall_value": 0.05384359,
+      "percent_topic_posts_with_label": 0.04403347,
+      "percent_topic_authors_using_label_on_topic_post": 0.06365372,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.05384359,
+          "post_percentage_point_contribution": 0.04403347,
+          "author_percentage_point_contribution": 0.06365372
+        }
+      ]
+    },
+    {
+      "intersecting_label": "injury",
+      "overall_value": 0.05384359,
+      "percent_topic_posts_with_label": 0.04403347,
+      "percent_topic_authors_using_label_on_topic_post": 0.06365372,
+      "links": [
+        {
+          "component_label": "malnutrition",
+          "value": 0.05384359,
+          "post_percentage_point_contribution": 0.04403347,
+          "author_percentage_point_contribution": 0.06365372
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mold and dampness",
+      "overall_value": 0.05384359,
+      "percent_topic_posts_with_label": 0.04403347,
+      "percent_topic_authors_using_label_on_topic_post": 0.06365372,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.05384359,
+          "post_percentage_point_contribution": 0.04403347,
+          "author_percentage_point_contribution": 0.06365372
+        }
+      ]
+    },
+    {
+      "intersecting_label": "motor vehicle",
+      "overall_value": 0.05384359,
+      "percent_topic_posts_with_label": 0.04403347,
+      "percent_topic_authors_using_label_on_topic_post": 0.06365372,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.05384359,
+          "post_percentage_point_contribution": 0.04403347,
+          "author_percentage_point_contribution": 0.06365372
+        }
+      ]
+    },
+    {
+      "intersecting_label": "neighborhood",
+      "overall_value": 0.05384359,
+      "percent_topic_posts_with_label": 0.04403347,
+      "percent_topic_authors_using_label_on_topic_post": 0.06365372,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.05384359,
+          "post_percentage_point_contribution": 0.04403347,
+          "author_percentage_point_contribution": 0.06365372
+        }
+      ]
+    },
+    {
+      "intersecting_label": "plastics or microplastics",
+      "overall_value": 0.05384359,
+      "percent_topic_posts_with_label": 0.04403347,
+      "percent_topic_authors_using_label_on_topic_post": 0.06365372,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.05384359,
+          "post_percentage_point_contribution": 0.04403347,
+          "author_percentage_point_contribution": 0.06365372
+        }
+      ]
+    },
+    {
+      "intersecting_label": "playground",
+      "overall_value": 0.05384359,
+      "percent_topic_posts_with_label": 0.04403347,
+      "percent_topic_authors_using_label_on_topic_post": 0.06365372,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.05384359,
+          "post_percentage_point_contribution": 0.04403347,
+          "author_percentage_point_contribution": 0.06365372
+        }
+      ]
+    },
+    {
+      "intersecting_label": "preterm birth",
+      "overall_value": 0.05384359,
+      "percent_topic_posts_with_label": 0.04403347,
+      "percent_topic_authors_using_label_on_topic_post": 0.06365372,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.05384359,
+          "post_percentage_point_contribution": 0.04403347,
+          "author_percentage_point_contribution": 0.06365372
+        }
+      ]
+    },
+    {
+      "intersecting_label": "public transit",
+      "overall_value": 0.05384359,
+      "percent_topic_posts_with_label": 0.04403347,
+      "percent_topic_authors_using_label_on_topic_post": 0.06365372,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.05384359,
+          "post_percentage_point_contribution": 0.04403347,
+          "author_percentage_point_contribution": 0.06365372
+        }
+      ]
+    },
+    {
+      "intersecting_label": "scientific research",
+      "overall_value": 0.05384359,
+      "percent_topic_posts_with_label": 0.04403347,
+      "percent_topic_authors_using_label_on_topic_post": 0.06365372,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.05384359,
+          "post_percentage_point_contribution": 0.04403347,
+          "author_percentage_point_contribution": 0.06365372
+        }
+      ]
+    },
+    {
+      "intersecting_label": "shortness of breath",
+      "overall_value": 0.05384359,
+      "percent_topic_posts_with_label": 0.04403347,
+      "percent_topic_authors_using_label_on_topic_post": 0.06365372,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.05384359,
+          "post_percentage_point_contribution": 0.04403347,
+          "author_percentage_point_contribution": 0.06365372
+        }
+      ]
+    },
+    {
+      "intersecting_label": "skin condition",
+      "overall_value": 0.05384359,
+      "percent_topic_posts_with_label": 0.04403347,
+      "percent_topic_authors_using_label_on_topic_post": 0.06365372,
+      "links": [
+        {
+          "component_label": "malnutrition",
+          "value": 0.05384359,
+          "post_percentage_point_contribution": 0.04403347,
+          "author_percentage_point_contribution": 0.06365372
+        }
+      ]
+    },
+    {
+      "intersecting_label": "substance use disorder",
+      "overall_value": 0.05384359,
+      "percent_topic_posts_with_label": 0.04403347,
+      "percent_topic_authors_using_label_on_topic_post": 0.06365372,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.05384359,
+          "post_percentage_point_contribution": 0.04403347,
+          "author_percentage_point_contribution": 0.06365372
+        }
+      ]
+    },
+    {
+      "intersecting_label": "swimming or water recreation",
+      "overall_value": 0.05384359,
+      "percent_topic_posts_with_label": 0.04403347,
+      "percent_topic_authors_using_label_on_topic_post": 0.06365372,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.05384359,
+          "post_percentage_point_contribution": 0.04403347,
+          "author_percentage_point_contribution": 0.06365372
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildfire smoke",
+      "overall_value": 0.05384359,
+      "percent_topic_posts_with_label": 0.04403347,
+      "percent_topic_authors_using_label_on_topic_post": 0.06365372,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.05384359,
+          "post_percentage_point_contribution": 0.04403347,
+          "author_percentage_point_contribution": 0.06365372
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildlife",
+      "overall_value": 0.05384359,
+      "percent_topic_posts_with_label": 0.04403347,
+      "percent_topic_authors_using_label_on_topic_post": 0.06365372,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.05384359,
+          "post_percentage_point_contribution": 0.04403347,
+          "author_percentage_point_contribution": 0.06365372
+        }
+      ]
+    },
+    {
+      "intersecting_label": "winter storm or snow hazard",
+      "overall_value": 0.05384359,
+      "percent_topic_posts_with_label": 0.04403347,
+      "percent_topic_authors_using_label_on_topic_post": 0.06365372,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.05384359,
+          "post_percentage_point_contribution": 0.04403347,
+          "author_percentage_point_contribution": 0.06365372
+        }
+      ]
+    },
+    {
+      "intersecting_label": "workplace",
+      "overall_value": 0.05384359,
+      "percent_topic_posts_with_label": 0.04403347,
+      "percent_topic_authors_using_label_on_topic_post": 0.06365372,
+      "links": [
+        {
+          "component_label": "food insecurity",
+          "value": 0.05384359,
+          "post_percentage_point_contribution": 0.04403347,
+          "author_percentage_point_contribution": 0.06365372
+        }
+      ]
+    }
+  ]
+}

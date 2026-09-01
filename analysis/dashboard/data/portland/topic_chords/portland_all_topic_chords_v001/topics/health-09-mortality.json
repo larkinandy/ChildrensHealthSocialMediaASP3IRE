@@ -1,0 +1,1902 @@
+{
+  "schema_version": "1.0.0",
+  "city_id": "38900",
+  "domain": "health",
+  "category_id": "health-09",
+  "topic": "Mortality",
+  "component_labels": [
+    "mortality or death"
+  ],
+  "intersections": [
+    {
+      "intersecting_label": "children",
+      "overall_value": 45.35287491,
+      "percent_topic_posts_with_label": 43.74133949,
+      "percent_topic_authors_using_label_on_topic_post": 46.96441033,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 45.35287491,
+          "post_percentage_point_contribution": 43.74133949,
+          "author_percentage_point_contribution": 46.96441033
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infants",
+      "overall_value": 12.10388903,
+      "percent_topic_posts_with_label": 10.66974596,
+      "percent_topic_authors_using_label_on_topic_post": 13.5380321,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 12.10388903,
+          "post_percentage_point_contribution": 10.66974596,
+          "author_percentage_point_contribution": 13.5380321
+        }
+      ]
+    },
+    {
+      "intersecting_label": "violence or crime",
+      "overall_value": 9.95888726,
+      "percent_topic_posts_with_label": 8.8221709,
+      "percent_topic_authors_using_label_on_topic_post": 11.09560363,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 9.95888726,
+          "post_percentage_point_contribution": 8.8221709,
+          "author_percentage_point_contribution": 11.09560363
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school",
+      "overall_value": 8.77756092,
+      "percent_topic_posts_with_label": 7.43648961,
+      "percent_topic_authors_using_label_on_topic_post": 10.11863224,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 8.77756092,
+          "post_percentage_point_contribution": 7.43648961,
+          "author_percentage_point_contribution": 10.11863224
+        }
+      ]
+    },
+    {
+      "intersecting_label": "families",
+      "overall_value": 7.6296276,
+      "percent_topic_posts_with_label": 6.4665127,
+      "percent_topic_authors_using_label_on_topic_post": 8.7927425,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 7.6296276,
+          "post_percentage_point_contribution": 6.4665127,
+          "author_percentage_point_contribution": 8.7927425
+        }
+      ]
+    },
+    {
+      "intersecting_label": "COVID-19",
+      "overall_value": 7.11604879,
+      "percent_topic_posts_with_label": 6.97459584,
+      "percent_topic_authors_using_label_on_topic_post": 7.25750174,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 7.11604879,
+          "post_percentage_point_contribution": 6.97459584,
+          "author_percentage_point_contribution": 7.25750174
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adolescents",
+      "overall_value": 7.07185784,
+      "percent_topic_posts_with_label": 6.32794457,
+      "percent_topic_authors_using_label_on_topic_post": 7.81577111,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 7.07185784,
+          "post_percentage_point_contribution": 6.32794457,
+          "author_percentage_point_contribution": 7.81577111
+        }
+      ]
+    },
+    {
+      "intersecting_label": "parents and caregivers",
+      "overall_value": 6.81731666,
+      "percent_topic_posts_with_label": 5.95842956,
+      "percent_topic_authors_using_label_on_topic_post": 7.67620377,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 6.81731666,
+          "post_percentage_point_contribution": 5.95842956,
+          "author_percentage_point_contribution": 7.67620377
+        }
+      ]
+    },
+    {
+      "intersecting_label": "child abuse or neglect",
+      "overall_value": 6.55047874,
+      "percent_topic_posts_with_label": 5.77367206,
+      "percent_topic_authors_using_label_on_topic_post": 7.32728542,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 6.55047874,
+          "post_percentage_point_contribution": 5.77367206,
+          "author_percentage_point_contribution": 7.32728542
+        }
+      ]
+    },
+    {
+      "intersecting_label": "students",
+      "overall_value": 3.42070528,
+      "percent_topic_posts_with_label": 2.86374134,
+      "percent_topic_authors_using_label_on_topic_post": 3.97766923,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 3.42070528,
+          "post_percentage_point_contribution": 2.86374134,
+          "author_percentage_point_contribution": 3.97766923
+        }
+      ]
+    },
+    {
+      "intersecting_label": "injury",
+      "overall_value": 3.23494856,
+      "percent_topic_posts_with_label": 2.77136259,
+      "percent_topic_authors_using_label_on_topic_post": 3.69853454,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 3.23494856,
+          "post_percentage_point_contribution": 2.77136259,
+          "author_percentage_point_contribution": 3.69853454
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cancer",
+      "overall_value": 3.11947512,
+      "percent_topic_posts_with_label": 2.5404157,
+      "percent_topic_authors_using_label_on_topic_post": 3.69853454,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 3.11947512,
+          "post_percentage_point_contribution": 2.5404157,
+          "author_percentage_point_contribution": 3.69853454
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic hazard",
+      "overall_value": 2.87573188,
+      "percent_topic_posts_with_label": 2.40184758,
+      "percent_topic_authors_using_label_on_topic_post": 3.34961619,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 2.87573188,
+          "post_percentage_point_contribution": 2.40184758,
+          "author_percentage_point_contribution": 3.34961619
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infectious disease",
+      "overall_value": 2.61969189,
+      "percent_topic_posts_with_label": 2.44803695,
+      "percent_topic_authors_using_label_on_topic_post": 2.79134682,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 2.61969189,
+          "post_percentage_point_contribution": 2.44803695,
+          "author_percentage_point_contribution": 2.79134682
+        }
+      ]
+    },
+    {
+      "intersecting_label": "unhoused populations",
+      "overall_value": 1.99463649,
+      "percent_topic_posts_with_label": 1.61662818,
+      "percent_topic_authors_using_label_on_topic_post": 2.3726448,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 1.99463649,
+          "post_percentage_point_contribution": 1.61662818,
+          "author_percentage_point_contribution": 2.3726448
+        }
+      ]
+    },
+    {
+      "intersecting_label": "racial and ethnic minority populations",
+      "overall_value": 1.99413688,
+      "percent_topic_posts_with_label": 1.7551963,
+      "percent_topic_authors_using_label_on_topic_post": 2.23307746,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 1.99413688,
+          "post_percentage_point_contribution": 1.7551963,
+          "author_percentage_point_contribution": 2.23307746
+        }
+      ]
+    },
+    {
+      "intersecting_label": "teachers and school staff",
+      "overall_value": 1.93664996,
+      "percent_topic_posts_with_label": 1.5704388,
+      "percent_topic_authors_using_label_on_topic_post": 2.30286113,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 1.93664996,
+          "post_percentage_point_contribution": 1.5704388,
+          "author_percentage_point_contribution": 2.30286113
+        }
+      ]
+    },
+    {
+      "intersecting_label": "child welfare services",
+      "overall_value": 1.64621774,
+      "percent_topic_posts_with_label": 1.47806005,
+      "percent_topic_authors_using_label_on_topic_post": 1.81437544,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 1.64621774,
+          "post_percentage_point_contribution": 1.47806005,
+          "author_percentage_point_contribution": 1.81437544
+        }
+      ]
+    },
+    {
+      "intersecting_label": "home",
+      "overall_value": 1.43786594,
+      "percent_topic_posts_with_label": 1.20092379,
+      "percent_topic_authors_using_label_on_topic_post": 1.67480809,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 1.43786594,
+          "post_percentage_point_contribution": 1.20092379,
+          "author_percentage_point_contribution": 1.67480809
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adverse birth outcome",
+      "overall_value": 1.41477125,
+      "percent_topic_posts_with_label": 1.15473441,
+      "percent_topic_authors_using_label_on_topic_post": 1.67480809,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 1.41477125,
+          "post_percentage_point_contribution": 1.15473441,
+          "author_percentage_point_contribution": 1.67480809
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pregnant people",
+      "overall_value": 1.40297411,
+      "percent_topic_posts_with_label": 1.20092379,
+      "percent_topic_authors_using_label_on_topic_post": 1.60502442,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 1.40297411,
+          "post_percentage_point_contribution": 1.20092379,
+          "author_percentage_point_contribution": 1.60502442
+        }
+      ]
+    },
+    {
+      "intersecting_label": "fire hazard",
+      "overall_value": 1.39167656,
+      "percent_topic_posts_with_label": 1.10854503,
+      "percent_topic_authors_using_label_on_topic_post": 1.67480809,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 1.39167656,
+          "post_percentage_point_contribution": 1.10854503,
+          "author_percentage_point_contribution": 1.67480809
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mental health condition",
+      "overall_value": 1.39167656,
+      "percent_topic_posts_with_label": 1.10854503,
+      "percent_topic_authors_using_label_on_topic_post": 1.67480809,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 1.39167656,
+          "post_percentage_point_contribution": 1.10854503,
+          "author_percentage_point_contribution": 1.67480809
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health disparity",
+      "overall_value": 1.33369004,
+      "percent_topic_posts_with_label": 1.06235566,
+      "percent_topic_authors_using_label_on_topic_post": 1.60502442,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 1.33369004,
+          "post_percentage_point_contribution": 1.06235566,
+          "author_percentage_point_contribution": 1.60502442
+        }
+      ]
+    },
+    {
+      "intersecting_label": "vaccination",
+      "overall_value": 1.27570352,
+      "percent_topic_posts_with_label": 1.01616628,
+      "percent_topic_authors_using_label_on_topic_post": 1.53524075,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 1.27570352,
+          "post_percentage_point_contribution": 1.01616628,
+          "author_percentage_point_contribution": 1.53524075
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare facility",
+      "overall_value": 1.22901454,
+      "percent_topic_posts_with_label": 1.06235566,
+      "percent_topic_authors_using_label_on_topic_post": 1.39567341,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 1.22901454,
+          "post_percentage_point_contribution": 1.06235566,
+          "author_percentage_point_contribution": 1.39567341
+        }
+      ]
+    },
+    {
+      "intersecting_label": "drug exposure or use",
+      "overall_value": 1.15973047,
+      "percent_topic_posts_with_label": 0.92378753,
+      "percent_topic_authors_using_label_on_topic_post": 1.39567341,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 1.15973047,
+          "post_percentage_point_contribution": 0.92378753,
+          "author_percentage_point_contribution": 1.39567341
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental justice",
+      "overall_value": 1.15973047,
+      "percent_topic_posts_with_label": 0.92378753,
+      "percent_topic_authors_using_label_on_topic_post": 1.39567341,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 1.15973047,
+          "post_percentage_point_contribution": 0.92378753,
+          "author_percentage_point_contribution": 1.39567341
+        }
+      ]
+    },
+    {
+      "intersecting_label": "motor vehicle",
+      "overall_value": 1.14793332,
+      "percent_topic_posts_with_label": 0.96997691,
+      "percent_topic_authors_using_label_on_topic_post": 1.32588974,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 1.14793332,
+          "post_percentage_point_contribution": 0.96997691,
+          "author_percentage_point_contribution": 1.32588974
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adverse pregnancy outcome",
+      "overall_value": 1.04375742,
+      "percent_topic_posts_with_label": 0.83140878,
+      "percent_topic_authors_using_label_on_topic_post": 1.25610607,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 1.04375742,
+          "post_percentage_point_contribution": 0.83140878,
+          "author_percentage_point_contribution": 1.25610607
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare access",
+      "overall_value": 0.9857709,
+      "percent_topic_posts_with_label": 0.7852194,
+      "percent_topic_authors_using_label_on_topic_post": 1.1863224,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.9857709,
+          "post_percentage_point_contribution": 0.7852194,
+          "author_percentage_point_contribution": 1.1863224
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food insecurity",
+      "overall_value": 0.92778438,
+      "percent_topic_posts_with_label": 0.73903002,
+      "percent_topic_authors_using_label_on_topic_post": 1.11653873,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.92778438,
+          "post_percentage_point_contribution": 0.73903002,
+          "author_percentage_point_contribution": 1.11653873
+        }
+      ]
+    },
+    {
+      "intersecting_label": "influenza",
+      "overall_value": 0.91598723,
+      "percent_topic_posts_with_label": 0.7852194,
+      "percent_topic_authors_using_label_on_topic_post": 1.04675506,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.91598723,
+          "post_percentage_point_contribution": 0.7852194,
+          "author_percentage_point_contribution": 1.04675506
+        }
+      ]
+    },
+    {
+      "intersecting_label": "toddlers",
+      "overall_value": 0.90419008,
+      "percent_topic_posts_with_label": 0.83140878,
+      "percent_topic_authors_using_label_on_topic_post": 0.97697139,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.90419008,
+          "post_percentage_point_contribution": 0.83140878,
+          "author_percentage_point_contribution": 0.97697139
+        }
+      ]
+    },
+    {
+      "intersecting_label": "stress or distress",
+      "overall_value": 0.89289254,
+      "percent_topic_posts_with_label": 0.73903002,
+      "percent_topic_authors_using_label_on_topic_post": 1.04675506,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.89289254,
+          "post_percentage_point_contribution": 0.73903002,
+          "author_percentage_point_contribution": 1.04675506
+        }
+      ]
+    },
+    {
+      "intersecting_label": "social support",
+      "overall_value": 0.86979785,
+      "percent_topic_posts_with_label": 0.69284065,
+      "percent_topic_authors_using_label_on_topic_post": 1.04675506,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.86979785,
+          "post_percentage_point_contribution": 0.69284065,
+          "author_percentage_point_contribution": 1.04675506
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pets and companion animals",
+      "overall_value": 0.81181133,
+      "percent_topic_posts_with_label": 0.64665127,
+      "percent_topic_authors_using_label_on_topic_post": 0.97697139,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.81181133,
+          "post_percentage_point_contribution": 0.64665127,
+          "author_percentage_point_contribution": 0.97697139
+        }
+      ]
+    },
+    {
+      "intersecting_label": "substance use disorder",
+      "overall_value": 0.81181133,
+      "percent_topic_posts_with_label": 0.64665127,
+      "percent_topic_authors_using_label_on_topic_post": 0.97697139,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.81181133,
+          "post_percentage_point_contribution": 0.64665127,
+          "author_percentage_point_contribution": 0.97697139
+        }
+      ]
+    },
+    {
+      "intersecting_label": "river lake or water body",
+      "overall_value": 0.74202766,
+      "percent_topic_posts_with_label": 0.64665127,
+      "percent_topic_authors_using_label_on_topic_post": 0.83740405,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.74202766,
+          "post_percentage_point_contribution": 0.64665127,
+          "author_percentage_point_contribution": 0.83740405
+        }
+      ]
+    },
+    {
+      "intersecting_label": "unsafe housing conditions",
+      "overall_value": 0.71893297,
+      "percent_topic_posts_with_label": 0.60046189,
+      "percent_topic_authors_using_label_on_topic_post": 0.83740405,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.71893297,
+          "post_percentage_point_contribution": 0.60046189,
+          "author_percentage_point_contribution": 0.83740405
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childcare center",
+      "overall_value": 0.69583828,
+      "percent_topic_posts_with_label": 0.55427252,
+      "percent_topic_authors_using_label_on_topic_post": 0.83740405,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.69583828,
+          "post_percentage_point_contribution": 0.55427252,
+          "author_percentage_point_contribution": 0.83740405
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pain",
+      "overall_value": 0.62605461,
+      "percent_topic_posts_with_label": 0.55427252,
+      "percent_topic_authors_using_label_on_topic_post": 0.69783671,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.62605461,
+          "post_percentage_point_contribution": 0.55427252,
+          "author_percentage_point_contribution": 0.69783671
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cardiovascular condition",
+      "overall_value": 0.60295992,
+      "percent_topic_posts_with_label": 0.50808314,
+      "percent_topic_authors_using_label_on_topic_post": 0.69783671,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.60295992,
+          "post_percentage_point_contribution": 0.50808314,
+          "author_percentage_point_contribution": 0.69783671
+        }
+      ]
+    },
+    {
+      "intersecting_label": "poverty or financial hardship",
+      "overall_value": 0.60295992,
+      "percent_topic_posts_with_label": 0.50808314,
+      "percent_topic_authors_using_label_on_topic_post": 0.69783671,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.60295992,
+          "post_percentage_point_contribution": 0.50808314,
+          "author_percentage_point_contribution": 0.69783671
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare workers",
+      "overall_value": 0.57986524,
+      "percent_topic_posts_with_label": 0.46189376,
+      "percent_topic_authors_using_label_on_topic_post": 0.69783671,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.57986524,
+          "post_percentage_point_contribution": 0.46189376,
+          "author_percentage_point_contribution": 0.69783671
+        }
+      ]
+    },
+    {
+      "intersecting_label": "children with disabilities",
+      "overall_value": 0.5449734,
+      "percent_topic_posts_with_label": 0.46189376,
+      "percent_topic_authors_using_label_on_topic_post": 0.62805304,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.5449734,
+          "post_percentage_point_contribution": 0.46189376,
+          "author_percentage_point_contribution": 0.62805304
+        }
+      ]
+    },
+    {
+      "intersecting_label": "reproductive health condition",
+      "overall_value": 0.5449734,
+      "percent_topic_posts_with_label": 0.46189376,
+      "percent_topic_authors_using_label_on_topic_post": 0.62805304,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.5449734,
+          "post_percentage_point_contribution": 0.46189376,
+          "author_percentage_point_contribution": 0.62805304
+        }
+      ]
+    },
+    {
+      "intersecting_label": "apartment",
+      "overall_value": 0.46389219,
+      "percent_topic_posts_with_label": 0.36951501,
+      "percent_topic_authors_using_label_on_topic_post": 0.55826936,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.46389219,
+          "post_percentage_point_contribution": 0.36951501,
+          "author_percentage_point_contribution": 0.55826936
+        }
+      ]
+    },
+    {
+      "intersecting_label": "extreme heat",
+      "overall_value": 0.46389219,
+      "percent_topic_posts_with_label": 0.36951501,
+      "percent_topic_authors_using_label_on_topic_post": 0.55826936,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.46389219,
+          "post_percentage_point_contribution": 0.36951501,
+          "author_percentage_point_contribution": 0.55826936
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mask use",
+      "overall_value": 0.46389219,
+      "percent_topic_posts_with_label": 0.36951501,
+      "percent_topic_authors_using_label_on_topic_post": 0.55826936,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.46389219,
+          "post_percentage_point_contribution": 0.36951501,
+          "author_percentage_point_contribution": 0.55826936
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childhood cancer",
+      "overall_value": 0.40590566,
+      "percent_topic_posts_with_label": 0.32332564,
+      "percent_topic_authors_using_label_on_topic_post": 0.48848569,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.40590566,
+          "post_percentage_point_contribution": 0.32332564,
+          "author_percentage_point_contribution": 0.48848569
+        }
+      ]
+    },
+    {
+      "intersecting_label": "foster youth",
+      "overall_value": 0.40590566,
+      "percent_topic_posts_with_label": 0.32332564,
+      "percent_topic_authors_using_label_on_topic_post": 0.48848569,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.40590566,
+          "post_percentage_point_contribution": 0.32332564,
+          "author_percentage_point_contribution": 0.48848569
+        }
+      ]
+    },
+    {
+      "intersecting_label": "natural disaster",
+      "overall_value": 0.40590566,
+      "percent_topic_posts_with_label": 0.32332564,
+      "percent_topic_authors_using_label_on_topic_post": 0.48848569,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.40590566,
+          "post_percentage_point_contribution": 0.32332564,
+          "author_percentage_point_contribution": 0.48848569
+        }
+      ]
+    },
+    {
+      "intersecting_label": "park or green space",
+      "overall_value": 0.40590566,
+      "percent_topic_posts_with_label": 0.32332564,
+      "percent_topic_authors_using_label_on_topic_post": 0.48848569,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.40590566,
+          "post_percentage_point_contribution": 0.32332564,
+          "author_percentage_point_contribution": 0.48848569
+        }
+      ]
+    },
+    {
+      "intersecting_label": "respiratory illness",
+      "overall_value": 0.40590566,
+      "percent_topic_posts_with_label": 0.32332564,
+      "percent_topic_authors_using_label_on_topic_post": 0.48848569,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.40590566,
+          "post_percentage_point_contribution": 0.32332564,
+          "author_percentage_point_contribution": 0.48848569
+        }
+      ]
+    },
+    {
+      "intersecting_label": "street or roadway",
+      "overall_value": 0.40590566,
+      "percent_topic_posts_with_label": 0.32332564,
+      "percent_topic_authors_using_label_on_topic_post": 0.48848569,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.40590566,
+          "post_percentage_point_contribution": 0.32332564,
+          "author_percentage_point_contribution": 0.48848569
+        }
+      ]
+    },
+    {
+      "intersecting_label": "advocacy",
+      "overall_value": 0.34791914,
+      "percent_topic_posts_with_label": 0.27713626,
+      "percent_topic_authors_using_label_on_topic_post": 0.41870202,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.34791914,
+          "post_percentage_point_contribution": 0.27713626,
+          "author_percentage_point_contribution": 0.41870202
+        }
+      ]
+    },
+    {
+      "intersecting_label": "diabetes",
+      "overall_value": 0.34791914,
+      "percent_topic_posts_with_label": 0.27713626,
+      "percent_topic_authors_using_label_on_topic_post": 0.41870202,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.34791914,
+          "post_percentage_point_contribution": 0.27713626,
+          "author_percentage_point_contribution": 0.41870202
+        }
+      ]
+    },
+    {
+      "intersecting_label": "low-income populations",
+      "overall_value": 0.34791914,
+      "percent_topic_posts_with_label": 0.27713626,
+      "percent_topic_authors_using_label_on_topic_post": 0.41870202,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.34791914,
+          "post_percentage_point_contribution": 0.27713626,
+          "author_percentage_point_contribution": 0.41870202
+        }
+      ]
+    },
+    {
+      "intersecting_label": "swimming or water recreation",
+      "overall_value": 0.34791914,
+      "percent_topic_posts_with_label": 0.27713626,
+      "percent_topic_authors_using_label_on_topic_post": 0.41870202,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.34791914,
+          "post_percentage_point_contribution": 0.27713626,
+          "author_percentage_point_contribution": 0.41870202
+        }
+      ]
+    },
+    {
+      "intersecting_label": "workers",
+      "overall_value": 0.34791914,
+      "percent_topic_posts_with_label": 0.27713626,
+      "percent_topic_authors_using_label_on_topic_post": 0.41870202,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.34791914,
+          "post_percentage_point_contribution": 0.27713626,
+          "author_percentage_point_contribution": 0.41870202
+        }
+      ]
+    },
+    {
+      "intersecting_label": "beach or coastal area",
+      "overall_value": 0.31302731,
+      "percent_topic_posts_with_label": 0.27713626,
+      "percent_topic_authors_using_label_on_topic_post": 0.34891835,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.31302731,
+          "post_percentage_point_contribution": 0.27713626,
+          "author_percentage_point_contribution": 0.34891835
+        }
+      ]
+    },
+    {
+      "intersecting_label": "climate change",
+      "overall_value": 0.31302731,
+      "percent_topic_posts_with_label": 0.27713626,
+      "percent_topic_authors_using_label_on_topic_post": 0.34891835,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.31302731,
+          "post_percentage_point_contribution": 0.27713626,
+          "author_percentage_point_contribution": 0.34891835
+        }
+      ]
+    },
+    {
+      "intersecting_label": "general severe weather",
+      "overall_value": 0.31302731,
+      "percent_topic_posts_with_label": 0.27713626,
+      "percent_topic_authors_using_label_on_topic_post": 0.34891835,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.31302731,
+          "post_percentage_point_contribution": 0.27713626,
+          "author_percentage_point_contribution": 0.34891835
+        }
+      ]
+    },
+    {
+      "intersecting_label": "housing instability or homelessness",
+      "overall_value": 0.31302731,
+      "percent_topic_posts_with_label": 0.27713626,
+      "percent_topic_authors_using_label_on_topic_post": 0.34891835,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.31302731,
+          "post_percentage_point_contribution": 0.27713626,
+          "author_percentage_point_contribution": 0.34891835
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food contamination",
+      "overall_value": 0.28993262,
+      "percent_topic_posts_with_label": 0.23094688,
+      "percent_topic_authors_using_label_on_topic_post": 0.34891835,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.28993262,
+          "post_percentage_point_contribution": 0.23094688,
+          "author_percentage_point_contribution": 0.34891835
+        }
+      ]
+    },
+    {
+      "intersecting_label": "kidney disease",
+      "overall_value": 0.28993262,
+      "percent_topic_posts_with_label": 0.23094688,
+      "percent_topic_authors_using_label_on_topic_post": 0.34891835,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.28993262,
+          "post_percentage_point_contribution": 0.23094688,
+          "author_percentage_point_contribution": 0.34891835
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school closure",
+      "overall_value": 0.28993262,
+      "percent_topic_posts_with_label": 0.23094688,
+      "percent_topic_authors_using_label_on_topic_post": 0.34891835,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.28993262,
+          "post_percentage_point_contribution": 0.23094688,
+          "author_percentage_point_contribution": 0.34891835
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildlife",
+      "overall_value": 0.28993262,
+      "percent_topic_posts_with_label": 0.23094688,
+      "percent_topic_authors_using_label_on_topic_post": 0.34891835,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.28993262,
+          "post_percentage_point_contribution": 0.23094688,
+          "author_percentage_point_contribution": 0.34891835
+        }
+      ]
+    },
+    {
+      "intersecting_label": "alcohol exposure or use",
+      "overall_value": 0.25504078,
+      "percent_topic_posts_with_label": 0.23094688,
+      "percent_topic_authors_using_label_on_topic_post": 0.27913468,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.25504078,
+          "post_percentage_point_contribution": 0.23094688,
+          "author_percentage_point_contribution": 0.27913468
+        }
+      ]
+    },
+    {
+      "intersecting_label": "heat-related illness",
+      "overall_value": 0.25504078,
+      "percent_topic_posts_with_label": 0.23094688,
+      "percent_topic_authors_using_label_on_topic_post": 0.27913468,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.25504078,
+          "post_percentage_point_contribution": 0.23094688,
+          "author_percentage_point_contribution": 0.27913468
+        }
+      ]
+    },
+    {
+      "intersecting_label": "depression",
+      "overall_value": 0.23194609,
+      "percent_topic_posts_with_label": 0.18475751,
+      "percent_topic_authors_using_label_on_topic_post": 0.27913468,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.23194609,
+          "post_percentage_point_contribution": 0.18475751,
+          "author_percentage_point_contribution": 0.27913468
+        }
+      ]
+    },
+    {
+      "intersecting_label": "gastrointestinal illness",
+      "overall_value": 0.23194609,
+      "percent_topic_posts_with_label": 0.18475751,
+      "percent_topic_authors_using_label_on_topic_post": 0.27913468,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.23194609,
+          "post_percentage_point_contribution": 0.18475751,
+          "author_percentage_point_contribution": 0.27913468
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infectious disease exposure",
+      "overall_value": 0.23194609,
+      "percent_topic_posts_with_label": 0.18475751,
+      "percent_topic_authors_using_label_on_topic_post": 0.27913468,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.23194609,
+          "post_percentage_point_contribution": 0.18475751,
+          "author_percentage_point_contribution": 0.27913468
+        }
+      ]
+    },
+    {
+      "intersecting_label": "liver disease",
+      "overall_value": 0.23194609,
+      "percent_topic_posts_with_label": 0.18475751,
+      "percent_topic_authors_using_label_on_topic_post": 0.27913468,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.23194609,
+          "post_percentage_point_contribution": 0.18475751,
+          "author_percentage_point_contribution": 0.27913468
+        }
+      ]
+    },
+    {
+      "intersecting_label": "medical care",
+      "overall_value": 0.23194609,
+      "percent_topic_posts_with_label": 0.18475751,
+      "percent_topic_authors_using_label_on_topic_post": 0.27913468,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.23194609,
+          "post_percentage_point_contribution": 0.18475751,
+          "author_percentage_point_contribution": 0.27913468
+        }
+      ]
+    },
+    {
+      "intersecting_label": "outdoor environment",
+      "overall_value": 0.23194609,
+      "percent_topic_posts_with_label": 0.18475751,
+      "percent_topic_authors_using_label_on_topic_post": 0.27913468,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.23194609,
+          "post_percentage_point_contribution": 0.18475751,
+          "author_percentage_point_contribution": 0.27913468
+        }
+      ]
+    },
+    {
+      "intersecting_label": "vaping aerosol",
+      "overall_value": 0.23194609,
+      "percent_topic_posts_with_label": 0.18475751,
+      "percent_topic_authors_using_label_on_topic_post": 0.27913468,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.23194609,
+          "post_percentage_point_contribution": 0.18475751,
+          "author_percentage_point_contribution": 0.27913468
+        }
+      ]
+    },
+    {
+      "intersecting_label": "hurricane or severe storm",
+      "overall_value": 0.19705426,
+      "percent_topic_posts_with_label": 0.18475751,
+      "percent_topic_authors_using_label_on_topic_post": 0.20935101,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.19705426,
+          "post_percentage_point_contribution": 0.18475751,
+          "author_percentage_point_contribution": 0.20935101
+        }
+      ]
+    },
+    {
+      "intersecting_label": "animal-related exposure",
+      "overall_value": 0.17395957,
+      "percent_topic_posts_with_label": 0.13856813,
+      "percent_topic_authors_using_label_on_topic_post": 0.20935101,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.17395957,
+          "post_percentage_point_contribution": 0.13856813,
+          "author_percentage_point_contribution": 0.20935101
+        }
+      ]
+    },
+    {
+      "intersecting_label": "autism",
+      "overall_value": 0.17395957,
+      "percent_topic_posts_with_label": 0.13856813,
+      "percent_topic_authors_using_label_on_topic_post": 0.20935101,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.17395957,
+          "post_percentage_point_contribution": 0.13856813,
+          "author_percentage_point_contribution": 0.20935101
+        }
+      ]
+    },
+    {
+      "intersecting_label": "community program or service",
+      "overall_value": 0.17395957,
+      "percent_topic_posts_with_label": 0.13856813,
+      "percent_topic_authors_using_label_on_topic_post": 0.20935101,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.17395957,
+          "post_percentage_point_contribution": 0.13856813,
+          "author_percentage_point_contribution": 0.20935101
+        }
+      ]
+    },
+    {
+      "intersecting_label": "contaminated drinking water",
+      "overall_value": 0.17395957,
+      "percent_topic_posts_with_label": 0.13856813,
+      "percent_topic_authors_using_label_on_topic_post": 0.20935101,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.17395957,
+          "post_percentage_point_contribution": 0.13856813,
+          "author_percentage_point_contribution": 0.20935101
+        }
+      ]
+    },
+    {
+      "intersecting_label": "developmental delay",
+      "overall_value": 0.17395957,
+      "percent_topic_posts_with_label": 0.13856813,
+      "percent_topic_authors_using_label_on_topic_post": 0.20935101,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.17395957,
+          "post_percentage_point_contribution": 0.13856813,
+          "author_percentage_point_contribution": 0.20935101
+        }
+      ]
+    },
+    {
+      "intersecting_label": "disability",
+      "overall_value": 0.17395957,
+      "percent_topic_posts_with_label": 0.13856813,
+      "percent_topic_authors_using_label_on_topic_post": 0.20935101,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.17395957,
+          "post_percentage_point_contribution": 0.13856813,
+          "author_percentage_point_contribution": 0.20935101
+        }
+      ]
+    },
+    {
+      "intersecting_label": "extreme cold",
+      "overall_value": 0.17395957,
+      "percent_topic_posts_with_label": 0.13856813,
+      "percent_topic_authors_using_label_on_topic_post": 0.20935101,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.17395957,
+          "post_percentage_point_contribution": 0.13856813,
+          "author_percentage_point_contribution": 0.20935101
+        }
+      ]
+    },
+    {
+      "intersecting_label": "hazardous chemicals",
+      "overall_value": 0.17395957,
+      "percent_topic_posts_with_label": 0.13856813,
+      "percent_topic_authors_using_label_on_topic_post": 0.20935101,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.17395957,
+          "post_percentage_point_contribution": 0.13856813,
+          "author_percentage_point_contribution": 0.20935101
+        }
+      ]
+    },
+    {
+      "intersecting_label": "playground",
+      "overall_value": 0.17395957,
+      "percent_topic_posts_with_label": 0.13856813,
+      "percent_topic_authors_using_label_on_topic_post": 0.20935101,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.17395957,
+          "post_percentage_point_contribution": 0.13856813,
+          "author_percentage_point_contribution": 0.20935101
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pneumonia",
+      "overall_value": 0.17395957,
+      "percent_topic_posts_with_label": 0.13856813,
+      "percent_topic_authors_using_label_on_topic_post": 0.20935101,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.17395957,
+          "post_percentage_point_contribution": 0.13856813,
+          "author_percentage_point_contribution": 0.20935101
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sports participation",
+      "overall_value": 0.17395957,
+      "percent_topic_posts_with_label": 0.13856813,
+      "percent_topic_authors_using_label_on_topic_post": 0.20935101,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.17395957,
+          "post_percentage_point_contribution": 0.13856813,
+          "author_percentage_point_contribution": 0.20935101
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic safety",
+      "overall_value": 0.17395957,
+      "percent_topic_posts_with_label": 0.13856813,
+      "percent_topic_authors_using_label_on_topic_post": 0.20935101,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.17395957,
+          "post_percentage_point_contribution": 0.13856813,
+          "author_percentage_point_contribution": 0.20935101
+        }
+      ]
+    },
+    {
+      "intersecting_label": "water pollution",
+      "overall_value": 0.17395957,
+      "percent_topic_posts_with_label": 0.13856813,
+      "percent_topic_authors_using_label_on_topic_post": 0.20935101,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.17395957,
+          "post_percentage_point_contribution": 0.13856813,
+          "author_percentage_point_contribution": 0.20935101
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildfire",
+      "overall_value": 0.17395957,
+      "percent_topic_posts_with_label": 0.13856813,
+      "percent_topic_authors_using_label_on_topic_post": 0.20935101,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.17395957,
+          "post_percentage_point_contribution": 0.13856813,
+          "author_percentage_point_contribution": 0.20935101
+        }
+      ]
+    },
+    {
+      "intersecting_label": "winter storm or snow hazard",
+      "overall_value": 0.17395957,
+      "percent_topic_posts_with_label": 0.13856813,
+      "percent_topic_authors_using_label_on_topic_post": 0.20935101,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.17395957,
+          "post_percentage_point_contribution": 0.13856813,
+          "author_percentage_point_contribution": 0.20935101
+        }
+      ]
+    },
+    {
+      "intersecting_label": "discrimination",
+      "overall_value": 0.13906774,
+      "percent_topic_posts_with_label": 0.13856813,
+      "percent_topic_authors_using_label_on_topic_post": 0.13956734,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.13906774,
+          "post_percentage_point_contribution": 0.13856813,
+          "author_percentage_point_contribution": 0.13956734
+        }
+      ]
+    },
+    {
+      "intersecting_label": "outdoor play or recreation",
+      "overall_value": 0.13906774,
+      "percent_topic_posts_with_label": 0.13856813,
+      "percent_topic_authors_using_label_on_topic_post": 0.13956734,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.13906774,
+          "post_percentage_point_contribution": 0.13856813,
+          "author_percentage_point_contribution": 0.13956734
+        }
+      ]
+    },
+    {
+      "intersecting_label": "acute poisoning",
+      "overall_value": 0.11597305,
+      "percent_topic_posts_with_label": 0.09237875,
+      "percent_topic_authors_using_label_on_topic_post": 0.13956734,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.11597305,
+          "post_percentage_point_contribution": 0.09237875,
+          "author_percentage_point_contribution": 0.13956734
+        }
+      ]
+    },
+    {
+      "intersecting_label": "ambient air pollution",
+      "overall_value": 0.11597305,
+      "percent_topic_posts_with_label": 0.09237875,
+      "percent_topic_authors_using_label_on_topic_post": 0.13956734,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.11597305,
+          "post_percentage_point_contribution": 0.09237875,
+          "author_percentage_point_contribution": 0.13956734
+        }
+      ]
+    },
+    {
+      "intersecting_label": "asthma",
+      "overall_value": 0.11597305,
+      "percent_topic_posts_with_label": 0.09237875,
+      "percent_topic_authors_using_label_on_topic_post": 0.13956734,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.11597305,
+          "post_percentage_point_contribution": 0.09237875,
+          "author_percentage_point_contribution": 0.13956734
+        }
+      ]
+    },
+    {
+      "intersecting_label": "birth defect",
+      "overall_value": 0.11597305,
+      "percent_topic_posts_with_label": 0.09237875,
+      "percent_topic_authors_using_label_on_topic_post": 0.13956734,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.11597305,
+          "post_percentage_point_contribution": 0.09237875,
+          "author_percentage_point_contribution": 0.13956734
+        }
+      ]
+    },
+    {
+      "intersecting_label": "classroom",
+      "overall_value": 0.11597305,
+      "percent_topic_posts_with_label": 0.09237875,
+      "percent_topic_authors_using_label_on_topic_post": 0.13956734,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.11597305,
+          "post_percentage_point_contribution": 0.09237875,
+          "author_percentage_point_contribution": 0.13956734
+        }
+      ]
+    },
+    {
+      "intersecting_label": "dental clinic",
+      "overall_value": 0.11597305,
+      "percent_topic_posts_with_label": 0.09237875,
+      "percent_topic_authors_using_label_on_topic_post": 0.13956734,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.11597305,
+          "post_percentage_point_contribution": 0.09237875,
+          "author_percentage_point_contribution": 0.13956734
+        }
+      ]
+    },
+    {
+      "intersecting_label": "fever",
+      "overall_value": 0.11597305,
+      "percent_topic_posts_with_label": 0.09237875,
+      "percent_topic_authors_using_label_on_topic_post": 0.13956734,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.11597305,
+          "post_percentage_point_contribution": 0.09237875,
+          "author_percentage_point_contribution": 0.13956734
+        }
+      ]
+    },
+    {
+      "intersecting_label": "flooding",
+      "overall_value": 0.11597305,
+      "percent_topic_posts_with_label": 0.09237875,
+      "percent_topic_authors_using_label_on_topic_post": 0.13956734,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.11597305,
+          "post_percentage_point_contribution": 0.09237875,
+          "author_percentage_point_contribution": 0.13956734
+        }
+      ]
+    },
+    {
+      "intersecting_label": "malnutrition",
+      "overall_value": 0.11597305,
+      "percent_topic_posts_with_label": 0.09237875,
+      "percent_topic_authors_using_label_on_topic_post": 0.13956734,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.11597305,
+          "post_percentage_point_contribution": 0.09237875,
+          "author_percentage_point_contribution": 0.13956734
+        }
+      ]
+    },
+    {
+      "intersecting_label": "obesity",
+      "overall_value": 0.11597305,
+      "percent_topic_posts_with_label": 0.09237875,
+      "percent_topic_authors_using_label_on_topic_post": 0.13956734,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.11597305,
+          "post_percentage_point_contribution": 0.09237875,
+          "author_percentage_point_contribution": 0.13956734
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pesticides",
+      "overall_value": 0.11597305,
+      "percent_topic_posts_with_label": 0.09237875,
+      "percent_topic_authors_using_label_on_topic_post": 0.13956734,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.11597305,
+          "post_percentage_point_contribution": 0.09237875,
+          "author_percentage_point_contribution": 0.13956734
+        }
+      ]
+    },
+    {
+      "intersecting_label": "rural populations",
+      "overall_value": 0.11597305,
+      "percent_topic_posts_with_label": 0.09237875,
+      "percent_topic_authors_using_label_on_topic_post": 0.13956734,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.11597305,
+          "post_percentage_point_contribution": 0.09237875,
+          "author_percentage_point_contribution": 0.13956734
+        }
+      ]
+    },
+    {
+      "intersecting_label": "shortness of breath",
+      "overall_value": 0.11597305,
+      "percent_topic_posts_with_label": 0.09237875,
+      "percent_topic_authors_using_label_on_topic_post": 0.13956734,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.11597305,
+          "post_percentage_point_contribution": 0.09237875,
+          "author_percentage_point_contribution": 0.13956734
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sports or recreation facility",
+      "overall_value": 0.11597305,
+      "percent_topic_posts_with_label": 0.09237875,
+      "percent_topic_authors_using_label_on_topic_post": 0.13956734,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.11597305,
+          "post_percentage_point_contribution": 0.09237875,
+          "author_percentage_point_contribution": 0.13956734
+        }
+      ]
+    },
+    {
+      "intersecting_label": "walking or bicycling",
+      "overall_value": 0.11597305,
+      "percent_topic_posts_with_label": 0.09237875,
+      "percent_topic_authors_using_label_on_topic_post": 0.13956734,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.11597305,
+          "post_percentage_point_contribution": 0.09237875,
+          "author_percentage_point_contribution": 0.13956734
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildfire smoke",
+      "overall_value": 0.11597305,
+      "percent_topic_posts_with_label": 0.09237875,
+      "percent_topic_authors_using_label_on_topic_post": 0.13956734,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.11597305,
+          "post_percentage_point_contribution": 0.09237875,
+          "author_percentage_point_contribution": 0.13956734
+        }
+      ]
+    },
+    {
+      "intersecting_label": "workplace",
+      "overall_value": 0.11597305,
+      "percent_topic_posts_with_label": 0.09237875,
+      "percent_topic_authors_using_label_on_topic_post": 0.13956734,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.11597305,
+          "post_percentage_point_contribution": 0.09237875,
+          "author_percentage_point_contribution": 0.13956734
+        }
+      ]
+    },
+    {
+      "intersecting_label": "shelter or temporary housing",
+      "overall_value": 0.08108121,
+      "percent_topic_posts_with_label": 0.09237875,
+      "percent_topic_authors_using_label_on_topic_post": 0.06978367,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.08108121,
+          "post_percentage_point_contribution": 0.09237875,
+          "author_percentage_point_contribution": 0.06978367
+        }
+      ]
+    },
+    {
+      "intersecting_label": "activity cancellation",
+      "overall_value": 0.05798652,
+      "percent_topic_posts_with_label": 0.04618938,
+      "percent_topic_authors_using_label_on_topic_post": 0.06978367,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.05798652,
+          "post_percentage_point_contribution": 0.04618938,
+          "author_percentage_point_contribution": 0.06978367
+        }
+      ]
+    },
+    {
+      "intersecting_label": "allergens",
+      "overall_value": 0.05798652,
+      "percent_topic_posts_with_label": 0.04618938,
+      "percent_topic_authors_using_label_on_topic_post": 0.06978367,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.05798652,
+          "post_percentage_point_contribution": 0.04618938,
+          "author_percentage_point_contribution": 0.06978367
+        }
+      ]
+    },
+    {
+      "intersecting_label": "allergic disease",
+      "overall_value": 0.05798652,
+      "percent_topic_posts_with_label": 0.04618938,
+      "percent_topic_authors_using_label_on_topic_post": 0.06978367,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.05798652,
+          "post_percentage_point_contribution": 0.04618938,
+          "author_percentage_point_contribution": 0.06978367
+        }
+      ]
+    },
+    {
+      "intersecting_label": "anxiety",
+      "overall_value": 0.05798652,
+      "percent_topic_posts_with_label": 0.04618938,
+      "percent_topic_authors_using_label_on_topic_post": 0.06978367,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.05798652,
+          "post_percentage_point_contribution": 0.04618938,
+          "author_percentage_point_contribution": 0.06978367
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cough",
+      "overall_value": 0.05798652,
+      "percent_topic_posts_with_label": 0.04618938,
+      "percent_topic_authors_using_label_on_topic_post": 0.06978367,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.05798652,
+          "post_percentage_point_contribution": 0.04618938,
+          "author_percentage_point_contribution": 0.06978367
+        }
+      ]
+    },
+    {
+      "intersecting_label": "drought",
+      "overall_value": 0.05798652,
+      "percent_topic_posts_with_label": 0.04618938,
+      "percent_topic_authors_using_label_on_topic_post": 0.06978367,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.05798652,
+          "post_percentage_point_contribution": 0.04618938,
+          "author_percentage_point_contribution": 0.06978367
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental policy or regulation",
+      "overall_value": 0.05798652,
+      "percent_topic_posts_with_label": 0.04618938,
+      "percent_topic_authors_using_label_on_topic_post": 0.06978367,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.05798652,
+          "post_percentage_point_contribution": 0.04618938,
+          "author_percentage_point_contribution": 0.06978367
+        }
+      ]
+    },
+    {
+      "intersecting_label": "evacuation",
+      "overall_value": 0.05798652,
+      "percent_topic_posts_with_label": 0.04618938,
+      "percent_topic_authors_using_label_on_topic_post": 0.06978367,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.05798652,
+          "post_percentage_point_contribution": 0.04618938,
+          "author_percentage_point_contribution": 0.06978367
+        }
+      ]
+    },
+    {
+      "intersecting_label": "farm or agricultural setting",
+      "overall_value": 0.05798652,
+      "percent_topic_posts_with_label": 0.04618938,
+      "percent_topic_authors_using_label_on_topic_post": 0.06978367,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.05798652,
+          "post_percentage_point_contribution": 0.04618938,
+          "author_percentage_point_contribution": 0.06978367
+        }
+      ]
+    },
+    {
+      "intersecting_label": "industrial chemicals",
+      "overall_value": 0.05798652,
+      "percent_topic_posts_with_label": 0.04618938,
+      "percent_topic_authors_using_label_on_topic_post": 0.06978367,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.05798652,
+          "post_percentage_point_contribution": 0.04618938,
+          "author_percentage_point_contribution": 0.06978367
+        }
+      ]
+    },
+    {
+      "intersecting_label": "medication use",
+      "overall_value": 0.05798652,
+      "percent_topic_posts_with_label": 0.04618938,
+      "percent_topic_authors_using_label_on_topic_post": 0.06978367,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.05798652,
+          "post_percentage_point_contribution": 0.04618938,
+          "author_percentage_point_contribution": 0.06978367
+        }
+      ]
+    },
+    {
+      "intersecting_label": "neighborhood",
+      "overall_value": 0.05798652,
+      "percent_topic_posts_with_label": 0.04618938,
+      "percent_topic_authors_using_label_on_topic_post": 0.06978367,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.05798652,
+          "post_percentage_point_contribution": 0.04618938,
+          "author_percentage_point_contribution": 0.06978367
+        }
+      ]
+    },
+    {
+      "intersecting_label": "public transit",
+      "overall_value": 0.05798652,
+      "percent_topic_posts_with_label": 0.04618938,
+      "percent_topic_authors_using_label_on_topic_post": 0.06978367,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.05798652,
+          "post_percentage_point_contribution": 0.04618938,
+          "author_percentage_point_contribution": 0.06978367
+        }
+      ]
+    },
+    {
+      "intersecting_label": "radiation",
+      "overall_value": 0.05798652,
+      "percent_topic_posts_with_label": 0.04618938,
+      "percent_topic_authors_using_label_on_topic_post": 0.06978367,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.05798652,
+          "post_percentage_point_contribution": 0.04618938,
+          "author_percentage_point_contribution": 0.06978367
+        }
+      ]
+    },
+    {
+      "intersecting_label": "scientific research",
+      "overall_value": 0.05798652,
+      "percent_topic_posts_with_label": 0.04618938,
+      "percent_topic_authors_using_label_on_topic_post": 0.06978367,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.05798652,
+          "post_percentage_point_contribution": 0.04618938,
+          "author_percentage_point_contribution": 0.06978367
+        }
+      ]
+    },
+    {
+      "intersecting_label": "secondhand tobacco smoke",
+      "overall_value": 0.05798652,
+      "percent_topic_posts_with_label": 0.04618938,
+      "percent_topic_authors_using_label_on_topic_post": 0.06978367,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.05798652,
+          "post_percentage_point_contribution": 0.04618938,
+          "author_percentage_point_contribution": 0.06978367
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sleep problem",
+      "overall_value": 0.05798652,
+      "percent_topic_posts_with_label": 0.04618938,
+      "percent_topic_authors_using_label_on_topic_post": 0.06978367,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.05798652,
+          "post_percentage_point_contribution": 0.04618938,
+          "author_percentage_point_contribution": 0.06978367
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic-related air pollution",
+      "overall_value": 0.05798652,
+      "percent_topic_posts_with_label": 0.04618938,
+      "percent_topic_authors_using_label_on_topic_post": 0.06978367,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.05798652,
+          "post_percentage_point_contribution": 0.04618938,
+          "author_percentage_point_contribution": 0.06978367
+        }
+      ]
+    },
+    {
+      "intersecting_label": "transportation access",
+      "overall_value": 0.05798652,
+      "percent_topic_posts_with_label": 0.04618938,
+      "percent_topic_authors_using_label_on_topic_post": 0.06978367,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.05798652,
+          "post_percentage_point_contribution": 0.04618938,
+          "author_percentage_point_contribution": 0.06978367
+        }
+      ]
+    },
+    {
+      "intersecting_label": "urban environment",
+      "overall_value": 0.05798652,
+      "percent_topic_posts_with_label": 0.04618938,
+      "percent_topic_authors_using_label_on_topic_post": 0.06978367,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.05798652,
+          "post_percentage_point_contribution": 0.04618938,
+          "author_percentage_point_contribution": 0.06978367
+        }
+      ]
+    },
+    {
+      "intersecting_label": "violence-related injury",
+      "overall_value": 0.05798652,
+      "percent_topic_posts_with_label": 0.04618938,
+      "percent_topic_authors_using_label_on_topic_post": 0.06978367,
+      "links": [
+        {
+          "component_label": "mortality or death",
+          "value": 0.05798652,
+          "post_percentage_point_contribution": 0.04618938,
+          "author_percentage_point_contribution": 0.06978367
+        }
+      ]
+    }
+  ]
+}

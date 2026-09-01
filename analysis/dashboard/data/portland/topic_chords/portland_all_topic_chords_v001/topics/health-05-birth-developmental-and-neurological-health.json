@@ -1,0 +1,4290 @@
+{
+  "schema_version": "1.0.0",
+  "city_id": "38900",
+  "domain": "health",
+  "category_id": "health-05",
+  "topic": "Birth, developmental and neurological health",
+  "component_labels": [
+    "adverse birth outcome",
+    "preterm birth",
+    "birth defect",
+    "autism",
+    "developmental delay",
+    "cognitive or learning problem",
+    "headache or migraine",
+    "seizure",
+    "hearing problem",
+    "vision problem",
+    "disability"
+  ],
+  "intersections": [
+    {
+      "intersecting_label": "children",
+      "overall_value": 42.58447347,
+      "percent_topic_posts_with_label": 41.46678967,
+      "percent_topic_authors_using_label_on_topic_post": 43.70215727,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 1.20175765,
+          "post_percentage_point_contribution": 1.03782288,
+          "author_percentage_point_contribution": 1.36569241
+        },
+        {
+          "component_label": "preterm birth",
+          "value": 0.17357233,
+          "post_percentage_point_contribution": 0.13837638,
+          "author_percentage_point_contribution": 0.20876827
+        },
+        {
+          "component_label": "birth defect",
+          "value": 0.67234199,
+          "post_percentage_point_contribution": 0.62269373,
+          "author_percentage_point_contribution": 0.72199026
+        },
+        {
+          "component_label": "autism",
+          "value": 17.21161422,
+          "post_percentage_point_contribution": 17.45848708,
+          "author_percentage_point_contribution": 16.96474136
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 3.56958643,
+          "post_percentage_point_contribution": 3.32103321,
+          "author_percentage_point_contribution": 3.81813964
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 7.9606426,
+          "post_percentage_point_contribution": 7.93357934,
+          "author_percentage_point_contribution": 7.98770587
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 4.68868363,
+          "post_percentage_point_contribution": 3.96678967,
+          "author_percentage_point_contribution": 5.41057759
+        },
+        {
+          "component_label": "seizure",
+          "value": 1.49452486,
+          "post_percentage_point_contribution": 1.56826568,
+          "author_percentage_point_contribution": 1.42078404
+        },
+        {
+          "component_label": "hearing problem",
+          "value": 1.16812276,
+          "post_percentage_point_contribution": 1.03782288,
+          "author_percentage_point_contribution": 1.29842264
+        },
+        {
+          "component_label": "vision problem",
+          "value": 0.79682243,
+          "post_percentage_point_contribution": 0.69188192,
+          "author_percentage_point_contribution": 0.90176293
+        },
+        {
+          "component_label": "disability",
+          "value": 3.64680458,
+          "post_percentage_point_contribution": 3.6900369,
+          "author_percentage_point_contribution": 3.60357226
+        }
+      ]
+    },
+    {
+      "intersecting_label": "students",
+      "overall_value": 13.65114643,
+      "percent_topic_posts_with_label": 11.99261993,
+      "percent_topic_authors_using_label_on_topic_post": 15.30967293,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "birth defect",
+          "value": 0.03466097,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.02319647
+        },
+        {
+          "component_label": "autism",
+          "value": 2.12199056,
+          "post_percentage_point_contribution": 2.16789668,
+          "author_percentage_point_contribution": 2.07608444
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 8.01211887,
+          "post_percentage_point_contribution": 6.7804428,
+          "author_percentage_point_contribution": 9.24379494
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 2.12332799,
+          "post_percentage_point_contribution": 1.70664207,
+          "author_percentage_point_contribution": 2.54001392
+        },
+        {
+          "component_label": "seizure",
+          "value": 0.37547153,
+          "post_percentage_point_contribution": 0.50738007,
+          "author_percentage_point_contribution": 0.24356298
+        },
+        {
+          "component_label": "hearing problem",
+          "value": 0.17357233,
+          "post_percentage_point_contribution": 0.13837638,
+          "author_percentage_point_contribution": 0.20876827
+        },
+        {
+          "component_label": "vision problem",
+          "value": 0.28928721,
+          "post_percentage_point_contribution": 0.23062731,
+          "author_percentage_point_contribution": 0.34794711
+        },
+        {
+          "component_label": "disability",
+          "value": 0.34714465,
+          "post_percentage_point_contribution": 0.27675277,
+          "author_percentage_point_contribution": 0.41753653
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infants",
+      "overall_value": 11.44203535,
+      "percent_topic_posts_with_label": 9.87084871,
+      "percent_topic_authors_using_label_on_topic_post": 13.01322199,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 6.49016054,
+          "post_percentage_point_contribution": 5.67343173,
+          "author_percentage_point_contribution": 7.30688935
+        },
+        {
+          "component_label": "preterm birth",
+          "value": 0.08098704,
+          "post_percentage_point_contribution": 0.06918819,
+          "author_percentage_point_contribution": 0.0927859
+        },
+        {
+          "component_label": "birth defect",
+          "value": 1.38257887,
+          "post_percentage_point_contribution": 1.17619926,
+          "author_percentage_point_contribution": 1.58895848
+        },
+        {
+          "component_label": "autism",
+          "value": 0.3991361,
+          "post_percentage_point_contribution": 0.34594096,
+          "author_percentage_point_contribution": 0.45233125
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.98924189,
+          "post_percentage_point_contribution": 0.8302583,
+          "author_percentage_point_contribution": 1.14822547
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.06352282,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.03479471
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.81000419,
+          "post_percentage_point_contribution": 0.64575646,
+          "author_percentage_point_contribution": 0.97425191
+        },
+        {
+          "component_label": "seizure",
+          "value": 0.34714465,
+          "post_percentage_point_contribution": 0.27675277,
+          "author_percentage_point_contribution": 0.41753653
+        },
+        {
+          "component_label": "hearing problem",
+          "value": 0.40493522,
+          "post_percentage_point_contribution": 0.34594096,
+          "author_percentage_point_contribution": 0.46392948
+        },
+        {
+          "component_label": "vision problem",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "disability",
+          "value": 0.41646659,
+          "post_percentage_point_contribution": 0.36900369,
+          "author_percentage_point_contribution": 0.46392948
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school",
+      "overall_value": 10.37553251,
+      "percent_topic_posts_with_label": 9.68634686,
+      "percent_topic_authors_using_label_on_topic_post": 11.06471816,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.04046009,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.03479471
+        },
+        {
+          "component_label": "autism",
+          "value": 2.80164832,
+          "post_percentage_point_contribution": 2.76752768,
+          "author_percentage_point_contribution": 2.83576896
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.17357233,
+          "post_percentage_point_contribution": 0.13837638,
+          "author_percentage_point_contribution": 0.20876827
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 2.23277566,
+          "post_percentage_point_contribution": 1.9603321,
+          "author_percentage_point_contribution": 2.50521921
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 3.29180758,
+          "post_percentage_point_contribution": 2.72140221,
+          "author_percentage_point_contribution": 3.86221294
+        },
+        {
+          "component_label": "seizure",
+          "value": 0.74184314,
+          "post_percentage_point_contribution": 1.15313653,
+          "author_percentage_point_contribution": 0.33054976
+        },
+        {
+          "component_label": "hearing problem",
+          "value": 0.30951725,
+          "post_percentage_point_contribution": 0.25369004,
+          "author_percentage_point_contribution": 0.36534447
+        },
+        {
+          "component_label": "vision problem",
+          "value": 0.28928721,
+          "post_percentage_point_contribution": 0.23062731,
+          "author_percentage_point_contribution": 0.34794711
+        },
+        {
+          "component_label": "disability",
+          "value": 0.49462094,
+          "post_percentage_point_contribution": 0.41512915,
+          "author_percentage_point_contribution": 0.57411273
+        }
+      ]
+    },
+    {
+      "intersecting_label": "parents and caregivers",
+      "overall_value": 8.36385895,
+      "percent_topic_posts_with_label": 7.47232472,
+      "percent_topic_authors_using_label_on_topic_post": 9.25539318,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 1.94975567,
+          "post_percentage_point_contribution": 1.56826568,
+          "author_percentage_point_contribution": 2.33124565
+        },
+        {
+          "component_label": "birth defect",
+          "value": 0.09831753,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.10438413
+        },
+        {
+          "component_label": "autism",
+          "value": 3.51010106,
+          "post_percentage_point_contribution": 3.43634686,
+          "author_percentage_point_contribution": 3.58385525
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.4743909,
+          "post_percentage_point_contribution": 0.39206642,
+          "author_percentage_point_contribution": 0.55671538
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.60163715,
+          "post_percentage_point_contribution": 0.50738007,
+          "author_percentage_point_contribution": 0.69589422
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.4743909,
+          "post_percentage_point_contribution": 0.39206642,
+          "author_percentage_point_contribution": 0.55671538
+        },
+        {
+          "component_label": "seizure",
+          "value": 0.02892872,
+          "post_percentage_point_contribution": 0.02306273,
+          "author_percentage_point_contribution": 0.03479471
+        },
+        {
+          "component_label": "hearing problem",
+          "value": 0.38760474,
+          "post_percentage_point_contribution": 0.32287823,
+          "author_percentage_point_contribution": 0.45233125
+        },
+        {
+          "component_label": "disability",
+          "value": 0.83873229,
+          "post_percentage_point_contribution": 0.73800738,
+          "author_percentage_point_contribution": 0.9394572
+        }
+      ]
+    },
+    {
+      "intersecting_label": "children with disabilities",
+      "overall_value": 7.23829498,
+      "percent_topic_posts_with_label": 7.65682657,
+      "percent_topic_authors_using_label_on_topic_post": 6.8197634,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.04741903,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.0487126
+        },
+        {
+          "component_label": "birth defect",
+          "value": 0.02892872,
+          "post_percentage_point_contribution": 0.02306273,
+          "author_percentage_point_contribution": 0.03479471
+        },
+        {
+          "component_label": "autism",
+          "value": 1.75914335,
+          "post_percentage_point_contribution": 1.70664207,
+          "author_percentage_point_contribution": 1.81164463
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.24405408,
+          "post_percentage_point_contribution": 0.23062731,
+          "author_percentage_point_contribution": 0.25748086
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.90928092,
+          "post_percentage_point_contribution": 0.80719557,
+          "author_percentage_point_contribution": 1.01136627
+        },
+        {
+          "component_label": "seizure",
+          "value": 0.15617497,
+          "post_percentage_point_contribution": 0.13837638,
+          "author_percentage_point_contribution": 0.17397356
+        },
+        {
+          "component_label": "hearing problem",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        },
+        {
+          "component_label": "disability",
+          "value": 3.97757902,
+          "post_percentage_point_contribution": 4.61254613,
+          "author_percentage_point_contribution": 3.34261192
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pregnant people",
+      "overall_value": 5.93545132,
+      "percent_topic_posts_with_label": 4.98154982,
+      "percent_topic_authors_using_label_on_topic_post": 6.88935282,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 4.71498028,
+          "post_percentage_point_contribution": 3.89760148,
+          "author_percentage_point_contribution": 5.53235908
+        },
+        {
+          "component_label": "birth defect",
+          "value": 0.58403918,
+          "post_percentage_point_contribution": 0.57656827,
+          "author_percentage_point_contribution": 0.59151009
+        },
+        {
+          "component_label": "autism",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.23142977,
+          "post_percentage_point_contribution": 0.18450185,
+          "author_percentage_point_contribution": 0.27835769
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.02892872,
+          "post_percentage_point_contribution": 0.02306273,
+          "author_percentage_point_contribution": 0.03479471
+        },
+        {
+          "component_label": "seizure",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "hearing problem",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "disability",
+          "value": 0.20250105,
+          "post_percentage_point_contribution": 0.16143911,
+          "author_percentage_point_contribution": 0.24356298
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adolescents",
+      "overall_value": 4.89361613,
+      "percent_topic_posts_with_label": 4.2896679,
+      "percent_topic_authors_using_label_on_topic_post": 5.49756437,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "autism",
+          "value": 1.382512,
+          "post_percentage_point_contribution": 1.19926199,
+          "author_percentage_point_contribution": 1.565762
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.30081857,
+          "post_percentage_point_contribution": 0.25369004,
+          "author_percentage_point_contribution": 0.34794711
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 1.11082276,
+          "post_percentage_point_contribution": 0.89944649,
+          "author_percentage_point_contribution": 1.32219903
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.83893291,
+          "post_percentage_point_contribution": 0.66881919,
+          "author_percentage_point_contribution": 1.00904662
+        },
+        {
+          "component_label": "seizure",
+          "value": 0.53731187,
+          "post_percentage_point_contribution": 0.69188192,
+          "author_percentage_point_contribution": 0.38274182
+        },
+        {
+          "component_label": "hearing problem",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "vision problem",
+          "value": 0.1446436,
+          "post_percentage_point_contribution": 0.11531365,
+          "author_percentage_point_contribution": 0.17397356
+        },
+        {
+          "component_label": "disability",
+          "value": 0.46285953,
+          "post_percentage_point_contribution": 0.36900369,
+          "author_percentage_point_contribution": 0.55671538
+        }
+      ]
+    },
+    {
+      "intersecting_label": "families",
+      "overall_value": 3.79392351,
+      "percent_topic_posts_with_label": 3.55166052,
+      "percent_topic_authors_using_label_on_topic_post": 4.0361865,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 1.41750732,
+          "post_percentage_point_contribution": 1.1300738,
+          "author_percentage_point_contribution": 1.70494085
+        },
+        {
+          "component_label": "birth defect",
+          "value": 0.31821593,
+          "post_percentage_point_contribution": 0.25369004,
+          "author_percentage_point_contribution": 0.38274182
+        },
+        {
+          "component_label": "autism",
+          "value": 0.92571907,
+          "post_percentage_point_contribution": 0.73800738,
+          "author_percentage_point_contribution": 1.11343076
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.17357233,
+          "post_percentage_point_contribution": 0.13837638,
+          "author_percentage_point_contribution": 0.20876827
+        },
+        {
+          "component_label": "hearing problem",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        },
+        {
+          "component_label": "vision problem",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "disability",
+          "value": 0.78533653,
+          "post_percentage_point_contribution": 1.15313653,
+          "author_percentage_point_contribution": 0.41753653
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mental health condition",
+      "overall_value": 3.66768034,
+      "percent_topic_posts_with_label": 3.0904059,
+      "percent_topic_authors_using_label_on_topic_post": 4.24495477,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "autism",
+          "value": 1.27266311,
+          "post_percentage_point_contribution": 1.08394834,
+          "author_percentage_point_contribution": 1.46137787
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.87939299,
+          "post_percentage_point_contribution": 0.71494465,
+          "author_percentage_point_contribution": 1.04384134
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.38760474,
+          "post_percentage_point_contribution": 0.32287823,
+          "author_percentage_point_contribution": 0.45233125
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.13877761,
+          "post_percentage_point_contribution": 0.13837638,
+          "author_percentage_point_contribution": 0.13917884
+        },
+        {
+          "component_label": "seizure",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        },
+        {
+          "component_label": "disability",
+          "value": 0.81566956,
+          "post_percentage_point_contribution": 0.69188192,
+          "author_percentage_point_contribution": 0.9394572
+        }
+      ]
+    },
+    {
+      "intersecting_label": "child abuse or neglect",
+      "overall_value": 2.84594417,
+      "percent_topic_posts_with_label": 2.49077491,
+      "percent_topic_authors_using_label_on_topic_post": 3.20111343,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.39327011,
+          "post_percentage_point_contribution": 0.36900369,
+          "author_percentage_point_contribution": 0.41753653
+        },
+        {
+          "component_label": "birth defect",
+          "value": 0.02892872,
+          "post_percentage_point_contribution": 0.02306273,
+          "author_percentage_point_contribution": 0.03479471
+        },
+        {
+          "component_label": "autism",
+          "value": 1.79317947,
+          "post_percentage_point_contribution": 1.56826568,
+          "author_percentage_point_contribution": 2.01809325
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.06938881,
+          "post_percentage_point_contribution": 0.06918819,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.24296113,
+          "post_percentage_point_contribution": 0.20756458,
+          "author_percentage_point_contribution": 0.27835769
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "hearing problem",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "disability",
+          "value": 0.20250105,
+          "post_percentage_point_contribution": 0.16143911,
+          "author_percentage_point_contribution": 0.24356298
+        }
+      ]
+    },
+    {
+      "intersecting_label": "medical care",
+      "overall_value": 2.74196127,
+      "percent_topic_posts_with_label": 2.35239852,
+      "percent_topic_authors_using_label_on_topic_post": 3.13152401,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.48592227,
+          "post_percentage_point_contribution": 0.41512915,
+          "author_percentage_point_contribution": 0.55671538
+        },
+        {
+          "component_label": "preterm birth",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "birth defect",
+          "value": 0.28928721,
+          "post_percentage_point_contribution": 0.23062731,
+          "author_percentage_point_contribution": 0.34794711
+        },
+        {
+          "component_label": "autism",
+          "value": 0.31234994,
+          "post_percentage_point_contribution": 0.27675277,
+          "author_percentage_point_contribution": 0.34794711
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.23142977,
+          "post_percentage_point_contribution": 0.18450185,
+          "author_percentage_point_contribution": 0.27835769
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.46285953,
+          "post_percentage_point_contribution": 0.36900369,
+          "author_percentage_point_contribution": 0.55671538
+        },
+        {
+          "component_label": "seizure",
+          "value": 0.39893549,
+          "post_percentage_point_contribution": 0.41512915,
+          "author_percentage_point_contribution": 0.38274182
+        },
+        {
+          "component_label": "hearing problem",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "vision problem",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        },
+        {
+          "component_label": "disability",
+          "value": 0.3297473,
+          "post_percentage_point_contribution": 0.27675277,
+          "author_percentage_point_contribution": 0.38274182
+        }
+      ]
+    },
+    {
+      "intersecting_label": "child welfare services",
+      "overall_value": 2.52105979,
+      "percent_topic_posts_with_label": 2.53690037,
+      "percent_topic_authors_using_label_on_topic_post": 2.50521921,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.17357233,
+          "post_percentage_point_contribution": 0.13837638,
+          "author_percentage_point_contribution": 0.20876827
+        },
+        {
+          "component_label": "autism",
+          "value": 1.40557473,
+          "post_percentage_point_contribution": 1.24538745,
+          "author_percentage_point_contribution": 1.565762
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.09831753,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.10438413
+        },
+        {
+          "component_label": "hearing problem",
+          "value": 0.08678616,
+          "post_percentage_point_contribution": 0.06918819,
+          "author_percentage_point_contribution": 0.10438413
+        },
+        {
+          "component_label": "disability",
+          "value": 0.64109416,
+          "post_percentage_point_contribution": 0.89944649,
+          "author_percentage_point_contribution": 0.38274182
+        }
+      ]
+    },
+    {
+      "intersecting_label": "unhoused populations",
+      "overall_value": 2.41828058,
+      "percent_topic_posts_with_label": 1.98339483,
+      "percent_topic_authors_using_label_on_topic_post": 2.85316632,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.34714465,
+          "post_percentage_point_contribution": 0.27675277,
+          "author_percentage_point_contribution": 0.41753653
+        },
+        {
+          "component_label": "birth defect",
+          "value": 0.27188985,
+          "post_percentage_point_contribution": 0.23062731,
+          "author_percentage_point_contribution": 0.3131524
+        },
+        {
+          "component_label": "autism",
+          "value": 0.26035849,
+          "post_percentage_point_contribution": 0.20756458,
+          "author_percentage_point_contribution": 0.3131524
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.60163715,
+          "post_percentage_point_contribution": 0.50738007,
+          "author_percentage_point_contribution": 0.69589422
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.59010578,
+          "post_percentage_point_contribution": 0.48431734,
+          "author_percentage_point_contribution": 0.69589422
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.17357233,
+          "post_percentage_point_contribution": 0.13837638,
+          "author_percentage_point_contribution": 0.20876827
+        },
+        {
+          "component_label": "disability",
+          "value": 0.17357233,
+          "post_percentage_point_contribution": 0.13837638,
+          "author_percentage_point_contribution": 0.20876827
+        }
+      ]
+    },
+    {
+      "intersecting_label": "stress or distress",
+      "overall_value": 2.3373604,
+      "percent_topic_posts_with_label": 1.89114391,
+      "percent_topic_authors_using_label_on_topic_post": 2.7835769,
+      "links": [
+        {
+          "component_label": "preterm birth",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "birth defect",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "autism",
+          "value": 0.40500209,
+          "post_percentage_point_contribution": 0.32287823,
+          "author_percentage_point_contribution": 0.48712596
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.27188985,
+          "post_percentage_point_contribution": 0.23062731,
+          "author_percentage_point_contribution": 0.3131524
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 1.21500628,
+          "post_percentage_point_contribution": 0.96863469,
+          "author_percentage_point_contribution": 1.46137787
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.23142977,
+          "post_percentage_point_contribution": 0.18450185,
+          "author_percentage_point_contribution": 0.27835769
+        },
+        {
+          "component_label": "disability",
+          "value": 0.09831753,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.10438413
+        }
+      ]
+    },
+    {
+      "intersecting_label": "vaccination",
+      "overall_value": 2.05940394,
+      "percent_topic_posts_with_label": 1.75276753,
+      "percent_topic_authors_using_label_on_topic_post": 2.36604036,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.45112755,
+          "post_percentage_point_contribution": 0.41512915,
+          "author_percentage_point_contribution": 0.48712596
+        },
+        {
+          "component_label": "preterm birth",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "autism",
+          "value": 1.29592645,
+          "post_percentage_point_contribution": 1.06088561,
+          "author_percentage_point_contribution": 1.53096729
+        },
+        {
+          "component_label": "seizure",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "disability",
+          "value": 0.19663506,
+          "post_percentage_point_contribution": 0.18450185,
+          "author_percentage_point_contribution": 0.20876827
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mortality or death",
+      "overall_value": 2.04807319,
+      "percent_topic_posts_with_label": 1.66051661,
+      "percent_topic_authors_using_label_on_topic_post": 2.43562978,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 1.41164133,
+          "post_percentage_point_contribution": 1.15313653,
+          "author_percentage_point_contribution": 1.67014614
+        },
+        {
+          "component_label": "birth defect",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        },
+        {
+          "component_label": "autism",
+          "value": 0.17357233,
+          "post_percentage_point_contribution": 0.13837638,
+          "author_percentage_point_contribution": 0.20876827
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.17357233,
+          "post_percentage_point_contribution": 0.13837638,
+          "author_percentage_point_contribution": 0.20876827
+        },
+        {
+          "component_label": "disability",
+          "value": 0.17357233,
+          "post_percentage_point_contribution": 0.13837638,
+          "author_percentage_point_contribution": 0.20876827
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cancer",
+      "overall_value": 1.95381612,
+      "percent_topic_posts_with_label": 2.16789668,
+      "percent_topic_authors_using_label_on_topic_post": 1.73973556,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.28342122,
+          "post_percentage_point_contribution": 0.25369004,
+          "author_percentage_point_contribution": 0.3131524
+        },
+        {
+          "component_label": "birth defect",
+          "value": 0.35867602,
+          "post_percentage_point_contribution": 0.2998155,
+          "author_percentage_point_contribution": 0.41753653
+        },
+        {
+          "component_label": "autism",
+          "value": 0.15617497,
+          "post_percentage_point_contribution": 0.13837638,
+          "author_percentage_point_contribution": 0.17397356
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.17357233,
+          "post_percentage_point_contribution": 0.13837638,
+          "author_percentage_point_contribution": 0.20876827
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "seizure",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "hearing problem",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "disability",
+          "value": 0.80839926,
+          "post_percentage_point_contribution": 1.19926199,
+          "author_percentage_point_contribution": 0.41753653
+        }
+      ]
+    },
+    {
+      "intersecting_label": "teachers and school staff",
+      "overall_value": 1.79277824,
+      "percent_topic_posts_with_label": 1.70664207,
+      "percent_topic_authors_using_label_on_topic_post": 1.87891441,
+      "links": [
+        {
+          "component_label": "autism",
+          "value": 0.91365273,
+          "post_percentage_point_contribution": 0.89944649,
+          "author_percentage_point_contribution": 0.92785897
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.09831753,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.10438413
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.63629812,
+          "post_percentage_point_contribution": 0.55350554,
+          "author_percentage_point_contribution": 0.7190907
+        },
+        {
+          "component_label": "disability",
+          "value": 0.14450986,
+          "post_percentage_point_contribution": 0.16143911,
+          "author_percentage_point_contribution": 0.12758061
+        }
+      ]
+    },
+    {
+      "intersecting_label": "COVID-19",
+      "overall_value": 1.65440185,
+      "percent_topic_posts_with_label": 1.4298893,
+      "percent_topic_authors_using_label_on_topic_post": 1.87891441,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.34714465,
+          "post_percentage_point_contribution": 0.27675277,
+          "author_percentage_point_contribution": 0.41753653
+        },
+        {
+          "component_label": "preterm birth",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        },
+        {
+          "component_label": "birth defect",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "autism",
+          "value": 0.15617497,
+          "post_percentage_point_contribution": 0.13837638,
+          "author_percentage_point_contribution": 0.17397356
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.23142977,
+          "post_percentage_point_contribution": 0.18450185,
+          "author_percentage_point_contribution": 0.27835769
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.23142977,
+          "post_percentage_point_contribution": 0.18450185,
+          "author_percentage_point_contribution": 0.27835769
+        },
+        {
+          "component_label": "seizure",
+          "value": 0.08092017,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "hearing problem",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "disability",
+          "value": 0.31801531,
+          "post_percentage_point_contribution": 0.32287823,
+          "author_percentage_point_contribution": 0.3131524
+        }
+      ]
+    },
+    {
+      "intersecting_label": "community program or service",
+      "overall_value": 1.61960714,
+      "percent_topic_posts_with_label": 1.4298893,
+      "percent_topic_authors_using_label_on_topic_post": 1.80932498,
+      "links": [
+        {
+          "component_label": "autism",
+          "value": 1.19740831,
+          "post_percentage_point_contribution": 1.03782288,
+          "author_percentage_point_contribution": 1.35699374
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.02892872,
+          "post_percentage_point_contribution": 0.02306273,
+          "author_percentage_point_contribution": 0.03479471
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.21969779,
+          "post_percentage_point_contribution": 0.23062731,
+          "author_percentage_point_contribution": 0.20876827
+        },
+        {
+          "component_label": "hearing problem",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "disability",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare facility",
+      "overall_value": 1.60827639,
+      "percent_topic_posts_with_label": 1.33763838,
+      "percent_topic_authors_using_label_on_topic_post": 1.87891441,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.9487818,
+          "post_percentage_point_contribution": 0.78413284,
+          "author_percentage_point_contribution": 1.11343076
+        },
+        {
+          "component_label": "preterm birth",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "birth defect",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        },
+        {
+          "component_label": "autism",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        },
+        {
+          "component_label": "seizure",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        },
+        {
+          "component_label": "vision problem",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "disability",
+          "value": 0.19663506,
+          "post_percentage_point_contribution": 0.18450185,
+          "author_percentage_point_contribution": 0.20876827
+        }
+      ]
+    },
+    {
+      "intersecting_label": "reproductive health condition",
+      "overall_value": 1.56215093,
+      "percent_topic_posts_with_label": 1.24538745,
+      "percent_topic_authors_using_label_on_topic_post": 1.87891441,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 1.09929139,
+          "post_percentage_point_contribution": 0.87638376,
+          "author_percentage_point_contribution": 1.32219903
+        },
+        {
+          "component_label": "birth defect",
+          "value": 0.34714465,
+          "post_percentage_point_contribution": 0.27675277,
+          "author_percentage_point_contribution": 0.41753653
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "disability",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infectious disease",
+      "overall_value": 1.50389226,
+      "percent_topic_posts_with_label": 1.33763838,
+      "percent_topic_authors_using_label_on_topic_post": 1.67014614,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.58410605,
+          "post_percentage_point_contribution": 0.55350554,
+          "author_percentage_point_contribution": 0.61470656
+        },
+        {
+          "component_label": "preterm birth",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "birth defect",
+          "value": 0.07512105,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.05799119
+        },
+        {
+          "component_label": "autism",
+          "value": 0.28928721,
+          "post_percentage_point_contribution": 0.23062731,
+          "author_percentage_point_contribution": 0.34794711
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.09251841,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.0927859
+        },
+        {
+          "component_label": "seizure",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "disability",
+          "value": 0.34714465,
+          "post_percentage_point_contribution": 0.27675277,
+          "author_percentage_point_contribution": 0.41753653
+        }
+      ]
+    },
+    {
+      "intersecting_label": "educational access",
+      "overall_value": 1.48082953,
+      "percent_topic_posts_with_label": 1.29151292,
+      "percent_topic_authors_using_label_on_topic_post": 1.67014614,
+      "links": [
+        {
+          "component_label": "autism",
+          "value": 0.34127866,
+          "post_percentage_point_contribution": 0.2998155,
+          "author_percentage_point_contribution": 0.38274182
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.86766101,
+          "post_percentage_point_contribution": 0.76107011,
+          "author_percentage_point_contribution": 0.97425191
+        },
+        {
+          "component_label": "disability",
+          "value": 0.21403241,
+          "post_percentage_point_contribution": 0.18450185,
+          "author_percentage_point_contribution": 0.24356298
+        }
+      ]
+    },
+    {
+      "intersecting_label": "injury",
+      "overall_value": 1.46949878,
+      "percent_topic_posts_with_label": 1.19926199,
+      "percent_topic_authors_using_label_on_topic_post": 1.73973556,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.23142977,
+          "post_percentage_point_contribution": 0.18450185,
+          "author_percentage_point_contribution": 0.27835769
+        },
+        {
+          "component_label": "autism",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.21403241,
+          "post_percentage_point_contribution": 0.18450185,
+          "author_percentage_point_contribution": 0.24356298
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.44546218,
+          "post_percentage_point_contribution": 0.36900369,
+          "author_percentage_point_contribution": 0.52192067
+        },
+        {
+          "component_label": "seizure",
+          "value": 0.28928721,
+          "post_percentage_point_contribution": 0.23062731,
+          "author_percentage_point_contribution": 0.34794711
+        },
+        {
+          "component_label": "disability",
+          "value": 0.17357233,
+          "post_percentage_point_contribution": 0.13837638,
+          "author_percentage_point_contribution": 0.20876827
+        }
+      ]
+    },
+    {
+      "intersecting_label": "poverty or financial hardship",
+      "overall_value": 1.44603482,
+      "percent_topic_posts_with_label": 1.29151292,
+      "percent_topic_authors_using_label_on_topic_post": 1.60055672,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.17357233,
+          "post_percentage_point_contribution": 0.13837638,
+          "author_percentage_point_contribution": 0.20876827
+        },
+        {
+          "component_label": "preterm birth",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "birth defect",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "autism",
+          "value": 0.0231296,
+          "post_percentage_point_contribution": 0.02306273,
+          "author_percentage_point_contribution": 0.02319647
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.08098704,
+          "post_percentage_point_contribution": 0.06918819,
+          "author_percentage_point_contribution": 0.0927859
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.09251841,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.0927859
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        },
+        {
+          "component_label": "seizure",
+          "value": 0.04046009,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.03479471
+        },
+        {
+          "component_label": "disability",
+          "value": 0.80393758,
+          "post_percentage_point_contribution": 0.73800738,
+          "author_percentage_point_contribution": 0.86986778
+        }
+      ]
+    },
+    {
+      "intersecting_label": "anxiety",
+      "overall_value": 1.3072572,
+      "percent_topic_posts_with_label": 1.15313653,
+      "percent_topic_authors_using_label_on_topic_post": 1.46137787,
+      "links": [
+        {
+          "component_label": "autism",
+          "value": 0.65936085,
+          "post_percentage_point_contribution": 0.599631,
+          "author_percentage_point_contribution": 0.7190907
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.08678616,
+          "post_percentage_point_contribution": 0.06918819,
+          "author_percentage_point_contribution": 0.10438413
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.13884449,
+          "post_percentage_point_contribution": 0.11531365,
+          "author_percentage_point_contribution": 0.16237532
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.28928721,
+          "post_percentage_point_contribution": 0.23062731,
+          "author_percentage_point_contribution": 0.34794711
+        },
+        {
+          "component_label": "seizure",
+          "value": 0.04046009,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.03479471
+        },
+        {
+          "component_label": "disability",
+          "value": 0.09251841,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.0927859
+        }
+      ]
+    },
+    {
+      "intersecting_label": "social support",
+      "overall_value": 1.3072572,
+      "percent_topic_posts_with_label": 1.15313653,
+      "percent_topic_authors_using_label_on_topic_post": 1.46137787,
+      "links": [
+        {
+          "component_label": "autism",
+          "value": 0.36434139,
+          "post_percentage_point_contribution": 0.34594096,
+          "author_percentage_point_contribution": 0.38274182
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.23142977,
+          "post_percentage_point_contribution": 0.18450185,
+          "author_percentage_point_contribution": 0.27835769
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.24296113,
+          "post_percentage_point_contribution": 0.20756458,
+          "author_percentage_point_contribution": 0.27835769
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "seizure",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        },
+        {
+          "component_label": "disability",
+          "value": 0.29495258,
+          "post_percentage_point_contribution": 0.27675277,
+          "author_percentage_point_contribution": 0.3131524
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sports participation",
+      "overall_value": 1.29592645,
+      "percent_topic_posts_with_label": 1.06088561,
+      "percent_topic_authors_using_label_on_topic_post": 1.53096729,
+      "links": [
+        {
+          "component_label": "autism",
+          "value": 0.37020738,
+          "post_percentage_point_contribution": 0.32287823,
+          "author_percentage_point_contribution": 0.41753653
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.20250105,
+          "post_percentage_point_contribution": 0.16143911,
+          "author_percentage_point_contribution": 0.24356298
+        },
+        {
+          "component_label": "seizure",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        },
+        {
+          "component_label": "vision problem",
+          "value": 0.1446436,
+          "post_percentage_point_contribution": 0.11531365,
+          "author_percentage_point_contribution": 0.17397356
+        },
+        {
+          "component_label": "disability",
+          "value": 0.28928721,
+          "post_percentage_point_contribution": 0.23062731,
+          "author_percentage_point_contribution": 0.34794711
+        }
+      ]
+    },
+    {
+      "intersecting_label": "medication use",
+      "overall_value": 1.27246249,
+      "percent_topic_posts_with_label": 1.15313653,
+      "percent_topic_authors_using_label_on_topic_post": 1.39178845,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.12711251,
+          "post_percentage_point_contribution": 0.16143911,
+          "author_percentage_point_contribution": 0.0927859
+        },
+        {
+          "component_label": "birth defect",
+          "value": 0.08098704,
+          "post_percentage_point_contribution": 0.06918819,
+          "author_percentage_point_contribution": 0.0927859
+        },
+        {
+          "component_label": "autism",
+          "value": 0.27755523,
+          "post_percentage_point_contribution": 0.27675277,
+          "author_percentage_point_contribution": 0.27835769
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.08678616,
+          "post_percentage_point_contribution": 0.06918819,
+          "author_percentage_point_contribution": 0.10438413
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.08678616,
+          "post_percentage_point_contribution": 0.06918819,
+          "author_percentage_point_contribution": 0.10438413
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.38180562,
+          "post_percentage_point_contribution": 0.32287823,
+          "author_percentage_point_contribution": 0.44073301
+        },
+        {
+          "component_label": "seizure",
+          "value": 0.23142977,
+          "post_percentage_point_contribution": 0.18450185,
+          "author_percentage_point_contribution": 0.27835769
+        }
+      ]
+    },
+    {
+      "intersecting_label": "low-income populations",
+      "overall_value": 1.1672759,
+      "percent_topic_posts_with_label": 1.4298893,
+      "percent_topic_authors_using_label_on_topic_post": 0.90466249,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "autism",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "seizure",
+          "value": 0.09831753,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.10438413
+        },
+        {
+          "component_label": "disability",
+          "value": 0.8375286,
+          "post_percentage_point_contribution": 1.15313653,
+          "author_percentage_point_contribution": 0.52192067
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health disparity",
+      "overall_value": 1.15714884,
+      "percent_topic_posts_with_label": 0.92250923,
+      "percent_topic_authors_using_label_on_topic_post": 1.39178845,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.34714465,
+          "post_percentage_point_contribution": 0.27675277,
+          "author_percentage_point_contribution": 0.41753653
+        },
+        {
+          "component_label": "preterm birth",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "autism",
+          "value": 0.1446436,
+          "post_percentage_point_contribution": 0.11531365,
+          "author_percentage_point_contribution": 0.17397356
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.08678616,
+          "post_percentage_point_contribution": 0.06918819,
+          "author_percentage_point_contribution": 0.10438413
+        },
+        {
+          "component_label": "seizure",
+          "value": 0.23142977,
+          "post_percentage_point_contribution": 0.18450185,
+          "author_percentage_point_contribution": 0.27835769
+        },
+        {
+          "component_label": "disability",
+          "value": 0.28928721,
+          "post_percentage_point_contribution": 0.23062731,
+          "author_percentage_point_contribution": 0.34794711
+        }
+      ]
+    },
+    {
+      "intersecting_label": "classroom",
+      "overall_value": 1.09929139,
+      "percent_topic_posts_with_label": 0.87638376,
+      "percent_topic_authors_using_label_on_topic_post": 1.32219903,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "autism",
+          "value": 0.20250105,
+          "post_percentage_point_contribution": 0.16143911,
+          "author_percentage_point_contribution": 0.24356298
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.02892872,
+          "post_percentage_point_contribution": 0.02306273,
+          "author_percentage_point_contribution": 0.03479471
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.46285953,
+          "post_percentage_point_contribution": 0.36900369,
+          "author_percentage_point_contribution": 0.55671538
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.17357233,
+          "post_percentage_point_contribution": 0.13837638,
+          "author_percentage_point_contribution": 0.20876827
+        },
+        {
+          "component_label": "vision problem",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "disability",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        }
+      ]
+    },
+    {
+      "intersecting_label": "violence or crime",
+      "overall_value": 1.00663924,
+      "percent_topic_posts_with_label": 0.8302583,
+      "percent_topic_authors_using_label_on_topic_post": 1.18302018,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "autism",
+          "value": 0.48592227,
+          "post_percentage_point_contribution": 0.41512915,
+          "author_percentage_point_contribution": 0.55671538
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "seizure",
+          "value": 0.17357233,
+          "post_percentage_point_contribution": 0.13837638,
+          "author_percentage_point_contribution": 0.20876827
+        },
+        {
+          "component_label": "hearing problem",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "disability",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        }
+      ]
+    },
+    {
+      "intersecting_label": "home",
+      "overall_value": 0.98357651,
+      "percent_topic_posts_with_label": 0.78413284,
+      "percent_topic_authors_using_label_on_topic_post": 1.18302018,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        },
+        {
+          "component_label": "autism",
+          "value": 0.28928721,
+          "post_percentage_point_contribution": 0.23062731,
+          "author_percentage_point_contribution": 0.34794711
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.17357233,
+          "post_percentage_point_contribution": 0.13837638,
+          "author_percentage_point_contribution": 0.20876827
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.17357233,
+          "post_percentage_point_contribution": 0.13837638,
+          "author_percentage_point_contribution": 0.20876827
+        },
+        {
+          "component_label": "seizure",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "disability",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "racial and ethnic minority populations",
+      "overall_value": 0.98357651,
+      "percent_topic_posts_with_label": 0.78413284,
+      "percent_topic_authors_using_label_on_topic_post": 1.18302018,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.34714465,
+          "post_percentage_point_contribution": 0.27675277,
+          "author_percentage_point_contribution": 0.41753653
+        },
+        {
+          "component_label": "birth defect",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "autism",
+          "value": 0.34714465,
+          "post_percentage_point_contribution": 0.27675277,
+          "author_percentage_point_contribution": 0.41753653
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        },
+        {
+          "component_label": "seizure",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "disability",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adverse pregnancy outcome",
+      "overall_value": 0.81000419,
+      "percent_topic_posts_with_label": 0.64575646,
+      "percent_topic_authors_using_label_on_topic_post": 0.97425191,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.46285953,
+          "post_percentage_point_contribution": 0.36900369,
+          "author_percentage_point_contribution": 0.55671538
+        },
+        {
+          "component_label": "birth defect",
+          "value": 0.28928721,
+          "post_percentage_point_contribution": 0.23062731,
+          "author_percentage_point_contribution": 0.34794711
+        },
+        {
+          "component_label": "disability",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "discrimination",
+      "overall_value": 0.81000419,
+      "percent_topic_posts_with_label": 0.64575646,
+      "percent_topic_authors_using_label_on_topic_post": 0.97425191,
+      "links": [
+        {
+          "component_label": "birth defect",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        },
+        {
+          "component_label": "autism",
+          "value": 0.63643186,
+          "post_percentage_point_contribution": 0.50738007,
+          "author_percentage_point_contribution": 0.76548365
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "drug exposure or use",
+      "overall_value": 0.77520947,
+      "percent_topic_posts_with_label": 0.64575646,
+      "percent_topic_authors_using_label_on_topic_post": 0.90466249,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.2544925,
+          "post_percentage_point_contribution": 0.23062731,
+          "author_percentage_point_contribution": 0.27835769
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.17357233,
+          "post_percentage_point_contribution": 0.13837638,
+          "author_percentage_point_contribution": 0.20876827
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.28928721,
+          "post_percentage_point_contribution": 0.23062731,
+          "author_percentage_point_contribution": 0.34794711
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare access",
+      "overall_value": 0.77520947,
+      "percent_topic_posts_with_label": 0.64575646,
+      "percent_topic_authors_using_label_on_topic_post": 0.90466249,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.3297473,
+          "post_percentage_point_contribution": 0.27675277,
+          "author_percentage_point_contribution": 0.38274182
+        },
+        {
+          "component_label": "preterm birth",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "seizure",
+          "value": 0.04046009,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.03479471
+        },
+        {
+          "component_label": "hearing problem",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "disability",
+          "value": 0.28928721,
+          "post_percentage_point_contribution": 0.23062731,
+          "author_percentage_point_contribution": 0.34794711
+        }
+      ]
+    },
+    {
+      "intersecting_label": "outdoor play or recreation",
+      "overall_value": 0.77520947,
+      "percent_topic_posts_with_label": 0.64575646,
+      "percent_topic_authors_using_label_on_topic_post": 0.90466249,
+      "links": [
+        {
+          "component_label": "autism",
+          "value": 0.57270843,
+          "post_percentage_point_contribution": 0.48431734,
+          "author_percentage_point_contribution": 0.66109951
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.08678616,
+          "post_percentage_point_contribution": 0.06918819,
+          "author_percentage_point_contribution": 0.10438413
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "seizure",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "park or green space",
+      "overall_value": 0.76347749,
+      "percent_topic_posts_with_label": 0.69188192,
+      "percent_topic_authors_using_label_on_topic_post": 0.83507307,
+      "links": [
+        {
+          "component_label": "preterm birth",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "autism",
+          "value": 0.70562005,
+          "post_percentage_point_contribution": 0.64575646,
+          "author_percentage_point_contribution": 0.76548365
+        }
+      ]
+    },
+    {
+      "intersecting_label": "housing instability or homelessness",
+      "overall_value": 0.71735203,
+      "percent_topic_posts_with_label": 0.599631,
+      "percent_topic_authors_using_label_on_topic_post": 0.83507307,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "autism",
+          "value": 0.08678616,
+          "post_percentage_point_contribution": 0.06918819,
+          "author_percentage_point_contribution": 0.10438413
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.02892872,
+          "post_percentage_point_contribution": 0.02306273,
+          "author_percentage_point_contribution": 0.03479471
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "seizure",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "disability",
+          "value": 0.42806482,
+          "post_percentage_point_contribution": 0.36900369,
+          "author_percentage_point_contribution": 0.48712596
+        }
+      ]
+    },
+    {
+      "intersecting_label": "substance use disorder",
+      "overall_value": 0.71735203,
+      "percent_topic_posts_with_label": 0.599631,
+      "percent_topic_authors_using_label_on_topic_post": 0.83507307,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        },
+        {
+          "component_label": "birth defect",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "autism",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.13877761,
+          "post_percentage_point_contribution": 0.13837638,
+          "author_percentage_point_contribution": 0.13917884
+        },
+        {
+          "component_label": "seizure",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        },
+        {
+          "component_label": "disability",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        }
+      ]
+    },
+    {
+      "intersecting_label": "toddlers",
+      "overall_value": 0.71735203,
+      "percent_topic_posts_with_label": 0.599631,
+      "percent_topic_authors_using_label_on_topic_post": 0.83507307,
+      "links": [
+        {
+          "component_label": "developmental delay",
+          "value": 0.3297473,
+          "post_percentage_point_contribution": 0.27675277,
+          "author_percentage_point_contribution": 0.38274182
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.15617497,
+          "post_percentage_point_contribution": 0.13837638,
+          "author_percentage_point_contribution": 0.17397356
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        },
+        {
+          "component_label": "seizure",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "vision problem",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pain",
+      "overall_value": 0.69388807,
+      "percent_topic_posts_with_label": 0.69188192,
+      "percent_topic_authors_using_label_on_topic_post": 0.69589422,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.15017524,
+          "post_percentage_point_contribution": 0.20756458,
+          "author_percentage_point_contribution": 0.0927859
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.17357233,
+          "post_percentage_point_contribution": 0.13837638,
+          "author_percentage_point_contribution": 0.20876827
+        },
+        {
+          "component_label": "seizure",
+          "value": 0.09251841,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.0927859
+        },
+        {
+          "component_label": "hearing problem",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "disability",
+          "value": 0.21976466,
+          "post_percentage_point_contribution": 0.20756458,
+          "author_percentage_point_contribution": 0.23196474
+        }
+      ]
+    },
+    {
+      "intersecting_label": "depression",
+      "overall_value": 0.63643186,
+      "percent_topic_posts_with_label": 0.50738007,
+      "percent_topic_authors_using_label_on_topic_post": 0.76548365,
+      "links": [
+        {
+          "component_label": "autism",
+          "value": 0.28928721,
+          "post_percentage_point_contribution": 0.23062731,
+          "author_percentage_point_contribution": 0.34794711
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        },
+        {
+          "component_label": "disability",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "fever",
+      "overall_value": 0.60163715,
+      "percent_topic_posts_with_label": 0.50738007,
+      "percent_topic_authors_using_label_on_topic_post": 0.69589422,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "birth defect",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.28928721,
+          "post_percentage_point_contribution": 0.23062731,
+          "author_percentage_point_contribution": 0.34794711
+        },
+        {
+          "component_label": "seizure",
+          "value": 0.13877761,
+          "post_percentage_point_contribution": 0.13837638,
+          "author_percentage_point_contribution": 0.13917884
+        },
+        {
+          "component_label": "disability",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mask use",
+      "overall_value": 0.60163715,
+      "percent_topic_posts_with_label": 0.50738007,
+      "percent_topic_authors_using_label_on_topic_post": 0.69589422,
+      "links": [
+        {
+          "component_label": "autism",
+          "value": 0.27188985,
+          "post_percentage_point_contribution": 0.23062731,
+          "author_percentage_point_contribution": 0.3131524
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.21403241,
+          "post_percentage_point_contribution": 0.18450185,
+          "author_percentage_point_contribution": 0.24356298
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food insecurity",
+      "overall_value": 0.57857442,
+      "percent_topic_posts_with_label": 0.46125461,
+      "percent_topic_authors_using_label_on_topic_post": 0.69589422,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "preterm birth",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "autism",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        },
+        {
+          "component_label": "disability",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare workers",
+      "overall_value": 0.57857442,
+      "percent_topic_posts_with_label": 0.46125461,
+      "percent_topic_authors_using_label_on_topic_post": 0.69589422,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.34714465,
+          "post_percentage_point_contribution": 0.27675277,
+          "author_percentage_point_contribution": 0.41753653
+        },
+        {
+          "component_label": "birth defect",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "autism",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "disability",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        }
+      ]
+    },
+    {
+      "intersecting_label": "advocacy",
+      "overall_value": 0.54377971,
+      "percent_topic_posts_with_label": 0.46125461,
+      "percent_topic_authors_using_label_on_topic_post": 0.6263048,
+      "links": [
+        {
+          "component_label": "autism",
+          "value": 0.2544925,
+          "post_percentage_point_contribution": 0.23062731,
+          "author_percentage_point_contribution": 0.27835769
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "seizure",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "hearing problem",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "disability",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        }
+      ]
+    },
+    {
+      "intersecting_label": "activity cancellation",
+      "overall_value": 0.52071698,
+      "percent_topic_posts_with_label": 0.41512915,
+      "percent_topic_authors_using_label_on_topic_post": 0.6263048,
+      "links": [
+        {
+          "component_label": "autism",
+          "value": 0.46285953,
+          "post_percentage_point_contribution": 0.36900369,
+          "author_percentage_point_contribution": 0.55671538
+        },
+        {
+          "component_label": "disability",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cough",
+      "overall_value": 0.46285953,
+      "percent_topic_posts_with_label": 0.36900369,
+      "percent_topic_authors_using_label_on_topic_post": 0.55671538,
+      "links": [
+        {
+          "component_label": "preterm birth",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.34714465,
+          "post_percentage_point_contribution": 0.27675277,
+          "author_percentage_point_contribution": 0.41753653
+        },
+        {
+          "component_label": "vision problem",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childcare center",
+      "overall_value": 0.43939557,
+      "percent_topic_posts_with_label": 0.46125461,
+      "percent_topic_authors_using_label_on_topic_post": 0.41753653,
+      "links": [
+        {
+          "component_label": "autism",
+          "value": 0.28928721,
+          "post_percentage_point_contribution": 0.23062731,
+          "author_percentage_point_contribution": 0.34794711
+        },
+        {
+          "component_label": "seizure",
+          "value": 0.15010836,
+          "post_percentage_point_contribution": 0.23062731,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental justice",
+      "overall_value": 0.42806482,
+      "percent_topic_posts_with_label": 0.36900369,
+      "percent_topic_authors_using_label_on_topic_post": 0.48712596,
+      "links": [
+        {
+          "component_label": "preterm birth",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "birth defect",
+          "value": 0.17357233,
+          "post_percentage_point_contribution": 0.13837638,
+          "author_percentage_point_contribution": 0.20876827
+        },
+        {
+          "component_label": "autism",
+          "value": 0.04046009,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.03479471
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "disability",
+          "value": 0.09831753,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.10438413
+        }
+      ]
+    },
+    {
+      "intersecting_label": "gastrointestinal illness",
+      "overall_value": 0.40500209,
+      "percent_topic_posts_with_label": 0.32287823,
+      "percent_topic_authors_using_label_on_topic_post": 0.48712596,
+      "links": [
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.31821593,
+          "post_percentage_point_contribution": 0.25369004,
+          "author_percentage_point_contribution": 0.38274182
+        },
+        {
+          "component_label": "seizure",
+          "value": 0.02892872,
+          "post_percentage_point_contribution": 0.02306273,
+          "author_percentage_point_contribution": 0.03479471
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school closure",
+      "overall_value": 0.40500209,
+      "percent_topic_posts_with_label": 0.32287823,
+      "percent_topic_authors_using_label_on_topic_post": 0.48712596,
+      "links": [
+        {
+          "component_label": "autism",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.02892872,
+          "post_percentage_point_contribution": 0.02306273,
+          "author_percentage_point_contribution": 0.03479471
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.02892872,
+          "post_percentage_point_contribution": 0.02306273,
+          "author_percentage_point_contribution": 0.03479471
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.28928721,
+          "post_percentage_point_contribution": 0.23062731,
+          "author_percentage_point_contribution": 0.34794711
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sleep problem",
+      "overall_value": 0.40500209,
+      "percent_topic_posts_with_label": 0.32287823,
+      "percent_topic_authors_using_label_on_topic_post": 0.48712596,
+      "links": [
+        {
+          "component_label": "autism",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.23142977,
+          "post_percentage_point_contribution": 0.18450185,
+          "author_percentage_point_contribution": 0.27835769
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sports or recreation facility",
+      "overall_value": 0.40500209,
+      "percent_topic_posts_with_label": 0.32287823,
+      "percent_topic_authors_using_label_on_topic_post": 0.48712596,
+      "links": [
+        {
+          "component_label": "autism",
+          "value": 0.1446436,
+          "post_percentage_point_contribution": 0.11531365,
+          "author_percentage_point_contribution": 0.17397356
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.02892872,
+          "post_percentage_point_contribution": 0.02306273,
+          "author_percentage_point_contribution": 0.03479471
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "disability",
+          "value": 0.17357233,
+          "post_percentage_point_contribution": 0.13837638,
+          "author_percentage_point_contribution": 0.20876827
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health education or awareness",
+      "overall_value": 0.37020738,
+      "percent_topic_posts_with_label": 0.32287823,
+      "percent_topic_authors_using_label_on_topic_post": 0.41753653,
+      "links": [
+        {
+          "component_label": "autism",
+          "value": 0.19663506,
+          "post_percentage_point_contribution": 0.18450185,
+          "author_percentage_point_contribution": 0.20876827
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "dental care",
+      "overall_value": 0.34714465,
+      "percent_topic_posts_with_label": 0.27675277,
+      "percent_topic_authors_using_label_on_topic_post": 0.41753653,
+      "links": [
+        {
+          "component_label": "autism",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "hearing problem",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        },
+        {
+          "component_label": "vision problem",
+          "value": 0.17357233,
+          "post_percentage_point_contribution": 0.13837638,
+          "author_percentage_point_contribution": 0.20876827
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pets and companion animals",
+      "overall_value": 0.34714465,
+      "percent_topic_posts_with_label": 0.27675277,
+      "percent_topic_authors_using_label_on_topic_post": 0.41753653,
+      "links": [
+        {
+          "component_label": "autism",
+          "value": 0.23142977,
+          "post_percentage_point_contribution": 0.18450185,
+          "author_percentage_point_contribution": 0.27835769
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "seizure",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "youth engagement",
+      "overall_value": 0.34714465,
+      "percent_topic_posts_with_label": 0.27675277,
+      "percent_topic_authors_using_label_on_topic_post": 0.41753653,
+      "links": [
+        {
+          "component_label": "autism",
+          "value": 0.23142977,
+          "post_percentage_point_contribution": 0.18450185,
+          "author_percentage_point_contribution": 0.27835769
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "ambient air pollution",
+      "overall_value": 0.28928721,
+      "percent_topic_posts_with_label": 0.23062731,
+      "percent_topic_authors_using_label_on_topic_post": 0.34794711,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        }
+      ]
+    },
+    {
+      "intersecting_label": "asthma",
+      "overall_value": 0.28928721,
+      "percent_topic_posts_with_label": 0.23062731,
+      "percent_topic_authors_using_label_on_topic_post": 0.34794711,
+      "links": [
+        {
+          "component_label": "preterm birth",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "autism",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childhood cancer",
+      "overall_value": 0.28928721,
+      "percent_topic_posts_with_label": 0.23062731,
+      "percent_topic_authors_using_label_on_topic_post": 0.34794711,
+      "links": [
+        {
+          "component_label": "autism",
+          "value": 0.08678616,
+          "post_percentage_point_contribution": 0.06918819,
+          "author_percentage_point_contribution": 0.10438413
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.02892872,
+          "post_percentage_point_contribution": 0.02306273,
+          "author_percentage_point_contribution": 0.03479471
+        },
+        {
+          "component_label": "seizure",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "disability",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        }
+      ]
+    },
+    {
+      "intersecting_label": "obesity",
+      "overall_value": 0.28928721,
+      "percent_topic_posts_with_label": 0.23062731,
+      "percent_topic_authors_using_label_on_topic_post": 0.34794711,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "autism",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "scientific research",
+      "overall_value": 0.28928721,
+      "percent_topic_posts_with_label": 0.23062731,
+      "percent_topic_authors_using_label_on_topic_post": 0.34794711,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "birth defect",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "autism",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "secondhand tobacco smoke",
+      "overall_value": 0.28928721,
+      "percent_topic_posts_with_label": 0.23062731,
+      "percent_topic_authors_using_label_on_topic_post": 0.34794711,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.1446436,
+          "post_percentage_point_contribution": 0.11531365,
+          "author_percentage_point_contribution": 0.17397356
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "disability",
+          "value": 0.02892872,
+          "post_percentage_point_contribution": 0.02306273,
+          "author_percentage_point_contribution": 0.03479471
+        }
+      ]
+    },
+    {
+      "intersecting_label": "foster youth",
+      "overall_value": 0.2544925,
+      "percent_topic_posts_with_label": 0.23062731,
+      "percent_topic_authors_using_label_on_topic_post": 0.27835769,
+      "links": [
+        {
+          "component_label": "autism",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.09831753,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.10438413
+        },
+        {
+          "component_label": "disability",
+          "value": 0.09831753,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.10438413
+        }
+      ]
+    },
+    {
+      "intersecting_label": "alcohol exposure or use",
+      "overall_value": 0.23142977,
+      "percent_topic_posts_with_label": 0.18450185,
+      "percent_topic_authors_using_label_on_topic_post": 0.27835769,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.17357233,
+          "post_percentage_point_contribution": 0.13837638,
+          "author_percentage_point_contribution": 0.20876827
+        },
+        {
+          "component_label": "birth defect",
+          "value": 0.02892872,
+          "post_percentage_point_contribution": 0.02306273,
+          "author_percentage_point_contribution": 0.03479471
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.02892872,
+          "post_percentage_point_contribution": 0.02306273,
+          "author_percentage_point_contribution": 0.03479471
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cardiovascular condition",
+      "overall_value": 0.23142977,
+      "percent_topic_posts_with_label": 0.18450185,
+      "percent_topic_authors_using_label_on_topic_post": 0.27835769,
+      "links": [
+        {
+          "component_label": "birth defect",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "disability",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childcare workers",
+      "overall_value": 0.23142977,
+      "percent_topic_posts_with_label": 0.18450185,
+      "percent_topic_authors_using_label_on_topic_post": 0.27835769,
+      "links": [
+        {
+          "component_label": "autism",
+          "value": 0.08678616,
+          "post_percentage_point_contribution": 0.06918819,
+          "author_percentage_point_contribution": 0.10438413
+        },
+        {
+          "component_label": "seizure",
+          "value": 0.02892872,
+          "post_percentage_point_contribution": 0.02306273,
+          "author_percentage_point_contribution": 0.03479471
+        },
+        {
+          "component_label": "disability",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        }
+      ]
+    },
+    {
+      "intersecting_label": "emergency response",
+      "overall_value": 0.23142977,
+      "percent_topic_posts_with_label": 0.18450185,
+      "percent_topic_authors_using_label_on_topic_post": 0.27835769,
+      "links": [
+        {
+          "component_label": "birth defect",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "seizure",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        },
+        {
+          "component_label": "disability",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "endocrine-disrupting chemicals",
+      "overall_value": 0.23142977,
+      "percent_topic_posts_with_label": 0.18450185,
+      "percent_topic_authors_using_label_on_topic_post": 0.27835769,
+      "links": [
+        {
+          "component_label": "birth defect",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        },
+        {
+          "component_label": "autism",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food contamination",
+      "overall_value": 0.23142977,
+      "percent_topic_posts_with_label": 0.18450185,
+      "percent_topic_authors_using_label_on_topic_post": 0.27835769,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "birth defect",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "autism",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "vision problem",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "indoor environment",
+      "overall_value": 0.23142977,
+      "percent_topic_posts_with_label": 0.18450185,
+      "percent_topic_authors_using_label_on_topic_post": 0.27835769,
+      "links": [
+        {
+          "component_label": "autism",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mercury",
+      "overall_value": 0.23142977,
+      "percent_topic_posts_with_label": 0.18450185,
+      "percent_topic_authors_using_label_on_topic_post": 0.27835769,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "birth defect",
+          "value": 0.02892872,
+          "post_percentage_point_contribution": 0.02306273,
+          "author_percentage_point_contribution": 0.03479471
+        },
+        {
+          "component_label": "autism",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.02892872,
+          "post_percentage_point_contribution": 0.02306273,
+          "author_percentage_point_contribution": 0.03479471
+        }
+      ]
+    },
+    {
+      "intersecting_label": "motor vehicle",
+      "overall_value": 0.23142977,
+      "percent_topic_posts_with_label": 0.18450185,
+      "percent_topic_authors_using_label_on_topic_post": 0.27835769,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "seizure",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "disability",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "neighborhood",
+      "overall_value": 0.23142977,
+      "percent_topic_posts_with_label": 0.18450185,
+      "percent_topic_authors_using_label_on_topic_post": 0.27835769,
+      "links": [
+        {
+          "component_label": "birth defect",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "autism",
+          "value": 0.17357233,
+          "post_percentage_point_contribution": 0.13837638,
+          "author_percentage_point_contribution": 0.20876827
+        }
+      ]
+    },
+    {
+      "intersecting_label": "public transit",
+      "overall_value": 0.23142977,
+      "percent_topic_posts_with_label": 0.18450185,
+      "percent_topic_authors_using_label_on_topic_post": 0.27835769,
+      "links": [
+        {
+          "component_label": "autism",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        },
+        {
+          "component_label": "disability",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "respiratory illness",
+      "overall_value": 0.23142977,
+      "percent_topic_posts_with_label": 0.18450185,
+      "percent_topic_authors_using_label_on_topic_post": 0.27835769,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "autism",
+          "value": 0.02892872,
+          "post_percentage_point_contribution": 0.02306273,
+          "author_percentage_point_contribution": 0.03479471
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.02892872,
+          "post_percentage_point_contribution": 0.02306273,
+          "author_percentage_point_contribution": 0.03479471
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "disability",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "shelter or temporary housing",
+      "overall_value": 0.23142977,
+      "percent_topic_posts_with_label": 0.18450185,
+      "percent_topic_authors_using_label_on_topic_post": 0.27835769,
+      "links": [
+        {
+          "component_label": "preterm birth",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "autism",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "disability",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "acute poisoning",
+      "overall_value": 0.17357233,
+      "percent_topic_posts_with_label": 0.13837638,
+      "percent_topic_authors_using_label_on_topic_post": 0.20876827,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "autism",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "seizure",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "breastfeeding",
+      "overall_value": 0.17357233,
+      "percent_topic_posts_with_label": 0.13837638,
+      "percent_topic_authors_using_label_on_topic_post": 0.20876827,
+      "links": [
+        {
+          "component_label": "birth defect",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "autism",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "seizure",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "contaminated drinking water",
+      "overall_value": 0.17357233,
+      "percent_topic_posts_with_label": 0.13837638,
+      "percent_topic_authors_using_label_on_topic_post": 0.20876827,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "hearing problem",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "diabetes",
+      "overall_value": 0.17357233,
+      "percent_topic_posts_with_label": 0.13837638,
+      "percent_topic_authors_using_label_on_topic_post": 0.20876827,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "vision problem",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental policy or regulation",
+      "overall_value": 0.17357233,
+      "percent_topic_posts_with_label": 0.13837638,
+      "percent_topic_authors_using_label_on_topic_post": 0.20876827,
+      "links": [
+        {
+          "component_label": "birth defect",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "autism",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "household chemicals",
+      "overall_value": 0.17357233,
+      "percent_topic_posts_with_label": 0.13837638,
+      "percent_topic_authors_using_label_on_topic_post": 0.20876827,
+      "links": [
+        {
+          "component_label": "autism",
+          "value": 0.17357233,
+          "post_percentage_point_contribution": 0.13837638,
+          "author_percentage_point_contribution": 0.20876827
+        }
+      ]
+    },
+    {
+      "intersecting_label": "outdoor environment",
+      "overall_value": 0.17357233,
+      "percent_topic_posts_with_label": 0.13837638,
+      "percent_topic_authors_using_label_on_topic_post": 0.20876827,
+      "links": [
+        {
+          "component_label": "autism",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        }
+      ]
+    },
+    {
+      "intersecting_label": "playground",
+      "overall_value": 0.17357233,
+      "percent_topic_posts_with_label": 0.13837638,
+      "percent_topic_authors_using_label_on_topic_post": 0.20876827,
+      "links": [
+        {
+          "component_label": "autism",
+          "value": 0.02892872,
+          "post_percentage_point_contribution": 0.02306273,
+          "author_percentage_point_contribution": 0.03479471
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.1446436,
+          "post_percentage_point_contribution": 0.11531365,
+          "author_percentage_point_contribution": 0.17397356
+        }
+      ]
+    },
+    {
+      "intersecting_label": "shortness of breath",
+      "overall_value": 0.17357233,
+      "percent_topic_posts_with_label": 0.13837638,
+      "percent_topic_authors_using_label_on_topic_post": 0.20876827,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildfire smoke",
+      "overall_value": 0.17357233,
+      "percent_topic_posts_with_label": 0.13837638,
+      "percent_topic_authors_using_label_on_topic_post": 0.20876827,
+      "links": [
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        }
+      ]
+    },
+    {
+      "intersecting_label": "workers",
+      "overall_value": 0.17357233,
+      "percent_topic_posts_with_label": 0.13837638,
+      "percent_topic_authors_using_label_on_topic_post": 0.20876827,
+      "links": [
+        {
+          "component_label": "autism",
+          "value": 0.17357233,
+          "post_percentage_point_contribution": 0.13837638,
+          "author_percentage_point_contribution": 0.20876827
+        }
+      ]
+    },
+    {
+      "intersecting_label": "workplace",
+      "overall_value": 0.17357233,
+      "percent_topic_posts_with_label": 0.13837638,
+      "percent_topic_authors_using_label_on_topic_post": 0.20876827,
+      "links": [
+        {
+          "component_label": "headache or migraine",
+          "value": 0.17357233,
+          "post_percentage_point_contribution": 0.13837638,
+          "author_percentage_point_contribution": 0.20876827
+        }
+      ]
+    },
+    {
+      "intersecting_label": "lead poisoning",
+      "overall_value": 0.13877761,
+      "percent_topic_posts_with_label": 0.13837638,
+      "percent_topic_authors_using_label_on_topic_post": 0.13917884,
+      "links": [
+        {
+          "component_label": "autism",
+          "value": 0.13877761,
+          "post_percentage_point_contribution": 0.13837638,
+          "author_percentage_point_contribution": 0.13917884
+        }
+      ]
+    },
+    {
+      "intersecting_label": "PFAS",
+      "overall_value": 0.11571488,
+      "percent_topic_posts_with_label": 0.09225092,
+      "percent_topic_authors_using_label_on_topic_post": 0.13917884,
+      "links": [
+        {
+          "component_label": "birth defect",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cooking or food preparation",
+      "overall_value": 0.11571488,
+      "percent_topic_posts_with_label": 0.09225092,
+      "percent_topic_authors_using_label_on_topic_post": 0.13917884,
+      "links": [
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "earthquake",
+      "overall_value": 0.11571488,
+      "percent_topic_posts_with_label": 0.09225092,
+      "percent_topic_authors_using_label_on_topic_post": 0.13917884,
+      "links": [
+        {
+          "component_label": "headache or migraine",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        }
+      ]
+    },
+    {
+      "intersecting_label": "extreme heat",
+      "overall_value": 0.11571488,
+      "percent_topic_posts_with_label": 0.09225092,
+      "percent_topic_authors_using_label_on_topic_post": 0.13917884,
+      "links": [
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "disability",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "garden or yard",
+      "overall_value": 0.11571488,
+      "percent_topic_posts_with_label": 0.09225092,
+      "percent_topic_authors_using_label_on_topic_post": 0.13917884,
+      "links": [
+        {
+          "component_label": "autism",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "disability",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "generic smoke",
+      "overall_value": 0.11571488,
+      "percent_topic_posts_with_label": 0.09225092,
+      "percent_topic_authors_using_label_on_topic_post": 0.13917884,
+      "links": [
+        {
+          "component_label": "headache or migraine",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        }
+      ]
+    },
+    {
+      "intersecting_label": "natural disaster",
+      "overall_value": 0.11571488,
+      "percent_topic_posts_with_label": 0.09225092,
+      "percent_topic_authors_using_label_on_topic_post": 0.13917884,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "disability",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "noise pollution",
+      "overall_value": 0.11571488,
+      "percent_topic_posts_with_label": 0.09225092,
+      "percent_topic_authors_using_label_on_topic_post": 0.13917884,
+      "links": [
+        {
+          "component_label": "headache or migraine",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "hearing problem",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pesticides",
+      "overall_value": 0.11571488,
+      "percent_topic_posts_with_label": 0.09225092,
+      "percent_topic_authors_using_label_on_topic_post": 0.13917884,
+      "links": [
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        }
+      ]
+    },
+    {
+      "intersecting_label": "street or roadway",
+      "overall_value": 0.11571488,
+      "percent_topic_posts_with_label": 0.09225092,
+      "percent_topic_authors_using_label_on_topic_post": 0.13917884,
+      "links": [
+        {
+          "component_label": "autism",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "headache or migraine",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic hazard",
+      "overall_value": 0.11571488,
+      "percent_topic_posts_with_label": 0.09225092,
+      "percent_topic_authors_using_label_on_topic_post": 0.13917884,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "transportation access",
+      "overall_value": 0.11571488,
+      "percent_topic_posts_with_label": 0.09225092,
+      "percent_topic_authors_using_label_on_topic_post": 0.13917884,
+      "links": [
+        {
+          "component_label": "disability",
+          "value": 0.11571488,
+          "post_percentage_point_contribution": 0.09225092,
+          "author_percentage_point_contribution": 0.13917884
+        }
+      ]
+    },
+    {
+      "intersecting_label": "allergens",
+      "overall_value": 0.05785744,
+      "percent_topic_posts_with_label": 0.04612546,
+      "percent_topic_authors_using_label_on_topic_post": 0.06958942,
+      "links": [
+        {
+          "component_label": "autism",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "allergic disease",
+      "overall_value": 0.05785744,
+      "percent_topic_posts_with_label": 0.04612546,
+      "percent_topic_authors_using_label_on_topic_post": 0.06958942,
+      "links": [
+        {
+          "component_label": "birth defect",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "apartment",
+      "overall_value": 0.05785744,
+      "percent_topic_posts_with_label": 0.04612546,
+      "percent_topic_authors_using_label_on_topic_post": 0.06958942,
+      "links": [
+        {
+          "component_label": "headache or migraine",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "bisphenol A",
+      "overall_value": 0.05785744,
+      "percent_topic_posts_with_label": 0.04612546,
+      "percent_topic_authors_using_label_on_topic_post": 0.06958942,
+      "links": [
+        {
+          "component_label": "autism",
+          "value": 0.02892872,
+          "post_percentage_point_contribution": 0.02306273,
+          "author_percentage_point_contribution": 0.03479471
+        },
+        {
+          "component_label": "developmental delay",
+          "value": 0.02892872,
+          "post_percentage_point_contribution": 0.02306273,
+          "author_percentage_point_contribution": 0.03479471
+        }
+      ]
+    },
+    {
+      "intersecting_label": "climate change",
+      "overall_value": 0.05785744,
+      "percent_topic_posts_with_label": 0.04612546,
+      "percent_topic_authors_using_label_on_topic_post": 0.06958942,
+      "links": [
+        {
+          "component_label": "preterm birth",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "dust and particulate matter",
+      "overall_value": 0.05785744,
+      "percent_topic_posts_with_label": 0.04612546,
+      "percent_topic_authors_using_label_on_topic_post": 0.06958942,
+      "links": [
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "extreme cold",
+      "overall_value": 0.05785744,
+      "percent_topic_posts_with_label": 0.04612546,
+      "percent_topic_authors_using_label_on_topic_post": 0.06958942,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "fertility problem",
+      "overall_value": 0.05785744,
+      "percent_topic_posts_with_label": 0.04612546,
+      "percent_topic_authors_using_label_on_topic_post": 0.06958942,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "green-space access",
+      "overall_value": 0.05785744,
+      "percent_topic_posts_with_label": 0.04612546,
+      "percent_topic_authors_using_label_on_topic_post": 0.06958942,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "hazardous chemicals",
+      "overall_value": 0.05785744,
+      "percent_topic_posts_with_label": 0.04612546,
+      "percent_topic_authors_using_label_on_topic_post": 0.06958942,
+      "links": [
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health screening or testing",
+      "overall_value": 0.05785744,
+      "percent_topic_posts_with_label": 0.04612546,
+      "percent_topic_authors_using_label_on_topic_post": 0.06958942,
+      "links": [
+        {
+          "component_label": "vision problem",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "heat-related illness",
+      "overall_value": 0.05785744,
+      "percent_topic_posts_with_label": 0.04612546,
+      "percent_topic_authors_using_label_on_topic_post": 0.06958942,
+      "links": [
+        {
+          "component_label": "preterm birth",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "housing quality",
+      "overall_value": 0.05785744,
+      "percent_topic_posts_with_label": 0.04612546,
+      "percent_topic_authors_using_label_on_topic_post": 0.06958942,
+      "links": [
+        {
+          "component_label": "disability",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "kidney disease",
+      "overall_value": 0.05785744,
+      "percent_topic_posts_with_label": 0.04612546,
+      "percent_topic_authors_using_label_on_topic_post": 0.06958942,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "malnutrition",
+      "overall_value": 0.05785744,
+      "percent_topic_posts_with_label": 0.04612546,
+      "percent_topic_authors_using_label_on_topic_post": 0.06958942,
+      "links": [
+        {
+          "component_label": "developmental delay",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "musculoskeletal injury",
+      "overall_value": 0.05785744,
+      "percent_topic_posts_with_label": 0.04612546,
+      "percent_topic_authors_using_label_on_topic_post": 0.06958942,
+      "links": [
+        {
+          "component_label": "seizure",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "plastics or microplastics",
+      "overall_value": 0.05785744,
+      "percent_topic_posts_with_label": 0.04612546,
+      "percent_topic_authors_using_label_on_topic_post": 0.06958942,
+      "links": [
+        {
+          "component_label": "disability",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pneumonia",
+      "overall_value": 0.05785744,
+      "percent_topic_posts_with_label": 0.04612546,
+      "percent_topic_authors_using_label_on_topic_post": 0.06958942,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "restaurant or food store",
+      "overall_value": 0.05785744,
+      "percent_topic_posts_with_label": 0.04612546,
+      "percent_topic_authors_using_label_on_topic_post": 0.06958942,
+      "links": [
+        {
+          "component_label": "headache or migraine",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "river lake or water body",
+      "overall_value": 0.05785744,
+      "percent_topic_posts_with_label": 0.04612546,
+      "percent_topic_authors_using_label_on_topic_post": 0.06958942,
+      "links": [
+        {
+          "component_label": "autism",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "rural populations",
+      "overall_value": 0.05785744,
+      "percent_topic_posts_with_label": 0.04612546,
+      "percent_topic_authors_using_label_on_topic_post": 0.06958942,
+      "links": [
+        {
+          "component_label": "adverse birth outcome",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "skin condition",
+      "overall_value": 0.05785744,
+      "percent_topic_posts_with_label": 0.04612546,
+      "percent_topic_authors_using_label_on_topic_post": 0.06958942,
+      "links": [
+        {
+          "component_label": "disability",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "swimming or water recreation",
+      "overall_value": 0.05785744,
+      "percent_topic_posts_with_label": 0.04612546,
+      "percent_topic_authors_using_label_on_topic_post": 0.06958942,
+      "links": [
+        {
+          "component_label": "developmental delay",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "toothache or dental problem",
+      "overall_value": 0.05785744,
+      "percent_topic_posts_with_label": 0.04612546,
+      "percent_topic_authors_using_label_on_topic_post": 0.06958942,
+      "links": [
+        {
+          "component_label": "headache or migraine",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic-related air pollution",
+      "overall_value": 0.05785744,
+      "percent_topic_posts_with_label": 0.04612546,
+      "percent_topic_authors_using_label_on_topic_post": 0.06958942,
+      "links": [
+        {
+          "component_label": "autism",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "walking or bicycling",
+      "overall_value": 0.05785744,
+      "percent_topic_posts_with_label": 0.04612546,
+      "percent_topic_authors_using_label_on_topic_post": 0.06958942,
+      "links": [
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "water pollution",
+      "overall_value": 0.05785744,
+      "percent_topic_posts_with_label": 0.04612546,
+      "percent_topic_authors_using_label_on_topic_post": 0.06958942,
+      "links": [
+        {
+          "component_label": "birth defect",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildfire",
+      "overall_value": 0.05785744,
+      "percent_topic_posts_with_label": 0.04612546,
+      "percent_topic_authors_using_label_on_topic_post": 0.06958942,
+      "links": [
+        {
+          "component_label": "cognitive or learning problem",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    },
+    {
+      "intersecting_label": "winter storm or snow hazard",
+      "overall_value": 0.05785744,
+      "percent_topic_posts_with_label": 0.04612546,
+      "percent_topic_authors_using_label_on_topic_post": 0.06958942,
+      "links": [
+        {
+          "component_label": "autism",
+          "value": 0.05785744,
+          "post_percentage_point_contribution": 0.04612546,
+          "author_percentage_point_contribution": 0.06958942
+        }
+      ]
+    }
+  ]
+}

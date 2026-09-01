@@ -1,0 +1,2603 @@
+{
+  "schema_version": "1.0.0",
+  "city_id": "38900",
+  "domain": "social_structural",
+  "category_id": "social_structural-05",
+  "topic": "Economic and housing insecurity",
+  "component_labels": [
+    "poverty or financial hardship",
+    "housing instability or homelessness"
+  ],
+  "intersections": [
+    {
+      "intersecting_label": "children",
+      "overall_value": 43.32228558,
+      "percent_topic_posts_with_label": 42.22334258,
+      "percent_topic_authors_using_label_on_topic_post": 44.42122858,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 30.16680342,
+          "post_percentage_point_contribution": 29.5563398,
+          "author_percentage_point_contribution": 30.77726703
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 13.15548216,
+          "post_percentage_point_contribution": 12.66700277,
+          "author_percentage_point_contribution": 13.64396155
+        }
+      ]
+    },
+    {
+      "intersecting_label": "students",
+      "overall_value": 19.48115939,
+      "percent_topic_posts_with_label": 16.93975296,
+      "percent_topic_authors_using_label_on_topic_post": 22.02256582,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 15.8374654,
+          "post_percentage_point_contribution": 13.91479708,
+          "author_percentage_point_contribution": 17.76013372
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 3.64369399,
+          "post_percentage_point_contribution": 3.02495589,
+          "author_percentage_point_contribution": 4.26243209
+        }
+      ]
+    },
+    {
+      "intersecting_label": "parents and caregivers",
+      "overall_value": 18.19164501,
+      "percent_topic_posts_with_label": 16.0322662,
+      "percent_topic_authors_using_label_on_topic_post": 20.35102382,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 13.14880885,
+          "post_percentage_point_contribution": 11.73430804,
+          "author_percentage_point_contribution": 14.56330965
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 5.04283616,
+          "post_percentage_point_contribution": 4.29795815,
+          "author_percentage_point_contribution": 5.78771417
+        }
+      ]
+    },
+    {
+      "intersecting_label": "families",
+      "overall_value": 16.58372863,
+      "percent_topic_posts_with_label": 14.82228384,
+      "percent_topic_authors_using_label_on_topic_post": 18.34517342,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 8.47677891,
+          "post_percentage_point_contribution": 7.80186539,
+          "author_percentage_point_contribution": 9.15169244
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 8.10694972,
+          "post_percentage_point_contribution": 7.02041845,
+          "author_percentage_point_contribution": 9.19348099
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school",
+      "overall_value": 15.09315623,
+      "percent_topic_posts_with_label": 12.17544744,
+      "percent_topic_authors_using_label_on_topic_post": 18.01086502,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 11.001718,
+          "post_percentage_point_contribution": 8.92361986,
+          "author_percentage_point_contribution": 13.07981613
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 4.09143824,
+          "post_percentage_point_contribution": 3.25182758,
+          "author_percentage_point_contribution": 4.93104889
+        }
+      ]
+    },
+    {
+      "intersecting_label": "educational access",
+      "overall_value": 8.56564674,
+      "percent_topic_posts_with_label": 7.43634989,
+      "percent_topic_authors_using_label_on_topic_post": 9.69494359,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 7.53946764,
+          "post_percentage_point_contribution": 6.55407109,
+          "author_percentage_point_contribution": 8.52486419
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 1.0261791,
+          "post_percentage_point_contribution": 0.8822788,
+          "author_percentage_point_contribution": 1.1700794
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food insecurity",
+      "overall_value": 7.67379776,
+      "percent_topic_posts_with_label": 6.78094278,
+      "percent_topic_authors_using_label_on_topic_post": 8.56665274,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 5.72591093,
+          "post_percentage_point_contribution": 5.01638518,
+          "author_percentage_point_contribution": 6.43543669
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 1.94788682,
+          "post_percentage_point_contribution": 1.7645576,
+          "author_percentage_point_contribution": 2.13121605
+        }
+      ]
+    },
+    {
+      "intersecting_label": "child abuse or neglect",
+      "overall_value": 6.84031791,
+      "percent_topic_posts_with_label": 6.07511974,
+      "percent_topic_authors_using_label_on_topic_post": 7.60551609,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 3.95414278,
+          "post_percentage_point_contribution": 3.47869927,
+          "author_percentage_point_contribution": 4.42958629
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 2.88617513,
+          "post_percentage_point_contribution": 2.59642047,
+          "author_percentage_point_contribution": 3.1759298
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infants",
+      "overall_value": 6.12323925,
+      "percent_topic_posts_with_label": 5.14242501,
+      "percent_topic_authors_using_label_on_topic_post": 7.10405349,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 3.37156278,
+          "post_percentage_point_contribution": 2.83589614,
+          "author_percentage_point_contribution": 3.90722942
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 2.75167647,
+          "post_percentage_point_contribution": 2.30652886,
+          "author_percentage_point_contribution": 3.19682407
+        }
+      ]
+    },
+    {
+      "intersecting_label": "unhoused populations",
+      "overall_value": 5.86354348,
+      "percent_topic_posts_with_label": 4.91555331,
+      "percent_topic_authors_using_label_on_topic_post": 6.81153364,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 2.98616427,
+          "post_percentage_point_contribution": 2.48298462,
+          "author_percentage_point_contribution": 3.48934392
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 2.87737921,
+          "post_percentage_point_contribution": 2.43256869,
+          "author_percentage_point_contribution": 3.32218972
+        }
+      ]
+    },
+    {
+      "intersecting_label": "child welfare services",
+      "overall_value": 4.9637413,
+      "percent_topic_posts_with_label": 4.411394,
+      "percent_topic_authors_using_label_on_topic_post": 5.51608859,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 2.17425288,
+          "post_percentage_point_contribution": 2.02924124,
+          "author_percentage_point_contribution": 2.31926452
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 2.78948842,
+          "post_percentage_point_contribution": 2.38215276,
+          "author_percentage_point_contribution": 3.19682407
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health disparity",
+      "overall_value": 4.43140868,
+      "percent_topic_posts_with_label": 3.80640282,
+      "percent_topic_authors_using_label_on_topic_post": 5.05641454,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 4.04402187,
+          "post_percentage_point_contribution": 3.49130325,
+          "author_percentage_point_contribution": 4.59674049
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.38738681,
+          "post_percentage_point_contribution": 0.31509957,
+          "author_percentage_point_contribution": 0.45967405
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adolescents",
+      "overall_value": 3.94915491,
+      "percent_topic_posts_with_label": 3.17620368,
+      "percent_topic_authors_using_label_on_topic_post": 4.72210614,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 2.23228493,
+          "post_percentage_point_contribution": 1.85278548,
+          "author_percentage_point_contribution": 2.61178437
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 1.71686999,
+          "post_percentage_point_contribution": 1.3234182,
+          "author_percentage_point_contribution": 2.11032177
+        }
+      ]
+    },
+    {
+      "intersecting_label": "home",
+      "overall_value": 3.45065765,
+      "percent_topic_posts_with_label": 2.7224603,
+      "percent_topic_authors_using_label_on_topic_post": 4.17885499,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 1.21223927,
+          "post_percentage_point_contribution": 0.92009075,
+          "author_percentage_point_contribution": 1.5043878
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 2.23841837,
+          "post_percentage_point_contribution": 1.80236955,
+          "author_percentage_point_contribution": 2.6744672
+        }
+      ]
+    },
+    {
+      "intersecting_label": "foster youth",
+      "overall_value": 3.06128253,
+      "percent_topic_posts_with_label": 2.44517267,
+      "percent_topic_authors_using_label_on_topic_post": 3.67739239,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.61142748,
+          "post_percentage_point_contribution": 0.49155533,
+          "author_percentage_point_contribution": 0.73129962
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 2.44985506,
+          "post_percentage_point_contribution": 1.95361734,
+          "author_percentage_point_contribution": 2.94609277
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childcare center",
+      "overall_value": 2.87323406,
+      "percent_topic_posts_with_label": 2.44517267,
+      "percent_topic_authors_using_label_on_topic_post": 3.30129545,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 2.59894601,
+          "post_percentage_point_contribution": 2.23090497,
+          "author_percentage_point_contribution": 2.96698705
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.27428805,
+          "post_percentage_point_contribution": 0.21426771,
+          "author_percentage_point_contribution": 0.3343084
+        }
+      ]
+    },
+    {
+      "intersecting_label": "low-income populations",
+      "overall_value": 2.69745248,
+      "percent_topic_posts_with_label": 2.34434081,
+      "percent_topic_authors_using_label_on_topic_post": 3.05056415,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 1.38636964,
+          "post_percentage_point_contribution": 1.18477439,
+          "author_percentage_point_contribution": 1.5879649
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 1.31108284,
+          "post_percentage_point_contribution": 1.15956642,
+          "author_percentage_point_contribution": 1.46259925
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare access",
+      "overall_value": 2.67224451,
+      "percent_topic_posts_with_label": 2.29392488,
+      "percent_topic_authors_using_label_on_topic_post": 3.05056415,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 2.06280534,
+          "post_percentage_point_contribution": 1.7645576,
+          "author_percentage_point_contribution": 2.36105307
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.60943918,
+          "post_percentage_point_contribution": 0.52936728,
+          "author_percentage_point_contribution": 0.68951107
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental justice",
+      "overall_value": 2.55483207,
+      "percent_topic_posts_with_label": 2.14267709,
+      "percent_topic_authors_using_label_on_topic_post": 2.96698705,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 1.81571355,
+          "post_percentage_point_contribution": 1.56289387,
+          "author_percentage_point_contribution": 2.06853322
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.73911852,
+          "post_percentage_point_contribution": 0.57978321,
+          "author_percentage_point_contribution": 0.89845382
+        }
+      ]
+    },
+    {
+      "intersecting_label": "racial and ethnic minority populations",
+      "overall_value": 2.10243704,
+      "percent_topic_posts_with_label": 1.73934963,
+      "percent_topic_authors_using_label_on_topic_post": 2.46552445,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 1.53296666,
+          "post_percentage_point_contribution": 1.31081422,
+          "author_percentage_point_contribution": 1.7551191
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.56947038,
+          "post_percentage_point_contribution": 0.42853542,
+          "author_percentage_point_contribution": 0.71040535
+        }
+      ]
+    },
+    {
+      "intersecting_label": "workers",
+      "overall_value": 1.98900119,
+      "percent_topic_posts_with_label": 1.51247794,
+      "percent_topic_authors_using_label_on_topic_post": 2.46552445,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 1.75451339,
+          "post_percentage_point_contribution": 1.33602218,
+          "author_percentage_point_contribution": 2.1730046
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.2344878,
+          "post_percentage_point_contribution": 0.17645576,
+          "author_percentage_point_contribution": 0.29251985
+        }
+      ]
+    },
+    {
+      "intersecting_label": "teachers and school staff",
+      "overall_value": 1.9727577,
+      "percent_topic_posts_with_label": 1.6889337,
+      "percent_topic_authors_using_label_on_topic_post": 2.2565817,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 1.70477164,
+          "post_percentage_point_contribution": 1.48726998,
+          "author_percentage_point_contribution": 1.9222733
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.26798606,
+          "post_percentage_point_contribution": 0.20166373,
+          "author_percentage_point_contribution": 0.3343084
+        }
+      ]
+    },
+    {
+      "intersecting_label": "discrimination",
+      "overall_value": 1.88021613,
+      "percent_topic_posts_with_label": 1.46206201,
+      "percent_topic_authors_using_label_on_topic_post": 2.29837025,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 1.08670508,
+          "post_percentage_point_contribution": 0.85707083,
+          "author_percentage_point_contribution": 1.31633932
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.79351105,
+          "post_percentage_point_contribution": 0.60499118,
+          "author_percentage_point_contribution": 0.98203092
+        }
+      ]
+    },
+    {
+      "intersecting_label": "social support",
+      "overall_value": 1.63743803,
+      "percent_topic_posts_with_label": 1.31081422,
+      "percent_topic_authors_using_label_on_topic_post": 1.96406185,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 1.18305471,
+          "post_percentage_point_contribution": 0.94529871,
+          "author_percentage_point_contribution": 1.4208107
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.45438333,
+          "post_percentage_point_contribution": 0.3655155,
+          "author_percentage_point_contribution": 0.54325115
+        }
+      ]
+    },
+    {
+      "intersecting_label": "apartment",
+      "overall_value": 1.63312434,
+      "percent_topic_posts_with_label": 1.26039829,
+      "percent_topic_authors_using_label_on_topic_post": 2.0058504,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.3580337,
+          "post_percentage_point_contribution": 0.27728762,
+          "author_percentage_point_contribution": 0.43877977
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 1.27509064,
+          "post_percentage_point_contribution": 0.98311066,
+          "author_percentage_point_contribution": 1.56707062
+        }
+      ]
+    },
+    {
+      "intersecting_label": "children with disabilities",
+      "overall_value": 1.52966423,
+      "percent_topic_posts_with_label": 1.63851777,
+      "percent_topic_authors_using_label_on_topic_post": 1.4208107,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.86964058,
+          "post_percentage_point_contribution": 0.94529871,
+          "author_percentage_point_contribution": 0.79398245
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.66002365,
+          "post_percentage_point_contribution": 0.69321906,
+          "author_percentage_point_contribution": 0.62682825
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mental health condition",
+      "overall_value": 1.43247188,
+      "percent_topic_posts_with_label": 1.23519032,
+      "percent_topic_authors_using_label_on_topic_post": 1.62975345,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.99898283,
+          "post_percentage_point_contribution": 0.86967482,
+          "author_percentage_point_contribution": 1.12829085
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.43348905,
+          "post_percentage_point_contribution": 0.3655155,
+          "author_percentage_point_contribution": 0.5014626
+        }
+      ]
+    },
+    {
+      "intersecting_label": "violence or crime",
+      "overall_value": 1.35718508,
+      "percent_topic_posts_with_label": 1.20998235,
+      "percent_topic_authors_using_label_on_topic_post": 1.5043878,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.77709901,
+          "post_percentage_point_contribution": 0.71842702,
+          "author_percentage_point_contribution": 0.835771
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.58008607,
+          "post_percentage_point_contribution": 0.49155533,
+          "author_percentage_point_contribution": 0.6686168
+        }
+      ]
+    },
+    {
+      "intersecting_label": "stress or distress",
+      "overall_value": 1.33164002,
+      "percent_topic_posts_with_label": 1.03352659,
+      "percent_topic_authors_using_label_on_topic_post": 1.62975345,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.87941354,
+          "post_percentage_point_contribution": 0.69321906,
+          "author_percentage_point_contribution": 1.06560802
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.45222648,
+          "post_percentage_point_contribution": 0.34030754,
+          "author_percentage_point_contribution": 0.56414542
+        }
+      ]
+    },
+    {
+      "intersecting_label": "COVID-19",
+      "overall_value": 1.14756815,
+      "percent_topic_posts_with_label": 0.9579027,
+      "percent_topic_authors_using_label_on_topic_post": 1.3372336,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.73497337,
+          "post_percentage_point_contribution": 0.59238719,
+          "author_percentage_point_contribution": 0.87755955
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.41259478,
+          "post_percentage_point_contribution": 0.3655155,
+          "author_percentage_point_contribution": 0.45967405
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pregnant people",
+      "overall_value": 1.13894077,
+      "percent_topic_posts_with_label": 0.85707083,
+      "percent_topic_authors_using_label_on_topic_post": 1.4208107,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.65321603,
+          "post_percentage_point_contribution": 0.49155533,
+          "author_percentage_point_contribution": 0.81487672
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.48572474,
+          "post_percentage_point_contribution": 0.3655155,
+          "author_percentage_point_contribution": 0.60593397
+        }
+      ]
+    },
+    {
+      "intersecting_label": "youth engagement",
+      "overall_value": 1.11406989,
+      "percent_topic_posts_with_label": 0.93269473,
+      "percent_topic_authors_using_label_on_topic_post": 1.29544505,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.7497342,
+          "post_percentage_point_contribution": 0.64280313,
+          "author_percentage_point_contribution": 0.85666527
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.36433569,
+          "post_percentage_point_contribution": 0.28989161,
+          "author_percentage_point_contribution": 0.43877977
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cancer",
+      "overall_value": 1.08919901,
+      "percent_topic_posts_with_label": 1.00831863,
+      "percent_topic_authors_using_label_on_topic_post": 1.1700794,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.75620474,
+          "post_percentage_point_contribution": 0.71842702,
+          "author_percentage_point_contribution": 0.79398245
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.33299428,
+          "post_percentage_point_contribution": 0.28989161,
+          "author_percentage_point_contribution": 0.37609695
+        }
+      ]
+    },
+    {
+      "intersecting_label": "community program or service",
+      "overall_value": 1.07659503,
+      "percent_topic_posts_with_label": 0.98311066,
+      "percent_topic_authors_using_label_on_topic_post": 1.1700794,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.50281096,
+          "post_percentage_point_contribution": 0.50415931,
+          "author_percentage_point_contribution": 0.5014626
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.57378407,
+          "post_percentage_point_contribution": 0.47895135,
+          "author_percentage_point_contribution": 0.6686168
+        }
+      ]
+    },
+    {
+      "intersecting_label": "drug exposure or use",
+      "overall_value": 1.01755172,
+      "percent_topic_posts_with_label": 0.78144694,
+      "percent_topic_authors_using_label_on_topic_post": 1.2536565,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.73696167,
+          "post_percentage_point_contribution": 0.55457525,
+          "author_percentage_point_contribution": 0.9193481
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.28059005,
+          "post_percentage_point_contribution": 0.22687169,
+          "author_percentage_point_contribution": 0.3343084
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school closure",
+      "overall_value": 0.9505552,
+      "percent_topic_posts_with_label": 0.73103101,
+      "percent_topic_authors_using_label_on_topic_post": 1.1700794,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.60296864,
+          "post_percentage_point_contribution": 0.45374338,
+          "author_percentage_point_contribution": 0.7521939
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.34758656,
+          "post_percentage_point_contribution": 0.27728762,
+          "author_percentage_point_contribution": 0.4178855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "toddlers",
+      "overall_value": 0.81656217,
+      "percent_topic_posts_with_label": 0.63019914,
+      "percent_topic_authors_using_label_on_topic_post": 1.0029252,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.49832872,
+          "post_percentage_point_contribution": 0.39072347,
+          "author_percentage_point_contribution": 0.60593397
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.31823345,
+          "post_percentage_point_contribution": 0.23947567,
+          "author_percentage_point_contribution": 0.39699122
+        }
+      ]
+    },
+    {
+      "intersecting_label": "shelter or temporary housing",
+      "overall_value": 0.7956679,
+      "percent_topic_posts_with_label": 0.63019914,
+      "percent_topic_authors_using_label_on_topic_post": 0.96113665,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.16749129,
+          "post_percentage_point_contribution": 0.12603983,
+          "author_percentage_point_contribution": 0.20894275
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.62817661,
+          "post_percentage_point_contribution": 0.50415931,
+          "author_percentage_point_contribution": 0.7521939
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childcare workers",
+      "overall_value": 0.64509428,
+      "percent_topic_posts_with_label": 0.57978321,
+      "percent_topic_authors_using_label_on_topic_post": 0.71040535,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.5885449,
+          "post_percentage_point_contribution": 0.52936728,
+          "author_percentage_point_contribution": 0.64772252
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.05654938,
+          "post_percentage_point_contribution": 0.05041593,
+          "author_percentage_point_contribution": 0.06268282
+        }
+      ]
+    },
+    {
+      "intersecting_label": "transportation access",
+      "overall_value": 0.63680399,
+      "percent_topic_posts_with_label": 0.60499118,
+      "percent_topic_authors_using_label_on_topic_post": 0.6686168,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.43150075,
+          "post_percentage_point_contribution": 0.40332745,
+          "author_percentage_point_contribution": 0.45967405
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.20530324,
+          "post_percentage_point_contribution": 0.20166373,
+          "author_percentage_point_contribution": 0.20894275
+        }
+      ]
+    },
+    {
+      "intersecting_label": "disability",
+      "overall_value": 0.61159602,
+      "percent_topic_posts_with_label": 0.55457525,
+      "percent_topic_authors_using_label_on_topic_post": 0.6686168,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.41889677,
+          "post_percentage_point_contribution": 0.37811949,
+          "author_percentage_point_contribution": 0.45967405
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.19269925,
+          "post_percentage_point_contribution": 0.17645576,
+          "author_percentage_point_contribution": 0.20894275
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pets and companion animals",
+      "overall_value": 0.60728233,
+      "percent_topic_posts_with_label": 0.50415931,
+      "percent_topic_authors_using_label_on_topic_post": 0.71040535,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.29319403,
+          "post_percentage_point_contribution": 0.25207966,
+          "author_percentage_point_contribution": 0.3343084
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.3140883,
+          "post_percentage_point_contribution": 0.25207966,
+          "author_percentage_point_contribution": 0.37609695
+        }
+      ]
+    },
+    {
+      "intersecting_label": "depression",
+      "overall_value": 0.56947038,
+      "percent_topic_posts_with_label": 0.42853542,
+      "percent_topic_authors_using_label_on_topic_post": 0.71040535,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.33498258,
+          "post_percentage_point_contribution": 0.25207966,
+          "author_percentage_point_contribution": 0.4178855
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.2344878,
+          "post_percentage_point_contribution": 0.17645576,
+          "author_percentage_point_contribution": 0.29251985
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare facility",
+      "overall_value": 0.56118009,
+      "percent_topic_posts_with_label": 0.45374338,
+      "percent_topic_authors_using_label_on_topic_post": 0.6686168,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.32453544,
+          "post_percentage_point_contribution": 0.25207966,
+          "author_percentage_point_contribution": 0.39699122
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.23664465,
+          "post_percentage_point_contribution": 0.20166373,
+          "author_percentage_point_contribution": 0.27162557
+        }
+      ]
+    },
+    {
+      "intersecting_label": "climate change",
+      "overall_value": 0.54062291,
+      "percent_topic_posts_with_label": 0.57978321,
+      "percent_topic_authors_using_label_on_topic_post": 0.5014626,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.37097477,
+          "post_percentage_point_contribution": 0.42853542,
+          "author_percentage_point_contribution": 0.31341412
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.16964813,
+          "post_percentage_point_contribution": 0.15124779,
+          "author_percentage_point_contribution": 0.18804847
+        }
+      ]
+    },
+    {
+      "intersecting_label": "unsafe housing conditions",
+      "overall_value": 0.53597213,
+      "percent_topic_posts_with_label": 0.40332745,
+      "percent_topic_authors_using_label_on_topic_post": 0.6686168,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.25123693,
+          "post_percentage_point_contribution": 0.18905974,
+          "author_percentage_point_contribution": 0.31341412
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.28473519,
+          "post_percentage_point_contribution": 0.21426771,
+          "author_percentage_point_contribution": 0.35520267
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mortality or death",
+      "overall_value": 0.49418358,
+      "percent_topic_posts_with_label": 0.40332745,
+      "percent_topic_authors_using_label_on_topic_post": 0.5850397,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.33083743,
+          "post_percentage_point_contribution": 0.26468364,
+          "author_percentage_point_contribution": 0.39699122
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.16334614,
+          "post_percentage_point_contribution": 0.13864381,
+          "author_percentage_point_contribution": 0.18804847
+        }
+      ]
+    },
+    {
+      "intersecting_label": "anxiety",
+      "overall_value": 0.46897561,
+      "percent_topic_posts_with_label": 0.35291152,
+      "percent_topic_authors_using_label_on_topic_post": 0.5850397,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.13399303,
+          "post_percentage_point_contribution": 0.10083186,
+          "author_percentage_point_contribution": 0.1671542
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.33498258,
+          "post_percentage_point_contribution": 0.25207966,
+          "author_percentage_point_contribution": 0.4178855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sports participation",
+      "overall_value": 0.46897561,
+      "percent_topic_posts_with_label": 0.35291152,
+      "percent_topic_authors_using_label_on_topic_post": 0.5850397,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.43547735,
+          "post_percentage_point_contribution": 0.32770355,
+          "author_percentage_point_contribution": 0.54325115
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "advocacy",
+      "overall_value": 0.44808133,
+      "percent_topic_posts_with_label": 0.35291152,
+      "percent_topic_authors_using_label_on_topic_post": 0.54325115,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.1968444,
+          "post_percentage_point_contribution": 0.16385178,
+          "author_percentage_point_contribution": 0.22983702
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.25123693,
+          "post_percentage_point_contribution": 0.18905974,
+          "author_percentage_point_contribution": 0.31341412
+        }
+      ]
+    },
+    {
+      "intersecting_label": "neighborhood",
+      "overall_value": 0.43547735,
+      "percent_topic_posts_with_label": 0.32770355,
+      "percent_topic_authors_using_label_on_topic_post": 0.54325115,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.25123693,
+          "post_percentage_point_contribution": 0.18905974,
+          "author_percentage_point_contribution": 0.31341412
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.18424042,
+          "post_percentage_point_contribution": 0.13864381,
+          "author_percentage_point_contribution": 0.22983702
+        }
+      ]
+    },
+    {
+      "intersecting_label": "fire hazard",
+      "overall_value": 0.42718706,
+      "percent_topic_posts_with_label": 0.35291152,
+      "percent_topic_authors_using_label_on_topic_post": 0.5014626,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.06699652,
+          "post_percentage_point_contribution": 0.05041593,
+          "author_percentage_point_contribution": 0.0835771
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.36019054,
+          "post_percentage_point_contribution": 0.30249559,
+          "author_percentage_point_contribution": 0.4178855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "reproductive health condition",
+      "overall_value": 0.41458308,
+      "percent_topic_posts_with_label": 0.32770355,
+      "percent_topic_authors_using_label_on_topic_post": 0.5014626,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.34758656,
+          "post_percentage_point_contribution": 0.27728762,
+          "author_percentage_point_contribution": 0.4178855
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.06699652,
+          "post_percentage_point_contribution": 0.05041593,
+          "author_percentage_point_contribution": 0.0835771
+        }
+      ]
+    },
+    {
+      "intersecting_label": "housing quality",
+      "overall_value": 0.40197909,
+      "percent_topic_posts_with_label": 0.30249559,
+      "percent_topic_authors_using_label_on_topic_post": 0.5014626,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.33498258,
+          "post_percentage_point_contribution": 0.25207966,
+          "author_percentage_point_contribution": 0.4178855
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.06699652,
+          "post_percentage_point_contribution": 0.05041593,
+          "author_percentage_point_contribution": 0.0835771
+        }
+      ]
+    },
+    {
+      "intersecting_label": "medical care",
+      "overall_value": 0.36848084,
+      "percent_topic_posts_with_label": 0.27728762,
+      "percent_topic_authors_using_label_on_topic_post": 0.45967405,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.31823345,
+          "post_percentage_point_contribution": 0.23947567,
+          "author_percentage_point_contribution": 0.39699122
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.05024739,
+          "post_percentage_point_contribution": 0.03781195,
+          "author_percentage_point_contribution": 0.06268282
+        }
+      ]
+    },
+    {
+      "intersecting_label": "substance use disorder",
+      "overall_value": 0.36848084,
+      "percent_topic_posts_with_label": 0.27728762,
+      "percent_topic_authors_using_label_on_topic_post": 0.45967405,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.18424042,
+          "post_percentage_point_contribution": 0.13864381,
+          "author_percentage_point_contribution": 0.22983702
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.18424042,
+          "post_percentage_point_contribution": 0.13864381,
+          "author_percentage_point_contribution": 0.22983702
+        }
+      ]
+    },
+    {
+      "intersecting_label": "obesity",
+      "overall_value": 0.33498258,
+      "percent_topic_posts_with_label": 0.25207966,
+      "percent_topic_authors_using_label_on_topic_post": 0.4178855,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.28473519,
+          "post_percentage_point_contribution": 0.21426771,
+          "author_percentage_point_contribution": 0.35520267
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.05024739,
+          "post_percentage_point_contribution": 0.03781195,
+          "author_percentage_point_contribution": 0.06268282
+        }
+      ]
+    },
+    {
+      "intersecting_label": "workplace",
+      "overall_value": 0.33498258,
+      "percent_topic_posts_with_label": 0.25207966,
+      "percent_topic_authors_using_label_on_topic_post": 0.4178855,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.30148432,
+          "post_percentage_point_contribution": 0.22687169,
+          "author_percentage_point_contribution": 0.37609695
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "contaminated drinking water",
+      "overall_value": 0.3140883,
+      "percent_topic_posts_with_label": 0.25207966,
+      "percent_topic_authors_using_label_on_topic_post": 0.37609695,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.06699652,
+          "post_percentage_point_contribution": 0.05041593,
+          "author_percentage_point_contribution": 0.0835771
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.24709179,
+          "post_percentage_point_contribution": 0.20166373,
+          "author_percentage_point_contribution": 0.29251985
+        }
+      ]
+    },
+    {
+      "intersecting_label": "classroom",
+      "overall_value": 0.30148432,
+      "percent_topic_posts_with_label": 0.22687169,
+      "percent_topic_authors_using_label_on_topic_post": 0.37609695,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.26798606,
+          "post_percentage_point_contribution": 0.20166373,
+          "author_percentage_point_contribution": 0.3343084
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "extreme cold",
+      "overall_value": 0.30148432,
+      "percent_topic_posts_with_label": 0.22687169,
+      "percent_topic_authors_using_label_on_topic_post": 0.37609695,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.13399303,
+          "post_percentage_point_contribution": 0.10083186,
+          "author_percentage_point_contribution": 0.1671542
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.16749129,
+          "post_percentage_point_contribution": 0.12603983,
+          "author_percentage_point_contribution": 0.20894275
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food access",
+      "overall_value": 0.30148432,
+      "percent_topic_posts_with_label": 0.22687169,
+      "percent_topic_authors_using_label_on_topic_post": 0.37609695,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.18424042,
+          "post_percentage_point_contribution": 0.13864381,
+          "author_percentage_point_contribution": 0.22983702
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.1172439,
+          "post_percentage_point_contribution": 0.08822788,
+          "author_percentage_point_contribution": 0.14625992
+        }
+      ]
+    },
+    {
+      "intersecting_label": "public transit",
+      "overall_value": 0.30148432,
+      "percent_topic_posts_with_label": 0.22687169,
+      "percent_topic_authors_using_label_on_topic_post": 0.37609695,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.20098955,
+          "post_percentage_point_contribution": 0.15124779,
+          "author_percentage_point_contribution": 0.2507313
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.10049477,
+          "post_percentage_point_contribution": 0.0756239,
+          "author_percentage_point_contribution": 0.12536565
+        }
+      ]
+    },
+    {
+      "intersecting_label": "farm or agricultural setting",
+      "overall_value": 0.26798606,
+      "percent_topic_posts_with_label": 0.20166373,
+      "percent_topic_authors_using_label_on_topic_post": 0.3343084,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.2344878,
+          "post_percentage_point_contribution": 0.17645576,
+          "author_percentage_point_contribution": 0.29251985
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare workers",
+      "overall_value": 0.26798606,
+      "percent_topic_posts_with_label": 0.20166373,
+      "percent_topic_authors_using_label_on_topic_post": 0.3343084,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.2344878,
+          "post_percentage_point_contribution": 0.17645576,
+          "author_percentage_point_contribution": 0.29251985
+        }
+      ]
+    },
+    {
+      "intersecting_label": "outdoor play or recreation",
+      "overall_value": 0.26798606,
+      "percent_topic_posts_with_label": 0.20166373,
+      "percent_topic_authors_using_label_on_topic_post": 0.3343084,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.20098955,
+          "post_percentage_point_contribution": 0.15124779,
+          "author_percentage_point_contribution": 0.2507313
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.06699652,
+          "post_percentage_point_contribution": 0.05041593,
+          "author_percentage_point_contribution": 0.0835771
+        }
+      ]
+    },
+    {
+      "intersecting_label": "park or green space",
+      "overall_value": 0.26798606,
+      "percent_topic_posts_with_label": 0.20166373,
+      "percent_topic_authors_using_label_on_topic_post": 0.3343084,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.16749129,
+          "post_percentage_point_contribution": 0.12603983,
+          "author_percentage_point_contribution": 0.20894275
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.10049477,
+          "post_percentage_point_contribution": 0.0756239,
+          "author_percentage_point_contribution": 0.12536565
+        }
+      ]
+    },
+    {
+      "intersecting_label": "walking or bicycling",
+      "overall_value": 0.26798606,
+      "percent_topic_posts_with_label": 0.20166373,
+      "percent_topic_authors_using_label_on_topic_post": 0.3343084,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.16749129,
+          "post_percentage_point_contribution": 0.12603983,
+          "author_percentage_point_contribution": 0.20894275
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.10049477,
+          "post_percentage_point_contribution": 0.0756239,
+          "author_percentage_point_contribution": 0.12536565
+        }
+      ]
+    },
+    {
+      "intersecting_label": "diabetes",
+      "overall_value": 0.2344878,
+      "percent_topic_posts_with_label": 0.17645576,
+      "percent_topic_authors_using_label_on_topic_post": 0.29251985,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.20098955,
+          "post_percentage_point_contribution": 0.15124779,
+          "author_percentage_point_contribution": 0.2507313
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "alcohol exposure or use",
+      "overall_value": 0.20098955,
+      "percent_topic_posts_with_label": 0.15124779,
+      "percent_topic_authors_using_label_on_topic_post": 0.2507313,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.1172439,
+          "post_percentage_point_contribution": 0.08822788,
+          "author_percentage_point_contribution": 0.14625992
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.08374564,
+          "post_percentage_point_contribution": 0.06301991,
+          "author_percentage_point_contribution": 0.10447137
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infectious disease",
+      "overall_value": 0.20098955,
+      "percent_topic_posts_with_label": 0.15124779,
+      "percent_topic_authors_using_label_on_topic_post": 0.2507313,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.10049477,
+          "post_percentage_point_contribution": 0.0756239,
+          "author_percentage_point_contribution": 0.12536565
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.10049477,
+          "post_percentage_point_contribution": 0.0756239,
+          "author_percentage_point_contribution": 0.12536565
+        }
+      ]
+    },
+    {
+      "intersecting_label": "medication use",
+      "overall_value": 0.20098955,
+      "percent_topic_posts_with_label": 0.15124779,
+      "percent_topic_authors_using_label_on_topic_post": 0.2507313,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.15074216,
+          "post_percentage_point_contribution": 0.11343585,
+          "author_percentage_point_contribution": 0.18804847
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.05024739,
+          "post_percentage_point_contribution": 0.03781195,
+          "author_percentage_point_contribution": 0.06268282
+        }
+      ]
+    },
+    {
+      "intersecting_label": "motor vehicle",
+      "overall_value": 0.20098955,
+      "percent_topic_posts_with_label": 0.15124779,
+      "percent_topic_authors_using_label_on_topic_post": 0.2507313,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.13399303,
+          "post_percentage_point_contribution": 0.10083186,
+          "author_percentage_point_contribution": 0.1671542
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.06699652,
+          "post_percentage_point_contribution": 0.05041593,
+          "author_percentage_point_contribution": 0.0835771
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildfire",
+      "overall_value": 0.20098955,
+      "percent_topic_posts_with_label": 0.15124779,
+      "percent_topic_authors_using_label_on_topic_post": 0.2507313,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.16749129,
+          "post_percentage_point_contribution": 0.12603983,
+          "author_percentage_point_contribution": 0.20894275
+        }
+      ]
+    },
+    {
+      "intersecting_label": "evacuation",
+      "overall_value": 0.18009527,
+      "percent_topic_posts_with_label": 0.15124779,
+      "percent_topic_authors_using_label_on_topic_post": 0.20894275,
+      "links": [
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.18009527,
+          "post_percentage_point_contribution": 0.15124779,
+          "author_percentage_point_contribution": 0.20894275
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pain",
+      "overall_value": 0.17180498,
+      "percent_topic_posts_with_label": 0.17645576,
+      "percent_topic_authors_using_label_on_topic_post": 0.1671542,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.13614988,
+          "post_percentage_point_contribution": 0.12603983,
+          "author_percentage_point_contribution": 0.14625992
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.0356551,
+          "post_percentage_point_contribution": 0.05041593,
+          "author_percentage_point_contribution": 0.02089427
+        }
+      ]
+    },
+    {
+      "intersecting_label": "malnutrition",
+      "overall_value": 0.16749129,
+      "percent_topic_posts_with_label": 0.12603983,
+      "percent_topic_authors_using_label_on_topic_post": 0.20894275,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.13399303,
+          "post_percentage_point_contribution": 0.10083186,
+          "author_percentage_point_contribution": 0.1671542
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "rural populations",
+      "overall_value": 0.16749129,
+      "percent_topic_posts_with_label": 0.12603983,
+      "percent_topic_authors_using_label_on_topic_post": 0.20894275,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.13399303,
+          "post_percentage_point_contribution": 0.10083186,
+          "author_percentage_point_contribution": 0.1671542
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adverse birth outcome",
+      "overall_value": 0.13399303,
+      "percent_topic_posts_with_label": 0.10083186,
+      "percent_topic_authors_using_label_on_topic_post": 0.1671542,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.10049477,
+          "post_percentage_point_contribution": 0.0756239,
+          "author_percentage_point_contribution": 0.12536565
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childhood cancer",
+      "overall_value": 0.13399303,
+      "percent_topic_posts_with_label": 0.10083186,
+      "percent_topic_authors_using_label_on_topic_post": 0.1671542,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.13399303,
+          "post_percentage_point_contribution": 0.10083186,
+          "author_percentage_point_contribution": 0.1671542
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cooking or food preparation",
+      "overall_value": 0.13399303,
+      "percent_topic_posts_with_label": 0.10083186,
+      "percent_topic_authors_using_label_on_topic_post": 0.1671542,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.10049477,
+          "post_percentage_point_contribution": 0.0756239,
+          "author_percentage_point_contribution": 0.12536565
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "dental care",
+      "overall_value": 0.13399303,
+      "percent_topic_posts_with_label": 0.10083186,
+      "percent_topic_authors_using_label_on_topic_post": 0.1671542,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.13399303,
+          "post_percentage_point_contribution": 0.10083186,
+          "author_percentage_point_contribution": 0.1671542
+        }
+      ]
+    },
+    {
+      "intersecting_label": "garden or yard",
+      "overall_value": 0.13399303,
+      "percent_topic_posts_with_label": 0.10083186,
+      "percent_topic_authors_using_label_on_topic_post": 0.1671542,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.10049477,
+          "post_percentage_point_contribution": 0.0756239,
+          "author_percentage_point_contribution": 0.12536565
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "injury",
+      "overall_value": 0.13399303,
+      "percent_topic_posts_with_label": 0.10083186,
+      "percent_topic_authors_using_label_on_topic_post": 0.1671542,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.10049477,
+          "post_percentage_point_contribution": 0.0756239,
+          "author_percentage_point_contribution": 0.12536565
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "street or roadway",
+      "overall_value": 0.13399303,
+      "percent_topic_posts_with_label": 0.10083186,
+      "percent_topic_authors_using_label_on_topic_post": 0.1671542,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.10049477,
+          "post_percentage_point_contribution": 0.0756239,
+          "author_percentage_point_contribution": 0.12536565
+        }
+      ]
+    },
+    {
+      "intersecting_label": "urban environment",
+      "overall_value": 0.13399303,
+      "percent_topic_posts_with_label": 0.10083186,
+      "percent_topic_authors_using_label_on_topic_post": 0.1671542,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.10049477,
+          "post_percentage_point_contribution": 0.0756239,
+          "author_percentage_point_contribution": 0.12536565
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "winter storm or snow hazard",
+      "overall_value": 0.13399303,
+      "percent_topic_posts_with_label": 0.10083186,
+      "percent_topic_authors_using_label_on_topic_post": 0.1671542,
+      "links": [
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.13399303,
+          "post_percentage_point_contribution": 0.10083186,
+          "author_percentage_point_contribution": 0.1671542
+        }
+      ]
+    },
+    {
+      "intersecting_label": "autism",
+      "overall_value": 0.10049477,
+      "percent_topic_posts_with_label": 0.0756239,
+      "percent_topic_authors_using_label_on_topic_post": 0.12536565,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.06699652,
+          "post_percentage_point_contribution": 0.05041593,
+          "author_percentage_point_contribution": 0.0835771
+        }
+      ]
+    },
+    {
+      "intersecting_label": "developmental delay",
+      "overall_value": 0.10049477,
+      "percent_topic_posts_with_label": 0.0756239,
+      "percent_topic_authors_using_label_on_topic_post": 0.12536565,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.06699652,
+          "post_percentage_point_contribution": 0.05041593,
+          "author_percentage_point_contribution": 0.0835771
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental policy or regulation",
+      "overall_value": 0.10049477,
+      "percent_topic_posts_with_label": 0.0756239,
+      "percent_topic_authors_using_label_on_topic_post": 0.12536565,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.06699652,
+          "post_percentage_point_contribution": 0.05041593,
+          "author_percentage_point_contribution": 0.0835771
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "extreme heat",
+      "overall_value": 0.10049477,
+      "percent_topic_posts_with_label": 0.0756239,
+      "percent_topic_authors_using_label_on_topic_post": 0.12536565,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.06699652,
+          "post_percentage_point_contribution": 0.05041593,
+          "author_percentage_point_contribution": 0.0835771
+        }
+      ]
+    },
+    {
+      "intersecting_label": "flooding",
+      "overall_value": 0.10049477,
+      "percent_topic_posts_with_label": 0.0756239,
+      "percent_topic_authors_using_label_on_topic_post": 0.12536565,
+      "links": [
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.10049477,
+          "post_percentage_point_contribution": 0.0756239,
+          "author_percentage_point_contribution": 0.12536565
+        }
+      ]
+    },
+    {
+      "intersecting_label": "general severe weather",
+      "overall_value": 0.10049477,
+      "percent_topic_posts_with_label": 0.0756239,
+      "percent_topic_authors_using_label_on_topic_post": 0.12536565,
+      "links": [
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.10049477,
+          "post_percentage_point_contribution": 0.0756239,
+          "author_percentage_point_contribution": 0.12536565
+        }
+      ]
+    },
+    {
+      "intersecting_label": "headache or migraine",
+      "overall_value": 0.10049477,
+      "percent_topic_posts_with_label": 0.0756239,
+      "percent_topic_authors_using_label_on_topic_post": 0.12536565,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.06699652,
+          "post_percentage_point_contribution": 0.05041593,
+          "author_percentage_point_contribution": 0.0835771
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health education or awareness",
+      "overall_value": 0.10049477,
+      "percent_topic_posts_with_label": 0.0756239,
+      "percent_topic_authors_using_label_on_topic_post": 0.12536565,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.10049477,
+          "post_percentage_point_contribution": 0.0756239,
+          "author_percentage_point_contribution": 0.12536565
+        }
+      ]
+    },
+    {
+      "intersecting_label": "natural disaster",
+      "overall_value": 0.10049477,
+      "percent_topic_posts_with_label": 0.0756239,
+      "percent_topic_authors_using_label_on_topic_post": 0.12536565,
+      "links": [
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.10049477,
+          "post_percentage_point_contribution": 0.0756239,
+          "author_percentage_point_contribution": 0.12536565
+        }
+      ]
+    },
+    {
+      "intersecting_label": "outdoor environment",
+      "overall_value": 0.10049477,
+      "percent_topic_posts_with_label": 0.0756239,
+      "percent_topic_authors_using_label_on_topic_post": 0.12536565,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.06699652,
+          "post_percentage_point_contribution": 0.05041593,
+          "author_percentage_point_contribution": 0.0835771
+        }
+      ]
+    },
+    {
+      "intersecting_label": "playground",
+      "overall_value": 0.10049477,
+      "percent_topic_posts_with_label": 0.0756239,
+      "percent_topic_authors_using_label_on_topic_post": 0.12536565,
+      "links": [
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.10049477,
+          "post_percentage_point_contribution": 0.0756239,
+          "author_percentage_point_contribution": 0.12536565
+        }
+      ]
+    },
+    {
+      "intersecting_label": "poor sanitation",
+      "overall_value": 0.10049477,
+      "percent_topic_posts_with_label": 0.0756239,
+      "percent_topic_authors_using_label_on_topic_post": 0.12536565,
+      "links": [
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.10049477,
+          "post_percentage_point_contribution": 0.0756239,
+          "author_percentage_point_contribution": 0.12536565
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sleep problem",
+      "overall_value": 0.10049477,
+      "percent_topic_posts_with_label": 0.0756239,
+      "percent_topic_authors_using_label_on_topic_post": 0.12536565,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.06699652,
+          "post_percentage_point_contribution": 0.05041593,
+          "author_percentage_point_contribution": 0.0835771
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cough",
+      "overall_value": 0.0796005,
+      "percent_topic_posts_with_label": 0.0756239,
+      "percent_topic_authors_using_label_on_topic_post": 0.0835771,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.02305112,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.02089427
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.05654938,
+          "post_percentage_point_contribution": 0.05041593,
+          "author_percentage_point_contribution": 0.06268282
+        }
+      ]
+    },
+    {
+      "intersecting_label": "asthma",
+      "overall_value": 0.06699652,
+      "percent_topic_posts_with_label": 0.05041593,
+      "percent_topic_authors_using_label_on_topic_post": 0.0835771,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "breastfeeding",
+      "overall_value": 0.06699652,
+      "percent_topic_posts_with_label": 0.05041593,
+      "percent_topic_authors_using_label_on_topic_post": 0.0835771,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.06699652,
+          "post_percentage_point_contribution": 0.05041593,
+          "author_percentage_point_contribution": 0.0835771
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cleaning or disinfection",
+      "overall_value": 0.06699652,
+      "percent_topic_posts_with_label": 0.05041593,
+      "percent_topic_authors_using_label_on_topic_post": 0.0835771,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.06699652,
+          "post_percentage_point_contribution": 0.05041593,
+          "author_percentage_point_contribution": 0.0835771
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cognitive or learning problem",
+      "overall_value": 0.06699652,
+      "percent_topic_posts_with_label": 0.05041593,
+      "percent_topic_authors_using_label_on_topic_post": 0.0835771,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.06699652,
+          "post_percentage_point_contribution": 0.05041593,
+          "author_percentage_point_contribution": 0.0835771
+        }
+      ]
+    },
+    {
+      "intersecting_label": "community resilience",
+      "overall_value": 0.06699652,
+      "percent_topic_posts_with_label": 0.05041593,
+      "percent_topic_authors_using_label_on_topic_post": 0.0835771,
+      "links": [
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.06699652,
+          "post_percentage_point_contribution": 0.05041593,
+          "author_percentage_point_contribution": 0.0835771
+        }
+      ]
+    },
+    {
+      "intersecting_label": "gastrointestinal illness",
+      "overall_value": 0.06699652,
+      "percent_topic_posts_with_label": 0.05041593,
+      "percent_topic_authors_using_label_on_topic_post": 0.0835771,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.06699652,
+          "post_percentage_point_contribution": 0.05041593,
+          "author_percentage_point_contribution": 0.0835771
+        }
+      ]
+    },
+    {
+      "intersecting_label": "heat-related illness",
+      "overall_value": 0.06699652,
+      "percent_topic_posts_with_label": 0.05041593,
+      "percent_topic_authors_using_label_on_topic_post": 0.0835771,
+      "links": [
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.06699652,
+          "post_percentage_point_contribution": 0.05041593,
+          "author_percentage_point_contribution": 0.0835771
+        }
+      ]
+    },
+    {
+      "intersecting_label": "hurricane or severe storm",
+      "overall_value": 0.06699652,
+      "percent_topic_posts_with_label": 0.05041593,
+      "percent_topic_authors_using_label_on_topic_post": 0.0835771,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "kidney disease",
+      "overall_value": 0.06699652,
+      "percent_topic_posts_with_label": 0.05041593,
+      "percent_topic_authors_using_label_on_topic_post": 0.0835771,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.05024739,
+          "post_percentage_point_contribution": 0.03781195,
+          "author_percentage_point_contribution": 0.06268282
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.01674913,
+          "post_percentage_point_contribution": 0.01260398,
+          "author_percentage_point_contribution": 0.02089427
+        }
+      ]
+    },
+    {
+      "intersecting_label": "respiratory illness",
+      "overall_value": 0.06699652,
+      "percent_topic_posts_with_label": 0.05041593,
+      "percent_topic_authors_using_label_on_topic_post": 0.0835771,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "restaurant or food store",
+      "overall_value": 0.06699652,
+      "percent_topic_posts_with_label": 0.05041593,
+      "percent_topic_authors_using_label_on_topic_post": 0.0835771,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.06699652,
+          "post_percentage_point_contribution": 0.05041593,
+          "author_percentage_point_contribution": 0.0835771
+        }
+      ]
+    },
+    {
+      "intersecting_label": "toothache or dental problem",
+      "overall_value": 0.06699652,
+      "percent_topic_posts_with_label": 0.05041593,
+      "percent_topic_authors_using_label_on_topic_post": 0.0835771,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.06699652,
+          "post_percentage_point_contribution": 0.05041593,
+          "author_percentage_point_contribution": 0.0835771
+        }
+      ]
+    },
+    {
+      "intersecting_label": "vaccination",
+      "overall_value": 0.06699652,
+      "percent_topic_posts_with_label": 0.05041593,
+      "percent_topic_authors_using_label_on_topic_post": 0.0835771,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "water pollution",
+      "overall_value": 0.06699652,
+      "percent_topic_posts_with_label": 0.05041593,
+      "percent_topic_authors_using_label_on_topic_post": 0.0835771,
+      "links": [
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.06699652,
+          "post_percentage_point_contribution": 0.05041593,
+          "author_percentage_point_contribution": 0.0835771
+        }
+      ]
+    },
+    {
+      "intersecting_label": "acute poisoning",
+      "overall_value": 0.03349826,
+      "percent_topic_posts_with_label": 0.02520797,
+      "percent_topic_authors_using_label_on_topic_post": 0.04178855,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "ambient air pollution",
+      "overall_value": 0.03349826,
+      "percent_topic_posts_with_label": 0.02520797,
+      "percent_topic_authors_using_label_on_topic_post": 0.04178855,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "beach or coastal area",
+      "overall_value": 0.03349826,
+      "percent_topic_posts_with_label": 0.02520797,
+      "percent_topic_authors_using_label_on_topic_post": 0.04178855,
+      "links": [
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "birth defect",
+      "overall_value": 0.03349826,
+      "percent_topic_posts_with_label": 0.02520797,
+      "percent_topic_authors_using_label_on_topic_post": 0.04178855,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "bisphenol A",
+      "overall_value": 0.03349826,
+      "percent_topic_posts_with_label": 0.02520797,
+      "percent_topic_authors_using_label_on_topic_post": 0.04178855,
+      "links": [
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "dental caries",
+      "overall_value": 0.03349826,
+      "percent_topic_posts_with_label": 0.02520797,
+      "percent_topic_authors_using_label_on_topic_post": 0.04178855,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "disaster preparedness",
+      "overall_value": 0.03349826,
+      "percent_topic_posts_with_label": 0.02520797,
+      "percent_topic_authors_using_label_on_topic_post": 0.04178855,
+      "links": [
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "emergency response",
+      "overall_value": 0.03349826,
+      "percent_topic_posts_with_label": 0.02520797,
+      "percent_topic_authors_using_label_on_topic_post": 0.04178855,
+      "links": [
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food contamination",
+      "overall_value": 0.03349826,
+      "percent_topic_posts_with_label": 0.02520797,
+      "percent_topic_authors_using_label_on_topic_post": 0.04178855,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "generic smoke",
+      "overall_value": 0.03349826,
+      "percent_topic_posts_with_label": 0.02520797,
+      "percent_topic_authors_using_label_on_topic_post": 0.04178855,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "green-space access",
+      "overall_value": 0.03349826,
+      "percent_topic_posts_with_label": 0.02520797,
+      "percent_topic_authors_using_label_on_topic_post": 0.04178855,
+      "links": [
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "household chemicals",
+      "overall_value": 0.03349826,
+      "percent_topic_posts_with_label": 0.02520797,
+      "percent_topic_authors_using_label_on_topic_post": 0.04178855,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "industrial site",
+      "overall_value": 0.03349826,
+      "percent_topic_posts_with_label": 0.02520797,
+      "percent_topic_authors_using_label_on_topic_post": 0.04178855,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infectious disease exposure",
+      "overall_value": 0.03349826,
+      "percent_topic_posts_with_label": 0.02520797,
+      "percent_topic_authors_using_label_on_topic_post": 0.04178855,
+      "links": [
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "influenza",
+      "overall_value": 0.03349826,
+      "percent_topic_posts_with_label": 0.02520797,
+      "percent_topic_authors_using_label_on_topic_post": 0.04178855,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "insects and pests",
+      "overall_value": 0.03349826,
+      "percent_topic_posts_with_label": 0.02520797,
+      "percent_topic_authors_using_label_on_topic_post": 0.04178855,
+      "links": [
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "lead exposure",
+      "overall_value": 0.03349826,
+      "percent_topic_posts_with_label": 0.02520797,
+      "percent_topic_authors_using_label_on_topic_post": 0.04178855,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mask use",
+      "overall_value": 0.03349826,
+      "percent_topic_posts_with_label": 0.02520797,
+      "percent_topic_authors_using_label_on_topic_post": 0.04178855,
+      "links": [
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mold and dampness",
+      "overall_value": 0.03349826,
+      "percent_topic_posts_with_label": 0.02520797,
+      "percent_topic_authors_using_label_on_topic_post": 0.04178855,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.01674913,
+          "post_percentage_point_contribution": 0.01260398,
+          "author_percentage_point_contribution": 0.02089427
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.01674913,
+          "post_percentage_point_contribution": 0.01260398,
+          "author_percentage_point_contribution": 0.02089427
+        }
+      ]
+    },
+    {
+      "intersecting_label": "musculoskeletal injury",
+      "overall_value": 0.03349826,
+      "percent_topic_posts_with_label": 0.02520797,
+      "percent_topic_authors_using_label_on_topic_post": 0.04178855,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "noise pollution",
+      "overall_value": 0.03349826,
+      "percent_topic_posts_with_label": 0.02520797,
+      "percent_topic_authors_using_label_on_topic_post": 0.04178855,
+      "links": [
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pesticides",
+      "overall_value": 0.03349826,
+      "percent_topic_posts_with_label": 0.02520797,
+      "percent_topic_authors_using_label_on_topic_post": 0.04178855,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "plastics or microplastics",
+      "overall_value": 0.03349826,
+      "percent_topic_posts_with_label": 0.02520797,
+      "percent_topic_authors_using_label_on_topic_post": 0.04178855,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "preterm birth",
+      "overall_value": 0.03349826,
+      "percent_topic_posts_with_label": 0.02520797,
+      "percent_topic_authors_using_label_on_topic_post": 0.04178855,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "seizure",
+      "overall_value": 0.03349826,
+      "percent_topic_posts_with_label": 0.02520797,
+      "percent_topic_authors_using_label_on_topic_post": 0.04178855,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.01674913,
+          "post_percentage_point_contribution": 0.01260398,
+          "author_percentage_point_contribution": 0.02089427
+        },
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.01674913,
+          "post_percentage_point_contribution": 0.01260398,
+          "author_percentage_point_contribution": 0.02089427
+        }
+      ]
+    },
+    {
+      "intersecting_label": "skin condition",
+      "overall_value": 0.03349826,
+      "percent_topic_posts_with_label": 0.02520797,
+      "percent_topic_authors_using_label_on_topic_post": 0.04178855,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic hazard",
+      "overall_value": 0.03349826,
+      "percent_topic_posts_with_label": 0.02520797,
+      "percent_topic_authors_using_label_on_topic_post": 0.04178855,
+      "links": [
+        {
+          "component_label": "housing instability or homelessness",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic-related air pollution",
+      "overall_value": 0.03349826,
+      "percent_topic_posts_with_label": 0.02520797,
+      "percent_topic_authors_using_label_on_topic_post": 0.04178855,
+      "links": [
+        {
+          "component_label": "poverty or financial hardship",
+          "value": 0.03349826,
+          "post_percentage_point_contribution": 0.02520797,
+          "author_percentage_point_contribution": 0.04178855
+        }
+      ]
+    }
+  ]
+}

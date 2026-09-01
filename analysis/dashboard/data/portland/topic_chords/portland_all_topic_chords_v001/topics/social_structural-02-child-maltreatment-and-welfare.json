@@ -1,0 +1,2733 @@
+{
+  "schema_version": "1.0.0",
+  "city_id": "38900",
+  "domain": "social_structural",
+  "category_id": "social_structural-02",
+  "topic": "Child maltreatment and welfare",
+  "component_labels": [
+    "child abuse or neglect",
+    "child welfare services"
+  ],
+  "intersections": [
+    {
+      "intersecting_label": "children",
+      "overall_value": 40.03810941,
+      "percent_topic_posts_with_label": 35.73970855,
+      "percent_topic_authors_using_label_on_topic_post": 44.33651026,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 29.64060621,
+          "post_percentage_point_contribution": 26.04257605,
+          "author_percentage_point_contribution": 33.23863636
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 10.3975032,
+          "post_percentage_point_contribution": 9.6971325,
+          "author_percentage_point_contribution": 11.0978739
+        }
+      ]
+    },
+    {
+      "intersecting_label": "violence or crime",
+      "overall_value": 12.07887962,
+      "percent_topic_posts_with_label": 8.74353636,
+      "percent_topic_authors_using_label_on_topic_post": 15.41422287,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 11.72798669,
+          "post_percentage_point_contribution": 8.4816332,
+          "author_percentage_point_contribution": 14.97434018
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.35089293,
+          "post_percentage_point_contribution": 0.26190316,
+          "author_percentage_point_contribution": 0.4398827
+        }
+      ]
+    },
+    {
+      "intersecting_label": "parents and caregivers",
+      "overall_value": 11.02824218,
+      "percent_topic_posts_with_label": 7.39372776,
+      "percent_topic_authors_using_label_on_topic_post": 14.6627566,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 7.7027638,
+          "post_percentage_point_contribution": 5.15076221,
+          "author_percentage_point_contribution": 10.2547654
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 3.32547838,
+          "post_percentage_point_contribution": 2.24296555,
+          "author_percentage_point_contribution": 4.4079912
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school",
+      "overall_value": 7.51986921,
+      "percent_topic_posts_with_label": 4.92243637,
+      "percent_topic_authors_using_label_on_topic_post": 10.11730205,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 6.45417674,
+          "post_percentage_point_contribution": 4.2206702,
+          "author_percentage_point_contribution": 8.68768328
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 1.06569247,
+          "post_percentage_point_contribution": 0.70176617,
+          "author_percentage_point_contribution": 1.42961877
+        }
+      ]
+    },
+    {
+      "intersecting_label": "families",
+      "overall_value": 7.49957388,
+      "percent_topic_posts_with_label": 5.28507152,
+      "percent_topic_authors_using_label_on_topic_post": 9.71407625,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 3.9532178,
+          "post_percentage_point_contribution": 2.68282855,
+          "author_percentage_point_contribution": 5.22360704
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 3.54635609,
+          "post_percentage_point_contribution": 2.60224297,
+          "author_percentage_point_contribution": 4.49046921
+        }
+      ]
+    },
+    {
+      "intersecting_label": "discrimination",
+      "overall_value": 5.99191244,
+      "percent_topic_posts_with_label": 4.02927943,
+      "percent_topic_authors_using_label_on_topic_post": 7.95454545,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 4.60037096,
+          "post_percentage_point_contribution": 3.07904103,
+          "author_percentage_point_contribution": 6.12170088
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 1.39154149,
+          "post_percentage_point_contribution": 0.9502384,
+          "author_percentage_point_contribution": 1.83284457
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infants",
+      "overall_value": 5.70572541,
+      "percent_topic_posts_with_label": 3.91511651,
+      "percent_topic_authors_using_label_on_topic_post": 7.49633431,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 4.20974157,
+          "post_percentage_point_contribution": 2.88429253,
+          "author_percentage_point_contribution": 5.53519062
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 1.49598384,
+          "post_percentage_point_contribution": 1.03082399,
+          "author_percentage_point_contribution": 1.9611437
+        }
+      ]
+    },
+    {
+      "intersecting_label": "unhoused populations",
+      "overall_value": 5.70398193,
+      "percent_topic_posts_with_label": 3.67335975,
+      "percent_topic_authors_using_label_on_topic_post": 7.73460411,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 4.04321839,
+          "post_percentage_point_contribution": 2.57873884,
+          "author_percentage_point_contribution": 5.50769795
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 1.66076354,
+          "post_percentage_point_contribution": 1.09462091,
+          "author_percentage_point_contribution": 2.22690616
+        }
+      ]
+    },
+    {
+      "intersecting_label": "racial and ethnic minority populations",
+      "overall_value": 5.13706172,
+      "percent_topic_posts_with_label": 3.5659123,
+      "percent_topic_authors_using_label_on_topic_post": 6.70821114,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 3.93516752,
+          "post_percentage_point_contribution": 2.75669868,
+          "author_percentage_point_contribution": 5.11363636
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 1.2018942,
+          "post_percentage_point_contribution": 0.80921362,
+          "author_percentage_point_contribution": 1.59457478
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mental health condition",
+      "overall_value": 3.6077141,
+      "percent_topic_posts_with_label": 2.30340474,
+      "percent_topic_authors_using_label_on_topic_post": 4.91202346,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 2.94957877,
+          "post_percentage_point_contribution": 1.86689947,
+          "author_percentage_point_contribution": 4.03225806
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.65813533,
+          "post_percentage_point_contribution": 0.43650527,
+          "author_percentage_point_contribution": 0.8797654
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adolescents",
+      "overall_value": 3.40736281,
+      "percent_topic_posts_with_label": 2.19595729,
+      "percent_topic_authors_using_label_on_topic_post": 4.61876833,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 2.63408112,
+          "post_percentage_point_contribution": 1.71244376,
+          "author_percentage_point_contribution": 3.55571848
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.77328169,
+          "post_percentage_point_contribution": 0.48351353,
+          "author_percentage_point_contribution": 1.06304985
+        }
+      ]
+    },
+    {
+      "intersecting_label": "foster youth",
+      "overall_value": 3.27290456,
+      "percent_topic_posts_with_label": 2.3302666,
+      "percent_topic_authors_using_label_on_topic_post": 4.21554252,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.84655824,
+          "post_percentage_point_contribution": 0.58424552,
+          "author_percentage_point_contribution": 1.10887097
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 2.42634632,
+          "post_percentage_point_contribution": 1.74602109,
+          "author_percentage_point_contribution": 3.10667155
+        }
+      ]
+    },
+    {
+      "intersecting_label": "teachers and school staff",
+      "overall_value": 2.3699329,
+      "percent_topic_posts_with_label": 1.47740246,
+      "percent_topic_authors_using_label_on_topic_post": 3.26246334,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 2.00711159,
+          "post_percentage_point_contribution": 1.25579209,
+          "author_percentage_point_contribution": 2.75843109
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.36282131,
+          "post_percentage_point_contribution": 0.22161037,
+          "author_percentage_point_contribution": 0.50403226
+        }
+      ]
+    },
+    {
+      "intersecting_label": "social support",
+      "overall_value": 2.32229383,
+      "percent_topic_posts_with_label": 1.43710966,
+      "percent_topic_authors_using_label_on_topic_post": 3.20747801,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 2.07888559,
+          "post_percentage_point_contribution": 1.28936942,
+          "author_percentage_point_contribution": 2.86840176
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.24340825,
+          "post_percentage_point_contribution": 0.14774025,
+          "author_percentage_point_contribution": 0.33907625
+        }
+      ]
+    },
+    {
+      "intersecting_label": "home",
+      "overall_value": 2.29851153,
+      "percent_topic_posts_with_label": 1.31623128,
+      "percent_topic_authors_using_label_on_topic_post": 3.28079179,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 1.93492033,
+          "post_percentage_point_contribution": 1.11140958,
+          "author_percentage_point_contribution": 2.75843109
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.3635912,
+          "post_percentage_point_contribution": 0.2048217,
+          "author_percentage_point_contribution": 0.5223607
+        }
+      ]
+    },
+    {
+      "intersecting_label": "students",
+      "overall_value": 2.28962548,
+      "percent_topic_posts_with_label": 1.3901014,
+      "percent_topic_authors_using_label_on_topic_post": 3.18914956,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 1.68920241,
+          "post_percentage_point_contribution": 1.01403532,
+          "author_percentage_point_contribution": 2.3643695
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.60042307,
+          "post_percentage_point_contribution": 0.37606608,
+          "author_percentage_point_contribution": 0.82478006
+        }
+      ]
+    },
+    {
+      "intersecting_label": "poverty or financial hardship",
+      "overall_value": 2.25170698,
+      "percent_topic_posts_with_label": 1.49754886,
+      "percent_topic_authors_using_label_on_topic_post": 3.0058651,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 1.47569836,
+          "post_percentage_point_contribution": 0.95359613,
+          "author_percentage_point_contribution": 1.99780059
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.77600862,
+          "post_percentage_point_contribution": 0.54395272,
+          "author_percentage_point_contribution": 1.00806452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "housing instability or homelessness",
+      "overall_value": 2.09200112,
+      "percent_topic_posts_with_label": 1.34309314,
+      "percent_topic_authors_using_label_on_topic_post": 2.84090909,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 1.07989329,
+          "post_percentage_point_contribution": 0.71183937,
+          "author_percentage_point_contribution": 1.44794721
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 1.01210783,
+          "post_percentage_point_contribution": 0.63125378,
+          "author_percentage_point_contribution": 1.39296188
+        }
+      ]
+    },
+    {
+      "intersecting_label": "stress or distress",
+      "overall_value": 1.91123988,
+      "percent_topic_posts_with_label": 1.12819824,
+      "percent_topic_authors_using_label_on_topic_post": 2.69428152,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 1.74051461,
+          "post_percentage_point_contribution": 1.03418172,
+          "author_percentage_point_contribution": 2.44684751
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.17072527,
+          "post_percentage_point_contribution": 0.09401652,
+          "author_percentage_point_contribution": 0.24743402
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mortality or death",
+      "overall_value": 1.66933419,
+      "percent_topic_posts_with_label": 1.04761265,
+      "percent_topic_authors_using_label_on_topic_post": 2.29105572,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 1.35278847,
+          "post_percentage_point_contribution": 0.83607548,
+          "author_percentage_point_contribution": 1.86950147
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.31654571,
+          "post_percentage_point_contribution": 0.21153717,
+          "author_percentage_point_contribution": 0.42155425
+        }
+      ]
+    },
+    {
+      "intersecting_label": "drug exposure or use",
+      "overall_value": 1.21490788,
+      "percent_topic_posts_with_label": 0.7252703,
+      "percent_topic_authors_using_label_on_topic_post": 1.70454545,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 1.07793625,
+          "post_percentage_point_contribution": 0.63461151,
+          "author_percentage_point_contribution": 1.521261
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.13697162,
+          "post_percentage_point_contribution": 0.09065879,
+          "author_percentage_point_contribution": 0.18328446
+        }
+      ]
+    },
+    {
+      "intersecting_label": "reproductive health condition",
+      "overall_value": 1.15411605,
+      "percent_topic_posts_with_label": 0.73198576,
+      "percent_topic_authors_using_label_on_topic_post": 1.57624633,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 1.00843469,
+          "post_percentage_point_contribution": 0.65140017,
+          "author_percentage_point_contribution": 1.36546921
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.14568136,
+          "post_percentage_point_contribution": 0.08058559,
+          "author_percentage_point_contribution": 0.21077713
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pregnant people",
+      "overall_value": 1.07380863,
+      "percent_topic_posts_with_label": 0.64468471,
+      "percent_topic_authors_using_label_on_topic_post": 1.50293255,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.75404427,
+          "post_percentage_point_contribution": 0.46336713,
+          "author_percentage_point_contribution": 1.04472141
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.31976436,
+          "post_percentage_point_contribution": 0.18131757,
+          "author_percentage_point_contribution": 0.45821114
+        }
+      ]
+    },
+    {
+      "intersecting_label": "children with disabilities",
+      "overall_value": 1.01819249,
+      "percent_topic_posts_with_label": 0.69840843,
+      "percent_topic_authors_using_label_on_topic_post": 1.33797654,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.58699214,
+          "post_percentage_point_contribution": 0.34920422,
+          "author_percentage_point_contribution": 0.82478006
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.43120035,
+          "post_percentage_point_contribution": 0.34920422,
+          "author_percentage_point_contribution": 0.51319648
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food insecurity",
+      "overall_value": 0.99105245,
+      "percent_topic_posts_with_label": 0.57081459,
+      "percent_topic_authors_using_label_on_topic_post": 1.41129032,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.76229952,
+          "post_percentage_point_contribution": 0.44322074,
+          "author_percentage_point_contribution": 1.0813783
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.22875294,
+          "post_percentage_point_contribution": 0.12759385,
+          "author_percentage_point_contribution": 0.32991202
+        }
+      ]
+    },
+    {
+      "intersecting_label": "low-income populations",
+      "overall_value": 0.91983479,
+      "percent_topic_posts_with_label": 0.6849775,
+      "percent_topic_authors_using_label_on_topic_post": 1.15469208,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.31395787,
+          "post_percentage_point_contribution": 0.18803304,
+          "author_percentage_point_contribution": 0.4398827
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.60587692,
+          "post_percentage_point_contribution": 0.49694446,
+          "author_percentage_point_contribution": 0.71480938
+        }
+      ]
+    },
+    {
+      "intersecting_label": "toddlers",
+      "overall_value": 0.85911743,
+      "percent_topic_posts_with_label": 0.490229,
+      "percent_topic_authors_using_label_on_topic_post": 1.22800587,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.60318723,
+          "post_percentage_point_contribution": 0.33577329,
+          "author_percentage_point_contribution": 0.87060117
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.2559302,
+          "post_percentage_point_contribution": 0.15445571,
+          "author_percentage_point_contribution": 0.35740469
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pets and companion animals",
+      "overall_value": 0.84260694,
+      "percent_topic_posts_with_label": 0.53052179,
+      "percent_topic_authors_using_label_on_topic_post": 1.15469208,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.72900036,
+          "post_percentage_point_contribution": 0.4499362,
+          "author_percentage_point_contribution": 1.00806452
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.11360658,
+          "post_percentage_point_contribution": 0.08058559,
+          "author_percentage_point_contribution": 0.14662757
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental justice",
+      "overall_value": 0.74886859,
+      "percent_topic_posts_with_label": 0.41635887,
+      "percent_topic_authors_using_label_on_topic_post": 1.0813783,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.57814332,
+          "post_percentage_point_contribution": 0.32234235,
+          "author_percentage_point_contribution": 0.83394428
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.17072527,
+          "post_percentage_point_contribution": 0.09401652,
+          "author_percentage_point_contribution": 0.24743402
+        }
+      ]
+    },
+    {
+      "intersecting_label": "unsafe housing conditions",
+      "overall_value": 0.74641983,
+      "percent_topic_posts_with_label": 0.42978981,
+      "percent_topic_authors_using_label_on_topic_post": 1.06304985,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.61448481,
+          "post_percentage_point_contribution": 0.34920422,
+          "author_percentage_point_contribution": 0.8797654
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.13193502,
+          "post_percentage_point_contribution": 0.08058559,
+          "author_percentage_point_contribution": 0.18328446
+        }
+      ]
+    },
+    {
+      "intersecting_label": "advocacy",
+      "overall_value": 0.65785716,
+      "percent_topic_posts_with_label": 0.36263515,
+      "percent_topic_authors_using_label_on_topic_post": 0.95307918,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.48713189,
+          "post_percentage_point_contribution": 0.26861863,
+          "author_percentage_point_contribution": 0.70564516
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.17072527,
+          "post_percentage_point_contribution": 0.09401652,
+          "author_percentage_point_contribution": 0.24743402
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cancer",
+      "overall_value": 0.64861848,
+      "percent_topic_posts_with_label": 0.56409912,
+      "percent_topic_authors_using_label_on_topic_post": 0.73313783,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.37992538,
+          "post_percentage_point_contribution": 0.22832583,
+          "author_percentage_point_contribution": 0.53152493
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.26869309,
+          "post_percentage_point_contribution": 0.33577329,
+          "author_percentage_point_contribution": 0.2016129
+        }
+      ]
+    },
+    {
+      "intersecting_label": "autism",
+      "overall_value": 0.6447044,
+      "percent_topic_posts_with_label": 0.40964341,
+      "percent_topic_authors_using_label_on_topic_post": 0.8797654,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.36617905,
+          "post_percentage_point_contribution": 0.22832583,
+          "author_percentage_point_contribution": 0.50403226
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.27852536,
+          "post_percentage_point_contribution": 0.18131757,
+          "author_percentage_point_contribution": 0.37573314
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare access",
+      "overall_value": 0.62210925,
+      "percent_topic_posts_with_label": 0.38278155,
+      "percent_topic_authors_using_label_on_topic_post": 0.86143695,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.26387005,
+          "post_percentage_point_contribution": 0.16117118,
+          "author_percentage_point_contribution": 0.36656891
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.3582392,
+          "post_percentage_point_contribution": 0.22161037,
+          "author_percentage_point_contribution": 0.49486804
+        }
+      ]
+    },
+    {
+      "intersecting_label": "substance use disorder",
+      "overall_value": 0.58454338,
+      "percent_topic_posts_with_label": 0.36263515,
+      "percent_topic_authors_using_label_on_topic_post": 0.80645161,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.45886934,
+          "post_percentage_point_contribution": 0.28540729,
+          "author_percentage_point_contribution": 0.63233138
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.12567405,
+          "post_percentage_point_contribution": 0.07722786,
+          "author_percentage_point_contribution": 0.17412023
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health disparity",
+      "overall_value": 0.5485173,
+      "percent_topic_posts_with_label": 0.30891142,
+      "percent_topic_authors_using_label_on_topic_post": 0.78812317,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.35733023,
+          "post_percentage_point_contribution": 0.20146397,
+          "author_percentage_point_contribution": 0.51319648
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.19118707,
+          "post_percentage_point_contribution": 0.10744745,
+          "author_percentage_point_contribution": 0.27492669
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare facility",
+      "overall_value": 0.53263761,
+      "percent_topic_posts_with_label": 0.29548049,
+      "percent_topic_authors_using_label_on_topic_post": 0.76979472,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.33854729,
+          "post_percentage_point_contribution": 0.19139077,
+          "author_percentage_point_contribution": 0.48570381
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.19409031,
+          "post_percentage_point_contribution": 0.10408972,
+          "author_percentage_point_contribution": 0.28409091
+        }
+      ]
+    },
+    {
+      "intersecting_label": "shelter or temporary housing",
+      "overall_value": 0.52312075,
+      "percent_topic_posts_with_label": 0.42307434,
+      "percent_topic_authors_using_label_on_topic_post": 0.62316716,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.28447093,
+          "post_percentage_point_contribution": 0.21153717,
+          "author_percentage_point_contribution": 0.35740469
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.23864982,
+          "post_percentage_point_contribution": 0.21153717,
+          "author_percentage_point_contribution": 0.26576246
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childcare center",
+      "overall_value": 0.49262298,
+      "percent_topic_posts_with_label": 0.28876503,
+      "percent_topic_authors_using_label_on_topic_post": 0.69648094,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.40161156,
+          "post_percentage_point_contribution": 0.2350413,
+          "author_percentage_point_contribution": 0.56818182
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.09101142,
+          "post_percentage_point_contribution": 0.05372373,
+          "author_percentage_point_contribution": 0.12829912
+        }
+      ]
+    },
+    {
+      "intersecting_label": "alcohol exposure or use",
+      "overall_value": 0.47583432,
+      "percent_topic_posts_with_label": 0.2551877,
+      "percent_topic_authors_using_label_on_topic_post": 0.69648094,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.45079041,
+          "post_percentage_point_contribution": 0.24175677,
+          "author_percentage_point_contribution": 0.65982405
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.02504391,
+          "post_percentage_point_contribution": 0.01343093,
+          "author_percentage_point_contribution": 0.03665689
+        }
+      ]
+    },
+    {
+      "intersecting_label": "park or green space",
+      "overall_value": 0.45414814,
+      "percent_topic_posts_with_label": 0.24847223,
+      "percent_topic_authors_using_label_on_topic_post": 0.65982405,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.32557085,
+          "post_percentage_point_contribution": 0.17460211,
+          "author_percentage_point_contribution": 0.47653959
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.12857729,
+          "post_percentage_point_contribution": 0.07387012,
+          "author_percentage_point_contribution": 0.18328446
+        }
+      ]
+    },
+    {
+      "intersecting_label": "neighborhood",
+      "overall_value": 0.42756445,
+      "percent_topic_posts_with_label": 0.26861863,
+      "percent_topic_authors_using_label_on_topic_post": 0.58651026,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.31304889,
+          "post_percentage_point_contribution": 0.16788664,
+          "author_percentage_point_contribution": 0.45821114
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.11451555,
+          "post_percentage_point_contribution": 0.10073199,
+          "author_percentage_point_contribution": 0.12829912
+        }
+      ]
+    },
+    {
+      "intersecting_label": "injury",
+      "overall_value": 0.41658227,
+      "percent_topic_posts_with_label": 0.22832583,
+      "percent_topic_authors_using_label_on_topic_post": 0.60483871,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.36313672,
+          "post_percentage_point_contribution": 0.19474851,
+          "author_percentage_point_contribution": 0.53152493
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.05344556,
+          "post_percentage_point_contribution": 0.03357733,
+          "author_percentage_point_contribution": 0.07331378
+        }
+      ]
+    },
+    {
+      "intersecting_label": "apartment",
+      "overall_value": 0.3790164,
+      "percent_topic_posts_with_label": 0.20817944,
+      "percent_topic_authors_using_label_on_topic_post": 0.54985337,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.31640663,
+          "post_percentage_point_contribution": 0.17460211,
+          "author_percentage_point_contribution": 0.45821114
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.06260978,
+          "post_percentage_point_contribution": 0.03357733,
+          "author_percentage_point_contribution": 0.09164223
+        }
+      ]
+    },
+    {
+      "intersecting_label": "community program or service",
+      "overall_value": 0.36649445,
+      "percent_topic_posts_with_label": 0.20146397,
+      "percent_topic_authors_using_label_on_topic_post": 0.53152493,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.23333505,
+          "post_percentage_point_contribution": 0.12759385,
+          "author_percentage_point_contribution": 0.33907625
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.1331594,
+          "post_percentage_point_contribution": 0.07387012,
+          "author_percentage_point_contribution": 0.19244868
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infectious disease",
+      "overall_value": 0.36250591,
+      "percent_topic_posts_with_label": 0.24847223,
+      "percent_topic_authors_using_label_on_topic_post": 0.47653959,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.20339362,
+          "post_percentage_point_contribution": 0.14102478,
+          "author_percentage_point_contribution": 0.26576246
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.15911229,
+          "post_percentage_point_contribution": 0.10744745,
+          "author_percentage_point_contribution": 0.21077713
+        }
+      ]
+    },
+    {
+      "intersecting_label": "workers",
+      "overall_value": 0.35733023,
+      "percent_topic_posts_with_label": 0.20146397,
+      "percent_topic_authors_using_label_on_topic_post": 0.51319648,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.31182451,
+          "post_percentage_point_contribution": 0.17460211,
+          "author_percentage_point_contribution": 0.44904692
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.04550571,
+          "post_percentage_point_contribution": 0.02686186,
+          "author_percentage_point_contribution": 0.06414956
+        }
+      ]
+    },
+    {
+      "intersecting_label": "COVID-19",
+      "overall_value": 0.33991076,
+      "percent_topic_posts_with_label": 0.22161037,
+      "percent_topic_authors_using_label_on_topic_post": 0.45821114,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.1533058,
+          "post_percentage_point_contribution": 0.11416292,
+          "author_percentage_point_contribution": 0.19244868
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.18660496,
+          "post_percentage_point_contribution": 0.10744745,
+          "author_percentage_point_contribution": 0.26576246
+        }
+      ]
+    },
+    {
+      "intersecting_label": "classroom",
+      "overall_value": 0.32892858,
+      "percent_topic_posts_with_label": 0.18131757,
+      "percent_topic_authors_using_label_on_topic_post": 0.47653959,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.29594483,
+          "post_percentage_point_contribution": 0.16117118,
+          "author_percentage_point_contribution": 0.43071848
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.03298376,
+          "post_percentage_point_contribution": 0.0201464,
+          "author_percentage_point_contribution": 0.04582111
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic hazard",
+      "overall_value": 0.32557085,
+      "percent_topic_posts_with_label": 0.17460211,
+      "percent_topic_authors_using_label_on_topic_post": 0.47653959,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.31304889,
+          "post_percentage_point_contribution": 0.16788664,
+          "author_percentage_point_contribution": 0.45821114
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        }
+      ]
+    },
+    {
+      "intersecting_label": "educational access",
+      "overall_value": 0.31976436,
+      "percent_topic_posts_with_label": 0.18131757,
+      "percent_topic_authors_using_label_on_topic_post": 0.45821114,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.16614316,
+          "post_percentage_point_contribution": 0.09401652,
+          "author_percentage_point_contribution": 0.23826979
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.1536212,
+          "post_percentage_point_contribution": 0.08730105,
+          "author_percentage_point_contribution": 0.21994135
+        }
+      ]
+    },
+    {
+      "intersecting_label": "depression",
+      "overall_value": 0.30906035,
+      "percent_topic_posts_with_label": 0.2148949,
+      "percent_topic_authors_using_label_on_topic_post": 0.40322581,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.28401644,
+          "post_percentage_point_contribution": 0.20146397,
+          "author_percentage_point_contribution": 0.36656891
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.02504391,
+          "post_percentage_point_contribution": 0.01343093,
+          "author_percentage_point_contribution": 0.03665689
+        }
+      ]
+    },
+    {
+      "intersecting_label": "anxiety",
+      "overall_value": 0.3072424,
+      "percent_topic_posts_with_label": 0.17460211,
+      "percent_topic_authors_using_label_on_topic_post": 0.4398827,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.2508936,
+          "post_percentage_point_contribution": 0.14438251,
+          "author_percentage_point_contribution": 0.35740469
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.0563488,
+          "post_percentage_point_contribution": 0.0302196,
+          "author_percentage_point_contribution": 0.08247801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "street or roadway",
+      "overall_value": 0.27548303,
+      "percent_topic_posts_with_label": 0.14774025,
+      "percent_topic_authors_using_label_on_topic_post": 0.40322581,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.21287325,
+          "post_percentage_point_contribution": 0.11416292,
+          "author_percentage_point_contribution": 0.31158358
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.06260978,
+          "post_percentage_point_contribution": 0.03357733,
+          "author_percentage_point_contribution": 0.09164223
+        }
+      ]
+    },
+    {
+      "intersecting_label": "vaccination",
+      "overall_value": 0.25715458,
+      "percent_topic_posts_with_label": 0.14774025,
+      "percent_topic_authors_using_label_on_topic_post": 0.36656891,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.18324722,
+          "post_percentage_point_contribution": 0.10073199,
+          "author_percentage_point_contribution": 0.26576246
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.07390736,
+          "post_percentage_point_contribution": 0.04700826,
+          "author_percentage_point_contribution": 0.10080645
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare workers",
+      "overall_value": 0.24799036,
+      "percent_topic_posts_with_label": 0.14774025,
+      "percent_topic_authors_using_label_on_topic_post": 0.34824047,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.12399518,
+          "post_percentage_point_contribution": 0.07387012,
+          "author_percentage_point_contribution": 0.17412023
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.12399518,
+          "post_percentage_point_contribution": 0.07387012,
+          "author_percentage_point_contribution": 0.17412023
+        }
+      ]
+    },
+    {
+      "intersecting_label": "playground",
+      "overall_value": 0.22875294,
+      "percent_topic_posts_with_label": 0.12759385,
+      "percent_topic_authors_using_label_on_topic_post": 0.32991202,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.20370902,
+          "post_percentage_point_contribution": 0.11416292,
+          "author_percentage_point_contribution": 0.29325513
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.02504391,
+          "post_percentage_point_contribution": 0.01343093,
+          "author_percentage_point_contribution": 0.03665689
+        }
+      ]
+    },
+    {
+      "intersecting_label": "housing quality",
+      "overall_value": 0.20035129,
+      "percent_topic_posts_with_label": 0.10744745,
+      "percent_topic_authors_using_label_on_topic_post": 0.29325513,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.15026347,
+          "post_percentage_point_contribution": 0.08058559,
+          "author_percentage_point_contribution": 0.21994135
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.05008782,
+          "post_percentage_point_contribution": 0.02686186,
+          "author_percentage_point_contribution": 0.07331378
+        }
+      ]
+    },
+    {
+      "intersecting_label": "medical care",
+      "overall_value": 0.18202285,
+      "percent_topic_posts_with_label": 0.10744745,
+      "percent_topic_authors_using_label_on_topic_post": 0.25659824,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.12063745,
+          "post_percentage_point_contribution": 0.06715466,
+          "author_percentage_point_contribution": 0.17412023
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.0613854,
+          "post_percentage_point_contribution": 0.04029279,
+          "author_percentage_point_contribution": 0.08247801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "animal-related exposure",
+      "overall_value": 0.17866511,
+      "percent_topic_posts_with_label": 0.10073199,
+      "percent_topic_authors_using_label_on_topic_post": 0.25659824,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.17866511,
+          "post_percentage_point_contribution": 0.10073199,
+          "author_percentage_point_contribution": 0.25659824
+        }
+      ]
+    },
+    {
+      "intersecting_label": "disability",
+      "overall_value": 0.17222782,
+      "percent_topic_posts_with_label": 0.16117118,
+      "percent_topic_authors_using_label_on_topic_post": 0.18328446,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.05008782,
+          "post_percentage_point_contribution": 0.02686186,
+          "author_percentage_point_contribution": 0.07331378
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.12213999,
+          "post_percentage_point_contribution": 0.13430931,
+          "author_percentage_point_contribution": 0.10997067
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health education or awareness",
+      "overall_value": 0.16033667,
+      "percent_topic_posts_with_label": 0.10073199,
+      "percent_topic_authors_using_label_on_topic_post": 0.21994135,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.14781471,
+          "post_percentage_point_contribution": 0.09401652,
+          "author_percentage_point_contribution": 0.2016129
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mask use",
+      "overall_value": 0.1536212,
+      "percent_topic_posts_with_label": 0.08730105,
+      "percent_topic_authors_using_label_on_topic_post": 0.21994135,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.1536212,
+          "post_percentage_point_contribution": 0.08730105,
+          "author_percentage_point_contribution": 0.21994135
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sports participation",
+      "overall_value": 0.15026347,
+      "percent_topic_posts_with_label": 0.08058559,
+      "percent_topic_authors_using_label_on_topic_post": 0.21994135,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.13774151,
+          "post_percentage_point_contribution": 0.07387012,
+          "author_percentage_point_contribution": 0.2016129
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        }
+      ]
+    },
+    {
+      "intersecting_label": "farm or agricultural setting",
+      "overall_value": 0.13865049,
+      "percent_topic_posts_with_label": 0.09401652,
+      "percent_topic_authors_using_label_on_topic_post": 0.18328446,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.13865049,
+          "post_percentage_point_contribution": 0.09401652,
+          "author_percentage_point_contribution": 0.18328446
+        }
+      ]
+    },
+    {
+      "intersecting_label": "extreme heat",
+      "overall_value": 0.13774151,
+      "percent_topic_posts_with_label": 0.07387012,
+      "percent_topic_authors_using_label_on_topic_post": 0.2016129,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.13774151,
+          "post_percentage_point_contribution": 0.07387012,
+          "author_percentage_point_contribution": 0.2016129
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adverse birth outcome",
+      "overall_value": 0.13193502,
+      "percent_topic_posts_with_label": 0.08058559,
+      "percent_topic_authors_using_label_on_topic_post": 0.18328446,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.09895127,
+          "post_percentage_point_contribution": 0.06043919,
+          "author_percentage_point_contribution": 0.13746334
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.03298376,
+          "post_percentage_point_contribution": 0.0201464,
+          "author_percentage_point_contribution": 0.04582111
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childcare workers",
+      "overall_value": 0.12521956,
+      "percent_topic_posts_with_label": 0.06715466,
+      "percent_topic_authors_using_label_on_topic_post": 0.18328446,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.10017565,
+          "post_percentage_point_contribution": 0.05372373,
+          "author_percentage_point_contribution": 0.14662757
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.02504391,
+          "post_percentage_point_contribution": 0.01343093,
+          "author_percentage_point_contribution": 0.03665689
+        }
+      ]
+    },
+    {
+      "intersecting_label": "medication use",
+      "overall_value": 0.12521956,
+      "percent_topic_posts_with_label": 0.06715466,
+      "percent_topic_authors_using_label_on_topic_post": 0.18328446,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.05008782,
+          "post_percentage_point_contribution": 0.02686186,
+          "author_percentage_point_contribution": 0.07331378
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.07513173,
+          "post_percentage_point_contribution": 0.04029279,
+          "author_percentage_point_contribution": 0.10997067
+        }
+      ]
+    },
+    {
+      "intersecting_label": "poor sanitation",
+      "overall_value": 0.12521956,
+      "percent_topic_posts_with_label": 0.06715466,
+      "percent_topic_authors_using_label_on_topic_post": 0.18328446,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.08765369,
+          "post_percentage_point_contribution": 0.04700826,
+          "author_percentage_point_contribution": 0.12829912
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.03756587,
+          "post_percentage_point_contribution": 0.0201464,
+          "author_percentage_point_contribution": 0.05498534
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childhood cancer",
+      "overall_value": 0.11605533,
+      "percent_topic_posts_with_label": 0.06715466,
+      "percent_topic_authors_using_label_on_topic_post": 0.16495601,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.11605533,
+          "post_percentage_point_contribution": 0.06715466,
+          "author_percentage_point_contribution": 0.16495601
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental policy or regulation",
+      "overall_value": 0.11605533,
+      "percent_topic_posts_with_label": 0.06715466,
+      "percent_topic_authors_using_label_on_topic_post": 0.16495601,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.09559353,
+          "post_percentage_point_contribution": 0.05372373,
+          "author_percentage_point_contribution": 0.13746334
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.0204618,
+          "post_percentage_point_contribution": 0.01343093,
+          "author_percentage_point_contribution": 0.02749267
+        }
+      ]
+    },
+    {
+      "intersecting_label": "malnutrition",
+      "overall_value": 0.11605533,
+      "percent_topic_posts_with_label": 0.06715466,
+      "percent_topic_authors_using_label_on_topic_post": 0.16495601,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.11605533,
+          "post_percentage_point_contribution": 0.06715466,
+          "author_percentage_point_contribution": 0.16495601
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adverse pregnancy outcome",
+      "overall_value": 0.1126976,
+      "percent_topic_posts_with_label": 0.06043919,
+      "percent_topic_authors_using_label_on_topic_post": 0.16495601,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.10017565,
+          "post_percentage_point_contribution": 0.05372373,
+          "author_percentage_point_contribution": 0.14662757
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        }
+      ]
+    },
+    {
+      "intersecting_label": "transportation access",
+      "overall_value": 0.10689111,
+      "percent_topic_posts_with_label": 0.06715466,
+      "percent_topic_authors_using_label_on_topic_post": 0.14662757,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.09895127,
+          "post_percentage_point_contribution": 0.06043919,
+          "author_percentage_point_contribution": 0.13746334
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.00793984,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.00916422
+        }
+      ]
+    },
+    {
+      "intersecting_label": "fire hazard",
+      "overall_value": 0.10353338,
+      "percent_topic_posts_with_label": 0.06043919,
+      "percent_topic_authors_using_label_on_topic_post": 0.14662757,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.10353338,
+          "post_percentage_point_contribution": 0.06043919,
+          "author_percentage_point_contribution": 0.14662757
+        }
+      ]
+    },
+    {
+      "intersecting_label": "youth engagement",
+      "overall_value": 0.10353338,
+      "percent_topic_posts_with_label": 0.06043919,
+      "percent_topic_authors_using_label_on_topic_post": 0.14662757,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.04550571,
+          "post_percentage_point_contribution": 0.02686186,
+          "author_percentage_point_contribution": 0.06414956
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.05802767,
+          "post_percentage_point_contribution": 0.03357733,
+          "author_percentage_point_contribution": 0.08247801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school closure",
+      "overall_value": 0.10017565,
+      "percent_topic_posts_with_label": 0.05372373,
+      "percent_topic_authors_using_label_on_topic_post": 0.14662757,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.05008782,
+          "post_percentage_point_contribution": 0.02686186,
+          "author_percentage_point_contribution": 0.07331378
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.05008782,
+          "post_percentage_point_contribution": 0.02686186,
+          "author_percentage_point_contribution": 0.07331378
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pain",
+      "overall_value": 0.09800506,
+      "percent_topic_posts_with_label": 0.14102478,
+      "percent_topic_authors_using_label_on_topic_post": 0.05498534,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.0854831,
+          "post_percentage_point_contribution": 0.13430931,
+          "author_percentage_point_contribution": 0.03665689
+        }
+      ]
+    },
+    {
+      "intersecting_label": "climate change",
+      "overall_value": 0.09101142,
+      "percent_topic_posts_with_label": 0.05372373,
+      "percent_topic_authors_using_label_on_topic_post": 0.12829912,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.08307158,
+          "post_percentage_point_contribution": 0.04700826,
+          "author_percentage_point_contribution": 0.1191349
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.00793984,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.00916422
+        }
+      ]
+    },
+    {
+      "intersecting_label": "community resilience",
+      "overall_value": 0.08765369,
+      "percent_topic_posts_with_label": 0.04700826,
+      "percent_topic_authors_using_label_on_topic_post": 0.12829912,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.06260978,
+          "post_percentage_point_contribution": 0.03357733,
+          "author_percentage_point_contribution": 0.09164223
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.02504391,
+          "post_percentage_point_contribution": 0.01343093,
+          "author_percentage_point_contribution": 0.03665689
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infectious disease exposure",
+      "overall_value": 0.08765369,
+      "percent_topic_posts_with_label": 0.04700826,
+      "percent_topic_authors_using_label_on_topic_post": 0.12829912,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.08765369,
+          "post_percentage_point_contribution": 0.04700826,
+          "author_percentage_point_contribution": 0.12829912
+        }
+      ]
+    },
+    {
+      "intersecting_label": "motor vehicle",
+      "overall_value": 0.08765369,
+      "percent_topic_posts_with_label": 0.04700826,
+      "percent_topic_authors_using_label_on_topic_post": 0.12829912,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.06260978,
+          "post_percentage_point_contribution": 0.03357733,
+          "author_percentage_point_contribution": 0.09164223
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.02504391,
+          "post_percentage_point_contribution": 0.01343093,
+          "author_percentage_point_contribution": 0.03665689
+        }
+      ]
+    },
+    {
+      "intersecting_label": "hurricane or severe storm",
+      "overall_value": 0.07848947,
+      "percent_topic_posts_with_label": 0.04700826,
+      "percent_topic_authors_using_label_on_topic_post": 0.10997067,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.07054962,
+          "post_percentage_point_contribution": 0.04029279,
+          "author_percentage_point_contribution": 0.10080645
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.00793984,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.00916422
+        }
+      ]
+    },
+    {
+      "intersecting_label": "breastfeeding",
+      "overall_value": 0.07513173,
+      "percent_topic_posts_with_label": 0.04029279,
+      "percent_topic_authors_using_label_on_topic_post": 0.10997067,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.05008782,
+          "post_percentage_point_contribution": 0.02686186,
+          "author_percentage_point_contribution": 0.07331378
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.02504391,
+          "post_percentage_point_contribution": 0.01343093,
+          "author_percentage_point_contribution": 0.03665689
+        }
+      ]
+    },
+    {
+      "intersecting_label": "obesity",
+      "overall_value": 0.07513173,
+      "percent_topic_posts_with_label": 0.04029279,
+      "percent_topic_authors_using_label_on_topic_post": 0.10997067,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.07513173,
+          "post_percentage_point_contribution": 0.04029279,
+          "author_percentage_point_contribution": 0.10997067
+        }
+      ]
+    },
+    {
+      "intersecting_label": "public transit",
+      "overall_value": 0.07513173,
+      "percent_topic_posts_with_label": 0.04029279,
+      "percent_topic_authors_using_label_on_topic_post": 0.10997067,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.05008782,
+          "post_percentage_point_contribution": 0.02686186,
+          "author_percentage_point_contribution": 0.07331378
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.02504391,
+          "post_percentage_point_contribution": 0.01343093,
+          "author_percentage_point_contribution": 0.03665689
+        }
+      ]
+    },
+    {
+      "intersecting_label": "workplace",
+      "overall_value": 0.07513173,
+      "percent_topic_posts_with_label": 0.04029279,
+      "percent_topic_authors_using_label_on_topic_post": 0.10997067,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.06260978,
+          "post_percentage_point_contribution": 0.03357733,
+          "author_percentage_point_contribution": 0.09164223
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cognitive or learning problem",
+      "overall_value": 0.06260978,
+      "percent_topic_posts_with_label": 0.03357733,
+      "percent_topic_authors_using_label_on_topic_post": 0.09164223,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.06260978,
+          "post_percentage_point_contribution": 0.03357733,
+          "author_percentage_point_contribution": 0.09164223
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food contamination",
+      "overall_value": 0.06260978,
+      "percent_topic_posts_with_label": 0.03357733,
+      "percent_topic_authors_using_label_on_topic_post": 0.09164223,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.06260978,
+          "post_percentage_point_contribution": 0.03357733,
+          "author_percentage_point_contribution": 0.09164223
+        }
+      ]
+    },
+    {
+      "intersecting_label": "hazardous chemicals",
+      "overall_value": 0.06260978,
+      "percent_topic_posts_with_label": 0.03357733,
+      "percent_topic_authors_using_label_on_topic_post": 0.09164223,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.05008782,
+          "post_percentage_point_contribution": 0.02686186,
+          "author_percentage_point_contribution": 0.07331378
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        }
+      ]
+    },
+    {
+      "intersecting_label": "household chemicals",
+      "overall_value": 0.06260978,
+      "percent_topic_posts_with_label": 0.03357733,
+      "percent_topic_authors_using_label_on_topic_post": 0.09164223,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.06260978,
+          "post_percentage_point_contribution": 0.03357733,
+          "author_percentage_point_contribution": 0.09164223
+        }
+      ]
+    },
+    {
+      "intersecting_label": "rural populations",
+      "overall_value": 0.06260978,
+      "percent_topic_posts_with_label": 0.03357733,
+      "percent_topic_authors_using_label_on_topic_post": 0.09164223,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.0563488,
+          "post_percentage_point_contribution": 0.0302196,
+          "author_percentage_point_contribution": 0.08247801
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.00626098,
+          "post_percentage_point_contribution": 0.00335773,
+          "author_percentage_point_contribution": 0.00916422
+        }
+      ]
+    },
+    {
+      "intersecting_label": "secondhand tobacco smoke",
+      "overall_value": 0.06260978,
+      "percent_topic_posts_with_label": 0.03357733,
+      "percent_topic_authors_using_label_on_topic_post": 0.09164223,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.05008782,
+          "post_percentage_point_contribution": 0.02686186,
+          "author_percentage_point_contribution": 0.07331378
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sports or recreation facility",
+      "overall_value": 0.06260978,
+      "percent_topic_posts_with_label": 0.03357733,
+      "percent_topic_authors_using_label_on_topic_post": 0.09164223,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.06260978,
+          "post_percentage_point_contribution": 0.03357733,
+          "author_percentage_point_contribution": 0.09164223
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cleaning or disinfection",
+      "overall_value": 0.05008782,
+      "percent_topic_posts_with_label": 0.02686186,
+      "percent_topic_authors_using_label_on_topic_post": 0.07331378,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.03756587,
+          "post_percentage_point_contribution": 0.0201464,
+          "author_percentage_point_contribution": 0.05498534
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        }
+      ]
+    },
+    {
+      "intersecting_label": "developmental delay",
+      "overall_value": 0.05008782,
+      "percent_topic_posts_with_label": 0.02686186,
+      "percent_topic_authors_using_label_on_topic_post": 0.07331378,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.02504391,
+          "post_percentage_point_contribution": 0.01343093,
+          "author_percentage_point_contribution": 0.03665689
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.02504391,
+          "post_percentage_point_contribution": 0.01343093,
+          "author_percentage_point_contribution": 0.03665689
+        }
+      ]
+    },
+    {
+      "intersecting_label": "outdoor play or recreation",
+      "overall_value": 0.05008782,
+      "percent_topic_posts_with_label": 0.02686186,
+      "percent_topic_authors_using_label_on_topic_post": 0.07331378,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.05008782,
+          "post_percentage_point_contribution": 0.02686186,
+          "author_percentage_point_contribution": 0.07331378
+        }
+      ]
+    },
+    {
+      "intersecting_label": "contaminated drinking water",
+      "overall_value": 0.0409236,
+      "percent_topic_posts_with_label": 0.02686186,
+      "percent_topic_authors_using_label_on_topic_post": 0.05498534,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.02840164,
+          "post_percentage_point_contribution": 0.0201464,
+          "author_percentage_point_contribution": 0.03665689
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cough",
+      "overall_value": 0.0409236,
+      "percent_topic_posts_with_label": 0.02686186,
+      "percent_topic_authors_using_label_on_topic_post": 0.05498534,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.0409236,
+          "post_percentage_point_contribution": 0.02686186,
+          "author_percentage_point_contribution": 0.05498534
+        }
+      ]
+    },
+    {
+      "intersecting_label": "extreme cold",
+      "overall_value": 0.03756587,
+      "percent_topic_posts_with_label": 0.0201464,
+      "percent_topic_authors_using_label_on_topic_post": 0.05498534,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.03756587,
+          "post_percentage_point_contribution": 0.0201464,
+          "author_percentage_point_contribution": 0.05498534
+        }
+      ]
+    },
+    {
+      "intersecting_label": "garden or yard",
+      "overall_value": 0.03756587,
+      "percent_topic_posts_with_label": 0.0201464,
+      "percent_topic_authors_using_label_on_topic_post": 0.05498534,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.03756587,
+          "post_percentage_point_contribution": 0.0201464,
+          "author_percentage_point_contribution": 0.05498534
+        }
+      ]
+    },
+    {
+      "intersecting_label": "headache or migraine",
+      "overall_value": 0.03756587,
+      "percent_topic_posts_with_label": 0.0201464,
+      "percent_topic_authors_using_label_on_topic_post": 0.05498534,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.02504391,
+          "post_percentage_point_contribution": 0.01343093,
+          "author_percentage_point_contribution": 0.03665689
+        }
+      ]
+    },
+    {
+      "intersecting_label": "hearing problem",
+      "overall_value": 0.03756587,
+      "percent_topic_posts_with_label": 0.0201464,
+      "percent_topic_authors_using_label_on_topic_post": 0.05498534,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.02504391,
+          "post_percentage_point_contribution": 0.01343093,
+          "author_percentage_point_contribution": 0.03665689
+        }
+      ]
+    },
+    {
+      "intersecting_label": "restaurant or food store",
+      "overall_value": 0.03756587,
+      "percent_topic_posts_with_label": 0.0201464,
+      "percent_topic_authors_using_label_on_topic_post": 0.05498534,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.03756587,
+          "post_percentage_point_contribution": 0.0201464,
+          "author_percentage_point_contribution": 0.05498534
+        }
+      ]
+    },
+    {
+      "intersecting_label": "shortness of breath",
+      "overall_value": 0.03756587,
+      "percent_topic_posts_with_label": 0.0201464,
+      "percent_topic_authors_using_label_on_topic_post": 0.05498534,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.03756587,
+          "post_percentage_point_contribution": 0.0201464,
+          "author_percentage_point_contribution": 0.05498534
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sleep problem",
+      "overall_value": 0.03756587,
+      "percent_topic_posts_with_label": 0.0201464,
+      "percent_topic_authors_using_label_on_topic_post": 0.05498534,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.03756587,
+          "post_percentage_point_contribution": 0.0201464,
+          "author_percentage_point_contribution": 0.05498534
+        }
+      ]
+    },
+    {
+      "intersecting_label": "walking or bicycling",
+      "overall_value": 0.03756587,
+      "percent_topic_posts_with_label": 0.0201464,
+      "percent_topic_authors_using_label_on_topic_post": 0.05498534,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.03756587,
+          "post_percentage_point_contribution": 0.0201464,
+          "author_percentage_point_contribution": 0.05498534
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildlife",
+      "overall_value": 0.03756587,
+      "percent_topic_posts_with_label": 0.0201464,
+      "percent_topic_authors_using_label_on_topic_post": 0.05498534,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.03756587,
+          "post_percentage_point_contribution": 0.0201464,
+          "author_percentage_point_contribution": 0.05498534
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food access",
+      "overall_value": 0.02840164,
+      "percent_topic_posts_with_label": 0.0201464,
+      "percent_topic_authors_using_label_on_topic_post": 0.03665689,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.01587969,
+          "post_percentage_point_contribution": 0.01343093,
+          "author_percentage_point_contribution": 0.01832845
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        }
+      ]
+    },
+    {
+      "intersecting_label": "skin condition",
+      "overall_value": 0.02840164,
+      "percent_topic_posts_with_label": 0.0201464,
+      "percent_topic_authors_using_label_on_topic_post": 0.03665689,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.0204618,
+          "post_percentage_point_contribution": 0.01343093,
+          "author_percentage_point_contribution": 0.02749267
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.00793984,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.00916422
+        }
+      ]
+    },
+    {
+      "intersecting_label": "asthma",
+      "overall_value": 0.02504391,
+      "percent_topic_posts_with_label": 0.01343093,
+      "percent_topic_authors_using_label_on_topic_post": 0.03665689,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.02504391,
+          "post_percentage_point_contribution": 0.01343093,
+          "author_percentage_point_contribution": 0.03665689
+        }
+      ]
+    },
+    {
+      "intersecting_label": "beach or coastal area",
+      "overall_value": 0.02504391,
+      "percent_topic_posts_with_label": 0.01343093,
+      "percent_topic_authors_using_label_on_topic_post": 0.03665689,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.02504391,
+          "post_percentage_point_contribution": 0.01343093,
+          "author_percentage_point_contribution": 0.03665689
+        }
+      ]
+    },
+    {
+      "intersecting_label": "commercial area",
+      "overall_value": 0.02504391,
+      "percent_topic_posts_with_label": 0.01343093,
+      "percent_topic_authors_using_label_on_topic_post": 0.03665689,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.02504391,
+          "post_percentage_point_contribution": 0.01343093,
+          "author_percentage_point_contribution": 0.03665689
+        }
+      ]
+    },
+    {
+      "intersecting_label": "diabetes",
+      "overall_value": 0.02504391,
+      "percent_topic_posts_with_label": 0.01343093,
+      "percent_topic_authors_using_label_on_topic_post": 0.03665689,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        }
+      ]
+    },
+    {
+      "intersecting_label": "fertility problem",
+      "overall_value": 0.02504391,
+      "percent_topic_posts_with_label": 0.01343093,
+      "percent_topic_authors_using_label_on_topic_post": 0.03665689,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.02504391,
+          "post_percentage_point_contribution": 0.01343093,
+          "author_percentage_point_contribution": 0.03665689
+        }
+      ]
+    },
+    {
+      "intersecting_label": "heat-related illness",
+      "overall_value": 0.02504391,
+      "percent_topic_posts_with_label": 0.01343093,
+      "percent_topic_authors_using_label_on_topic_post": 0.03665689,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.02504391,
+          "post_percentage_point_contribution": 0.01343093,
+          "author_percentage_point_contribution": 0.03665689
+        }
+      ]
+    },
+    {
+      "intersecting_label": "lead exposure",
+      "overall_value": 0.02504391,
+      "percent_topic_posts_with_label": 0.01343093,
+      "percent_topic_authors_using_label_on_topic_post": 0.03665689,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.02504391,
+          "post_percentage_point_contribution": 0.01343093,
+          "author_percentage_point_contribution": 0.03665689
+        }
+      ]
+    },
+    {
+      "intersecting_label": "natural disaster",
+      "overall_value": 0.02504391,
+      "percent_topic_posts_with_label": 0.01343093,
+      "percent_topic_authors_using_label_on_topic_post": 0.03665689,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.02504391,
+          "post_percentage_point_contribution": 0.01343093,
+          "author_percentage_point_contribution": 0.03665689
+        }
+      ]
+    },
+    {
+      "intersecting_label": "outdoor environment",
+      "overall_value": 0.02504391,
+      "percent_topic_posts_with_label": 0.01343093,
+      "percent_topic_authors_using_label_on_topic_post": 0.03665689,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.02504391,
+          "post_percentage_point_contribution": 0.01343093,
+          "author_percentage_point_contribution": 0.03665689
+        }
+      ]
+    },
+    {
+      "intersecting_label": "radiation",
+      "overall_value": 0.02504391,
+      "percent_topic_posts_with_label": 0.01343093,
+      "percent_topic_authors_using_label_on_topic_post": 0.03665689,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic-related air pollution",
+      "overall_value": 0.02504391,
+      "percent_topic_posts_with_label": 0.01343093,
+      "percent_topic_authors_using_label_on_topic_post": 0.03665689,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        }
+      ]
+    },
+    {
+      "intersecting_label": "urban environment",
+      "overall_value": 0.02504391,
+      "percent_topic_posts_with_label": 0.01343093,
+      "percent_topic_authors_using_label_on_topic_post": 0.03665689,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        }
+      ]
+    },
+    {
+      "intersecting_label": "water pollution",
+      "overall_value": 0.02504391,
+      "percent_topic_posts_with_label": 0.01343093,
+      "percent_topic_authors_using_label_on_topic_post": 0.03665689,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.02504391,
+          "post_percentage_point_contribution": 0.01343093,
+          "author_percentage_point_contribution": 0.03665689
+        }
+      ]
+    },
+    {
+      "intersecting_label": "influenza",
+      "overall_value": 0.01587969,
+      "percent_topic_posts_with_label": 0.01343093,
+      "percent_topic_authors_using_label_on_topic_post": 0.01832845,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.00793984,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.00916422
+        },
+        {
+          "component_label": "child welfare services",
+          "value": 0.00793984,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.00916422
+        }
+      ]
+    },
+    {
+      "intersecting_label": "activity cancellation",
+      "overall_value": 0.01252196,
+      "percent_topic_posts_with_label": 0.00671547,
+      "percent_topic_authors_using_label_on_topic_post": 0.01832845,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        }
+      ]
+    },
+    {
+      "intersecting_label": "allergens",
+      "overall_value": 0.01252196,
+      "percent_topic_posts_with_label": 0.00671547,
+      "percent_topic_authors_using_label_on_topic_post": 0.01832845,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        }
+      ]
+    },
+    {
+      "intersecting_label": "birth defect",
+      "overall_value": 0.01252196,
+      "percent_topic_posts_with_label": 0.00671547,
+      "percent_topic_authors_using_label_on_topic_post": 0.01832845,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cardiovascular condition",
+      "overall_value": 0.01252196,
+      "percent_topic_posts_with_label": 0.00671547,
+      "percent_topic_authors_using_label_on_topic_post": 0.01832845,
+      "links": [
+        {
+          "component_label": "child welfare services",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cooking or food preparation",
+      "overall_value": 0.01252196,
+      "percent_topic_posts_with_label": 0.00671547,
+      "percent_topic_authors_using_label_on_topic_post": 0.01832845,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        }
+      ]
+    },
+    {
+      "intersecting_label": "dental caries",
+      "overall_value": 0.01252196,
+      "percent_topic_posts_with_label": 0.00671547,
+      "percent_topic_authors_using_label_on_topic_post": 0.01832845,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        }
+      ]
+    },
+    {
+      "intersecting_label": "dental clinic",
+      "overall_value": 0.01252196,
+      "percent_topic_posts_with_label": 0.00671547,
+      "percent_topic_authors_using_label_on_topic_post": 0.01832845,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        }
+      ]
+    },
+    {
+      "intersecting_label": "disaster preparedness",
+      "overall_value": 0.01252196,
+      "percent_topic_posts_with_label": 0.00671547,
+      "percent_topic_authors_using_label_on_topic_post": 0.01832845,
+      "links": [
+        {
+          "component_label": "child welfare services",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        }
+      ]
+    },
+    {
+      "intersecting_label": "earthquake",
+      "overall_value": 0.01252196,
+      "percent_topic_posts_with_label": 0.00671547,
+      "percent_topic_authors_using_label_on_topic_post": 0.01832845,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        }
+      ]
+    },
+    {
+      "intersecting_label": "emergency response",
+      "overall_value": 0.01252196,
+      "percent_topic_posts_with_label": 0.00671547,
+      "percent_topic_authors_using_label_on_topic_post": 0.01832845,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental remediation",
+      "overall_value": 0.01252196,
+      "percent_topic_posts_with_label": 0.00671547,
+      "percent_topic_authors_using_label_on_topic_post": 0.01832845,
+      "links": [
+        {
+          "component_label": "child welfare services",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        }
+      ]
+    },
+    {
+      "intersecting_label": "fever",
+      "overall_value": 0.01252196,
+      "percent_topic_posts_with_label": 0.00671547,
+      "percent_topic_authors_using_label_on_topic_post": 0.01832845,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        }
+      ]
+    },
+    {
+      "intersecting_label": "flooding",
+      "overall_value": 0.01252196,
+      "percent_topic_posts_with_label": 0.00671547,
+      "percent_topic_authors_using_label_on_topic_post": 0.01832845,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        }
+      ]
+    },
+    {
+      "intersecting_label": "general severe weather",
+      "overall_value": 0.01252196,
+      "percent_topic_posts_with_label": 0.00671547,
+      "percent_topic_authors_using_label_on_topic_post": 0.01832845,
+      "links": [
+        {
+          "component_label": "child welfare services",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        }
+      ]
+    },
+    {
+      "intersecting_label": "generic smoke",
+      "overall_value": 0.01252196,
+      "percent_topic_posts_with_label": 0.00671547,
+      "percent_topic_authors_using_label_on_topic_post": 0.01832845,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        }
+      ]
+    },
+    {
+      "intersecting_label": "hazardous waste",
+      "overall_value": 0.01252196,
+      "percent_topic_posts_with_label": 0.00671547,
+      "percent_topic_authors_using_label_on_topic_post": 0.01832845,
+      "links": [
+        {
+          "component_label": "child welfare services",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health screening or testing",
+      "overall_value": 0.01252196,
+      "percent_topic_posts_with_label": 0.00671547,
+      "percent_topic_authors_using_label_on_topic_post": 0.01832845,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        }
+      ]
+    },
+    {
+      "intersecting_label": "indoor environment",
+      "overall_value": 0.01252196,
+      "percent_topic_posts_with_label": 0.00671547,
+      "percent_topic_authors_using_label_on_topic_post": 0.01832845,
+      "links": [
+        {
+          "component_label": "child welfare services",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        }
+      ]
+    },
+    {
+      "intersecting_label": "industrial site",
+      "overall_value": 0.01252196,
+      "percent_topic_posts_with_label": 0.00671547,
+      "percent_topic_authors_using_label_on_topic_post": 0.01832845,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        }
+      ]
+    },
+    {
+      "intersecting_label": "insects and pests",
+      "overall_value": 0.01252196,
+      "percent_topic_posts_with_label": 0.00671547,
+      "percent_topic_authors_using_label_on_topic_post": 0.01832845,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pesticides",
+      "overall_value": 0.01252196,
+      "percent_topic_posts_with_label": 0.00671547,
+      "percent_topic_authors_using_label_on_topic_post": 0.01832845,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        }
+      ]
+    },
+    {
+      "intersecting_label": "river lake or water body",
+      "overall_value": 0.01252196,
+      "percent_topic_posts_with_label": 0.00671547,
+      "percent_topic_authors_using_label_on_topic_post": 0.01832845,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        }
+      ]
+    },
+    {
+      "intersecting_label": "swimming or water recreation",
+      "overall_value": 0.01252196,
+      "percent_topic_posts_with_label": 0.00671547,
+      "percent_topic_authors_using_label_on_topic_post": 0.01832845,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        }
+      ]
+    },
+    {
+      "intersecting_label": "toothache or dental problem",
+      "overall_value": 0.01252196,
+      "percent_topic_posts_with_label": 0.00671547,
+      "percent_topic_authors_using_label_on_topic_post": 0.01832845,
+      "links": [
+        {
+          "component_label": "child welfare services",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        }
+      ]
+    },
+    {
+      "intersecting_label": "tornado",
+      "overall_value": 0.01252196,
+      "percent_topic_posts_with_label": 0.00671547,
+      "percent_topic_authors_using_label_on_topic_post": 0.01832845,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic safety",
+      "overall_value": 0.01252196,
+      "percent_topic_posts_with_label": 0.00671547,
+      "percent_topic_authors_using_label_on_topic_post": 0.01832845,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        }
+      ]
+    },
+    {
+      "intersecting_label": "vaping aerosol",
+      "overall_value": 0.01252196,
+      "percent_topic_posts_with_label": 0.00671547,
+      "percent_topic_authors_using_label_on_topic_post": 0.01832845,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        }
+      ]
+    },
+    {
+      "intersecting_label": "violence-related injury",
+      "overall_value": 0.01252196,
+      "percent_topic_posts_with_label": 0.00671547,
+      "percent_topic_authors_using_label_on_topic_post": 0.01832845,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        }
+      ]
+    },
+    {
+      "intersecting_label": "winter storm or snow hazard",
+      "overall_value": 0.01252196,
+      "percent_topic_posts_with_label": 0.00671547,
+      "percent_topic_authors_using_label_on_topic_post": 0.01832845,
+      "links": [
+        {
+          "component_label": "child abuse or neglect",
+          "value": 0.01252196,
+          "post_percentage_point_contribution": 0.00671547,
+          "author_percentage_point_contribution": 0.01832845
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1661 @@
+{
+  "schema_version": "1.0.0",
+  "city_id": "38900",
+  "domain": "environmental",
+  "category_id": "environmental-06",
+  "topic": "Allergens and biological exposures",
+  "component_labels": [
+    "allergens",
+    "pollen",
+    "insects and pests",
+    "animal-related exposure"
+  ],
+  "intersections": [
+    {
+      "intersecting_label": "children",
+      "overall_value": 57.3087127,
+      "percent_topic_posts_with_label": 56.50224215,
+      "percent_topic_authors_using_label_on_topic_post": 58.11518325,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 28.20563238,
+          "post_percentage_point_contribution": 28.13901345,
+          "author_percentage_point_contribution": 28.27225131
+        },
+        {
+          "component_label": "pollen",
+          "value": 1.85036274,
+          "post_percentage_point_contribution": 2.13004484,
+          "author_percentage_point_contribution": 1.57068063
+        },
+        {
+          "component_label": "insects and pests",
+          "value": 14.71984833,
+          "post_percentage_point_contribution": 14.12556054,
+          "author_percentage_point_contribution": 15.31413613
+        },
+        {
+          "component_label": "animal-related exposure",
+          "value": 12.53286925,
+          "post_percentage_point_contribution": 12.10762332,
+          "author_percentage_point_contribution": 12.95811518
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school",
+      "overall_value": 20.91599559,
+      "percent_topic_posts_with_label": 20.62780269,
+      "percent_topic_authors_using_label_on_topic_post": 21.20418848,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 10.66343061,
+          "post_percentage_point_contribution": 10.98654709,
+          "author_percentage_point_contribution": 10.34031414
+        },
+        {
+          "component_label": "pollen",
+          "value": 0.9719907,
+          "post_percentage_point_contribution": 0.89686099,
+          "author_percentage_point_contribution": 1.04712042
+        },
+        {
+          "component_label": "insects and pests",
+          "value": 7.82258822,
+          "post_percentage_point_contribution": 7.39910314,
+          "author_percentage_point_contribution": 8.2460733
+        },
+        {
+          "component_label": "animal-related exposure",
+          "value": 1.45798605,
+          "post_percentage_point_contribution": 1.34529148,
+          "author_percentage_point_contribution": 1.57068063
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pets and companion animals",
+      "overall_value": 12.24320898,
+      "percent_topic_posts_with_label": 11.65919283,
+      "percent_topic_authors_using_label_on_topic_post": 12.82722513,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.72899303,
+          "post_percentage_point_contribution": 0.67264574,
+          "author_percentage_point_contribution": 0.78534031
+        },
+        {
+          "component_label": "insects and pests",
+          "value": 2.85052708,
+          "post_percentage_point_contribution": 2.69058296,
+          "author_percentage_point_contribution": 3.0104712
+        },
+        {
+          "component_label": "animal-related exposure",
+          "value": 8.66368887,
+          "post_percentage_point_contribution": 8.29596413,
+          "author_percentage_point_contribution": 9.03141361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infants",
+      "overall_value": 8.7291339,
+      "percent_topic_posts_with_label": 8.29596413,
+      "percent_topic_authors_using_label_on_topic_post": 9.16230366,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 3.75707276,
+          "post_percentage_point_contribution": 3.58744395,
+          "author_percentage_point_contribution": 3.92670157
+        },
+        {
+          "component_label": "pollen",
+          "value": 0.48599535,
+          "post_percentage_point_contribution": 0.44843049,
+          "author_percentage_point_contribution": 0.52356021
+        },
+        {
+          "component_label": "insects and pests",
+          "value": 1.70098373,
+          "post_percentage_point_contribution": 1.56950673,
+          "author_percentage_point_contribution": 1.83246073
+        },
+        {
+          "component_label": "animal-related exposure",
+          "value": 2.78508206,
+          "post_percentage_point_contribution": 2.69058296,
+          "author_percentage_point_contribution": 2.87958115
+        }
+      ]
+    },
+    {
+      "intersecting_label": "home",
+      "overall_value": 7.53292795,
+      "percent_topic_posts_with_label": 6.95067265,
+      "percent_topic_authors_using_label_on_topic_post": 8.11518325,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        },
+        {
+          "component_label": "insects and pests",
+          "value": 6.56093724,
+          "post_percentage_point_contribution": 6.05381166,
+          "author_percentage_point_contribution": 7.06806283
+        },
+        {
+          "component_label": "animal-related exposure",
+          "value": 0.72899303,
+          "post_percentage_point_contribution": 0.67264574,
+          "author_percentage_point_contribution": 0.78534031
+        }
+      ]
+    },
+    {
+      "intersecting_label": "parents and caregivers",
+      "overall_value": 6.18704952,
+      "percent_topic_posts_with_label": 5.82959641,
+      "percent_topic_authors_using_label_on_topic_post": 6.54450262,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 4.79450849,
+          "post_percentage_point_contribution": 4.48430493,
+          "author_percentage_point_contribution": 5.10471204
+        },
+        {
+          "component_label": "insects and pests",
+          "value": 0.17755265,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.13089005
+        },
+        {
+          "component_label": "animal-related exposure",
+          "value": 1.21498838,
+          "post_percentage_point_contribution": 1.12107623,
+          "author_percentage_point_contribution": 1.30890052
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food contamination",
+      "overall_value": 4.85995351,
+      "percent_topic_posts_with_label": 4.48430493,
+      "percent_topic_authors_using_label_on_topic_post": 5.23560209,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 4.85995351,
+          "post_percentage_point_contribution": 4.48430493,
+          "author_percentage_point_contribution": 5.23560209
+        }
+      ]
+    },
+    {
+      "intersecting_label": "outdoor environment",
+      "overall_value": 4.61695584,
+      "percent_topic_posts_with_label": 4.26008969,
+      "percent_topic_authors_using_label_on_topic_post": 4.97382199,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.72899303,
+          "post_percentage_point_contribution": 0.67264574,
+          "author_percentage_point_contribution": 0.78534031
+        },
+        {
+          "component_label": "insects and pests",
+          "value": 3.40196746,
+          "post_percentage_point_contribution": 3.13901345,
+          "author_percentage_point_contribution": 3.66492147
+        },
+        {
+          "component_label": "animal-related exposure",
+          "value": 0.48599535,
+          "post_percentage_point_contribution": 0.44843049,
+          "author_percentage_point_contribution": 0.52356021
+        }
+      ]
+    },
+    {
+      "intersecting_label": "toddlers",
+      "overall_value": 4.61695584,
+      "percent_topic_posts_with_label": 4.26008969,
+      "percent_topic_authors_using_label_on_topic_post": 4.97382199,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 1.21498838,
+          "post_percentage_point_contribution": 1.12107623,
+          "author_percentage_point_contribution": 1.30890052
+        },
+        {
+          "component_label": "insects and pests",
+          "value": 2.42997676,
+          "post_percentage_point_contribution": 2.24215247,
+          "author_percentage_point_contribution": 2.61780105
+        },
+        {
+          "component_label": "animal-related exposure",
+          "value": 0.9719907,
+          "post_percentage_point_contribution": 0.89686099,
+          "author_percentage_point_contribution": 1.04712042
+        }
+      ]
+    },
+    {
+      "intersecting_label": "child abuse or neglect",
+      "overall_value": 4.00007043,
+      "percent_topic_posts_with_label": 3.81165919,
+      "percent_topic_authors_using_label_on_topic_post": 4.18848168,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        },
+        {
+          "component_label": "insects and pests",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        },
+        {
+          "component_label": "animal-related exposure",
+          "value": 3.51407508,
+          "post_percentage_point_contribution": 3.3632287,
+          "author_percentage_point_contribution": 3.66492147
+        }
+      ]
+    },
+    {
+      "intersecting_label": "classroom",
+      "overall_value": 3.40196746,
+      "percent_topic_posts_with_label": 3.13901345,
+      "percent_topic_authors_using_label_on_topic_post": 3.66492147,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 1.70098373,
+          "post_percentage_point_contribution": 1.56950673,
+          "author_percentage_point_contribution": 1.83246073
+        },
+        {
+          "component_label": "insects and pests",
+          "value": 1.45798605,
+          "post_percentage_point_contribution": 1.34529148,
+          "author_percentage_point_contribution": 1.57068063
+        },
+        {
+          "component_label": "animal-related exposure",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "students",
+      "overall_value": 3.40196746,
+      "percent_topic_posts_with_label": 3.13901345,
+      "percent_topic_authors_using_label_on_topic_post": 3.66492147,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 1.70098373,
+          "post_percentage_point_contribution": 1.56950673,
+          "author_percentage_point_contribution": 1.83246073
+        },
+        {
+          "component_label": "pollen",
+          "value": 0.72899303,
+          "post_percentage_point_contribution": 0.67264574,
+          "author_percentage_point_contribution": 0.78534031
+        },
+        {
+          "component_label": "insects and pests",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        },
+        {
+          "component_label": "animal-related exposure",
+          "value": 0.72899303,
+          "post_percentage_point_contribution": 0.67264574,
+          "author_percentage_point_contribution": 0.78534031
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildlife",
+      "overall_value": 3.40196746,
+      "percent_topic_posts_with_label": 3.13901345,
+      "percent_topic_authors_using_label_on_topic_post": 3.66492147,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        },
+        {
+          "component_label": "animal-related exposure",
+          "value": 3.15896978,
+          "post_percentage_point_contribution": 2.91479821,
+          "author_percentage_point_contribution": 3.40314136
+        }
+      ]
+    },
+    {
+      "intersecting_label": "allergic disease",
+      "overall_value": 3.23351255,
+      "percent_topic_posts_with_label": 3.58744395,
+      "percent_topic_authors_using_label_on_topic_post": 2.87958115,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 3.23351255,
+          "post_percentage_point_contribution": 3.58744395,
+          "author_percentage_point_contribution": 2.87958115
+        }
+      ]
+    },
+    {
+      "intersecting_label": "garden or yard",
+      "overall_value": 2.67297443,
+      "percent_topic_posts_with_label": 2.46636771,
+      "percent_topic_authors_using_label_on_topic_post": 2.87958115,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.48599535,
+          "post_percentage_point_contribution": 0.44843049,
+          "author_percentage_point_contribution": 0.52356021
+        },
+        {
+          "component_label": "pollen",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        },
+        {
+          "component_label": "insects and pests",
+          "value": 1.21498838,
+          "post_percentage_point_contribution": 1.12107623,
+          "author_percentage_point_contribution": 1.30890052
+        },
+        {
+          "component_label": "animal-related exposure",
+          "value": 0.72899303,
+          "post_percentage_point_contribution": 0.67264574,
+          "author_percentage_point_contribution": 0.78534031
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cough",
+      "overall_value": 2.54208438,
+      "percent_topic_posts_with_label": 2.46636771,
+      "percent_topic_authors_using_label_on_topic_post": 2.61780105,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 2.54208438,
+          "post_percentage_point_contribution": 2.46636771,
+          "author_percentage_point_contribution": 2.61780105
+        }
+      ]
+    },
+    {
+      "intersecting_label": "asthma",
+      "overall_value": 2.42997676,
+      "percent_topic_posts_with_label": 2.24215247,
+      "percent_topic_authors_using_label_on_topic_post": 2.61780105,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 2.06548024,
+          "post_percentage_point_contribution": 1.9058296,
+          "author_percentage_point_contribution": 2.22513089
+        },
+        {
+          "component_label": "pollen",
+          "value": 0.36449651,
+          "post_percentage_point_contribution": 0.33632287,
+          "author_percentage_point_contribution": 0.39267016
+        }
+      ]
+    },
+    {
+      "intersecting_label": "medical care",
+      "overall_value": 2.42997676,
+      "percent_topic_posts_with_label": 2.24215247,
+      "percent_topic_authors_using_label_on_topic_post": 2.61780105,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 2.18697908,
+          "post_percentage_point_contribution": 2.01793722,
+          "author_percentage_point_contribution": 2.35602094
+        },
+        {
+          "component_label": "animal-related exposure",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "unhoused populations",
+      "overall_value": 2.42997676,
+      "percent_topic_posts_with_label": 2.24215247,
+      "percent_topic_authors_using_label_on_topic_post": 2.61780105,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.72899303,
+          "post_percentage_point_contribution": 0.67264574,
+          "author_percentage_point_contribution": 0.78534031
+        },
+        {
+          "component_label": "insects and pests",
+          "value": 0.72899303,
+          "post_percentage_point_contribution": 0.67264574,
+          "author_percentage_point_contribution": 0.78534031
+        },
+        {
+          "component_label": "animal-related exposure",
+          "value": 0.9719907,
+          "post_percentage_point_contribution": 0.89686099,
+          "author_percentage_point_contribution": 1.04712042
+        }
+      ]
+    },
+    {
+      "intersecting_label": "skin condition",
+      "overall_value": 2.18697908,
+      "percent_topic_posts_with_label": 2.01793722,
+      "percent_topic_authors_using_label_on_topic_post": 2.35602094,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 1.45798605,
+          "post_percentage_point_contribution": 1.34529148,
+          "author_percentage_point_contribution": 1.57068063
+        },
+        {
+          "component_label": "insects and pests",
+          "value": 0.72899303,
+          "post_percentage_point_contribution": 0.67264574,
+          "author_percentage_point_contribution": 0.78534031
+        }
+      ]
+    },
+    {
+      "intersecting_label": "medication use",
+      "overall_value": 1.94398141,
+      "percent_topic_posts_with_label": 1.79372197,
+      "percent_topic_authors_using_label_on_topic_post": 2.09424084,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 1.70098373,
+          "post_percentage_point_contribution": 1.56950673,
+          "author_percentage_point_contribution": 1.83246073
+        },
+        {
+          "component_label": "insects and pests",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "outdoor play or recreation",
+      "overall_value": 1.94398141,
+      "percent_topic_posts_with_label": 1.79372197,
+      "percent_topic_authors_using_label_on_topic_post": 2.09424084,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.72899303,
+          "post_percentage_point_contribution": 0.67264574,
+          "author_percentage_point_contribution": 0.78534031
+        },
+        {
+          "component_label": "pollen",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        },
+        {
+          "component_label": "insects and pests",
+          "value": 0.72899303,
+          "post_percentage_point_contribution": 0.67264574,
+          "author_percentage_point_contribution": 0.78534031
+        },
+        {
+          "component_label": "animal-related exposure",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adolescents",
+      "overall_value": 1.70098373,
+      "percent_topic_posts_with_label": 1.56950673,
+      "percent_topic_authors_using_label_on_topic_post": 1.83246073,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.9719907,
+          "post_percentage_point_contribution": 0.89686099,
+          "author_percentage_point_contribution": 1.04712042
+        },
+        {
+          "component_label": "insects and pests",
+          "value": 0.48599535,
+          "post_percentage_point_contribution": 0.44843049,
+          "author_percentage_point_contribution": 0.52356021
+        },
+        {
+          "component_label": "animal-related exposure",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "park or green space",
+      "overall_value": 1.70098373,
+      "percent_topic_posts_with_label": 1.56950673,
+      "percent_topic_authors_using_label_on_topic_post": 1.83246073,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        },
+        {
+          "component_label": "pollen",
+          "value": 0.48599535,
+          "post_percentage_point_contribution": 0.44843049,
+          "author_percentage_point_contribution": 0.52356021
+        },
+        {
+          "component_label": "insects and pests",
+          "value": 0.72899303,
+          "post_percentage_point_contribution": 0.67264574,
+          "author_percentage_point_contribution": 0.78534031
+        },
+        {
+          "component_label": "animal-related exposure",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "teachers and school staff",
+      "overall_value": 1.53252882,
+      "percent_topic_posts_with_label": 2.01793722,
+      "percent_topic_authors_using_label_on_topic_post": 1.04712042,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 1.04653347,
+          "post_percentage_point_contribution": 1.56950673,
+          "author_percentage_point_contribution": 0.52356021
+        },
+        {
+          "component_label": "insects and pests",
+          "value": 0.48599535,
+          "post_percentage_point_contribution": 0.44843049,
+          "author_percentage_point_contribution": 0.52356021
+        }
+      ]
+    },
+    {
+      "intersecting_label": "violence or crime",
+      "overall_value": 1.45798605,
+      "percent_topic_posts_with_label": 1.34529148,
+      "percent_topic_authors_using_label_on_topic_post": 1.57068063,
+      "links": [
+        {
+          "component_label": "animal-related exposure",
+          "value": 1.45798605,
+          "post_percentage_point_contribution": 1.34529148,
+          "author_percentage_point_contribution": 1.57068063
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infectious disease",
+      "overall_value": 1.30831357,
+      "percent_topic_posts_with_label": 1.56950673,
+      "percent_topic_authors_using_label_on_topic_post": 1.04712042,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        },
+        {
+          "component_label": "pollen",
+          "value": 0.82231822,
+          "post_percentage_point_contribution": 1.12107623,
+          "author_percentage_point_contribution": 0.52356021
+        },
+        {
+          "component_label": "insects and pests",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health disparity",
+      "overall_value": 1.21498838,
+      "percent_topic_posts_with_label": 1.12107623,
+      "percent_topic_authors_using_label_on_topic_post": 1.30890052,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 1.21498838,
+          "post_percentage_point_contribution": 1.12107623,
+          "author_percentage_point_contribution": 1.30890052
+        }
+      ]
+    },
+    {
+      "intersecting_label": "COVID-19",
+      "overall_value": 1.0653159,
+      "percent_topic_posts_with_label": 1.34529148,
+      "percent_topic_authors_using_label_on_topic_post": 0.78534031,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.48599535,
+          "post_percentage_point_contribution": 0.44843049,
+          "author_percentage_point_contribution": 0.52356021
+        },
+        {
+          "component_label": "pollen",
+          "value": 0.57932055,
+          "post_percentage_point_contribution": 0.89686099,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "acute poisoning",
+      "overall_value": 0.9719907,
+      "percent_topic_posts_with_label": 0.89686099,
+      "percent_topic_authors_using_label_on_topic_post": 1.04712042,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.48599535,
+          "post_percentage_point_contribution": 0.44843049,
+          "author_percentage_point_contribution": 0.52356021
+        },
+        {
+          "component_label": "animal-related exposure",
+          "value": 0.48599535,
+          "post_percentage_point_contribution": 0.44843049,
+          "author_percentage_point_contribution": 0.52356021
+        }
+      ]
+    },
+    {
+      "intersecting_label": "apartment",
+      "overall_value": 0.9719907,
+      "percent_topic_posts_with_label": 0.89686099,
+      "percent_topic_authors_using_label_on_topic_post": 1.04712042,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        },
+        {
+          "component_label": "insects and pests",
+          "value": 0.72899303,
+          "post_percentage_point_contribution": 0.67264574,
+          "author_percentage_point_contribution": 0.78534031
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food insecurity",
+      "overall_value": 0.9719907,
+      "percent_topic_posts_with_label": 0.89686099,
+      "percent_topic_authors_using_label_on_topic_post": 1.04712042,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.9719907,
+          "post_percentage_point_contribution": 0.89686099,
+          "author_percentage_point_contribution": 1.04712042
+        }
+      ]
+    },
+    {
+      "intersecting_label": "indoor environment",
+      "overall_value": 0.9719907,
+      "percent_topic_posts_with_label": 0.89686099,
+      "percent_topic_authors_using_label_on_topic_post": 1.04712042,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.72899303,
+          "post_percentage_point_contribution": 0.67264574,
+          "author_percentage_point_contribution": 0.78534031
+        },
+        {
+          "component_label": "animal-related exposure",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mortality or death",
+      "overall_value": 0.9719907,
+      "percent_topic_posts_with_label": 0.89686099,
+      "percent_topic_authors_using_label_on_topic_post": 1.04712042,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        },
+        {
+          "component_label": "animal-related exposure",
+          "value": 0.72899303,
+          "post_percentage_point_contribution": 0.67264574,
+          "author_percentage_point_contribution": 0.78534031
+        }
+      ]
+    },
+    {
+      "intersecting_label": "motor vehicle",
+      "overall_value": 0.9719907,
+      "percent_topic_posts_with_label": 0.89686099,
+      "percent_topic_authors_using_label_on_topic_post": 1.04712042,
+      "links": [
+        {
+          "component_label": "pollen",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        },
+        {
+          "component_label": "insects and pests",
+          "value": 0.48599535,
+          "post_percentage_point_contribution": 0.44843049,
+          "author_percentage_point_contribution": 0.52356021
+        },
+        {
+          "component_label": "animal-related exposure",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childcare center",
+      "overall_value": 0.72899303,
+      "percent_topic_posts_with_label": 0.67264574,
+      "percent_topic_authors_using_label_on_topic_post": 0.78534031,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.48599535,
+          "post_percentage_point_contribution": 0.44843049,
+          "author_percentage_point_contribution": 0.52356021
+        },
+        {
+          "component_label": "insects and pests",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "gastrointestinal illness",
+      "overall_value": 0.72899303,
+      "percent_topic_posts_with_label": 0.67264574,
+      "percent_topic_authors_using_label_on_topic_post": 0.78534031,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        },
+        {
+          "component_label": "insects and pests",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        },
+        {
+          "component_label": "animal-related exposure",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare facility",
+      "overall_value": 0.72899303,
+      "percent_topic_posts_with_label": 0.67264574,
+      "percent_topic_authors_using_label_on_topic_post": 0.78534031,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        },
+        {
+          "component_label": "insects and pests",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        },
+        {
+          "component_label": "animal-related exposure",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "injury",
+      "overall_value": 0.72899303,
+      "percent_topic_posts_with_label": 0.67264574,
+      "percent_topic_authors_using_label_on_topic_post": 0.78534031,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        },
+        {
+          "component_label": "animal-related exposure",
+          "value": 0.48599535,
+          "post_percentage_point_contribution": 0.44843049,
+          "author_percentage_point_contribution": 0.52356021
+        }
+      ]
+    },
+    {
+      "intersecting_label": "playground",
+      "overall_value": 0.72899303,
+      "percent_topic_posts_with_label": 0.67264574,
+      "percent_topic_authors_using_label_on_topic_post": 0.78534031,
+      "links": [
+        {
+          "component_label": "insects and pests",
+          "value": 0.48599535,
+          "post_percentage_point_contribution": 0.44843049,
+          "author_percentage_point_contribution": 0.52356021
+        },
+        {
+          "component_label": "animal-related exposure",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "anxiety",
+      "overall_value": 0.48599535,
+      "percent_topic_posts_with_label": 0.44843049,
+      "percent_topic_authors_using_label_on_topic_post": 0.52356021,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        },
+        {
+          "component_label": "insects and pests",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cancer",
+      "overall_value": 0.48599535,
+      "percent_topic_posts_with_label": 0.44843049,
+      "percent_topic_authors_using_label_on_topic_post": 0.52356021,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.48599535,
+          "post_percentage_point_contribution": 0.44843049,
+          "author_percentage_point_contribution": 0.52356021
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childcare workers",
+      "overall_value": 0.48599535,
+      "percent_topic_posts_with_label": 0.44843049,
+      "percent_topic_authors_using_label_on_topic_post": 0.52356021,
+      "links": [
+        {
+          "component_label": "insects and pests",
+          "value": 0.48599535,
+          "post_percentage_point_contribution": 0.44843049,
+          "author_percentage_point_contribution": 0.52356021
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cleaning or disinfection",
+      "overall_value": 0.48599535,
+      "percent_topic_posts_with_label": 0.44843049,
+      "percent_topic_authors_using_label_on_topic_post": 0.52356021,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        },
+        {
+          "component_label": "insects and pests",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "diabetes",
+      "overall_value": 0.48599535,
+      "percent_topic_posts_with_label": 0.44843049,
+      "percent_topic_authors_using_label_on_topic_post": 0.52356021,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.48599535,
+          "post_percentage_point_contribution": 0.44843049,
+          "author_percentage_point_contribution": 0.52356021
+        }
+      ]
+    },
+    {
+      "intersecting_label": "dust and particulate matter",
+      "overall_value": 0.48599535,
+      "percent_topic_posts_with_label": 0.44843049,
+      "percent_topic_authors_using_label_on_topic_post": 0.52356021,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        },
+        {
+          "component_label": "insects and pests",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health screening or testing",
+      "overall_value": 0.48599535,
+      "percent_topic_posts_with_label": 0.44843049,
+      "percent_topic_authors_using_label_on_topic_post": 0.52356021,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.48599535,
+          "post_percentage_point_contribution": 0.44843049,
+          "author_percentage_point_contribution": 0.52356021
+        }
+      ]
+    },
+    {
+      "intersecting_label": "public transit",
+      "overall_value": 0.48599535,
+      "percent_topic_posts_with_label": 0.44843049,
+      "percent_topic_authors_using_label_on_topic_post": 0.52356021,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        },
+        {
+          "component_label": "animal-related exposure",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "restaurant or food store",
+      "overall_value": 0.48599535,
+      "percent_topic_posts_with_label": 0.44843049,
+      "percent_topic_authors_using_label_on_topic_post": 0.52356021,
+      "links": [
+        {
+          "component_label": "insects and pests",
+          "value": 0.48599535,
+          "post_percentage_point_contribution": 0.44843049,
+          "author_percentage_point_contribution": 0.52356021
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school closure",
+      "overall_value": 0.48599535,
+      "percent_topic_posts_with_label": 0.44843049,
+      "percent_topic_authors_using_label_on_topic_post": 0.52356021,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.48599535,
+          "post_percentage_point_contribution": 0.44843049,
+          "author_percentage_point_contribution": 0.52356021
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sleep problem",
+      "overall_value": 0.48599535,
+      "percent_topic_posts_with_label": 0.44843049,
+      "percent_topic_authors_using_label_on_topic_post": 0.52356021,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        },
+        {
+          "component_label": "insects and pests",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "social support",
+      "overall_value": 0.48599535,
+      "percent_topic_posts_with_label": 0.44843049,
+      "percent_topic_authors_using_label_on_topic_post": 0.52356021,
+      "links": [
+        {
+          "component_label": "insects and pests",
+          "value": 0.48599535,
+          "post_percentage_point_contribution": 0.44843049,
+          "author_percentage_point_contribution": 0.52356021
+        }
+      ]
+    },
+    {
+      "intersecting_label": "street or roadway",
+      "overall_value": 0.48599535,
+      "percent_topic_posts_with_label": 0.44843049,
+      "percent_topic_authors_using_label_on_topic_post": 0.52356021,
+      "links": [
+        {
+          "component_label": "animal-related exposure",
+          "value": 0.48599535,
+          "post_percentage_point_contribution": 0.44843049,
+          "author_percentage_point_contribution": 0.52356021
+        }
+      ]
+    },
+    {
+      "intersecting_label": "stress or distress",
+      "overall_value": 0.48599535,
+      "percent_topic_posts_with_label": 0.44843049,
+      "percent_topic_authors_using_label_on_topic_post": 0.52356021,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        },
+        {
+          "component_label": "insects and pests",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "unsafe housing conditions",
+      "overall_value": 0.48599535,
+      "percent_topic_posts_with_label": 0.44843049,
+      "percent_topic_authors_using_label_on_topic_post": 0.52356021,
+      "links": [
+        {
+          "component_label": "insects and pests",
+          "value": 0.48599535,
+          "post_percentage_point_contribution": 0.44843049,
+          "author_percentage_point_contribution": 0.52356021
+        }
+      ]
+    },
+    {
+      "intersecting_label": "vaccination",
+      "overall_value": 0.48599535,
+      "percent_topic_posts_with_label": 0.44843049,
+      "percent_topic_authors_using_label_on_topic_post": 0.52356021,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.48599535,
+          "post_percentage_point_contribution": 0.44843049,
+          "author_percentage_point_contribution": 0.52356021
+        }
+      ]
+    },
+    {
+      "intersecting_label": "advocacy",
+      "overall_value": 0.24299768,
+      "percent_topic_posts_with_label": 0.22421525,
+      "percent_topic_authors_using_label_on_topic_post": 0.2617801,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "autism",
+      "overall_value": 0.24299768,
+      "percent_topic_posts_with_label": 0.22421525,
+      "percent_topic_authors_using_label_on_topic_post": 0.2617801,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "beach or coastal area",
+      "overall_value": 0.24299768,
+      "percent_topic_posts_with_label": 0.22421525,
+      "percent_topic_authors_using_label_on_topic_post": 0.2617801,
+      "links": [
+        {
+          "component_label": "animal-related exposure",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "children with disabilities",
+      "overall_value": 0.24299768,
+      "percent_topic_posts_with_label": 0.22421525,
+      "percent_topic_authors_using_label_on_topic_post": 0.2617801,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "climate change",
+      "overall_value": 0.24299768,
+      "percent_topic_posts_with_label": 0.22421525,
+      "percent_topic_authors_using_label_on_topic_post": 0.2617801,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.12149884,
+          "post_percentage_point_contribution": 0.11210762,
+          "author_percentage_point_contribution": 0.13089005
+        },
+        {
+          "component_label": "pollen",
+          "value": 0.12149884,
+          "post_percentage_point_contribution": 0.11210762,
+          "author_percentage_point_contribution": 0.13089005
+        }
+      ]
+    },
+    {
+      "intersecting_label": "dental clinic",
+      "overall_value": 0.24299768,
+      "percent_topic_posts_with_label": 0.22421525,
+      "percent_topic_authors_using_label_on_topic_post": 0.2617801,
+      "links": [
+        {
+          "component_label": "animal-related exposure",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "earthquake",
+      "overall_value": 0.24299768,
+      "percent_topic_posts_with_label": 0.22421525,
+      "percent_topic_authors_using_label_on_topic_post": 0.2617801,
+      "links": [
+        {
+          "component_label": "animal-related exposure",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "emergency response",
+      "overall_value": 0.24299768,
+      "percent_topic_posts_with_label": 0.22421525,
+      "percent_topic_authors_using_label_on_topic_post": 0.2617801,
+      "links": [
+        {
+          "component_label": "animal-related exposure",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental policy or regulation",
+      "overall_value": 0.24299768,
+      "percent_topic_posts_with_label": 0.22421525,
+      "percent_topic_authors_using_label_on_topic_post": 0.2617801,
+      "links": [
+        {
+          "component_label": "pollen",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "extreme cold",
+      "overall_value": 0.24299768,
+      "percent_topic_posts_with_label": 0.22421525,
+      "percent_topic_authors_using_label_on_topic_post": 0.2617801,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "extreme heat",
+      "overall_value": 0.24299768,
+      "percent_topic_posts_with_label": 0.22421525,
+      "percent_topic_authors_using_label_on_topic_post": 0.2617801,
+      "links": [
+        {
+          "component_label": "insects and pests",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "families",
+      "overall_value": 0.24299768,
+      "percent_topic_posts_with_label": 0.22421525,
+      "percent_topic_authors_using_label_on_topic_post": 0.2617801,
+      "links": [
+        {
+          "component_label": "pollen",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "farm or agricultural setting",
+      "overall_value": 0.24299768,
+      "percent_topic_posts_with_label": 0.22421525,
+      "percent_topic_authors_using_label_on_topic_post": 0.2617801,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "foster youth",
+      "overall_value": 0.24299768,
+      "percent_topic_posts_with_label": 0.22421525,
+      "percent_topic_authors_using_label_on_topic_post": 0.2617801,
+      "links": [
+        {
+          "component_label": "insects and pests",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "household chemicals",
+      "overall_value": 0.24299768,
+      "percent_topic_posts_with_label": 0.22421525,
+      "percent_topic_authors_using_label_on_topic_post": 0.2617801,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "housing instability or homelessness",
+      "overall_value": 0.24299768,
+      "percent_topic_posts_with_label": 0.22421525,
+      "percent_topic_authors_using_label_on_topic_post": 0.2617801,
+      "links": [
+        {
+          "component_label": "insects and pests",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "indoor air quality",
+      "overall_value": 0.24299768,
+      "percent_topic_posts_with_label": 0.22421525,
+      "percent_topic_authors_using_label_on_topic_post": 0.2617801,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "inhaler use",
+      "overall_value": 0.24299768,
+      "percent_topic_posts_with_label": 0.22421525,
+      "percent_topic_authors_using_label_on_topic_post": 0.2617801,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mask use",
+      "overall_value": 0.24299768,
+      "percent_topic_posts_with_label": 0.22421525,
+      "percent_topic_authors_using_label_on_topic_post": 0.2617801,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mold and dampness",
+      "overall_value": 0.24299768,
+      "percent_topic_posts_with_label": 0.22421525,
+      "percent_topic_authors_using_label_on_topic_post": 0.2617801,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pesticides",
+      "overall_value": 0.24299768,
+      "percent_topic_posts_with_label": 0.22421525,
+      "percent_topic_authors_using_label_on_topic_post": 0.2617801,
+      "links": [
+        {
+          "component_label": "animal-related exposure",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pregnant people",
+      "overall_value": 0.24299768,
+      "percent_topic_posts_with_label": 0.22421525,
+      "percent_topic_authors_using_label_on_topic_post": 0.2617801,
+      "links": [
+        {
+          "component_label": "animal-related exposure",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "racial and ethnic minority populations",
+      "overall_value": 0.24299768,
+      "percent_topic_posts_with_label": 0.22421525,
+      "percent_topic_authors_using_label_on_topic_post": 0.2617801,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "secondhand tobacco smoke",
+      "overall_value": 0.24299768,
+      "percent_topic_posts_with_label": 0.22421525,
+      "percent_topic_authors_using_label_on_topic_post": 0.2617801,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "shelter or temporary housing",
+      "overall_value": 0.24299768,
+      "percent_topic_posts_with_label": 0.22421525,
+      "percent_topic_authors_using_label_on_topic_post": 0.2617801,
+      "links": [
+        {
+          "component_label": "animal-related exposure",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sports participation",
+      "overall_value": 0.24299768,
+      "percent_topic_posts_with_label": 0.22421525,
+      "percent_topic_authors_using_label_on_topic_post": 0.2617801,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "swimming or water recreation",
+      "overall_value": 0.24299768,
+      "percent_topic_posts_with_label": 0.22421525,
+      "percent_topic_authors_using_label_on_topic_post": 0.2617801,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic hazard",
+      "overall_value": 0.24299768,
+      "percent_topic_posts_with_label": 0.22421525,
+      "percent_topic_authors_using_label_on_topic_post": 0.2617801,
+      "links": [
+        {
+          "component_label": "animal-related exposure",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "urban environment",
+      "overall_value": 0.24299768,
+      "percent_topic_posts_with_label": 0.22421525,
+      "percent_topic_authors_using_label_on_topic_post": 0.2617801,
+      "links": [
+        {
+          "component_label": "insects and pests",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildfire smoke",
+      "overall_value": 0.24299768,
+      "percent_topic_posts_with_label": 0.22421525,
+      "percent_topic_authors_using_label_on_topic_post": 0.2617801,
+      "links": [
+        {
+          "component_label": "allergens",
+          "value": 0.12149884,
+          "post_percentage_point_contribution": 0.11210762,
+          "author_percentage_point_contribution": 0.13089005
+        },
+        {
+          "component_label": "pollen",
+          "value": 0.12149884,
+          "post_percentage_point_contribution": 0.11210762,
+          "author_percentage_point_contribution": 0.13089005
+        }
+      ]
+    },
+    {
+      "intersecting_label": "workplace",
+      "overall_value": 0.24299768,
+      "percent_topic_posts_with_label": 0.22421525,
+      "percent_topic_authors_using_label_on_topic_post": 0.2617801,
+      "links": [
+        {
+          "component_label": "insects and pests",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    },
+    {
+      "intersecting_label": "youth engagement",
+      "overall_value": 0.24299768,
+      "percent_topic_posts_with_label": 0.22421525,
+      "percent_topic_authors_using_label_on_topic_post": 0.2617801,
+      "links": [
+        {
+          "component_label": "insects and pests",
+          "value": 0.24299768,
+          "post_percentage_point_contribution": 0.22421525,
+          "author_percentage_point_contribution": 0.2617801
+        }
+      ]
+    }
+  ]
+}

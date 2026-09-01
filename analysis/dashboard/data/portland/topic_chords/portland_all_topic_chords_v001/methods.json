@@ -1,0 +1,20 @@
+{
+  "analysis_version": "portland_all_topic_chords_v001",
+  "created_at_utc": "2026-09-01T04:37:54.210811+00:00",
+  "period": {
+    "first_year": 2014,
+    "last_year": 2022
+  },
+  "cohort": "Completed retrospective relevance-screen retained cohort; missing authors excluded.",
+  "topic_membership": "A post belongs to a broad topic when it carries at least one component label in that dashboard category.",
+  "intersection_scope": "All Gemma labels observed on the topic posts, excluding the labels defining the topic itself.",
+  "overall_formula": "(percent topic posts with intersecting label + percent topic authors using intersecting label on a topic post) / 2",
+  "author_restriction": "The intersecting label must occur on the author’s post within the selected topic; use only on another post does not count.",
+  "fractional_attribution": "For each intersecting label, a qualifying post is split equally across topic component labels present on that post. A qualifying author is split equally across component labels present on that author’s qualifying topic posts. The two percentage-point contributions are averaged.",
+  "reconciliation": "For each intersecting label, component link values sum to overall_value.",
+  "maximum_reconciliation_error": 2.9869966056139674e-08,
+  "visualization_guidance": "Render component labels as one contiguous chord group and intersecting labels as the opposing group. Link width uses links[].value. Overall tooltips use intersections[].overall_value.",
+  "privacy": "Only percentages and label names are exported; no post counts, author counts, text, or identifiers.",
+  "source_sha256": "b13c8dd7d6de7f4ce4c7b491f2a01c30906aa4eb67ccc1d6318c1e55223b66e9",
+  "categories_sha256": "01490b83dacfdb41cab5678e886782037651372bc940ede779a418e4f6fdda6c"
+}

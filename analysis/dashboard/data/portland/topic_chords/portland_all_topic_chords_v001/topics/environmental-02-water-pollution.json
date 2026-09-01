@@ -1,0 +1,1630 @@
+{
+  "schema_version": "1.0.0",
+  "city_id": "38900",
+  "domain": "environmental",
+  "category_id": "environmental-02",
+  "topic": "Water pollution",
+  "component_labels": [
+    "contaminated drinking water",
+    "water pollution",
+    "sewage or wastewater"
+  ],
+  "intersections": [
+    {
+      "intersecting_label": "children",
+      "overall_value": 58.12508591,
+      "percent_topic_posts_with_label": 59.45017182,
+      "percent_topic_authors_using_label_on_topic_post": 56.8,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 38.68900344,
+          "post_percentage_point_contribution": 40.37800687,
+          "author_percentage_point_contribution": 37.0
+        },
+        {
+          "component_label": "water pollution",
+          "value": 17.50515464,
+          "post_percentage_point_contribution": 17.01030928,
+          "author_percentage_point_contribution": 18.0
+        },
+        {
+          "component_label": "sewage or wastewater",
+          "value": 1.93092784,
+          "post_percentage_point_contribution": 2.06185567,
+          "author_percentage_point_contribution": 1.8
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school",
+      "overall_value": 25.0556701,
+      "percent_topic_posts_with_label": 23.71134021,
+      "percent_topic_authors_using_label_on_topic_post": 26.4,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 19.30652921,
+          "post_percentage_point_contribution": 18.21305842,
+          "author_percentage_point_contribution": 20.4
+        },
+        {
+          "component_label": "water pollution",
+          "value": 4.46185567,
+          "post_percentage_point_contribution": 4.12371134,
+          "author_percentage_point_contribution": 4.8
+        },
+        {
+          "component_label": "sewage or wastewater",
+          "value": 1.28728522,
+          "post_percentage_point_contribution": 1.37457045,
+          "author_percentage_point_contribution": 1.2
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental justice",
+      "overall_value": 13.30103093,
+      "percent_topic_posts_with_label": 13.40206186,
+      "percent_topic_authors_using_label_on_topic_post": 13.2,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 9.96872852,
+          "post_percentage_point_contribution": 10.13745704,
+          "author_percentage_point_contribution": 9.8
+        },
+        {
+          "component_label": "water pollution",
+          "value": 2.9604811,
+          "post_percentage_point_contribution": 2.9209622,
+          "author_percentage_point_contribution": 3.0
+        },
+        {
+          "component_label": "sewage or wastewater",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "lead exposure",
+      "overall_value": 9.81099656,
+      "percent_topic_posts_with_label": 9.62199313,
+      "percent_topic_authors_using_label_on_topic_post": 10.0,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 9.62508591,
+          "post_percentage_point_contribution": 9.45017182,
+          "author_percentage_point_contribution": 9.8
+        },
+        {
+          "component_label": "water pollution",
+          "value": 0.18591065,
+          "post_percentage_point_contribution": 0.17182131,
+          "author_percentage_point_contribution": 0.2
+        }
+      ]
+    },
+    {
+      "intersecting_label": "families",
+      "overall_value": 8.15189003,
+      "percent_topic_posts_with_label": 7.90378007,
+      "percent_topic_authors_using_label_on_topic_post": 8.4,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 5.9209622,
+          "post_percentage_point_contribution": 5.8419244,
+          "author_percentage_point_contribution": 6.0
+        },
+        {
+          "component_label": "water pollution",
+          "value": 2.23092784,
+          "post_percentage_point_contribution": 2.06185567,
+          "author_percentage_point_contribution": 2.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "students",
+      "overall_value": 5.54914089,
+      "percent_topic_posts_with_label": 5.49828179,
+      "percent_topic_authors_using_label_on_topic_post": 5.6,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 2.60274914,
+          "post_percentage_point_contribution": 2.40549828,
+          "author_percentage_point_contribution": 2.8
+        },
+        {
+          "component_label": "water pollution",
+          "value": 2.94639175,
+          "post_percentage_point_contribution": 3.09278351,
+          "author_percentage_point_contribution": 2.8
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infants",
+      "overall_value": 5.37731959,
+      "percent_topic_posts_with_label": 5.15463918,
+      "percent_topic_authors_using_label_on_topic_post": 5.6,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 2.40274914,
+          "post_percentage_point_contribution": 2.40549828,
+          "author_percentage_point_contribution": 2.4
+        },
+        {
+          "component_label": "water pollution",
+          "value": 2.97457045,
+          "post_percentage_point_contribution": 2.74914089,
+          "author_percentage_point_contribution": 3.2
+        }
+      ]
+    },
+    {
+      "intersecting_label": "ambient air pollution",
+      "overall_value": 5.20549828,
+      "percent_topic_posts_with_label": 4.81099656,
+      "percent_topic_authors_using_label_on_topic_post": 5.6,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 1.85910653,
+          "post_percentage_point_contribution": 1.71821306,
+          "author_percentage_point_contribution": 2.0
+        },
+        {
+          "component_label": "water pollution",
+          "value": 3.34639175,
+          "post_percentage_point_contribution": 3.09278351,
+          "author_percentage_point_contribution": 3.6
+        }
+      ]
+    },
+    {
+      "intersecting_label": "parents and caregivers",
+      "overall_value": 5.20549828,
+      "percent_topic_posts_with_label": 4.81099656,
+      "percent_topic_authors_using_label_on_topic_post": 5.6,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 4.09003436,
+          "post_percentage_point_contribution": 3.78006873,
+          "author_percentage_point_contribution": 4.4
+        },
+        {
+          "component_label": "water pollution",
+          "value": 1.11546392,
+          "post_percentage_point_contribution": 1.03092784,
+          "author_percentage_point_contribution": 1.2
+        }
+      ]
+    },
+    {
+      "intersecting_label": "unhoused populations",
+      "overall_value": 5.20549828,
+      "percent_topic_posts_with_label": 4.81099656,
+      "percent_topic_authors_using_label_on_topic_post": 5.6,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 3.34639175,
+          "post_percentage_point_contribution": 3.09278351,
+          "author_percentage_point_contribution": 3.6
+        },
+        {
+          "component_label": "water pollution",
+          "value": 1.85910653,
+          "post_percentage_point_contribution": 1.71821306,
+          "author_percentage_point_contribution": 2.0
+        }
+      ]
+    },
+    {
+      "intersecting_label": "racial and ethnic minority populations",
+      "overall_value": 4.80549828,
+      "percent_topic_posts_with_label": 4.81099656,
+      "percent_topic_authors_using_label_on_topic_post": 4.8,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 3.31821306,
+          "post_percentage_point_contribution": 3.43642612,
+          "author_percentage_point_contribution": 3.2
+        },
+        {
+          "component_label": "water pollution",
+          "value": 1.48728522,
+          "post_percentage_point_contribution": 1.37457045,
+          "author_percentage_point_contribution": 1.6
+        }
+      ]
+    },
+    {
+      "intersecting_label": "climate change",
+      "overall_value": 4.43367698,
+      "percent_topic_posts_with_label": 4.46735395,
+      "percent_topic_authors_using_label_on_topic_post": 4.4,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 2.20274914,
+          "post_percentage_point_contribution": 2.40549828,
+          "author_percentage_point_contribution": 2.0
+        },
+        {
+          "component_label": "water pollution",
+          "value": 2.23092784,
+          "post_percentage_point_contribution": 2.06185567,
+          "author_percentage_point_contribution": 2.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food insecurity",
+      "overall_value": 3.71821306,
+      "percent_topic_posts_with_label": 3.43642612,
+      "percent_topic_authors_using_label_on_topic_post": 4.0,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 2.60274914,
+          "post_percentage_point_contribution": 2.40549828,
+          "author_percentage_point_contribution": 2.8
+        },
+        {
+          "component_label": "water pollution",
+          "value": 1.11546392,
+          "post_percentage_point_contribution": 1.03092784,
+          "author_percentage_point_contribution": 1.2
+        }
+      ]
+    },
+    {
+      "intersecting_label": "community program or service",
+      "overall_value": 3.69003436,
+      "percent_topic_posts_with_label": 3.78006873,
+      "percent_topic_authors_using_label_on_topic_post": 3.6,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 1.83092784,
+          "post_percentage_point_contribution": 2.06185567,
+          "author_percentage_point_contribution": 1.6
+        },
+        {
+          "component_label": "water pollution",
+          "value": 1.85910653,
+          "post_percentage_point_contribution": 1.71821306,
+          "author_percentage_point_contribution": 2.0
+        }
+      ]
+    },
+    {
+      "intersecting_label": "housing instability or homelessness",
+      "overall_value": 3.51821306,
+      "percent_topic_posts_with_label": 3.43642612,
+      "percent_topic_authors_using_label_on_topic_post": 3.6,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 2.77457045,
+          "post_percentage_point_contribution": 2.74914089,
+          "author_percentage_point_contribution": 2.8
+        },
+        {
+          "component_label": "water pollution",
+          "value": 0.74364261,
+          "post_percentage_point_contribution": 0.68728522,
+          "author_percentage_point_contribution": 0.8
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health disparity",
+      "overall_value": 3.34639175,
+      "percent_topic_posts_with_label": 3.09278351,
+      "percent_topic_authors_using_label_on_topic_post": 3.6,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 2.60274914,
+          "post_percentage_point_contribution": 2.40549828,
+          "author_percentage_point_contribution": 2.8
+        },
+        {
+          "component_label": "water pollution",
+          "value": 0.74364261,
+          "post_percentage_point_contribution": 0.68728522,
+          "author_percentage_point_contribution": 0.8
+        }
+      ]
+    },
+    {
+      "intersecting_label": "home",
+      "overall_value": 3.34639175,
+      "percent_topic_posts_with_label": 3.09278351,
+      "percent_topic_authors_using_label_on_topic_post": 3.6,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 1.85910653,
+          "post_percentage_point_contribution": 1.71821306,
+          "author_percentage_point_contribution": 2.0
+        },
+        {
+          "component_label": "water pollution",
+          "value": 1.48728522,
+          "post_percentage_point_contribution": 1.37457045,
+          "author_percentage_point_contribution": 1.6
+        }
+      ]
+    },
+    {
+      "intersecting_label": "unsafe housing conditions",
+      "overall_value": 3.34639175,
+      "percent_topic_posts_with_label": 3.09278351,
+      "percent_topic_authors_using_label_on_topic_post": 3.6,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 1.85910653,
+          "post_percentage_point_contribution": 1.71821306,
+          "author_percentage_point_contribution": 2.0
+        },
+        {
+          "component_label": "water pollution",
+          "value": 0.74364261,
+          "post_percentage_point_contribution": 0.68728522,
+          "author_percentage_point_contribution": 0.8
+        },
+        {
+          "component_label": "sewage or wastewater",
+          "value": 0.74364261,
+          "post_percentage_point_contribution": 0.68728522,
+          "author_percentage_point_contribution": 0.8
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pregnant people",
+      "overall_value": 2.77457045,
+      "percent_topic_posts_with_label": 2.74914089,
+      "percent_topic_authors_using_label_on_topic_post": 2.8,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 2.03092784,
+          "post_percentage_point_contribution": 2.06185567,
+          "author_percentage_point_contribution": 2.0
+        },
+        {
+          "component_label": "water pollution",
+          "value": 0.74364261,
+          "post_percentage_point_contribution": 0.68728522,
+          "author_percentage_point_contribution": 0.8
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adolescents",
+      "overall_value": 2.60274914,
+      "percent_topic_posts_with_label": 2.40549828,
+      "percent_topic_authors_using_label_on_topic_post": 2.8,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 2.23092784,
+          "post_percentage_point_contribution": 2.06185567,
+          "author_percentage_point_contribution": 2.4
+        },
+        {
+          "component_label": "water pollution",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food contamination",
+      "overall_value": 2.23092784,
+      "percent_topic_posts_with_label": 2.06185567,
+      "percent_topic_authors_using_label_on_topic_post": 2.4,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 1.85910653,
+          "post_percentage_point_contribution": 1.71821306,
+          "author_percentage_point_contribution": 2.0
+        },
+        {
+          "component_label": "sewage or wastewater",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "low-income populations",
+      "overall_value": 2.23092784,
+      "percent_topic_posts_with_label": 2.06185567,
+      "percent_topic_authors_using_label_on_topic_post": 2.4,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 2.23092784,
+          "post_percentage_point_contribution": 2.06185567,
+          "author_percentage_point_contribution": 2.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mortality or death",
+      "overall_value": 2.23092784,
+      "percent_topic_posts_with_label": 2.06185567,
+      "percent_topic_authors_using_label_on_topic_post": 2.4,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 1.11546392,
+          "post_percentage_point_contribution": 1.03092784,
+          "author_percentage_point_contribution": 1.2
+        },
+        {
+          "component_label": "water pollution",
+          "value": 1.11546392,
+          "post_percentage_point_contribution": 1.03092784,
+          "author_percentage_point_contribution": 1.2
+        }
+      ]
+    },
+    {
+      "intersecting_label": "outdoor environment",
+      "overall_value": 2.23092784,
+      "percent_topic_posts_with_label": 2.06185567,
+      "percent_topic_authors_using_label_on_topic_post": 2.4,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 1.11546392,
+          "post_percentage_point_contribution": 1.03092784,
+          "author_percentage_point_contribution": 1.2
+        },
+        {
+          "component_label": "water pollution",
+          "value": 0.74364261,
+          "post_percentage_point_contribution": 0.68728522,
+          "author_percentage_point_contribution": 0.8
+        },
+        {
+          "component_label": "sewage or wastewater",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "violence or crime",
+      "overall_value": 2.23092784,
+      "percent_topic_posts_with_label": 2.06185567,
+      "percent_topic_authors_using_label_on_topic_post": 2.4,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 1.85910653,
+          "post_percentage_point_contribution": 1.71821306,
+          "author_percentage_point_contribution": 2.0
+        },
+        {
+          "component_label": "water pollution",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "advocacy",
+      "overall_value": 2.20274914,
+      "percent_topic_posts_with_label": 2.40549828,
+      "percent_topic_authors_using_label_on_topic_post": 2.0,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 0.74364261,
+          "post_percentage_point_contribution": 0.68728522,
+          "author_percentage_point_contribution": 0.8
+        },
+        {
+          "component_label": "water pollution",
+          "value": 1.45910653,
+          "post_percentage_point_contribution": 1.71821306,
+          "author_percentage_point_contribution": 1.2
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare access",
+      "overall_value": 1.85910653,
+      "percent_topic_posts_with_label": 1.71821306,
+      "percent_topic_authors_using_label_on_topic_post": 2.0,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 1.85910653,
+          "post_percentage_point_contribution": 1.71821306,
+          "author_percentage_point_contribution": 2.0
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school closure",
+      "overall_value": 1.85910653,
+      "percent_topic_posts_with_label": 1.71821306,
+      "percent_topic_authors_using_label_on_topic_post": 2.0,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 1.11546392,
+          "post_percentage_point_contribution": 1.03092784,
+          "author_percentage_point_contribution": 1.2
+        },
+        {
+          "component_label": "water pollution",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        },
+        {
+          "component_label": "sewage or wastewater",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "toddlers",
+      "overall_value": 1.85910653,
+      "percent_topic_posts_with_label": 1.71821306,
+      "percent_topic_authors_using_label_on_topic_post": 2.0,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 0.74364261,
+          "post_percentage_point_contribution": 0.68728522,
+          "author_percentage_point_contribution": 0.8
+        },
+        {
+          "component_label": "water pollution",
+          "value": 1.11546392,
+          "post_percentage_point_contribution": 1.03092784,
+          "author_percentage_point_contribution": 1.2
+        }
+      ]
+    },
+    {
+      "intersecting_label": "child abuse or neglect",
+      "overall_value": 1.65910653,
+      "percent_topic_posts_with_label": 1.71821306,
+      "percent_topic_authors_using_label_on_topic_post": 1.6,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 0.91546392,
+          "post_percentage_point_contribution": 1.03092784,
+          "author_percentage_point_contribution": 0.8
+        },
+        {
+          "component_label": "water pollution",
+          "value": 0.74364261,
+          "post_percentage_point_contribution": 0.68728522,
+          "author_percentage_point_contribution": 0.8
+        }
+      ]
+    },
+    {
+      "intersecting_label": "hazardous chemicals",
+      "overall_value": 1.48728522,
+      "percent_topic_posts_with_label": 1.37457045,
+      "percent_topic_authors_using_label_on_topic_post": 1.6,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 0.74364261,
+          "post_percentage_point_contribution": 0.68728522,
+          "author_percentage_point_contribution": 0.8
+        },
+        {
+          "component_label": "water pollution",
+          "value": 0.74364261,
+          "post_percentage_point_contribution": 0.68728522,
+          "author_percentage_point_contribution": 0.8
+        }
+      ]
+    },
+    {
+      "intersecting_label": "river lake or water body",
+      "overall_value": 1.48728522,
+      "percent_topic_posts_with_label": 1.37457045,
+      "percent_topic_authors_using_label_on_topic_post": 1.6,
+      "links": [
+        {
+          "component_label": "water pollution",
+          "value": 1.11546392,
+          "post_percentage_point_contribution": 1.03092784,
+          "author_percentage_point_contribution": 1.2
+        },
+        {
+          "component_label": "sewage or wastewater",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "teachers and school staff",
+      "overall_value": 1.48728522,
+      "percent_topic_posts_with_label": 1.37457045,
+      "percent_topic_authors_using_label_on_topic_post": 1.6,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 1.11546392,
+          "post_percentage_point_contribution": 1.03092784,
+          "author_percentage_point_contribution": 1.2
+        },
+        {
+          "component_label": "sewage or wastewater",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental testing",
+      "overall_value": 1.28728522,
+      "percent_topic_posts_with_label": 1.37457045,
+      "percent_topic_authors_using_label_on_topic_post": 1.2,
+      "links": [
+        {
+          "component_label": "water pollution",
+          "value": 1.28728522,
+          "post_percentage_point_contribution": 1.37457045,
+          "author_percentage_point_contribution": 1.2
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cancer",
+      "overall_value": 1.11546392,
+      "percent_topic_posts_with_label": 1.03092784,
+      "percent_topic_authors_using_label_on_topic_post": 1.2,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 1.11546392,
+          "post_percentage_point_contribution": 1.03092784,
+          "author_percentage_point_contribution": 1.2
+        }
+      ]
+    },
+    {
+      "intersecting_label": "educational access",
+      "overall_value": 1.11546392,
+      "percent_topic_posts_with_label": 1.03092784,
+      "percent_topic_authors_using_label_on_topic_post": 1.2,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 0.74364261,
+          "post_percentage_point_contribution": 0.68728522,
+          "author_percentage_point_contribution": 0.8
+        },
+        {
+          "component_label": "water pollution",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "gastrointestinal illness",
+      "overall_value": 1.11546392,
+      "percent_topic_posts_with_label": 1.03092784,
+      "percent_topic_authors_using_label_on_topic_post": 1.2,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 0.74364261,
+          "post_percentage_point_contribution": 0.68728522,
+          "author_percentage_point_contribution": 0.8
+        },
+        {
+          "component_label": "water pollution",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "injury",
+      "overall_value": 1.11546392,
+      "percent_topic_posts_with_label": 1.03092784,
+      "percent_topic_authors_using_label_on_topic_post": 1.2,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 0.74364261,
+          "post_percentage_point_contribution": 0.68728522,
+          "author_percentage_point_contribution": 0.8
+        },
+        {
+          "component_label": "water pollution",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "lead poisoning",
+      "overall_value": 1.11546392,
+      "percent_topic_posts_with_label": 1.03092784,
+      "percent_topic_authors_using_label_on_topic_post": 1.2,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 1.11546392,
+          "post_percentage_point_contribution": 1.03092784,
+          "author_percentage_point_contribution": 1.2
+        }
+      ]
+    },
+    {
+      "intersecting_label": "vaccination",
+      "overall_value": 1.11546392,
+      "percent_topic_posts_with_label": 1.03092784,
+      "percent_topic_authors_using_label_on_topic_post": 1.2,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 1.11546392,
+          "post_percentage_point_contribution": 1.03092784,
+          "author_percentage_point_contribution": 1.2
+        }
+      ]
+    },
+    {
+      "intersecting_label": "asbestos",
+      "overall_value": 0.74364261,
+      "percent_topic_posts_with_label": 0.68728522,
+      "percent_topic_authors_using_label_on_topic_post": 0.8,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 0.74364261,
+          "post_percentage_point_contribution": 0.68728522,
+          "author_percentage_point_contribution": 0.8
+        }
+      ]
+    },
+    {
+      "intersecting_label": "children with disabilities",
+      "overall_value": 0.74364261,
+      "percent_topic_posts_with_label": 0.68728522,
+      "percent_topic_authors_using_label_on_topic_post": 0.8,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 0.74364261,
+          "post_percentage_point_contribution": 0.68728522,
+          "author_percentage_point_contribution": 0.8
+        }
+      ]
+    },
+    {
+      "intersecting_label": "classroom",
+      "overall_value": 0.74364261,
+      "percent_topic_posts_with_label": 0.68728522,
+      "percent_topic_authors_using_label_on_topic_post": 0.8,
+      "links": [
+        {
+          "component_label": "water pollution",
+          "value": 0.74364261,
+          "post_percentage_point_contribution": 0.68728522,
+          "author_percentage_point_contribution": 0.8
+        }
+      ]
+    },
+    {
+      "intersecting_label": "dental caries",
+      "overall_value": 0.74364261,
+      "percent_topic_posts_with_label": 0.68728522,
+      "percent_topic_authors_using_label_on_topic_post": 0.8,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 0.74364261,
+          "post_percentage_point_contribution": 0.68728522,
+          "author_percentage_point_contribution": 0.8
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental policy or regulation",
+      "overall_value": 0.74364261,
+      "percent_topic_posts_with_label": 0.68728522,
+      "percent_topic_authors_using_label_on_topic_post": 0.8,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        },
+        {
+          "component_label": "water pollution",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare facility",
+      "overall_value": 0.74364261,
+      "percent_topic_posts_with_label": 0.68728522,
+      "percent_topic_authors_using_label_on_topic_post": 0.8,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        },
+        {
+          "component_label": "water pollution",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infectious disease",
+      "overall_value": 0.74364261,
+      "percent_topic_posts_with_label": 0.68728522,
+      "percent_topic_authors_using_label_on_topic_post": 0.8,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 0.74364261,
+          "post_percentage_point_contribution": 0.68728522,
+          "author_percentage_point_contribution": 0.8
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infectious disease exposure",
+      "overall_value": 0.74364261,
+      "percent_topic_posts_with_label": 0.68728522,
+      "percent_topic_authors_using_label_on_topic_post": 0.8,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 0.74364261,
+          "post_percentage_point_contribution": 0.68728522,
+          "author_percentage_point_contribution": 0.8
+        }
+      ]
+    },
+    {
+      "intersecting_label": "medication use",
+      "overall_value": 0.74364261,
+      "percent_topic_posts_with_label": 0.68728522,
+      "percent_topic_authors_using_label_on_topic_post": 0.8,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 0.74364261,
+          "post_percentage_point_contribution": 0.68728522,
+          "author_percentage_point_contribution": 0.8
+        }
+      ]
+    },
+    {
+      "intersecting_label": "motor vehicle",
+      "overall_value": 0.74364261,
+      "percent_topic_posts_with_label": 0.68728522,
+      "percent_topic_authors_using_label_on_topic_post": 0.8,
+      "links": [
+        {
+          "component_label": "water pollution",
+          "value": 0.74364261,
+          "post_percentage_point_contribution": 0.68728522,
+          "author_percentage_point_contribution": 0.8
+        }
+      ]
+    },
+    {
+      "intersecting_label": "park or green space",
+      "overall_value": 0.74364261,
+      "percent_topic_posts_with_label": 0.68728522,
+      "percent_topic_authors_using_label_on_topic_post": 0.8,
+      "links": [
+        {
+          "component_label": "water pollution",
+          "value": 0.74364261,
+          "post_percentage_point_contribution": 0.68728522,
+          "author_percentage_point_contribution": 0.8
+        }
+      ]
+    },
+    {
+      "intersecting_label": "playground",
+      "overall_value": 0.74364261,
+      "percent_topic_posts_with_label": 0.68728522,
+      "percent_topic_authors_using_label_on_topic_post": 0.8,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        },
+        {
+          "component_label": "water pollution",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "poor sanitation",
+      "overall_value": 0.74364261,
+      "percent_topic_posts_with_label": 0.68728522,
+      "percent_topic_authors_using_label_on_topic_post": 0.8,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 0.74364261,
+          "post_percentage_point_contribution": 0.68728522,
+          "author_percentage_point_contribution": 0.8
+        }
+      ]
+    },
+    {
+      "intersecting_label": "poverty or financial hardship",
+      "overall_value": 0.74364261,
+      "percent_topic_posts_with_label": 0.68728522,
+      "percent_topic_authors_using_label_on_topic_post": 0.8,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 0.74364261,
+          "post_percentage_point_contribution": 0.68728522,
+          "author_percentage_point_contribution": 0.8
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sports participation",
+      "overall_value": 0.74364261,
+      "percent_topic_posts_with_label": 0.68728522,
+      "percent_topic_authors_using_label_on_topic_post": 0.8,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 0.74364261,
+          "post_percentage_point_contribution": 0.68728522,
+          "author_percentage_point_contribution": 0.8
+        }
+      ]
+    },
+    {
+      "intersecting_label": "youth engagement",
+      "overall_value": 0.74364261,
+      "percent_topic_posts_with_label": 0.68728522,
+      "percent_topic_authors_using_label_on_topic_post": 0.8,
+      "links": [
+        {
+          "component_label": "water pollution",
+          "value": 0.74364261,
+          "post_percentage_point_contribution": 0.68728522,
+          "author_percentage_point_contribution": 0.8
+        }
+      ]
+    },
+    {
+      "intersecting_label": "COVID-19",
+      "overall_value": 0.37182131,
+      "percent_topic_posts_with_label": 0.34364261,
+      "percent_topic_authors_using_label_on_topic_post": 0.4,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adverse birth outcome",
+      "overall_value": 0.37182131,
+      "percent_topic_posts_with_label": 0.34364261,
+      "percent_topic_authors_using_label_on_topic_post": 0.4,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "apartment",
+      "overall_value": 0.37182131,
+      "percent_topic_posts_with_label": 0.34364261,
+      "percent_topic_authors_using_label_on_topic_post": 0.4,
+      "links": [
+        {
+          "component_label": "water pollution",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "asthma",
+      "overall_value": 0.37182131,
+      "percent_topic_posts_with_label": 0.34364261,
+      "percent_topic_authors_using_label_on_topic_post": 0.4,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "birth defect",
+      "overall_value": 0.37182131,
+      "percent_topic_posts_with_label": 0.34364261,
+      "percent_topic_authors_using_label_on_topic_post": 0.4,
+      "links": [
+        {
+          "component_label": "water pollution",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "breastfeeding",
+      "overall_value": 0.37182131,
+      "percent_topic_posts_with_label": 0.34364261,
+      "percent_topic_authors_using_label_on_topic_post": 0.4,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "child welfare services",
+      "overall_value": 0.37182131,
+      "percent_topic_posts_with_label": 0.34364261,
+      "percent_topic_authors_using_label_on_topic_post": 0.4,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childhood cancer",
+      "overall_value": 0.37182131,
+      "percent_topic_posts_with_label": 0.34364261,
+      "percent_topic_authors_using_label_on_topic_post": 0.4,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cleaning and disinfecting chemicals",
+      "overall_value": 0.37182131,
+      "percent_topic_posts_with_label": 0.34364261,
+      "percent_topic_authors_using_label_on_topic_post": 0.4,
+      "links": [
+        {
+          "component_label": "water pollution",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cleaning or disinfection",
+      "overall_value": 0.37182131,
+      "percent_topic_posts_with_label": 0.34364261,
+      "percent_topic_authors_using_label_on_topic_post": 0.4,
+      "links": [
+        {
+          "component_label": "water pollution",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cognitive or learning problem",
+      "overall_value": 0.37182131,
+      "percent_topic_posts_with_label": 0.34364261,
+      "percent_topic_authors_using_label_on_topic_post": 0.4,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "discrimination",
+      "overall_value": 0.37182131,
+      "percent_topic_posts_with_label": 0.34364261,
+      "percent_topic_authors_using_label_on_topic_post": 0.4,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "drug exposure or use",
+      "overall_value": 0.37182131,
+      "percent_topic_posts_with_label": 0.34364261,
+      "percent_topic_authors_using_label_on_topic_post": 0.4,
+      "links": [
+        {
+          "component_label": "water pollution",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "earthquake",
+      "overall_value": 0.37182131,
+      "percent_topic_posts_with_label": 0.34364261,
+      "percent_topic_authors_using_label_on_topic_post": 0.4,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "endocrine-disrupting chemicals",
+      "overall_value": 0.37182131,
+      "percent_topic_posts_with_label": 0.34364261,
+      "percent_topic_authors_using_label_on_topic_post": 0.4,
+      "links": [
+        {
+          "component_label": "water pollution",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "extreme heat",
+      "overall_value": 0.37182131,
+      "percent_topic_posts_with_label": 0.34364261,
+      "percent_topic_authors_using_label_on_topic_post": 0.4,
+      "links": [
+        {
+          "component_label": "water pollution",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "farm or agricultural setting",
+      "overall_value": 0.37182131,
+      "percent_topic_posts_with_label": 0.34364261,
+      "percent_topic_authors_using_label_on_topic_post": 0.4,
+      "links": [
+        {
+          "component_label": "water pollution",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "flooding",
+      "overall_value": 0.37182131,
+      "percent_topic_posts_with_label": 0.34364261,
+      "percent_topic_authors_using_label_on_topic_post": 0.4,
+      "links": [
+        {
+          "component_label": "water pollution",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food access",
+      "overall_value": 0.37182131,
+      "percent_topic_posts_with_label": 0.34364261,
+      "percent_topic_authors_using_label_on_topic_post": 0.4,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health education or awareness",
+      "overall_value": 0.37182131,
+      "percent_topic_posts_with_label": 0.34364261,
+      "percent_topic_authors_using_label_on_topic_post": 0.4,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "hearing problem",
+      "overall_value": 0.37182131,
+      "percent_topic_posts_with_label": 0.34364261,
+      "percent_topic_authors_using_label_on_topic_post": 0.4,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "household chemicals",
+      "overall_value": 0.37182131,
+      "percent_topic_posts_with_label": 0.34364261,
+      "percent_topic_authors_using_label_on_topic_post": 0.4,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "housing quality",
+      "overall_value": 0.37182131,
+      "percent_topic_posts_with_label": 0.34364261,
+      "percent_topic_authors_using_label_on_topic_post": 0.4,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "industrial site",
+      "overall_value": 0.37182131,
+      "percent_topic_posts_with_label": 0.34364261,
+      "percent_topic_authors_using_label_on_topic_post": 0.4,
+      "links": [
+        {
+          "component_label": "sewage or wastewater",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mask use",
+      "overall_value": 0.37182131,
+      "percent_topic_posts_with_label": 0.34364261,
+      "percent_topic_authors_using_label_on_topic_post": 0.4,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "medical care",
+      "overall_value": 0.37182131,
+      "percent_topic_posts_with_label": 0.34364261,
+      "percent_topic_authors_using_label_on_topic_post": 0.4,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mental health condition",
+      "overall_value": 0.37182131,
+      "percent_topic_posts_with_label": 0.34364261,
+      "percent_topic_authors_using_label_on_topic_post": 0.4,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "natural disaster",
+      "overall_value": 0.37182131,
+      "percent_topic_posts_with_label": 0.34364261,
+      "percent_topic_authors_using_label_on_topic_post": 0.4,
+      "links": [
+        {
+          "component_label": "water pollution",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "neighborhood",
+      "overall_value": 0.37182131,
+      "percent_topic_posts_with_label": 0.34364261,
+      "percent_topic_authors_using_label_on_topic_post": 0.4,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pain",
+      "overall_value": 0.37182131,
+      "percent_topic_posts_with_label": 0.34364261,
+      "percent_topic_authors_using_label_on_topic_post": 0.4,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pets and companion animals",
+      "overall_value": 0.37182131,
+      "percent_topic_posts_with_label": 0.34364261,
+      "percent_topic_authors_using_label_on_topic_post": 0.4,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "plastics or microplastics",
+      "overall_value": 0.37182131,
+      "percent_topic_posts_with_label": 0.34364261,
+      "percent_topic_authors_using_label_on_topic_post": 0.4,
+      "links": [
+        {
+          "component_label": "water pollution",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "restaurant or food store",
+      "overall_value": 0.37182131,
+      "percent_topic_posts_with_label": 0.34364261,
+      "percent_topic_authors_using_label_on_topic_post": 0.4,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "scientific research",
+      "overall_value": 0.37182131,
+      "percent_topic_posts_with_label": 0.34364261,
+      "percent_topic_authors_using_label_on_topic_post": 0.4,
+      "links": [
+        {
+          "component_label": "water pollution",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "shortness of breath",
+      "overall_value": 0.37182131,
+      "percent_topic_posts_with_label": 0.34364261,
+      "percent_topic_authors_using_label_on_topic_post": 0.4,
+      "links": [
+        {
+          "component_label": "water pollution",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "street or roadway",
+      "overall_value": 0.37182131,
+      "percent_topic_posts_with_label": 0.34364261,
+      "percent_topic_authors_using_label_on_topic_post": 0.4,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "swimming or water recreation",
+      "overall_value": 0.37182131,
+      "percent_topic_posts_with_label": 0.34364261,
+      "percent_topic_authors_using_label_on_topic_post": 0.4,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "swimming pool",
+      "overall_value": 0.37182131,
+      "percent_topic_posts_with_label": 0.34364261,
+      "percent_topic_authors_using_label_on_topic_post": 0.4,
+      "links": [
+        {
+          "component_label": "water pollution",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic-related air pollution",
+      "overall_value": 0.37182131,
+      "percent_topic_posts_with_label": 0.34364261,
+      "percent_topic_authors_using_label_on_topic_post": 0.4,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "walking or bicycling",
+      "overall_value": 0.37182131,
+      "percent_topic_posts_with_label": 0.34364261,
+      "percent_topic_authors_using_label_on_topic_post": 0.4,
+      "links": [
+        {
+          "component_label": "water pollution",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildlife",
+      "overall_value": 0.37182131,
+      "percent_topic_posts_with_label": 0.34364261,
+      "percent_topic_authors_using_label_on_topic_post": 0.4,
+      "links": [
+        {
+          "component_label": "contaminated drinking water",
+          "value": 0.37182131,
+          "post_percentage_point_contribution": 0.34364261,
+          "author_percentage_point_contribution": 0.4
+        }
+      ]
+    }
+  ]
+}

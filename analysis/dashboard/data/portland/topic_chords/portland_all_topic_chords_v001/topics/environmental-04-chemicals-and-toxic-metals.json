@@ -1,0 +1,3300 @@
+{
+  "schema_version": "1.0.0",
+  "city_id": "38900",
+  "domain": "environmental",
+  "category_id": "environmental-04",
+  "topic": "Chemicals and toxic metals",
+  "component_labels": [
+    "lead exposure",
+    "pesticides",
+    "PFAS",
+    "endocrine-disrupting chemicals",
+    "household chemicals",
+    "industrial chemicals",
+    "hazardous chemicals",
+    "asbestos",
+    "mercury",
+    "arsenic",
+    "flame retardants",
+    "phthalates",
+    "bisphenol A",
+    "plastics or microplastics",
+    "solvents or volatile organic compounds",
+    "cleaning and disinfecting chemicals",
+    "hazardous waste"
+  ],
+  "intersections": [
+    {
+      "intersecting_label": "children",
+      "overall_value": 61.92082156,
+      "percent_topic_posts_with_label": 61.99677939,
+      "percent_topic_authors_using_label_on_topic_post": 61.84486373,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 15.29056401,
+          "post_percentage_point_contribution": 16.63982823,
+          "author_percentage_point_contribution": 13.94129979
+        },
+        {
+          "component_label": "pesticides",
+          "value": 3.93841339,
+          "post_percentage_point_contribution": 4.34782609,
+          "author_percentage_point_contribution": 3.5290007
+        },
+        {
+          "component_label": "PFAS",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "endocrine-disrupting chemicals",
+          "value": 2.22252605,
+          "post_percentage_point_contribution": 2.17391304,
+          "author_percentage_point_contribution": 2.27113906
+        },
+        {
+          "component_label": "household chemicals",
+          "value": 15.49868846,
+          "post_percentage_point_contribution": 15.02952228,
+          "author_percentage_point_contribution": 15.96785465
+        },
+        {
+          "component_label": "industrial chemicals",
+          "value": 1.2100082,
+          "post_percentage_point_contribution": 1.12721417,
+          "author_percentage_point_contribution": 1.29280224
+        },
+        {
+          "component_label": "hazardous chemicals",
+          "value": 11.30860146,
+          "post_percentage_point_contribution": 11.19162641,
+          "author_percentage_point_contribution": 11.42557652
+        },
+        {
+          "component_label": "asbestos",
+          "value": 0.77882093,
+          "post_percentage_point_contribution": 0.85882984,
+          "author_percentage_point_contribution": 0.69881202
+        },
+        {
+          "component_label": "mercury",
+          "value": 0.8917449,
+          "post_percentage_point_contribution": 0.80515298,
+          "author_percentage_point_contribution": 0.97833683
+        },
+        {
+          "component_label": "arsenic",
+          "value": 0.41093185,
+          "post_percentage_point_contribution": 0.40257649,
+          "author_percentage_point_contribution": 0.41928721
+        },
+        {
+          "component_label": "flame retardants",
+          "value": 0.1154559,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.0698812
+        },
+        {
+          "component_label": "bisphenol A",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        },
+        {
+          "component_label": "plastics or microplastics",
+          "value": 6.04472397,
+          "post_percentage_point_contribution": 5.55555556,
+          "author_percentage_point_contribution": 6.53389238
+        },
+        {
+          "component_label": "cleaning and disinfecting chemicals",
+          "value": 3.09831981,
+          "post_percentage_point_contribution": 2.73752013,
+          "author_percentage_point_contribution": 3.4591195
+        },
+        {
+          "component_label": "hazardous waste",
+          "value": 0.5560113,
+          "post_percentage_point_contribution": 0.48309179,
+          "author_percentage_point_contribution": 0.62893082
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school",
+      "overall_value": 23.43147085,
+      "percent_topic_posts_with_label": 22.54428341,
+      "percent_topic_authors_using_label_on_topic_post": 24.31865828,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 10.36976271,
+          "post_percentage_point_contribution": 10.46698873,
+          "author_percentage_point_contribution": 10.27253669
+        },
+        {
+          "component_label": "pesticides",
+          "value": 0.9547899,
+          "post_percentage_point_contribution": 0.96618357,
+          "author_percentage_point_contribution": 0.94339623
+        },
+        {
+          "component_label": "PFAS",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "endocrine-disrupting chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "household chemicals",
+          "value": 2.15948106,
+          "post_percentage_point_contribution": 2.01288245,
+          "author_percentage_point_contribution": 2.30607966
+        },
+        {
+          "component_label": "industrial chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "hazardous chemicals",
+          "value": 2.6509282,
+          "post_percentage_point_contribution": 2.57648953,
+          "author_percentage_point_contribution": 2.72536688
+        },
+        {
+          "component_label": "asbestos",
+          "value": 1.1925379,
+          "post_percentage_point_contribution": 1.12721417,
+          "author_percentage_point_contribution": 1.25786164
+        },
+        {
+          "component_label": "mercury",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        },
+        {
+          "component_label": "arsenic",
+          "value": 0.1329262,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.1048218
+        },
+        {
+          "component_label": "bisphenol A",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "plastics or microplastics",
+          "value": 1.98629721,
+          "post_percentage_point_contribution": 1.77133655,
+          "author_percentage_point_contribution": 2.20125786
+        },
+        {
+          "component_label": "solvents or volatile organic compounds",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "cleaning and disinfecting chemicals",
+          "value": 2.13137666,
+          "post_percentage_point_contribution": 1.85185185,
+          "author_percentage_point_contribution": 2.41090147
+        },
+        {
+          "component_label": "hazardous waste",
+          "value": 0.5560113,
+          "post_percentage_point_contribution": 0.48309179,
+          "author_percentage_point_contribution": 0.62893082
+        }
+      ]
+    },
+    {
+      "intersecting_label": "home",
+      "overall_value": 9.16203324,
+      "percent_topic_posts_with_label": 8.05152979,
+      "percent_topic_authors_using_label_on_topic_post": 10.27253669,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 0.9266855,
+          "post_percentage_point_contribution": 0.80515298,
+          "author_percentage_point_contribution": 1.04821803
+        },
+        {
+          "component_label": "household chemicals",
+          "value": 4.89927992,
+          "post_percentage_point_contribution": 4.34782609,
+          "author_percentage_point_contribution": 5.45073375
+        },
+        {
+          "component_label": "industrial chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "hazardous chemicals",
+          "value": 1.11202261,
+          "post_percentage_point_contribution": 0.96618357,
+          "author_percentage_point_contribution": 1.25786164
+        },
+        {
+          "component_label": "plastics or microplastics",
+          "value": 0.7413484,
+          "post_percentage_point_contribution": 0.64412238,
+          "author_percentage_point_contribution": 0.83857442
+        },
+        {
+          "component_label": "cleaning and disinfecting chemicals",
+          "value": 1.29735971,
+          "post_percentage_point_contribution": 1.12721417,
+          "author_percentage_point_contribution": 1.46750524
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infants",
+      "overall_value": 8.05001063,
+      "percent_topic_posts_with_label": 7.08534622,
+      "percent_topic_authors_using_label_on_topic_post": 9.01467505,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 0.59626895,
+          "post_percentage_point_contribution": 0.56360709,
+          "author_percentage_point_contribution": 0.62893082
+        },
+        {
+          "component_label": "pesticides",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "PFAS",
+          "value": 0.09266855,
+          "post_percentage_point_contribution": 0.0805153,
+          "author_percentage_point_contribution": 0.1048218
+        },
+        {
+          "component_label": "endocrine-disrupting chemicals",
+          "value": 0.27800565,
+          "post_percentage_point_contribution": 0.24154589,
+          "author_percentage_point_contribution": 0.31446541
+        },
+        {
+          "component_label": "household chemicals",
+          "value": 3.52140492,
+          "post_percentage_point_contribution": 3.05958132,
+          "author_percentage_point_contribution": 3.98322851
+        },
+        {
+          "component_label": "hazardous chemicals",
+          "value": 1.20469116,
+          "post_percentage_point_contribution": 1.04669887,
+          "author_percentage_point_contribution": 1.36268344
+        },
+        {
+          "component_label": "mercury",
+          "value": 0.3182633,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.31446541
+        },
+        {
+          "component_label": "arsenic",
+          "value": 0.46334275,
+          "post_percentage_point_contribution": 0.40257649,
+          "author_percentage_point_contribution": 0.52410901
+        },
+        {
+          "component_label": "bisphenol A",
+          "value": 0.09266855,
+          "post_percentage_point_contribution": 0.0805153,
+          "author_percentage_point_contribution": 0.1048218
+        },
+        {
+          "component_label": "plastics or microplastics",
+          "value": 0.7413484,
+          "post_percentage_point_contribution": 0.64412238,
+          "author_percentage_point_contribution": 0.83857442
+        },
+        {
+          "component_label": "cleaning and disinfecting chemicals",
+          "value": 0.5560113,
+          "post_percentage_point_contribution": 0.48309179,
+          "author_percentage_point_contribution": 0.62893082
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental justice",
+      "overall_value": 7.55020812,
+      "percent_topic_posts_with_label": 6.92431562,
+      "percent_topic_authors_using_label_on_topic_post": 8.17610063,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 2.21189196,
+          "post_percentage_point_contribution": 2.01288245,
+          "author_percentage_point_contribution": 2.41090147
+        },
+        {
+          "component_label": "pesticides",
+          "value": 1.12797375,
+          "post_percentage_point_contribution": 1.20772947,
+          "author_percentage_point_contribution": 1.04821803
+        },
+        {
+          "component_label": "PFAS",
+          "value": 0.46334275,
+          "post_percentage_point_contribution": 0.40257649,
+          "author_percentage_point_contribution": 0.52410901
+        },
+        {
+          "component_label": "endocrine-disrupting chemicals",
+          "value": 0.09266855,
+          "post_percentage_point_contribution": 0.0805153,
+          "author_percentage_point_contribution": 0.1048218
+        },
+        {
+          "component_label": "household chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "industrial chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "hazardous chemicals",
+          "value": 2.26430286,
+          "post_percentage_point_contribution": 2.01288245,
+          "author_percentage_point_contribution": 2.51572327
+        },
+        {
+          "component_label": "asbestos",
+          "value": 0.09266855,
+          "post_percentage_point_contribution": 0.0805153,
+          "author_percentage_point_contribution": 0.1048218
+        },
+        {
+          "component_label": "mercury",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "arsenic",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "plastics or microplastics",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        },
+        {
+          "component_label": "hazardous waste",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "parents and caregivers",
+      "overall_value": 7.09901862,
+      "percent_topic_posts_with_label": 6.44122383,
+      "percent_topic_authors_using_label_on_topic_post": 7.75681342,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 1.48269681,
+          "post_percentage_point_contribution": 1.28824477,
+          "author_percentage_point_contribution": 1.67714885
+        },
+        {
+          "component_label": "pesticides",
+          "value": 0.4511895,
+          "post_percentage_point_contribution": 0.48309179,
+          "author_percentage_point_contribution": 0.41928721
+        },
+        {
+          "component_label": "household chemicals",
+          "value": 3.49709841,
+          "post_percentage_point_contribution": 3.22061192,
+          "author_percentage_point_contribution": 3.77358491
+        },
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.5560113,
+          "post_percentage_point_contribution": 0.48309179,
+          "author_percentage_point_contribution": 0.62893082
+        },
+        {
+          "component_label": "plastics or microplastics",
+          "value": 0.9266855,
+          "post_percentage_point_contribution": 0.80515298,
+          "author_percentage_point_contribution": 1.04821803
+        },
+        {
+          "component_label": "cleaning and disinfecting chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "students",
+      "overall_value": 5.7044329,
+      "percent_topic_posts_with_label": 5.95813205,
+      "percent_topic_authors_using_label_on_topic_post": 5.45073375,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 2.73903929,
+          "post_percentage_point_contribution": 3.38164251,
+          "author_percentage_point_contribution": 2.09643606
+        },
+        {
+          "component_label": "pesticides",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "PFAS",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        },
+        {
+          "component_label": "endocrine-disrupting chemicals",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        },
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "asbestos",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "phthalates",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "plastics or microplastics",
+          "value": 0.9266855,
+          "post_percentage_point_contribution": 0.80515298,
+          "author_percentage_point_contribution": 1.04821803
+        },
+        {
+          "component_label": "solvents or volatile organic compounds",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "cleaning and disinfecting chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "hazardous waste",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "contaminated drinking water",
+      "overall_value": 5.24564762,
+      "percent_topic_posts_with_label": 4.83091787,
+      "percent_topic_authors_using_label_on_topic_post": 5.66037736,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 4.6587468,
+          "post_percentage_point_contribution": 4.32098765,
+          "author_percentage_point_contribution": 4.99650594
+        },
+        {
+          "component_label": "household chemicals",
+          "value": 0.06177903,
+          "post_percentage_point_contribution": 0.05367687,
+          "author_percentage_point_contribution": 0.0698812
+        },
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        },
+        {
+          "component_label": "asbestos",
+          "value": 0.15444758,
+          "post_percentage_point_contribution": 0.13419216,
+          "author_percentage_point_contribution": 0.174703
+        }
+      ]
+    },
+    {
+      "intersecting_label": "unhoused populations",
+      "overall_value": 4.81876462,
+      "percent_topic_posts_with_label": 4.18679549,
+      "percent_topic_authors_using_label_on_topic_post": 5.45073375,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "endocrine-disrupting chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "household chemicals",
+          "value": 1.11202261,
+          "post_percentage_point_contribution": 0.96618357,
+          "author_percentage_point_contribution": 1.25786164
+        },
+        {
+          "component_label": "industrial chemicals",
+          "value": 0.27800565,
+          "post_percentage_point_contribution": 0.24154589,
+          "author_percentage_point_contribution": 0.31446541
+        },
+        {
+          "component_label": "hazardous chemicals",
+          "value": 1.94603956,
+          "post_percentage_point_contribution": 1.69082126,
+          "author_percentage_point_contribution": 2.20125786
+        },
+        {
+          "component_label": "asbestos",
+          "value": 0.09266855,
+          "post_percentage_point_contribution": 0.0805153,
+          "author_percentage_point_contribution": 0.1048218
+        },
+        {
+          "component_label": "mercury",
+          "value": 0.09266855,
+          "post_percentage_point_contribution": 0.0805153,
+          "author_percentage_point_contribution": 0.1048218
+        },
+        {
+          "component_label": "arsenic",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "plastics or microplastics",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        },
+        {
+          "component_label": "cleaning and disinfecting chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "hazardous waste",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "indoor environment",
+      "overall_value": 3.70674202,
+      "percent_topic_posts_with_label": 3.22061192,
+      "percent_topic_authors_using_label_on_topic_post": 4.19287212,
+      "links": [
+        {
+          "component_label": "pesticides",
+          "value": 0.09266855,
+          "post_percentage_point_contribution": 0.0805153,
+          "author_percentage_point_contribution": 0.1048218
+        },
+        {
+          "component_label": "household chemicals",
+          "value": 1.48269681,
+          "post_percentage_point_contribution": 1.28824477,
+          "author_percentage_point_contribution": 1.67714885
+        },
+        {
+          "component_label": "industrial chemicals",
+          "value": 0.09266855,
+          "post_percentage_point_contribution": 0.0805153,
+          "author_percentage_point_contribution": 0.1048218
+        },
+        {
+          "component_label": "hazardous chemicals",
+          "value": 1.29735971,
+          "post_percentage_point_contribution": 1.12721417,
+          "author_percentage_point_contribution": 1.46750524
+        },
+        {
+          "component_label": "asbestos",
+          "value": 0.5560113,
+          "post_percentage_point_contribution": 0.48309179,
+          "author_percentage_point_contribution": 0.62893082
+        },
+        {
+          "component_label": "cleaning and disinfecting chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "acute poisoning",
+      "overall_value": 3.15073071,
+      "percent_topic_posts_with_label": 2.73752013,
+      "percent_topic_authors_using_label_on_topic_post": 3.5639413,
+      "links": [
+        {
+          "component_label": "pesticides",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "household chemicals",
+          "value": 2.22404521,
+          "post_percentage_point_contribution": 1.93236715,
+          "author_percentage_point_contribution": 2.51572327
+        },
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "plastics or microplastics",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "cleaning and disinfecting chemicals",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adolescents",
+      "overall_value": 2.78005651,
+      "percent_topic_posts_with_label": 2.41545894,
+      "percent_topic_authors_using_label_on_topic_post": 3.14465409,
+      "links": [
+        {
+          "component_label": "endocrine-disrupting chemicals",
+          "value": 0.46334275,
+          "post_percentage_point_contribution": 0.40257649,
+          "author_percentage_point_contribution": 0.52410901
+        },
+        {
+          "component_label": "household chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "industrial chemicals",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        },
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        },
+        {
+          "component_label": "mercury",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "plastics or microplastics",
+          "value": 1.01935405,
+          "post_percentage_point_contribution": 0.88566828,
+          "author_percentage_point_contribution": 1.15303983
+        },
+        {
+          "component_label": "cleaning and disinfecting chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "lead poisoning",
+      "overall_value": 2.68283049,
+      "percent_topic_posts_with_label": 3.05958132,
+      "percent_topic_authors_using_label_on_topic_post": 2.30607966,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 2.49749339,
+          "post_percentage_point_contribution": 2.89855072,
+          "author_percentage_point_contribution": 2.09643606
+        },
+        {
+          "component_label": "pesticides",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "violence or crime",
+      "overall_value": 2.59471941,
+      "percent_topic_posts_with_label": 2.25442834,
+      "percent_topic_authors_using_label_on_topic_post": 2.93501048,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        },
+        {
+          "component_label": "household chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "hazardous chemicals",
+          "value": 1.66803391,
+          "post_percentage_point_contribution": 1.44927536,
+          "author_percentage_point_contribution": 1.88679245
+        },
+        {
+          "component_label": "plastics or microplastics",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        }
+      ]
+    },
+    {
+      "intersecting_label": "toddlers",
+      "overall_value": 2.40938231,
+      "percent_topic_posts_with_label": 2.09339775,
+      "percent_topic_authors_using_label_on_topic_post": 2.72536688,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        },
+        {
+          "component_label": "pesticides",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        },
+        {
+          "component_label": "household chemicals",
+          "value": 1.29735971,
+          "post_percentage_point_contribution": 1.12721417,
+          "author_percentage_point_contribution": 1.46750524
+        },
+        {
+          "component_label": "arsenic",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "cleaning and disinfecting chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "families",
+      "overall_value": 2.30456051,
+      "percent_topic_posts_with_label": 2.09339775,
+      "percent_topic_authors_using_label_on_topic_post": 2.51572327,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 1.1925379,
+          "post_percentage_point_contribution": 1.12721417,
+          "author_percentage_point_contribution": 1.25786164
+        },
+        {
+          "component_label": "pesticides",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "household chemicals",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        },
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        },
+        {
+          "component_label": "cleaning and disinfecting chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "child abuse or neglect",
+      "overall_value": 2.22404521,
+      "percent_topic_posts_with_label": 1.93236715,
+      "percent_topic_authors_using_label_on_topic_post": 2.51572327,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        },
+        {
+          "component_label": "pesticides",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "household chemicals",
+          "value": 0.9266855,
+          "post_percentage_point_contribution": 0.80515298,
+          "author_percentage_point_contribution": 1.04821803
+        },
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.7413484,
+          "post_percentage_point_contribution": 0.64412238,
+          "author_percentage_point_contribution": 0.83857442
+        }
+      ]
+    },
+    {
+      "intersecting_label": "advocacy",
+      "overall_value": 2.19973871,
+      "percent_topic_posts_with_label": 2.09339775,
+      "percent_topic_authors_using_label_on_topic_post": 2.30607966,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 1.11202261,
+          "post_percentage_point_contribution": 0.96618357,
+          "author_percentage_point_contribution": 1.25786164
+        },
+        {
+          "component_label": "pesticides",
+          "value": 0.1329262,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.1048218
+        },
+        {
+          "component_label": "endocrine-disrupting chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.2134415,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.1048218
+        },
+        {
+          "component_label": "mercury",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "phthalates",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "plastics or microplastics",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cancer",
+      "overall_value": 2.11922341,
+      "percent_topic_posts_with_label": 1.93236715,
+      "percent_topic_authors_using_label_on_topic_post": 2.30607966,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "pesticides",
+          "value": 0.91453225,
+          "post_percentage_point_contribution": 0.88566828,
+          "author_percentage_point_contribution": 0.94339623
+        },
+        {
+          "component_label": "PFAS",
+          "value": 0.46334275,
+          "post_percentage_point_contribution": 0.40257649,
+          "author_percentage_point_contribution": 0.52410901
+        },
+        {
+          "component_label": "endocrine-disrupting chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "industrial chemicals",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food contamination",
+      "overall_value": 2.03870811,
+      "percent_topic_posts_with_label": 1.77133655,
+      "percent_topic_authors_using_label_on_topic_post": 2.30607966,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 0.24711613,
+          "post_percentage_point_contribution": 0.21470746,
+          "author_percentage_point_contribution": 0.27952481
+        },
+        {
+          "component_label": "pesticides",
+          "value": 0.46334275,
+          "post_percentage_point_contribution": 0.40257649,
+          "author_percentage_point_contribution": 0.52410901
+        },
+        {
+          "component_label": "endocrine-disrupting chemicals",
+          "value": 0.09266855,
+          "post_percentage_point_contribution": 0.0805153,
+          "author_percentage_point_contribution": 0.1048218
+        },
+        {
+          "component_label": "household chemicals",
+          "value": 0.43245324,
+          "post_percentage_point_contribution": 0.37573806,
+          "author_percentage_point_contribution": 0.48916841
+        },
+        {
+          "component_label": "industrial chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "asbestos",
+          "value": 0.06177903,
+          "post_percentage_point_contribution": 0.05367687,
+          "author_percentage_point_contribution": 0.0698812
+        },
+        {
+          "component_label": "arsenic",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cleaning or disinfection",
+      "overall_value": 1.85337101,
+      "percent_topic_posts_with_label": 1.61030596,
+      "percent_topic_authors_using_label_on_topic_post": 2.09643606,
+      "links": [
+        {
+          "component_label": "household chemicals",
+          "value": 1.29735971,
+          "post_percentage_point_contribution": 1.12721417,
+          "author_percentage_point_contribution": 1.46750524
+        },
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "plastics or microplastics",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        }
+      ]
+    },
+    {
+      "intersecting_label": "classroom",
+      "overall_value": 1.66803391,
+      "percent_topic_posts_with_label": 1.44927536,
+      "percent_topic_authors_using_label_on_topic_post": 1.88679245,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 0.7413484,
+          "post_percentage_point_contribution": 0.64412238,
+          "author_percentage_point_contribution": 0.83857442
+        },
+        {
+          "component_label": "household chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "asbestos",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "bisphenol A",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "cleaning and disinfecting chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "unsafe housing conditions",
+      "overall_value": 1.66803391,
+      "percent_topic_posts_with_label": 1.44927536,
+      "percent_topic_authors_using_label_on_topic_post": 1.88679245,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 0.27800565,
+          "post_percentage_point_contribution": 0.24154589,
+          "author_percentage_point_contribution": 0.31446541
+        },
+        {
+          "component_label": "pesticides",
+          "value": 0.09266855,
+          "post_percentage_point_contribution": 0.0805153,
+          "author_percentage_point_contribution": 0.1048218
+        },
+        {
+          "component_label": "household chemicals",
+          "value": 0.5560113,
+          "post_percentage_point_contribution": 0.48309179,
+          "author_percentage_point_contribution": 0.62893082
+        },
+        {
+          "component_label": "industrial chemicals",
+          "value": 0.09266855,
+          "post_percentage_point_contribution": 0.0805153,
+          "author_percentage_point_contribution": 0.1048218
+        },
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.5560113,
+          "post_percentage_point_contribution": 0.48309179,
+          "author_percentage_point_contribution": 0.62893082
+        },
+        {
+          "component_label": "asbestos",
+          "value": 0.09266855,
+          "post_percentage_point_contribution": 0.0805153,
+          "author_percentage_point_contribution": 0.1048218
+        }
+      ]
+    },
+    {
+      "intersecting_label": "teachers and school staff",
+      "overall_value": 1.6437274,
+      "percent_topic_posts_with_label": 1.61030596,
+      "percent_topic_authors_using_label_on_topic_post": 1.67714885,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 0.5317048,
+          "post_percentage_point_contribution": 0.64412238,
+          "author_percentage_point_contribution": 0.41928721
+        },
+        {
+          "component_label": "pesticides",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "household chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        },
+        {
+          "component_label": "cleaning and disinfecting chemicals",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pregnant people",
+      "overall_value": 1.5632121,
+      "percent_topic_posts_with_label": 1.44927536,
+      "percent_topic_authors_using_label_on_topic_post": 1.67714885,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 0.2658524,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "pesticides",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "endocrine-disrupting chemicals",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        },
+        {
+          "component_label": "household chemicals",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        },
+        {
+          "component_label": "mercury",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "bisphenol A",
+          "value": 0.09266855,
+          "post_percentage_point_contribution": 0.0805153,
+          "author_percentage_point_contribution": 0.1048218
+        },
+        {
+          "component_label": "plastics or microplastics",
+          "value": 0.09266855,
+          "post_percentage_point_contribution": 0.0805153,
+          "author_percentage_point_contribution": 0.1048218
+        }
+      ]
+    },
+    {
+      "intersecting_label": "park or green space",
+      "overall_value": 1.48269681,
+      "percent_topic_posts_with_label": 1.28824477,
+      "percent_topic_authors_using_label_on_topic_post": 1.67714885,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 0.9266855,
+          "post_percentage_point_contribution": 0.80515298,
+          "author_percentage_point_contribution": 1.04821803
+        },
+        {
+          "component_label": "pesticides",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "plastics or microplastics",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pets and companion animals",
+      "overall_value": 1.377875,
+      "percent_topic_posts_with_label": 1.28824477,
+      "percent_topic_authors_using_label_on_topic_post": 1.46750524,
+      "links": [
+        {
+          "component_label": "household chemicals",
+          "value": 0.4511895,
+          "post_percentage_point_contribution": 0.48309179,
+          "author_percentage_point_contribution": 0.41928721
+        },
+        {
+          "component_label": "industrial chemicals",
+          "value": 0.09266855,
+          "post_percentage_point_contribution": 0.0805153,
+          "author_percentage_point_contribution": 0.1048218
+        },
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.64867985,
+          "post_percentage_point_contribution": 0.56360709,
+          "author_percentage_point_contribution": 0.73375262
+        },
+        {
+          "component_label": "plastics or microplastics",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health screening or testing",
+      "overall_value": 1.32926199,
+      "percent_topic_posts_with_label": 1.61030596,
+      "percent_topic_authors_using_label_on_topic_post": 1.04821803,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 1.32926199,
+          "post_percentage_point_contribution": 1.61030596,
+          "author_percentage_point_contribution": 1.04821803
+        }
+      ]
+    },
+    {
+      "intersecting_label": "autism",
+      "overall_value": 1.29735971,
+      "percent_topic_posts_with_label": 1.12721417,
+      "percent_topic_authors_using_label_on_topic_post": 1.46750524,
+      "links": [
+        {
+          "component_label": "endocrine-disrupting chemicals",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        },
+        {
+          "component_label": "household chemicals",
+          "value": 0.5560113,
+          "post_percentage_point_contribution": 0.48309179,
+          "author_percentage_point_contribution": 0.62893082
+        },
+        {
+          "component_label": "mercury",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "bisphenol A",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "outdoor environment",
+      "overall_value": 1.29735971,
+      "percent_topic_posts_with_label": 1.12721417,
+      "percent_topic_authors_using_label_on_topic_post": 1.46750524,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 0.09266855,
+          "post_percentage_point_contribution": 0.0805153,
+          "author_percentage_point_contribution": 0.1048218
+        },
+        {
+          "component_label": "pesticides",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.7413484,
+          "post_percentage_point_contribution": 0.64412238,
+          "author_percentage_point_contribution": 0.83857442
+        },
+        {
+          "component_label": "arsenic",
+          "value": 0.09266855,
+          "post_percentage_point_contribution": 0.0805153,
+          "author_percentage_point_contribution": 0.1048218
+        },
+        {
+          "component_label": "plastics or microplastics",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "playground",
+      "overall_value": 1.29735971,
+      "percent_topic_posts_with_label": 1.12721417,
+      "percent_topic_authors_using_label_on_topic_post": 1.46750524,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.9266855,
+          "post_percentage_point_contribution": 0.80515298,
+          "author_percentage_point_contribution": 1.04821803
+        },
+        {
+          "component_label": "plastics or microplastics",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "workers",
+      "overall_value": 1.29735971,
+      "percent_topic_posts_with_label": 1.12721417,
+      "percent_topic_authors_using_label_on_topic_post": 1.46750524,
+      "links": [
+        {
+          "component_label": "pesticides",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        },
+        {
+          "component_label": "household chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "industrial chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "plastics or microplastics",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "cleaning and disinfecting chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental policy or regulation",
+      "overall_value": 1.2730532,
+      "percent_topic_posts_with_label": 1.28824477,
+      "percent_topic_authors_using_label_on_topic_post": 1.25786164,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "pesticides",
+          "value": 0.5841157,
+          "post_percentage_point_contribution": 0.64412238,
+          "author_percentage_point_contribution": 0.52410901
+        },
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "flame retardants",
+          "value": 0.1329262,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.1048218
+        },
+        {
+          "component_label": "cleaning and disinfecting chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "fire hazard",
+      "overall_value": 1.2730532,
+      "percent_topic_posts_with_label": 1.28824477,
+      "percent_topic_authors_using_label_on_topic_post": 1.25786164,
+      "links": [
+        {
+          "component_label": "household chemicals",
+          "value": 0.5560113,
+          "post_percentage_point_contribution": 0.48309179,
+          "author_percentage_point_contribution": 0.62893082
+        },
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.5317048,
+          "post_percentage_point_contribution": 0.64412238,
+          "author_percentage_point_contribution": 0.41928721
+        },
+        {
+          "component_label": "flame retardants",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health disparity",
+      "overall_value": 1.11202261,
+      "percent_topic_posts_with_label": 0.96618357,
+      "percent_topic_authors_using_label_on_topic_post": 1.25786164,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 0.5560113,
+          "post_percentage_point_contribution": 0.48309179,
+          "author_percentage_point_contribution": 0.62893082
+        },
+        {
+          "component_label": "endocrine-disrupting chemicals",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        },
+        {
+          "component_label": "industrial chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "outdoor play or recreation",
+      "overall_value": 1.11202261,
+      "percent_topic_posts_with_label": 0.96618357,
+      "percent_topic_authors_using_label_on_topic_post": 1.25786164,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 0.5560113,
+          "post_percentage_point_contribution": 0.48309179,
+          "author_percentage_point_contribution": 0.62893082
+        },
+        {
+          "component_label": "pesticides",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "plastics or microplastics",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "ambient air pollution",
+      "overall_value": 0.9266855,
+      "percent_topic_posts_with_label": 0.80515298,
+      "percent_topic_authors_using_label_on_topic_post": 1.04821803,
+      "links": [
+        {
+          "component_label": "household chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "industrial chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.5560113,
+          "post_percentage_point_contribution": 0.48309179,
+          "author_percentage_point_contribution": 0.62893082
+        }
+      ]
+    },
+    {
+      "intersecting_label": "asthma",
+      "overall_value": 0.9266855,
+      "percent_topic_posts_with_label": 0.80515298,
+      "percent_topic_authors_using_label_on_topic_post": 1.04821803,
+      "links": [
+        {
+          "component_label": "pesticides",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "household chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "industrial chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "plastics or microplastics",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental testing",
+      "overall_value": 0.9266855,
+      "percent_topic_posts_with_label": 0.80515298,
+      "percent_topic_authors_using_label_on_topic_post": 1.04821803,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 0.7413484,
+          "post_percentage_point_contribution": 0.64412238,
+          "author_percentage_point_contribution": 0.83857442
+        },
+        {
+          "component_label": "arsenic",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mortality or death",
+      "overall_value": 0.9266855,
+      "percent_topic_posts_with_label": 0.80515298,
+      "percent_topic_authors_using_label_on_topic_post": 1.04821803,
+      "links": [
+        {
+          "component_label": "pesticides",
+          "value": 0.27800565,
+          "post_percentage_point_contribution": 0.24154589,
+          "author_percentage_point_contribution": 0.31446541
+        },
+        {
+          "component_label": "industrial chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.46334275,
+          "post_percentage_point_contribution": 0.40257649,
+          "author_percentage_point_contribution": 0.52410901
+        }
+      ]
+    },
+    {
+      "intersecting_label": "neighborhood",
+      "overall_value": 0.9266855,
+      "percent_topic_posts_with_label": 0.80515298,
+      "percent_topic_authors_using_label_on_topic_post": 1.04821803,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 0.5560113,
+          "post_percentage_point_contribution": 0.48309179,
+          "author_percentage_point_contribution": 0.62893082
+        },
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        }
+      ]
+    },
+    {
+      "intersecting_label": "street or roadway",
+      "overall_value": 0.9266855,
+      "percent_topic_posts_with_label": 0.80515298,
+      "percent_topic_authors_using_label_on_topic_post": 1.04821803,
+      "links": [
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        },
+        {
+          "component_label": "mercury",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "plastics or microplastics",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        }
+      ]
+    },
+    {
+      "intersecting_label": "water pollution",
+      "overall_value": 0.9266855,
+      "percent_topic_posts_with_label": 0.80515298,
+      "percent_topic_authors_using_label_on_topic_post": 1.04821803,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "endocrine-disrupting chemicals",
+          "value": 0.09266855,
+          "post_percentage_point_contribution": 0.0805153,
+          "author_percentage_point_contribution": 0.1048218
+        },
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        },
+        {
+          "component_label": "plastics or microplastics",
+          "value": 0.09266855,
+          "post_percentage_point_contribution": 0.0805153,
+          "author_percentage_point_contribution": 0.1048218
+        },
+        {
+          "component_label": "cleaning and disinfecting chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "garden or yard",
+      "overall_value": 0.8218637,
+      "percent_topic_posts_with_label": 0.80515298,
+      "percent_topic_authors_using_label_on_topic_post": 0.83857442,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 0.09266855,
+          "post_percentage_point_contribution": 0.0805153,
+          "author_percentage_point_contribution": 0.1048218
+        },
+        {
+          "component_label": "pesticides",
+          "value": 0.2658524,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "household chemicals",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        },
+        {
+          "component_label": "arsenic",
+          "value": 0.09266855,
+          "post_percentage_point_contribution": 0.0805153,
+          "author_percentage_point_contribution": 0.1048218
+        }
+      ]
+    },
+    {
+      "intersecting_label": "birth defect",
+      "overall_value": 0.7413484,
+      "percent_topic_posts_with_label": 0.64412238,
+      "percent_topic_authors_using_label_on_topic_post": 0.83857442,
+      "links": [
+        {
+          "component_label": "PFAS",
+          "value": 0.27800565,
+          "post_percentage_point_contribution": 0.24154589,
+          "author_percentage_point_contribution": 0.31446541
+        },
+        {
+          "component_label": "endocrine-disrupting chemicals",
+          "value": 0.27800565,
+          "post_percentage_point_contribution": 0.24154589,
+          "author_percentage_point_contribution": 0.31446541
+        },
+        {
+          "component_label": "mercury",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cognitive or learning problem",
+      "overall_value": 0.7413484,
+      "percent_topic_posts_with_label": 0.64412238,
+      "percent_topic_authors_using_label_on_topic_post": 0.83857442,
+      "links": [
+        {
+          "component_label": "pesticides",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        },
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "mercury",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "discrimination",
+      "overall_value": 0.7413484,
+      "percent_topic_posts_with_label": 0.64412238,
+      "percent_topic_authors_using_label_on_topic_post": 0.83857442,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 0.43245324,
+          "post_percentage_point_contribution": 0.37573806,
+          "author_percentage_point_contribution": 0.48916841
+        },
+        {
+          "component_label": "household chemicals",
+          "value": 0.06177903,
+          "post_percentage_point_contribution": 0.05367687,
+          "author_percentage_point_contribution": 0.0698812
+        },
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "asbestos",
+          "value": 0.06177903,
+          "post_percentage_point_contribution": 0.05367687,
+          "author_percentage_point_contribution": 0.0698812
+        }
+      ]
+    },
+    {
+      "intersecting_label": "drug exposure or use",
+      "overall_value": 0.7413484,
+      "percent_topic_posts_with_label": 0.64412238,
+      "percent_topic_authors_using_label_on_topic_post": 0.83857442,
+      "links": [
+        {
+          "component_label": "endocrine-disrupting chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "household chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        }
+      ]
+    },
+    {
+      "intersecting_label": "educational access",
+      "overall_value": 0.7413484,
+      "percent_topic_posts_with_label": 0.64412238,
+      "percent_topic_authors_using_label_on_topic_post": 0.83857442,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 0.5560113,
+          "post_percentage_point_contribution": 0.48309179,
+          "author_percentage_point_contribution": 0.62893082
+        },
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental remediation",
+      "overall_value": 0.7413484,
+      "percent_topic_posts_with_label": 0.64412238,
+      "percent_topic_authors_using_label_on_topic_post": 0.83857442,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        },
+        {
+          "component_label": "plastics or microplastics",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        }
+      ]
+    },
+    {
+      "intersecting_label": "low-income populations",
+      "overall_value": 0.7413484,
+      "percent_topic_posts_with_label": 0.64412238,
+      "percent_topic_authors_using_label_on_topic_post": 0.83857442,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "pesticides",
+          "value": 0.09266855,
+          "post_percentage_point_contribution": 0.0805153,
+          "author_percentage_point_contribution": 0.1048218
+        },
+        {
+          "component_label": "industrial chemicals",
+          "value": 0.09266855,
+          "post_percentage_point_contribution": 0.0805153,
+          "author_percentage_point_contribution": 0.1048218
+        },
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        }
+      ]
+    },
+    {
+      "intersecting_label": "medical care",
+      "overall_value": 0.7413484,
+      "percent_topic_posts_with_label": 0.64412238,
+      "percent_topic_authors_using_label_on_topic_post": 0.83857442,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        },
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "plastics or microplastics",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "poverty or financial hardship",
+      "overall_value": 0.7413484,
+      "percent_topic_posts_with_label": 0.64412238,
+      "percent_topic_authors_using_label_on_topic_post": 0.83857442,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "pesticides",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "household chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "plastics or microplastics",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "racial and ethnic minority populations",
+      "overall_value": 0.7413484,
+      "percent_topic_posts_with_label": 0.64412238,
+      "percent_topic_authors_using_label_on_topic_post": 0.83857442,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 0.24711613,
+          "post_percentage_point_contribution": 0.21470746,
+          "author_percentage_point_contribution": 0.27952481
+        },
+        {
+          "component_label": "household chemicals",
+          "value": 0.06177903,
+          "post_percentage_point_contribution": 0.05367687,
+          "author_percentage_point_contribution": 0.0698812
+        },
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        },
+        {
+          "component_label": "asbestos",
+          "value": 0.06177903,
+          "post_percentage_point_contribution": 0.05367687,
+          "author_percentage_point_contribution": 0.0698812
+        }
+      ]
+    },
+    {
+      "intersecting_label": "scientific research",
+      "overall_value": 0.7413484,
+      "percent_topic_posts_with_label": 0.64412238,
+      "percent_topic_authors_using_label_on_topic_post": 0.83857442,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        },
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "plastics or microplastics",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health education or awareness",
+      "overall_value": 0.6365266,
+      "percent_topic_posts_with_label": 0.64412238,
+      "percent_topic_authors_using_label_on_topic_post": 0.62893082,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 0.2658524,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "pesticides",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "household chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "activity cancellation",
+      "overall_value": 0.5560113,
+      "percent_topic_posts_with_label": 0.48309179,
+      "percent_topic_authors_using_label_on_topic_post": 0.62893082,
+      "links": [
+        {
+          "component_label": "household chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "plastics or microplastics",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childcare center",
+      "overall_value": 0.5560113,
+      "percent_topic_posts_with_label": 0.48309179,
+      "percent_topic_authors_using_label_on_topic_post": 0.62893082,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "plastics or microplastics",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cough",
+      "overall_value": 0.5560113,
+      "percent_topic_posts_with_label": 0.48309179,
+      "percent_topic_authors_using_label_on_topic_post": 0.62893082,
+      "links": [
+        {
+          "component_label": "household chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "asbestos",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "plastics or microplastics",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "generic smoke",
+      "overall_value": 0.5560113,
+      "percent_topic_posts_with_label": 0.48309179,
+      "percent_topic_authors_using_label_on_topic_post": 0.62893082,
+      "links": [
+        {
+          "component_label": "household chemicals",
+          "value": 0.5560113,
+          "post_percentage_point_contribution": 0.48309179,
+          "author_percentage_point_contribution": 0.62893082
+        }
+      ]
+    },
+    {
+      "intersecting_label": "indoor air quality",
+      "overall_value": 0.5560113,
+      "percent_topic_posts_with_label": 0.48309179,
+      "percent_topic_authors_using_label_on_topic_post": 0.62893082,
+      "links": [
+        {
+          "component_label": "household chemicals",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        },
+        {
+          "component_label": "cleaning and disinfecting chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "industrial site",
+      "overall_value": 0.5560113,
+      "percent_topic_posts_with_label": 0.48309179,
+      "percent_topic_authors_using_label_on_topic_post": 0.62893082,
+      "links": [
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.5560113,
+          "post_percentage_point_contribution": 0.48309179,
+          "author_percentage_point_contribution": 0.62893082
+        }
+      ]
+    },
+    {
+      "intersecting_label": "injury",
+      "overall_value": 0.5560113,
+      "percent_topic_posts_with_label": 0.48309179,
+      "percent_topic_authors_using_label_on_topic_post": 0.62893082,
+      "links": [
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "plastics or microplastics",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "cleaning and disinfecting chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "radon",
+      "overall_value": 0.5560113,
+      "percent_topic_posts_with_label": 0.48309179,
+      "percent_topic_authors_using_label_on_topic_post": 0.62893082,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 0.5560113,
+          "post_percentage_point_contribution": 0.48309179,
+          "author_percentage_point_contribution": 0.62893082
+        }
+      ]
+    },
+    {
+      "intersecting_label": "secondhand tobacco smoke",
+      "overall_value": 0.5560113,
+      "percent_topic_posts_with_label": 0.48309179,
+      "percent_topic_authors_using_label_on_topic_post": 0.62893082,
+      "links": [
+        {
+          "component_label": "endocrine-disrupting chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "household chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "skin condition",
+      "overall_value": 0.5560113,
+      "percent_topic_posts_with_label": 0.48309179,
+      "percent_topic_authors_using_label_on_topic_post": 0.62893082,
+      "links": [
+        {
+          "component_label": "household chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "plastics or microplastics",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "cleaning and disinfecting chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sports participation",
+      "overall_value": 0.5560113,
+      "percent_topic_posts_with_label": 0.48309179,
+      "percent_topic_authors_using_label_on_topic_post": 0.62893082,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "endocrine-disrupting chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "asbestos",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "workplace",
+      "overall_value": 0.5560113,
+      "percent_topic_posts_with_label": 0.48309179,
+      "percent_topic_authors_using_label_on_topic_post": 0.62893082,
+      "links": [
+        {
+          "component_label": "household chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childhood cancer",
+      "overall_value": 0.4511895,
+      "percent_topic_posts_with_label": 0.48309179,
+      "percent_topic_authors_using_label_on_topic_post": 0.41928721,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 0.09266855,
+          "post_percentage_point_contribution": 0.0805153,
+          "author_percentage_point_contribution": 0.1048218
+        },
+        {
+          "component_label": "pesticides",
+          "value": 0.2658524,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "endocrine-disrupting chemicals",
+          "value": 0.09266855,
+          "post_percentage_point_contribution": 0.0805153,
+          "author_percentage_point_contribution": 0.1048218
+        }
+      ]
+    },
+    {
+      "intersecting_label": "apartment",
+      "overall_value": 0.3706742,
+      "percent_topic_posts_with_label": 0.32206119,
+      "percent_topic_authors_using_label_on_topic_post": 0.41928721,
+      "links": [
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "cleaning and disinfecting chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "child welfare services",
+      "overall_value": 0.3706742,
+      "percent_topic_posts_with_label": 0.32206119,
+      "percent_topic_authors_using_label_on_topic_post": 0.41928721,
+      "links": [
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "hazardous waste",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "children with disabilities",
+      "overall_value": 0.3706742,
+      "percent_topic_posts_with_label": 0.32206119,
+      "percent_topic_authors_using_label_on_topic_post": 0.41928721,
+      "links": [
+        {
+          "component_label": "endocrine-disrupting chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "climate change",
+      "overall_value": 0.3706742,
+      "percent_topic_posts_with_label": 0.32206119,
+      "percent_topic_authors_using_label_on_topic_post": 0.41928721,
+      "links": [
+        {
+          "component_label": "pesticides",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        }
+      ]
+    },
+    {
+      "intersecting_label": "community program or service",
+      "overall_value": 0.3706742,
+      "percent_topic_posts_with_label": 0.32206119,
+      "percent_topic_authors_using_label_on_topic_post": 0.41928721,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "cleaning and disinfecting chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "emergency response",
+      "overall_value": 0.3706742,
+      "percent_topic_posts_with_label": 0.32206119,
+      "percent_topic_authors_using_label_on_topic_post": 0.41928721,
+      "links": [
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        }
+      ]
+    },
+    {
+      "intersecting_label": "farm or agricultural setting",
+      "overall_value": 0.3706742,
+      "percent_topic_posts_with_label": 0.32206119,
+      "percent_topic_authors_using_label_on_topic_post": 0.41928721,
+      "links": [
+        {
+          "component_label": "pesticides",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food insecurity",
+      "overall_value": 0.3706742,
+      "percent_topic_posts_with_label": 0.32206119,
+      "percent_topic_authors_using_label_on_topic_post": 0.41928721,
+      "links": [
+        {
+          "component_label": "household chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "plastics or microplastics",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "foster youth",
+      "overall_value": 0.3706742,
+      "percent_topic_posts_with_label": 0.32206119,
+      "percent_topic_authors_using_label_on_topic_post": 0.41928721,
+      "links": [
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare workers",
+      "overall_value": 0.3706742,
+      "percent_topic_posts_with_label": 0.32206119,
+      "percent_topic_authors_using_label_on_topic_post": 0.41928721,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "hazardous waste",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mask use",
+      "overall_value": 0.3706742,
+      "percent_topic_posts_with_label": 0.32206119,
+      "percent_topic_authors_using_label_on_topic_post": 0.41928721,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "cleaning and disinfecting chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mental health condition",
+      "overall_value": 0.3706742,
+      "percent_topic_posts_with_label": 0.32206119,
+      "percent_topic_authors_using_label_on_topic_post": 0.41928721,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "endocrine-disrupting chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "public transit",
+      "overall_value": 0.3706742,
+      "percent_topic_posts_with_label": 0.32206119,
+      "percent_topic_authors_using_label_on_topic_post": 0.41928721,
+      "links": [
+        {
+          "component_label": "mercury",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "plastics or microplastics",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "restaurant or food store",
+      "overall_value": 0.3706742,
+      "percent_topic_posts_with_label": 0.32206119,
+      "percent_topic_authors_using_label_on_topic_post": 0.41928721,
+      "links": [
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "cleaning and disinfecting chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "river lake or water body",
+      "overall_value": 0.3706742,
+      "percent_topic_posts_with_label": 0.32206119,
+      "percent_topic_authors_using_label_on_topic_post": 0.41928721,
+      "links": [
+        {
+          "component_label": "pesticides",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school closure",
+      "overall_value": 0.3706742,
+      "percent_topic_posts_with_label": 0.32206119,
+      "percent_topic_authors_using_label_on_topic_post": 0.41928721,
+      "links": [
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.3706742,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.41928721
+        }
+      ]
+    },
+    {
+      "intersecting_label": "social support",
+      "overall_value": 0.3706742,
+      "percent_topic_posts_with_label": 0.32206119,
+      "percent_topic_authors_using_label_on_topic_post": 0.41928721,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "plastics or microplastics",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "substance use disorder",
+      "overall_value": 0.3706742,
+      "percent_topic_posts_with_label": 0.32206119,
+      "percent_topic_authors_using_label_on_topic_post": 0.41928721,
+      "links": [
+        {
+          "component_label": "endocrine-disrupting chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "household chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "vaccination",
+      "overall_value": 0.3706742,
+      "percent_topic_posts_with_label": 0.32206119,
+      "percent_topic_authors_using_label_on_topic_post": 0.41928721,
+      "links": [
+        {
+          "component_label": "endocrine-disrupting chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "mercury",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "walking or bicycling",
+      "overall_value": 0.3706742,
+      "percent_topic_posts_with_label": 0.32206119,
+      "percent_topic_authors_using_label_on_topic_post": 0.41928721,
+      "links": [
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "bisphenol A",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildfire smoke",
+      "overall_value": 0.3706742,
+      "percent_topic_posts_with_label": 0.32206119,
+      "percent_topic_authors_using_label_on_topic_post": 0.41928721,
+      "links": [
+        {
+          "component_label": "household chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildlife",
+      "overall_value": 0.3706742,
+      "percent_topic_posts_with_label": 0.32206119,
+      "percent_topic_authors_using_label_on_topic_post": 0.41928721,
+      "links": [
+        {
+          "component_label": "pesticides",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        },
+        {
+          "component_label": "plastics or microplastics",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cooking or food preparation",
+      "overall_value": 0.2658524,
+      "percent_topic_posts_with_label": 0.32206119,
+      "percent_topic_authors_using_label_on_topic_post": 0.20964361,
+      "links": [
+        {
+          "component_label": "household chemicals",
+          "value": 0.2658524,
+          "post_percentage_point_contribution": 0.32206119,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "developmental delay",
+      "overall_value": 0.2658524,
+      "percent_topic_posts_with_label": 0.32206119,
+      "percent_topic_authors_using_label_on_topic_post": 0.20964361,
+      "links": [
+        {
+          "component_label": "mercury",
+          "value": 0.1329262,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.1048218
+        },
+        {
+          "component_label": "bisphenol A",
+          "value": 0.1329262,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.1048218
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adverse birth outcome",
+      "overall_value": 0.1853371,
+      "percent_topic_posts_with_label": 0.1610306,
+      "percent_topic_authors_using_label_on_topic_post": 0.20964361,
+      "links": [
+        {
+          "component_label": "mercury",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "allergens",
+      "overall_value": 0.1853371,
+      "percent_topic_posts_with_label": 0.1610306,
+      "percent_topic_authors_using_label_on_topic_post": 0.20964361,
+      "links": [
+        {
+          "component_label": "household chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "animal-related exposure",
+      "overall_value": 0.1853371,
+      "percent_topic_posts_with_label": 0.1610306,
+      "percent_topic_authors_using_label_on_topic_post": 0.20964361,
+      "links": [
+        {
+          "component_label": "pesticides",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "anxiety",
+      "overall_value": 0.1853371,
+      "percent_topic_posts_with_label": 0.1610306,
+      "percent_topic_authors_using_label_on_topic_post": 0.20964361,
+      "links": [
+        {
+          "component_label": "industrial chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "carbon monoxide",
+      "overall_value": 0.1853371,
+      "percent_topic_posts_with_label": 0.1610306,
+      "percent_topic_authors_using_label_on_topic_post": 0.20964361,
+      "links": [
+        {
+          "component_label": "industrial chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cardiovascular condition",
+      "overall_value": 0.1853371,
+      "percent_topic_posts_with_label": 0.1610306,
+      "percent_topic_authors_using_label_on_topic_post": 0.20964361,
+      "links": [
+        {
+          "component_label": "industrial chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "community resilience",
+      "overall_value": 0.1853371,
+      "percent_topic_posts_with_label": 0.1610306,
+      "percent_topic_authors_using_label_on_topic_post": 0.20964361,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "dental care",
+      "overall_value": 0.1853371,
+      "percent_topic_posts_with_label": 0.1610306,
+      "percent_topic_authors_using_label_on_topic_post": 0.20964361,
+      "links": [
+        {
+          "component_label": "household chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "disability",
+      "overall_value": 0.1853371,
+      "percent_topic_posts_with_label": 0.1610306,
+      "percent_topic_authors_using_label_on_topic_post": 0.20964361,
+      "links": [
+        {
+          "component_label": "plastics or microplastics",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "dust and particulate matter",
+      "overall_value": 0.1853371,
+      "percent_topic_posts_with_label": 0.1610306,
+      "percent_topic_authors_using_label_on_topic_post": 0.20964361,
+      "links": [
+        {
+          "component_label": "household chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "evacuation",
+      "overall_value": 0.1853371,
+      "percent_topic_posts_with_label": 0.1610306,
+      "percent_topic_authors_using_label_on_topic_post": 0.20964361,
+      "links": [
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "fire safety",
+      "overall_value": 0.1853371,
+      "percent_topic_posts_with_label": 0.1610306,
+      "percent_topic_authors_using_label_on_topic_post": 0.20964361,
+      "links": [
+        {
+          "component_label": "PFAS",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "gastrointestinal illness",
+      "overall_value": 0.1853371,
+      "percent_topic_posts_with_label": 0.1610306,
+      "percent_topic_authors_using_label_on_topic_post": 0.20964361,
+      "links": [
+        {
+          "component_label": "pesticides",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "housing instability or homelessness",
+      "overall_value": 0.1853371,
+      "percent_topic_posts_with_label": 0.1610306,
+      "percent_topic_authors_using_label_on_topic_post": 0.20964361,
+      "links": [
+        {
+          "component_label": "bisphenol A",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infectious disease",
+      "overall_value": 0.1853371,
+      "percent_topic_posts_with_label": 0.1610306,
+      "percent_topic_authors_using_label_on_topic_post": 0.20964361,
+      "links": [
+        {
+          "component_label": "mercury",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infectious disease exposure",
+      "overall_value": 0.1853371,
+      "percent_topic_posts_with_label": 0.1610306,
+      "percent_topic_authors_using_label_on_topic_post": 0.20964361,
+      "links": [
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mold and dampness",
+      "overall_value": 0.1853371,
+      "percent_topic_posts_with_label": 0.1610306,
+      "percent_topic_authors_using_label_on_topic_post": 0.20964361,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 0.09266855,
+          "post_percentage_point_contribution": 0.0805153,
+          "author_percentage_point_contribution": 0.1048218
+        },
+        {
+          "component_label": "asbestos",
+          "value": 0.09266855,
+          "post_percentage_point_contribution": 0.0805153,
+          "author_percentage_point_contribution": 0.1048218
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pain",
+      "overall_value": 0.1853371,
+      "percent_topic_posts_with_label": 0.1610306,
+      "percent_topic_authors_using_label_on_topic_post": 0.20964361,
+      "links": [
+        {
+          "component_label": "household chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "poor sanitation",
+      "overall_value": 0.1853371,
+      "percent_topic_posts_with_label": 0.1610306,
+      "percent_topic_authors_using_label_on_topic_post": 0.20964361,
+      "links": [
+        {
+          "component_label": "cleaning and disinfecting chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "reproductive health condition",
+      "overall_value": 0.1853371,
+      "percent_topic_posts_with_label": 0.1610306,
+      "percent_topic_authors_using_label_on_topic_post": 0.20964361,
+      "links": [
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "smog or ozone",
+      "overall_value": 0.1853371,
+      "percent_topic_posts_with_label": 0.1610306,
+      "percent_topic_authors_using_label_on_topic_post": 0.20964361,
+      "links": [
+        {
+          "component_label": "pesticides",
+          "value": 0.09266855,
+          "post_percentage_point_contribution": 0.0805153,
+          "author_percentage_point_contribution": 0.1048218
+        },
+        {
+          "component_label": "industrial chemicals",
+          "value": 0.09266855,
+          "post_percentage_point_contribution": 0.0805153,
+          "author_percentage_point_contribution": 0.1048218
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sports or recreation facility",
+      "overall_value": 0.1853371,
+      "percent_topic_posts_with_label": 0.1610306,
+      "percent_topic_authors_using_label_on_topic_post": 0.20964361,
+      "links": [
+        {
+          "component_label": "endocrine-disrupting chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "stress or distress",
+      "overall_value": 0.1853371,
+      "percent_topic_posts_with_label": 0.1610306,
+      "percent_topic_authors_using_label_on_topic_post": 0.20964361,
+      "links": [
+        {
+          "component_label": "endocrine-disrupting chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "swimming pool",
+      "overall_value": 0.1853371,
+      "percent_topic_posts_with_label": 0.1610306,
+      "percent_topic_authors_using_label_on_topic_post": 0.20964361,
+      "links": [
+        {
+          "component_label": "household chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic hazard",
+      "overall_value": 0.1853371,
+      "percent_topic_posts_with_label": 0.1610306,
+      "percent_topic_authors_using_label_on_topic_post": 0.20964361,
+      "links": [
+        {
+          "component_label": "household chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic-related air pollution",
+      "overall_value": 0.1853371,
+      "percent_topic_posts_with_label": 0.1610306,
+      "percent_topic_authors_using_label_on_topic_post": 0.20964361,
+      "links": [
+        {
+          "component_label": "lead exposure",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "vaping aerosol",
+      "overall_value": 0.1853371,
+      "percent_topic_posts_with_label": 0.1610306,
+      "percent_topic_authors_using_label_on_topic_post": 0.20964361,
+      "links": [
+        {
+          "component_label": "hazardous chemicals",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    },
+    {
+      "intersecting_label": "youth engagement",
+      "overall_value": 0.1853371,
+      "percent_topic_posts_with_label": 0.1610306,
+      "percent_topic_authors_using_label_on_topic_post": 0.20964361,
+      "links": [
+        {
+          "component_label": "bisphenol A",
+          "value": 0.1853371,
+          "post_percentage_point_contribution": 0.1610306,
+          "author_percentage_point_contribution": 0.20964361
+        }
+      ]
+    }
+  ]
+}

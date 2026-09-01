@@ -1,0 +1,2621 @@
+{
+  "schema_version": "1.0.0",
+  "city_id": "38900",
+  "domain": "social_structural",
+  "category_id": "social_structural-03",
+  "topic": "School and activity disruption",
+  "component_labels": [
+    "school closure",
+    "activity cancellation"
+  ],
+  "intersections": [
+    {
+      "intersecting_label": "school",
+      "overall_value": 51.05118275,
+      "percent_topic_posts_with_label": 46.25544842,
+      "percent_topic_authors_using_label_on_topic_post": 55.84691708,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 18.50713006,
+          "post_percentage_point_contribution": 16.6622639,
+          "author_percentage_point_contribution": 20.35199622
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 32.54405269,
+          "post_percentage_point_contribution": 29.59318452,
+          "author_percentage_point_contribution": 35.49492086
+        }
+      ]
+    },
+    {
+      "intersecting_label": "students",
+      "overall_value": 36.34901513,
+      "percent_topic_posts_with_label": 32.13578127,
+      "percent_topic_authors_using_label_on_topic_post": 40.562249,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 24.61248414,
+          "post_percentage_point_contribution": 21.998415,
+          "author_percentage_point_contribution": 27.22655327
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 11.736531,
+          "post_percentage_point_contribution": 10.13736627,
+          "author_percentage_point_contribution": 13.33569572
+        }
+      ]
+    },
+    {
+      "intersecting_label": "children",
+      "overall_value": 22.93174969,
+      "percent_topic_posts_with_label": 20.0898164,
+      "percent_topic_authors_using_label_on_topic_post": 25.77368297,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 9.28320725,
+          "post_percentage_point_contribution": 7.74666491,
+          "author_percentage_point_contribution": 10.81974959
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 13.64854244,
+          "post_percentage_point_contribution": 12.3431515,
+          "author_percentage_point_contribution": 14.95393338
+        }
+      ]
+    },
+    {
+      "intersecting_label": "winter storm or snow hazard",
+      "overall_value": 7.01106305,
+      "percent_topic_posts_with_label": 5.37577599,
+      "percent_topic_authors_using_label_on_topic_post": 8.64635011,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 4.65342455,
+          "post_percentage_point_contribution": 3.5662396,
+          "author_percentage_point_contribution": 5.7406095
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 2.3576385,
+          "post_percentage_point_contribution": 1.80953639,
+          "author_percentage_point_contribution": 2.90574061
+        }
+      ]
+    },
+    {
+      "intersecting_label": "parents and caregivers",
+      "overall_value": 3.84692756,
+      "percent_topic_posts_with_label": 2.94544974,
+      "percent_topic_authors_using_label_on_topic_post": 4.74840539,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 2.15906163,
+          "post_percentage_point_contribution": 1.68405759,
+          "author_percentage_point_contribution": 2.63406567
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 1.68786593,
+          "post_percentage_point_contribution": 1.26139215,
+          "author_percentage_point_contribution": 2.11433971
+        }
+      ]
+    },
+    {
+      "intersecting_label": "COVID-19",
+      "overall_value": 3.50438091,
+      "percent_topic_posts_with_label": 2.94544974,
+      "percent_topic_authors_using_label_on_topic_post": 4.06331207,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 2.69978966,
+          "post_percentage_point_contribution": 2.30484744,
+          "author_percentage_point_contribution": 3.09473187
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.80459125,
+          "post_percentage_point_contribution": 0.6406023,
+          "author_percentage_point_contribution": 0.9685802
+        }
+      ]
+    },
+    {
+      "intersecting_label": "teachers and school staff",
+      "overall_value": 2.72735686,
+      "percent_topic_posts_with_label": 2.10011887,
+      "percent_topic_authors_using_label_on_topic_post": 3.35459485,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 2.09911491,
+          "post_percentage_point_contribution": 1.61141197,
+          "author_percentage_point_contribution": 2.58681786
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.62824195,
+          "post_percentage_point_contribution": 0.48870691,
+          "author_percentage_point_contribution": 0.76777699
+        }
+      ]
+    },
+    {
+      "intersecting_label": "unhoused populations",
+      "overall_value": 2.13105992,
+      "percent_topic_posts_with_label": 1.54537049,
+      "percent_topic_authors_using_label_on_topic_post": 2.71674935,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 1.91597269,
+          "post_percentage_point_contribution": 1.38687095,
+          "author_percentage_point_contribution": 2.44507442
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.21508724,
+          "post_percentage_point_contribution": 0.15849954,
+          "author_percentage_point_contribution": 0.27167494
+        }
+      ]
+    },
+    {
+      "intersecting_label": "home",
+      "overall_value": 1.8179862,
+      "percent_topic_posts_with_label": 1.32082948,
+      "percent_topic_authors_using_label_on_topic_post": 2.31514292,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.9458253,
+          "post_percentage_point_contribution": 0.68683133,
+          "author_percentage_point_contribution": 1.20481928
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.8721609,
+          "post_percentage_point_contribution": 0.63399815,
+          "author_percentage_point_contribution": 1.11032365
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adolescents",
+      "overall_value": 1.25369122,
+      "percent_topic_posts_with_label": 0.92458064,
+      "percent_topic_authors_using_label_on_topic_post": 1.5828018,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.38673812,
+          "post_percentage_point_contribution": 0.27737419,
+          "author_percentage_point_contribution": 0.49610206
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.86695309,
+          "post_percentage_point_contribution": 0.64720645,
+          "author_percentage_point_contribution": 1.08669974
+        }
+      ]
+    },
+    {
+      "intersecting_label": "general severe weather",
+      "overall_value": 1.21825535,
+      "percent_topic_posts_with_label": 0.92458064,
+      "percent_topic_authors_using_label_on_topic_post": 1.51193007,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.94131567,
+          "post_percentage_point_contribution": 0.71324792,
+          "author_percentage_point_contribution": 1.16938342
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.27693969,
+          "post_percentage_point_contribution": 0.21133272,
+          "author_percentage_point_contribution": 0.34254666
+        }
+      ]
+    },
+    {
+      "intersecting_label": "extreme cold",
+      "overall_value": 1.19983925,
+      "percent_topic_posts_with_label": 0.91137234,
+      "percent_topic_authors_using_label_on_topic_post": 1.48830617,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.61242975,
+          "post_percentage_point_contribution": 0.46889447,
+          "author_percentage_point_contribution": 0.75596504
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.5874095,
+          "post_percentage_point_contribution": 0.44247788,
+          "author_percentage_point_contribution": 0.73234113
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childhood cancer",
+      "overall_value": 1.04066261,
+      "percent_topic_posts_with_label": 2.0340774,
+      "percent_topic_authors_using_label_on_topic_post": 0.04724781,
+      "links": [
+        {
+          "component_label": "activity cancellation",
+          "value": 1.04066261,
+          "post_percentage_point_contribution": 2.0340774,
+          "author_percentage_point_contribution": 0.04724781
+        }
+      ]
+    },
+    {
+      "intersecting_label": "families",
+      "overall_value": 0.89718115,
+      "percent_topic_posts_with_label": 0.66041474,
+      "percent_topic_authors_using_label_on_topic_post": 1.13394755,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.54067108,
+          "post_percentage_point_contribution": 0.39624884,
+          "author_percentage_point_contribution": 0.68509331
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.35651007,
+          "post_percentage_point_contribution": 0.2641659,
+          "author_percentage_point_contribution": 0.44885424
+        }
+      ]
+    },
+    {
+      "intersecting_label": "outdoor play or recreation",
+      "overall_value": 0.88536919,
+      "percent_topic_posts_with_label": 0.66041474,
+      "percent_topic_authors_using_label_on_topic_post": 1.11032365,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.4821207,
+          "post_percentage_point_contribution": 0.35001981,
+          "author_percentage_point_contribution": 0.61422159
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.40324849,
+          "post_percentage_point_contribution": 0.31039493,
+          "author_percentage_point_contribution": 0.49610206
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infectious disease",
+      "overall_value": 0.84853699,
+      "percent_topic_posts_with_label": 0.63399815,
+      "percent_topic_authors_using_label_on_topic_post": 1.06307583,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.71962428,
+          "post_percentage_point_contribution": 0.54154009,
+          "author_percentage_point_contribution": 0.89770848
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.12891271,
+          "post_percentage_point_contribution": 0.09245806,
+          "author_percentage_point_contribution": 0.16536735
+        }
+      ]
+    },
+    {
+      "intersecting_label": "stress or distress",
+      "overall_value": 0.79189235,
+      "percent_topic_posts_with_label": 0.56795668,
+      "percent_topic_authors_using_label_on_topic_post": 1.01582802,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.71822794,
+          "post_percentage_point_contribution": 0.5151235,
+          "author_percentage_point_contribution": 0.92133239
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0736644,
+          "post_percentage_point_contribution": 0.05283318,
+          "author_percentage_point_contribution": 0.09449563
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sports participation",
+      "overall_value": 0.72622843,
+      "percent_topic_posts_with_label": 0.55474838,
+      "percent_topic_authors_using_label_on_topic_post": 0.89770848,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.17234906,
+          "post_percentage_point_contribution": 0.13208295,
+          "author_percentage_point_contribution": 0.21261517
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.55387937,
+          "post_percentage_point_contribution": 0.42266543,
+          "author_percentage_point_contribution": 0.68509331
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mask use",
+      "overall_value": 0.61433548,
+      "percent_topic_posts_with_label": 0.44908202,
+      "percent_topic_authors_using_label_on_topic_post": 0.77958894,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.52225498,
+          "post_percentage_point_contribution": 0.38304055,
+          "author_percentage_point_contribution": 0.66146941
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.09208051,
+          "post_percentage_point_contribution": 0.06604147,
+          "author_percentage_point_contribution": 0.11811954
+        }
+      ]
+    },
+    {
+      "intersecting_label": "educational access",
+      "overall_value": 0.57750328,
+      "percent_topic_posts_with_label": 0.42266543,
+      "percent_topic_authors_using_label_on_topic_post": 0.73234113,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.57750328,
+          "post_percentage_point_contribution": 0.42266543,
+          "author_percentage_point_contribution": 0.73234113
+        }
+      ]
+    },
+    {
+      "intersecting_label": "outdoor environment",
+      "overall_value": 0.57089913,
+      "percent_topic_posts_with_label": 0.40945714,
+      "percent_topic_authors_using_label_on_topic_post": 0.73234113,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.25782542,
+          "post_percentage_point_contribution": 0.18491613,
+          "author_percentage_point_contribution": 0.3307347
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.31307372,
+          "post_percentage_point_contribution": 0.22454101,
+          "author_percentage_point_contribution": 0.40160643
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sleep problem",
+      "overall_value": 0.55248303,
+      "percent_topic_posts_with_label": 0.39624884,
+      "percent_topic_authors_using_label_on_topic_post": 0.70871722,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.55248303,
+          "post_percentage_point_contribution": 0.39624884,
+          "author_percentage_point_contribution": 0.70871722
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food insecurity",
+      "overall_value": 0.49202692,
+      "percent_topic_posts_with_label": 0.36983225,
+      "percent_topic_authors_using_label_on_topic_post": 0.61422159,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.38153032,
+          "post_percentage_point_contribution": 0.29058249,
+          "author_percentage_point_contribution": 0.47247815
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.11049661,
+          "post_percentage_point_contribution": 0.07924977,
+          "author_percentage_point_contribution": 0.14174344
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childcare center",
+      "overall_value": 0.48542278,
+      "percent_topic_posts_with_label": 0.35662396,
+      "percent_topic_authors_using_label_on_topic_post": 0.61422159,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.26442956,
+          "post_percentage_point_contribution": 0.19812442,
+          "author_percentage_point_contribution": 0.3307347
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.22099321,
+          "post_percentage_point_contribution": 0.15849954,
+          "author_percentage_point_contribution": 0.28348689
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mental health condition",
+      "overall_value": 0.47881863,
+      "percent_topic_posts_with_label": 0.34341567,
+      "percent_topic_authors_using_label_on_topic_post": 0.61422159,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.34990592,
+          "post_percentage_point_contribution": 0.2509576,
+          "author_percentage_point_contribution": 0.44885424
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.12891271,
+          "post_percentage_point_contribution": 0.09245806,
+          "author_percentage_point_contribution": 0.16536735
+        }
+      ]
+    },
+    {
+      "intersecting_label": "classroom",
+      "overall_value": 0.44859057,
+      "percent_topic_posts_with_label": 0.33020737,
+      "percent_topic_authors_using_label_on_topic_post": 0.56697378,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.09208051,
+          "post_percentage_point_contribution": 0.06604147,
+          "author_percentage_point_contribution": 0.11811954
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.35651007,
+          "post_percentage_point_contribution": 0.2641659,
+          "author_percentage_point_contribution": 0.44885424
+        }
+      ]
+    },
+    {
+      "intersecting_label": "toddlers",
+      "overall_value": 0.42496667,
+      "percent_topic_posts_with_label": 0.33020737,
+      "percent_topic_authors_using_label_on_topic_post": 0.51972596,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.09208051,
+          "post_percentage_point_contribution": 0.06604147,
+          "author_percentage_point_contribution": 0.11811954
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.33288616,
+          "post_percentage_point_contribution": 0.2641659,
+          "author_percentage_point_contribution": 0.40160643
+        }
+      ]
+    },
+    {
+      "intersecting_label": "park or green space",
+      "overall_value": 0.40515422,
+      "percent_topic_posts_with_label": 0.29058249,
+      "percent_topic_authors_using_label_on_topic_post": 0.51972596,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.09208051,
+          "post_percentage_point_contribution": 0.06604147,
+          "author_percentage_point_contribution": 0.11811954
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.31307372,
+          "post_percentage_point_contribution": 0.22454101,
+          "author_percentage_point_contribution": 0.40160643
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infants",
+      "overall_value": 0.39994642,
+      "percent_topic_posts_with_label": 0.30379078,
+      "percent_topic_authors_using_label_on_topic_post": 0.49610206,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.06775843,
+          "post_percentage_point_contribution": 0.05283318,
+          "author_percentage_point_contribution": 0.08268368
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.33218799,
+          "post_percentage_point_contribution": 0.2509576,
+          "author_percentage_point_contribution": 0.41341838
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildfire smoke",
+      "overall_value": 0.39334227,
+      "percent_topic_posts_with_label": 0.29058249,
+      "percent_topic_authors_using_label_on_topic_post": 0.49610206,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.31967787,
+          "post_percentage_point_contribution": 0.23774931,
+          "author_percentage_point_contribution": 0.40160643
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0736644,
+          "post_percentage_point_contribution": 0.05283318,
+          "author_percentage_point_contribution": 0.09449563
+        }
+      ]
+    },
+    {
+      "intersecting_label": "playground",
+      "overall_value": 0.38673812,
+      "percent_topic_posts_with_label": 0.27737419,
+      "percent_topic_authors_using_label_on_topic_post": 0.49610206,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.36832202,
+          "post_percentage_point_contribution": 0.2641659,
+          "author_percentage_point_contribution": 0.47247815
+        }
+      ]
+    },
+    {
+      "intersecting_label": "fire hazard",
+      "overall_value": 0.36971836,
+      "percent_topic_posts_with_label": 0.29058249,
+      "percent_topic_authors_using_label_on_topic_post": 0.44885424,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.20397345,
+          "post_percentage_point_contribution": 0.17170783,
+          "author_percentage_point_contribution": 0.23623907
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.16574491,
+          "post_percentage_point_contribution": 0.11887465,
+          "author_percentage_point_contribution": 0.21261517
+        }
+      ]
+    },
+    {
+      "intersecting_label": "advocacy",
+      "overall_value": 0.34990592,
+      "percent_topic_posts_with_label": 0.2509576,
+      "percent_topic_authors_using_label_on_topic_post": 0.44885424,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.31307372,
+          "post_percentage_point_contribution": 0.22454101,
+          "author_percentage_point_contribution": 0.40160643
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0368322,
+          "post_percentage_point_contribution": 0.02641659,
+          "author_percentage_point_contribution": 0.04724781
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cough",
+      "overall_value": 0.34990592,
+      "percent_topic_posts_with_label": 0.2509576,
+      "percent_topic_authors_using_label_on_topic_post": 0.44885424,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.22099321,
+          "post_percentage_point_contribution": 0.15849954,
+          "author_percentage_point_contribution": 0.28348689
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.12891271,
+          "post_percentage_point_contribution": 0.09245806,
+          "author_percentage_point_contribution": 0.16536735
+        }
+      ]
+    },
+    {
+      "intersecting_label": "extreme heat",
+      "overall_value": 0.34990592,
+      "percent_topic_posts_with_label": 0.2509576,
+      "percent_topic_authors_using_label_on_topic_post": 0.44885424,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.23940931,
+          "post_percentage_point_contribution": 0.17170783,
+          "author_percentage_point_contribution": 0.3071108
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.11049661,
+          "post_percentage_point_contribution": 0.07924977,
+          "author_percentage_point_contribution": 0.14174344
+        }
+      ]
+    },
+    {
+      "intersecting_label": "poverty or financial hardship",
+      "overall_value": 0.33148982,
+      "percent_topic_posts_with_label": 0.23774931,
+      "percent_topic_authors_using_label_on_topic_post": 0.42523033,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.33148982,
+          "post_percentage_point_contribution": 0.23774931,
+          "author_percentage_point_contribution": 0.42523033
+        }
+      ]
+    },
+    {
+      "intersecting_label": "violence or crime",
+      "overall_value": 0.31307372,
+      "percent_topic_posts_with_label": 0.22454101,
+      "percent_topic_authors_using_label_on_topic_post": 0.40160643,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.25782542,
+          "post_percentage_point_contribution": 0.18491613,
+          "author_percentage_point_contribution": 0.3307347
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0552483,
+          "post_percentage_point_contribution": 0.03962488,
+          "author_percentage_point_contribution": 0.07087172
+        }
+      ]
+    },
+    {
+      "intersecting_label": "workers",
+      "overall_value": 0.31307372,
+      "percent_topic_posts_with_label": 0.22454101,
+      "percent_topic_authors_using_label_on_topic_post": 0.40160643,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.27624152,
+          "post_percentage_point_contribution": 0.19812442,
+          "author_percentage_point_contribution": 0.35435861
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0368322,
+          "post_percentage_point_contribution": 0.02641659,
+          "author_percentage_point_contribution": 0.04724781
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health disparity",
+      "overall_value": 0.29465762,
+      "percent_topic_posts_with_label": 0.21133272,
+      "percent_topic_authors_using_label_on_topic_post": 0.37798252,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.27624152,
+          "post_percentage_point_contribution": 0.19812442,
+          "author_percentage_point_contribution": 0.35435861
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "community program or service",
+      "overall_value": 0.28284566,
+      "percent_topic_posts_with_label": 0.21133272,
+      "percent_topic_authors_using_label_on_topic_post": 0.35435861,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.24601346,
+          "post_percentage_point_contribution": 0.18491613,
+          "author_percentage_point_contribution": 0.3071108
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0368322,
+          "post_percentage_point_contribution": 0.02641659,
+          "author_percentage_point_contribution": 0.04724781
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health education or awareness",
+      "overall_value": 0.28284566,
+      "percent_topic_posts_with_label": 0.21133272,
+      "percent_topic_authors_using_label_on_topic_post": 0.35435861,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.20257711,
+          "post_percentage_point_contribution": 0.14529124,
+          "author_percentage_point_contribution": 0.25986298
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.08026855,
+          "post_percentage_point_contribution": 0.06604147,
+          "author_percentage_point_contribution": 0.09449563
+        }
+      ]
+    },
+    {
+      "intersecting_label": "vaccination",
+      "overall_value": 0.28284566,
+      "percent_topic_posts_with_label": 0.21133272,
+      "percent_topic_authors_using_label_on_topic_post": 0.35435861,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.22759736,
+          "post_percentage_point_contribution": 0.17170783,
+          "author_percentage_point_contribution": 0.28348689
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0552483,
+          "post_percentage_point_contribution": 0.03962488,
+          "author_percentage_point_contribution": 0.07087172
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sports or recreation facility",
+      "overall_value": 0.27624152,
+      "percent_topic_posts_with_label": 0.19812442,
+      "percent_topic_authors_using_label_on_topic_post": 0.35435861,
+      "links": [
+        {
+          "component_label": "activity cancellation",
+          "value": 0.27624152,
+          "post_percentage_point_contribution": 0.19812442,
+          "author_percentage_point_contribution": 0.35435861
+        }
+      ]
+    },
+    {
+      "intersecting_label": "hurricane or severe storm",
+      "overall_value": 0.26442956,
+      "percent_topic_posts_with_label": 0.19812442,
+      "percent_topic_authors_using_label_on_topic_post": 0.3307347,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.20918126,
+          "post_percentage_point_contribution": 0.15849954,
+          "author_percentage_point_contribution": 0.25986298
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0552483,
+          "post_percentage_point_contribution": 0.03962488,
+          "author_percentage_point_contribution": 0.07087172
+        }
+      ]
+    },
+    {
+      "intersecting_label": "children with disabilities",
+      "overall_value": 0.25782542,
+      "percent_topic_posts_with_label": 0.18491613,
+      "percent_topic_authors_using_label_on_topic_post": 0.3307347,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0552483,
+          "post_percentage_point_contribution": 0.03962488,
+          "author_percentage_point_contribution": 0.07087172
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.20257711,
+          "post_percentage_point_contribution": 0.14529124,
+          "author_percentage_point_contribution": 0.25986298
+        }
+      ]
+    },
+    {
+      "intersecting_label": "respiratory illness",
+      "overall_value": 0.25782542,
+      "percent_topic_posts_with_label": 0.18491613,
+      "percent_topic_authors_using_label_on_topic_post": 0.3307347,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.20257711,
+          "post_percentage_point_contribution": 0.14529124,
+          "author_percentage_point_contribution": 0.25986298
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0552483,
+          "post_percentage_point_contribution": 0.03962488,
+          "author_percentage_point_contribution": 0.07087172
+        }
+      ]
+    },
+    {
+      "intersecting_label": "indoor environment",
+      "overall_value": 0.23940931,
+      "percent_topic_posts_with_label": 0.17170783,
+      "percent_topic_authors_using_label_on_topic_post": 0.3071108,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.12891271,
+          "post_percentage_point_contribution": 0.09245806,
+          "author_percentage_point_contribution": 0.16536735
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.11049661,
+          "post_percentage_point_contribution": 0.07924977,
+          "author_percentage_point_contribution": 0.14174344
+        }
+      ]
+    },
+    {
+      "intersecting_label": "flooding",
+      "overall_value": 0.22759736,
+      "percent_topic_posts_with_label": 0.17170783,
+      "percent_topic_authors_using_label_on_topic_post": 0.28348689,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.18155711,
+          "post_percentage_point_contribution": 0.1386871,
+          "author_percentage_point_contribution": 0.22442712
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.04604025,
+          "post_percentage_point_contribution": 0.03302074,
+          "author_percentage_point_contribution": 0.05905977
+        }
+      ]
+    },
+    {
+      "intersecting_label": "street or roadway",
+      "overall_value": 0.22759736,
+      "percent_topic_posts_with_label": 0.17170783,
+      "percent_topic_authors_using_label_on_topic_post": 0.28348689,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.15393296,
+          "post_percentage_point_contribution": 0.11887465,
+          "author_percentage_point_contribution": 0.18899126
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0736644,
+          "post_percentage_point_contribution": 0.05283318,
+          "author_percentage_point_contribution": 0.09449563
+        }
+      ]
+    },
+    {
+      "intersecting_label": "anxiety",
+      "overall_value": 0.22099321,
+      "percent_topic_posts_with_label": 0.15849954,
+      "percent_topic_authors_using_label_on_topic_post": 0.28348689,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.08287245,
+          "post_percentage_point_contribution": 0.05943733,
+          "author_percentage_point_contribution": 0.10630758
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.13812076,
+          "post_percentage_point_contribution": 0.09906221,
+          "author_percentage_point_contribution": 0.17717931
+        }
+      ]
+    },
+    {
+      "intersecting_label": "medical care",
+      "overall_value": 0.22099321,
+      "percent_topic_posts_with_label": 0.15849954,
+      "percent_topic_authors_using_label_on_topic_post": 0.28348689,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.09208051,
+          "post_percentage_point_contribution": 0.06604147,
+          "author_percentage_point_contribution": 0.11811954
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.12891271,
+          "post_percentage_point_contribution": 0.09245806,
+          "author_percentage_point_contribution": 0.16536735
+        }
+      ]
+    },
+    {
+      "intersecting_label": "evacuation",
+      "overall_value": 0.20257711,
+      "percent_topic_posts_with_label": 0.14529124,
+      "percent_topic_authors_using_label_on_topic_post": 0.25986298,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.15653686,
+          "post_percentage_point_contribution": 0.11227051,
+          "author_percentage_point_contribution": 0.20080321
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.04604025,
+          "post_percentage_point_contribution": 0.03302074,
+          "author_percentage_point_contribution": 0.05905977
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic hazard",
+      "overall_value": 0.20257711,
+      "percent_topic_posts_with_label": 0.14529124,
+      "percent_topic_authors_using_label_on_topic_post": 0.25986298,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.14732881,
+          "post_percentage_point_contribution": 0.10566636,
+          "author_percentage_point_contribution": 0.18899126
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0552483,
+          "post_percentage_point_contribution": 0.03962488,
+          "author_percentage_point_contribution": 0.07087172
+        }
+      ]
+    },
+    {
+      "intersecting_label": "housing instability or homelessness",
+      "overall_value": 0.19076516,
+      "percent_topic_posts_with_label": 0.14529124,
+      "percent_topic_authors_using_label_on_topic_post": 0.23623907,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.19076516,
+          "post_percentage_point_contribution": 0.14529124,
+          "author_percentage_point_contribution": 0.23623907
+        }
+      ]
+    },
+    {
+      "intersecting_label": "ambient air pollution",
+      "overall_value": 0.18416101,
+      "percent_topic_posts_with_label": 0.13208295,
+      "percent_topic_authors_using_label_on_topic_post": 0.23623907,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.08287245,
+          "post_percentage_point_contribution": 0.05943733,
+          "author_percentage_point_contribution": 0.10630758
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.10128856,
+          "post_percentage_point_contribution": 0.07264562,
+          "author_percentage_point_contribution": 0.12993149
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cancer",
+      "overall_value": 0.18416101,
+      "percent_topic_posts_with_label": 0.13208295,
+      "percent_topic_authors_using_label_on_topic_post": 0.23623907,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.16574491,
+          "post_percentage_point_contribution": 0.11887465,
+          "author_percentage_point_contribution": 0.21261517
+        }
+      ]
+    },
+    {
+      "intersecting_label": "depression",
+      "overall_value": 0.18416101,
+      "percent_topic_posts_with_label": 0.13208295,
+      "percent_topic_authors_using_label_on_topic_post": 0.23623907,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0736644,
+          "post_percentage_point_contribution": 0.05283318,
+          "author_percentage_point_contribution": 0.09449563
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.11049661,
+          "post_percentage_point_contribution": 0.07924977,
+          "author_percentage_point_contribution": 0.14174344
+        }
+      ]
+    },
+    {
+      "intersecting_label": "injury",
+      "overall_value": 0.18416101,
+      "percent_topic_posts_with_label": 0.13208295,
+      "percent_topic_authors_using_label_on_topic_post": 0.23623907,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.12891271,
+          "post_percentage_point_contribution": 0.09245806,
+          "author_percentage_point_contribution": 0.16536735
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0552483,
+          "post_percentage_point_contribution": 0.03962488,
+          "author_percentage_point_contribution": 0.07087172
+        }
+      ]
+    },
+    {
+      "intersecting_label": "obesity",
+      "overall_value": 0.17234906,
+      "percent_topic_posts_with_label": 0.13208295,
+      "percent_topic_authors_using_label_on_topic_post": 0.21261517,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.15393296,
+          "post_percentage_point_contribution": 0.11887465,
+          "author_percentage_point_contribution": 0.18899126
+        }
+      ]
+    },
+    {
+      "intersecting_label": "autism",
+      "overall_value": 0.16574491,
+      "percent_topic_posts_with_label": 0.11887465,
+      "percent_topic_authors_using_label_on_topic_post": 0.21261517,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.14732881,
+          "post_percentage_point_contribution": 0.10566636,
+          "author_percentage_point_contribution": 0.18899126
+        }
+      ]
+    },
+    {
+      "intersecting_label": "public transit",
+      "overall_value": 0.16574491,
+      "percent_topic_posts_with_label": 0.11887465,
+      "percent_topic_authors_using_label_on_topic_post": 0.21261517,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0736644,
+          "post_percentage_point_contribution": 0.05283318,
+          "author_percentage_point_contribution": 0.09449563
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.09208051,
+          "post_percentage_point_contribution": 0.06604147,
+          "author_percentage_point_contribution": 0.11811954
+        }
+      ]
+    },
+    {
+      "intersecting_label": "earthquake",
+      "overall_value": 0.14732881,
+      "percent_topic_posts_with_label": 0.10566636,
+      "percent_topic_authors_using_label_on_topic_post": 0.18899126,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.09208051,
+          "post_percentage_point_contribution": 0.06604147,
+          "author_percentage_point_contribution": 0.11811954
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0552483,
+          "post_percentage_point_contribution": 0.03962488,
+          "author_percentage_point_contribution": 0.07087172
+        }
+      ]
+    },
+    {
+      "intersecting_label": "influenza",
+      "overall_value": 0.14732881,
+      "percent_topic_posts_with_label": 0.10566636,
+      "percent_topic_authors_using_label_on_topic_post": 0.18899126,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.11049661,
+          "post_percentage_point_contribution": 0.07924977,
+          "author_percentage_point_contribution": 0.14174344
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0368322,
+          "post_percentage_point_contribution": 0.02641659,
+          "author_percentage_point_contribution": 0.04724781
+        }
+      ]
+    },
+    {
+      "intersecting_label": "low-income populations",
+      "overall_value": 0.14732881,
+      "percent_topic_posts_with_label": 0.10566636,
+      "percent_topic_authors_using_label_on_topic_post": 0.18899126,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.12891271,
+          "post_percentage_point_contribution": 0.09245806,
+          "author_percentage_point_contribution": 0.16536735
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "drug exposure or use",
+      "overall_value": 0.13551686,
+      "percent_topic_posts_with_label": 0.10566636,
+      "percent_topic_authors_using_label_on_topic_post": 0.16536735,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.12300673,
+          "post_percentage_point_contribution": 0.09245806,
+          "author_percentage_point_contribution": 0.1535554
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.01251012,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.01181195
+        }
+      ]
+    },
+    {
+      "intersecting_label": "walking or bicycling",
+      "overall_value": 0.13551686,
+      "percent_topic_posts_with_label": 0.10566636,
+      "percent_topic_authors_using_label_on_topic_post": 0.16536735,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.09208051,
+          "post_percentage_point_contribution": 0.06604147,
+          "author_percentage_point_contribution": 0.11811954
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.04343635,
+          "post_percentage_point_contribution": 0.03962488,
+          "author_percentage_point_contribution": 0.04724781
+        }
+      ]
+    },
+    {
+      "intersecting_label": "generic smoke",
+      "overall_value": 0.12891271,
+      "percent_topic_posts_with_label": 0.09245806,
+      "percent_topic_authors_using_label_on_topic_post": 0.16536735,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0736644,
+          "post_percentage_point_contribution": 0.05283318,
+          "author_percentage_point_contribution": 0.09449563
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0552483,
+          "post_percentage_point_contribution": 0.03962488,
+          "author_percentage_point_contribution": 0.07087172
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare facility",
+      "overall_value": 0.12891271,
+      "percent_topic_posts_with_label": 0.09245806,
+      "percent_topic_authors_using_label_on_topic_post": 0.16536735,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.09208051,
+          "post_percentage_point_contribution": 0.06604147,
+          "author_percentage_point_contribution": 0.11811954
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0368322,
+          "post_percentage_point_contribution": 0.02641659,
+          "author_percentage_point_contribution": 0.04724781
+        }
+      ]
+    },
+    {
+      "intersecting_label": "motor vehicle",
+      "overall_value": 0.12891271,
+      "percent_topic_posts_with_label": 0.09245806,
+      "percent_topic_authors_using_label_on_topic_post": 0.16536735,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.11049661,
+          "post_percentage_point_contribution": 0.07924977,
+          "author_percentage_point_contribution": 0.14174344
+        }
+      ]
+    },
+    {
+      "intersecting_label": "neighborhood",
+      "overall_value": 0.12891271,
+      "percent_topic_posts_with_label": 0.09245806,
+      "percent_topic_authors_using_label_on_topic_post": 0.16536735,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.11049661,
+          "post_percentage_point_contribution": 0.07924977,
+          "author_percentage_point_contribution": 0.14174344
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pets and companion animals",
+      "overall_value": 0.12891271,
+      "percent_topic_posts_with_label": 0.09245806,
+      "percent_topic_authors_using_label_on_topic_post": 0.16536735,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0368322,
+          "post_percentage_point_contribution": 0.02641659,
+          "author_percentage_point_contribution": 0.04724781
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.09208051,
+          "post_percentage_point_contribution": 0.06604147,
+          "author_percentage_point_contribution": 0.11811954
+        }
+      ]
+    },
+    {
+      "intersecting_label": "tornado",
+      "overall_value": 0.12891271,
+      "percent_topic_posts_with_label": 0.09245806,
+      "percent_topic_authors_using_label_on_topic_post": 0.16536735,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.09208051,
+          "post_percentage_point_contribution": 0.06604147,
+          "author_percentage_point_contribution": 0.11811954
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0368322,
+          "post_percentage_point_contribution": 0.02641659,
+          "author_percentage_point_contribution": 0.04724781
+        }
+      ]
+    },
+    {
+      "intersecting_label": "transportation access",
+      "overall_value": 0.12891271,
+      "percent_topic_posts_with_label": 0.09245806,
+      "percent_topic_authors_using_label_on_topic_post": 0.16536735,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.11049661,
+          "post_percentage_point_contribution": 0.07924977,
+          "author_percentage_point_contribution": 0.14174344
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "workplace",
+      "overall_value": 0.12891271,
+      "percent_topic_posts_with_label": 0.09245806,
+      "percent_topic_authors_using_label_on_topic_post": 0.16536735,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.09208051,
+          "post_percentage_point_contribution": 0.06604147,
+          "author_percentage_point_contribution": 0.11811954
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0368322,
+          "post_percentage_point_contribution": 0.02641659,
+          "author_percentage_point_contribution": 0.04724781
+        }
+      ]
+    },
+    {
+      "intersecting_label": "climate change",
+      "overall_value": 0.1237049,
+      "percent_topic_posts_with_label": 0.10566636,
+      "percent_topic_authors_using_label_on_topic_post": 0.14174344,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.1052888,
+          "post_percentage_point_contribution": 0.09245806,
+          "author_percentage_point_contribution": 0.11811954
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "asthma",
+      "overall_value": 0.11049661,
+      "percent_topic_posts_with_label": 0.07924977,
+      "percent_topic_authors_using_label_on_topic_post": 0.14174344,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.09208051,
+          "post_percentage_point_contribution": 0.06604147,
+          "author_percentage_point_contribution": 0.11811954
+        }
+      ]
+    },
+    {
+      "intersecting_label": "garden or yard",
+      "overall_value": 0.11049661,
+      "percent_topic_posts_with_label": 0.07924977,
+      "percent_topic_authors_using_label_on_topic_post": 0.14174344,
+      "links": [
+        {
+          "component_label": "activity cancellation",
+          "value": 0.11049661,
+          "post_percentage_point_contribution": 0.07924977,
+          "author_percentage_point_contribution": 0.14174344
+        }
+      ]
+    },
+    {
+      "intersecting_label": "natural disaster",
+      "overall_value": 0.11049661,
+      "percent_topic_posts_with_label": 0.07924977,
+      "percent_topic_authors_using_label_on_topic_post": 0.14174344,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.11049661,
+          "post_percentage_point_contribution": 0.07924977,
+          "author_percentage_point_contribution": 0.14174344
+        }
+      ]
+    },
+    {
+      "intersecting_label": "social support",
+      "overall_value": 0.11049661,
+      "percent_topic_posts_with_label": 0.07924977,
+      "percent_topic_authors_using_label_on_topic_post": 0.14174344,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.09208051,
+          "post_percentage_point_contribution": 0.06604147,
+          "author_percentage_point_contribution": 0.11811954
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic-related air pollution",
+      "overall_value": 0.11049661,
+      "percent_topic_posts_with_label": 0.07924977,
+      "percent_topic_authors_using_label_on_topic_post": 0.14174344,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0552483,
+          "post_percentage_point_contribution": 0.03962488,
+          "author_percentage_point_contribution": 0.07087172
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0552483,
+          "post_percentage_point_contribution": 0.03962488,
+          "author_percentage_point_contribution": 0.07087172
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildfire",
+      "overall_value": 0.11049661,
+      "percent_topic_posts_with_label": 0.07924977,
+      "percent_topic_authors_using_label_on_topic_post": 0.14174344,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.09208051,
+          "post_percentage_point_contribution": 0.06604147,
+          "author_percentage_point_contribution": 0.11811954
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic safety",
+      "overall_value": 0.09868465,
+      "percent_topic_posts_with_label": 0.07924977,
+      "percent_topic_authors_using_label_on_topic_post": 0.11811954,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.08026855,
+          "post_percentage_point_contribution": 0.06604147,
+          "author_percentage_point_contribution": 0.09449563
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "child abuse or neglect",
+      "overall_value": 0.09208051,
+      "percent_topic_posts_with_label": 0.06604147,
+      "percent_topic_authors_using_label_on_topic_post": 0.11811954,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0736644,
+          "post_percentage_point_contribution": 0.05283318,
+          "author_percentage_point_contribution": 0.09449563
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childcare workers",
+      "overall_value": 0.09208051,
+      "percent_topic_posts_with_label": 0.06604147,
+      "percent_topic_authors_using_label_on_topic_post": 0.11811954,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.09208051,
+          "post_percentage_point_contribution": 0.06604147,
+          "author_percentage_point_contribution": 0.11811954
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cleaning or disinfection",
+      "overall_value": 0.09208051,
+      "percent_topic_posts_with_label": 0.06604147,
+      "percent_topic_authors_using_label_on_topic_post": 0.11811954,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.09208051,
+          "post_percentage_point_contribution": 0.06604147,
+          "author_percentage_point_contribution": 0.11811954
+        }
+      ]
+    },
+    {
+      "intersecting_label": "headache or migraine",
+      "overall_value": 0.09208051,
+      "percent_topic_posts_with_label": 0.06604147,
+      "percent_topic_authors_using_label_on_topic_post": 0.11811954,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.09208051,
+          "post_percentage_point_contribution": 0.06604147,
+          "author_percentage_point_contribution": 0.11811954
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mortality or death",
+      "overall_value": 0.09208051,
+      "percent_topic_posts_with_label": 0.06604147,
+      "percent_topic_authors_using_label_on_topic_post": 0.11811954,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.08287245,
+          "post_percentage_point_contribution": 0.05943733,
+          "author_percentage_point_contribution": 0.10630758
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.00920805,
+          "post_percentage_point_contribution": 0.00660415,
+          "author_percentage_point_contribution": 0.01181195
+        }
+      ]
+    },
+    {
+      "intersecting_label": "breastfeeding",
+      "overall_value": 0.0736644,
+      "percent_topic_posts_with_label": 0.05283318,
+      "percent_topic_authors_using_label_on_topic_post": 0.09449563,
+      "links": [
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0736644,
+          "post_percentage_point_contribution": 0.05283318,
+          "author_percentage_point_contribution": 0.09449563
+        }
+      ]
+    },
+    {
+      "intersecting_label": "child welfare services",
+      "overall_value": 0.0736644,
+      "percent_topic_posts_with_label": 0.05283318,
+      "percent_topic_authors_using_label_on_topic_post": 0.09449563,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0736644,
+          "post_percentage_point_contribution": 0.05283318,
+          "author_percentage_point_contribution": 0.09449563
+        }
+      ]
+    },
+    {
+      "intersecting_label": "diabetes",
+      "overall_value": 0.0736644,
+      "percent_topic_posts_with_label": 0.05283318,
+      "percent_topic_authors_using_label_on_topic_post": 0.09449563,
+      "links": [
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0736644,
+          "post_percentage_point_contribution": 0.05283318,
+          "author_percentage_point_contribution": 0.09449563
+        }
+      ]
+    },
+    {
+      "intersecting_label": "fever",
+      "overall_value": 0.0736644,
+      "percent_topic_posts_with_label": 0.05283318,
+      "percent_topic_authors_using_label_on_topic_post": 0.09449563,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0552483,
+          "post_percentage_point_contribution": 0.03962488,
+          "author_percentage_point_contribution": 0.07087172
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "gastrointestinal illness",
+      "overall_value": 0.0736644,
+      "percent_topic_posts_with_label": 0.05283318,
+      "percent_topic_authors_using_label_on_topic_post": 0.09449563,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0736644,
+          "post_percentage_point_contribution": 0.05283318,
+          "author_percentage_point_contribution": 0.09449563
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health screening or testing",
+      "overall_value": 0.0736644,
+      "percent_topic_posts_with_label": 0.05283318,
+      "percent_topic_authors_using_label_on_topic_post": 0.09449563,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0552483,
+          "post_percentage_point_contribution": 0.03962488,
+          "author_percentage_point_contribution": 0.07087172
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infectious disease exposure",
+      "overall_value": 0.0736644,
+      "percent_topic_posts_with_label": 0.05283318,
+      "percent_topic_authors_using_label_on_topic_post": 0.09449563,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0736644,
+          "post_percentage_point_contribution": 0.05283318,
+          "author_percentage_point_contribution": 0.09449563
+        }
+      ]
+    },
+    {
+      "intersecting_label": "medication use",
+      "overall_value": 0.0736644,
+      "percent_topic_posts_with_label": 0.05283318,
+      "percent_topic_authors_using_label_on_topic_post": 0.09449563,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0368322,
+          "post_percentage_point_contribution": 0.02641659,
+          "author_percentage_point_contribution": 0.04724781
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0368322,
+          "post_percentage_point_contribution": 0.02641659,
+          "author_percentage_point_contribution": 0.04724781
+        }
+      ]
+    },
+    {
+      "intersecting_label": "racial and ethnic minority populations",
+      "overall_value": 0.0736644,
+      "percent_topic_posts_with_label": 0.05283318,
+      "percent_topic_authors_using_label_on_topic_post": 0.09449563,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0552483,
+          "post_percentage_point_contribution": 0.03962488,
+          "author_percentage_point_contribution": 0.07087172
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "swimming or water recreation",
+      "overall_value": 0.0736644,
+      "percent_topic_posts_with_label": 0.05283318,
+      "percent_topic_authors_using_label_on_topic_post": 0.09449563,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0552483,
+          "post_percentage_point_contribution": 0.03962488,
+          "author_percentage_point_contribution": 0.07087172
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "unsafe housing conditions",
+      "overall_value": 0.0736644,
+      "percent_topic_posts_with_label": 0.05283318,
+      "percent_topic_authors_using_label_on_topic_post": 0.09449563,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0736644,
+          "post_percentage_point_contribution": 0.05283318,
+          "author_percentage_point_contribution": 0.09449563
+        }
+      ]
+    },
+    {
+      "intersecting_label": "beach or coastal area",
+      "overall_value": 0.06185245,
+      "percent_topic_posts_with_label": 0.05283318,
+      "percent_topic_authors_using_label_on_topic_post": 0.07087172,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0368322,
+          "post_percentage_point_contribution": 0.02641659,
+          "author_percentage_point_contribution": 0.04724781
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.02502025,
+          "post_percentage_point_contribution": 0.02641659,
+          "author_percentage_point_contribution": 0.02362391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "discrimination",
+      "overall_value": 0.06185245,
+      "percent_topic_posts_with_label": 0.05283318,
+      "percent_topic_authors_using_label_on_topic_post": 0.07087172,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0526444,
+          "post_percentage_point_contribution": 0.04622903,
+          "author_percentage_point_contribution": 0.05905977
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.00920805,
+          "post_percentage_point_contribution": 0.00660415,
+          "author_percentage_point_contribution": 0.01181195
+        }
+      ]
+    },
+    {
+      "intersecting_label": "foster youth",
+      "overall_value": 0.06185245,
+      "percent_topic_posts_with_label": 0.05283318,
+      "percent_topic_authors_using_label_on_topic_post": 0.07087172,
+      "links": [
+        {
+          "component_label": "activity cancellation",
+          "value": 0.06185245,
+          "post_percentage_point_contribution": 0.05283318,
+          "author_percentage_point_contribution": 0.07087172
+        }
+      ]
+    },
+    {
+      "intersecting_label": "alcohol exposure or use",
+      "overall_value": 0.0552483,
+      "percent_topic_posts_with_label": 0.03962488,
+      "percent_topic_authors_using_label_on_topic_post": 0.07087172,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0368322,
+          "post_percentage_point_contribution": 0.02641659,
+          "author_percentage_point_contribution": 0.04724781
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "apartment",
+      "overall_value": 0.0552483,
+      "percent_topic_posts_with_label": 0.03962488,
+      "percent_topic_authors_using_label_on_topic_post": 0.07087172,
+      "links": [
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0552483,
+          "post_percentage_point_contribution": 0.03962488,
+          "author_percentage_point_contribution": 0.07087172
+        }
+      ]
+    },
+    {
+      "intersecting_label": "contaminated drinking water",
+      "overall_value": 0.0552483,
+      "percent_topic_posts_with_label": 0.03962488,
+      "percent_topic_authors_using_label_on_topic_post": 0.07087172,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0552483,
+          "post_percentage_point_contribution": 0.03962488,
+          "author_percentage_point_contribution": 0.07087172
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cooking or food preparation",
+      "overall_value": 0.0552483,
+      "percent_topic_posts_with_label": 0.03962488,
+      "percent_topic_authors_using_label_on_topic_post": 0.07087172,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0368322,
+          "post_percentage_point_contribution": 0.02641659,
+          "author_percentage_point_contribution": 0.04724781
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare access",
+      "overall_value": 0.0552483,
+      "percent_topic_posts_with_label": 0.03962488,
+      "percent_topic_authors_using_label_on_topic_post": 0.07087172,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0368322,
+          "post_percentage_point_contribution": 0.02641659,
+          "author_percentage_point_contribution": 0.04724781
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare workers",
+      "overall_value": 0.0552483,
+      "percent_topic_posts_with_label": 0.03962488,
+      "percent_topic_authors_using_label_on_topic_post": 0.07087172,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0552483,
+          "post_percentage_point_contribution": 0.03962488,
+          "author_percentage_point_contribution": 0.07087172
+        }
+      ]
+    },
+    {
+      "intersecting_label": "heat-related illness",
+      "overall_value": 0.0552483,
+      "percent_topic_posts_with_label": 0.03962488,
+      "percent_topic_authors_using_label_on_topic_post": 0.07087172,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.04604025,
+          "post_percentage_point_contribution": 0.03302074,
+          "author_percentage_point_contribution": 0.05905977
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.00920805,
+          "post_percentage_point_contribution": 0.00660415,
+          "author_percentage_point_contribution": 0.01181195
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pain",
+      "overall_value": 0.0552483,
+      "percent_topic_posts_with_label": 0.03962488,
+      "percent_topic_authors_using_label_on_topic_post": 0.07087172,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0368322,
+          "post_percentage_point_contribution": 0.02641659,
+          "author_percentage_point_contribution": 0.04724781
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pregnant people",
+      "overall_value": 0.0552483,
+      "percent_topic_posts_with_label": 0.03962488,
+      "percent_topic_authors_using_label_on_topic_post": 0.07087172,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0368322,
+          "post_percentage_point_contribution": 0.02641659,
+          "author_percentage_point_contribution": 0.04724781
+        }
+      ]
+    },
+    {
+      "intersecting_label": "restaurant or food store",
+      "overall_value": 0.0552483,
+      "percent_topic_posts_with_label": 0.03962488,
+      "percent_topic_authors_using_label_on_topic_post": 0.07087172,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0368322,
+          "post_percentage_point_contribution": 0.02641659,
+          "author_percentage_point_contribution": 0.04724781
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "scientific research",
+      "overall_value": 0.0552483,
+      "percent_topic_posts_with_label": 0.03962488,
+      "percent_topic_authors_using_label_on_topic_post": 0.07087172,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0368322,
+          "post_percentage_point_contribution": 0.02641659,
+          "author_percentage_point_contribution": 0.04724781
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "shelter or temporary housing",
+      "overall_value": 0.0552483,
+      "percent_topic_posts_with_label": 0.03962488,
+      "percent_topic_authors_using_label_on_topic_post": 0.07087172,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0368322,
+          "post_percentage_point_contribution": 0.02641659,
+          "author_percentage_point_contribution": 0.04724781
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "youth engagement",
+      "overall_value": 0.0552483,
+      "percent_topic_posts_with_label": 0.03962488,
+      "percent_topic_authors_using_label_on_topic_post": 0.07087172,
+      "links": [
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0552483,
+          "post_percentage_point_contribution": 0.03962488,
+          "author_percentage_point_contribution": 0.07087172
+        }
+      ]
+    },
+    {
+      "intersecting_label": "air-quality monitoring",
+      "overall_value": 0.0368322,
+      "percent_topic_posts_with_label": 0.02641659,
+      "percent_topic_authors_using_label_on_topic_post": 0.04724781,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "allergens",
+      "overall_value": 0.0368322,
+      "percent_topic_posts_with_label": 0.02641659,
+      "percent_topic_authors_using_label_on_topic_post": 0.04724781,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0368322,
+          "post_percentage_point_contribution": 0.02641659,
+          "author_percentage_point_contribution": 0.04724781
+        }
+      ]
+    },
+    {
+      "intersecting_label": "dental care",
+      "overall_value": 0.0368322,
+      "percent_topic_posts_with_label": 0.02641659,
+      "percent_topic_authors_using_label_on_topic_post": 0.04724781,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0368322,
+          "post_percentage_point_contribution": 0.02641659,
+          "author_percentage_point_contribution": 0.04724781
+        }
+      ]
+    },
+    {
+      "intersecting_label": "emergency response",
+      "overall_value": 0.0368322,
+      "percent_topic_posts_with_label": 0.02641659,
+      "percent_topic_authors_using_label_on_topic_post": 0.04724781,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0368322,
+          "post_percentage_point_contribution": 0.02641659,
+          "author_percentage_point_contribution": 0.04724781
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental policy or regulation",
+      "overall_value": 0.0368322,
+      "percent_topic_posts_with_label": 0.02641659,
+      "percent_topic_authors_using_label_on_topic_post": 0.04724781,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0368322,
+          "post_percentage_point_contribution": 0.02641659,
+          "author_percentage_point_contribution": 0.04724781
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental remediation",
+      "overall_value": 0.0368322,
+      "percent_topic_posts_with_label": 0.02641659,
+      "percent_topic_authors_using_label_on_topic_post": 0.04724781,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        },
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food access",
+      "overall_value": 0.0368322,
+      "percent_topic_posts_with_label": 0.02641659,
+      "percent_topic_authors_using_label_on_topic_post": 0.04724781,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0368322,
+          "post_percentage_point_contribution": 0.02641659,
+          "author_percentage_point_contribution": 0.04724781
+        }
+      ]
+    },
+    {
+      "intersecting_label": "hazardous chemicals",
+      "overall_value": 0.0368322,
+      "percent_topic_posts_with_label": 0.02641659,
+      "percent_topic_authors_using_label_on_topic_post": 0.04724781,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0368322,
+          "post_percentage_point_contribution": 0.02641659,
+          "author_percentage_point_contribution": 0.04724781
+        }
+      ]
+    },
+    {
+      "intersecting_label": "indoor air quality",
+      "overall_value": 0.0368322,
+      "percent_topic_posts_with_label": 0.02641659,
+      "percent_topic_authors_using_label_on_topic_post": 0.04724781,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0368322,
+          "post_percentage_point_contribution": 0.02641659,
+          "author_percentage_point_contribution": 0.04724781
+        }
+      ]
+    },
+    {
+      "intersecting_label": "musculoskeletal injury",
+      "overall_value": 0.0368322,
+      "percent_topic_posts_with_label": 0.02641659,
+      "percent_topic_authors_using_label_on_topic_post": 0.04724781,
+      "links": [
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0368322,
+          "post_percentage_point_contribution": 0.02641659,
+          "author_percentage_point_contribution": 0.04724781
+        }
+      ]
+    },
+    {
+      "intersecting_label": "plastics or microplastics",
+      "overall_value": 0.0368322,
+      "percent_topic_posts_with_label": 0.02641659,
+      "percent_topic_authors_using_label_on_topic_post": 0.04724781,
+      "links": [
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0368322,
+          "post_percentage_point_contribution": 0.02641659,
+          "author_percentage_point_contribution": 0.04724781
+        }
+      ]
+    },
+    {
+      "intersecting_label": "rural populations",
+      "overall_value": 0.0368322,
+      "percent_topic_posts_with_label": 0.02641659,
+      "percent_topic_authors_using_label_on_topic_post": 0.04724781,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0368322,
+          "post_percentage_point_contribution": 0.02641659,
+          "author_percentage_point_contribution": 0.04724781
+        }
+      ]
+    },
+    {
+      "intersecting_label": "air filtration",
+      "overall_value": 0.0184161,
+      "percent_topic_posts_with_label": 0.01320829,
+      "percent_topic_authors_using_label_on_topic_post": 0.02362391,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cognitive or learning problem",
+      "overall_value": 0.0184161,
+      "percent_topic_posts_with_label": 0.01320829,
+      "percent_topic_authors_using_label_on_topic_post": 0.02362391,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "community resilience",
+      "overall_value": 0.0184161,
+      "percent_topic_posts_with_label": 0.01320829,
+      "percent_topic_authors_using_label_on_topic_post": 0.02362391,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "dental clinic",
+      "overall_value": 0.0184161,
+      "percent_topic_posts_with_label": 0.01320829,
+      "percent_topic_authors_using_label_on_topic_post": 0.02362391,
+      "links": [
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "developmental delay",
+      "overall_value": 0.0184161,
+      "percent_topic_posts_with_label": 0.01320829,
+      "percent_topic_authors_using_label_on_topic_post": 0.02362391,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "disability",
+      "overall_value": 0.0184161,
+      "percent_topic_posts_with_label": 0.01320829,
+      "percent_topic_authors_using_label_on_topic_post": 0.02362391,
+      "links": [
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "disaster preparedness",
+      "overall_value": 0.0184161,
+      "percent_topic_posts_with_label": 0.01320829,
+      "percent_topic_authors_using_label_on_topic_post": 0.02362391,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental justice",
+      "overall_value": 0.0184161,
+      "percent_topic_posts_with_label": 0.01320829,
+      "percent_topic_authors_using_label_on_topic_post": 0.02362391,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "fire safety",
+      "overall_value": 0.0184161,
+      "percent_topic_posts_with_label": 0.01320829,
+      "percent_topic_authors_using_label_on_topic_post": 0.02362391,
+      "links": [
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food contamination",
+      "overall_value": 0.0184161,
+      "percent_topic_posts_with_label": 0.01320829,
+      "percent_topic_authors_using_label_on_topic_post": 0.02362391,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "household chemicals",
+      "overall_value": 0.0184161,
+      "percent_topic_posts_with_label": 0.01320829,
+      "percent_topic_authors_using_label_on_topic_post": 0.02362391,
+      "links": [
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "housing quality",
+      "overall_value": 0.0184161,
+      "percent_topic_posts_with_label": 0.01320829,
+      "percent_topic_authors_using_label_on_topic_post": 0.02362391,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "kidney disease",
+      "overall_value": 0.0184161,
+      "percent_topic_posts_with_label": 0.01320829,
+      "percent_topic_authors_using_label_on_topic_post": 0.02362391,
+      "links": [
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "noise pollution",
+      "overall_value": 0.0184161,
+      "percent_topic_posts_with_label": 0.01320829,
+      "percent_topic_authors_using_label_on_topic_post": 0.02362391,
+      "links": [
+        {
+          "component_label": "activity cancellation",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "poor sanitation",
+      "overall_value": 0.0184161,
+      "percent_topic_posts_with_label": 0.01320829,
+      "percent_topic_authors_using_label_on_topic_post": 0.02362391,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "river lake or water body",
+      "overall_value": 0.0184161,
+      "percent_topic_posts_with_label": 0.01320829,
+      "percent_topic_authors_using_label_on_topic_post": 0.02362391,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "secondhand tobacco smoke",
+      "overall_value": 0.0184161,
+      "percent_topic_posts_with_label": 0.01320829,
+      "percent_topic_authors_using_label_on_topic_post": 0.02362391,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sewage or wastewater",
+      "overall_value": 0.0184161,
+      "percent_topic_posts_with_label": 0.01320829,
+      "percent_topic_authors_using_label_on_topic_post": 0.02362391,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "vaping aerosol",
+      "overall_value": 0.0184161,
+      "percent_topic_posts_with_label": 0.01320829,
+      "percent_topic_authors_using_label_on_topic_post": 0.02362391,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "water pollution",
+      "overall_value": 0.0184161,
+      "percent_topic_posts_with_label": 0.01320829,
+      "percent_topic_authors_using_label_on_topic_post": 0.02362391,
+      "links": [
+        {
+          "component_label": "school closure",
+          "value": 0.0184161,
+          "post_percentage_point_contribution": 0.01320829,
+          "author_percentage_point_contribution": 0.02362391
+        }
+      ]
+    }
+  ]
+}

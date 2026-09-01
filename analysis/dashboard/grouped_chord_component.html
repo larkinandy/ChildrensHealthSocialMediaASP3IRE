@@ -1,0 +1,36 @@
+<div id="smartace-topic-chord">
+  <div id="smartace-chord-canvas" role="img" aria-label="Grouped topic chord diagram"></div>
+  <div id="smartace-chord-tooltip" role="tooltip"></div>
+</div>
+<style>
+#smartace-topic-chord{--fg:#243247;--muted:#667085;--line:#d7dce3;--surface:#f3f6f8;--tip:#fff;--c1:#ef5b21;--c2:#0d7685;--c3:#1f68d5;--c4:#5a36b8;--c5:#6aa56f;--c6:#b7791f;position:relative;width:100%;color:var(--fg);background:var(--surface);font:12px system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;overflow:hidden;color-scheme:light}
+:root,html,body{margin:0;background:#f3f6f8!important;color:#243247!important;color-scheme:light}
+#smartace-topic-chord *{box-sizing:border-box}#smartace-topic-chord .smartace-chord-head{display:flex;align-items:center;justify-content:flex-end;gap:16px;padding:4px 8px 2px}#smartace-topic-chord label{display:flex;align-items:center;gap:7px;white-space:nowrap;color:var(--muted)}#smartace-topic-chord input{width:145px;accent-color:var(--c2)}#smartace-chord-canvas svg{display:block;width:100%;height:auto}#smartace-chord-canvas text{fill:var(--fg);font-size:11px}#smartace-chord-canvas .smartace-ribbon{opacity:.55;mix-blend-mode:multiply;transition:opacity .12s}#smartace-chord-canvas .smartace-faded{opacity:.025}#smartace-chord-canvas .smartace-topic-band{fill:var(--c1);opacity:.25;stroke:var(--fg);stroke-width:.5}#smartace-chord-tooltip{position:absolute;display:none;pointer-events:none;z-index:5;background:var(--tip);color:var(--fg);border:1px solid var(--line);padding:8px 10px;max-width:290px;line-height:1.4;box-shadow:0 4px 16px rgb(0 0 0/.16)}
+</style>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+<script>
+(() => {
+  const payload = __TOPIC_PAYLOAD__;
+  const root=document.getElementById("smartace-topic-chord"),canvas=document.getElementById("smartace-chord-canvas"),tip=document.getElementById("smartace-chord-tooltip");
+  const maxLabels=Math.min(50,payload.intersections.length);
+  const visibleLabels=Math.min(Math.max(1,Number(payload._label_limit)||20),maxLabels);
+  const palette=["var(--c1)","var(--c2)","var(--c3)","var(--c4)","var(--c5)","var(--c6)"],color=i=>palette[i%palette.length];
+  function draw(){
+    const intersections=payload.intersections.slice(0,visibleLabels),components=payload.component_labels,nc=components.length,n=nc+intersections.length,names=[...components,...intersections.map(x=>x.intersecting_label)];
+    const width=Math.max(360,canvas.clientWidth||760),radius=width*.35,inner=radius-14,matrix=Array.from({length:n},()=>Array(n).fill(0));
+    intersections.forEach((item,j)=>item.links.forEach(link=>{const i=components.indexOf(link.component_label),k=nc+j;if(i>=0){matrix[i][k]=link.value;matrix[k][i]=link.value}}));
+    const chords=d3.chord().padAngle(Math.min(.012,1.1/n)).sortSubgroups(d3.descending)(matrix);canvas.replaceChildren();
+    const svg=d3.select(canvas).append("svg").attr("viewBox",[-width/2,-width/2,width,width]).attr("aria-label",payload.topic+" grouped chord diagram");
+    const groups=svg.append("g").selectAll("g").data(chords.groups).join("g");
+    groups.append("path").attr("d",d3.arc().innerRadius(inner).outerRadius(radius)).attr("fill",d=>d.index<nc?color(d.index):"var(--line)").attr("stroke","var(--line)");
+    const componentGroups=chords.groups.filter(g=>g.index<nc),start=d3.min(componentGroups,g=>g.startAngle),end=d3.max(componentGroups,g=>g.endAngle),mid=(start+end)/2;
+    svg.append("path").datum({startAngle:start,endAngle:end}).attr("class","smartace-topic-band").attr("d",d3.arc().innerRadius(radius+18).outerRadius(radius+25));
+    const ribbons=svg.append("g").selectAll("path").data(chords).join("path").attr("class","smartace-ribbon").attr("d",d3.ribbon().radius(inner)).attr("fill",d=>color((d.source.index<nc?d.source:d.target).index));
+    const labelLimit=width<520?12:26;
+    groups.filter(d=>d.index<nc||(d.index-nc)<labelLimit).append("text").each(d=>d.angle=(d.startAngle+d.endAngle)/2).attr("dy",".35em").attr("transform",d=>`rotate(${d.angle*180/Math.PI-90}) translate(${radius+7})${d.angle>Math.PI?" rotate(180)":""}`).attr("text-anchor",d=>d.angle>Math.PI?"end":"start").text(d=>names[d.index]);
+    groups.on("pointerenter",(_,g)=>ribbons.classed("smartace-faded",d=>![d.source.index,d.target.index].includes(g.index))).on("pointerleave",()=>ribbons.classed("smartace-faded",false));
+    ribbons.on("pointermove",(event,d)=>{const componentIndex=d.source.index<nc?d.source.index:d.target.index,labelIndex=d.source.index>=nc?d.source.index:d.target.index,item=intersections[labelIndex-nc],link=item.links.find(x=>x.component_label===components[componentIndex]);tip.style.display="block";tip.style.left=(event.offsetX+12)+"px";tip.style.top=(event.offsetY+12)+"px";tip.innerHTML=`<strong>${components[componentIndex]} → ${item.intersecting_label}</strong><br>Component contribution: ${link.value.toFixed(2)}<br>Overall ${payload.topic} value: ${item.overall_value.toFixed(2)}<br>Topic posts: ${item.percent_topic_posts_with_label.toFixed(2)}%<br>Topic authors: ${item.percent_topic_authors_using_label_on_topic_post.toFixed(2)}%`;}).on("pointerleave",()=>tip.style.display="none");
+  }
+  new ResizeObserver(draw).observe(canvas);draw();
+})();
+</script>

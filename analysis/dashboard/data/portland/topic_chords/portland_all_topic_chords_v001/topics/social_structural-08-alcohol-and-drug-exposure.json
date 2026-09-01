@@ -1,0 +1,2197 @@
+{
+  "schema_version": "1.0.0",
+  "city_id": "38900",
+  "domain": "social_structural",
+  "category_id": "social_structural-08",
+  "topic": "Alcohol and drug exposure",
+  "component_labels": [
+    "alcohol exposure or use",
+    "drug exposure or use"
+  ],
+  "intersections": [
+    {
+      "intersecting_label": "children",
+      "overall_value": 36.71641258,
+      "percent_topic_posts_with_label": 35.8652576,
+      "percent_topic_authors_using_label_on_topic_post": 37.56756757,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 11.50174944,
+          "post_percentage_point_contribution": 10.43593131,
+          "author_percentage_point_contribution": 12.56756757
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 25.21466314,
+          "post_percentage_point_contribution": 25.42932629,
+          "author_percentage_point_contribution": 25.0
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adolescents",
+      "overall_value": 20.29204898,
+      "percent_topic_posts_with_label": 18.69220608,
+      "percent_topic_authors_using_label_on_topic_post": 21.89189189,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 6.77103788,
+          "post_percentage_point_contribution": 6.10964333,
+          "author_percentage_point_contribution": 7.43243243
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 13.5210111,
+          "post_percentage_point_contribution": 12.58256275,
+          "author_percentage_point_contribution": 14.45945946
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school",
+      "overall_value": 15.74601021,
+      "percent_topic_posts_with_label": 14.46499339,
+      "percent_topic_authors_using_label_on_topic_post": 17.02702703,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 6.03538148,
+          "post_percentage_point_contribution": 5.44914135,
+          "author_percentage_point_contribution": 6.62162162
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 9.71062873,
+          "post_percentage_point_contribution": 9.01585205,
+          "author_percentage_point_contribution": 10.40540541
+        }
+      ]
+    },
+    {
+      "intersecting_label": "students",
+      "overall_value": 13.0076047,
+      "percent_topic_posts_with_label": 11.69088507,
+      "percent_topic_authors_using_label_on_topic_post": 14.32432432,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 4.37642067,
+          "post_percentage_point_contribution": 3.79788639,
+          "author_percentage_point_contribution": 4.95495495
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 8.63118402,
+          "post_percentage_point_contribution": 7.89299868,
+          "author_percentage_point_contribution": 9.36936937
+        }
+      ]
+    },
+    {
+      "intersecting_label": "parents and caregivers",
+      "overall_value": 12.05570828,
+      "percent_topic_posts_with_label": 11.22853369,
+      "percent_topic_authors_using_label_on_topic_post": 12.88288288,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 5.23519226,
+          "post_percentage_point_contribution": 4.52443857,
+          "author_percentage_point_contribution": 5.94594595
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 6.82051602,
+          "post_percentage_point_contribution": 6.70409511,
+          "author_percentage_point_contribution": 6.93693694
+        }
+      ]
+    },
+    {
+      "intersecting_label": "child abuse or neglect",
+      "overall_value": 9.35336261,
+      "percent_topic_posts_with_label": 8.25627477,
+      "percent_topic_authors_using_label_on_topic_post": 10.45045045,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 2.57631476,
+          "post_percentage_point_contribution": 2.17965654,
+          "author_percentage_point_contribution": 2.97297297
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 6.77704785,
+          "post_percentage_point_contribution": 6.07661823,
+          "author_percentage_point_contribution": 7.47747748
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infants",
+      "overall_value": 6.03240625,
+      "percent_topic_posts_with_label": 5.21796565,
+      "percent_topic_authors_using_label_on_topic_post": 6.84684685,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 2.6543849,
+          "post_percentage_point_contribution": 2.24570674,
+          "author_percentage_point_contribution": 3.06306306
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 3.37802135,
+          "post_percentage_point_contribution": 2.97225892,
+          "author_percentage_point_contribution": 3.78378378
+        }
+      ]
+    },
+    {
+      "intersecting_label": "violence or crime",
+      "overall_value": 5.08949504,
+      "percent_topic_posts_with_label": 4.95376486,
+      "percent_topic_authors_using_label_on_topic_post": 5.22522523,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 1.41576517,
+          "post_percentage_point_contribution": 1.25495376,
+          "author_percentage_point_contribution": 1.57657658
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 3.67372987,
+          "post_percentage_point_contribution": 3.6988111,
+          "author_percentage_point_contribution": 3.64864865
+        }
+      ]
+    },
+    {
+      "intersecting_label": "unhoused populations",
+      "overall_value": 5.07152463,
+      "percent_topic_posts_with_label": 4.55746367,
+      "percent_topic_authors_using_label_on_topic_post": 5.58558559,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 1.63346305,
+          "post_percentage_point_contribution": 1.42007926,
+          "author_percentage_point_contribution": 1.84684685
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 3.43806158,
+          "post_percentage_point_contribution": 3.13738441,
+          "author_percentage_point_contribution": 3.73873874
+        }
+      ]
+    },
+    {
+      "intersecting_label": "home",
+      "overall_value": 4.84034894,
+      "percent_topic_posts_with_label": 4.09511229,
+      "percent_topic_authors_using_label_on_topic_post": 5.58558559,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 2.45920954,
+          "post_percentage_point_contribution": 2.08058124,
+          "author_percentage_point_contribution": 2.83783784
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 2.3811394,
+          "post_percentage_point_contribution": 2.01453104,
+          "author_percentage_point_contribution": 2.74774775
+        }
+      ]
+    },
+    {
+      "intersecting_label": "families",
+      "overall_value": 2.95464553,
+      "percent_topic_posts_with_label": 2.57595773,
+      "percent_topic_authors_using_label_on_topic_post": 3.33333333,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 1.72804575,
+          "post_percentage_point_contribution": 1.51915456,
+          "author_percentage_point_contribution": 1.93693694
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 1.22659978,
+          "post_percentage_point_contribution": 1.05680317,
+          "author_percentage_point_contribution": 1.3963964
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mental health condition",
+      "overall_value": 2.54025492,
+      "percent_topic_posts_with_label": 2.37780713,
+      "percent_topic_authors_using_label_on_topic_post": 2.7027027,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.79721399,
+          "post_percentage_point_contribution": 0.69352708,
+          "author_percentage_point_contribution": 0.9009009
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 1.74304093,
+          "post_percentage_point_contribution": 1.68428005,
+          "author_percentage_point_contribution": 1.8018018
+        }
+      ]
+    },
+    {
+      "intersecting_label": "social support",
+      "overall_value": 2.02678901,
+      "percent_topic_posts_with_label": 1.98150594,
+      "percent_topic_authors_using_label_on_topic_post": 2.07207207,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.60203863,
+          "post_percentage_point_contribution": 0.52840159,
+          "author_percentage_point_contribution": 0.67567568
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 1.42475038,
+          "post_percentage_point_contribution": 1.45310436,
+          "author_percentage_point_contribution": 1.3963964
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mortality or death",
+      "overall_value": 1.90670856,
+      "percent_topic_posts_with_label": 1.65125495,
+      "percent_topic_authors_using_label_on_topic_post": 2.16216216,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.34530568,
+          "post_percentage_point_contribution": 0.33025099,
+          "author_percentage_point_contribution": 0.36036036
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 1.56140288,
+          "post_percentage_point_contribution": 1.32100396,
+          "author_percentage_point_contribution": 1.8018018
+        }
+      ]
+    },
+    {
+      "intersecting_label": "poverty or financial hardship",
+      "overall_value": 1.79561331,
+      "percent_topic_posts_with_label": 1.51915456,
+      "percent_topic_authors_using_label_on_topic_post": 2.07207207,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.15614029,
+          "post_percentage_point_contribution": 0.1321004,
+          "author_percentage_point_contribution": 0.18018018
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 1.63947303,
+          "post_percentage_point_contribution": 1.38705416,
+          "author_percentage_point_contribution": 1.89189189
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pregnant people",
+      "overall_value": 1.56140288,
+      "percent_topic_posts_with_label": 1.32100396,
+      "percent_topic_authors_using_label_on_topic_post": 1.8018018,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.19517536,
+          "post_percentage_point_contribution": 0.1651255,
+          "author_percentage_point_contribution": 0.22522523
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 1.36622752,
+          "post_percentage_point_contribution": 1.15587847,
+          "author_percentage_point_contribution": 1.57657658
+        }
+      ]
+    },
+    {
+      "intersecting_label": "secondhand tobacco smoke",
+      "overall_value": 1.48333274,
+      "percent_topic_posts_with_label": 1.25495376,
+      "percent_topic_authors_using_label_on_topic_post": 1.71171171,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.78070144,
+          "post_percentage_point_contribution": 0.66050198,
+          "author_percentage_point_contribution": 0.9009009
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.7026313,
+          "post_percentage_point_contribution": 0.59445178,
+          "author_percentage_point_contribution": 0.81081081
+        }
+      ]
+    },
+    {
+      "intersecting_label": "substance use disorder",
+      "overall_value": 1.3812227,
+      "percent_topic_posts_with_label": 1.32100396,
+      "percent_topic_authors_using_label_on_topic_post": 1.44144144,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.35131565,
+          "post_percentage_point_contribution": 0.29722589,
+          "author_percentage_point_contribution": 0.40540541
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 1.02990705,
+          "post_percentage_point_contribution": 1.02377807,
+          "author_percentage_point_contribution": 1.03603604
+        }
+      ]
+    },
+    {
+      "intersecting_label": "street or roadway",
+      "overall_value": 1.32719245,
+      "percent_topic_posts_with_label": 1.12285337,
+      "percent_topic_authors_using_label_on_topic_post": 1.53153153,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.54649101,
+          "post_percentage_point_contribution": 0.46235139,
+          "author_percentage_point_contribution": 0.63063063
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.78070144,
+          "post_percentage_point_contribution": 0.66050198,
+          "author_percentage_point_contribution": 0.9009009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "toddlers",
+      "overall_value": 1.32719245,
+      "percent_topic_posts_with_label": 1.12285337,
+      "percent_topic_authors_using_label_on_topic_post": 1.53153153,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.54649101,
+          "post_percentage_point_contribution": 0.46235139,
+          "author_percentage_point_contribution": 0.63063063
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.78070144,
+          "post_percentage_point_contribution": 0.66050198,
+          "author_percentage_point_contribution": 0.9009009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "child welfare services",
+      "overall_value": 1.12600712,
+      "percent_topic_posts_with_label": 0.99075297,
+      "percent_topic_authors_using_label_on_topic_post": 1.26126126,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.11710522,
+          "post_percentage_point_contribution": 0.0990753,
+          "author_percentage_point_contribution": 0.13513514
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 1.0089019,
+          "post_percentage_point_contribution": 0.89167768,
+          "author_percentage_point_contribution": 1.12612613
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic hazard",
+      "overall_value": 1.01491187,
+      "percent_topic_posts_with_label": 0.85865258,
+      "percent_topic_authors_using_label_on_topic_post": 1.17117117,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.85877159,
+          "post_percentage_point_contribution": 0.72655218,
+          "author_percentage_point_contribution": 0.99099099
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.15614029,
+          "post_percentage_point_contribution": 0.1321004,
+          "author_percentage_point_contribution": 0.18018018
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food insecurity",
+      "overall_value": 0.96986683,
+      "percent_topic_posts_with_label": 0.85865258,
+      "percent_topic_authors_using_label_on_topic_post": 1.08108108,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.15614029,
+          "post_percentage_point_contribution": 0.1321004,
+          "author_percentage_point_contribution": 0.18018018
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.81372654,
+          "post_percentage_point_contribution": 0.72655218,
+          "author_percentage_point_contribution": 0.9009009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health education or awareness",
+      "overall_value": 0.90078189,
+      "percent_topic_posts_with_label": 0.99075297,
+      "percent_topic_authors_using_label_on_topic_post": 0.81081081,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.17265284,
+          "post_percentage_point_contribution": 0.1651255,
+          "author_percentage_point_contribution": 0.18018018
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.72812905,
+          "post_percentage_point_contribution": 0.82562748,
+          "author_percentage_point_contribution": 0.63063063
+        }
+      ]
+    },
+    {
+      "intersecting_label": "housing instability or homelessness",
+      "overall_value": 0.89179668,
+      "percent_topic_posts_with_label": 0.79260238,
+      "percent_topic_authors_using_label_on_topic_post": 0.99099099,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.19517536,
+          "post_percentage_point_contribution": 0.1651255,
+          "author_percentage_point_contribution": 0.22522523
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.69662132,
+          "post_percentage_point_contribution": 0.62747688,
+          "author_percentage_point_contribution": 0.76576577
+        }
+      ]
+    },
+    {
+      "intersecting_label": "neighborhood",
+      "overall_value": 0.84675164,
+      "percent_topic_posts_with_label": 0.79260238,
+      "percent_topic_authors_using_label_on_topic_post": 0.9009009,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.21168791,
+          "post_percentage_point_contribution": 0.19815059,
+          "author_percentage_point_contribution": 0.22522523
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.63506373,
+          "post_percentage_point_contribution": 0.59445178,
+          "author_percentage_point_contribution": 0.67567568
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health disparity",
+      "overall_value": 0.78070144,
+      "percent_topic_posts_with_label": 0.66050198,
+      "percent_topic_authors_using_label_on_topic_post": 0.9009009,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.11710522,
+          "post_percentage_point_contribution": 0.0990753,
+          "author_percentage_point_contribution": 0.13513514
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.66359623,
+          "post_percentage_point_contribution": 0.56142668,
+          "author_percentage_point_contribution": 0.76576577
+        }
+      ]
+    },
+    {
+      "intersecting_label": "outdoor environment",
+      "overall_value": 0.78070144,
+      "percent_topic_posts_with_label": 0.66050198,
+      "percent_topic_authors_using_label_on_topic_post": 0.9009009,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.31228058,
+          "post_percentage_point_contribution": 0.26420079,
+          "author_percentage_point_contribution": 0.36036036
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.46842086,
+          "post_percentage_point_contribution": 0.39630119,
+          "author_percentage_point_contribution": 0.54054054
+        }
+      ]
+    },
+    {
+      "intersecting_label": "outdoor play or recreation",
+      "overall_value": 0.78070144,
+      "percent_topic_posts_with_label": 0.66050198,
+      "percent_topic_authors_using_label_on_topic_post": 0.9009009,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.15614029,
+          "post_percentage_point_contribution": 0.1321004,
+          "author_percentage_point_contribution": 0.18018018
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.62456115,
+          "post_percentage_point_contribution": 0.52840159,
+          "author_percentage_point_contribution": 0.72072072
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pets and companion animals",
+      "overall_value": 0.78070144,
+      "percent_topic_posts_with_label": 0.66050198,
+      "percent_topic_authors_using_label_on_topic_post": 0.9009009,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.23421043,
+          "post_percentage_point_contribution": 0.19815059,
+          "author_percentage_point_contribution": 0.27027027
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.54649101,
+          "post_percentage_point_contribution": 0.46235139,
+          "author_percentage_point_contribution": 0.63063063
+        }
+      ]
+    },
+    {
+      "intersecting_label": "teachers and school staff",
+      "overall_value": 0.78070144,
+      "percent_topic_posts_with_label": 0.66050198,
+      "percent_topic_authors_using_label_on_topic_post": 0.9009009,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.23421043,
+          "post_percentage_point_contribution": 0.19815059,
+          "author_percentage_point_contribution": 0.27027027
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.54649101,
+          "post_percentage_point_contribution": 0.46235139,
+          "author_percentage_point_contribution": 0.63063063
+        }
+      ]
+    },
+    {
+      "intersecting_label": "motor vehicle",
+      "overall_value": 0.75666155,
+      "percent_topic_posts_with_label": 0.79260238,
+      "percent_topic_authors_using_label_on_topic_post": 0.72072072,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.46842086,
+          "post_percentage_point_contribution": 0.39630119,
+          "author_percentage_point_contribution": 0.54054054
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.28824068,
+          "post_percentage_point_contribution": 0.39630119,
+          "author_percentage_point_contribution": 0.18018018
+        }
+      ]
+    },
+    {
+      "intersecting_label": "educational access",
+      "overall_value": 0.7356564,
+      "percent_topic_posts_with_label": 0.66050198,
+      "percent_topic_authors_using_label_on_topic_post": 0.81081081,
+      "links": [
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.7356564,
+          "post_percentage_point_contribution": 0.66050198,
+          "author_percentage_point_contribution": 0.81081081
+        }
+      ]
+    },
+    {
+      "intersecting_label": "vaping aerosol",
+      "overall_value": 0.72363645,
+      "percent_topic_posts_with_label": 0.72655218,
+      "percent_topic_authors_using_label_on_topic_post": 0.72072072,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.05554762,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.04504505
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.66808883,
+          "post_percentage_point_contribution": 0.66050198,
+          "author_percentage_point_contribution": 0.67567568
+        }
+      ]
+    },
+    {
+      "intersecting_label": "injury",
+      "overall_value": 0.7026313,
+      "percent_topic_posts_with_label": 0.59445178,
+      "percent_topic_authors_using_label_on_topic_post": 0.81081081,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.46842086,
+          "post_percentage_point_contribution": 0.39630119,
+          "author_percentage_point_contribution": 0.54054054
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.23421043,
+          "post_percentage_point_contribution": 0.19815059,
+          "author_percentage_point_contribution": 0.27027027
+        }
+      ]
+    },
+    {
+      "intersecting_label": "youth engagement",
+      "overall_value": 0.7026313,
+      "percent_topic_posts_with_label": 0.59445178,
+      "percent_topic_authors_using_label_on_topic_post": 0.81081081,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.23421043,
+          "post_percentage_point_contribution": 0.19815059,
+          "author_percentage_point_contribution": 0.27027027
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.46842086,
+          "post_percentage_point_contribution": 0.39630119,
+          "author_percentage_point_contribution": 0.54054054
+        }
+      ]
+    },
+    {
+      "intersecting_label": "public transit",
+      "overall_value": 0.62456115,
+      "percent_topic_posts_with_label": 0.52840159,
+      "percent_topic_authors_using_label_on_topic_post": 0.72072072,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.31228058,
+          "post_percentage_point_contribution": 0.26420079,
+          "author_percentage_point_contribution": 0.36036036
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.31228058,
+          "post_percentage_point_contribution": 0.26420079,
+          "author_percentage_point_contribution": 0.36036036
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school closure",
+      "overall_value": 0.62456115,
+      "percent_topic_posts_with_label": 0.52840159,
+      "percent_topic_authors_using_label_on_topic_post": 0.72072072,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.11710522,
+          "post_percentage_point_contribution": 0.0990753,
+          "author_percentage_point_contribution": 0.13513514
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.50745594,
+          "post_percentage_point_contribution": 0.42932629,
+          "author_percentage_point_contribution": 0.58558559
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sports participation",
+      "overall_value": 0.62456115,
+      "percent_topic_posts_with_label": 0.52840159,
+      "percent_topic_authors_using_label_on_topic_post": 0.72072072,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.31228058,
+          "post_percentage_point_contribution": 0.26420079,
+          "author_percentage_point_contribution": 0.36036036
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.31228058,
+          "post_percentage_point_contribution": 0.26420079,
+          "author_percentage_point_contribution": 0.36036036
+        }
+      ]
+    },
+    {
+      "intersecting_label": "stress or distress",
+      "overall_value": 0.62456115,
+      "percent_topic_posts_with_label": 0.52840159,
+      "percent_topic_authors_using_label_on_topic_post": 0.72072072,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.46842086,
+          "post_percentage_point_contribution": 0.39630119,
+          "author_percentage_point_contribution": 0.54054054
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.15614029,
+          "post_percentage_point_contribution": 0.1321004,
+          "author_percentage_point_contribution": 0.18018018
+        }
+      ]
+    },
+    {
+      "intersecting_label": "anxiety",
+      "overall_value": 0.54649101,
+      "percent_topic_posts_with_label": 0.46235139,
+      "percent_topic_authors_using_label_on_topic_post": 0.63063063,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.31228058,
+          "post_percentage_point_contribution": 0.26420079,
+          "author_percentage_point_contribution": 0.36036036
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.23421043,
+          "post_percentage_point_contribution": 0.19815059,
+          "author_percentage_point_contribution": 0.27027027
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childcare center",
+      "overall_value": 0.54649101,
+      "percent_topic_posts_with_label": 0.46235139,
+      "percent_topic_authors_using_label_on_topic_post": 0.63063063,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.15614029,
+          "post_percentage_point_contribution": 0.1321004,
+          "author_percentage_point_contribution": 0.18018018
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.39035072,
+          "post_percentage_point_contribution": 0.33025099,
+          "author_percentage_point_contribution": 0.45045045
+        }
+      ]
+    },
+    {
+      "intersecting_label": "indoor environment",
+      "overall_value": 0.54649101,
+      "percent_topic_posts_with_label": 0.46235139,
+      "percent_topic_authors_using_label_on_topic_post": 0.63063063,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.15614029,
+          "post_percentage_point_contribution": 0.1321004,
+          "author_percentage_point_contribution": 0.18018018
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.39035072,
+          "post_percentage_point_contribution": 0.33025099,
+          "author_percentage_point_contribution": 0.45045045
+        }
+      ]
+    },
+    {
+      "intersecting_label": "park or green space",
+      "overall_value": 0.54649101,
+      "percent_topic_posts_with_label": 0.46235139,
+      "percent_topic_authors_using_label_on_topic_post": 0.63063063,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.23421043,
+          "post_percentage_point_contribution": 0.19815059,
+          "author_percentage_point_contribution": 0.27027027
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.31228058,
+          "post_percentage_point_contribution": 0.26420079,
+          "author_percentage_point_contribution": 0.36036036
+        }
+      ]
+    },
+    {
+      "intersecting_label": "racial and ethnic minority populations",
+      "overall_value": 0.54649101,
+      "percent_topic_posts_with_label": 0.46235139,
+      "percent_topic_authors_using_label_on_topic_post": 0.63063063,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.46842086,
+          "post_percentage_point_contribution": 0.39630119,
+          "author_percentage_point_contribution": 0.54054054
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adverse birth outcome",
+      "overall_value": 0.50144596,
+      "percent_topic_posts_with_label": 0.46235139,
+      "percent_topic_authors_using_label_on_topic_post": 0.54054054,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.19517536,
+          "post_percentage_point_contribution": 0.1651255,
+          "author_percentage_point_contribution": 0.22522523
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.3062706,
+          "post_percentage_point_contribution": 0.29722589,
+          "author_percentage_point_contribution": 0.31531532
+        }
+      ]
+    },
+    {
+      "intersecting_label": "acute poisoning",
+      "overall_value": 0.46842086,
+      "percent_topic_posts_with_label": 0.39630119,
+      "percent_topic_authors_using_label_on_topic_post": 0.54054054,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.15614029,
+          "post_percentage_point_contribution": 0.1321004,
+          "author_percentage_point_contribution": 0.18018018
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.31228058,
+          "post_percentage_point_contribution": 0.26420079,
+          "author_percentage_point_contribution": 0.36036036
+        }
+      ]
+    },
+    {
+      "intersecting_label": "apartment",
+      "overall_value": 0.46842086,
+      "percent_topic_posts_with_label": 0.39630119,
+      "percent_topic_authors_using_label_on_topic_post": 0.54054054,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.23421043,
+          "post_percentage_point_contribution": 0.19815059,
+          "author_percentage_point_contribution": 0.27027027
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.23421043,
+          "post_percentage_point_contribution": 0.19815059,
+          "author_percentage_point_contribution": 0.27027027
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cognitive or learning problem",
+      "overall_value": 0.46842086,
+      "percent_topic_posts_with_label": 0.39630119,
+      "percent_topic_authors_using_label_on_topic_post": 0.54054054,
+      "links": [
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.46842086,
+          "post_percentage_point_contribution": 0.39630119,
+          "author_percentage_point_contribution": 0.54054054
+        }
+      ]
+    },
+    {
+      "intersecting_label": "depression",
+      "overall_value": 0.46842086,
+      "percent_topic_posts_with_label": 0.39630119,
+      "percent_topic_authors_using_label_on_topic_post": 0.54054054,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.23421043,
+          "post_percentage_point_contribution": 0.19815059,
+          "author_percentage_point_contribution": 0.27027027
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.23421043,
+          "post_percentage_point_contribution": 0.19815059,
+          "author_percentage_point_contribution": 0.27027027
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental policy or regulation",
+      "overall_value": 0.46842086,
+      "percent_topic_posts_with_label": 0.39630119,
+      "percent_topic_authors_using_label_on_topic_post": 0.54054054,
+      "links": [
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.46842086,
+          "post_percentage_point_contribution": 0.39630119,
+          "author_percentage_point_contribution": 0.54054054
+        }
+      ]
+    },
+    {
+      "intersecting_label": "foster youth",
+      "overall_value": 0.46842086,
+      "percent_topic_posts_with_label": 0.39630119,
+      "percent_topic_authors_using_label_on_topic_post": 0.54054054,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.39035072,
+          "post_percentage_point_contribution": 0.33025099,
+          "author_percentage_point_contribution": 0.45045045
+        }
+      ]
+    },
+    {
+      "intersecting_label": "playground",
+      "overall_value": 0.46842086,
+      "percent_topic_posts_with_label": 0.39630119,
+      "percent_topic_authors_using_label_on_topic_post": 0.54054054,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.15614029,
+          "post_percentage_point_contribution": 0.1321004,
+          "author_percentage_point_contribution": 0.18018018
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.31228058,
+          "post_percentage_point_contribution": 0.26420079,
+          "author_percentage_point_contribution": 0.36036036
+        }
+      ]
+    },
+    {
+      "intersecting_label": "community program or service",
+      "overall_value": 0.42337582,
+      "percent_topic_posts_with_label": 0.39630119,
+      "percent_topic_authors_using_label_on_topic_post": 0.45045045,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.09458269,
+          "post_percentage_point_contribution": 0.0990753,
+          "author_percentage_point_contribution": 0.09009009
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.32879313,
+          "post_percentage_point_contribution": 0.29722589,
+          "author_percentage_point_contribution": 0.36036036
+        }
+      ]
+    },
+    {
+      "intersecting_label": "developmental delay",
+      "overall_value": 0.39035072,
+      "percent_topic_posts_with_label": 0.33025099,
+      "percent_topic_authors_using_label_on_topic_post": 0.45045045,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.31228058,
+          "post_percentage_point_contribution": 0.26420079,
+          "author_percentage_point_contribution": 0.36036036
+        }
+      ]
+    },
+    {
+      "intersecting_label": "discrimination",
+      "overall_value": 0.39035072,
+      "percent_topic_posts_with_label": 0.33025099,
+      "percent_topic_authors_using_label_on_topic_post": 0.45045045,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.15614029,
+          "post_percentage_point_contribution": 0.1321004,
+          "author_percentage_point_contribution": 0.18018018
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.23421043,
+          "post_percentage_point_contribution": 0.19815059,
+          "author_percentage_point_contribution": 0.27027027
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare facility",
+      "overall_value": 0.39035072,
+      "percent_topic_posts_with_label": 0.33025099,
+      "percent_topic_authors_using_label_on_topic_post": 0.45045045,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.11710522,
+          "post_percentage_point_contribution": 0.0990753,
+          "author_percentage_point_contribution": 0.13513514
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.2732455,
+          "post_percentage_point_contribution": 0.23117569,
+          "author_percentage_point_contribution": 0.31531532
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sleep problem",
+      "overall_value": 0.39035072,
+      "percent_topic_posts_with_label": 0.33025099,
+      "percent_topic_authors_using_label_on_topic_post": 0.45045045,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.03903507,
+          "post_percentage_point_contribution": 0.0330251,
+          "author_percentage_point_contribution": 0.04504505
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.35131565,
+          "post_percentage_point_contribution": 0.29722589,
+          "author_percentage_point_contribution": 0.40540541
+        }
+      ]
+    },
+    {
+      "intersecting_label": "walking or bicycling",
+      "overall_value": 0.39035072,
+      "percent_topic_posts_with_label": 0.33025099,
+      "percent_topic_authors_using_label_on_topic_post": 0.45045045,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.23421043,
+          "post_percentage_point_contribution": 0.19815059,
+          "author_percentage_point_contribution": 0.27027027
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.15614029,
+          "post_percentage_point_contribution": 0.1321004,
+          "author_percentage_point_contribution": 0.18018018
+        }
+      ]
+    },
+    {
+      "intersecting_label": "low-income populations",
+      "overall_value": 0.34530568,
+      "percent_topic_posts_with_label": 0.33025099,
+      "percent_topic_authors_using_label_on_topic_post": 0.36036036,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.05554762,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.04504505
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.28975805,
+          "post_percentage_point_contribution": 0.26420079,
+          "author_percentage_point_contribution": 0.31531532
+        }
+      ]
+    },
+    {
+      "intersecting_label": "classroom",
+      "overall_value": 0.31228058,
+      "percent_topic_posts_with_label": 0.26420079,
+      "percent_topic_authors_using_label_on_topic_post": 0.36036036,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.23421043,
+          "post_percentage_point_contribution": 0.19815059,
+          "author_percentage_point_contribution": 0.27027027
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental justice",
+      "overall_value": 0.31228058,
+      "percent_topic_posts_with_label": 0.26420079,
+      "percent_topic_authors_using_label_on_topic_post": 0.36036036,
+      "links": [
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.31228058,
+          "post_percentage_point_contribution": 0.26420079,
+          "author_percentage_point_contribution": 0.36036036
+        }
+      ]
+    },
+    {
+      "intersecting_label": "reproductive health condition",
+      "overall_value": 0.31228058,
+      "percent_topic_posts_with_label": 0.26420079,
+      "percent_topic_authors_using_label_on_topic_post": 0.36036036,
+      "links": [
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.31228058,
+          "post_percentage_point_contribution": 0.26420079,
+          "author_percentage_point_contribution": 0.36036036
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic-related air pollution",
+      "overall_value": 0.31228058,
+      "percent_topic_posts_with_label": 0.26420079,
+      "percent_topic_authors_using_label_on_topic_post": 0.36036036,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.23421043,
+          "post_percentage_point_contribution": 0.19815059,
+          "author_percentage_point_contribution": 0.27027027
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "workers",
+      "overall_value": 0.31228058,
+      "percent_topic_posts_with_label": 0.26420079,
+      "percent_topic_authors_using_label_on_topic_post": 0.36036036,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.23421043,
+          "post_percentage_point_contribution": 0.19815059,
+          "author_percentage_point_contribution": 0.27027027
+        }
+      ]
+    },
+    {
+      "intersecting_label": "beach or coastal area",
+      "overall_value": 0.26723553,
+      "percent_topic_posts_with_label": 0.26420079,
+      "percent_topic_authors_using_label_on_topic_post": 0.27027027,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.26723553,
+          "post_percentage_point_contribution": 0.26420079,
+          "author_percentage_point_contribution": 0.27027027
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cancer",
+      "overall_value": 0.23421043,
+      "percent_topic_posts_with_label": 0.19815059,
+      "percent_topic_authors_using_label_on_topic_post": 0.27027027,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.15614029,
+          "post_percentage_point_contribution": 0.1321004,
+          "author_percentage_point_contribution": 0.18018018
+        }
+      ]
+    },
+    {
+      "intersecting_label": "children with disabilities",
+      "overall_value": 0.23421043,
+      "percent_topic_posts_with_label": 0.19815059,
+      "percent_topic_authors_using_label_on_topic_post": 0.27027027,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.15614029,
+          "post_percentage_point_contribution": 0.1321004,
+          "author_percentage_point_contribution": 0.18018018
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "fire hazard",
+      "overall_value": 0.23421043,
+      "percent_topic_posts_with_label": 0.19815059,
+      "percent_topic_authors_using_label_on_topic_post": 0.27027027,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.15614029,
+          "post_percentage_point_contribution": 0.1321004,
+          "author_percentage_point_contribution": 0.18018018
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare access",
+      "overall_value": 0.23421043,
+      "percent_topic_posts_with_label": 0.19815059,
+      "percent_topic_authors_using_label_on_topic_post": 0.27027027,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.15614029,
+          "post_percentage_point_contribution": 0.1321004,
+          "author_percentage_point_contribution": 0.18018018
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "housing quality",
+      "overall_value": 0.23421043,
+      "percent_topic_posts_with_label": 0.19815059,
+      "percent_topic_authors_using_label_on_topic_post": 0.27027027,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.15614029,
+          "post_percentage_point_contribution": 0.1321004,
+          "author_percentage_point_contribution": 0.18018018
+        }
+      ]
+    },
+    {
+      "intersecting_label": "restaurant or food store",
+      "overall_value": 0.23421043,
+      "percent_topic_posts_with_label": 0.19815059,
+      "percent_topic_authors_using_label_on_topic_post": 0.27027027,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.15614029,
+          "post_percentage_point_contribution": 0.1321004,
+          "author_percentage_point_contribution": 0.18018018
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "activity cancellation",
+      "overall_value": 0.15614029,
+      "percent_topic_posts_with_label": 0.1321004,
+      "percent_topic_authors_using_label_on_topic_post": 0.18018018,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "advocacy",
+      "overall_value": 0.15614029,
+      "percent_topic_posts_with_label": 0.1321004,
+      "percent_topic_authors_using_label_on_topic_post": 0.18018018,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "breastfeeding",
+      "overall_value": 0.15614029,
+      "percent_topic_posts_with_label": 0.1321004,
+      "percent_topic_authors_using_label_on_topic_post": 0.18018018,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.15614029,
+          "post_percentage_point_contribution": 0.1321004,
+          "author_percentage_point_contribution": 0.18018018
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cardiovascular condition",
+      "overall_value": 0.15614029,
+      "percent_topic_posts_with_label": 0.1321004,
+      "percent_topic_authors_using_label_on_topic_post": 0.18018018,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cleaning or disinfection",
+      "overall_value": 0.15614029,
+      "percent_topic_posts_with_label": 0.1321004,
+      "percent_topic_authors_using_label_on_topic_post": 0.18018018,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "commercial area",
+      "overall_value": 0.15614029,
+      "percent_topic_posts_with_label": 0.1321004,
+      "percent_topic_authors_using_label_on_topic_post": 0.18018018,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cooking or food preparation",
+      "overall_value": 0.15614029,
+      "percent_topic_posts_with_label": 0.1321004,
+      "percent_topic_authors_using_label_on_topic_post": 0.18018018,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.15614029,
+          "post_percentage_point_contribution": 0.1321004,
+          "author_percentage_point_contribution": 0.18018018
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cough",
+      "overall_value": 0.15614029,
+      "percent_topic_posts_with_label": 0.1321004,
+      "percent_topic_authors_using_label_on_topic_post": 0.18018018,
+      "links": [
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.15614029,
+          "post_percentage_point_contribution": 0.1321004,
+          "author_percentage_point_contribution": 0.18018018
+        }
+      ]
+    },
+    {
+      "intersecting_label": "farm or agricultural setting",
+      "overall_value": 0.15614029,
+      "percent_topic_posts_with_label": 0.1321004,
+      "percent_topic_authors_using_label_on_topic_post": 0.18018018,
+      "links": [
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.15614029,
+          "post_percentage_point_contribution": 0.1321004,
+          "author_percentage_point_contribution": 0.18018018
+        }
+      ]
+    },
+    {
+      "intersecting_label": "fever",
+      "overall_value": 0.15614029,
+      "percent_topic_posts_with_label": 0.1321004,
+      "percent_topic_authors_using_label_on_topic_post": 0.18018018,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.15614029,
+          "post_percentage_point_contribution": 0.1321004,
+          "author_percentage_point_contribution": 0.18018018
+        }
+      ]
+    },
+    {
+      "intersecting_label": "hazardous chemicals",
+      "overall_value": 0.15614029,
+      "percent_topic_posts_with_label": 0.1321004,
+      "percent_topic_authors_using_label_on_topic_post": 0.18018018,
+      "links": [
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.15614029,
+          "post_percentage_point_contribution": 0.1321004,
+          "author_percentage_point_contribution": 0.18018018
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mask use",
+      "overall_value": 0.15614029,
+      "percent_topic_posts_with_label": 0.1321004,
+      "percent_topic_authors_using_label_on_topic_post": 0.18018018,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "medication use",
+      "overall_value": 0.15614029,
+      "percent_topic_posts_with_label": 0.1321004,
+      "percent_topic_authors_using_label_on_topic_post": 0.18018018,
+      "links": [
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.15614029,
+          "post_percentage_point_contribution": 0.1321004,
+          "author_percentage_point_contribution": 0.18018018
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pain",
+      "overall_value": 0.15614029,
+      "percent_topic_posts_with_label": 0.1321004,
+      "percent_topic_authors_using_label_on_topic_post": 0.18018018,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.03903507,
+          "post_percentage_point_contribution": 0.0330251,
+          "author_percentage_point_contribution": 0.04504505
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.11710522,
+          "post_percentage_point_contribution": 0.0990753,
+          "author_percentage_point_contribution": 0.13513514
+        }
+      ]
+    },
+    {
+      "intersecting_label": "river lake or water body",
+      "overall_value": 0.15614029,
+      "percent_topic_posts_with_label": 0.1321004,
+      "percent_topic_authors_using_label_on_topic_post": 0.18018018,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "scientific research",
+      "overall_value": 0.15614029,
+      "percent_topic_posts_with_label": 0.1321004,
+      "percent_topic_authors_using_label_on_topic_post": 0.18018018,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "shelter or temporary housing",
+      "overall_value": 0.15614029,
+      "percent_topic_posts_with_label": 0.1321004,
+      "percent_topic_authors_using_label_on_topic_post": 0.18018018,
+      "links": [
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.15614029,
+          "post_percentage_point_contribution": 0.1321004,
+          "author_percentage_point_contribution": 0.18018018
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic safety",
+      "overall_value": 0.15614029,
+      "percent_topic_posts_with_label": 0.1321004,
+      "percent_topic_authors_using_label_on_topic_post": 0.18018018,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.15614029,
+          "post_percentage_point_contribution": 0.1321004,
+          "author_percentage_point_contribution": 0.18018018
+        }
+      ]
+    },
+    {
+      "intersecting_label": "transportation access",
+      "overall_value": 0.15614029,
+      "percent_topic_posts_with_label": 0.1321004,
+      "percent_topic_authors_using_label_on_topic_post": 0.18018018,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "COVID-19",
+      "overall_value": 0.07807014,
+      "percent_topic_posts_with_label": 0.0660502,
+      "percent_topic_authors_using_label_on_topic_post": 0.09009009,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "ambient air pollution",
+      "overall_value": 0.07807014,
+      "percent_topic_posts_with_label": 0.0660502,
+      "percent_topic_authors_using_label_on_topic_post": 0.09009009,
+      "links": [
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "birth defect",
+      "overall_value": 0.07807014,
+      "percent_topic_posts_with_label": 0.0660502,
+      "percent_topic_authors_using_label_on_topic_post": 0.09009009,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childcare workers",
+      "overall_value": 0.07807014,
+      "percent_topic_posts_with_label": 0.0660502,
+      "percent_topic_authors_using_label_on_topic_post": 0.09009009,
+      "links": [
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childhood cancer",
+      "overall_value": 0.07807014,
+      "percent_topic_posts_with_label": 0.0660502,
+      "percent_topic_authors_using_label_on_topic_post": 0.09009009,
+      "links": [
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "community resilience",
+      "overall_value": 0.07807014,
+      "percent_topic_posts_with_label": 0.0660502,
+      "percent_topic_authors_using_label_on_topic_post": 0.09009009,
+      "links": [
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "dental care",
+      "overall_value": 0.07807014,
+      "percent_topic_posts_with_label": 0.0660502,
+      "percent_topic_authors_using_label_on_topic_post": 0.09009009,
+      "links": [
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "dental caries",
+      "overall_value": 0.07807014,
+      "percent_topic_posts_with_label": 0.0660502,
+      "percent_topic_authors_using_label_on_topic_post": 0.09009009,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "emergency response",
+      "overall_value": 0.07807014,
+      "percent_topic_posts_with_label": 0.0660502,
+      "percent_topic_authors_using_label_on_topic_post": 0.09009009,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "endocrine-disrupting chemicals",
+      "overall_value": 0.07807014,
+      "percent_topic_posts_with_label": 0.0660502,
+      "percent_topic_authors_using_label_on_topic_post": 0.09009009,
+      "links": [
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food contamination",
+      "overall_value": 0.07807014,
+      "percent_topic_posts_with_label": 0.0660502,
+      "percent_topic_authors_using_label_on_topic_post": 0.09009009,
+      "links": [
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "garden or yard",
+      "overall_value": 0.07807014,
+      "percent_topic_posts_with_label": 0.0660502,
+      "percent_topic_authors_using_label_on_topic_post": 0.09009009,
+      "links": [
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "gastrointestinal illness",
+      "overall_value": 0.07807014,
+      "percent_topic_posts_with_label": 0.0660502,
+      "percent_topic_authors_using_label_on_topic_post": 0.09009009,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "generic smoke",
+      "overall_value": 0.07807014,
+      "percent_topic_posts_with_label": 0.0660502,
+      "percent_topic_authors_using_label_on_topic_post": 0.09009009,
+      "links": [
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "headache or migraine",
+      "overall_value": 0.07807014,
+      "percent_topic_posts_with_label": 0.0660502,
+      "percent_topic_authors_using_label_on_topic_post": 0.09009009,
+      "links": [
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare workers",
+      "overall_value": 0.07807014,
+      "percent_topic_posts_with_label": 0.0660502,
+      "percent_topic_authors_using_label_on_topic_post": 0.09009009,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "household chemicals",
+      "overall_value": 0.07807014,
+      "percent_topic_posts_with_label": 0.0660502,
+      "percent_topic_authors_using_label_on_topic_post": 0.09009009,
+      "links": [
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infectious disease",
+      "overall_value": 0.07807014,
+      "percent_topic_posts_with_label": 0.0660502,
+      "percent_topic_authors_using_label_on_topic_post": 0.09009009,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "medical care",
+      "overall_value": 0.07807014,
+      "percent_topic_posts_with_label": 0.0660502,
+      "percent_topic_authors_using_label_on_topic_post": 0.09009009,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.03903507,
+          "post_percentage_point_contribution": 0.0330251,
+          "author_percentage_point_contribution": 0.04504505
+        },
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.03903507,
+          "post_percentage_point_contribution": 0.0330251,
+          "author_percentage_point_contribution": 0.04504505
+        }
+      ]
+    },
+    {
+      "intersecting_label": "noise pollution",
+      "overall_value": 0.07807014,
+      "percent_topic_posts_with_label": 0.0660502,
+      "percent_topic_authors_using_label_on_topic_post": 0.09009009,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "obesity",
+      "overall_value": 0.07807014,
+      "percent_topic_posts_with_label": 0.0660502,
+      "percent_topic_authors_using_label_on_topic_post": 0.09009009,
+      "links": [
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "shortness of breath",
+      "overall_value": 0.07807014,
+      "percent_topic_posts_with_label": 0.0660502,
+      "percent_topic_authors_using_label_on_topic_post": 0.09009009,
+      "links": [
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sports or recreation facility",
+      "overall_value": 0.07807014,
+      "percent_topic_posts_with_label": 0.0660502,
+      "percent_topic_authors_using_label_on_topic_post": 0.09009009,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "swimming or water recreation",
+      "overall_value": 0.07807014,
+      "percent_topic_posts_with_label": 0.0660502,
+      "percent_topic_authors_using_label_on_topic_post": 0.09009009,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "swimming pool",
+      "overall_value": 0.07807014,
+      "percent_topic_posts_with_label": 0.0660502,
+      "percent_topic_authors_using_label_on_topic_post": 0.09009009,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "unsafe housing conditions",
+      "overall_value": 0.07807014,
+      "percent_topic_posts_with_label": 0.0660502,
+      "percent_topic_authors_using_label_on_topic_post": 0.09009009,
+      "links": [
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "violence-related injury",
+      "overall_value": 0.07807014,
+      "percent_topic_posts_with_label": 0.0660502,
+      "percent_topic_authors_using_label_on_topic_post": 0.09009009,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "water pollution",
+      "overall_value": 0.07807014,
+      "percent_topic_posts_with_label": 0.0660502,
+      "percent_topic_authors_using_label_on_topic_post": 0.09009009,
+      "links": [
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildfire",
+      "overall_value": 0.07807014,
+      "percent_topic_posts_with_label": 0.0660502,
+      "percent_topic_authors_using_label_on_topic_post": 0.09009009,
+      "links": [
+        {
+          "component_label": "drug exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildlife",
+      "overall_value": 0.07807014,
+      "percent_topic_posts_with_label": 0.0660502,
+      "percent_topic_authors_using_label_on_topic_post": 0.09009009,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "winter storm or snow hazard",
+      "overall_value": 0.07807014,
+      "percent_topic_posts_with_label": 0.0660502,
+      "percent_topic_authors_using_label_on_topic_post": 0.09009009,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        }
+      ]
+    },
+    {
+      "intersecting_label": "workplace",
+      "overall_value": 0.07807014,
+      "percent_topic_posts_with_label": 0.0660502,
+      "percent_topic_authors_using_label_on_topic_post": 0.09009009,
+      "links": [
+        {
+          "component_label": "alcohol exposure or use",
+          "value": 0.07807014,
+          "post_percentage_point_contribution": 0.0660502,
+          "author_percentage_point_contribution": 0.09009009
+        }
+      ]
+    }
+  ]
+}

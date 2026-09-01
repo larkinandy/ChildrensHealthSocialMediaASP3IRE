@@ -1,0 +1,2028 @@
+{
+  "schema_version": "1.0.0",
+  "city_id": "38900",
+  "domain": "social_structural",
+  "category_id": "social_structural-01",
+  "topic": "Violence and crime",
+  "component_labels": [
+    "violence or crime"
+  ],
+  "intersections": [
+    {
+      "intersecting_label": "children",
+      "overall_value": 46.79978424,
+      "percent_topic_posts_with_label": 40.97424179,
+      "percent_topic_authors_using_label_on_topic_post": 52.62532668,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 46.79978424,
+          "post_percentage_point_contribution": 40.97424179,
+          "author_percentage_point_contribution": 52.62532668
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school",
+      "overall_value": 40.71165459,
+      "percent_topic_posts_with_label": 37.08973826,
+      "percent_topic_authors_using_label_on_topic_post": 44.33357092,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 40.71165459,
+          "post_percentage_point_contribution": 37.08973826,
+          "author_percentage_point_contribution": 44.33357092
+        }
+      ]
+    },
+    {
+      "intersecting_label": "child abuse or neglect",
+      "overall_value": 16.37649475,
+      "percent_topic_posts_with_label": 13.12837557,
+      "percent_topic_authors_using_label_on_topic_post": 19.62461392,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 16.37649475,
+          "post_percentage_point_contribution": 13.12837557,
+          "author_percentage_point_contribution": 19.62461392
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adolescents",
+      "overall_value": 12.73816726,
+      "percent_topic_posts_with_label": 10.03323639,
+      "percent_topic_authors_using_label_on_topic_post": 15.44309812,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 12.73816726,
+          "post_percentage_point_contribution": 10.03323639,
+          "author_percentage_point_contribution": 15.44309812
+        }
+      ]
+    },
+    {
+      "intersecting_label": "students",
+      "overall_value": 7.04159697,
+      "percent_topic_posts_with_label": 5.41130037,
+      "percent_topic_authors_using_label_on_topic_post": 8.67189356,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 7.04159697,
+          "post_percentage_point_contribution": 5.41130037,
+          "author_percentage_point_contribution": 8.67189356
+        }
+      ]
+    },
+    {
+      "intersecting_label": "racial and ethnic minority populations",
+      "overall_value": 6.31870886,
+      "percent_topic_posts_with_label": 4.72579975,
+      "percent_topic_authors_using_label_on_topic_post": 7.91161796,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 6.31870886,
+          "post_percentage_point_contribution": 4.72579975,
+          "author_percentage_point_contribution": 7.91161796
+        }
+      ]
+    },
+    {
+      "intersecting_label": "parents and caregivers",
+      "overall_value": 4.1001275,
+      "percent_topic_posts_with_label": 3.11591192,
+      "percent_topic_authors_using_label_on_topic_post": 5.08434307,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 4.1001275,
+          "post_percentage_point_contribution": 3.11591192,
+          "author_percentage_point_contribution": 5.08434307
+        }
+      ]
+    },
+    {
+      "intersecting_label": "street or roadway",
+      "overall_value": 3.47578161,
+      "percent_topic_posts_with_label": 2.96011633,
+      "percent_topic_authors_using_label_on_topic_post": 3.9914469,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 3.47578161,
+          "post_percentage_point_contribution": 2.96011633,
+          "author_percentage_point_contribution": 3.9914469
+        }
+      ]
+    },
+    {
+      "intersecting_label": "teachers and school staff",
+      "overall_value": 3.0387754,
+      "percent_topic_posts_with_label": 2.18113835,
+      "percent_topic_authors_using_label_on_topic_post": 3.89641245,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 3.0387754,
+          "post_percentage_point_contribution": 2.18113835,
+          "author_percentage_point_contribution": 3.89641245
+        }
+      ]
+    },
+    {
+      "intersecting_label": "families",
+      "overall_value": 2.90894573,
+      "percent_topic_posts_with_label": 1.92147902,
+      "percent_topic_authors_using_label_on_topic_post": 3.89641245,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 2.90894573,
+          "post_percentage_point_contribution": 1.92147902,
+          "author_percentage_point_contribution": 3.89641245
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mortality or death",
+      "overall_value": 2.88070832,
+      "percent_topic_posts_with_label": 1.98379726,
+      "percent_topic_authors_using_label_on_topic_post": 3.77761939,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 2.88070832,
+          "post_percentage_point_contribution": 1.98379726,
+          "author_percentage_point_contribution": 3.77761939
+        }
+      ]
+    },
+    {
+      "intersecting_label": "discrimination",
+      "overall_value": 2.82358327,
+      "percent_topic_posts_with_label": 1.86954715,
+      "percent_topic_authors_using_label_on_topic_post": 3.77761939,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 2.82358327,
+          "post_percentage_point_contribution": 1.86954715,
+          "author_percentage_point_contribution": 3.77761939
+        }
+      ]
+    },
+    {
+      "intersecting_label": "unhoused populations",
+      "overall_value": 2.56528856,
+      "percent_topic_posts_with_label": 1.66181969,
+      "percent_topic_authors_using_label_on_topic_post": 3.46875742,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 2.56528856,
+          "post_percentage_point_contribution": 1.66181969,
+          "author_percentage_point_contribution": 3.46875742
+        }
+      ]
+    },
+    {
+      "intersecting_label": "neighborhood",
+      "overall_value": 2.37969846,
+      "percent_topic_posts_with_label": 1.59950145,
+      "percent_topic_authors_using_label_on_topic_post": 3.15989546,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 2.37969846,
+          "post_percentage_point_contribution": 1.59950145,
+          "author_percentage_point_contribution": 3.15989546
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic hazard",
+      "overall_value": 2.24461145,
+      "percent_topic_posts_with_label": 1.49563772,
+      "percent_topic_authors_using_label_on_topic_post": 2.99358517,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 2.24461145,
+          "post_percentage_point_contribution": 1.49563772,
+          "author_percentage_point_contribution": 2.99358517
+        }
+      ]
+    },
+    {
+      "intersecting_label": "injury",
+      "overall_value": 2.06421454,
+      "percent_topic_posts_with_label": 1.44370586,
+      "percent_topic_authors_using_label_on_topic_post": 2.68472321,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 2.06421454,
+          "post_percentage_point_contribution": 1.44370586,
+          "author_percentage_point_contribution": 2.68472321
+        }
+      ]
+    },
+    {
+      "intersecting_label": "home",
+      "overall_value": 2.06051428,
+      "percent_topic_posts_with_label": 1.41254674,
+      "percent_topic_authors_using_label_on_topic_post": 2.70848182,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 2.06051428,
+          "post_percentage_point_contribution": 1.41254674,
+          "author_percentage_point_contribution": 2.70848182
+        }
+      ]
+    },
+    {
+      "intersecting_label": "advocacy",
+      "overall_value": 1.98703112,
+      "percent_topic_posts_with_label": 1.36061487,
+      "percent_topic_authors_using_label_on_topic_post": 2.61344737,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 1.98703112,
+          "post_percentage_point_contribution": 1.36061487,
+          "author_percentage_point_contribution": 2.61344737
+        }
+      ]
+    },
+    {
+      "intersecting_label": "playground",
+      "overall_value": 1.89718986,
+      "percent_topic_posts_with_label": 1.37100125,
+      "percent_topic_authors_using_label_on_topic_post": 2.42337847,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 1.89718986,
+          "post_percentage_point_contribution": 1.37100125,
+          "author_percentage_point_contribution": 2.42337847
+        }
+      ]
+    },
+    {
+      "intersecting_label": "park or green space",
+      "overall_value": 1.75619528,
+      "percent_topic_posts_with_label": 1.18404653,
+      "percent_topic_authors_using_label_on_topic_post": 2.32834402,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 1.75619528,
+          "post_percentage_point_contribution": 1.18404653,
+          "author_percentage_point_contribution": 2.32834402
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mental health condition",
+      "overall_value": 1.62779439,
+      "percent_topic_posts_with_label": 1.06979643,
+      "percent_topic_authors_using_label_on_topic_post": 2.18579235,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 1.62779439,
+          "post_percentage_point_contribution": 1.06979643,
+          "author_percentage_point_contribution": 2.18579235
+        }
+      ]
+    },
+    {
+      "intersecting_label": "social support",
+      "overall_value": 1.47563489,
+      "percent_topic_posts_with_label": 0.95554632,
+      "percent_topic_authors_using_label_on_topic_post": 1.99572345,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 1.47563489,
+          "post_percentage_point_contribution": 0.95554632,
+          "author_percentage_point_contribution": 1.99572345
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infants",
+      "overall_value": 1.4370111,
+      "percent_topic_posts_with_label": 0.99709182,
+      "percent_topic_authors_using_label_on_topic_post": 1.87693039,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 1.4370111,
+          "post_percentage_point_contribution": 0.99709182,
+          "author_percentage_point_contribution": 1.87693039
+        }
+      ]
+    },
+    {
+      "intersecting_label": "classroom",
+      "overall_value": 1.05025134,
+      "percent_topic_posts_with_label": 0.84129622,
+      "percent_topic_authors_using_label_on_topic_post": 1.25920646,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 1.05025134,
+          "post_percentage_point_contribution": 0.84129622,
+          "author_percentage_point_contribution": 1.25920646
+        }
+      ]
+    },
+    {
+      "intersecting_label": "motor vehicle",
+      "overall_value": 0.8692042,
+      "percent_topic_posts_with_label": 0.55047777,
+      "percent_topic_authors_using_label_on_topic_post": 1.18793062,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.8692042,
+          "post_percentage_point_contribution": 0.55047777,
+          "author_percentage_point_contribution": 1.18793062
+        }
+      ]
+    },
+    {
+      "intersecting_label": "drug exposure or use",
+      "overall_value": 0.7949425,
+      "percent_topic_posts_with_label": 0.59202327,
+      "percent_topic_authors_using_label_on_topic_post": 0.99786172,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.7949425,
+          "post_percentage_point_contribution": 0.59202327,
+          "author_percentage_point_contribution": 0.99786172
+        }
+      ]
+    },
+    {
+      "intersecting_label": "toddlers",
+      "overall_value": 0.75488994,
+      "percent_topic_posts_with_label": 0.48815953,
+      "percent_topic_authors_using_label_on_topic_post": 1.02162034,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.75488994,
+          "post_percentage_point_contribution": 0.48815953,
+          "author_percentage_point_contribution": 1.02162034
+        }
+      ]
+    },
+    {
+      "intersecting_label": "fire hazard",
+      "overall_value": 0.74450356,
+      "percent_topic_posts_with_label": 0.46738679,
+      "percent_topic_authors_using_label_on_topic_post": 1.02162034,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.74450356,
+          "post_percentage_point_contribution": 0.46738679,
+          "author_percentage_point_contribution": 1.02162034
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental justice",
+      "overall_value": 0.71405883,
+      "percent_topic_posts_with_label": 0.47777316,
+      "percent_topic_authors_using_label_on_topic_post": 0.9503445,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.71405883,
+          "post_percentage_point_contribution": 0.47777316,
+          "author_percentage_point_contribution": 0.9503445
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pets and companion animals",
+      "overall_value": 0.65394791,
+      "percent_topic_posts_with_label": 0.40506855,
+      "percent_topic_authors_using_label_on_topic_post": 0.90282727,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.65394791,
+          "post_percentage_point_contribution": 0.40506855,
+          "author_percentage_point_contribution": 0.90282727
+        }
+      ]
+    },
+    {
+      "intersecting_label": "stress or distress",
+      "overall_value": 0.63687542,
+      "percent_topic_posts_with_label": 0.39468218,
+      "percent_topic_authors_using_label_on_topic_post": 0.87906866,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.63687542,
+          "post_percentage_point_contribution": 0.39468218,
+          "author_percentage_point_contribution": 0.87906866
+        }
+      ]
+    },
+    {
+      "intersecting_label": "child welfare services",
+      "overall_value": 0.59974457,
+      "percent_topic_posts_with_label": 0.41545492,
+      "percent_topic_authors_using_label_on_topic_post": 0.78403421,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.59974457,
+          "post_percentage_point_contribution": 0.41545492,
+          "author_percentage_point_contribution": 0.78403421
+        }
+      ]
+    },
+    {
+      "intersecting_label": "apartment",
+      "overall_value": 0.55002002,
+      "percent_topic_posts_with_label": 0.36352306,
+      "percent_topic_authors_using_label_on_topic_post": 0.73651699,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.55002002,
+          "post_percentage_point_contribution": 0.36352306,
+          "author_percentage_point_contribution": 0.73651699
+        }
+      ]
+    },
+    {
+      "intersecting_label": "public transit",
+      "overall_value": 0.52256116,
+      "percent_topic_posts_with_label": 0.33236394,
+      "percent_topic_authors_using_label_on_topic_post": 0.71275837,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.52256116,
+          "post_percentage_point_contribution": 0.33236394,
+          "author_percentage_point_contribution": 0.71275837
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sports participation",
+      "overall_value": 0.4780298,
+      "percent_topic_posts_with_label": 0.29081845,
+      "percent_topic_authors_using_label_on_topic_post": 0.66524115,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.4780298,
+          "post_percentage_point_contribution": 0.29081845,
+          "author_percentage_point_contribution": 0.66524115
+        }
+      ]
+    },
+    {
+      "intersecting_label": "children with disabilities",
+      "overall_value": 0.46465756,
+      "percent_topic_posts_with_label": 0.31159119,
+      "percent_topic_authors_using_label_on_topic_post": 0.61772392,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.46465756,
+          "post_percentage_point_contribution": 0.31159119,
+          "author_percentage_point_contribution": 0.61772392
+        }
+      ]
+    },
+    {
+      "intersecting_label": "youth engagement",
+      "overall_value": 0.44758507,
+      "percent_topic_posts_with_label": 0.30120482,
+      "percent_topic_authors_using_label_on_topic_post": 0.59396531,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.44758507,
+          "post_percentage_point_contribution": 0.30120482,
+          "author_percentage_point_contribution": 0.59396531
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pregnant people",
+      "overall_value": 0.42681232,
+      "percent_topic_posts_with_label": 0.25965933,
+      "percent_topic_authors_using_label_on_topic_post": 0.59396531,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.42681232,
+          "post_percentage_point_contribution": 0.25965933,
+          "author_percentage_point_contribution": 0.59396531
+        }
+      ]
+    },
+    {
+      "intersecting_label": "poverty or financial hardship",
+      "overall_value": 0.41194715,
+      "percent_topic_posts_with_label": 0.30120482,
+      "percent_topic_authors_using_label_on_topic_post": 0.52268947,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.41194715,
+          "post_percentage_point_contribution": 0.30120482,
+          "author_percentage_point_contribution": 0.52268947
+        }
+      ]
+    },
+    {
+      "intersecting_label": "community program or service",
+      "overall_value": 0.40156077,
+      "percent_topic_posts_with_label": 0.28043207,
+      "percent_topic_authors_using_label_on_topic_post": 0.52268947,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.40156077,
+          "post_percentage_point_contribution": 0.28043207,
+          "author_percentage_point_contribution": 0.52268947
+        }
+      ]
+    },
+    {
+      "intersecting_label": "outdoor environment",
+      "overall_value": 0.34144986,
+      "percent_topic_posts_with_label": 0.20772746,
+      "percent_topic_authors_using_label_on_topic_post": 0.47517225,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.34144986,
+          "post_percentage_point_contribution": 0.20772746,
+          "author_percentage_point_contribution": 0.47517225
+        }
+      ]
+    },
+    {
+      "intersecting_label": "workplace",
+      "overall_value": 0.34144986,
+      "percent_topic_posts_with_label": 0.20772746,
+      "percent_topic_authors_using_label_on_topic_post": 0.47517225,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.34144986,
+          "post_percentage_point_contribution": 0.20772746,
+          "author_percentage_point_contribution": 0.47517225
+        }
+      ]
+    },
+    {
+      "intersecting_label": "alcohol exposure or use",
+      "overall_value": 0.32957055,
+      "percent_topic_posts_with_label": 0.20772746,
+      "percent_topic_authors_using_label_on_topic_post": 0.45141364,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.32957055,
+          "post_percentage_point_contribution": 0.20772746,
+          "author_percentage_point_contribution": 0.45141364
+        }
+      ]
+    },
+    {
+      "intersecting_label": "housing instability or homelessness",
+      "overall_value": 0.31769124,
+      "percent_topic_posts_with_label": 0.20772746,
+      "percent_topic_authors_using_label_on_topic_post": 0.42765502,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.31769124,
+          "post_percentage_point_contribution": 0.20772746,
+          "author_percentage_point_contribution": 0.42765502
+        }
+      ]
+    },
+    {
+      "intersecting_label": "transportation access",
+      "overall_value": 0.29023238,
+      "percent_topic_posts_with_label": 0.17656834,
+      "percent_topic_authors_using_label_on_topic_post": 0.40389641,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.29023238,
+          "post_percentage_point_contribution": 0.17656834,
+          "author_percentage_point_contribution": 0.40389641
+        }
+      ]
+    },
+    {
+      "intersecting_label": "COVID-19",
+      "overall_value": 0.28205332,
+      "percent_topic_posts_with_label": 0.20772746,
+      "percent_topic_authors_using_label_on_topic_post": 0.35637919,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.28205332,
+          "post_percentage_point_contribution": 0.20772746,
+          "author_percentage_point_contribution": 0.35637919
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food insecurity",
+      "overall_value": 0.28205332,
+      "percent_topic_posts_with_label": 0.20772746,
+      "percent_topic_authors_using_label_on_topic_post": 0.35637919,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.28205332,
+          "post_percentage_point_contribution": 0.20772746,
+          "author_percentage_point_contribution": 0.35637919
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare facility",
+      "overall_value": 0.26128058,
+      "percent_topic_posts_with_label": 0.16618197,
+      "percent_topic_authors_using_label_on_topic_post": 0.35637919,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.26128058,
+          "post_percentage_point_contribution": 0.16618197,
+          "author_percentage_point_contribution": 0.35637919
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childcare center",
+      "overall_value": 0.25608739,
+      "percent_topic_posts_with_label": 0.1557956,
+      "percent_topic_authors_using_label_on_topic_post": 0.35637919,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.25608739,
+          "post_percentage_point_contribution": 0.1557956,
+          "author_percentage_point_contribution": 0.35637919
+        }
+      ]
+    },
+    {
+      "intersecting_label": "community resilience",
+      "overall_value": 0.2390149,
+      "percent_topic_posts_with_label": 0.14540922,
+      "percent_topic_authors_using_label_on_topic_post": 0.33262057,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.2390149,
+          "post_percentage_point_contribution": 0.14540922,
+          "author_percentage_point_contribution": 0.33262057
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school closure",
+      "overall_value": 0.2390149,
+      "percent_topic_posts_with_label": 0.14540922,
+      "percent_topic_authors_using_label_on_topic_post": 0.33262057,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.2390149,
+          "post_percentage_point_contribution": 0.14540922,
+          "author_percentage_point_contribution": 0.33262057
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sports or recreation facility",
+      "overall_value": 0.2390149,
+      "percent_topic_posts_with_label": 0.14540922,
+      "percent_topic_authors_using_label_on_topic_post": 0.33262057,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.2390149,
+          "post_percentage_point_contribution": 0.14540922,
+          "author_percentage_point_contribution": 0.33262057
+        }
+      ]
+    },
+    {
+      "intersecting_label": "unsafe housing conditions",
+      "overall_value": 0.2390149,
+      "percent_topic_posts_with_label": 0.14540922,
+      "percent_topic_authors_using_label_on_topic_post": 0.33262057,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.2390149,
+          "post_percentage_point_contribution": 0.14540922,
+          "author_percentage_point_contribution": 0.33262057
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental policy or regulation",
+      "overall_value": 0.23232878,
+      "percent_topic_posts_with_label": 0.1557956,
+      "percent_topic_authors_using_label_on_topic_post": 0.30886196,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.23232878,
+          "post_percentage_point_contribution": 0.1557956,
+          "author_percentage_point_contribution": 0.30886196
+        }
+      ]
+    },
+    {
+      "intersecting_label": "workers",
+      "overall_value": 0.2100631,
+      "percent_topic_posts_with_label": 0.13502285,
+      "percent_topic_authors_using_label_on_topic_post": 0.28510335,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.2100631,
+          "post_percentage_point_contribution": 0.13502285,
+          "author_percentage_point_contribution": 0.28510335
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mask use",
+      "overall_value": 0.20486991,
+      "percent_topic_posts_with_label": 0.12463648,
+      "percent_topic_authors_using_label_on_topic_post": 0.28510335,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.20486991,
+          "post_percentage_point_contribution": 0.12463648,
+          "author_percentage_point_contribution": 0.28510335
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health disparity",
+      "overall_value": 0.19818379,
+      "percent_topic_posts_with_label": 0.13502285,
+      "percent_topic_authors_using_label_on_topic_post": 0.26134474,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.19818379,
+          "post_percentage_point_contribution": 0.13502285,
+          "author_percentage_point_contribution": 0.26134474
+        }
+      ]
+    },
+    {
+      "intersecting_label": "foster youth",
+      "overall_value": 0.19299061,
+      "percent_topic_posts_with_label": 0.12463648,
+      "percent_topic_authors_using_label_on_topic_post": 0.26134474,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.19299061,
+          "post_percentage_point_contribution": 0.12463648,
+          "author_percentage_point_contribution": 0.26134474
+        }
+      ]
+    },
+    {
+      "intersecting_label": "anxiety",
+      "overall_value": 0.18779742,
+      "percent_topic_posts_with_label": 0.1142501,
+      "percent_topic_authors_using_label_on_topic_post": 0.26134474,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.18779742,
+          "post_percentage_point_contribution": 0.1142501,
+          "author_percentage_point_contribution": 0.26134474
+        }
+      ]
+    },
+    {
+      "intersecting_label": "climate change",
+      "overall_value": 0.16624613,
+      "percent_topic_posts_with_label": 0.16618197,
+      "percent_topic_authors_using_label_on_topic_post": 0.16631029,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.16624613,
+          "post_percentage_point_contribution": 0.16618197,
+          "author_percentage_point_contribution": 0.16631029
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare workers",
+      "overall_value": 0.15884562,
+      "percent_topic_posts_with_label": 0.10386373,
+      "percent_topic_authors_using_label_on_topic_post": 0.21382751,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.15884562,
+          "post_percentage_point_contribution": 0.10386373,
+          "author_percentage_point_contribution": 0.21382751
+        }
+      ]
+    },
+    {
+      "intersecting_label": "hazardous chemicals",
+      "overall_value": 0.15365244,
+      "percent_topic_posts_with_label": 0.09347736,
+      "percent_topic_authors_using_label_on_topic_post": 0.21382751,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.15365244,
+          "post_percentage_point_contribution": 0.09347736,
+          "author_percentage_point_contribution": 0.21382751
+        }
+      ]
+    },
+    {
+      "intersecting_label": "restaurant or food store",
+      "overall_value": 0.15365244,
+      "percent_topic_posts_with_label": 0.09347736,
+      "percent_topic_authors_using_label_on_topic_post": 0.21382751,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.15365244,
+          "post_percentage_point_contribution": 0.09347736,
+          "author_percentage_point_contribution": 0.21382751
+        }
+      ]
+    },
+    {
+      "intersecting_label": "autism",
+      "overall_value": 0.14177313,
+      "percent_topic_posts_with_label": 0.09347736,
+      "percent_topic_authors_using_label_on_topic_post": 0.1900689,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.14177313,
+          "post_percentage_point_contribution": 0.09347736,
+          "author_percentage_point_contribution": 0.1900689
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cancer",
+      "overall_value": 0.13657994,
+      "percent_topic_posts_with_label": 0.08309098,
+      "percent_topic_authors_using_label_on_topic_post": 0.1900689,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.13657994,
+          "post_percentage_point_contribution": 0.08309098,
+          "author_percentage_point_contribution": 0.1900689
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health education or awareness",
+      "overall_value": 0.13657994,
+      "percent_topic_posts_with_label": 0.08309098,
+      "percent_topic_authors_using_label_on_topic_post": 0.1900689,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.13657994,
+          "post_percentage_point_contribution": 0.08309098,
+          "author_percentage_point_contribution": 0.1900689
+        }
+      ]
+    },
+    {
+      "intersecting_label": "low-income populations",
+      "overall_value": 0.13657994,
+      "percent_topic_posts_with_label": 0.08309098,
+      "percent_topic_authors_using_label_on_topic_post": 0.1900689,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.13657994,
+          "post_percentage_point_contribution": 0.08309098,
+          "author_percentage_point_contribution": 0.1900689
+        }
+      ]
+    },
+    {
+      "intersecting_label": "outdoor play or recreation",
+      "overall_value": 0.13657994,
+      "percent_topic_posts_with_label": 0.08309098,
+      "percent_topic_authors_using_label_on_topic_post": 0.1900689,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.13657994,
+          "post_percentage_point_contribution": 0.08309098,
+          "author_percentage_point_contribution": 0.1900689
+        }
+      ]
+    },
+    {
+      "intersecting_label": "reproductive health condition",
+      "overall_value": 0.13657994,
+      "percent_topic_posts_with_label": 0.08309098,
+      "percent_topic_authors_using_label_on_topic_post": 0.1900689,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.13657994,
+          "post_percentage_point_contribution": 0.08309098,
+          "author_percentage_point_contribution": 0.1900689
+        }
+      ]
+    },
+    {
+      "intersecting_label": "river lake or water body",
+      "overall_value": 0.13657994,
+      "percent_topic_posts_with_label": 0.08309098,
+      "percent_topic_authors_using_label_on_topic_post": 0.1900689,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.13657994,
+          "post_percentage_point_contribution": 0.08309098,
+          "author_percentage_point_contribution": 0.1900689
+        }
+      ]
+    },
+    {
+      "intersecting_label": "secondhand tobacco smoke",
+      "overall_value": 0.11950745,
+      "percent_topic_posts_with_label": 0.07270461,
+      "percent_topic_authors_using_label_on_topic_post": 0.16631029,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.11950745,
+          "post_percentage_point_contribution": 0.07270461,
+          "author_percentage_point_contribution": 0.16631029
+        }
+      ]
+    },
+    {
+      "intersecting_label": "walking or bicycling",
+      "overall_value": 0.11950745,
+      "percent_topic_posts_with_label": 0.07270461,
+      "percent_topic_authors_using_label_on_topic_post": 0.16631029,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.11950745,
+          "post_percentage_point_contribution": 0.07270461,
+          "author_percentage_point_contribution": 0.16631029
+        }
+      ]
+    },
+    {
+      "intersecting_label": "commercial area",
+      "overall_value": 0.10762814,
+      "percent_topic_posts_with_label": 0.07270461,
+      "percent_topic_authors_using_label_on_topic_post": 0.14255167,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.10762814,
+          "post_percentage_point_contribution": 0.07270461,
+          "author_percentage_point_contribution": 0.14255167
+        }
+      ]
+    },
+    {
+      "intersecting_label": "animal-related exposure",
+      "overall_value": 0.10243496,
+      "percent_topic_posts_with_label": 0.06231824,
+      "percent_topic_authors_using_label_on_topic_post": 0.14255167,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.10243496,
+          "post_percentage_point_contribution": 0.06231824,
+          "author_percentage_point_contribution": 0.14255167
+        }
+      ]
+    },
+    {
+      "intersecting_label": "emergency response",
+      "overall_value": 0.10243496,
+      "percent_topic_posts_with_label": 0.06231824,
+      "percent_topic_authors_using_label_on_topic_post": 0.14255167,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.10243496,
+          "post_percentage_point_contribution": 0.06231824,
+          "author_percentage_point_contribution": 0.14255167
+        }
+      ]
+    },
+    {
+      "intersecting_label": "indoor environment",
+      "overall_value": 0.10243496,
+      "percent_topic_posts_with_label": 0.06231824,
+      "percent_topic_authors_using_label_on_topic_post": 0.14255167,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.10243496,
+          "post_percentage_point_contribution": 0.06231824,
+          "author_percentage_point_contribution": 0.14255167
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infectious disease",
+      "overall_value": 0.10243496,
+      "percent_topic_posts_with_label": 0.06231824,
+      "percent_topic_authors_using_label_on_topic_post": 0.14255167,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.10243496,
+          "post_percentage_point_contribution": 0.06231824,
+          "author_percentage_point_contribution": 0.14255167
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare access",
+      "overall_value": 0.09055565,
+      "percent_topic_posts_with_label": 0.06231824,
+      "percent_topic_authors_using_label_on_topic_post": 0.11879306,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.09055565,
+          "post_percentage_point_contribution": 0.06231824,
+          "author_percentage_point_contribution": 0.11879306
+        }
+      ]
+    },
+    {
+      "intersecting_label": "medical care",
+      "overall_value": 0.09055565,
+      "percent_topic_posts_with_label": 0.06231824,
+      "percent_topic_authors_using_label_on_topic_post": 0.11879306,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.09055565,
+          "post_percentage_point_contribution": 0.06231824,
+          "author_percentage_point_contribution": 0.11879306
+        }
+      ]
+    },
+    {
+      "intersecting_label": "swimming pool",
+      "overall_value": 0.09055565,
+      "percent_topic_posts_with_label": 0.06231824,
+      "percent_topic_authors_using_label_on_topic_post": 0.11879306,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.09055565,
+          "post_percentage_point_contribution": 0.06231824,
+          "author_percentage_point_contribution": 0.11879306
+        }
+      ]
+    },
+    {
+      "intersecting_label": "beach or coastal area",
+      "overall_value": 0.08536246,
+      "percent_topic_posts_with_label": 0.05193187,
+      "percent_topic_authors_using_label_on_topic_post": 0.11879306,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.08536246,
+          "post_percentage_point_contribution": 0.05193187,
+          "author_percentage_point_contribution": 0.11879306
+        }
+      ]
+    },
+    {
+      "intersecting_label": "contaminated drinking water",
+      "overall_value": 0.08536246,
+      "percent_topic_posts_with_label": 0.05193187,
+      "percent_topic_authors_using_label_on_topic_post": 0.11879306,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.08536246,
+          "post_percentage_point_contribution": 0.05193187,
+          "author_percentage_point_contribution": 0.11879306
+        }
+      ]
+    },
+    {
+      "intersecting_label": "noise pollution",
+      "overall_value": 0.08536246,
+      "percent_topic_posts_with_label": 0.05193187,
+      "percent_topic_authors_using_label_on_topic_post": 0.11879306,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.08536246,
+          "post_percentage_point_contribution": 0.05193187,
+          "author_percentage_point_contribution": 0.11879306
+        }
+      ]
+    },
+    {
+      "intersecting_label": "substance use disorder",
+      "overall_value": 0.08536246,
+      "percent_topic_posts_with_label": 0.05193187,
+      "percent_topic_authors_using_label_on_topic_post": 0.11879306,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.08536246,
+          "post_percentage_point_contribution": 0.05193187,
+          "author_percentage_point_contribution": 0.11879306
+        }
+      ]
+    },
+    {
+      "intersecting_label": "depression",
+      "overall_value": 0.06828997,
+      "percent_topic_posts_with_label": 0.04154549,
+      "percent_topic_authors_using_label_on_topic_post": 0.09503445,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.06828997,
+          "post_percentage_point_contribution": 0.04154549,
+          "author_percentage_point_contribution": 0.09503445
+        }
+      ]
+    },
+    {
+      "intersecting_label": "educational access",
+      "overall_value": 0.06828997,
+      "percent_topic_posts_with_label": 0.04154549,
+      "percent_topic_authors_using_label_on_topic_post": 0.09503445,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.06828997,
+          "post_percentage_point_contribution": 0.04154549,
+          "author_percentage_point_contribution": 0.09503445
+        }
+      ]
+    },
+    {
+      "intersecting_label": "extreme heat",
+      "overall_value": 0.06828997,
+      "percent_topic_posts_with_label": 0.04154549,
+      "percent_topic_authors_using_label_on_topic_post": 0.09503445,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.06828997,
+          "post_percentage_point_contribution": 0.04154549,
+          "author_percentage_point_contribution": 0.09503445
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infectious disease exposure",
+      "overall_value": 0.06828997,
+      "percent_topic_posts_with_label": 0.04154549,
+      "percent_topic_authors_using_label_on_topic_post": 0.09503445,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.06828997,
+          "post_percentage_point_contribution": 0.04154549,
+          "author_percentage_point_contribution": 0.09503445
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sleep problem",
+      "overall_value": 0.06828997,
+      "percent_topic_posts_with_label": 0.04154549,
+      "percent_topic_authors_using_label_on_topic_post": 0.09503445,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.06828997,
+          "post_percentage_point_contribution": 0.04154549,
+          "author_percentage_point_contribution": 0.09503445
+        }
+      ]
+    },
+    {
+      "intersecting_label": "urban environment",
+      "overall_value": 0.06828997,
+      "percent_topic_posts_with_label": 0.04154549,
+      "percent_topic_authors_using_label_on_topic_post": 0.09503445,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.06828997,
+          "post_percentage_point_contribution": 0.04154549,
+          "author_percentage_point_contribution": 0.09503445
+        }
+      ]
+    },
+    {
+      "intersecting_label": "hurricane or severe storm",
+      "overall_value": 0.05641066,
+      "percent_topic_posts_with_label": 0.04154549,
+      "percent_topic_authors_using_label_on_topic_post": 0.07127584,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.05641066,
+          "post_percentage_point_contribution": 0.04154549,
+          "author_percentage_point_contribution": 0.07127584
+        }
+      ]
+    },
+    {
+      "intersecting_label": "activity cancellation",
+      "overall_value": 0.05121748,
+      "percent_topic_posts_with_label": 0.03115912,
+      "percent_topic_authors_using_label_on_topic_post": 0.07127584,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.05121748,
+          "post_percentage_point_contribution": 0.03115912,
+          "author_percentage_point_contribution": 0.07127584
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adverse pregnancy outcome",
+      "overall_value": 0.05121748,
+      "percent_topic_posts_with_label": 0.03115912,
+      "percent_topic_authors_using_label_on_topic_post": 0.07127584,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.05121748,
+          "post_percentage_point_contribution": 0.03115912,
+          "author_percentage_point_contribution": 0.07127584
+        }
+      ]
+    },
+    {
+      "intersecting_label": "asthma",
+      "overall_value": 0.05121748,
+      "percent_topic_posts_with_label": 0.03115912,
+      "percent_topic_authors_using_label_on_topic_post": 0.07127584,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.05121748,
+          "post_percentage_point_contribution": 0.03115912,
+          "author_percentage_point_contribution": 0.07127584
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cough",
+      "overall_value": 0.05121748,
+      "percent_topic_posts_with_label": 0.03115912,
+      "percent_topic_authors_using_label_on_topic_post": 0.07127584,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.05121748,
+          "post_percentage_point_contribution": 0.03115912,
+          "author_percentage_point_contribution": 0.07127584
+        }
+      ]
+    },
+    {
+      "intersecting_label": "rural populations",
+      "overall_value": 0.05121748,
+      "percent_topic_posts_with_label": 0.03115912,
+      "percent_topic_authors_using_label_on_topic_post": 0.07127584,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.05121748,
+          "post_percentage_point_contribution": 0.03115912,
+          "author_percentage_point_contribution": 0.07127584
+        }
+      ]
+    },
+    {
+      "intersecting_label": "seizure",
+      "overall_value": 0.05121748,
+      "percent_topic_posts_with_label": 0.03115912,
+      "percent_topic_authors_using_label_on_topic_post": 0.07127584,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.05121748,
+          "post_percentage_point_contribution": 0.03115912,
+          "author_percentage_point_contribution": 0.07127584
+        }
+      ]
+    },
+    {
+      "intersecting_label": "shelter or temporary housing",
+      "overall_value": 0.05121748,
+      "percent_topic_posts_with_label": 0.03115912,
+      "percent_topic_authors_using_label_on_topic_post": 0.07127584,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.05121748,
+          "post_percentage_point_contribution": 0.03115912,
+          "author_percentage_point_contribution": 0.07127584
+        }
+      ]
+    },
+    {
+      "intersecting_label": "swimming or water recreation",
+      "overall_value": 0.05121748,
+      "percent_topic_posts_with_label": 0.03115912,
+      "percent_topic_authors_using_label_on_topic_post": 0.07127584,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.05121748,
+          "post_percentage_point_contribution": 0.03115912,
+          "author_percentage_point_contribution": 0.07127584
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic safety",
+      "overall_value": 0.05121748,
+      "percent_topic_posts_with_label": 0.03115912,
+      "percent_topic_authors_using_label_on_topic_post": 0.07127584,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.05121748,
+          "post_percentage_point_contribution": 0.03115912,
+          "author_percentage_point_contribution": 0.07127584
+        }
+      ]
+    },
+    {
+      "intersecting_label": "vaping aerosol",
+      "overall_value": 0.05121748,
+      "percent_topic_posts_with_label": 0.03115912,
+      "percent_topic_authors_using_label_on_topic_post": 0.07127584,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.05121748,
+          "post_percentage_point_contribution": 0.03115912,
+          "author_percentage_point_contribution": 0.07127584
+        }
+      ]
+    },
+    {
+      "intersecting_label": "acute poisoning",
+      "overall_value": 0.03414499,
+      "percent_topic_posts_with_label": 0.02077275,
+      "percent_topic_authors_using_label_on_topic_post": 0.04751722,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.03414499,
+          "post_percentage_point_contribution": 0.02077275,
+          "author_percentage_point_contribution": 0.04751722
+        }
+      ]
+    },
+    {
+      "intersecting_label": "ambient air pollution",
+      "overall_value": 0.03414499,
+      "percent_topic_posts_with_label": 0.02077275,
+      "percent_topic_authors_using_label_on_topic_post": 0.04751722,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.03414499,
+          "post_percentage_point_contribution": 0.02077275,
+          "author_percentage_point_contribution": 0.04751722
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cardiovascular condition",
+      "overall_value": 0.03414499,
+      "percent_topic_posts_with_label": 0.02077275,
+      "percent_topic_authors_using_label_on_topic_post": 0.04751722,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.03414499,
+          "post_percentage_point_contribution": 0.02077275,
+          "author_percentage_point_contribution": 0.04751722
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childhood cancer",
+      "overall_value": 0.03414499,
+      "percent_topic_posts_with_label": 0.02077275,
+      "percent_topic_authors_using_label_on_topic_post": 0.04751722,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.03414499,
+          "post_percentage_point_contribution": 0.02077275,
+          "author_percentage_point_contribution": 0.04751722
+        }
+      ]
+    },
+    {
+      "intersecting_label": "disability",
+      "overall_value": 0.03414499,
+      "percent_topic_posts_with_label": 0.02077275,
+      "percent_topic_authors_using_label_on_topic_post": 0.04751722,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.03414499,
+          "post_percentage_point_contribution": 0.02077275,
+          "author_percentage_point_contribution": 0.04751722
+        }
+      ]
+    },
+    {
+      "intersecting_label": "evacuation",
+      "overall_value": 0.03414499,
+      "percent_topic_posts_with_label": 0.02077275,
+      "percent_topic_authors_using_label_on_topic_post": 0.04751722,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.03414499,
+          "post_percentage_point_contribution": 0.02077275,
+          "author_percentage_point_contribution": 0.04751722
+        }
+      ]
+    },
+    {
+      "intersecting_label": "extreme cold",
+      "overall_value": 0.03414499,
+      "percent_topic_posts_with_label": 0.02077275,
+      "percent_topic_authors_using_label_on_topic_post": 0.04751722,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.03414499,
+          "post_percentage_point_contribution": 0.02077275,
+          "author_percentage_point_contribution": 0.04751722
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food contamination",
+      "overall_value": 0.03414499,
+      "percent_topic_posts_with_label": 0.02077275,
+      "percent_topic_authors_using_label_on_topic_post": 0.04751722,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.03414499,
+          "post_percentage_point_contribution": 0.02077275,
+          "author_percentage_point_contribution": 0.04751722
+        }
+      ]
+    },
+    {
+      "intersecting_label": "gastrointestinal illness",
+      "overall_value": 0.03414499,
+      "percent_topic_posts_with_label": 0.02077275,
+      "percent_topic_authors_using_label_on_topic_post": 0.04751722,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.03414499,
+          "post_percentage_point_contribution": 0.02077275,
+          "author_percentage_point_contribution": 0.04751722
+        }
+      ]
+    },
+    {
+      "intersecting_label": "generic smoke",
+      "overall_value": 0.03414499,
+      "percent_topic_posts_with_label": 0.02077275,
+      "percent_topic_authors_using_label_on_topic_post": 0.04751722,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.03414499,
+          "post_percentage_point_contribution": 0.02077275,
+          "author_percentage_point_contribution": 0.04751722
+        }
+      ]
+    },
+    {
+      "intersecting_label": "housing quality",
+      "overall_value": 0.03414499,
+      "percent_topic_posts_with_label": 0.02077275,
+      "percent_topic_authors_using_label_on_topic_post": 0.04751722,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.03414499,
+          "post_percentage_point_contribution": 0.02077275,
+          "author_percentage_point_contribution": 0.04751722
+        }
+      ]
+    },
+    {
+      "intersecting_label": "lead exposure",
+      "overall_value": 0.03414499,
+      "percent_topic_posts_with_label": 0.02077275,
+      "percent_topic_authors_using_label_on_topic_post": 0.04751722,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.03414499,
+          "post_percentage_point_contribution": 0.02077275,
+          "author_percentage_point_contribution": 0.04751722
+        }
+      ]
+    },
+    {
+      "intersecting_label": "medication use",
+      "overall_value": 0.03414499,
+      "percent_topic_posts_with_label": 0.02077275,
+      "percent_topic_authors_using_label_on_topic_post": 0.04751722,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.03414499,
+          "post_percentage_point_contribution": 0.02077275,
+          "author_percentage_point_contribution": 0.04751722
+        }
+      ]
+    },
+    {
+      "intersecting_label": "natural disaster",
+      "overall_value": 0.03414499,
+      "percent_topic_posts_with_label": 0.02077275,
+      "percent_topic_authors_using_label_on_topic_post": 0.04751722,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.03414499,
+          "post_percentage_point_contribution": 0.02077275,
+          "author_percentage_point_contribution": 0.04751722
+        }
+      ]
+    },
+    {
+      "intersecting_label": "obesity",
+      "overall_value": 0.03414499,
+      "percent_topic_posts_with_label": 0.02077275,
+      "percent_topic_authors_using_label_on_topic_post": 0.04751722,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.03414499,
+          "post_percentage_point_contribution": 0.02077275,
+          "author_percentage_point_contribution": 0.04751722
+        }
+      ]
+    },
+    {
+      "intersecting_label": "plastics or microplastics",
+      "overall_value": 0.03414499,
+      "percent_topic_posts_with_label": 0.02077275,
+      "percent_topic_authors_using_label_on_topic_post": 0.04751722,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.03414499,
+          "post_percentage_point_contribution": 0.02077275,
+          "author_percentage_point_contribution": 0.04751722
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic-related air pollution",
+      "overall_value": 0.03414499,
+      "percent_topic_posts_with_label": 0.02077275,
+      "percent_topic_authors_using_label_on_topic_post": 0.04751722,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.03414499,
+          "post_percentage_point_contribution": 0.02077275,
+          "author_percentage_point_contribution": 0.04751722
+        }
+      ]
+    },
+    {
+      "intersecting_label": "violence-related injury",
+      "overall_value": 0.03414499,
+      "percent_topic_posts_with_label": 0.02077275,
+      "percent_topic_authors_using_label_on_topic_post": 0.04751722,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.03414499,
+          "post_percentage_point_contribution": 0.02077275,
+          "author_percentage_point_contribution": 0.04751722
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildfire",
+      "overall_value": 0.03414499,
+      "percent_topic_posts_with_label": 0.02077275,
+      "percent_topic_authors_using_label_on_topic_post": 0.04751722,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.03414499,
+          "post_percentage_point_contribution": 0.02077275,
+          "author_percentage_point_contribution": 0.04751722
+        }
+      ]
+    },
+    {
+      "intersecting_label": "winter storm or snow hazard",
+      "overall_value": 0.03414499,
+      "percent_topic_posts_with_label": 0.02077275,
+      "percent_topic_authors_using_label_on_topic_post": 0.04751722,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.03414499,
+          "post_percentage_point_contribution": 0.02077275,
+          "author_percentage_point_contribution": 0.04751722
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adverse birth outcome",
+      "overall_value": 0.01707249,
+      "percent_topic_posts_with_label": 0.01038637,
+      "percent_topic_authors_using_label_on_topic_post": 0.02375861,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.01707249,
+          "post_percentage_point_contribution": 0.01038637,
+          "author_percentage_point_contribution": 0.02375861
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childcare workers",
+      "overall_value": 0.01707249,
+      "percent_topic_posts_with_label": 0.01038637,
+      "percent_topic_authors_using_label_on_topic_post": 0.02375861,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.01707249,
+          "post_percentage_point_contribution": 0.01038637,
+          "author_percentage_point_contribution": 0.02375861
+        }
+      ]
+    },
+    {
+      "intersecting_label": "dental care",
+      "overall_value": 0.01707249,
+      "percent_topic_posts_with_label": 0.01038637,
+      "percent_topic_authors_using_label_on_topic_post": 0.02375861,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.01707249,
+          "post_percentage_point_contribution": 0.01038637,
+          "author_percentage_point_contribution": 0.02375861
+        }
+      ]
+    },
+    {
+      "intersecting_label": "dental clinic",
+      "overall_value": 0.01707249,
+      "percent_topic_posts_with_label": 0.01038637,
+      "percent_topic_authors_using_label_on_topic_post": 0.02375861,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.01707249,
+          "post_percentage_point_contribution": 0.01038637,
+          "author_percentage_point_contribution": 0.02375861
+        }
+      ]
+    },
+    {
+      "intersecting_label": "developmental delay",
+      "overall_value": 0.01707249,
+      "percent_topic_posts_with_label": 0.01038637,
+      "percent_topic_authors_using_label_on_topic_post": 0.02375861,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.01707249,
+          "post_percentage_point_contribution": 0.01038637,
+          "author_percentage_point_contribution": 0.02375861
+        }
+      ]
+    },
+    {
+      "intersecting_label": "earthquake",
+      "overall_value": 0.01707249,
+      "percent_topic_posts_with_label": 0.01038637,
+      "percent_topic_authors_using_label_on_topic_post": 0.02375861,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.01707249,
+          "post_percentage_point_contribution": 0.01038637,
+          "author_percentage_point_contribution": 0.02375861
+        }
+      ]
+    },
+    {
+      "intersecting_label": "farm or agricultural setting",
+      "overall_value": 0.01707249,
+      "percent_topic_posts_with_label": 0.01038637,
+      "percent_topic_authors_using_label_on_topic_post": 0.02375861,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.01707249,
+          "post_percentage_point_contribution": 0.01038637,
+          "author_percentage_point_contribution": 0.02375861
+        }
+      ]
+    },
+    {
+      "intersecting_label": "fertility problem",
+      "overall_value": 0.01707249,
+      "percent_topic_posts_with_label": 0.01038637,
+      "percent_topic_authors_using_label_on_topic_post": 0.02375861,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.01707249,
+          "post_percentage_point_contribution": 0.01038637,
+          "author_percentage_point_contribution": 0.02375861
+        }
+      ]
+    },
+    {
+      "intersecting_label": "fire safety",
+      "overall_value": 0.01707249,
+      "percent_topic_posts_with_label": 0.01038637,
+      "percent_topic_authors_using_label_on_topic_post": 0.02375861,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.01707249,
+          "post_percentage_point_contribution": 0.01038637,
+          "author_percentage_point_contribution": 0.02375861
+        }
+      ]
+    },
+    {
+      "intersecting_label": "garden or yard",
+      "overall_value": 0.01707249,
+      "percent_topic_posts_with_label": 0.01038637,
+      "percent_topic_authors_using_label_on_topic_post": 0.02375861,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.01707249,
+          "post_percentage_point_contribution": 0.01038637,
+          "author_percentage_point_contribution": 0.02375861
+        }
+      ]
+    },
+    {
+      "intersecting_label": "headache or migraine",
+      "overall_value": 0.01707249,
+      "percent_topic_posts_with_label": 0.01038637,
+      "percent_topic_authors_using_label_on_topic_post": 0.02375861,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.01707249,
+          "post_percentage_point_contribution": 0.01038637,
+          "author_percentage_point_contribution": 0.02375861
+        }
+      ]
+    },
+    {
+      "intersecting_label": "hearing problem",
+      "overall_value": 0.01707249,
+      "percent_topic_posts_with_label": 0.01038637,
+      "percent_topic_authors_using_label_on_topic_post": 0.02375861,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.01707249,
+          "post_percentage_point_contribution": 0.01038637,
+          "author_percentage_point_contribution": 0.02375861
+        }
+      ]
+    },
+    {
+      "intersecting_label": "heat-related illness",
+      "overall_value": 0.01707249,
+      "percent_topic_posts_with_label": 0.01038637,
+      "percent_topic_authors_using_label_on_topic_post": 0.02375861,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.01707249,
+          "post_percentage_point_contribution": 0.01038637,
+          "author_percentage_point_contribution": 0.02375861
+        }
+      ]
+    },
+    {
+      "intersecting_label": "household chemicals",
+      "overall_value": 0.01707249,
+      "percent_topic_posts_with_label": 0.01038637,
+      "percent_topic_authors_using_label_on_topic_post": 0.02375861,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.01707249,
+          "post_percentage_point_contribution": 0.01038637,
+          "author_percentage_point_contribution": 0.02375861
+        }
+      ]
+    },
+    {
+      "intersecting_label": "industrial site",
+      "overall_value": 0.01707249,
+      "percent_topic_posts_with_label": 0.01038637,
+      "percent_topic_authors_using_label_on_topic_post": 0.02375861,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.01707249,
+          "post_percentage_point_contribution": 0.01038637,
+          "author_percentage_point_contribution": 0.02375861
+        }
+      ]
+    },
+    {
+      "intersecting_label": "malnutrition",
+      "overall_value": 0.01707249,
+      "percent_topic_posts_with_label": 0.01038637,
+      "percent_topic_authors_using_label_on_topic_post": 0.02375861,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.01707249,
+          "post_percentage_point_contribution": 0.01038637,
+          "author_percentage_point_contribution": 0.02375861
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pain",
+      "overall_value": 0.01707249,
+      "percent_topic_posts_with_label": 0.01038637,
+      "percent_topic_authors_using_label_on_topic_post": 0.02375861,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.01707249,
+          "post_percentage_point_contribution": 0.01038637,
+          "author_percentage_point_contribution": 0.02375861
+        }
+      ]
+    },
+    {
+      "intersecting_label": "radiation",
+      "overall_value": 0.01707249,
+      "percent_topic_posts_with_label": 0.01038637,
+      "percent_topic_authors_using_label_on_topic_post": 0.02375861,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.01707249,
+          "post_percentage_point_contribution": 0.01038637,
+          "author_percentage_point_contribution": 0.02375861
+        }
+      ]
+    },
+    {
+      "intersecting_label": "shortness of breath",
+      "overall_value": 0.01707249,
+      "percent_topic_posts_with_label": 0.01038637,
+      "percent_topic_authors_using_label_on_topic_post": 0.02375861,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.01707249,
+          "post_percentage_point_contribution": 0.01038637,
+          "author_percentage_point_contribution": 0.02375861
+        }
+      ]
+    },
+    {
+      "intersecting_label": "vaccination",
+      "overall_value": 0.01707249,
+      "percent_topic_posts_with_label": 0.01038637,
+      "percent_topic_authors_using_label_on_topic_post": 0.02375861,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.01707249,
+          "post_percentage_point_contribution": 0.01038637,
+          "author_percentage_point_contribution": 0.02375861
+        }
+      ]
+    },
+    {
+      "intersecting_label": "water pollution",
+      "overall_value": 0.01707249,
+      "percent_topic_posts_with_label": 0.01038637,
+      "percent_topic_authors_using_label_on_topic_post": 0.02375861,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.01707249,
+          "post_percentage_point_contribution": 0.01038637,
+          "author_percentage_point_contribution": 0.02375861
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildfire smoke",
+      "overall_value": 0.01707249,
+      "percent_topic_posts_with_label": 0.01038637,
+      "percent_topic_authors_using_label_on_topic_post": 0.02375861,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.01707249,
+          "post_percentage_point_contribution": 0.01038637,
+          "author_percentage_point_contribution": 0.02375861
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildlife",
+      "overall_value": 0.01707249,
+      "percent_topic_posts_with_label": 0.01038637,
+      "percent_topic_authors_using_label_on_topic_post": 0.02375861,
+      "links": [
+        {
+          "component_label": "violence or crime",
+          "value": 0.01707249,
+          "post_percentage_point_contribution": 0.01038637,
+          "author_percentage_point_contribution": 0.02375861
+        }
+      ]
+    }
+  ]
+}

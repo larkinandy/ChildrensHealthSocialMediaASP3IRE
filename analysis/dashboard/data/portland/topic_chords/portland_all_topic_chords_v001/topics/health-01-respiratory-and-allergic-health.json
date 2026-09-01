@@ -1,0 +1,3483 @@
+{
+  "schema_version": "1.0.0",
+  "city_id": "38900",
+  "domain": "health",
+  "category_id": "health-01",
+  "topic": "Respiratory and allergic health",
+  "component_labels": [
+    "asthma",
+    "wheezing",
+    "cough",
+    "shortness of breath",
+    "bronchitis",
+    "pneumonia",
+    "respiratory illness",
+    "allergic disease"
+  ],
+  "intersections": [
+    {
+      "intersecting_label": "children",
+      "overall_value": 54.04996743,
+      "percent_topic_posts_with_label": 36.92555765,
+      "percent_topic_authors_using_label_on_topic_post": 71.17437722,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 11.95691621,
+          "post_percentage_point_contribution": 7.03215981,
+          "author_percentage_point_contribution": 16.8816726
+        },
+        {
+          "component_label": "wheezing",
+          "value": 0.32165512,
+          "post_percentage_point_contribution": 0.18364239,
+          "author_percentage_point_contribution": 0.45966785
+        },
+        {
+          "component_label": "cough",
+          "value": 22.23885474,
+          "post_percentage_point_contribution": 18.78079369,
+          "author_percentage_point_contribution": 25.69691578
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 4.70157036,
+          "post_percentage_point_contribution": 2.70088686,
+          "author_percentage_point_contribution": 6.70225386
+        },
+        {
+          "component_label": "bronchitis",
+          "value": 0.7005361,
+          "post_percentage_point_contribution": 0.40759652,
+          "author_percentage_point_contribution": 0.99347568
+        },
+        {
+          "component_label": "pneumonia",
+          "value": 1.20414101,
+          "post_percentage_point_contribution": 0.68082057,
+          "author_percentage_point_contribution": 1.72746145
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 11.92650307,
+          "post_percentage_point_contribution": 6.37821374,
+          "author_percentage_point_contribution": 17.47479241
+        },
+        {
+          "component_label": "allergic disease",
+          "value": 0.99979083,
+          "post_percentage_point_contribution": 0.76144406,
+          "author_percentage_point_contribution": 1.2381376
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school",
+      "overall_value": 50.14846725,
+      "percent_topic_posts_with_label": 71.91615157,
+      "percent_topic_authors_using_label_on_topic_post": 28.38078292,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 1.32393595,
+          "post_percentage_point_contribution": 0.80623488,
+          "author_percentage_point_contribution": 1.84163701
+        },
+        {
+          "component_label": "cough",
+          "value": 37.40128524,
+          "post_percentage_point_contribution": 64.68691212,
+          "author_percentage_point_contribution": 10.11565836
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 1.26902136,
+          "post_percentage_point_contribution": 1.0077936,
+          "author_percentage_point_contribution": 1.53024911
+        },
+        {
+          "component_label": "bronchitis",
+          "value": 0.3475274,
+          "post_percentage_point_contribution": 0.16124698,
+          "author_percentage_point_contribution": 0.53380783
+        },
+        {
+          "component_label": "pneumonia",
+          "value": 0.14480308,
+          "post_percentage_point_contribution": 0.06718624,
+          "author_percentage_point_contribution": 0.22241993
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 9.24662825,
+          "post_percentage_point_contribution": 4.72991131,
+          "author_percentage_point_contribution": 13.7633452
+        },
+        {
+          "component_label": "allergic disease",
+          "value": 0.41526596,
+          "post_percentage_point_contribution": 0.45686643,
+          "author_percentage_point_contribution": 0.37366548
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infants",
+      "overall_value": 4.97705387,
+      "percent_topic_posts_with_label": 2.39183015,
+      "percent_topic_authors_using_label_on_topic_post": 7.56227758,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.36907402,
+          "post_percentage_point_contribution": 0.17468422,
+          "author_percentage_point_contribution": 0.56346382
+        },
+        {
+          "component_label": "wheezing",
+          "value": 0.23168494,
+          "post_percentage_point_contribution": 0.10749798,
+          "author_percentage_point_contribution": 0.35587189
+        },
+        {
+          "component_label": "cough",
+          "value": 2.51679218,
+          "post_percentage_point_contribution": 1.22278957,
+          "author_percentage_point_contribution": 3.81079478
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 1.02705884,
+          "post_percentage_point_contribution": 0.49717818,
+          "author_percentage_point_contribution": 1.5569395
+        },
+        {
+          "component_label": "bronchitis",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "pneumonia",
+          "value": 0.07946785,
+          "post_percentage_point_contribution": 0.04031174,
+          "author_percentage_point_contribution": 0.11862396
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.55025172,
+          "post_percentage_point_contribution": 0.25530771,
+          "author_percentage_point_contribution": 0.84519573
+        },
+        {
+          "component_label": "allergic disease",
+          "value": 0.14480308,
+          "post_percentage_point_contribution": 0.06718624,
+          "author_percentage_point_contribution": 0.22241993
+        }
+      ]
+    },
+    {
+      "intersecting_label": "students",
+      "overall_value": 4.86630416,
+      "percent_topic_posts_with_label": 2.52620263,
+      "percent_topic_authors_using_label_on_topic_post": 7.20640569,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.82016228,
+          "post_percentage_point_contribution": 0.48374093,
+          "author_percentage_point_contribution": 1.15658363
+        },
+        {
+          "component_label": "cough",
+          "value": 1.46146809,
+          "post_percentage_point_contribution": 0.6987369,
+          "author_percentage_point_contribution": 2.22419929
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 1.00736323,
+          "post_percentage_point_contribution": 0.59123891,
+          "author_percentage_point_contribution": 1.42348754
+        },
+        {
+          "component_label": "bronchitis",
+          "value": 0.02896062,
+          "post_percentage_point_contribution": 0.01343725,
+          "author_percentage_point_contribution": 0.04448399
+        },
+        {
+          "component_label": "pneumonia",
+          "value": 0.02896062,
+          "post_percentage_point_contribution": 0.01343725,
+          "author_percentage_point_contribution": 0.04448399
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 1.40354686,
+          "post_percentage_point_contribution": 0.6718624,
+          "author_percentage_point_contribution": 2.13523132
+        },
+        {
+          "component_label": "allergic disease",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        }
+      ]
+    },
+    {
+      "intersecting_label": "COVID-19",
+      "overall_value": 3.54755303,
+      "percent_topic_posts_with_label": 1.93496372,
+      "percent_topic_authors_using_label_on_topic_post": 5.16014235,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.52754449,
+          "post_percentage_point_contribution": 0.3359312,
+          "author_percentage_point_contribution": 0.71915777
+        },
+        {
+          "component_label": "wheezing",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "cough",
+          "value": 1.01755872,
+          "post_percentage_point_contribution": 0.53748992,
+          "author_percentage_point_contribution": 1.49762752
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.62601258,
+          "post_percentage_point_contribution": 0.29561946,
+          "author_percentage_point_contribution": 0.95640569
+        },
+        {
+          "component_label": "pneumonia",
+          "value": 0.18279858,
+          "post_percentage_point_contribution": 0.12093523,
+          "author_percentage_point_contribution": 0.24466192
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 1.13571744,
+          "post_percentage_point_contribution": 0.61811341,
+          "author_percentage_point_contribution": 1.65332147
+        }
+      ]
+    },
+    {
+      "intersecting_label": "parents and caregivers",
+      "overall_value": 3.34182207,
+      "percent_topic_posts_with_label": 1.61246977,
+      "percent_topic_authors_using_label_on_topic_post": 5.07117438,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.41008114,
+          "post_percentage_point_contribution": 0.24187046,
+          "author_percentage_point_contribution": 0.57829181
+        },
+        {
+          "component_label": "wheezing",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "cough",
+          "value": 1.54163132,
+          "post_percentage_point_contribution": 0.72561139,
+          "author_percentage_point_contribution": 2.35765125
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.63713357,
+          "post_percentage_point_contribution": 0.29561946,
+          "author_percentage_point_contribution": 0.97864769
+        },
+        {
+          "component_label": "bronchitis",
+          "value": 0.07722831,
+          "post_percentage_point_contribution": 0.03583266,
+          "author_percentage_point_contribution": 0.11862396
+        },
+        {
+          "component_label": "pneumonia",
+          "value": 0.07722831,
+          "post_percentage_point_contribution": 0.03583266,
+          "author_percentage_point_contribution": 0.11862396
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.54059818,
+          "post_percentage_point_contribution": 0.25082863,
+          "author_percentage_point_contribution": 0.83036773
+        }
+      ]
+    },
+    {
+      "intersecting_label": "medical care",
+      "overall_value": 2.57540878,
+      "percent_topic_posts_with_label": 1.23622682,
+      "percent_topic_authors_using_label_on_topic_post": 3.91459075,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.49835374,
+          "post_percentage_point_contribution": 0.25530771,
+          "author_percentage_point_contribution": 0.74139976
+        },
+        {
+          "component_label": "cough",
+          "value": 1.07154283,
+          "post_percentage_point_contribution": 0.49717818,
+          "author_percentage_point_contribution": 1.64590747
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.39803464,
+          "post_percentage_point_contribution": 0.18812147,
+          "author_percentage_point_contribution": 0.60794781
+        },
+        {
+          "component_label": "pneumonia",
+          "value": 0.14410771,
+          "post_percentage_point_contribution": 0.08062349,
+          "author_percentage_point_contribution": 0.20759193
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.28960617,
+          "post_percentage_point_contribution": 0.13437248,
+          "author_percentage_point_contribution": 0.44483986
+        },
+        {
+          "component_label": "allergic disease",
+          "value": 0.1737637,
+          "post_percentage_point_contribution": 0.08062349,
+          "author_percentage_point_contribution": 0.26690391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infectious disease",
+      "overall_value": 2.27236537,
+      "percent_topic_posts_with_label": 1.07497984,
+      "percent_topic_authors_using_label_on_topic_post": 3.46975089,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        },
+        {
+          "component_label": "cough",
+          "value": 1.5126707,
+          "post_percentage_point_contribution": 0.71217415,
+          "author_percentage_point_contribution": 2.31316726
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "pneumonia",
+          "value": 0.14480308,
+          "post_percentage_point_contribution": 0.06718624,
+          "author_percentage_point_contribution": 0.22241993
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.44112788,
+          "post_percentage_point_contribution": 0.21499597,
+          "author_percentage_point_contribution": 0.66725979
+        }
+      ]
+    },
+    {
+      "intersecting_label": "medication use",
+      "overall_value": 2.13891341,
+      "percent_topic_posts_with_label": 1.07497984,
+      "percent_topic_authors_using_label_on_topic_post": 3.20284698,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.97585623,
+          "post_percentage_point_contribution": 0.48374093,
+          "author_percentage_point_contribution": 1.46797153
+        },
+        {
+          "component_label": "cough",
+          "value": 0.73073405,
+          "post_percentage_point_contribution": 0.34936845,
+          "author_percentage_point_contribution": 1.11209964
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.04239786,
+          "post_percentage_point_contribution": 0.04031174,
+          "author_percentage_point_contribution": 0.04448399
+        },
+        {
+          "component_label": "pneumonia",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.18720095,
+          "post_percentage_point_contribution": 0.10749798,
+          "author_percentage_point_contribution": 0.26690391
+        },
+        {
+          "component_label": "allergic disease",
+          "value": 0.08688185,
+          "post_percentage_point_contribution": 0.04031174,
+          "author_percentage_point_contribution": 0.13345196
+        }
+      ]
+    },
+    {
+      "intersecting_label": "home",
+      "overall_value": 1.92483796,
+      "percent_topic_posts_with_label": 0.91373287,
+      "percent_topic_authors_using_label_on_topic_post": 2.93594306,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.38027173,
+          "post_percentage_point_contribution": 0.19707964,
+          "author_percentage_point_contribution": 0.56346382
+        },
+        {
+          "component_label": "wheezing",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "cough",
+          "value": 1.03292867,
+          "post_percentage_point_contribution": 0.47926185,
+          "author_percentage_point_contribution": 1.58659549
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.08688185,
+          "post_percentage_point_contribution": 0.04031174,
+          "author_percentage_point_contribution": 0.13345196
+        },
+        {
+          "component_label": "bronchitis",
+          "value": 0.07722831,
+          "post_percentage_point_contribution": 0.03583266,
+          "author_percentage_point_contribution": 0.11862396
+        },
+        {
+          "component_label": "pneumonia",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.23168494,
+          "post_percentage_point_contribution": 0.10749798,
+          "author_percentage_point_contribution": 0.35587189
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adolescents",
+      "overall_value": 1.85347948,
+      "percent_topic_posts_with_label": 0.85998388,
+      "percent_topic_authors_using_label_on_topic_post": 2.84697509,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.46336987,
+          "post_percentage_point_contribution": 0.21499597,
+          "author_percentage_point_contribution": 0.71174377
+        },
+        {
+          "component_label": "wheezing",
+          "value": 0.08688185,
+          "post_percentage_point_contribution": 0.04031174,
+          "author_percentage_point_contribution": 0.13345196
+        },
+        {
+          "component_label": "cough",
+          "value": 0.60817296,
+          "post_percentage_point_contribution": 0.28218221,
+          "author_percentage_point_contribution": 0.9341637
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.3475274,
+          "post_percentage_point_contribution": 0.16124698,
+          "author_percentage_point_contribution": 0.53380783
+        },
+        {
+          "component_label": "bronchitis",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        },
+        {
+          "component_label": "pneumonia",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.1737637,
+          "post_percentage_point_contribution": 0.08062349,
+          "author_percentage_point_contribution": 0.26690391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare facility",
+      "overall_value": 1.85347948,
+      "percent_topic_posts_with_label": 0.85998388,
+      "percent_topic_authors_using_label_on_topic_post": 2.84697509,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.26064555,
+          "post_percentage_point_contribution": 0.12093523,
+          "author_percentage_point_contribution": 0.40035587
+        },
+        {
+          "component_label": "cough",
+          "value": 0.28960617,
+          "post_percentage_point_contribution": 0.13437248,
+          "author_percentage_point_contribution": 0.44483986
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.49233049,
+          "post_percentage_point_contribution": 0.22843322,
+          "author_percentage_point_contribution": 0.75622776
+        },
+        {
+          "component_label": "bronchitis",
+          "value": 0.02896062,
+          "post_percentage_point_contribution": 0.01343725,
+          "author_percentage_point_contribution": 0.04448399
+        },
+        {
+          "component_label": "pneumonia",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.55025172,
+          "post_percentage_point_contribution": 0.25530771,
+          "author_percentage_point_contribution": 0.84519573
+        },
+        {
+          "component_label": "allergic disease",
+          "value": 0.1737637,
+          "post_percentage_point_contribution": 0.08062349,
+          "author_percentage_point_contribution": 0.26690391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildfire smoke",
+      "overall_value": 1.75107426,
+      "percent_topic_posts_with_label": 0.83310938,
+      "percent_topic_authors_using_label_on_topic_post": 2.66903915,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.6698779,
+          "post_percentage_point_contribution": 0.33145212,
+          "author_percentage_point_contribution": 1.00830368
+        },
+        {
+          "component_label": "cough",
+          "value": 0.65644065,
+          "post_percentage_point_contribution": 0.30457762,
+          "author_percentage_point_contribution": 1.00830368
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.25099201,
+          "post_percentage_point_contribution": 0.11645615,
+          "author_percentage_point_contribution": 0.38552788
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.1737637,
+          "post_percentage_point_contribution": 0.08062349,
+          "author_percentage_point_contribution": 0.26690391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "allergens",
+      "overall_value": 1.72929253,
+      "percent_topic_posts_with_label": 0.96748186,
+      "percent_topic_authors_using_label_on_topic_post": 2.4911032,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.49904911,
+          "post_percentage_point_contribution": 0.24187046,
+          "author_percentage_point_contribution": 0.75622776
+        },
+        {
+          "component_label": "cough",
+          "value": 0.57040759,
+          "post_percentage_point_contribution": 0.29561946,
+          "author_percentage_point_contribution": 0.84519573
+        },
+        {
+          "component_label": "allergic disease",
+          "value": 0.65983583,
+          "post_percentage_point_contribution": 0.42999194,
+          "author_percentage_point_contribution": 0.88967972
+        }
+      ]
+    },
+    {
+      "intersecting_label": "street or roadway",
+      "overall_value": 1.63750322,
+      "percent_topic_posts_with_label": 2.7411986,
+      "percent_topic_authors_using_label_on_topic_post": 0.53380783,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.12927972,
+          "post_percentage_point_contribution": 0.08062349,
+          "author_percentage_point_contribution": 0.17793594
+        },
+        {
+          "component_label": "cough",
+          "value": 1.45030227,
+          "post_percentage_point_contribution": 2.63370062,
+          "author_percentage_point_contribution": 0.26690391
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mask use",
+      "overall_value": 1.54626382,
+      "percent_topic_posts_with_label": 0.77936039,
+      "percent_topic_authors_using_label_on_topic_post": 2.31316726,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.57040759,
+          "post_percentage_point_contribution": 0.29561946,
+          "author_percentage_point_contribution": 0.84519573
+        },
+        {
+          "component_label": "cough",
+          "value": 0.36096465,
+          "post_percentage_point_contribution": 0.18812147,
+          "author_percentage_point_contribution": 0.53380783
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.20944294,
+          "post_percentage_point_contribution": 0.10749798,
+          "author_percentage_point_contribution": 0.3113879
+        },
+        {
+          "component_label": "bronchitis",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "pneumonia",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.23168494,
+          "post_percentage_point_contribution": 0.10749798,
+          "author_percentage_point_contribution": 0.35587189
+        }
+      ]
+    },
+    {
+      "intersecting_label": "fever",
+      "overall_value": 1.44803085,
+      "percent_topic_posts_with_label": 0.6718624,
+      "percent_topic_authors_using_label_on_topic_post": 2.22419929,
+      "links": [
+        {
+          "component_label": "cough",
+          "value": 0.95570036,
+          "post_percentage_point_contribution": 0.44342919,
+          "author_percentage_point_contribution": 1.46797153
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.1737637,
+          "post_percentage_point_contribution": 0.08062349,
+          "author_percentage_point_contribution": 0.26690391
+        },
+        {
+          "component_label": "pneumonia",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.26064555,
+          "post_percentage_point_contribution": 0.12093523,
+          "author_percentage_point_contribution": 0.40035587
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school closure",
+      "overall_value": 1.39010961,
+      "percent_topic_posts_with_label": 0.64498791,
+      "percent_topic_authors_using_label_on_topic_post": 2.13523132,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "cough",
+          "value": 0.69505481,
+          "post_percentage_point_contribution": 0.32249395,
+          "author_percentage_point_contribution": 1.06761566
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.63713357,
+          "post_percentage_point_contribution": 0.29561946,
+          "author_percentage_point_contribution": 0.97864769
+        }
+      ]
+    },
+    {
+      "intersecting_label": "ambient air pollution",
+      "overall_value": 1.27426714,
+      "percent_topic_posts_with_label": 0.59123891,
+      "percent_topic_authors_using_label_on_topic_post": 1.95729537,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.7433225,
+          "post_percentage_point_contribution": 0.34488937,
+          "author_percentage_point_contribution": 1.14175563
+        },
+        {
+          "component_label": "wheezing",
+          "value": 0.02896062,
+          "post_percentage_point_contribution": 0.01343725,
+          "author_percentage_point_contribution": 0.04448399
+        },
+        {
+          "component_label": "cough",
+          "value": 0.25099201,
+          "post_percentage_point_contribution": 0.11645615,
+          "author_percentage_point_contribution": 0.38552788
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.20272432,
+          "post_percentage_point_contribution": 0.09406074,
+          "author_percentage_point_contribution": 0.3113879
+        },
+        {
+          "component_label": "bronchitis",
+          "value": 0.01930708,
+          "post_percentage_point_contribution": 0.00895817,
+          "author_percentage_point_contribution": 0.02965599
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.02896062,
+          "post_percentage_point_contribution": 0.01343725,
+          "author_percentage_point_contribution": 0.04448399
+        }
+      ]
+    },
+    {
+      "intersecting_label": "teachers and school staff",
+      "overall_value": 1.19873642,
+      "percent_topic_posts_with_label": 0.61811341,
+      "percent_topic_authors_using_label_on_topic_post": 1.77935943,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.28080142,
+          "post_percentage_point_contribution": 0.16124698,
+          "author_percentage_point_contribution": 0.40035587
+        },
+        {
+          "component_label": "cough",
+          "value": 0.57921234,
+          "post_percentage_point_contribution": 0.26874496,
+          "author_percentage_point_contribution": 0.88967972
+        },
+        {
+          "component_label": "pneumonia",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.1737637,
+          "post_percentage_point_contribution": 0.08062349,
+          "author_percentage_point_contribution": 0.26690391
+        },
+        {
+          "component_label": "allergic disease",
+          "value": 0.04911649,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.04448399
+        }
+      ]
+    },
+    {
+      "intersecting_label": "inhaler use",
+      "overall_value": 1.12737794,
+      "percent_topic_posts_with_label": 0.56436442,
+      "percent_topic_authors_using_label_on_topic_post": 1.69039146,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.95361424,
+          "post_percentage_point_contribution": 0.48374093,
+          "author_percentage_point_contribution": 1.42348754
+        },
+        {
+          "component_label": "cough",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sleep problem",
+      "overall_value": 0.98466097,
+      "percent_topic_posts_with_label": 0.45686643,
+      "percent_topic_authors_using_label_on_topic_post": 1.51245552,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.1737637,
+          "post_percentage_point_contribution": 0.08062349,
+          "author_percentage_point_contribution": 0.26690391
+        },
+        {
+          "component_label": "cough",
+          "value": 0.26064555,
+          "post_percentage_point_contribution": 0.12093523,
+          "author_percentage_point_contribution": 0.40035587
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.23168494,
+          "post_percentage_point_contribution": 0.10749798,
+          "author_percentage_point_contribution": 0.35587189
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.31856679,
+          "post_percentage_point_contribution": 0.14780973,
+          "author_percentage_point_contribution": 0.48932384
+        }
+      ]
+    },
+    {
+      "intersecting_label": "unhoused populations",
+      "overall_value": 0.98466097,
+      "percent_topic_posts_with_label": 0.45686643,
+      "percent_topic_authors_using_label_on_topic_post": 1.51245552,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "cough",
+          "value": 0.92673974,
+          "post_percentage_point_contribution": 0.42999194,
+          "author_percentage_point_contribution": 1.42348754
+        }
+      ]
+    },
+    {
+      "intersecting_label": "stress or distress",
+      "overall_value": 0.92673974,
+      "percent_topic_posts_with_label": 0.42999194,
+      "percent_topic_authors_using_label_on_topic_post": 1.42348754,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.1737637,
+          "post_percentage_point_contribution": 0.08062349,
+          "author_percentage_point_contribution": 0.26690391
+        },
+        {
+          "component_label": "cough",
+          "value": 0.40544864,
+          "post_percentage_point_contribution": 0.18812147,
+          "author_percentage_point_contribution": 0.6227758
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.23168494,
+          "post_percentage_point_contribution": 0.10749798,
+          "author_percentage_point_contribution": 0.35587189
+        }
+      ]
+    },
+    {
+      "intersecting_label": "classroom",
+      "overall_value": 0.86881851,
+      "percent_topic_posts_with_label": 0.40311744,
+      "percent_topic_authors_using_label_on_topic_post": 1.33451957,
+      "links": [
+        {
+          "component_label": "cough",
+          "value": 0.63713357,
+          "post_percentage_point_contribution": 0.29561946,
+          "author_percentage_point_contribution": 0.97864769
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.1737637,
+          "post_percentage_point_contribution": 0.08062349,
+          "author_percentage_point_contribution": 0.26690391
+        },
+        {
+          "component_label": "allergic disease",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mortality or death",
+      "overall_value": 0.86881851,
+      "percent_topic_posts_with_label": 0.40311744,
+      "percent_topic_authors_using_label_on_topic_post": 1.33451957,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        },
+        {
+          "component_label": "cough",
+          "value": 0.02896062,
+          "post_percentage_point_contribution": 0.01343725,
+          "author_percentage_point_contribution": 0.04448399
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        },
+        {
+          "component_label": "pneumonia",
+          "value": 0.14480308,
+          "post_percentage_point_contribution": 0.06718624,
+          "author_percentage_point_contribution": 0.22241993
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.40544864,
+          "post_percentage_point_contribution": 0.18812147,
+          "author_percentage_point_contribution": 0.6227758
+        },
+        {
+          "component_label": "allergic disease",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "toddlers",
+      "overall_value": 0.83777177,
+      "percent_topic_posts_with_label": 0.42999194,
+      "percent_topic_authors_using_label_on_topic_post": 1.2455516,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "cough",
+          "value": 0.46568612,
+          "post_percentage_point_contribution": 0.24187046,
+          "author_percentage_point_contribution": 0.68950178
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.26736418,
+          "post_percentage_point_contribution": 0.13437248,
+          "author_percentage_point_contribution": 0.40035587
+        },
+        {
+          "component_label": "bronchitis",
+          "value": 0.01560008,
+          "post_percentage_point_contribution": 0.00895817,
+          "author_percentage_point_contribution": 0.02224199
+        },
+        {
+          "component_label": "pneumonia",
+          "value": 0.01560008,
+          "post_percentage_point_contribution": 0.00895817,
+          "author_percentage_point_contribution": 0.02224199
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.01560008,
+          "post_percentage_point_contribution": 0.00895817,
+          "author_percentage_point_contribution": 0.02224199
+        }
+      ]
+    },
+    {
+      "intersecting_label": "activity cancellation",
+      "overall_value": 0.81089727,
+      "percent_topic_posts_with_label": 0.37624295,
+      "percent_topic_authors_using_label_on_topic_post": 1.2455516,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.26064555,
+          "post_percentage_point_contribution": 0.12093523,
+          "author_percentage_point_contribution": 0.40035587
+        },
+        {
+          "component_label": "cough",
+          "value": 0.40544864,
+          "post_percentage_point_contribution": 0.18812147,
+          "author_percentage_point_contribution": 0.6227758
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.14480308,
+          "post_percentage_point_contribution": 0.06718624,
+          "author_percentage_point_contribution": 0.22241993
+        }
+      ]
+    },
+    {
+      "intersecting_label": "indoor environment",
+      "overall_value": 0.75297604,
+      "percent_topic_posts_with_label": 0.34936845,
+      "percent_topic_authors_using_label_on_topic_post": 1.15658363,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        },
+        {
+          "component_label": "cough",
+          "value": 0.3475274,
+          "post_percentage_point_contribution": 0.16124698,
+          "author_percentage_point_contribution": 0.53380783
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.1737637,
+          "post_percentage_point_contribution": 0.08062349,
+          "author_percentage_point_contribution": 0.26690391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sports participation",
+      "overall_value": 0.75297604,
+      "percent_topic_posts_with_label": 0.34936845,
+      "percent_topic_authors_using_label_on_topic_post": 1.15658363,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.5212911,
+          "post_percentage_point_contribution": 0.24187046,
+          "author_percentage_point_contribution": 0.80071174
+        },
+        {
+          "component_label": "cough",
+          "value": 0.02896062,
+          "post_percentage_point_contribution": 0.01343725,
+          "author_percentage_point_contribution": 0.04448399
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.14480308,
+          "post_percentage_point_contribution": 0.06718624,
+          "author_percentage_point_contribution": 0.22241993
+        },
+        {
+          "component_label": "pneumonia",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "influenza",
+      "overall_value": 0.69505481,
+      "percent_topic_posts_with_label": 0.32249395,
+      "percent_topic_authors_using_label_on_topic_post": 1.06761566,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.20272432,
+          "post_percentage_point_contribution": 0.09406074,
+          "author_percentage_point_contribution": 0.3113879
+        },
+        {
+          "component_label": "cough",
+          "value": 0.1737637,
+          "post_percentage_point_contribution": 0.08062349,
+          "author_percentage_point_contribution": 0.26690391
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        },
+        {
+          "component_label": "pneumonia",
+          "value": 0.08688185,
+          "post_percentage_point_contribution": 0.04031174,
+          "author_percentage_point_contribution": 0.13345196
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        }
+      ]
+    },
+    {
+      "intersecting_label": "secondhand tobacco smoke",
+      "overall_value": 0.69505481,
+      "percent_topic_posts_with_label": 0.32249395,
+      "percent_topic_authors_using_label_on_topic_post": 1.06761566,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.28960617,
+          "post_percentage_point_contribution": 0.13437248,
+          "author_percentage_point_contribution": 0.44483986
+        },
+        {
+          "component_label": "cough",
+          "value": 0.1737637,
+          "post_percentage_point_contribution": 0.08062349,
+          "author_percentage_point_contribution": 0.26690391
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        },
+        {
+          "component_label": "allergic disease",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cancer",
+      "overall_value": 0.63713357,
+      "percent_topic_posts_with_label": 0.29561946,
+      "percent_topic_authors_using_label_on_topic_post": 0.97864769,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.40544864,
+          "post_percentage_point_contribution": 0.18812147,
+          "author_percentage_point_contribution": 0.6227758
+        },
+        {
+          "component_label": "cough",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "bronchitis",
+          "value": 0.02896062,
+          "post_percentage_point_contribution": 0.01343725,
+          "author_percentage_point_contribution": 0.04448399
+        },
+        {
+          "component_label": "pneumonia",
+          "value": 0.02896062,
+          "post_percentage_point_contribution": 0.01343725,
+          "author_percentage_point_contribution": 0.04448399
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "allergic disease",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "outdoor play or recreation",
+      "overall_value": 0.63713357,
+      "percent_topic_posts_with_label": 0.29561946,
+      "percent_topic_authors_using_label_on_topic_post": 0.97864769,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.23168494,
+          "post_percentage_point_contribution": 0.10749798,
+          "author_percentage_point_contribution": 0.35587189
+        },
+        {
+          "component_label": "cough",
+          "value": 0.28960617,
+          "post_percentage_point_contribution": 0.13437248,
+          "author_percentage_point_contribution": 0.44483986
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        }
+      ]
+    },
+    {
+      "intersecting_label": "extreme cold",
+      "overall_value": 0.57921234,
+      "percent_topic_posts_with_label": 0.26874496,
+      "percent_topic_authors_using_label_on_topic_post": 0.88967972,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.23168494,
+          "post_percentage_point_contribution": 0.10749798,
+          "author_percentage_point_contribution": 0.35587189
+        },
+        {
+          "component_label": "cough",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "pneumonia",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        }
+      ]
+    },
+    {
+      "intersecting_label": "park or green space",
+      "overall_value": 0.57921234,
+      "percent_topic_posts_with_label": 0.26874496,
+      "percent_topic_authors_using_label_on_topic_post": 0.88967972,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "wheezing",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "cough",
+          "value": 0.20272432,
+          "post_percentage_point_contribution": 0.09406074,
+          "author_percentage_point_contribution": 0.3113879
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.08688185,
+          "post_percentage_point_contribution": 0.04031174,
+          "author_percentage_point_contribution": 0.13345196
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        },
+        {
+          "component_label": "allergic disease",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "gastrointestinal illness",
+      "overall_value": 0.5212911,
+      "percent_topic_posts_with_label": 0.24187046,
+      "percent_topic_authors_using_label_on_topic_post": 0.80071174,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        },
+        {
+          "component_label": "cough",
+          "value": 0.23168494,
+          "post_percentage_point_contribution": 0.10749798,
+          "author_percentage_point_contribution": 0.35587189
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.1737637,
+          "post_percentage_point_contribution": 0.08062349,
+          "author_percentage_point_contribution": 0.26690391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health disparity",
+      "overall_value": 0.5212911,
+      "percent_topic_posts_with_label": 0.24187046,
+      "percent_topic_authors_using_label_on_topic_post": 0.80071174,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.40544864,
+          "post_percentage_point_contribution": 0.18812147,
+          "author_percentage_point_contribution": 0.6227758
+        },
+        {
+          "component_label": "cough",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        }
+      ]
+    },
+    {
+      "intersecting_label": "outdoor environment",
+      "overall_value": 0.5212911,
+      "percent_topic_posts_with_label": 0.24187046,
+      "percent_topic_authors_using_label_on_topic_post": 0.80071174,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.37648802,
+          "post_percentage_point_contribution": 0.17468422,
+          "author_percentage_point_contribution": 0.57829181
+        },
+        {
+          "component_label": "cough",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.08688185,
+          "post_percentage_point_contribution": 0.04031174,
+          "author_percentage_point_contribution": 0.13345196
+        }
+      ]
+    },
+    {
+      "intersecting_label": "child abuse or neglect",
+      "overall_value": 0.47680712,
+      "percent_topic_posts_with_label": 0.24187046,
+      "percent_topic_authors_using_label_on_topic_post": 0.71174377,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        },
+        {
+          "component_label": "cough",
+          "value": 0.18720095,
+          "post_percentage_point_contribution": 0.10749798,
+          "author_percentage_point_contribution": 0.26690391
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.1737637,
+          "post_percentage_point_contribution": 0.08062349,
+          "author_percentage_point_contribution": 0.26690391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cardiovascular condition",
+      "overall_value": 0.46336987,
+      "percent_topic_posts_with_label": 0.21499597,
+      "percent_topic_authors_using_label_on_topic_post": 0.71174377,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.1737637,
+          "post_percentage_point_contribution": 0.08062349,
+          "author_percentage_point_contribution": 0.26690391
+        },
+        {
+          "component_label": "cough",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        }
+      ]
+    },
+    {
+      "intersecting_label": "children with disabilities",
+      "overall_value": 0.46336987,
+      "percent_topic_posts_with_label": 0.21499597,
+      "percent_topic_authors_using_label_on_topic_post": 0.71174377,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.1737637,
+          "post_percentage_point_contribution": 0.08062349,
+          "author_percentage_point_contribution": 0.26690391
+        },
+        {
+          "component_label": "bronchitis",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "pneumonia",
+          "value": 0.08688185,
+          "post_percentage_point_contribution": 0.04031174,
+          "author_percentage_point_contribution": 0.13345196
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.14480308,
+          "post_percentage_point_contribution": 0.06718624,
+          "author_percentage_point_contribution": 0.22241993
+        }
+      ]
+    },
+    {
+      "intersecting_label": "headache or migraine",
+      "overall_value": 0.46336987,
+      "percent_topic_posts_with_label": 0.21499597,
+      "percent_topic_authors_using_label_on_topic_post": 0.71174377,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "cough",
+          "value": 0.31856679,
+          "post_percentage_point_contribution": 0.14780973,
+          "author_percentage_point_contribution": 0.48932384
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.02896062,
+          "post_percentage_point_contribution": 0.01343725,
+          "author_percentage_point_contribution": 0.04448399
+        }
+      ]
+    },
+    {
+      "intersecting_label": "obesity",
+      "overall_value": 0.46336987,
+      "percent_topic_posts_with_label": 0.21499597,
+      "percent_topic_authors_using_label_on_topic_post": 0.71174377,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.3475274,
+          "post_percentage_point_contribution": 0.16124698,
+          "author_percentage_point_contribution": 0.53380783
+        },
+        {
+          "component_label": "cough",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "vaccination",
+      "overall_value": 0.46336987,
+      "percent_topic_posts_with_label": 0.21499597,
+      "percent_topic_authors_using_label_on_topic_post": 0.71174377,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.1737637,
+          "post_percentage_point_contribution": 0.08062349,
+          "author_percentage_point_contribution": 0.26690391
+        },
+        {
+          "component_label": "cough",
+          "value": 0.1737637,
+          "post_percentage_point_contribution": 0.08062349,
+          "author_percentage_point_contribution": 0.26690391
+        },
+        {
+          "component_label": "bronchitis",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "workplace",
+      "overall_value": 0.46336987,
+      "percent_topic_posts_with_label": 0.21499597,
+      "percent_topic_authors_using_label_on_topic_post": 0.71174377,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.14480308,
+          "post_percentage_point_contribution": 0.06718624,
+          "author_percentage_point_contribution": 0.22241993
+        },
+        {
+          "component_label": "cough",
+          "value": 0.14480308,
+          "post_percentage_point_contribution": 0.06718624,
+          "author_percentage_point_contribution": 0.22241993
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "pneumonia",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infectious disease exposure",
+      "overall_value": 0.40544864,
+      "percent_topic_posts_with_label": 0.18812147,
+      "percent_topic_authors_using_label_on_topic_post": 0.6227758,
+      "links": [
+        {
+          "component_label": "cough",
+          "value": 0.1737637,
+          "post_percentage_point_contribution": 0.08062349,
+          "author_percentage_point_contribution": 0.26690391
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.23168494,
+          "post_percentage_point_contribution": 0.10749798,
+          "author_percentage_point_contribution": 0.35587189
+        }
+      ]
+    },
+    {
+      "intersecting_label": "violence or crime",
+      "overall_value": 0.40544864,
+      "percent_topic_posts_with_label": 0.18812147,
+      "percent_topic_authors_using_label_on_topic_post": 0.6227758,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.1737637,
+          "post_percentage_point_contribution": 0.08062349,
+          "author_percentage_point_contribution": 0.26690391
+        },
+        {
+          "component_label": "cough",
+          "value": 0.1737637,
+          "post_percentage_point_contribution": 0.08062349,
+          "author_percentage_point_contribution": 0.26690391
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "walking or bicycling",
+      "overall_value": 0.40544864,
+      "percent_topic_posts_with_label": 0.18812147,
+      "percent_topic_authors_using_label_on_topic_post": 0.6227758,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.20272432,
+          "post_percentage_point_contribution": 0.09406074,
+          "author_percentage_point_contribution": 0.3113879
+        },
+        {
+          "component_label": "cough",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.08688185,
+          "post_percentage_point_contribution": 0.04031174,
+          "author_percentage_point_contribution": 0.13345196
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare workers",
+      "overall_value": 0.36096465,
+      "percent_topic_posts_with_label": 0.18812147,
+      "percent_topic_authors_using_label_on_topic_post": 0.53380783,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.15824033,
+          "post_percentage_point_contribution": 0.09406074,
+          "author_percentage_point_contribution": 0.22241993
+        },
+        {
+          "component_label": "cough",
+          "value": 0.08688185,
+          "post_percentage_point_contribution": 0.04031174,
+          "author_percentage_point_contribution": 0.13345196
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health education or awareness",
+      "overall_value": 0.3475274,
+      "percent_topic_posts_with_label": 0.16124698,
+      "percent_topic_authors_using_label_on_topic_post": 0.53380783,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        },
+        {
+          "component_label": "cough",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "pneumonia",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "injury",
+      "overall_value": 0.3475274,
+      "percent_topic_posts_with_label": 0.16124698,
+      "percent_topic_authors_using_label_on_topic_post": 0.53380783,
+      "links": [
+        {
+          "component_label": "cough",
+          "value": 0.1737637,
+          "post_percentage_point_contribution": 0.08062349,
+          "author_percentage_point_contribution": 0.26690391
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "bronchitis",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "pneumonia",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mental health condition",
+      "overall_value": 0.3475274,
+      "percent_topic_posts_with_label": 0.16124698,
+      "percent_topic_authors_using_label_on_topic_post": 0.53380783,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        },
+        {
+          "component_label": "cough",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pain",
+      "overall_value": 0.3475274,
+      "percent_topic_posts_with_label": 0.16124698,
+      "percent_topic_authors_using_label_on_topic_post": 0.53380783,
+      "links": [
+        {
+          "component_label": "cough",
+          "value": 0.1737637,
+          "post_percentage_point_contribution": 0.08062349,
+          "author_percentage_point_contribution": 0.26690391
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.1737637,
+          "post_percentage_point_contribution": 0.08062349,
+          "author_percentage_point_contribution": 0.26690391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pets and companion animals",
+      "overall_value": 0.3475274,
+      "percent_topic_posts_with_label": 0.16124698,
+      "percent_topic_authors_using_label_on_topic_post": 0.53380783,
+      "links": [
+        {
+          "component_label": "cough",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        },
+        {
+          "component_label": "bronchitis",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        },
+        {
+          "component_label": "allergic disease",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "public transit",
+      "overall_value": 0.3475274,
+      "percent_topic_posts_with_label": 0.16124698,
+      "percent_topic_authors_using_label_on_topic_post": 0.53380783,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        },
+        {
+          "component_label": "cough",
+          "value": 0.14480308,
+          "post_percentage_point_contribution": 0.06718624,
+          "author_percentage_point_contribution": 0.22241993
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.02896062,
+          "post_percentage_point_contribution": 0.01343725,
+          "author_percentage_point_contribution": 0.04448399
+        }
+      ]
+    },
+    {
+      "intersecting_label": "diabetes",
+      "overall_value": 0.31648067,
+      "percent_topic_posts_with_label": 0.18812147,
+      "percent_topic_authors_using_label_on_topic_post": 0.44483986,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.25855943,
+          "post_percentage_point_contribution": 0.16124698,
+          "author_percentage_point_contribution": 0.35587189
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "anxiety",
+      "overall_value": 0.28960617,
+      "percent_topic_posts_with_label": 0.13437248,
+      "percent_topic_authors_using_label_on_topic_post": 0.44483986,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.02896062,
+          "post_percentage_point_contribution": 0.01343725,
+          "author_percentage_point_contribution": 0.04448399
+        },
+        {
+          "component_label": "cough",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.08688185,
+          "post_percentage_point_contribution": 0.04031174,
+          "author_percentage_point_contribution": 0.13345196
+        },
+        {
+          "component_label": "pneumonia",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "climate change",
+      "overall_value": 0.28960617,
+      "percent_topic_posts_with_label": 0.13437248,
+      "percent_topic_authors_using_label_on_topic_post": 0.44483986,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.23168494,
+          "post_percentage_point_contribution": 0.10749798,
+          "author_percentage_point_contribution": 0.35587189
+        },
+        {
+          "component_label": "cough",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "extreme heat",
+      "overall_value": 0.28960617,
+      "percent_topic_posts_with_label": 0.13437248,
+      "percent_topic_authors_using_label_on_topic_post": 0.44483986,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.1737637,
+          "post_percentage_point_contribution": 0.08062349,
+          "author_percentage_point_contribution": 0.26690391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "families",
+      "overall_value": 0.28960617,
+      "percent_topic_posts_with_label": 0.13437248,
+      "percent_topic_authors_using_label_on_topic_post": 0.44483986,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.1737637,
+          "post_percentage_point_contribution": 0.08062349,
+          "author_percentage_point_contribution": 0.26690391
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food insecurity",
+      "overall_value": 0.28960617,
+      "percent_topic_posts_with_label": 0.13437248,
+      "percent_topic_authors_using_label_on_topic_post": 0.44483986,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "cough",
+          "value": 0.1737637,
+          "post_percentage_point_contribution": 0.08062349,
+          "author_percentage_point_contribution": 0.26690391
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare access",
+      "overall_value": 0.28960617,
+      "percent_topic_posts_with_label": 0.13437248,
+      "percent_topic_authors_using_label_on_topic_post": 0.44483986,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        },
+        {
+          "component_label": "cough",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        }
+      ]
+    },
+    {
+      "intersecting_label": "vaping aerosol",
+      "overall_value": 0.28960617,
+      "percent_topic_posts_with_label": 0.13437248,
+      "percent_topic_authors_using_label_on_topic_post": 0.44483986,
+      "links": [
+        {
+          "component_label": "cough",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        },
+        {
+          "component_label": "bronchitis",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cleaning or disinfection",
+      "overall_value": 0.27199668,
+      "percent_topic_posts_with_label": 0.18812147,
+      "percent_topic_authors_using_label_on_topic_post": 0.35587189,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.09823298,
+          "post_percentage_point_contribution": 0.10749798,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "cough",
+          "value": 0.1737637,
+          "post_percentage_point_contribution": 0.08062349,
+          "author_percentage_point_contribution": 0.26690391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adverse birth outcome",
+      "overall_value": 0.23168494,
+      "percent_topic_posts_with_label": 0.10749798,
+      "percent_topic_authors_using_label_on_topic_post": 0.35587189,
+      "links": [
+        {
+          "component_label": "shortness of breath",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        },
+        {
+          "component_label": "pneumonia",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "emergency response",
+      "overall_value": 0.23168494,
+      "percent_topic_posts_with_label": 0.10749798,
+      "percent_topic_authors_using_label_on_topic_post": 0.35587189,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "allergic disease",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental policy or regulation",
+      "overall_value": 0.23168494,
+      "percent_topic_posts_with_label": 0.10749798,
+      "percent_topic_authors_using_label_on_topic_post": 0.35587189,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.23168494,
+          "post_percentage_point_contribution": 0.10749798,
+          "author_percentage_point_contribution": 0.35587189
+        }
+      ]
+    },
+    {
+      "intersecting_label": "housing instability or homelessness",
+      "overall_value": 0.23168494,
+      "percent_topic_posts_with_label": 0.10749798,
+      "percent_topic_authors_using_label_on_topic_post": 0.35587189,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "cough",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pregnant people",
+      "overall_value": 0.23168494,
+      "percent_topic_posts_with_label": 0.10749798,
+      "percent_topic_authors_using_label_on_topic_post": 0.35587189,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "cough",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "pneumonia",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        }
+      ]
+    },
+    {
+      "intersecting_label": "racial and ethnic minority populations",
+      "overall_value": 0.23168494,
+      "percent_topic_posts_with_label": 0.10749798,
+      "percent_topic_authors_using_label_on_topic_post": 0.35587189,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.1737637,
+          "post_percentage_point_contribution": 0.08062349,
+          "author_percentage_point_contribution": 0.26690391
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childcare center",
+      "overall_value": 0.1737637,
+      "percent_topic_posts_with_label": 0.08062349,
+      "percent_topic_authors_using_label_on_topic_post": 0.26690391,
+      "links": [
+        {
+          "component_label": "cough",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "drought",
+      "overall_value": 0.1737637,
+      "percent_topic_posts_with_label": 0.08062349,
+      "percent_topic_authors_using_label_on_topic_post": 0.26690391,
+      "links": [
+        {
+          "component_label": "shortness of breath",
+          "value": 0.1737637,
+          "post_percentage_point_contribution": 0.08062349,
+          "author_percentage_point_contribution": 0.26690391
+        }
+      ]
+    },
+    {
+      "intersecting_label": "drug exposure or use",
+      "overall_value": 0.1737637,
+      "percent_topic_posts_with_label": 0.08062349,
+      "percent_topic_authors_using_label_on_topic_post": 0.26690391,
+      "links": [
+        {
+          "component_label": "cough",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "dust and particulate matter",
+      "overall_value": 0.1737637,
+      "percent_topic_posts_with_label": 0.08062349,
+      "percent_topic_authors_using_label_on_topic_post": 0.26690391,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        },
+        {
+          "component_label": "cough",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "fire hazard",
+      "overall_value": 0.1737637,
+      "percent_topic_posts_with_label": 0.08062349,
+      "percent_topic_authors_using_label_on_topic_post": 0.26690391,
+      "links": [
+        {
+          "component_label": "cough",
+          "value": 0.08688185,
+          "post_percentage_point_contribution": 0.04031174,
+          "author_percentage_point_contribution": 0.13345196
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.08688185,
+          "post_percentage_point_contribution": 0.04031174,
+          "author_percentage_point_contribution": 0.13345196
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food contamination",
+      "overall_value": 0.1737637,
+      "percent_topic_posts_with_label": 0.08062349,
+      "percent_topic_authors_using_label_on_topic_post": 0.26690391,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        },
+        {
+          "component_label": "allergic disease",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "generic smoke",
+      "overall_value": 0.1737637,
+      "percent_topic_posts_with_label": 0.08062349,
+      "percent_topic_authors_using_label_on_topic_post": 0.26690391,
+      "links": [
+        {
+          "component_label": "cough",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "neighborhood",
+      "overall_value": 0.1737637,
+      "percent_topic_posts_with_label": 0.08062349,
+      "percent_topic_authors_using_label_on_topic_post": 0.26690391,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "cough",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "noise pollution",
+      "overall_value": 0.1737637,
+      "percent_topic_posts_with_label": 0.08062349,
+      "percent_topic_authors_using_label_on_topic_post": 0.26690391,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "cough",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        }
+      ]
+    },
+    {
+      "intersecting_label": "poverty or financial hardship",
+      "overall_value": 0.1737637,
+      "percent_topic_posts_with_label": 0.08062349,
+      "percent_topic_authors_using_label_on_topic_post": 0.26690391,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "cough",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "skin condition",
+      "overall_value": 0.1737637,
+      "percent_topic_posts_with_label": 0.08062349,
+      "percent_topic_authors_using_label_on_topic_post": 0.26690391,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "cough",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic hazard",
+      "overall_value": 0.1737637,
+      "percent_topic_posts_with_label": 0.08062349,
+      "percent_topic_authors_using_label_on_topic_post": 0.26690391,
+      "links": [
+        {
+          "component_label": "shortness of breath",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        },
+        {
+          "component_label": "pneumonia",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "workers",
+      "overall_value": 0.1737637,
+      "percent_topic_posts_with_label": 0.08062349,
+      "percent_topic_authors_using_label_on_topic_post": 0.26690391,
+      "links": [
+        {
+          "component_label": "cough",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mold and dampness",
+      "overall_value": 0.16959146,
+      "percent_topic_posts_with_label": 0.16124698,
+      "percent_topic_authors_using_label_on_topic_post": 0.17793594,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.16959146,
+          "post_percentage_point_contribution": 0.16124698,
+          "author_percentage_point_contribution": 0.17793594
+        }
+      ]
+    },
+    {
+      "intersecting_label": "RSV",
+      "overall_value": 0.11584247,
+      "percent_topic_posts_with_label": 0.05374899,
+      "percent_topic_authors_using_label_on_topic_post": 0.17793594,
+      "links": [
+        {
+          "component_label": "cough",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "acute poisoning",
+      "overall_value": 0.11584247,
+      "percent_topic_posts_with_label": 0.05374899,
+      "percent_topic_authors_using_label_on_topic_post": 0.17793594,
+      "links": [
+        {
+          "component_label": "cough",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "autism",
+      "overall_value": 0.11584247,
+      "percent_topic_posts_with_label": 0.05374899,
+      "percent_topic_authors_using_label_on_topic_post": 0.17793594,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "community program or service",
+      "overall_value": 0.11584247,
+      "percent_topic_posts_with_label": 0.05374899,
+      "percent_topic_authors_using_label_on_topic_post": 0.17793594,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        }
+      ]
+    },
+    {
+      "intersecting_label": "developmental delay",
+      "overall_value": 0.11584247,
+      "percent_topic_posts_with_label": 0.05374899,
+      "percent_topic_authors_using_label_on_topic_post": 0.17793594,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "household chemicals",
+      "overall_value": 0.11584247,
+      "percent_topic_posts_with_label": 0.05374899,
+      "percent_topic_authors_using_label_on_topic_post": 0.17793594,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "cough",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "liver disease",
+      "overall_value": 0.11584247,
+      "percent_topic_posts_with_label": 0.05374899,
+      "percent_topic_authors_using_label_on_topic_post": 0.17793594,
+      "links": [
+        {
+          "component_label": "pneumonia",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "respiratory illness",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "motor vehicle",
+      "overall_value": 0.11584247,
+      "percent_topic_posts_with_label": 0.05374899,
+      "percent_topic_authors_using_label_on_topic_post": 0.17793594,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "natural disaster",
+      "overall_value": 0.11584247,
+      "percent_topic_posts_with_label": 0.05374899,
+      "percent_topic_authors_using_label_on_topic_post": 0.17793594,
+      "links": [
+        {
+          "component_label": "cough",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "plastics or microplastics",
+      "overall_value": 0.11584247,
+      "percent_topic_posts_with_label": 0.05374899,
+      "percent_topic_authors_using_label_on_topic_post": 0.17793594,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "cough",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pollen",
+      "overall_value": 0.11584247,
+      "percent_topic_posts_with_label": 0.05374899,
+      "percent_topic_authors_using_label_on_topic_post": 0.17793594,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        }
+      ]
+    },
+    {
+      "intersecting_label": "preterm birth",
+      "overall_value": 0.11584247,
+      "percent_topic_posts_with_label": 0.05374899,
+      "percent_topic_authors_using_label_on_topic_post": 0.17793594,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "cough",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sports or recreation facility",
+      "overall_value": 0.11584247,
+      "percent_topic_posts_with_label": 0.05374899,
+      "percent_topic_authors_using_label_on_topic_post": 0.17793594,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "substance use disorder",
+      "overall_value": 0.11584247,
+      "percent_topic_posts_with_label": 0.05374899,
+      "percent_topic_authors_using_label_on_topic_post": 0.17793594,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "cough",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "swimming or water recreation",
+      "overall_value": 0.11584247,
+      "percent_topic_posts_with_label": 0.05374899,
+      "percent_topic_authors_using_label_on_topic_post": 0.17793594,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "cough",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "toothache or dental problem",
+      "overall_value": 0.11584247,
+      "percent_topic_posts_with_label": 0.05374899,
+      "percent_topic_authors_using_label_on_topic_post": 0.17793594,
+      "links": [
+        {
+          "component_label": "cough",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        },
+        {
+          "component_label": "shortness of breath",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "winter storm or snow hazard",
+      "overall_value": 0.11584247,
+      "percent_topic_posts_with_label": 0.05374899,
+      "percent_topic_authors_using_label_on_topic_post": 0.17793594,
+      "links": [
+        {
+          "component_label": "cough",
+          "value": 0.11584247,
+          "post_percentage_point_contribution": 0.05374899,
+          "author_percentage_point_contribution": 0.17793594
+        }
+      ]
+    },
+    {
+      "intersecting_label": "advocacy",
+      "overall_value": 0.05792123,
+      "percent_topic_posts_with_label": 0.0268745,
+      "percent_topic_authors_using_label_on_topic_post": 0.08896797,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "air-quality monitoring",
+      "overall_value": 0.05792123,
+      "percent_topic_posts_with_label": 0.0268745,
+      "percent_topic_authors_using_label_on_topic_post": 0.08896797,
+      "links": [
+        {
+          "component_label": "cough",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "apartment",
+      "overall_value": 0.05792123,
+      "percent_topic_posts_with_label": 0.0268745,
+      "percent_topic_authors_using_label_on_topic_post": 0.08896797,
+      "links": [
+        {
+          "component_label": "cough",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "asbestos",
+      "overall_value": 0.05792123,
+      "percent_topic_posts_with_label": 0.0268745,
+      "percent_topic_authors_using_label_on_topic_post": 0.08896797,
+      "links": [
+        {
+          "component_label": "cough",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "beach or coastal area",
+      "overall_value": 0.05792123,
+      "percent_topic_posts_with_label": 0.0268745,
+      "percent_topic_authors_using_label_on_topic_post": 0.08896797,
+      "links": [
+        {
+          "component_label": "shortness of breath",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "birth defect",
+      "overall_value": 0.05792123,
+      "percent_topic_posts_with_label": 0.0268745,
+      "percent_topic_authors_using_label_on_topic_post": 0.08896797,
+      "links": [
+        {
+          "component_label": "allergic disease",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "breastfeeding",
+      "overall_value": 0.05792123,
+      "percent_topic_posts_with_label": 0.0268745,
+      "percent_topic_authors_using_label_on_topic_post": 0.08896797,
+      "links": [
+        {
+          "component_label": "cough",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "carbon monoxide",
+      "overall_value": 0.05792123,
+      "percent_topic_posts_with_label": 0.0268745,
+      "percent_topic_authors_using_label_on_topic_post": 0.08896797,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childhood cancer",
+      "overall_value": 0.05792123,
+      "percent_topic_posts_with_label": 0.0268745,
+      "percent_topic_authors_using_label_on_topic_post": 0.08896797,
+      "links": [
+        {
+          "component_label": "respiratory illness",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cognitive or learning problem",
+      "overall_value": 0.05792123,
+      "percent_topic_posts_with_label": 0.0268745,
+      "percent_topic_authors_using_label_on_topic_post": 0.08896797,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "contaminated drinking water",
+      "overall_value": 0.05792123,
+      "percent_topic_posts_with_label": 0.0268745,
+      "percent_topic_authors_using_label_on_topic_post": 0.08896797,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "dental care",
+      "overall_value": 0.05792123,
+      "percent_topic_posts_with_label": 0.0268745,
+      "percent_topic_authors_using_label_on_topic_post": 0.08896797,
+      "links": [
+        {
+          "component_label": "cough",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "dental caries",
+      "overall_value": 0.05792123,
+      "percent_topic_posts_with_label": 0.0268745,
+      "percent_topic_authors_using_label_on_topic_post": 0.08896797,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "disability",
+      "overall_value": 0.05792123,
+      "percent_topic_posts_with_label": 0.0268745,
+      "percent_topic_authors_using_label_on_topic_post": 0.08896797,
+      "links": [
+        {
+          "component_label": "respiratory illness",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "earthquake",
+      "overall_value": 0.05792123,
+      "percent_topic_posts_with_label": 0.0268745,
+      "percent_topic_authors_using_label_on_topic_post": 0.08896797,
+      "links": [
+        {
+          "component_label": "bronchitis",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental justice",
+      "overall_value": 0.05792123,
+      "percent_topic_posts_with_label": 0.0268745,
+      "percent_topic_authors_using_label_on_topic_post": 0.08896797,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "farm or agricultural setting",
+      "overall_value": 0.05792123,
+      "percent_topic_posts_with_label": 0.0268745,
+      "percent_topic_authors_using_label_on_topic_post": 0.08896797,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "flooding",
+      "overall_value": 0.05792123,
+      "percent_topic_posts_with_label": 0.0268745,
+      "percent_topic_authors_using_label_on_topic_post": 0.08896797,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "foster youth",
+      "overall_value": 0.05792123,
+      "percent_topic_posts_with_label": 0.0268745,
+      "percent_topic_authors_using_label_on_topic_post": 0.08896797,
+      "links": [
+        {
+          "component_label": "respiratory illness",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "general severe weather",
+      "overall_value": 0.05792123,
+      "percent_topic_posts_with_label": 0.0268745,
+      "percent_topic_authors_using_label_on_topic_post": 0.08896797,
+      "links": [
+        {
+          "component_label": "pneumonia",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "hazardous chemicals",
+      "overall_value": 0.05792123,
+      "percent_topic_posts_with_label": 0.0268745,
+      "percent_topic_authors_using_label_on_topic_post": 0.08896797,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health screening or testing",
+      "overall_value": 0.05792123,
+      "percent_topic_posts_with_label": 0.0268745,
+      "percent_topic_authors_using_label_on_topic_post": 0.08896797,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "heat-related illness",
+      "overall_value": 0.05792123,
+      "percent_topic_posts_with_label": 0.0268745,
+      "percent_topic_authors_using_label_on_topic_post": 0.08896797,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "housing quality",
+      "overall_value": 0.05792123,
+      "percent_topic_posts_with_label": 0.0268745,
+      "percent_topic_authors_using_label_on_topic_post": 0.08896797,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "industrial chemicals",
+      "overall_value": 0.05792123,
+      "percent_topic_posts_with_label": 0.0268745,
+      "percent_topic_authors_using_label_on_topic_post": 0.08896797,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "low-income populations",
+      "overall_value": 0.05792123,
+      "percent_topic_posts_with_label": 0.0268745,
+      "percent_topic_authors_using_label_on_topic_post": 0.08896797,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "musculoskeletal injury",
+      "overall_value": 0.05792123,
+      "percent_topic_posts_with_label": 0.0268745,
+      "percent_topic_authors_using_label_on_topic_post": 0.08896797,
+      "links": [
+        {
+          "component_label": "shortness of breath",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pesticides",
+      "overall_value": 0.05792123,
+      "percent_topic_posts_with_label": 0.0268745,
+      "percent_topic_authors_using_label_on_topic_post": 0.08896797,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "radiation",
+      "overall_value": 0.05792123,
+      "percent_topic_posts_with_label": 0.0268745,
+      "percent_topic_authors_using_label_on_topic_post": 0.08896797,
+      "links": [
+        {
+          "component_label": "allergic disease",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "restaurant or food store",
+      "overall_value": 0.05792123,
+      "percent_topic_posts_with_label": 0.0268745,
+      "percent_topic_authors_using_label_on_topic_post": 0.08896797,
+      "links": [
+        {
+          "component_label": "cough",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "scientific research",
+      "overall_value": 0.05792123,
+      "percent_topic_posts_with_label": 0.0268745,
+      "percent_topic_authors_using_label_on_topic_post": 0.08896797,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "social support",
+      "overall_value": 0.05792123,
+      "percent_topic_posts_with_label": 0.0268745,
+      "percent_topic_authors_using_label_on_topic_post": 0.08896797,
+      "links": [
+        {
+          "component_label": "cough",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic safety",
+      "overall_value": 0.05792123,
+      "percent_topic_posts_with_label": 0.0268745,
+      "percent_topic_authors_using_label_on_topic_post": 0.08896797,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic-related air pollution",
+      "overall_value": 0.05792123,
+      "percent_topic_posts_with_label": 0.0268745,
+      "percent_topic_authors_using_label_on_topic_post": 0.08896797,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "urban environment",
+      "overall_value": 0.05792123,
+      "percent_topic_posts_with_label": 0.0268745,
+      "percent_topic_authors_using_label_on_topic_post": 0.08896797,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "vision problem",
+      "overall_value": 0.05792123,
+      "percent_topic_posts_with_label": 0.0268745,
+      "percent_topic_authors_using_label_on_topic_post": 0.08896797,
+      "links": [
+        {
+          "component_label": "cough",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "water pollution",
+      "overall_value": 0.05792123,
+      "percent_topic_posts_with_label": 0.0268745,
+      "percent_topic_authors_using_label_on_topic_post": 0.08896797,
+      "links": [
+        {
+          "component_label": "shortness of breath",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildfire",
+      "overall_value": 0.05792123,
+      "percent_topic_posts_with_label": 0.0268745,
+      "percent_topic_authors_using_label_on_topic_post": 0.08896797,
+      "links": [
+        {
+          "component_label": "cough",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildlife",
+      "overall_value": 0.05792123,
+      "percent_topic_posts_with_label": 0.0268745,
+      "percent_topic_authors_using_label_on_topic_post": 0.08896797,
+      "links": [
+        {
+          "component_label": "shortness of breath",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    },
+    {
+      "intersecting_label": "youth engagement",
+      "overall_value": 0.05792123,
+      "percent_topic_posts_with_label": 0.0268745,
+      "percent_topic_authors_using_label_on_topic_post": 0.08896797,
+      "links": [
+        {
+          "component_label": "asthma",
+          "value": 0.05792123,
+          "post_percentage_point_contribution": 0.0268745,
+          "author_percentage_point_contribution": 0.08896797
+        }
+      ]
+    }
+  ]
+}

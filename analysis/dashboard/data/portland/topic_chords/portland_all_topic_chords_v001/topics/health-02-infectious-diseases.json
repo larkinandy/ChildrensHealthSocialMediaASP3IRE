@@ -1,0 +1,3247 @@
+{
+  "schema_version": "1.0.0",
+  "city_id": "38900",
+  "domain": "health",
+  "category_id": "health-02",
+  "topic": "Infectious diseases",
+  "component_labels": [
+    "infectious disease",
+    "COVID-19",
+    "influenza",
+    "RSV"
+  ],
+  "intersections": [
+    {
+      "intersecting_label": "children",
+      "overall_value": 71.32659791,
+      "percent_topic_posts_with_label": 69.22853828,
+      "percent_topic_authors_using_label_on_topic_post": 73.42465753,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 20.33352138,
+          "post_percentage_point_contribution": 18.57115236,
+          "author_percentage_point_contribution": 22.09589041
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 47.88969716,
+          "post_percentage_point_contribution": 47.99400619,
+          "author_percentage_point_contribution": 47.78538813
+        },
+        {
+          "component_label": "influenza",
+          "value": 2.76994936,
+          "post_percentage_point_contribution": 2.32985305,
+          "author_percentage_point_contribution": 3.21004566
+        },
+        {
+          "component_label": "RSV",
+          "value": 0.33343001,
+          "post_percentage_point_contribution": 0.33352668,
+          "author_percentage_point_contribution": 0.33333333
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school",
+      "overall_value": 22.12192099,
+      "percent_topic_posts_with_label": 19.2575406,
+      "percent_topic_authors_using_label_on_topic_post": 24.98630137,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 6.42888869,
+          "post_percentage_point_contribution": 5.35092807,
+          "author_percentage_point_contribution": 7.50684932
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 14.53788312,
+          "post_percentage_point_contribution": 13.00270688,
+          "author_percentage_point_contribution": 16.07305936
+        },
+        {
+          "component_label": "influenza",
+          "value": 1.06383424,
+          "post_percentage_point_contribution": 0.82173241,
+          "author_percentage_point_contribution": 1.30593607
+        },
+        {
+          "component_label": "RSV",
+          "value": 0.09131493,
+          "post_percentage_point_contribution": 0.08217324,
+          "author_percentage_point_contribution": 0.10045662
+        }
+      ]
+    },
+    {
+      "intersecting_label": "students",
+      "overall_value": 12.88672409,
+      "percent_topic_posts_with_label": 11.25290023,
+      "percent_topic_authors_using_label_on_topic_post": 14.52054795,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 2.32748387,
+          "post_percentage_point_contribution": 1.85131477,
+          "author_percentage_point_contribution": 2.80365297
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 10.12387301,
+          "post_percentage_point_contribution": 9.0970611,
+          "author_percentage_point_contribution": 11.15068493
+        },
+        {
+          "component_label": "influenza",
+          "value": 0.37950264,
+          "post_percentage_point_contribution": 0.2658546,
+          "author_percentage_point_contribution": 0.49315068
+        },
+        {
+          "component_label": "RSV",
+          "value": 0.05586456,
+          "post_percentage_point_contribution": 0.03866976,
+          "author_percentage_point_contribution": 0.07305936
+        }
+      ]
+    },
+    {
+      "intersecting_label": "vaccination",
+      "overall_value": 11.72491498,
+      "percent_topic_posts_with_label": 9.86078886,
+      "percent_topic_authors_using_label_on_topic_post": 13.5890411,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 3.80033028,
+          "post_percentage_point_contribution": 3.26276102,
+          "author_percentage_point_contribution": 4.33789954
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 6.82207143,
+          "post_percentage_point_contribution": 5.78112916,
+          "author_percentage_point_contribution": 7.8630137
+        },
+        {
+          "component_label": "influenza",
+          "value": 1.06759792,
+          "post_percentage_point_contribution": 0.79273009,
+          "author_percentage_point_contribution": 1.34246575
+        },
+        {
+          "component_label": "RSV",
+          "value": 0.03491535,
+          "post_percentage_point_contribution": 0.0241686,
+          "author_percentage_point_contribution": 0.0456621
+        }
+      ]
+    },
+    {
+      "intersecting_label": "parents and caregivers",
+      "overall_value": 10.57760703,
+      "percent_topic_posts_with_label": 8.49767981,
+      "percent_topic_authors_using_label_on_topic_post": 12.65753425,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 2.84261672,
+          "post_percentage_point_contribution": 2.23317865,
+          "author_percentage_point_contribution": 3.45205479
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 7.2177081,
+          "post_percentage_point_contribution": 5.887471,
+          "author_percentage_point_contribution": 8.54794521
+        },
+        {
+          "component_label": "influenza",
+          "value": 0.47538378,
+          "post_percentage_point_contribution": 0.34802784,
+          "author_percentage_point_contribution": 0.60273973
+        },
+        {
+          "component_label": "RSV",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infants",
+      "overall_value": 8.52785017,
+      "percent_topic_posts_with_label": 6.69953596,
+      "percent_topic_authors_using_label_on_topic_post": 10.35616438,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 4.28918227,
+          "post_percentage_point_contribution": 3.27242846,
+          "author_percentage_point_contribution": 5.30593607
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 3.48422883,
+          "post_percentage_point_contribution": 2.8953983,
+          "author_percentage_point_contribution": 4.07305936
+        },
+        {
+          "component_label": "influenza",
+          "value": 0.6566761,
+          "post_percentage_point_contribution": 0.46403712,
+          "author_percentage_point_contribution": 0.84931507
+        },
+        {
+          "component_label": "RSV",
+          "value": 0.09776298,
+          "post_percentage_point_contribution": 0.06767208,
+          "author_percentage_point_contribution": 0.12785388
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mask use",
+      "overall_value": 8.21037409,
+      "percent_topic_posts_with_label": 6.612529,
+      "percent_topic_authors_using_label_on_topic_post": 9.80821918,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.82936174,
+          "post_percentage_point_contribution": 0.68155452,
+          "author_percentage_point_contribution": 0.97716895
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 7.02138888,
+          "post_percentage_point_contribution": 5.64095128,
+          "author_percentage_point_contribution": 8.40182648
+        },
+        {
+          "component_label": "influenza",
+          "value": 0.23044131,
+          "post_percentage_point_contribution": 0.15951276,
+          "author_percentage_point_contribution": 0.30136986
+        },
+        {
+          "component_label": "RSV",
+          "value": 0.12918216,
+          "post_percentage_point_contribution": 0.13051044,
+          "author_percentage_point_contribution": 0.12785388
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school closure",
+      "overall_value": 7.94448241,
+      "percent_topic_posts_with_label": 6.40951276,
+      "percent_topic_authors_using_label_on_topic_post": 9.47945205,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 1.49060404,
+          "post_percentage_point_contribution": 1.14559165,
+          "author_percentage_point_contribution": 1.83561644
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 6.20248784,
+          "post_percentage_point_contribution": 5.08990719,
+          "author_percentage_point_contribution": 7.31506849
+        },
+        {
+          "component_label": "influenza",
+          "value": 0.25139052,
+          "post_percentage_point_contribution": 0.17401392,
+          "author_percentage_point_contribution": 0.32876712
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mortality or death",
+      "overall_value": 7.09035216,
+      "percent_topic_posts_with_label": 6.23549884,
+      "percent_topic_authors_using_label_on_topic_post": 7.94520548,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 1.70839822,
+          "post_percentage_point_contribution": 1.50812065,
+          "author_percentage_point_contribution": 1.9086758
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 4.82653699,
+          "post_percentage_point_contribution": 4.29234339,
+          "author_percentage_point_contribution": 5.36073059
+        },
+        {
+          "component_label": "influenza",
+          "value": 0.55541694,
+          "post_percentage_point_contribution": 0.4350348,
+          "author_percentage_point_contribution": 0.67579909
+        }
+      ]
+    },
+    {
+      "intersecting_label": "families",
+      "overall_value": 5.76582017,
+      "percent_topic_posts_with_label": 4.40835267,
+      "percent_topic_authors_using_label_on_topic_post": 7.12328767,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 1.54808293,
+          "post_percentage_point_contribution": 1.16009281,
+          "author_percentage_point_contribution": 1.93607306
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 3.99831018,
+          "post_percentage_point_contribution": 3.07424594,
+          "author_percentage_point_contribution": 4.92237443
+        },
+        {
+          "component_label": "influenza",
+          "value": 0.18397668,
+          "post_percentage_point_contribution": 0.13051044,
+          "author_percentage_point_contribution": 0.23744292
+        },
+        {
+          "component_label": "RSV",
+          "value": 0.03545037,
+          "post_percentage_point_contribution": 0.04350348,
+          "author_percentage_point_contribution": 0.02739726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "teachers and school staff",
+      "overall_value": 4.80857674,
+      "percent_topic_posts_with_label": 3.97331787,
+      "percent_topic_authors_using_label_on_topic_post": 5.64383562,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.67923037,
+          "post_percentage_point_contribution": 0.53654292,
+          "author_percentage_point_contribution": 0.82191781
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 3.94725153,
+          "post_percentage_point_contribution": 3.29176334,
+          "author_percentage_point_contribution": 4.60273973
+        },
+        {
+          "component_label": "influenza",
+          "value": 0.15389505,
+          "post_percentage_point_contribution": 0.11600928,
+          "author_percentage_point_contribution": 0.19178082
+        },
+        {
+          "component_label": "RSV",
+          "value": 0.02819979,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.02739726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "home",
+      "overall_value": 4.59914026,
+      "percent_topic_posts_with_label": 3.33526682,
+      "percent_topic_authors_using_label_on_topic_post": 5.8630137,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 1.56634777,
+          "post_percentage_point_contribution": 1.16009281,
+          "author_percentage_point_contribution": 1.97260274
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 2.84424959,
+          "post_percentage_point_contribution": 2.04466357,
+          "author_percentage_point_contribution": 3.64383562
+        },
+        {
+          "component_label": "influenza",
+          "value": 0.18854289,
+          "post_percentage_point_contribution": 0.13051044,
+          "author_percentage_point_contribution": 0.24657534
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare facility",
+      "overall_value": 4.36546102,
+      "percent_topic_posts_with_label": 3.3062645,
+      "percent_topic_authors_using_label_on_topic_post": 5.42465753,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 1.54163488,
+          "post_percentage_point_contribution": 1.17459397,
+          "author_percentage_point_contribution": 1.9086758
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 2.54155145,
+          "post_percentage_point_contribution": 1.91415313,
+          "author_percentage_point_contribution": 3.16894977
+        },
+        {
+          "component_label": "influenza",
+          "value": 0.15657942,
+          "post_percentage_point_contribution": 0.13051044,
+          "author_percentage_point_contribution": 0.1826484
+        },
+        {
+          "component_label": "RSV",
+          "value": 0.12569526,
+          "post_percentage_point_contribution": 0.08700696,
+          "author_percentage_point_contribution": 0.16438356
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adolescents",
+      "overall_value": 4.18176112,
+      "percent_topic_posts_with_label": 3.10324826,
+      "percent_topic_authors_using_label_on_topic_post": 5.26027397,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 1.29240298,
+          "post_percentage_point_contribution": 0.91357309,
+          "author_percentage_point_contribution": 1.67123288
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 2.78461208,
+          "post_percentage_point_contribution": 2.11716937,
+          "author_percentage_point_contribution": 3.45205479
+        },
+        {
+          "component_label": "influenza",
+          "value": 0.10474605,
+          "post_percentage_point_contribution": 0.0725058,
+          "author_percentage_point_contribution": 0.1369863
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare workers",
+      "overall_value": 3.84657375,
+      "percent_topic_posts_with_label": 2.8712297,
+      "percent_topic_authors_using_label_on_topic_post": 4.82191781,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.91692226,
+          "post_percentage_point_contribution": 0.71055684,
+          "author_percentage_point_contribution": 1.12328767
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 2.84585465,
+          "post_percentage_point_contribution": 2.10266821,
+          "author_percentage_point_contribution": 3.5890411
+        },
+        {
+          "component_label": "influenza",
+          "value": 0.08379684,
+          "post_percentage_point_contribution": 0.05800464,
+          "author_percentage_point_contribution": 0.10958904
+        }
+      ]
+    },
+    {
+      "intersecting_label": "medical care",
+      "overall_value": 3.77727807,
+      "percent_topic_posts_with_label": 2.84222738,
+      "percent_topic_authors_using_label_on_topic_post": 4.71232877,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 1.07726536,
+          "post_percentage_point_contribution": 0.81206497,
+          "author_percentage_point_contribution": 1.34246575
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 2.44163912,
+          "post_percentage_point_contribution": 1.85131477,
+          "author_percentage_point_contribution": 3.03196347
+        },
+        {
+          "component_label": "influenza",
+          "value": 0.24440745,
+          "post_percentage_point_contribution": 0.1691802,
+          "author_percentage_point_contribution": 0.3196347
+        },
+        {
+          "component_label": "RSV",
+          "value": 0.01396614,
+          "post_percentage_point_contribution": 0.00966744,
+          "author_percentage_point_contribution": 0.01826484
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health disparity",
+      "overall_value": 3.42598449,
+      "percent_topic_posts_with_label": 2.52320186,
+      "percent_topic_authors_using_label_on_topic_post": 4.32876712,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.77672584,
+          "post_percentage_point_contribution": 0.59454756,
+          "author_percentage_point_contribution": 0.95890411
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 2.58641102,
+          "post_percentage_point_contribution": 1.88515081,
+          "author_percentage_point_contribution": 3.28767123
+        },
+        {
+          "component_label": "influenza",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        },
+        {
+          "component_label": "RSV",
+          "value": 0.02094921,
+          "post_percentage_point_contribution": 0.01450116,
+          "author_percentage_point_contribution": 0.02739726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "activity cancellation",
+      "overall_value": 2.43171344,
+      "percent_topic_posts_with_label": 1.74013921,
+      "percent_topic_authors_using_label_on_topic_post": 3.12328767,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.29328894,
+          "post_percentage_point_contribution": 0.20301624,
+          "author_percentage_point_contribution": 0.38356164
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 2.05462766,
+          "post_percentage_point_contribution": 1.47911833,
+          "author_percentage_point_contribution": 2.63013699
+        },
+        {
+          "component_label": "influenza",
+          "value": 0.08379684,
+          "post_percentage_point_contribution": 0.05800464,
+          "author_percentage_point_contribution": 0.10958904
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cough",
+      "overall_value": 2.09652608,
+      "percent_topic_posts_with_label": 1.50812065,
+      "percent_topic_authors_using_label_on_topic_post": 2.68493151,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 1.14575851,
+          "post_percentage_point_contribution": 0.81206497,
+          "author_percentage_point_contribution": 1.47945205
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.82507231,
+          "post_percentage_point_contribution": 0.60904872,
+          "author_percentage_point_contribution": 1.04109589
+        },
+        {
+          "component_label": "influenza",
+          "value": 0.10474605,
+          "post_percentage_point_contribution": 0.0725058,
+          "author_percentage_point_contribution": 0.1369863
+        },
+        {
+          "component_label": "RSV",
+          "value": 0.02094921,
+          "post_percentage_point_contribution": 0.01450116,
+          "author_percentage_point_contribution": 0.02739726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "toddlers",
+      "overall_value": 1.90153514,
+      "percent_topic_posts_with_label": 1.39211137,
+      "percent_topic_authors_using_label_on_topic_post": 2.4109589,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.67762531,
+          "post_percentage_point_contribution": 0.47853828,
+          "author_percentage_point_contribution": 0.87671233
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 1.11916378,
+          "post_percentage_point_contribution": 0.84106729,
+          "author_percentage_point_contribution": 1.39726027
+        },
+        {
+          "component_label": "influenza",
+          "value": 0.08379684,
+          "post_percentage_point_contribution": 0.05800464,
+          "author_percentage_point_contribution": 0.10958904
+        },
+        {
+          "component_label": "RSV",
+          "value": 0.02094921,
+          "post_percentage_point_contribution": 0.01450116,
+          "author_percentage_point_contribution": 0.02739726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mental health condition",
+      "overall_value": 1.85963672,
+      "percent_topic_posts_with_label": 1.36310905,
+      "percent_topic_authors_using_label_on_topic_post": 2.35616438,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.27959031,
+          "post_percentage_point_contribution": 0.20301624,
+          "author_percentage_point_contribution": 0.35616438
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 1.53814798,
+          "post_percentage_point_contribution": 1.13109049,
+          "author_percentage_point_contribution": 1.94520548
+        },
+        {
+          "component_label": "influenza",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "unhoused populations",
+      "overall_value": 1.85963672,
+      "percent_topic_posts_with_label": 1.36310905,
+      "percent_topic_authors_using_label_on_topic_post": 2.35616438,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.91558471,
+          "post_percentage_point_contribution": 0.66221964,
+          "author_percentage_point_contribution": 1.16894977
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.88818745,
+          "post_percentage_point_contribution": 0.66221964,
+          "author_percentage_point_contribution": 1.11415525
+        },
+        {
+          "component_label": "influenza",
+          "value": 0.05586456,
+          "post_percentage_point_contribution": 0.03866976,
+          "author_percentage_point_contribution": 0.07305936
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childcare center",
+      "overall_value": 1.8177383,
+      "percent_topic_posts_with_label": 1.33410673,
+      "percent_topic_authors_using_label_on_topic_post": 2.30136986,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.76947526,
+          "post_percentage_point_contribution": 0.5800464,
+          "author_percentage_point_contribution": 0.95890411
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 1.00636462,
+          "post_percentage_point_contribution": 0.725058,
+          "author_percentage_point_contribution": 1.28767123
+        },
+        {
+          "component_label": "influenza",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health education or awareness",
+      "overall_value": 1.52284429,
+      "percent_topic_posts_with_label": 1.07308585,
+      "percent_topic_authors_using_label_on_topic_post": 1.97260274,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.31423815,
+          "post_percentage_point_contribution": 0.2175174,
+          "author_percentage_point_contribution": 0.4109589
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 1.02006325,
+          "post_percentage_point_contribution": 0.725058,
+          "author_percentage_point_contribution": 1.31506849
+        },
+        {
+          "component_label": "influenza",
+          "value": 0.16759368,
+          "post_percentage_point_contribution": 0.11600928,
+          "author_percentage_point_contribution": 0.21917808
+        },
+        {
+          "component_label": "RSV",
+          "value": 0.02094921,
+          "post_percentage_point_contribution": 0.01450116,
+          "author_percentage_point_contribution": 0.02739726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "fever",
+      "overall_value": 1.49544703,
+      "percent_topic_posts_with_label": 1.07308585,
+      "percent_topic_authors_using_label_on_topic_post": 1.91780822,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.60107905,
+          "post_percentage_point_contribution": 0.4350348,
+          "author_percentage_point_contribution": 0.76712329
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.68487589,
+          "post_percentage_point_contribution": 0.49303944,
+          "author_percentage_point_contribution": 0.87671233
+        },
+        {
+          "component_label": "influenza",
+          "value": 0.2094921,
+          "post_percentage_point_contribution": 0.1450116,
+          "author_percentage_point_contribution": 0.2739726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "community program or service",
+      "overall_value": 1.47286495,
+      "percent_topic_posts_with_label": 1.24709977,
+      "percent_topic_authors_using_label_on_topic_post": 1.69863014,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.28360296,
+          "post_percentage_point_contribution": 0.34802784,
+          "author_percentage_point_contribution": 0.21917808
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 1.14736357,
+          "post_percentage_point_contribution": 0.87006961,
+          "author_percentage_point_contribution": 1.42465753
+        },
+        {
+          "component_label": "influenza",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "respiratory illness",
+      "overall_value": 1.35685567,
+      "percent_topic_posts_with_label": 1.01508121,
+      "percent_topic_authors_using_label_on_topic_post": 1.69863014,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.3077901,
+          "post_percentage_point_contribution": 0.23201856,
+          "author_percentage_point_contribution": 0.38356164
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.92337031,
+          "post_percentage_point_contribution": 0.69605568,
+          "author_percentage_point_contribution": 1.15068493
+        },
+        {
+          "component_label": "influenza",
+          "value": 0.08379684,
+          "post_percentage_point_contribution": 0.05800464,
+          "author_percentage_point_contribution": 0.10958904
+        },
+        {
+          "component_label": "RSV",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "medication use",
+      "overall_value": 1.32945841,
+      "percent_topic_posts_with_label": 1.01508121,
+      "percent_topic_authors_using_label_on_topic_post": 1.64383562,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.30134205,
+          "post_percentage_point_contribution": 0.24651972,
+          "author_percentage_point_contribution": 0.35616438
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.9024211,
+          "post_percentage_point_contribution": 0.68155452,
+          "author_percentage_point_contribution": 1.12328767
+        },
+        {
+          "component_label": "influenza",
+          "value": 0.12569526,
+          "post_percentage_point_contribution": 0.08700696,
+          "author_percentage_point_contribution": 0.16438356
+        }
+      ]
+    },
+    {
+      "intersecting_label": "children with disabilities",
+      "overall_value": 1.30366621,
+      "percent_topic_posts_with_label": 1.07308585,
+      "percent_topic_authors_using_label_on_topic_post": 1.53424658,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.18209484,
+          "post_percentage_point_contribution": 0.1450116,
+          "author_percentage_point_contribution": 0.21917808
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 1.12157137,
+          "post_percentage_point_contribution": 0.92807425,
+          "author_percentage_point_contribution": 1.31506849
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sports participation",
+      "overall_value": 1.30045609,
+      "percent_topic_posts_with_label": 0.95707657,
+      "percent_topic_authors_using_label_on_topic_post": 1.64383562,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.14664447,
+          "post_percentage_point_contribution": 0.10150812,
+          "author_percentage_point_contribution": 0.19178082
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 1.15381162,
+          "post_percentage_point_contribution": 0.85556845,
+          "author_percentage_point_contribution": 1.45205479
+        }
+      ]
+    },
+    {
+      "intersecting_label": "child abuse or neglect",
+      "overall_value": 1.23597559,
+      "percent_topic_posts_with_label": 1.10208817,
+      "percent_topic_authors_using_label_on_topic_post": 1.36986301,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.6671368,
+          "post_percentage_point_contribution": 0.59454756,
+          "author_percentage_point_contribution": 0.73972603
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.540639,
+          "post_percentage_point_contribution": 0.47853828,
+          "author_percentage_point_contribution": 0.60273973
+        },
+        {
+          "component_label": "influenza",
+          "value": 0.02819979,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.02739726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health screening or testing",
+      "overall_value": 1.18926199,
+      "percent_topic_posts_with_label": 0.89907193,
+      "percent_topic_authors_using_label_on_topic_post": 1.47945205,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.08379684,
+          "post_percentage_point_contribution": 0.05800464,
+          "author_percentage_point_contribution": 0.10958904
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 1.10546515,
+          "post_percentage_point_contribution": 0.84106729,
+          "author_percentage_point_contribution": 1.36986301
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infectious disease exposure",
+      "overall_value": 1.18765693,
+      "percent_topic_posts_with_label": 0.84106729,
+      "percent_topic_authors_using_label_on_topic_post": 1.53424658,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.29328894,
+          "post_percentage_point_contribution": 0.20301624,
+          "author_percentage_point_contribution": 0.38356164
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.89436799,
+          "post_percentage_point_contribution": 0.63805104,
+          "author_percentage_point_contribution": 1.15068493
+        }
+      ]
+    },
+    {
+      "intersecting_label": "child welfare services",
+      "overall_value": 1.17636589,
+      "percent_topic_posts_with_label": 0.92807425,
+      "percent_topic_authors_using_label_on_topic_post": 1.42465753,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.51243921,
+          "post_percentage_point_contribution": 0.44953596,
+          "author_percentage_point_contribution": 0.57534247
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.63572689,
+          "post_percentage_point_contribution": 0.44953596,
+          "author_percentage_point_contribution": 0.82191781
+        },
+        {
+          "component_label": "influenza",
+          "value": 0.02819979,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.02739726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food insecurity",
+      "overall_value": 1.16186473,
+      "percent_topic_posts_with_label": 0.89907193,
+      "percent_topic_authors_using_label_on_topic_post": 1.42465753,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.36338715,
+          "post_percentage_point_contribution": 0.26102088,
+          "author_percentage_point_contribution": 0.46575342
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.79847758,
+          "post_percentage_point_contribution": 0.63805104,
+          "author_percentage_point_contribution": 0.95890411
+        }
+      ]
+    },
+    {
+      "intersecting_label": "social support",
+      "overall_value": 1.16025967,
+      "percent_topic_posts_with_label": 0.84106729,
+      "percent_topic_authors_using_label_on_topic_post": 1.47945205,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.27959031,
+          "post_percentage_point_contribution": 0.20301624,
+          "author_percentage_point_contribution": 0.35616438
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.83877094,
+          "post_percentage_point_contribution": 0.60904872,
+          "author_percentage_point_contribution": 1.06849315
+        },
+        {
+          "component_label": "influenza",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "racial and ethnic minority populations",
+      "overall_value": 1.14575851,
+      "percent_topic_posts_with_label": 0.81206497,
+      "percent_topic_authors_using_label_on_topic_post": 1.47945205,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.53098083,
+          "post_percentage_point_contribution": 0.37703016,
+          "author_percentage_point_contribution": 0.68493151
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.57287925,
+          "post_percentage_point_contribution": 0.40603248,
+          "author_percentage_point_contribution": 0.73972603
+        },
+        {
+          "component_label": "influenza",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "poverty or financial hardship",
+      "overall_value": 1.11836125,
+      "percent_topic_posts_with_label": 0.81206497,
+      "percent_topic_authors_using_label_on_topic_post": 1.42465753,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.12569526,
+          "post_percentage_point_contribution": 0.08700696,
+          "author_percentage_point_contribution": 0.16438356
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.95076757,
+          "post_percentage_point_contribution": 0.69605568,
+          "author_percentage_point_contribution": 1.20547945
+        },
+        {
+          "component_label": "influenza",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "stress or distress",
+      "overall_value": 1.03456441,
+      "percent_topic_posts_with_label": 0.75406032,
+      "percent_topic_authors_using_label_on_topic_post": 1.31506849,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.19579347,
+          "post_percentage_point_contribution": 0.1450116,
+          "author_percentage_point_contribution": 0.24657534
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.83877094,
+          "post_percentage_point_contribution": 0.60904872,
+          "author_percentage_point_contribution": 1.06849315
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare access",
+      "overall_value": 0.99427105,
+      "percent_topic_posts_with_label": 0.78306265,
+      "percent_topic_authors_using_label_on_topic_post": 1.20547945,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.23769189,
+          "post_percentage_point_contribution": 0.17401392,
+          "author_percentage_point_contribution": 0.30136986
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.73562995,
+          "post_percentage_point_contribution": 0.59454756,
+          "author_percentage_point_contribution": 0.87671233
+        },
+        {
+          "component_label": "influenza",
+          "value": 0.02094921,
+          "post_percentage_point_contribution": 0.01450116,
+          "author_percentage_point_contribution": 0.02739726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pregnant people",
+      "overall_value": 0.96526873,
+      "percent_topic_posts_with_label": 0.725058,
+      "percent_topic_authors_using_label_on_topic_post": 1.20547945,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.25219305,
+          "post_percentage_point_contribution": 0.20301624,
+          "author_percentage_point_contribution": 0.30136986
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.65022805,
+          "post_percentage_point_contribution": 0.47853828,
+          "author_percentage_point_contribution": 0.82191781
+        },
+        {
+          "component_label": "influenza",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        },
+        {
+          "component_label": "RSV",
+          "value": 0.02094921,
+          "post_percentage_point_contribution": 0.01450116,
+          "author_percentage_point_contribution": 0.02739726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "educational access",
+      "overall_value": 0.93787147,
+      "percent_topic_posts_with_label": 0.725058,
+      "percent_topic_authors_using_label_on_topic_post": 1.15068493,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.08379684,
+          "post_percentage_point_contribution": 0.05800464,
+          "author_percentage_point_contribution": 0.10958904
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.81217621,
+          "post_percentage_point_contribution": 0.63805104,
+          "author_percentage_point_contribution": 0.98630137
+        },
+        {
+          "component_label": "influenza",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cancer",
+      "overall_value": 0.92176525,
+      "percent_topic_posts_with_label": 0.63805104,
+      "percent_topic_authors_using_label_on_topic_post": 1.20547945,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.33518736,
+          "post_percentage_point_contribution": 0.23201856,
+          "author_percentage_point_contribution": 0.43835616
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.58657789,
+          "post_percentage_point_contribution": 0.40603248,
+          "author_percentage_point_contribution": 0.76712329
+        }
+      ]
+    },
+    {
+      "intersecting_label": "violence or crime",
+      "overall_value": 0.88307695,
+      "percent_topic_posts_with_label": 0.725058,
+      "percent_topic_authors_using_label_on_topic_post": 1.04109589,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.21674268,
+          "post_percentage_point_contribution": 0.15951276,
+          "author_percentage_point_contribution": 0.2739726
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.66633427,
+          "post_percentage_point_contribution": 0.56554524,
+          "author_percentage_point_contribution": 0.76712329
+        }
+      ]
+    },
+    {
+      "intersecting_label": "anxiety",
+      "overall_value": 0.86697073,
+      "percent_topic_posts_with_label": 0.63805104,
+      "percent_topic_authors_using_label_on_topic_post": 1.09589041,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.2094921,
+          "post_percentage_point_contribution": 0.1450116,
+          "author_percentage_point_contribution": 0.2739726
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.65747863,
+          "post_percentage_point_contribution": 0.49303944,
+          "author_percentage_point_contribution": 0.82191781
+        }
+      ]
+    },
+    {
+      "intersecting_label": "gastrointestinal illness",
+      "overall_value": 0.83796841,
+      "percent_topic_posts_with_label": 0.5800464,
+      "percent_topic_authors_using_label_on_topic_post": 1.09589041,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.48183183,
+          "post_percentage_point_contribution": 0.33352668,
+          "author_percentage_point_contribution": 0.63013699
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.10474605,
+          "post_percentage_point_contribution": 0.0725058,
+          "author_percentage_point_contribution": 0.1369863
+        },
+        {
+          "component_label": "influenza",
+          "value": 0.2094921,
+          "post_percentage_point_contribution": 0.1450116,
+          "author_percentage_point_contribution": 0.2739726
+        },
+        {
+          "component_label": "RSV",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "outdoor play or recreation",
+      "overall_value": 0.79606999,
+      "percent_topic_posts_with_label": 0.55104408,
+      "percent_topic_authors_using_label_on_topic_post": 1.04109589,
+      "links": [
+        {
+          "component_label": "COVID-19",
+          "value": 0.79606999,
+          "post_percentage_point_contribution": 0.55104408,
+          "author_percentage_point_contribution": 1.04109589
+        }
+      ]
+    },
+    {
+      "intersecting_label": "low-income populations",
+      "overall_value": 0.77027779,
+      "percent_topic_posts_with_label": 0.60904872,
+      "percent_topic_authors_using_label_on_topic_post": 0.93150685,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.12649779,
+          "post_percentage_point_contribution": 0.11600928,
+          "author_percentage_point_contribution": 0.1369863
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.64378,
+          "post_percentage_point_contribution": 0.49303944,
+          "author_percentage_point_contribution": 0.79452055
+        }
+      ]
+    },
+    {
+      "intersecting_label": "indoor environment",
+      "overall_value": 0.76867273,
+      "percent_topic_posts_with_label": 0.55104408,
+      "percent_topic_authors_using_label_on_topic_post": 0.98630137,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.13294584,
+          "post_percentage_point_contribution": 0.10150812,
+          "author_percentage_point_contribution": 0.16438356
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.59382847,
+          "post_percentage_point_contribution": 0.42053364,
+          "author_percentage_point_contribution": 0.76712329
+        },
+        {
+          "component_label": "influenza",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cardiovascular condition",
+      "overall_value": 0.72837937,
+      "percent_topic_posts_with_label": 0.5800464,
+      "percent_topic_authors_using_label_on_topic_post": 0.87671233,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.12649779,
+          "post_percentage_point_contribution": 0.11600928,
+          "author_percentage_point_contribution": 0.1369863
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.60188158,
+          "post_percentage_point_contribution": 0.46403712,
+          "author_percentage_point_contribution": 0.73972603
+        }
+      ]
+    },
+    {
+      "intersecting_label": "housing instability or homelessness",
+      "overall_value": 0.67197979,
+      "percent_topic_posts_with_label": 0.52204176,
+      "percent_topic_authors_using_label_on_topic_post": 0.82191781,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.12569526,
+          "post_percentage_point_contribution": 0.08700696,
+          "author_percentage_point_contribution": 0.16438356
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.54628452,
+          "post_percentage_point_contribution": 0.4350348,
+          "author_percentage_point_contribution": 0.65753425
+        }
+      ]
+    },
+    {
+      "intersecting_label": "asthma",
+      "overall_value": 0.65908369,
+      "percent_topic_posts_with_label": 0.55104408,
+      "percent_topic_authors_using_label_on_topic_post": 0.76712329,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.065532,
+          "post_percentage_point_contribution": 0.05800464,
+          "author_percentage_point_contribution": 0.07305936
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.45147342,
+          "post_percentage_point_contribution": 0.39153132,
+          "author_percentage_point_contribution": 0.51141553
+        },
+        {
+          "component_label": "influenza",
+          "value": 0.14207826,
+          "post_percentage_point_contribution": 0.10150812,
+          "author_percentage_point_contribution": 0.1826484
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adverse birth outcome",
+      "overall_value": 0.65747863,
+      "percent_topic_posts_with_label": 0.49303944,
+      "percent_topic_authors_using_label_on_topic_post": 0.82191781,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.42703731,
+          "post_percentage_point_contribution": 0.33352668,
+          "author_percentage_point_contribution": 0.52054795
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.23044131,
+          "post_percentage_point_contribution": 0.15951276,
+          "author_percentage_point_contribution": 0.30136986
+        }
+      ]
+    },
+    {
+      "intersecting_label": "injury",
+      "overall_value": 0.62847631,
+      "percent_topic_posts_with_label": 0.4350348,
+      "percent_topic_authors_using_label_on_topic_post": 0.82191781,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.25139052,
+          "post_percentage_point_contribution": 0.17401392,
+          "author_percentage_point_contribution": 0.32876712
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.37708578,
+          "post_percentage_point_contribution": 0.26102088,
+          "author_percentage_point_contribution": 0.49315068
+        }
+      ]
+    },
+    {
+      "intersecting_label": "workers",
+      "overall_value": 0.62847631,
+      "percent_topic_posts_with_label": 0.4350348,
+      "percent_topic_authors_using_label_on_topic_post": 0.82191781,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.18854289,
+          "post_percentage_point_contribution": 0.13051044,
+          "author_percentage_point_contribution": 0.24657534
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.39803499,
+          "post_percentage_point_contribution": 0.27552204,
+          "author_percentage_point_contribution": 0.52054795
+        },
+        {
+          "component_label": "influenza",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "park or green space",
+      "overall_value": 0.60107905,
+      "percent_topic_posts_with_label": 0.4350348,
+      "percent_topic_authors_using_label_on_topic_post": 0.76712329,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.12569526,
+          "post_percentage_point_contribution": 0.08700696,
+          "author_percentage_point_contribution": 0.16438356
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.47538378,
+          "post_percentage_point_contribution": 0.34802784,
+          "author_percentage_point_contribution": 0.60273973
+        }
+      ]
+    },
+    {
+      "intersecting_label": "shortness of breath",
+      "overall_value": 0.58657789,
+      "percent_topic_posts_with_label": 0.40603248,
+      "percent_topic_authors_using_label_on_topic_post": 0.76712329,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.48183183,
+          "post_percentage_point_contribution": 0.33352668,
+          "author_percentage_point_contribution": 0.63013699
+        },
+        {
+          "component_label": "influenza",
+          "value": 0.06284763,
+          "post_percentage_point_contribution": 0.04350348,
+          "author_percentage_point_contribution": 0.08219178
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cleaning or disinfection",
+      "overall_value": 0.55918062,
+      "percent_topic_posts_with_label": 0.40603248,
+      "percent_topic_authors_using_label_on_topic_post": 0.71232877,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.14019642,
+          "post_percentage_point_contribution": 0.11600928,
+          "author_percentage_point_contribution": 0.16438356
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.4189842,
+          "post_percentage_point_contribution": 0.2900232,
+          "author_percentage_point_contribution": 0.54794521
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental policy or regulation",
+      "overall_value": 0.54467946,
+      "percent_topic_posts_with_label": 0.37703016,
+      "percent_topic_authors_using_label_on_topic_post": 0.71232877,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.50278104,
+          "post_percentage_point_contribution": 0.34802784,
+          "author_percentage_point_contribution": 0.65753425
+        }
+      ]
+    },
+    {
+      "intersecting_label": "outdoor environment",
+      "overall_value": 0.46088262,
+      "percent_topic_posts_with_label": 0.31902552,
+      "percent_topic_authors_using_label_on_topic_post": 0.60273973,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.06284763,
+          "post_percentage_point_contribution": 0.04350348,
+          "author_percentage_point_contribution": 0.08219178
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.39803499,
+          "post_percentage_point_contribution": 0.27552204,
+          "author_percentage_point_contribution": 0.52054795
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pets and companion animals",
+      "overall_value": 0.46088262,
+      "percent_topic_posts_with_label": 0.31902552,
+      "percent_topic_authors_using_label_on_topic_post": 0.60273973,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.25139052,
+          "post_percentage_point_contribution": 0.17401392,
+          "author_percentage_point_contribution": 0.32876712
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.2094921,
+          "post_percentage_point_contribution": 0.1450116,
+          "author_percentage_point_contribution": 0.2739726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "workplace",
+      "overall_value": 0.46088262,
+      "percent_topic_posts_with_label": 0.31902552,
+      "percent_topic_authors_using_label_on_topic_post": 0.60273973,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.12569526,
+          "post_percentage_point_contribution": 0.08700696,
+          "author_percentage_point_contribution": 0.16438356
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.33518736,
+          "post_percentage_point_contribution": 0.23201856,
+          "author_percentage_point_contribution": 0.43835616
+        }
+      ]
+    },
+    {
+      "intersecting_label": "disability",
+      "overall_value": 0.42058926,
+      "percent_topic_posts_with_label": 0.34802784,
+      "percent_topic_authors_using_label_on_topic_post": 0.49315068,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.21674268,
+          "post_percentage_point_contribution": 0.15951276,
+          "author_percentage_point_contribution": 0.2739726
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.20384658,
+          "post_percentage_point_contribution": 0.18851508,
+          "author_percentage_point_contribution": 0.21917808
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pneumonia",
+      "overall_value": 0.4060881,
+      "percent_topic_posts_with_label": 0.31902552,
+      "percent_topic_authors_using_label_on_topic_post": 0.49315068,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.12569526,
+          "post_percentage_point_contribution": 0.08700696,
+          "author_percentage_point_contribution": 0.16438356
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.196596,
+          "post_percentage_point_contribution": 0.17401392,
+          "author_percentage_point_contribution": 0.21917808
+        },
+        {
+          "component_label": "influenza",
+          "value": 0.08379684,
+          "post_percentage_point_contribution": 0.05800464,
+          "author_percentage_point_contribution": 0.10958904
+        }
+      ]
+    },
+    {
+      "intersecting_label": "advocacy",
+      "overall_value": 0.37708578,
+      "percent_topic_posts_with_label": 0.26102088,
+      "percent_topic_authors_using_label_on_topic_post": 0.49315068,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.08379684,
+          "post_percentage_point_contribution": 0.05800464,
+          "author_percentage_point_contribution": 0.10958904
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.29328894,
+          "post_percentage_point_contribution": 0.20301624,
+          "author_percentage_point_contribution": 0.38356164
+        }
+      ]
+    },
+    {
+      "intersecting_label": "classroom",
+      "overall_value": 0.37708578,
+      "percent_topic_posts_with_label": 0.26102088,
+      "percent_topic_authors_using_label_on_topic_post": 0.49315068,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.06284763,
+          "post_percentage_point_contribution": 0.04350348,
+          "author_percentage_point_contribution": 0.08219178
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.31423815,
+          "post_percentage_point_contribution": 0.2175174,
+          "author_percentage_point_contribution": 0.4109589
+        }
+      ]
+    },
+    {
+      "intersecting_label": "diabetes",
+      "overall_value": 0.37708578,
+      "percent_topic_posts_with_label": 0.26102088,
+      "percent_topic_authors_using_label_on_topic_post": 0.49315068,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.12569526,
+          "post_percentage_point_contribution": 0.08700696,
+          "author_percentage_point_contribution": 0.16438356
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.25139052,
+          "post_percentage_point_contribution": 0.17401392,
+          "author_percentage_point_contribution": 0.32876712
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildfire smoke",
+      "overall_value": 0.37708578,
+      "percent_topic_posts_with_label": 0.26102088,
+      "percent_topic_authors_using_label_on_topic_post": 0.49315068,
+      "links": [
+        {
+          "component_label": "COVID-19",
+          "value": 0.37708578,
+          "post_percentage_point_contribution": 0.26102088,
+          "author_percentage_point_contribution": 0.49315068
+        }
+      ]
+    },
+    {
+      "intersecting_label": "foster youth",
+      "overall_value": 0.35289864,
+      "percent_topic_posts_with_label": 0.37703016,
+      "percent_topic_authors_using_label_on_topic_post": 0.32876712,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.08459937,
+          "post_percentage_point_contribution": 0.08700696,
+          "author_percentage_point_contribution": 0.08219178
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.26829927,
+          "post_percentage_point_contribution": 0.2900232,
+          "author_percentage_point_contribution": 0.24657534
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childcare workers",
+      "overall_value": 0.34968852,
+      "percent_topic_posts_with_label": 0.26102088,
+      "percent_topic_authors_using_label_on_topic_post": 0.43835616,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.08379684,
+          "post_percentage_point_contribution": 0.05800464,
+          "author_percentage_point_contribution": 0.10958904
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.22399326,
+          "post_percentage_point_contribution": 0.17401392,
+          "author_percentage_point_contribution": 0.2739726
+        },
+        {
+          "component_label": "influenza",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childhood cancer",
+      "overall_value": 0.34968852,
+      "percent_topic_posts_with_label": 0.26102088,
+      "percent_topic_authors_using_label_on_topic_post": 0.43835616,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.3077901,
+          "post_percentage_point_contribution": 0.23201856,
+          "author_percentage_point_contribution": 0.38356164
+        },
+        {
+          "component_label": "influenza",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "ambient air pollution",
+      "overall_value": 0.33518736,
+      "percent_topic_posts_with_label": 0.23201856,
+      "percent_topic_authors_using_label_on_topic_post": 0.43835616,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.25139052,
+          "post_percentage_point_contribution": 0.17401392,
+          "author_percentage_point_contribution": 0.32876712
+        },
+        {
+          "component_label": "influenza",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "autism",
+      "overall_value": 0.33518736,
+      "percent_topic_posts_with_label": 0.23201856,
+      "percent_topic_authors_using_label_on_topic_post": 0.43835616,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.2094921,
+          "post_percentage_point_contribution": 0.1450116,
+          "author_percentage_point_contribution": 0.2739726
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.12569526,
+          "post_percentage_point_contribution": 0.08700696,
+          "author_percentage_point_contribution": 0.16438356
+        }
+      ]
+    },
+    {
+      "intersecting_label": "discrimination",
+      "overall_value": 0.29328894,
+      "percent_topic_posts_with_label": 0.20301624,
+      "percent_topic_authors_using_label_on_topic_post": 0.38356164,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.16759368,
+          "post_percentage_point_contribution": 0.11600928,
+          "author_percentage_point_contribution": 0.21917808
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.12569526,
+          "post_percentage_point_contribution": 0.08700696,
+          "author_percentage_point_contribution": 0.16438356
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food contamination",
+      "overall_value": 0.29328894,
+      "percent_topic_posts_with_label": 0.20301624,
+      "percent_topic_authors_using_label_on_topic_post": 0.38356164,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.2094921,
+          "post_percentage_point_contribution": 0.1450116,
+          "author_percentage_point_contribution": 0.2739726
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.08379684,
+          "post_percentage_point_contribution": 0.05800464,
+          "author_percentage_point_contribution": 0.10958904
+        }
+      ]
+    },
+    {
+      "intersecting_label": "reproductive health condition",
+      "overall_value": 0.29328894,
+      "percent_topic_posts_with_label": 0.20301624,
+      "percent_topic_authors_using_label_on_topic_post": 0.38356164,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.2094921,
+          "post_percentage_point_contribution": 0.1450116,
+          "author_percentage_point_contribution": 0.2739726
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.08379684,
+          "post_percentage_point_contribution": 0.05800464,
+          "author_percentage_point_contribution": 0.10958904
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sleep problem",
+      "overall_value": 0.29328894,
+      "percent_topic_posts_with_label": 0.20301624,
+      "percent_topic_authors_using_label_on_topic_post": 0.38356164,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.16759368,
+          "post_percentage_point_contribution": 0.11600928,
+          "author_percentage_point_contribution": 0.21917808
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.08379684,
+          "post_percentage_point_contribution": 0.05800464,
+          "author_percentage_point_contribution": 0.10958904
+        },
+        {
+          "component_label": "influenza",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "winter storm or snow hazard",
+      "overall_value": 0.29328894,
+      "percent_topic_posts_with_label": 0.20301624,
+      "percent_topic_authors_using_label_on_topic_post": 0.38356164,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.25139052,
+          "post_percentage_point_contribution": 0.17401392,
+          "author_percentage_point_contribution": 0.32876712
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adverse pregnancy outcome",
+      "overall_value": 0.25139052,
+      "percent_topic_posts_with_label": 0.17401392,
+      "percent_topic_authors_using_label_on_topic_post": 0.32876712,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.16759368,
+          "post_percentage_point_contribution": 0.11600928,
+          "author_percentage_point_contribution": 0.21917808
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.08379684,
+          "post_percentage_point_contribution": 0.05800464,
+          "author_percentage_point_contribution": 0.10958904
+        }
+      ]
+    },
+    {
+      "intersecting_label": "apartment",
+      "overall_value": 0.25139052,
+      "percent_topic_posts_with_label": 0.17401392,
+      "percent_topic_authors_using_label_on_topic_post": 0.32876712,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.2094921,
+          "post_percentage_point_contribution": 0.1450116,
+          "author_percentage_point_contribution": 0.2739726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental justice",
+      "overall_value": 0.25139052,
+      "percent_topic_posts_with_label": 0.17401392,
+      "percent_topic_authors_using_label_on_topic_post": 0.32876712,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.08379684,
+          "post_percentage_point_contribution": 0.05800464,
+          "author_percentage_point_contribution": 0.10958904
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.16759368,
+          "post_percentage_point_contribution": 0.11600928,
+          "author_percentage_point_contribution": 0.21917808
+        }
+      ]
+    },
+    {
+      "intersecting_label": "neighborhood",
+      "overall_value": 0.25139052,
+      "percent_topic_posts_with_label": 0.17401392,
+      "percent_topic_authors_using_label_on_topic_post": 0.32876712,
+      "links": [
+        {
+          "component_label": "COVID-19",
+          "value": 0.25139052,
+          "post_percentage_point_contribution": 0.17401392,
+          "author_percentage_point_contribution": 0.32876712
+        }
+      ]
+    },
+    {
+      "intersecting_label": "restaurant or food store",
+      "overall_value": 0.25139052,
+      "percent_topic_posts_with_label": 0.17401392,
+      "percent_topic_authors_using_label_on_topic_post": 0.32876712,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.08379684,
+          "post_percentage_point_contribution": 0.05800464,
+          "author_percentage_point_contribution": 0.10958904
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.16759368,
+          "post_percentage_point_contribution": 0.11600928,
+          "author_percentage_point_contribution": 0.21917808
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cooking or food preparation",
+      "overall_value": 0.2094921,
+      "percent_topic_posts_with_label": 0.1450116,
+      "percent_topic_authors_using_label_on_topic_post": 0.2739726,
+      "links": [
+        {
+          "component_label": "COVID-19",
+          "value": 0.2094921,
+          "post_percentage_point_contribution": 0.1450116,
+          "author_percentage_point_contribution": 0.2739726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "depression",
+      "overall_value": 0.2094921,
+      "percent_topic_posts_with_label": 0.1450116,
+      "percent_topic_authors_using_label_on_topic_post": 0.2739726,
+      "links": [
+        {
+          "component_label": "COVID-19",
+          "value": 0.2094921,
+          "post_percentage_point_contribution": 0.1450116,
+          "author_percentage_point_contribution": 0.2739726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "motor vehicle",
+      "overall_value": 0.2094921,
+      "percent_topic_posts_with_label": 0.1450116,
+      "percent_topic_authors_using_label_on_topic_post": 0.2739726,
+      "links": [
+        {
+          "component_label": "COVID-19",
+          "value": 0.2094921,
+          "post_percentage_point_contribution": 0.1450116,
+          "author_percentage_point_contribution": 0.2739726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "rural populations",
+      "overall_value": 0.2094921,
+      "percent_topic_posts_with_label": 0.1450116,
+      "percent_topic_authors_using_label_on_topic_post": 0.2739726,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.02094921,
+          "post_percentage_point_contribution": 0.01450116,
+          "author_percentage_point_contribution": 0.02739726
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.18854289,
+          "post_percentage_point_contribution": 0.13051044,
+          "author_percentage_point_contribution": 0.24657534
+        }
+      ]
+    },
+    {
+      "intersecting_label": "scientific research",
+      "overall_value": 0.2094921,
+      "percent_topic_posts_with_label": 0.1450116,
+      "percent_topic_authors_using_label_on_topic_post": 0.2739726,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.16759368,
+          "post_percentage_point_contribution": 0.11600928,
+          "author_percentage_point_contribution": 0.21917808
+        }
+      ]
+    },
+    {
+      "intersecting_label": "street or roadway",
+      "overall_value": 0.2094921,
+      "percent_topic_posts_with_label": 0.1450116,
+      "percent_topic_authors_using_label_on_topic_post": 0.2739726,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.16759368,
+          "post_percentage_point_contribution": 0.11600928,
+          "author_percentage_point_contribution": 0.21917808
+        }
+      ]
+    },
+    {
+      "intersecting_label": "substance use disorder",
+      "overall_value": 0.2094921,
+      "percent_topic_posts_with_label": 0.1450116,
+      "percent_topic_authors_using_label_on_topic_post": 0.2739726,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.16759368,
+          "post_percentage_point_contribution": 0.11600928,
+          "author_percentage_point_contribution": 0.21917808
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cognitive or learning problem",
+      "overall_value": 0.16759368,
+      "percent_topic_posts_with_label": 0.11600928,
+      "percent_topic_authors_using_label_on_topic_post": 0.21917808,
+      "links": [
+        {
+          "component_label": "COVID-19",
+          "value": 0.16759368,
+          "post_percentage_point_contribution": 0.11600928,
+          "author_percentage_point_contribution": 0.21917808
+        }
+      ]
+    },
+    {
+      "intersecting_label": "headache or migraine",
+      "overall_value": 0.16759368,
+      "percent_topic_posts_with_label": 0.11600928,
+      "percent_topic_authors_using_label_on_topic_post": 0.21917808,
+      "links": [
+        {
+          "component_label": "COVID-19",
+          "value": 0.16759368,
+          "post_percentage_point_contribution": 0.11600928,
+          "author_percentage_point_contribution": 0.21917808
+        }
+      ]
+    },
+    {
+      "intersecting_label": "obesity",
+      "overall_value": 0.16759368,
+      "percent_topic_posts_with_label": 0.11600928,
+      "percent_topic_authors_using_label_on_topic_post": 0.21917808,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.02094921,
+          "post_percentage_point_contribution": 0.01450116,
+          "author_percentage_point_contribution": 0.02739726
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.14664447,
+          "post_percentage_point_contribution": 0.10150812,
+          "author_percentage_point_contribution": 0.19178082
+        }
+      ]
+    },
+    {
+      "intersecting_label": "playground",
+      "overall_value": 0.16759368,
+      "percent_topic_posts_with_label": 0.11600928,
+      "percent_topic_authors_using_label_on_topic_post": 0.21917808,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.12569526,
+          "post_percentage_point_contribution": 0.08700696,
+          "author_percentage_point_contribution": 0.16438356
+        }
+      ]
+    },
+    {
+      "intersecting_label": "public transit",
+      "overall_value": 0.16759368,
+      "percent_topic_posts_with_label": 0.11600928,
+      "percent_topic_authors_using_label_on_topic_post": 0.21917808,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.06284763,
+          "post_percentage_point_contribution": 0.04350348,
+          "author_percentage_point_contribution": 0.08219178
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.06284763,
+          "post_percentage_point_contribution": 0.04350348,
+          "author_percentage_point_contribution": 0.08219178
+        },
+        {
+          "component_label": "influenza",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "skin condition",
+      "overall_value": 0.16759368,
+      "percent_topic_posts_with_label": 0.11600928,
+      "percent_topic_authors_using_label_on_topic_post": 0.21917808,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.08379684,
+          "post_percentage_point_contribution": 0.05800464,
+          "author_percentage_point_contribution": 0.10958904
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        },
+        {
+          "component_label": "influenza",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic hazard",
+      "overall_value": 0.16759368,
+      "percent_topic_posts_with_label": 0.11600928,
+      "percent_topic_authors_using_label_on_topic_post": 0.21917808,
+      "links": [
+        {
+          "component_label": "COVID-19",
+          "value": 0.16759368,
+          "post_percentage_point_contribution": 0.11600928,
+          "author_percentage_point_contribution": 0.21917808
+        }
+      ]
+    },
+    {
+      "intersecting_label": "walking or bicycling",
+      "overall_value": 0.16759368,
+      "percent_topic_posts_with_label": 0.11600928,
+      "percent_topic_authors_using_label_on_topic_post": 0.21917808,
+      "links": [
+        {
+          "component_label": "COVID-19",
+          "value": 0.16759368,
+          "post_percentage_point_contribution": 0.11600928,
+          "author_percentage_point_contribution": 0.21917808
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pollen",
+      "overall_value": 0.12730032,
+      "percent_topic_posts_with_label": 0.1450116,
+      "percent_topic_authors_using_label_on_topic_post": 0.10958904,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.08459937,
+          "post_percentage_point_contribution": 0.08700696,
+          "author_percentage_point_contribution": 0.08219178
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.04270095,
+          "post_percentage_point_contribution": 0.05800464,
+          "author_percentage_point_contribution": 0.02739726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "acute poisoning",
+      "overall_value": 0.12569526,
+      "percent_topic_posts_with_label": 0.08700696,
+      "percent_topic_authors_using_label_on_topic_post": 0.16438356,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.12569526,
+          "post_percentage_point_contribution": 0.08700696,
+          "author_percentage_point_contribution": 0.16438356
+        }
+      ]
+    },
+    {
+      "intersecting_label": "allergens",
+      "overall_value": 0.12569526,
+      "percent_topic_posts_with_label": 0.08700696,
+      "percent_topic_authors_using_label_on_topic_post": 0.16438356,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.08379684,
+          "post_percentage_point_contribution": 0.05800464,
+          "author_percentage_point_contribution": 0.10958904
+        }
+      ]
+    },
+    {
+      "intersecting_label": "beach or coastal area",
+      "overall_value": 0.12569526,
+      "percent_topic_posts_with_label": 0.08700696,
+      "percent_topic_authors_using_label_on_topic_post": 0.16438356,
+      "links": [
+        {
+          "component_label": "COVID-19",
+          "value": 0.08379684,
+          "post_percentage_point_contribution": 0.05800464,
+          "author_percentage_point_contribution": 0.10958904
+        },
+        {
+          "component_label": "influenza",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "birth defect",
+      "overall_value": 0.12569526,
+      "percent_topic_posts_with_label": 0.08700696,
+      "percent_topic_authors_using_label_on_topic_post": 0.16438356,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.08379684,
+          "post_percentage_point_contribution": 0.05800464,
+          "author_percentage_point_contribution": 0.10958904
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "breastfeeding",
+      "overall_value": 0.12569526,
+      "percent_topic_posts_with_label": 0.08700696,
+      "percent_topic_authors_using_label_on_topic_post": 0.16438356,
+      "links": [
+        {
+          "component_label": "COVID-19",
+          "value": 0.12569526,
+          "post_percentage_point_contribution": 0.08700696,
+          "author_percentage_point_contribution": 0.16438356
+        }
+      ]
+    },
+    {
+      "intersecting_label": "contaminated drinking water",
+      "overall_value": 0.12569526,
+      "percent_topic_posts_with_label": 0.08700696,
+      "percent_topic_authors_using_label_on_topic_post": 0.16438356,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.08379684,
+          "post_percentage_point_contribution": 0.05800464,
+          "author_percentage_point_contribution": 0.10958904
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "dental clinic",
+      "overall_value": 0.12569526,
+      "percent_topic_posts_with_label": 0.08700696,
+      "percent_topic_authors_using_label_on_topic_post": 0.16438356,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.08379684,
+          "post_percentage_point_contribution": 0.05800464,
+          "author_percentage_point_contribution": 0.10958904
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "developmental delay",
+      "overall_value": 0.12569526,
+      "percent_topic_posts_with_label": 0.08700696,
+      "percent_topic_authors_using_label_on_topic_post": 0.16438356,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.08379684,
+          "post_percentage_point_contribution": 0.05800464,
+          "author_percentage_point_contribution": 0.10958904
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "extreme cold",
+      "overall_value": 0.12569526,
+      "percent_topic_posts_with_label": 0.08700696,
+      "percent_topic_authors_using_label_on_topic_post": 0.16438356,
+      "links": [
+        {
+          "component_label": "COVID-19",
+          "value": 0.12569526,
+          "post_percentage_point_contribution": 0.08700696,
+          "author_percentage_point_contribution": 0.16438356
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food access",
+      "overall_value": 0.12569526,
+      "percent_topic_posts_with_label": 0.08700696,
+      "percent_topic_authors_using_label_on_topic_post": 0.16438356,
+      "links": [
+        {
+          "component_label": "COVID-19",
+          "value": 0.12569526,
+          "post_percentage_point_contribution": 0.08700696,
+          "author_percentage_point_contribution": 0.16438356
+        }
+      ]
+    },
+    {
+      "intersecting_label": "garden or yard",
+      "overall_value": 0.12569526,
+      "percent_topic_posts_with_label": 0.08700696,
+      "percent_topic_authors_using_label_on_topic_post": 0.16438356,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.08379684,
+          "post_percentage_point_contribution": 0.05800464,
+          "author_percentage_point_contribution": 0.10958904
+        }
+      ]
+    },
+    {
+      "intersecting_label": "kidney disease",
+      "overall_value": 0.12569526,
+      "percent_topic_posts_with_label": 0.08700696,
+      "percent_topic_authors_using_label_on_topic_post": 0.16438356,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.08379684,
+          "post_percentage_point_contribution": 0.05800464,
+          "author_percentage_point_contribution": 0.10958904
+        }
+      ]
+    },
+    {
+      "intersecting_label": "malnutrition",
+      "overall_value": 0.12569526,
+      "percent_topic_posts_with_label": 0.08700696,
+      "percent_topic_authors_using_label_on_topic_post": 0.16438356,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.12569526,
+          "post_percentage_point_contribution": 0.08700696,
+          "author_percentage_point_contribution": 0.16438356
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pain",
+      "overall_value": 0.12569526,
+      "percent_topic_posts_with_label": 0.08700696,
+      "percent_topic_authors_using_label_on_topic_post": 0.16438356,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.12569526,
+          "post_percentage_point_contribution": 0.08700696,
+          "author_percentage_point_contribution": 0.16438356
+        }
+      ]
+    },
+    {
+      "intersecting_label": "preterm birth",
+      "overall_value": 0.12569526,
+      "percent_topic_posts_with_label": 0.08700696,
+      "percent_topic_authors_using_label_on_topic_post": 0.16438356,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.08379684,
+          "post_percentage_point_contribution": 0.05800464,
+          "author_percentage_point_contribution": 0.10958904
+        }
+      ]
+    },
+    {
+      "intersecting_label": "secondhand tobacco smoke",
+      "overall_value": 0.12569526,
+      "percent_topic_posts_with_label": 0.08700696,
+      "percent_topic_authors_using_label_on_topic_post": 0.16438356,
+      "links": [
+        {
+          "component_label": "COVID-19",
+          "value": 0.12569526,
+          "post_percentage_point_contribution": 0.08700696,
+          "author_percentage_point_contribution": 0.16438356
+        }
+      ]
+    },
+    {
+      "intersecting_label": "shelter or temporary housing",
+      "overall_value": 0.12569526,
+      "percent_topic_posts_with_label": 0.08700696,
+      "percent_topic_authors_using_label_on_topic_post": 0.16438356,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.10474605,
+          "post_percentage_point_contribution": 0.0725058,
+          "author_percentage_point_contribution": 0.1369863
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.02094921,
+          "post_percentage_point_contribution": 0.01450116,
+          "author_percentage_point_contribution": 0.02739726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "swimming or water recreation",
+      "overall_value": 0.12569526,
+      "percent_topic_posts_with_label": 0.08700696,
+      "percent_topic_authors_using_label_on_topic_post": 0.16438356,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.08379684,
+          "post_percentage_point_contribution": 0.05800464,
+          "author_percentage_point_contribution": 0.10958904
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic safety",
+      "overall_value": 0.12569526,
+      "percent_topic_posts_with_label": 0.08700696,
+      "percent_topic_authors_using_label_on_topic_post": 0.16438356,
+      "links": [
+        {
+          "component_label": "COVID-19",
+          "value": 0.12569526,
+          "post_percentage_point_contribution": 0.08700696,
+          "author_percentage_point_contribution": 0.16438356
+        }
+      ]
+    },
+    {
+      "intersecting_label": "youth engagement",
+      "overall_value": 0.12569526,
+      "percent_topic_posts_with_label": 0.08700696,
+      "percent_topic_authors_using_label_on_topic_post": 0.16438356,
+      "links": [
+        {
+          "component_label": "COVID-19",
+          "value": 0.12569526,
+          "post_percentage_point_contribution": 0.08700696,
+          "author_percentage_point_contribution": 0.16438356
+        }
+      ]
+    },
+    {
+      "intersecting_label": "climate change",
+      "overall_value": 0.098298,
+      "percent_topic_posts_with_label": 0.08700696,
+      "percent_topic_authors_using_label_on_topic_post": 0.10958904,
+      "links": [
+        {
+          "component_label": "COVID-19",
+          "value": 0.098298,
+          "post_percentage_point_contribution": 0.08700696,
+          "author_percentage_point_contribution": 0.10958904
+        }
+      ]
+    },
+    {
+      "intersecting_label": "farm or agricultural setting",
+      "overall_value": 0.098298,
+      "percent_topic_posts_with_label": 0.08700696,
+      "percent_topic_authors_using_label_on_topic_post": 0.10958904,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.049149,
+          "post_percentage_point_contribution": 0.04350348,
+          "author_percentage_point_contribution": 0.05479452
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.049149,
+          "post_percentage_point_contribution": 0.04350348,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "seizure",
+      "overall_value": 0.098298,
+      "percent_topic_posts_with_label": 0.08700696,
+      "percent_topic_authors_using_label_on_topic_post": 0.10958904,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.05639958,
+          "post_percentage_point_contribution": 0.05800464,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "air filtration",
+      "overall_value": 0.08379684,
+      "percent_topic_posts_with_label": 0.05800464,
+      "percent_topic_authors_using_label_on_topic_post": 0.10958904,
+      "links": [
+        {
+          "component_label": "COVID-19",
+          "value": 0.08379684,
+          "post_percentage_point_contribution": 0.05800464,
+          "author_percentage_point_contribution": 0.10958904
+        }
+      ]
+    },
+    {
+      "intersecting_label": "air-quality monitoring",
+      "overall_value": 0.08379684,
+      "percent_topic_posts_with_label": 0.05800464,
+      "percent_topic_authors_using_label_on_topic_post": 0.10958904,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.08379684,
+          "post_percentage_point_contribution": 0.05800464,
+          "author_percentage_point_contribution": 0.10958904
+        }
+      ]
+    },
+    {
+      "intersecting_label": "alcohol exposure or use",
+      "overall_value": 0.08379684,
+      "percent_topic_posts_with_label": 0.05800464,
+      "percent_topic_authors_using_label_on_topic_post": 0.10958904,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "earthquake",
+      "overall_value": 0.08379684,
+      "percent_topic_posts_with_label": 0.05800464,
+      "percent_topic_authors_using_label_on_topic_post": 0.10958904,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.08379684,
+          "post_percentage_point_contribution": 0.05800464,
+          "author_percentage_point_contribution": 0.10958904
+        }
+      ]
+    },
+    {
+      "intersecting_label": "emergency response",
+      "overall_value": 0.08379684,
+      "percent_topic_posts_with_label": 0.05800464,
+      "percent_topic_authors_using_label_on_topic_post": 0.10958904,
+      "links": [
+        {
+          "component_label": "COVID-19",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        },
+        {
+          "component_label": "influenza",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "extreme heat",
+      "overall_value": 0.08379684,
+      "percent_topic_posts_with_label": 0.05800464,
+      "percent_topic_authors_using_label_on_topic_post": 0.10958904,
+      "links": [
+        {
+          "component_label": "COVID-19",
+          "value": 0.08379684,
+          "post_percentage_point_contribution": 0.05800464,
+          "author_percentage_point_contribution": 0.10958904
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sports or recreation facility",
+      "overall_value": 0.08379684,
+      "percent_topic_posts_with_label": 0.05800464,
+      "percent_topic_authors_using_label_on_topic_post": 0.10958904,
+      "links": [
+        {
+          "component_label": "COVID-19",
+          "value": 0.08379684,
+          "post_percentage_point_contribution": 0.05800464,
+          "author_percentage_point_contribution": 0.10958904
+        }
+      ]
+    },
+    {
+      "intersecting_label": "unsafe housing conditions",
+      "overall_value": 0.08379684,
+      "percent_topic_posts_with_label": 0.05800464,
+      "percent_topic_authors_using_label_on_topic_post": 0.10958904,
+      "links": [
+        {
+          "component_label": "COVID-19",
+          "value": 0.08379684,
+          "post_percentage_point_contribution": 0.05800464,
+          "author_percentage_point_contribution": 0.10958904
+        }
+      ]
+    },
+    {
+      "intersecting_label": "urban environment",
+      "overall_value": 0.08379684,
+      "percent_topic_posts_with_label": 0.05800464,
+      "percent_topic_authors_using_label_on_topic_post": 0.10958904,
+      "links": [
+        {
+          "component_label": "COVID-19",
+          "value": 0.08379684,
+          "post_percentage_point_contribution": 0.05800464,
+          "author_percentage_point_contribution": 0.10958904
+        }
+      ]
+    },
+    {
+      "intersecting_label": "ventilation",
+      "overall_value": 0.08379684,
+      "percent_topic_posts_with_label": 0.05800464,
+      "percent_topic_authors_using_label_on_topic_post": 0.10958904,
+      "links": [
+        {
+          "component_label": "COVID-19",
+          "value": 0.08379684,
+          "post_percentage_point_contribution": 0.05800464,
+          "author_percentage_point_contribution": 0.10958904
+        }
+      ]
+    },
+    {
+      "intersecting_label": "commercial area",
+      "overall_value": 0.04189842,
+      "percent_topic_posts_with_label": 0.02900232,
+      "percent_topic_authors_using_label_on_topic_post": 0.05479452,
+      "links": [
+        {
+          "component_label": "COVID-19",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "community resilience",
+      "overall_value": 0.04189842,
+      "percent_topic_posts_with_label": 0.02900232,
+      "percent_topic_authors_using_label_on_topic_post": 0.05479452,
+      "links": [
+        {
+          "component_label": "COVID-19",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "dental care",
+      "overall_value": 0.04189842,
+      "percent_topic_posts_with_label": 0.02900232,
+      "percent_topic_authors_using_label_on_topic_post": 0.05479452,
+      "links": [
+        {
+          "component_label": "COVID-19",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "dental caries",
+      "overall_value": 0.04189842,
+      "percent_topic_posts_with_label": 0.02900232,
+      "percent_topic_authors_using_label_on_topic_post": 0.05479452,
+      "links": [
+        {
+          "component_label": "COVID-19",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "disaster preparedness",
+      "overall_value": 0.04189842,
+      "percent_topic_posts_with_label": 0.02900232,
+      "percent_topic_authors_using_label_on_topic_post": 0.05479452,
+      "links": [
+        {
+          "component_label": "COVID-19",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "evacuation",
+      "overall_value": 0.04189842,
+      "percent_topic_posts_with_label": 0.02900232,
+      "percent_topic_authors_using_label_on_topic_post": 0.05479452,
+      "links": [
+        {
+          "component_label": "COVID-19",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "fire hazard",
+      "overall_value": 0.04189842,
+      "percent_topic_posts_with_label": 0.02900232,
+      "percent_topic_authors_using_label_on_topic_post": 0.05479452,
+      "links": [
+        {
+          "component_label": "COVID-19",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "flooding",
+      "overall_value": 0.04189842,
+      "percent_topic_posts_with_label": 0.02900232,
+      "percent_topic_authors_using_label_on_topic_post": 0.05479452,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "general severe weather",
+      "overall_value": 0.04189842,
+      "percent_topic_posts_with_label": 0.02900232,
+      "percent_topic_authors_using_label_on_topic_post": 0.05479452,
+      "links": [
+        {
+          "component_label": "COVID-19",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "generic smoke",
+      "overall_value": 0.04189842,
+      "percent_topic_posts_with_label": 0.02900232,
+      "percent_topic_authors_using_label_on_topic_post": 0.05479452,
+      "links": [
+        {
+          "component_label": "COVID-19",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "hearing problem",
+      "overall_value": 0.04189842,
+      "percent_topic_posts_with_label": 0.02900232,
+      "percent_topic_authors_using_label_on_topic_post": 0.05479452,
+      "links": [
+        {
+          "component_label": "COVID-19",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "heat-related illness",
+      "overall_value": 0.04189842,
+      "percent_topic_posts_with_label": 0.02900232,
+      "percent_topic_authors_using_label_on_topic_post": 0.05479452,
+      "links": [
+        {
+          "component_label": "COVID-19",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "housing quality",
+      "overall_value": 0.04189842,
+      "percent_topic_posts_with_label": 0.02900232,
+      "percent_topic_authors_using_label_on_topic_post": 0.05479452,
+      "links": [
+        {
+          "component_label": "COVID-19",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "hurricane or severe storm",
+      "overall_value": 0.04189842,
+      "percent_topic_posts_with_label": 0.02900232,
+      "percent_topic_authors_using_label_on_topic_post": 0.05479452,
+      "links": [
+        {
+          "component_label": "COVID-19",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "indoor air quality",
+      "overall_value": 0.04189842,
+      "percent_topic_posts_with_label": 0.02900232,
+      "percent_topic_authors_using_label_on_topic_post": 0.05479452,
+      "links": [
+        {
+          "component_label": "COVID-19",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "insects and pests",
+      "overall_value": 0.04189842,
+      "percent_topic_posts_with_label": 0.02900232,
+      "percent_topic_authors_using_label_on_topic_post": 0.05479452,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "liver disease",
+      "overall_value": 0.04189842,
+      "percent_topic_posts_with_label": 0.02900232,
+      "percent_topic_authors_using_label_on_topic_post": 0.05479452,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mercury",
+      "overall_value": 0.04189842,
+      "percent_topic_posts_with_label": 0.02900232,
+      "percent_topic_authors_using_label_on_topic_post": 0.05479452,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "musculoskeletal injury",
+      "overall_value": 0.04189842,
+      "percent_topic_posts_with_label": 0.02900232,
+      "percent_topic_authors_using_label_on_topic_post": 0.05479452,
+      "links": [
+        {
+          "component_label": "COVID-19",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "radiation",
+      "overall_value": 0.04189842,
+      "percent_topic_posts_with_label": 0.02900232,
+      "percent_topic_authors_using_label_on_topic_post": 0.05479452,
+      "links": [
+        {
+          "component_label": "COVID-19",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "toothache or dental problem",
+      "overall_value": 0.04189842,
+      "percent_topic_posts_with_label": 0.02900232,
+      "percent_topic_authors_using_label_on_topic_post": 0.05479452,
+      "links": [
+        {
+          "component_label": "influenza",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic-related air pollution",
+      "overall_value": 0.04189842,
+      "percent_topic_posts_with_label": 0.02900232,
+      "percent_topic_authors_using_label_on_topic_post": 0.05479452,
+      "links": [
+        {
+          "component_label": "COVID-19",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "transportation access",
+      "overall_value": 0.04189842,
+      "percent_topic_posts_with_label": 0.02900232,
+      "percent_topic_authors_using_label_on_topic_post": 0.05479452,
+      "links": [
+        {
+          "component_label": "infectious disease",
+          "value": 0.02094921,
+          "post_percentage_point_contribution": 0.01450116,
+          "author_percentage_point_contribution": 0.02739726
+        },
+        {
+          "component_label": "COVID-19",
+          "value": 0.02094921,
+          "post_percentage_point_contribution": 0.01450116,
+          "author_percentage_point_contribution": 0.02739726
+        }
+      ]
+    },
+    {
+      "intersecting_label": "vaping aerosol",
+      "overall_value": 0.04189842,
+      "percent_topic_posts_with_label": 0.02900232,
+      "percent_topic_authors_using_label_on_topic_post": 0.05479452,
+      "links": [
+        {
+          "component_label": "COVID-19",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wheezing",
+      "overall_value": 0.04189842,
+      "percent_topic_posts_with_label": 0.02900232,
+      "percent_topic_authors_using_label_on_topic_post": 0.05479452,
+      "links": [
+        {
+          "component_label": "COVID-19",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildfire",
+      "overall_value": 0.04189842,
+      "percent_topic_posts_with_label": 0.02900232,
+      "percent_topic_authors_using_label_on_topic_post": 0.05479452,
+      "links": [
+        {
+          "component_label": "COVID-19",
+          "value": 0.04189842,
+          "post_percentage_point_contribution": 0.02900232,
+          "author_percentage_point_contribution": 0.05479452
+        }
+      ]
+    }
+  ]
+}

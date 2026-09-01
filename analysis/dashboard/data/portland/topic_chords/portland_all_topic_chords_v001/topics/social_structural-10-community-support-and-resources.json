@@ -1,0 +1,2090 @@
+{
+  "schema_version": "1.0.0",
+  "city_id": "38900",
+  "domain": "social_structural",
+  "category_id": "social_structural-10",
+  "topic": "Community support and resources",
+  "component_labels": [
+    "social support",
+    "community resilience",
+    "green-space access"
+  ],
+  "intersections": [
+    {
+      "intersecting_label": "children",
+      "overall_value": 45.48325894,
+      "percent_topic_posts_with_label": 43.68546465,
+      "percent_topic_authors_using_label_on_topic_post": 47.28105323,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 41.95105297,
+          "post_percentage_point_contribution": 40.15091342,
+          "author_percentage_point_contribution": 43.75119252
+        },
+        {
+          "component_label": "community resilience",
+          "value": 2.51866962,
+          "post_percentage_point_contribution": 2.44241461,
+          "author_percentage_point_contribution": 2.59492463
+        },
+        {
+          "component_label": "green-space access",
+          "value": 1.01353635,
+          "post_percentage_point_contribution": 1.09213662,
+          "author_percentage_point_contribution": 0.93493608
+        }
+      ]
+    },
+    {
+      "intersecting_label": "parents and caregivers",
+      "overall_value": 13.58591353,
+      "percent_topic_posts_with_label": 12.2319301,
+      "percent_topic_authors_using_label_on_topic_post": 14.93989697,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 12.60526954,
+          "post_percentage_point_contribution": 11.35822081,
+          "author_percentage_point_contribution": 13.85231826
+        },
+        {
+          "component_label": "community resilience",
+          "value": 0.83521143,
+          "post_percentage_point_contribution": 0.75456712,
+          "author_percentage_point_contribution": 0.91585575
+        },
+        {
+          "component_label": "green-space access",
+          "value": 0.14543256,
+          "post_percentage_point_contribution": 0.11914218,
+          "author_percentage_point_contribution": 0.17172295
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school",
+      "overall_value": 13.54153927,
+      "percent_topic_posts_with_label": 11.91421763,
+      "percent_topic_authors_using_label_on_topic_post": 15.1688609,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 11.90411862,
+          "post_percentage_point_contribution": 10.38522637,
+          "author_percentage_point_contribution": 13.42301088
+        },
+        {
+          "component_label": "community resilience",
+          "value": 1.19557617,
+          "post_percentage_point_contribution": 1.13185068,
+          "author_percentage_point_contribution": 1.25930166
+        },
+        {
+          "component_label": "green-space access",
+          "value": 0.44184448,
+          "post_percentage_point_contribution": 0.39714059,
+          "author_percentage_point_contribution": 0.48654837
+        }
+      ]
+    },
+    {
+      "intersecting_label": "students",
+      "overall_value": 9.32632499,
+      "percent_topic_posts_with_label": 8.5782367,
+      "percent_topic_authors_using_label_on_topic_post": 10.07441328,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 8.00167813,
+          "post_percentage_point_contribution": 7.18824464,
+          "author_percentage_point_contribution": 8.81511162
+        },
+        {
+          "component_label": "community resilience",
+          "value": 1.02268816,
+          "post_percentage_point_contribution": 1.07227959,
+          "author_percentage_point_contribution": 0.97309674
+        },
+        {
+          "component_label": "green-space access",
+          "value": 0.3019587,
+          "post_percentage_point_contribution": 0.31771247,
+          "author_percentage_point_contribution": 0.28620492
+        }
+      ]
+    },
+    {
+      "intersecting_label": "families",
+      "overall_value": 8.81237233,
+      "percent_topic_posts_with_label": 7.66481334,
+      "percent_topic_authors_using_label_on_topic_post": 9.95993131,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 7.63227146,
+          "post_percentage_point_contribution": 6.59253376,
+          "author_percentage_point_contribution": 8.67200916
+        },
+        {
+          "component_label": "community resilience",
+          "value": 0.82528292,
+          "post_percentage_point_contribution": 0.73471009,
+          "author_percentage_point_contribution": 0.91585575
+        },
+        {
+          "component_label": "green-space access",
+          "value": 0.35481795,
+          "post_percentage_point_contribution": 0.3375695,
+          "author_percentage_point_contribution": 0.3720664
+        }
+      ]
+    },
+    {
+      "intersecting_label": "child abuse or neglect",
+      "overall_value": 8.54835454,
+      "percent_topic_posts_with_label": 7.82366958,
+      "percent_topic_authors_using_label_on_topic_post": 9.2730395,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 8.32027718,
+          "post_percentage_point_contribution": 7.62509929,
+          "author_percentage_point_contribution": 9.01545507
+        },
+        {
+          "component_label": "community resilience",
+          "value": 0.22807736,
+          "post_percentage_point_contribution": 0.19857029,
+          "author_percentage_point_contribution": 0.25758443
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adolescents",
+      "overall_value": 8.39360156,
+      "percent_topic_posts_with_label": 7.2279587,
+      "percent_topic_authors_using_label_on_topic_post": 9.55924442,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 7.92313659,
+          "post_percentage_point_contribution": 6.83081811,
+          "author_percentage_point_contribution": 9.01545507
+        },
+        {
+          "component_label": "community resilience",
+          "value": 0.47046497,
+          "post_percentage_point_contribution": 0.39714059,
+          "author_percentage_point_contribution": 0.54378935
+        }
+      ]
+    },
+    {
+      "intersecting_label": "unhoused populations",
+      "overall_value": 6.82656709,
+      "percent_topic_posts_with_label": 5.63939635,
+      "percent_topic_authors_using_label_on_topic_post": 8.01373784,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 6.72961205,
+          "post_percentage_point_contribution": 5.55996823,
+          "author_percentage_point_contribution": 7.89925587
+        },
+        {
+          "component_label": "community resilience",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        },
+        {
+          "component_label": "green-space access",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mental health condition",
+      "overall_value": 5.90139092,
+      "percent_topic_posts_with_label": 5.16282764,
+      "percent_topic_authors_using_label_on_topic_post": 6.63995421,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 5.67331356,
+          "post_percentage_point_contribution": 4.96425735,
+          "author_percentage_point_contribution": 6.38236978
+        },
+        {
+          "component_label": "community resilience",
+          "value": 0.22807736,
+          "post_percentage_point_contribution": 0.19857029,
+          "author_percentage_point_contribution": 0.25758443
+        }
+      ]
+    },
+    {
+      "intersecting_label": "violence or crime",
+      "overall_value": 4.88103287,
+      "percent_topic_posts_with_label": 4.20969023,
+      "percent_topic_authors_using_label_on_topic_post": 5.5523755,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 4.21665781,
+          "post_percentage_point_contribution": 3.65369341,
+          "author_percentage_point_contribution": 4.77962221
+        },
+        {
+          "component_label": "community resilience",
+          "value": 0.66437506,
+          "post_percentage_point_contribution": 0.55599682,
+          "author_percentage_point_contribution": 0.77275329
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infants",
+      "overall_value": 4.15153994,
+      "percent_topic_posts_with_label": 3.49483717,
+      "percent_topic_authors_using_label_on_topic_post": 4.8082427,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 4.15153994,
+          "post_percentage_point_contribution": 3.49483717,
+          "author_percentage_point_contribution": 4.8082427
+        }
+      ]
+    },
+    {
+      "intersecting_label": "teachers and school staff",
+      "overall_value": 2.53192469,
+      "percent_topic_posts_with_label": 2.14455917,
+      "percent_topic_authors_using_label_on_topic_post": 2.91929021,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 2.05591294,
+          "post_percentage_point_contribution": 1.70770453,
+          "author_percentage_point_contribution": 2.40412135
+        },
+        {
+          "component_label": "community resilience",
+          "value": 0.42753423,
+          "post_percentage_point_contribution": 0.39714059,
+          "author_percentage_point_contribution": 0.45792788
+        },
+        {
+          "component_label": "green-space access",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    },
+    {
+      "intersecting_label": "racial and ethnic minority populations",
+      "overall_value": 2.51206766,
+      "percent_topic_posts_with_label": 2.10484512,
+      "percent_topic_authors_using_label_on_topic_post": 2.91929021,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 2.15286798,
+          "post_percentage_point_contribution": 1.78713264,
+          "author_percentage_point_contribution": 2.51860332
+        },
+        {
+          "component_label": "community resilience",
+          "value": 0.35919968,
+          "post_percentage_point_contribution": 0.31771247,
+          "author_percentage_point_contribution": 0.40068689
+        }
+      ]
+    },
+    {
+      "intersecting_label": "home",
+      "overall_value": 2.4723536,
+      "percent_topic_posts_with_label": 2.025417,
+      "percent_topic_authors_using_label_on_topic_post": 2.91929021,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 2.27844352,
+          "post_percentage_point_contribution": 1.86656076,
+          "author_percentage_point_contribution": 2.69032627
+        },
+        {
+          "component_label": "community resilience",
+          "value": 0.14543256,
+          "post_percentage_point_contribution": 0.11914218,
+          "author_percentage_point_contribution": 0.17172295
+        },
+        {
+          "component_label": "green-space access",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    },
+    {
+      "intersecting_label": "stress or distress",
+      "overall_value": 1.9589579,
+      "percent_topic_posts_with_label": 1.62827641,
+      "percent_topic_authors_using_label_on_topic_post": 2.28963938,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 1.92479062,
+          "post_percentage_point_contribution": 1.58856235,
+          "author_percentage_point_contribution": 2.26101889
+        },
+        {
+          "component_label": "community resilience",
+          "value": 0.03416728,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.02862049
+        }
+      ]
+    },
+    {
+      "intersecting_label": "poverty or financial hardship",
+      "overall_value": 1.80476187,
+      "percent_topic_posts_with_label": 1.54884829,
+      "percent_topic_authors_using_label_on_topic_post": 2.06067544,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 1.80476187,
+          "post_percentage_point_contribution": 1.54884829,
+          "author_percentage_point_contribution": 2.06067544
+        }
+      ]
+    },
+    {
+      "intersecting_label": "foster youth",
+      "overall_value": 1.74108752,
+      "percent_topic_posts_with_label": 1.70770453,
+      "percent_topic_authors_using_label_on_topic_post": 1.77447052,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 1.70692025,
+          "post_percentage_point_contribution": 1.66799047,
+          "author_percentage_point_contribution": 1.74585003
+        },
+        {
+          "component_label": "community resilience",
+          "value": 0.03416728,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.02862049
+        }
+      ]
+    },
+    {
+      "intersecting_label": "discrimination",
+      "overall_value": 1.59099475,
+      "percent_topic_posts_with_label": 1.350278,
+      "percent_topic_authors_using_label_on_topic_post": 1.83171151,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 1.49403971,
+          "post_percentage_point_contribution": 1.27084988,
+          "author_percentage_point_contribution": 1.71722954
+        },
+        {
+          "component_label": "community resilience",
+          "value": 0.09695504,
+          "post_percentage_point_contribution": 0.07942812,
+          "author_percentage_point_contribution": 0.11448197
+        }
+      ]
+    },
+    {
+      "intersecting_label": "educational access",
+      "overall_value": 1.46541922,
+      "percent_topic_posts_with_label": 1.27084988,
+      "percent_topic_authors_using_label_on_topic_post": 1.65998855,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 1.28581938,
+          "post_percentage_point_contribution": 1.11199365,
+          "author_percentage_point_contribution": 1.45964511
+        },
+        {
+          "component_label": "community resilience",
+          "value": 0.10688356,
+          "post_percentage_point_contribution": 0.09928515,
+          "author_percentage_point_contribution": 0.11448197
+        },
+        {
+          "component_label": "green-space access",
+          "value": 0.07271628,
+          "post_percentage_point_contribution": 0.05957109,
+          "author_percentage_point_contribution": 0.08586148
+        }
+      ]
+    },
+    {
+      "intersecting_label": "depression",
+      "overall_value": 1.35737061,
+      "percent_topic_posts_with_label": 1.11199365,
+      "percent_topic_authors_using_label_on_topic_post": 1.60274757,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 1.35737061,
+          "post_percentage_point_contribution": 1.11199365,
+          "author_percentage_point_contribution": 1.60274757
+        }
+      ]
+    },
+    {
+      "intersecting_label": "children with disabilities",
+      "overall_value": 1.35093725,
+      "percent_topic_posts_with_label": 1.27084988,
+      "percent_topic_authors_using_label_on_topic_post": 1.43102461,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 1.35093725,
+          "post_percentage_point_contribution": 1.27084988,
+          "author_percentage_point_contribution": 1.43102461
+        }
+      ]
+    },
+    {
+      "intersecting_label": "neighborhood",
+      "overall_value": 1.30889308,
+      "percent_topic_posts_with_label": 1.07227959,
+      "percent_topic_authors_using_label_on_topic_post": 1.54550658,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 1.30889308,
+          "post_percentage_point_contribution": 1.07227959,
+          "author_percentage_point_contribution": 1.54550658
+        }
+      ]
+    },
+    {
+      "intersecting_label": "community program or service",
+      "overall_value": 1.26274567,
+      "percent_topic_posts_with_label": 1.1517077,
+      "percent_topic_authors_using_label_on_topic_post": 1.37378363,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 1.1173131,
+          "post_percentage_point_contribution": 1.03256553,
+          "author_percentage_point_contribution": 1.20206068
+        },
+        {
+          "component_label": "community resilience",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        },
+        {
+          "component_label": "green-space access",
+          "value": 0.09695504,
+          "post_percentage_point_contribution": 0.07942812,
+          "author_percentage_point_contribution": 0.11448197
+        }
+      ]
+    },
+    {
+      "intersecting_label": "child welfare services",
+      "overall_value": 1.10621954,
+      "percent_topic_posts_with_label": 0.95313741,
+      "percent_topic_authors_using_label_on_topic_post": 1.25930166,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 1.00926449,
+          "post_percentage_point_contribution": 0.87370929,
+          "author_percentage_point_contribution": 1.14481969
+        },
+        {
+          "component_label": "community resilience",
+          "value": 0.09695504,
+          "post_percentage_point_contribution": 0.07942812,
+          "author_percentage_point_contribution": 0.11448197
+        }
+      ]
+    },
+    {
+      "intersecting_label": "drug exposure or use",
+      "overall_value": 1.08869261,
+      "percent_topic_posts_with_label": 1.03256553,
+      "percent_topic_authors_using_label_on_topic_post": 1.14481969,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 1.04021509,
+          "post_percentage_point_contribution": 0.99285147,
+          "author_percentage_point_contribution": 1.08757871
+        },
+        {
+          "component_label": "community resilience",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    },
+    {
+      "intersecting_label": "COVID-19",
+      "overall_value": 1.00926449,
+      "percent_topic_posts_with_label": 0.87370929,
+      "percent_topic_authors_using_label_on_topic_post": 1.14481969,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.97509722,
+          "post_percentage_point_contribution": 0.83399523,
+          "author_percentage_point_contribution": 1.1161992
+        },
+        {
+          "component_label": "community resilience",
+          "value": 0.03416728,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.02862049
+        }
+      ]
+    },
+    {
+      "intersecting_label": "playground",
+      "overall_value": 0.96955043,
+      "percent_topic_posts_with_label": 0.79428118,
+      "percent_topic_authors_using_label_on_topic_post": 1.14481969,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.6786853,
+          "post_percentage_point_contribution": 0.55599682,
+          "author_percentage_point_contribution": 0.80137378
+        },
+        {
+          "component_label": "community resilience",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        },
+        {
+          "component_label": "green-space access",
+          "value": 0.24238761,
+          "post_percentage_point_contribution": 0.19857029,
+          "author_percentage_point_contribution": 0.28620492
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pets and companion animals",
+      "overall_value": 0.96078697,
+      "percent_topic_posts_with_label": 0.83399523,
+      "percent_topic_authors_using_label_on_topic_post": 1.08757871,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.96078697,
+          "post_percentage_point_contribution": 0.83399523,
+          "author_percentage_point_contribution": 1.08757871
+        }
+      ]
+    },
+    {
+      "intersecting_label": "anxiety",
+      "overall_value": 0.94092994,
+      "percent_topic_posts_with_label": 0.79428118,
+      "percent_topic_authors_using_label_on_topic_post": 1.08757871,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.89245242,
+          "post_percentage_point_contribution": 0.75456712,
+          "author_percentage_point_contribution": 1.03033772
+        },
+        {
+          "component_label": "community resilience",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    },
+    {
+      "intersecting_label": "park or green space",
+      "overall_value": 0.92107291,
+      "percent_topic_posts_with_label": 0.75456712,
+      "percent_topic_authors_using_label_on_topic_post": 1.08757871,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.63020778,
+          "post_percentage_point_contribution": 0.51628276,
+          "author_percentage_point_contribution": 0.7441328
+        },
+        {
+          "component_label": "community resilience",
+          "value": 0.14543256,
+          "post_percentage_point_contribution": 0.11914218,
+          "author_percentage_point_contribution": 0.17172295
+        },
+        {
+          "component_label": "green-space access",
+          "value": 0.14543256,
+          "post_percentage_point_contribution": 0.11914218,
+          "author_percentage_point_contribution": 0.17172295
+        }
+      ]
+    },
+    {
+      "intersecting_label": "housing instability or homelessness",
+      "overall_value": 0.8439749,
+      "percent_topic_posts_with_label": 0.71485306,
+      "percent_topic_authors_using_label_on_topic_post": 0.97309674,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.74701985,
+          "post_percentage_point_contribution": 0.63542494,
+          "author_percentage_point_contribution": 0.85861477
+        },
+        {
+          "component_label": "community resilience",
+          "value": 0.07271628,
+          "post_percentage_point_contribution": 0.05957109,
+          "author_percentage_point_contribution": 0.08586148
+        },
+        {
+          "component_label": "green-space access",
+          "value": 0.02423876,
+          "post_percentage_point_contribution": 0.01985703,
+          "author_percentage_point_contribution": 0.02862049
+        }
+      ]
+    },
+    {
+      "intersecting_label": "street or roadway",
+      "overall_value": 0.82411787,
+      "percent_topic_posts_with_label": 0.675139,
+      "percent_topic_authors_using_label_on_topic_post": 0.97309674,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.77564035,
+          "post_percentage_point_contribution": 0.63542494,
+          "author_percentage_point_contribution": 0.91585575
+        },
+        {
+          "component_label": "green-space access",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    },
+    {
+      "intersecting_label": "outdoor play or recreation",
+      "overall_value": 0.80659094,
+      "percent_topic_posts_with_label": 0.75456712,
+      "percent_topic_authors_using_label_on_topic_post": 0.85861477,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.38782017,
+          "post_percentage_point_contribution": 0.31771247,
+          "author_percentage_point_contribution": 0.45792788
+        },
+        {
+          "component_label": "green-space access",
+          "value": 0.41877077,
+          "post_percentage_point_contribution": 0.43685465,
+          "author_percentage_point_contribution": 0.40068689
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childcare center",
+      "overall_value": 0.72716282,
+      "percent_topic_posts_with_label": 0.59571088,
+      "percent_topic_authors_using_label_on_topic_post": 0.85861477,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.72716282,
+          "post_percentage_point_contribution": 0.59571088,
+          "author_percentage_point_contribution": 0.85861477
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food insecurity",
+      "overall_value": 0.72716282,
+      "percent_topic_posts_with_label": 0.59571088,
+      "percent_topic_authors_using_label_on_topic_post": 0.85861477,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.72716282,
+          "post_percentage_point_contribution": 0.59571088,
+          "author_percentage_point_contribution": 0.85861477
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mortality or death",
+      "overall_value": 0.72716282,
+      "percent_topic_posts_with_label": 0.59571088,
+      "percent_topic_authors_using_label_on_topic_post": 0.85861477,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.72716282,
+          "post_percentage_point_contribution": 0.59571088,
+          "author_percentage_point_contribution": 0.85861477
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sports participation",
+      "overall_value": 0.65006481,
+      "percent_topic_posts_with_label": 0.55599682,
+      "percent_topic_authors_using_label_on_topic_post": 0.7441328,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.45615472,
+          "post_percentage_point_contribution": 0.39714059,
+          "author_percentage_point_contribution": 0.51516886
+        },
+        {
+          "component_label": "community resilience",
+          "value": 0.14543256,
+          "post_percentage_point_contribution": 0.11914218,
+          "author_percentage_point_contribution": 0.17172295
+        },
+        {
+          "component_label": "green-space access",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    },
+    {
+      "intersecting_label": "classroom",
+      "overall_value": 0.58173026,
+      "percent_topic_posts_with_label": 0.47656871,
+      "percent_topic_authors_using_label_on_topic_post": 0.68689181,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.53325274,
+          "post_percentage_point_contribution": 0.43685465,
+          "author_percentage_point_contribution": 0.62965083
+        },
+        {
+          "component_label": "community resilience",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental justice",
+      "overall_value": 0.58173026,
+      "percent_topic_posts_with_label": 0.47656871,
+      "percent_topic_authors_using_label_on_topic_post": 0.68689181,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.53325274,
+          "post_percentage_point_contribution": 0.43685465,
+          "author_percentage_point_contribution": 0.62965083
+        },
+        {
+          "component_label": "community resilience",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health disparity",
+      "overall_value": 0.58173026,
+      "percent_topic_posts_with_label": 0.47656871,
+      "percent_topic_authors_using_label_on_topic_post": 0.68689181,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.58173026,
+          "post_percentage_point_contribution": 0.47656871,
+          "author_percentage_point_contribution": 0.68689181
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare facility",
+      "overall_value": 0.58173026,
+      "percent_topic_posts_with_label": 0.47656871,
+      "percent_topic_authors_using_label_on_topic_post": 0.68689181,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.58173026,
+          "post_percentage_point_contribution": 0.47656871,
+          "author_percentage_point_contribution": 0.68689181
+        }
+      ]
+    },
+    {
+      "intersecting_label": "low-income populations",
+      "overall_value": 0.58173026,
+      "percent_topic_posts_with_label": 0.47656871,
+      "percent_topic_authors_using_label_on_topic_post": 0.68689181,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.48477522,
+          "post_percentage_point_contribution": 0.39714059,
+          "author_percentage_point_contribution": 0.57240985
+        },
+        {
+          "component_label": "community resilience",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        },
+        {
+          "component_label": "green-space access",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pregnant people",
+      "overall_value": 0.58173026,
+      "percent_topic_posts_with_label": 0.47656871,
+      "percent_topic_authors_using_label_on_topic_post": 0.68689181,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.58173026,
+          "post_percentage_point_contribution": 0.47656871,
+          "author_percentage_point_contribution": 0.68689181
+        }
+      ]
+    },
+    {
+      "intersecting_label": "alcohol exposure or use",
+      "overall_value": 0.53325274,
+      "percent_topic_posts_with_label": 0.43685465,
+      "percent_topic_authors_using_label_on_topic_post": 0.62965083,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.53325274,
+          "post_percentage_point_contribution": 0.43685465,
+          "author_percentage_point_contribution": 0.62965083
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mask use",
+      "overall_value": 0.53325274,
+      "percent_topic_posts_with_label": 0.43685465,
+      "percent_topic_authors_using_label_on_topic_post": 0.62965083,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.48477522,
+          "post_percentage_point_contribution": 0.39714059,
+          "author_percentage_point_contribution": 0.57240985
+        },
+        {
+          "component_label": "community resilience",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    },
+    {
+      "intersecting_label": "public transit",
+      "overall_value": 0.53325274,
+      "percent_topic_posts_with_label": 0.43685465,
+      "percent_topic_authors_using_label_on_topic_post": 0.62965083,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.53325274,
+          "post_percentage_point_contribution": 0.43685465,
+          "author_percentage_point_contribution": 0.62965083
+        }
+      ]
+    },
+    {
+      "intersecting_label": "youth engagement",
+      "overall_value": 0.52448928,
+      "percent_topic_posts_with_label": 0.47656871,
+      "percent_topic_authors_using_label_on_topic_post": 0.57240985,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.52448928,
+          "post_percentage_point_contribution": 0.47656871,
+          "author_percentage_point_contribution": 0.57240985
+        }
+      ]
+    },
+    {
+      "intersecting_label": "advocacy",
+      "overall_value": 0.48477522,
+      "percent_topic_posts_with_label": 0.39714059,
+      "percent_topic_authors_using_label_on_topic_post": 0.57240985,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.38782017,
+          "post_percentage_point_contribution": 0.31771247,
+          "author_percentage_point_contribution": 0.45792788
+        },
+        {
+          "component_label": "community resilience",
+          "value": 0.09695504,
+          "post_percentage_point_contribution": 0.07942812,
+          "author_percentage_point_contribution": 0.11448197
+        }
+      ]
+    },
+    {
+      "intersecting_label": "workers",
+      "overall_value": 0.48477522,
+      "percent_topic_posts_with_label": 0.39714059,
+      "percent_topic_authors_using_label_on_topic_post": 0.57240985,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.48477522,
+          "post_percentage_point_contribution": 0.39714059,
+          "author_percentage_point_contribution": 0.57240985
+        }
+      ]
+    },
+    {
+      "intersecting_label": "outdoor environment",
+      "overall_value": 0.43629769,
+      "percent_topic_posts_with_label": 0.35742653,
+      "percent_topic_authors_using_label_on_topic_post": 0.51516886,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.33934265,
+          "post_percentage_point_contribution": 0.27799841,
+          "author_percentage_point_contribution": 0.40068689
+        },
+        {
+          "component_label": "green-space access",
+          "value": 0.09695504,
+          "post_percentage_point_contribution": 0.07942812,
+          "author_percentage_point_contribution": 0.11448197
+        }
+      ]
+    },
+    {
+      "intersecting_label": "reproductive health condition",
+      "overall_value": 0.43629769,
+      "percent_topic_posts_with_label": 0.35742653,
+      "percent_topic_authors_using_label_on_topic_post": 0.51516886,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.43629769,
+          "post_percentage_point_contribution": 0.35742653,
+          "author_percentage_point_contribution": 0.51516886
+        }
+      ]
+    },
+    {
+      "intersecting_label": "toddlers",
+      "overall_value": 0.38782017,
+      "percent_topic_posts_with_label": 0.31771247,
+      "percent_topic_authors_using_label_on_topic_post": 0.45792788,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.33934265,
+          "post_percentage_point_contribution": 0.27799841,
+          "author_percentage_point_contribution": 0.40068689
+        },
+        {
+          "component_label": "community resilience",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    },
+    {
+      "intersecting_label": "autism",
+      "overall_value": 0.35919968,
+      "percent_topic_posts_with_label": 0.31771247,
+      "percent_topic_authors_using_label_on_topic_post": 0.40068689,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.35919968,
+          "post_percentage_point_contribution": 0.31771247,
+          "author_percentage_point_contribution": 0.40068689
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sports or recreation facility",
+      "overall_value": 0.35919968,
+      "percent_topic_posts_with_label": 0.31771247,
+      "percent_topic_authors_using_label_on_topic_post": 0.40068689,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.14543256,
+          "post_percentage_point_contribution": 0.11914218,
+          "author_percentage_point_contribution": 0.17172295
+        },
+        {
+          "component_label": "community resilience",
+          "value": 0.14543256,
+          "post_percentage_point_contribution": 0.11914218,
+          "author_percentage_point_contribution": 0.17172295
+        },
+        {
+          "component_label": "green-space access",
+          "value": 0.06833455,
+          "post_percentage_point_contribution": 0.07942812,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infectious disease",
+      "overall_value": 0.33934265,
+      "percent_topic_posts_with_label": 0.27799841,
+      "percent_topic_authors_using_label_on_topic_post": 0.40068689,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.33934265,
+          "post_percentage_point_contribution": 0.27799841,
+          "author_percentage_point_contribution": 0.40068689
+        }
+      ]
+    },
+    {
+      "intersecting_label": "substance use disorder",
+      "overall_value": 0.33934265,
+      "percent_topic_posts_with_label": 0.27799841,
+      "percent_topic_authors_using_label_on_topic_post": 0.40068689,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.33934265,
+          "post_percentage_point_contribution": 0.27799841,
+          "author_percentage_point_contribution": 0.40068689
+        }
+      ]
+    },
+    {
+      "intersecting_label": "walking or bicycling",
+      "overall_value": 0.3019587,
+      "percent_topic_posts_with_label": 0.31771247,
+      "percent_topic_authors_using_label_on_topic_post": 0.28620492,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.07787472,
+          "post_percentage_point_contribution": 0.07942812,
+          "author_percentage_point_contribution": 0.07632131
+        },
+        {
+          "component_label": "community resilience",
+          "value": 0.02939719,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.01908033
+        },
+        {
+          "component_label": "green-space access",
+          "value": 0.19468679,
+          "post_percentage_point_contribution": 0.19857029,
+          "author_percentage_point_contribution": 0.19080328
+        }
+      ]
+    },
+    {
+      "intersecting_label": "apartment",
+      "overall_value": 0.29086513,
+      "percent_topic_posts_with_label": 0.23828435,
+      "percent_topic_authors_using_label_on_topic_post": 0.34344591,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.19391009,
+          "post_percentage_point_contribution": 0.15885624,
+          "author_percentage_point_contribution": 0.22896394
+        },
+        {
+          "component_label": "community resilience",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        },
+        {
+          "component_label": "green-space access",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school closure",
+      "overall_value": 0.29086513,
+      "percent_topic_posts_with_label": 0.23828435,
+      "percent_topic_authors_using_label_on_topic_post": 0.34344591,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.24238761,
+          "post_percentage_point_contribution": 0.19857029,
+          "author_percentage_point_contribution": 0.28620492
+        },
+        {
+          "component_label": "community resilience",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    },
+    {
+      "intersecting_label": "disability",
+      "overall_value": 0.26224464,
+      "percent_topic_posts_with_label": 0.23828435,
+      "percent_topic_authors_using_label_on_topic_post": 0.28620492,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.26224464,
+          "post_percentage_point_contribution": 0.23828435,
+          "author_percentage_point_contribution": 0.28620492
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cognitive or learning problem",
+      "overall_value": 0.24238761,
+      "percent_topic_posts_with_label": 0.19857029,
+      "percent_topic_authors_using_label_on_topic_post": 0.28620492,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.24238761,
+          "post_percentage_point_contribution": 0.19857029,
+          "author_percentage_point_contribution": 0.28620492
+        }
+      ]
+    },
+    {
+      "intersecting_label": "developmental delay",
+      "overall_value": 0.24238761,
+      "percent_topic_posts_with_label": 0.19857029,
+      "percent_topic_authors_using_label_on_topic_post": 0.28620492,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.24238761,
+          "post_percentage_point_contribution": 0.19857029,
+          "author_percentage_point_contribution": 0.28620492
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare access",
+      "overall_value": 0.24238761,
+      "percent_topic_posts_with_label": 0.19857029,
+      "percent_topic_authors_using_label_on_topic_post": 0.28620492,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.24238761,
+          "post_percentage_point_contribution": 0.19857029,
+          "author_percentage_point_contribution": 0.28620492
+        }
+      ]
+    },
+    {
+      "intersecting_label": "medical care",
+      "overall_value": 0.24238761,
+      "percent_topic_posts_with_label": 0.19857029,
+      "percent_topic_authors_using_label_on_topic_post": 0.28620492,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.24238761,
+          "post_percentage_point_contribution": 0.19857029,
+          "author_percentage_point_contribution": 0.28620492
+        }
+      ]
+    },
+    {
+      "intersecting_label": "vaccination",
+      "overall_value": 0.24238761,
+      "percent_topic_posts_with_label": 0.19857029,
+      "percent_topic_authors_using_label_on_topic_post": 0.28620492,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.24238761,
+          "post_percentage_point_contribution": 0.19857029,
+          "author_percentage_point_contribution": 0.28620492
+        }
+      ]
+    },
+    {
+      "intersecting_label": "breastfeeding",
+      "overall_value": 0.19391009,
+      "percent_topic_posts_with_label": 0.15885624,
+      "percent_topic_authors_using_label_on_topic_post": 0.22896394,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.19391009,
+          "post_percentage_point_contribution": 0.15885624,
+          "author_percentage_point_contribution": 0.22896394
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cancer",
+      "overall_value": 0.19391009,
+      "percent_topic_posts_with_label": 0.15885624,
+      "percent_topic_authors_using_label_on_topic_post": 0.22896394,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.19391009,
+          "post_percentage_point_contribution": 0.15885624,
+          "author_percentage_point_contribution": 0.22896394
+        }
+      ]
+    },
+    {
+      "intersecting_label": "health education or awareness",
+      "overall_value": 0.19391009,
+      "percent_topic_posts_with_label": 0.15885624,
+      "percent_topic_authors_using_label_on_topic_post": 0.22896394,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.14543256,
+          "post_percentage_point_contribution": 0.11914218,
+          "author_percentage_point_contribution": 0.17172295
+        },
+        {
+          "component_label": "community resilience",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    },
+    {
+      "intersecting_label": "housing quality",
+      "overall_value": 0.19391009,
+      "percent_topic_posts_with_label": 0.15885624,
+      "percent_topic_authors_using_label_on_topic_post": 0.22896394,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.14543256,
+          "post_percentage_point_contribution": 0.11914218,
+          "author_percentage_point_contribution": 0.17172295
+        },
+        {
+          "component_label": "green-space access",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    },
+    {
+      "intersecting_label": "injury",
+      "overall_value": 0.19391009,
+      "percent_topic_posts_with_label": 0.15885624,
+      "percent_topic_authors_using_label_on_topic_post": 0.22896394,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.19391009,
+          "post_percentage_point_contribution": 0.15885624,
+          "author_percentage_point_contribution": 0.22896394
+        }
+      ]
+    },
+    {
+      "intersecting_label": "motor vehicle",
+      "overall_value": 0.19391009,
+      "percent_topic_posts_with_label": 0.15885624,
+      "percent_topic_authors_using_label_on_topic_post": 0.22896394,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.19391009,
+          "post_percentage_point_contribution": 0.15885624,
+          "author_percentage_point_contribution": 0.22896394
+        }
+      ]
+    },
+    {
+      "intersecting_label": "food access",
+      "overall_value": 0.14543256,
+      "percent_topic_posts_with_label": 0.11914218,
+      "percent_topic_authors_using_label_on_topic_post": 0.17172295,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.09695504,
+          "post_percentage_point_contribution": 0.07942812,
+          "author_percentage_point_contribution": 0.11448197
+        },
+        {
+          "component_label": "green-space access",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    },
+    {
+      "intersecting_label": "hurricane or severe storm",
+      "overall_value": 0.14543256,
+      "percent_topic_posts_with_label": 0.11914218,
+      "percent_topic_authors_using_label_on_topic_post": 0.17172295,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        },
+        {
+          "component_label": "community resilience",
+          "value": 0.09695504,
+          "post_percentage_point_contribution": 0.07942812,
+          "author_percentage_point_contribution": 0.11448197
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infectious disease exposure",
+      "overall_value": 0.14543256,
+      "percent_topic_posts_with_label": 0.11914218,
+      "percent_topic_authors_using_label_on_topic_post": 0.17172295,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.14543256,
+          "post_percentage_point_contribution": 0.11914218,
+          "author_percentage_point_contribution": 0.17172295
+        }
+      ]
+    },
+    {
+      "intersecting_label": "noise pollution",
+      "overall_value": 0.14543256,
+      "percent_topic_posts_with_label": 0.11914218,
+      "percent_topic_authors_using_label_on_topic_post": 0.17172295,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.14543256,
+          "post_percentage_point_contribution": 0.11914218,
+          "author_percentage_point_contribution": 0.17172295
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sleep problem",
+      "overall_value": 0.14543256,
+      "percent_topic_posts_with_label": 0.11914218,
+      "percent_topic_authors_using_label_on_topic_post": 0.17172295,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.14543256,
+          "post_percentage_point_contribution": 0.11914218,
+          "author_percentage_point_contribution": 0.17172295
+        }
+      ]
+    },
+    {
+      "intersecting_label": "transportation access",
+      "overall_value": 0.14543256,
+      "percent_topic_posts_with_label": 0.11914218,
+      "percent_topic_authors_using_label_on_topic_post": 0.17172295,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.09695504,
+          "post_percentage_point_contribution": 0.07942812,
+          "author_percentage_point_contribution": 0.11448197
+        },
+        {
+          "component_label": "community resilience",
+          "value": 0.02423876,
+          "post_percentage_point_contribution": 0.01985703,
+          "author_percentage_point_contribution": 0.02862049
+        },
+        {
+          "component_label": "green-space access",
+          "value": 0.02423876,
+          "post_percentage_point_contribution": 0.01985703,
+          "author_percentage_point_contribution": 0.02862049
+        }
+      ]
+    },
+    {
+      "intersecting_label": "workplace",
+      "overall_value": 0.14543256,
+      "percent_topic_posts_with_label": 0.11914218,
+      "percent_topic_authors_using_label_on_topic_post": 0.17172295,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.14543256,
+          "post_percentage_point_contribution": 0.11914218,
+          "author_percentage_point_contribution": 0.17172295
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adverse pregnancy outcome",
+      "overall_value": 0.09695504,
+      "percent_topic_posts_with_label": 0.07942812,
+      "percent_topic_authors_using_label_on_topic_post": 0.11448197,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.09695504,
+          "post_percentage_point_contribution": 0.07942812,
+          "author_percentage_point_contribution": 0.11448197
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childhood cancer",
+      "overall_value": 0.09695504,
+      "percent_topic_posts_with_label": 0.07942812,
+      "percent_topic_authors_using_label_on_topic_post": 0.11448197,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.09695504,
+          "post_percentage_point_contribution": 0.07942812,
+          "author_percentage_point_contribution": 0.11448197
+        }
+      ]
+    },
+    {
+      "intersecting_label": "climate change",
+      "overall_value": 0.09695504,
+      "percent_topic_posts_with_label": 0.07942812,
+      "percent_topic_authors_using_label_on_topic_post": 0.11448197,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        },
+        {
+          "component_label": "community resilience",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cooking or food preparation",
+      "overall_value": 0.09695504,
+      "percent_topic_posts_with_label": 0.07942812,
+      "percent_topic_authors_using_label_on_topic_post": 0.11448197,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.09695504,
+          "post_percentage_point_contribution": 0.07942812,
+          "author_percentage_point_contribution": 0.11448197
+        }
+      ]
+    },
+    {
+      "intersecting_label": "diabetes",
+      "overall_value": 0.09695504,
+      "percent_topic_posts_with_label": 0.07942812,
+      "percent_topic_authors_using_label_on_topic_post": 0.11448197,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.09695504,
+          "post_percentage_point_contribution": 0.07942812,
+          "author_percentage_point_contribution": 0.11448197
+        }
+      ]
+    },
+    {
+      "intersecting_label": "environmental policy or regulation",
+      "overall_value": 0.09695504,
+      "percent_topic_posts_with_label": 0.07942812,
+      "percent_topic_authors_using_label_on_topic_post": 0.11448197,
+      "links": [
+        {
+          "component_label": "community resilience",
+          "value": 0.09695504,
+          "post_percentage_point_contribution": 0.07942812,
+          "author_percentage_point_contribution": 0.11448197
+        }
+      ]
+    },
+    {
+      "intersecting_label": "extreme heat",
+      "overall_value": 0.09695504,
+      "percent_topic_posts_with_label": 0.07942812,
+      "percent_topic_authors_using_label_on_topic_post": 0.11448197,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        },
+        {
+          "component_label": "green-space access",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    },
+    {
+      "intersecting_label": "fire hazard",
+      "overall_value": 0.09695504,
+      "percent_topic_posts_with_label": 0.07942812,
+      "percent_topic_authors_using_label_on_topic_post": 0.11448197,
+      "links": [
+        {
+          "component_label": "community resilience",
+          "value": 0.09695504,
+          "post_percentage_point_contribution": 0.07942812,
+          "author_percentage_point_contribution": 0.11448197
+        }
+      ]
+    },
+    {
+      "intersecting_label": "indoor environment",
+      "overall_value": 0.09695504,
+      "percent_topic_posts_with_label": 0.07942812,
+      "percent_topic_authors_using_label_on_topic_post": 0.11448197,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.09695504,
+          "post_percentage_point_contribution": 0.07942812,
+          "author_percentage_point_contribution": 0.11448197
+        }
+      ]
+    },
+    {
+      "intersecting_label": "insects and pests",
+      "overall_value": 0.09695504,
+      "percent_topic_posts_with_label": 0.07942812,
+      "percent_topic_authors_using_label_on_topic_post": 0.11448197,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.09695504,
+          "post_percentage_point_contribution": 0.07942812,
+          "author_percentage_point_contribution": 0.11448197
+        }
+      ]
+    },
+    {
+      "intersecting_label": "lead exposure",
+      "overall_value": 0.09695504,
+      "percent_topic_posts_with_label": 0.07942812,
+      "percent_topic_authors_using_label_on_topic_post": 0.11448197,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        },
+        {
+          "component_label": "community resilience",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    },
+    {
+      "intersecting_label": "medication use",
+      "overall_value": 0.09695504,
+      "percent_topic_posts_with_label": 0.07942812,
+      "percent_topic_authors_using_label_on_topic_post": 0.11448197,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.09695504,
+          "post_percentage_point_contribution": 0.07942812,
+          "author_percentage_point_contribution": 0.11448197
+        }
+      ]
+    },
+    {
+      "intersecting_label": "seizure",
+      "overall_value": 0.09695504,
+      "percent_topic_posts_with_label": 0.07942812,
+      "percent_topic_authors_using_label_on_topic_post": 0.11448197,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.09695504,
+          "post_percentage_point_contribution": 0.07942812,
+          "author_percentage_point_contribution": 0.11448197
+        }
+      ]
+    },
+    {
+      "intersecting_label": "shelter or temporary housing",
+      "overall_value": 0.09695504,
+      "percent_topic_posts_with_label": 0.07942812,
+      "percent_topic_authors_using_label_on_topic_post": 0.11448197,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.09695504,
+          "post_percentage_point_contribution": 0.07942812,
+          "author_percentage_point_contribution": 0.11448197
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildfire smoke",
+      "overall_value": 0.09695504,
+      "percent_topic_posts_with_label": 0.07942812,
+      "percent_topic_authors_using_label_on_topic_post": 0.11448197,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.09695504,
+          "post_percentage_point_contribution": 0.07942812,
+          "author_percentage_point_contribution": 0.11448197
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic safety",
+      "overall_value": 0.08819158,
+      "percent_topic_posts_with_label": 0.11914218,
+      "percent_topic_authors_using_label_on_topic_post": 0.05724098,
+      "links": [
+        {
+          "component_label": "green-space access",
+          "value": 0.08819158,
+          "post_percentage_point_contribution": 0.11914218,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    },
+    {
+      "intersecting_label": "activity cancellation",
+      "overall_value": 0.04847752,
+      "percent_topic_posts_with_label": 0.03971406,
+      "percent_topic_authors_using_label_on_topic_post": 0.05724098,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adverse birth outcome",
+      "overall_value": 0.04847752,
+      "percent_topic_posts_with_label": 0.03971406,
+      "percent_topic_authors_using_label_on_topic_post": 0.05724098,
+      "links": [
+        {
+          "component_label": "green-space access",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    },
+    {
+      "intersecting_label": "ambient air pollution",
+      "overall_value": 0.04847752,
+      "percent_topic_posts_with_label": 0.03971406,
+      "percent_topic_authors_using_label_on_topic_post": 0.05724098,
+      "links": [
+        {
+          "component_label": "green-space access",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    },
+    {
+      "intersecting_label": "beach or coastal area",
+      "overall_value": 0.04847752,
+      "percent_topic_posts_with_label": 0.03971406,
+      "percent_topic_authors_using_label_on_topic_post": 0.05724098,
+      "links": [
+        {
+          "component_label": "green-space access",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cardiovascular condition",
+      "overall_value": 0.04847752,
+      "percent_topic_posts_with_label": 0.03971406,
+      "percent_topic_authors_using_label_on_topic_post": 0.05724098,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childcare workers",
+      "overall_value": 0.04847752,
+      "percent_topic_posts_with_label": 0.03971406,
+      "percent_topic_authors_using_label_on_topic_post": 0.05724098,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cleaning or disinfection",
+      "overall_value": 0.04847752,
+      "percent_topic_posts_with_label": 0.03971406,
+      "percent_topic_authors_using_label_on_topic_post": 0.05724098,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cough",
+      "overall_value": 0.04847752,
+      "percent_topic_posts_with_label": 0.03971406,
+      "percent_topic_authors_using_label_on_topic_post": 0.05724098,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    },
+    {
+      "intersecting_label": "disaster preparedness",
+      "overall_value": 0.04847752,
+      "percent_topic_posts_with_label": 0.03971406,
+      "percent_topic_authors_using_label_on_topic_post": 0.05724098,
+      "links": [
+        {
+          "component_label": "community resilience",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    },
+    {
+      "intersecting_label": "earthquake",
+      "overall_value": 0.04847752,
+      "percent_topic_posts_with_label": 0.03971406,
+      "percent_topic_authors_using_label_on_topic_post": 0.05724098,
+      "links": [
+        {
+          "component_label": "community resilience",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    },
+    {
+      "intersecting_label": "evacuation",
+      "overall_value": 0.04847752,
+      "percent_topic_posts_with_label": 0.03971406,
+      "percent_topic_authors_using_label_on_topic_post": 0.05724098,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    },
+    {
+      "intersecting_label": "extreme cold",
+      "overall_value": 0.04847752,
+      "percent_topic_posts_with_label": 0.03971406,
+      "percent_topic_authors_using_label_on_topic_post": 0.05724098,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    },
+    {
+      "intersecting_label": "farm or agricultural setting",
+      "overall_value": 0.04847752,
+      "percent_topic_posts_with_label": 0.03971406,
+      "percent_topic_authors_using_label_on_topic_post": 0.05724098,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    },
+    {
+      "intersecting_label": "garden or yard",
+      "overall_value": 0.04847752,
+      "percent_topic_posts_with_label": 0.03971406,
+      "percent_topic_authors_using_label_on_topic_post": 0.05724098,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    },
+    {
+      "intersecting_label": "headache or migraine",
+      "overall_value": 0.04847752,
+      "percent_topic_posts_with_label": 0.03971406,
+      "percent_topic_authors_using_label_on_topic_post": 0.05724098,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    },
+    {
+      "intersecting_label": "healthcare workers",
+      "overall_value": 0.04847752,
+      "percent_topic_posts_with_label": 0.03971406,
+      "percent_topic_authors_using_label_on_topic_post": 0.05724098,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    },
+    {
+      "intersecting_label": "influenza",
+      "overall_value": 0.04847752,
+      "percent_topic_posts_with_label": 0.03971406,
+      "percent_topic_authors_using_label_on_topic_post": 0.05724098,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    },
+    {
+      "intersecting_label": "natural disaster",
+      "overall_value": 0.04847752,
+      "percent_topic_posts_with_label": 0.03971406,
+      "percent_topic_authors_using_label_on_topic_post": 0.05724098,
+      "links": [
+        {
+          "component_label": "community resilience",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    },
+    {
+      "intersecting_label": "obesity",
+      "overall_value": 0.04847752,
+      "percent_topic_posts_with_label": 0.03971406,
+      "percent_topic_authors_using_label_on_topic_post": 0.05724098,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    },
+    {
+      "intersecting_label": "plastics or microplastics",
+      "overall_value": 0.04847752,
+      "percent_topic_posts_with_label": 0.03971406,
+      "percent_topic_authors_using_label_on_topic_post": 0.05724098,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    },
+    {
+      "intersecting_label": "poor sanitation",
+      "overall_value": 0.04847752,
+      "percent_topic_posts_with_label": 0.03971406,
+      "percent_topic_authors_using_label_on_topic_post": 0.05724098,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    },
+    {
+      "intersecting_label": "scientific research",
+      "overall_value": 0.04847752,
+      "percent_topic_posts_with_label": 0.03971406,
+      "percent_topic_authors_using_label_on_topic_post": 0.05724098,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    },
+    {
+      "intersecting_label": "skin condition",
+      "overall_value": 0.04847752,
+      "percent_topic_posts_with_label": 0.03971406,
+      "percent_topic_authors_using_label_on_topic_post": 0.05724098,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    },
+    {
+      "intersecting_label": "urban environment",
+      "overall_value": 0.04847752,
+      "percent_topic_posts_with_label": 0.03971406,
+      "percent_topic_authors_using_label_on_topic_post": 0.05724098,
+      "links": [
+        {
+          "component_label": "green-space access",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    },
+    {
+      "intersecting_label": "vaping aerosol",
+      "overall_value": 0.04847752,
+      "percent_topic_posts_with_label": 0.03971406,
+      "percent_topic_authors_using_label_on_topic_post": 0.05724098,
+      "links": [
+        {
+          "component_label": "social support",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    },
+    {
+      "intersecting_label": "wildfire",
+      "overall_value": 0.04847752,
+      "percent_topic_posts_with_label": 0.03971406,
+      "percent_topic_authors_using_label_on_topic_post": 0.05724098,
+      "links": [
+        {
+          "component_label": "community resilience",
+          "value": 0.04847752,
+          "post_percentage_point_contribution": 0.03971406,
+          "author_percentage_point_contribution": 0.05724098
+        }
+      ]
+    }
+  ]
+}

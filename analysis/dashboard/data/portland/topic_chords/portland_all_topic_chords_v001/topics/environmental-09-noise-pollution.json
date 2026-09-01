@@ -1,0 +1,796 @@
+{
+  "schema_version": "1.0.0",
+  "city_id": "38900",
+  "domain": "environmental",
+  "category_id": "environmental-09",
+  "topic": "Noise pollution",
+  "component_labels": [
+    "noise pollution"
+  ],
+  "intersections": [
+    {
+      "intersecting_label": "children",
+      "overall_value": 43.91826707,
+      "percent_topic_posts_with_label": 43.59861592,
+      "percent_topic_authors_using_label_on_topic_post": 44.23791822,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 43.91826707,
+          "post_percentage_point_contribution": 43.59861592,
+          "author_percentage_point_contribution": 44.23791822
+        }
+      ]
+    },
+    {
+      "intersecting_label": "school",
+      "overall_value": 17.2007049,
+      "percent_topic_posts_with_label": 17.30103806,
+      "percent_topic_authors_using_label_on_topic_post": 17.10037175,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 17.2007049,
+          "post_percentage_point_contribution": 17.30103806,
+          "author_percentage_point_contribution": 17.10037175
+        }
+      ]
+    },
+    {
+      "intersecting_label": "home",
+      "overall_value": 11.12540358,
+      "percent_topic_posts_with_label": 10.7266436,
+      "percent_topic_authors_using_label_on_topic_post": 11.52416357,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 11.12540358,
+          "post_percentage_point_contribution": 10.7266436,
+          "author_percentage_point_contribution": 11.52416357
+        }
+      ]
+    },
+    {
+      "intersecting_label": "infants",
+      "overall_value": 9.67700441,
+      "percent_topic_posts_with_label": 9.68858131,
+      "percent_topic_authors_using_label_on_topic_post": 9.66542751,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 9.67700441,
+          "post_percentage_point_contribution": 9.68858131,
+          "author_percentage_point_contribution": 9.66542751
+        }
+      ]
+    },
+    {
+      "intersecting_label": "apartment",
+      "overall_value": 6.08816455,
+      "percent_topic_posts_with_label": 6.2283737,
+      "percent_topic_authors_using_label_on_topic_post": 5.94795539,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 6.08816455,
+          "post_percentage_point_contribution": 6.2283737,
+          "author_percentage_point_contribution": 5.94795539
+        }
+      ]
+    },
+    {
+      "intersecting_label": "adolescents",
+      "overall_value": 5.3832598,
+      "percent_topic_posts_with_label": 5.19031142,
+      "percent_topic_authors_using_label_on_topic_post": 5.57620818,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 5.3832598,
+          "post_percentage_point_contribution": 5.19031142,
+          "author_percentage_point_contribution": 5.57620818
+        }
+      ]
+    },
+    {
+      "intersecting_label": "toddlers",
+      "overall_value": 5.19738619,
+      "percent_topic_posts_with_label": 5.19031142,
+      "percent_topic_authors_using_label_on_topic_post": 5.20446097,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 5.19738619,
+          "post_percentage_point_contribution": 5.19031142,
+          "author_percentage_point_contribution": 5.20446097
+        }
+      ]
+    },
+    {
+      "intersecting_label": "parents and caregivers",
+      "overall_value": 4.66549183,
+      "percent_topic_posts_with_label": 4.4982699,
+      "percent_topic_authors_using_label_on_topic_post": 4.83271375,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 4.66549183,
+          "post_percentage_point_contribution": 4.4982699,
+          "author_percentage_point_contribution": 4.83271375
+        }
+      ]
+    },
+    {
+      "intersecting_label": "students",
+      "overall_value": 4.30660784,
+      "percent_topic_posts_with_label": 4.15224913,
+      "percent_topic_authors_using_label_on_topic_post": 4.46096654,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 4.30660784,
+          "post_percentage_point_contribution": 4.15224913,
+          "author_percentage_point_contribution": 4.46096654
+        }
+      ]
+    },
+    {
+      "intersecting_label": "classroom",
+      "overall_value": 3.58883987,
+      "percent_topic_posts_with_label": 3.46020761,
+      "percent_topic_authors_using_label_on_topic_post": 3.71747212,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 3.58883987,
+          "post_percentage_point_contribution": 3.46020761,
+          "author_percentage_point_contribution": 3.71747212
+        }
+      ]
+    },
+    {
+      "intersecting_label": "neighborhood",
+      "overall_value": 3.58883987,
+      "percent_topic_posts_with_label": 3.46020761,
+      "percent_topic_authors_using_label_on_topic_post": 3.71747212,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 3.58883987,
+          "post_percentage_point_contribution": 3.46020761,
+          "author_percentage_point_contribution": 3.71747212
+        }
+      ]
+    },
+    {
+      "intersecting_label": "street or roadway",
+      "overall_value": 2.87107189,
+      "percent_topic_posts_with_label": 2.76816609,
+      "percent_topic_authors_using_label_on_topic_post": 2.9739777,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 2.87107189,
+          "post_percentage_point_contribution": 2.76816609,
+          "author_percentage_point_contribution": 2.9739777
+        }
+      ]
+    },
+    {
+      "intersecting_label": "unhoused populations",
+      "overall_value": 2.87107189,
+      "percent_topic_posts_with_label": 2.76816609,
+      "percent_topic_authors_using_label_on_topic_post": 2.9739777,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 2.87107189,
+          "post_percentage_point_contribution": 2.76816609,
+          "author_percentage_point_contribution": 2.9739777
+        }
+      ]
+    },
+    {
+      "intersecting_label": "outdoor environment",
+      "overall_value": 2.51218791,
+      "percent_topic_posts_with_label": 2.42214533,
+      "percent_topic_authors_using_label_on_topic_post": 2.60223048,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 2.51218791,
+          "post_percentage_point_contribution": 2.42214533,
+          "author_percentage_point_contribution": 2.60223048
+        }
+      ]
+    },
+    {
+      "intersecting_label": "public transit",
+      "overall_value": 2.51218791,
+      "percent_topic_posts_with_label": 2.42214533,
+      "percent_topic_authors_using_label_on_topic_post": 2.60223048,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 2.51218791,
+          "post_percentage_point_contribution": 2.42214533,
+          "author_percentage_point_contribution": 2.60223048
+        }
+      ]
+    },
+    {
+      "intersecting_label": "park or green space",
+      "overall_value": 2.15330392,
+      "percent_topic_posts_with_label": 2.07612457,
+      "percent_topic_authors_using_label_on_topic_post": 2.23048327,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 2.15330392,
+          "post_percentage_point_contribution": 2.07612457,
+          "author_percentage_point_contribution": 2.23048327
+        }
+      ]
+    },
+    {
+      "intersecting_label": "motor vehicle",
+      "overall_value": 1.79441993,
+      "percent_topic_posts_with_label": 1.73010381,
+      "percent_topic_authors_using_label_on_topic_post": 1.85873606,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 1.79441993,
+          "post_percentage_point_contribution": 1.73010381,
+          "author_percentage_point_contribution": 1.85873606
+        }
+      ]
+    },
+    {
+      "intersecting_label": "pets and companion animals",
+      "overall_value": 1.79441993,
+      "percent_topic_posts_with_label": 1.73010381,
+      "percent_topic_authors_using_label_on_topic_post": 1.85873606,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 1.79441993,
+          "post_percentage_point_contribution": 1.73010381,
+          "author_percentage_point_contribution": 1.85873606
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sports or recreation facility",
+      "overall_value": 1.79441993,
+      "percent_topic_posts_with_label": 1.73010381,
+      "percent_topic_authors_using_label_on_topic_post": 1.85873606,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 1.79441993,
+          "post_percentage_point_contribution": 1.73010381,
+          "author_percentage_point_contribution": 1.85873606
+        }
+      ]
+    },
+    {
+      "intersecting_label": "violence or crime",
+      "overall_value": 1.79441993,
+      "percent_topic_posts_with_label": 1.73010381,
+      "percent_topic_authors_using_label_on_topic_post": 1.85873606,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 1.79441993,
+          "post_percentage_point_contribution": 1.73010381,
+          "author_percentage_point_contribution": 1.85873606
+        }
+      ]
+    },
+    {
+      "intersecting_label": "families",
+      "overall_value": 1.43553595,
+      "percent_topic_posts_with_label": 1.38408304,
+      "percent_topic_authors_using_label_on_topic_post": 1.48698885,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 1.43553595,
+          "post_percentage_point_contribution": 1.38408304,
+          "author_percentage_point_contribution": 1.48698885
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sleep problem",
+      "overall_value": 1.43553595,
+      "percent_topic_posts_with_label": 1.38408304,
+      "percent_topic_authors_using_label_on_topic_post": 1.48698885,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 1.43553595,
+          "post_percentage_point_contribution": 1.38408304,
+          "author_percentage_point_contribution": 1.48698885
+        }
+      ]
+    },
+    {
+      "intersecting_label": "stress or distress",
+      "overall_value": 1.43553595,
+      "percent_topic_posts_with_label": 1.38408304,
+      "percent_topic_authors_using_label_on_topic_post": 1.48698885,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 1.43553595,
+          "post_percentage_point_contribution": 1.38408304,
+          "author_percentage_point_contribution": 1.48698885
+        }
+      ]
+    },
+    {
+      "intersecting_label": "fire hazard",
+      "overall_value": 1.07665196,
+      "percent_topic_posts_with_label": 1.03806228,
+      "percent_topic_authors_using_label_on_topic_post": 1.11524164,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 1.07665196,
+          "post_percentage_point_contribution": 1.03806228,
+          "author_percentage_point_contribution": 1.11524164
+        }
+      ]
+    },
+    {
+      "intersecting_label": "outdoor play or recreation",
+      "overall_value": 1.07665196,
+      "percent_topic_posts_with_label": 1.03806228,
+      "percent_topic_authors_using_label_on_topic_post": 1.11524164,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 1.07665196,
+          "post_percentage_point_contribution": 1.03806228,
+          "author_percentage_point_contribution": 1.11524164
+        }
+      ]
+    },
+    {
+      "intersecting_label": "playground",
+      "overall_value": 1.07665196,
+      "percent_topic_posts_with_label": 1.03806228,
+      "percent_topic_authors_using_label_on_topic_post": 1.11524164,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 1.07665196,
+          "post_percentage_point_contribution": 1.03806228,
+          "author_percentage_point_contribution": 1.11524164
+        }
+      ]
+    },
+    {
+      "intersecting_label": "social support",
+      "overall_value": 1.07665196,
+      "percent_topic_posts_with_label": 1.03806228,
+      "percent_topic_authors_using_label_on_topic_post": 1.11524164,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 1.07665196,
+          "post_percentage_point_contribution": 1.03806228,
+          "author_percentage_point_contribution": 1.11524164
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic-related air pollution",
+      "overall_value": 1.07665196,
+      "percent_topic_posts_with_label": 1.03806228,
+      "percent_topic_authors_using_label_on_topic_post": 1.11524164,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 1.07665196,
+          "post_percentage_point_contribution": 1.03806228,
+          "author_percentage_point_contribution": 1.11524164
+        }
+      ]
+    },
+    {
+      "intersecting_label": "anxiety",
+      "overall_value": 0.71776797,
+      "percent_topic_posts_with_label": 0.69204152,
+      "percent_topic_authors_using_label_on_topic_post": 0.74349442,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 0.71776797,
+          "post_percentage_point_contribution": 0.69204152,
+          "author_percentage_point_contribution": 0.74349442
+        }
+      ]
+    },
+    {
+      "intersecting_label": "childcare center",
+      "overall_value": 0.71776797,
+      "percent_topic_posts_with_label": 0.69204152,
+      "percent_topic_authors_using_label_on_topic_post": 0.74349442,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 0.71776797,
+          "post_percentage_point_contribution": 0.69204152,
+          "author_percentage_point_contribution": 0.74349442
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cough",
+      "overall_value": 0.71776797,
+      "percent_topic_posts_with_label": 0.69204152,
+      "percent_topic_authors_using_label_on_topic_post": 0.74349442,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 0.71776797,
+          "post_percentage_point_contribution": 0.69204152,
+          "author_percentage_point_contribution": 0.74349442
+        }
+      ]
+    },
+    {
+      "intersecting_label": "sports participation",
+      "overall_value": 0.71776797,
+      "percent_topic_posts_with_label": 0.69204152,
+      "percent_topic_authors_using_label_on_topic_post": 0.74349442,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 0.71776797,
+          "post_percentage_point_contribution": 0.69204152,
+          "author_percentage_point_contribution": 0.74349442
+        }
+      ]
+    },
+    {
+      "intersecting_label": "traffic hazard",
+      "overall_value": 0.71776797,
+      "percent_topic_posts_with_label": 0.69204152,
+      "percent_topic_authors_using_label_on_topic_post": 0.74349442,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 0.71776797,
+          "post_percentage_point_contribution": 0.69204152,
+          "author_percentage_point_contribution": 0.74349442
+        }
+      ]
+    },
+    {
+      "intersecting_label": "urban environment",
+      "overall_value": 0.71776797,
+      "percent_topic_posts_with_label": 0.69204152,
+      "percent_topic_authors_using_label_on_topic_post": 0.74349442,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 0.71776797,
+          "post_percentage_point_contribution": 0.69204152,
+          "author_percentage_point_contribution": 0.74349442
+        }
+      ]
+    },
+    {
+      "intersecting_label": "walking or bicycling",
+      "overall_value": 0.71776797,
+      "percent_topic_posts_with_label": 0.69204152,
+      "percent_topic_authors_using_label_on_topic_post": 0.74349442,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 0.71776797,
+          "post_percentage_point_contribution": 0.69204152,
+          "author_percentage_point_contribution": 0.74349442
+        }
+      ]
+    },
+    {
+      "intersecting_label": "activity cancellation",
+      "overall_value": 0.35888399,
+      "percent_topic_posts_with_label": 0.34602076,
+      "percent_topic_authors_using_label_on_topic_post": 0.37174721,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 0.35888399,
+          "post_percentage_point_contribution": 0.34602076,
+          "author_percentage_point_contribution": 0.37174721
+        }
+      ]
+    },
+    {
+      "intersecting_label": "alcohol exposure or use",
+      "overall_value": 0.35888399,
+      "percent_topic_posts_with_label": 0.34602076,
+      "percent_topic_authors_using_label_on_topic_post": 0.37174721,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 0.35888399,
+          "post_percentage_point_contribution": 0.34602076,
+          "author_percentage_point_contribution": 0.37174721
+        }
+      ]
+    },
+    {
+      "intersecting_label": "asthma",
+      "overall_value": 0.35888399,
+      "percent_topic_posts_with_label": 0.34602076,
+      "percent_topic_authors_using_label_on_topic_post": 0.37174721,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 0.35888399,
+          "post_percentage_point_contribution": 0.34602076,
+          "author_percentage_point_contribution": 0.37174721
+        }
+      ]
+    },
+    {
+      "intersecting_label": "children with disabilities",
+      "overall_value": 0.35888399,
+      "percent_topic_posts_with_label": 0.34602076,
+      "percent_topic_authors_using_label_on_topic_post": 0.37174721,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 0.35888399,
+          "post_percentage_point_contribution": 0.34602076,
+          "author_percentage_point_contribution": 0.37174721
+        }
+      ]
+    },
+    {
+      "intersecting_label": "cleaning or disinfection",
+      "overall_value": 0.35888399,
+      "percent_topic_posts_with_label": 0.34602076,
+      "percent_topic_authors_using_label_on_topic_post": 0.37174721,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 0.35888399,
+          "post_percentage_point_contribution": 0.34602076,
+          "author_percentage_point_contribution": 0.37174721
+        }
+      ]
+    },
+    {
+      "intersecting_label": "climate change",
+      "overall_value": 0.35888399,
+      "percent_topic_posts_with_label": 0.34602076,
+      "percent_topic_authors_using_label_on_topic_post": 0.37174721,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 0.35888399,
+          "post_percentage_point_contribution": 0.34602076,
+          "author_percentage_point_contribution": 0.37174721
+        }
+      ]
+    },
+    {
+      "intersecting_label": "discrimination",
+      "overall_value": 0.35888399,
+      "percent_topic_posts_with_label": 0.34602076,
+      "percent_topic_authors_using_label_on_topic_post": 0.37174721,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 0.35888399,
+          "post_percentage_point_contribution": 0.34602076,
+          "author_percentage_point_contribution": 0.37174721
+        }
+      ]
+    },
+    {
+      "intersecting_label": "flooding",
+      "overall_value": 0.35888399,
+      "percent_topic_posts_with_label": 0.34602076,
+      "percent_topic_authors_using_label_on_topic_post": 0.37174721,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 0.35888399,
+          "post_percentage_point_contribution": 0.34602076,
+          "author_percentage_point_contribution": 0.37174721
+        }
+      ]
+    },
+    {
+      "intersecting_label": "foster youth",
+      "overall_value": 0.35888399,
+      "percent_topic_posts_with_label": 0.34602076,
+      "percent_topic_authors_using_label_on_topic_post": 0.37174721,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 0.35888399,
+          "post_percentage_point_contribution": 0.34602076,
+          "author_percentage_point_contribution": 0.37174721
+        }
+      ]
+    },
+    {
+      "intersecting_label": "garden or yard",
+      "overall_value": 0.35888399,
+      "percent_topic_posts_with_label": 0.34602076,
+      "percent_topic_authors_using_label_on_topic_post": 0.37174721,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 0.35888399,
+          "post_percentage_point_contribution": 0.34602076,
+          "author_percentage_point_contribution": 0.37174721
+        }
+      ]
+    },
+    {
+      "intersecting_label": "general severe weather",
+      "overall_value": 0.35888399,
+      "percent_topic_posts_with_label": 0.34602076,
+      "percent_topic_authors_using_label_on_topic_post": 0.37174721,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 0.35888399,
+          "post_percentage_point_contribution": 0.34602076,
+          "author_percentage_point_contribution": 0.37174721
+        }
+      ]
+    },
+    {
+      "intersecting_label": "headache or migraine",
+      "overall_value": 0.35888399,
+      "percent_topic_posts_with_label": 0.34602076,
+      "percent_topic_authors_using_label_on_topic_post": 0.37174721,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 0.35888399,
+          "post_percentage_point_contribution": 0.34602076,
+          "author_percentage_point_contribution": 0.37174721
+        }
+      ]
+    },
+    {
+      "intersecting_label": "hearing problem",
+      "overall_value": 0.35888399,
+      "percent_topic_posts_with_label": 0.34602076,
+      "percent_topic_authors_using_label_on_topic_post": 0.37174721,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 0.35888399,
+          "post_percentage_point_contribution": 0.34602076,
+          "author_percentage_point_contribution": 0.37174721
+        }
+      ]
+    },
+    {
+      "intersecting_label": "housing instability or homelessness",
+      "overall_value": 0.35888399,
+      "percent_topic_posts_with_label": 0.34602076,
+      "percent_topic_authors_using_label_on_topic_post": 0.37174721,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 0.35888399,
+          "post_percentage_point_contribution": 0.34602076,
+          "author_percentage_point_contribution": 0.37174721
+        }
+      ]
+    },
+    {
+      "intersecting_label": "indoor environment",
+      "overall_value": 0.35888399,
+      "percent_topic_posts_with_label": 0.34602076,
+      "percent_topic_authors_using_label_on_topic_post": 0.37174721,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 0.35888399,
+          "post_percentage_point_contribution": 0.34602076,
+          "author_percentage_point_contribution": 0.37174721
+        }
+      ]
+    },
+    {
+      "intersecting_label": "injury",
+      "overall_value": 0.35888399,
+      "percent_topic_posts_with_label": 0.34602076,
+      "percent_topic_authors_using_label_on_topic_post": 0.37174721,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 0.35888399,
+          "post_percentage_point_contribution": 0.34602076,
+          "author_percentage_point_contribution": 0.37174721
+        }
+      ]
+    },
+    {
+      "intersecting_label": "mask use",
+      "overall_value": 0.35888399,
+      "percent_topic_posts_with_label": 0.34602076,
+      "percent_topic_authors_using_label_on_topic_post": 0.37174721,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 0.35888399,
+          "post_percentage_point_contribution": 0.34602076,
+          "author_percentage_point_contribution": 0.37174721
+        }
+      ]
+    },
+    {
+      "intersecting_label": "restaurant or food store",
+      "overall_value": 0.35888399,
+      "percent_topic_posts_with_label": 0.34602076,
+      "percent_topic_authors_using_label_on_topic_post": 0.37174721,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 0.35888399,
+          "post_percentage_point_contribution": 0.34602076,
+          "author_percentage_point_contribution": 0.37174721
+        }
+      ]
+    },
+    {
+      "intersecting_label": "scientific research",
+      "overall_value": 0.35888399,
+      "percent_topic_posts_with_label": 0.34602076,
+      "percent_topic_authors_using_label_on_topic_post": 0.37174721,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 0.35888399,
+          "post_percentage_point_contribution": 0.34602076,
+          "author_percentage_point_contribution": 0.37174721
+        }
+      ]
+    },
+    {
+      "intersecting_label": "vaping aerosol",
+      "overall_value": 0.35888399,
+      "percent_topic_posts_with_label": 0.34602076,
+      "percent_topic_authors_using_label_on_topic_post": 0.37174721,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 0.35888399,
+          "post_percentage_point_contribution": 0.34602076,
+          "author_percentage_point_contribution": 0.37174721
+        }
+      ]
+    },
+    {
+      "intersecting_label": "workers",
+      "overall_value": 0.35888399,
+      "percent_topic_posts_with_label": 0.34602076,
+      "percent_topic_authors_using_label_on_topic_post": 0.37174721,
+      "links": [
+        {
+          "component_label": "noise pollution",
+          "value": 0.35888399,
+          "post_percentage_point_contribution": 0.34602076,
+          "author_percentage_point_contribution": 0.37174721
+        }
+      ]
+    }
+  ]
+}
