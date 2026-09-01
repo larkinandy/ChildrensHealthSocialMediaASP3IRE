@@ -37,8 +37,12 @@ OVERVIEW_CHART_HEIGHT = 345
 ONTOLOGY_CHART_HEIGHT = 590
 OVERVIEW_SUMMARY_MIN_HEIGHT = 410
 OVERVIEW_BAR_LIST_HEIGHT = 315
-ONTOLOGY_DIMENSIONS = ["exposure", "health condition", "setting", "activity or intervention"]
-ONTOLOGY_COLLAPSE_STATE_VERSION = "all_collapsed_v1"
+ONTOLOGY_DOMAINS = [
+    ("health", "Health"),
+    ("environmental_health", "Environmental exposures"),
+    ("social_structural", "Social and structural conditions"),
+]
+ONTOLOGY_COLLAPSE_STATE_VERSION = "portland_domains_v1"
 
 
 st.set_page_config(
@@ -71,18 +75,36 @@ def load_portland_data(data_version: str = PORTLAND_DATA_VERSION) -> dict[str, p
         "categories": pd.read_parquet(PORTLAND_DATA_DIR / "categories.parquet"),
         "label_summary": pd.read_parquet(PORTLAND_DATA_DIR / "label_summary.parquet"),
         "overview_summary": pd.read_parquet(PORTLAND_DATA_DIR / "overview_summary.parquet"),
+        "topic_label_scores": pd.read_parquet(PORTLAND_DATA_DIR / "topic_label_scores.parquet"),
         "summaries": pd.read_parquet(PORTLAND_DATA_DIR / "generated_summaries.parquet"),
     }
 
 
 def default_collapsed_ontology() -> set[str]:
-    ontology = load_data(DATA_VERSION)["ontology"]
-    collapsed = {f"dimension::{dimension}" for dimension in ONTOLOGY_DIMENSIONS}
-    collapsed.update(
-        f"parent::{row.dimension}::{row.parent_label}"
-        for row in ontology[["dimension", "parent_label"]].drop_duplicates().itertuples(index=False)
+    return {f"domain::{topic_group}" for topic_group, _ in ONTOLOGY_DOMAINS}
+
+
+def default_portland_label(data: dict[str, pd.DataFrame] | None = None) -> str:
+    data = data or load_portland_data(PORTLAND_DATA_VERSION)
+    rows = data["overview_summary"].sort_values(
+        ["topic_group", "attention_share_pct"],
+        ascending=[True, False],
     )
-    return collapsed
+    health = rows[rows["topic_group"].eq("health")]
+    if not health.empty:
+        return str(health.iloc[0]["label"])
+    return str(rows.iloc[0]["label"])
+
+
+def domain_selection_value(topic_group: str) -> str:
+    return f"domain::{topic_group}"
+
+
+def domain_from_selection(selection: str) -> str | None:
+    if not selection.startswith("domain::"):
+        return None
+    topic_group = selection.removeprefix("domain::")
+    return topic_group if topic_group in dict(ONTOLOGY_DOMAINS) else None
 
 
 def inject_css() -> None:
@@ -280,6 +302,11 @@ def inject_css() -> None:
             grid-template-columns: 1fr 1fr 1fr;
             gap: 0.55rem;
         }
+        .top-label-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 0.55rem;
+        }
         .mini-card {
             border: 1px solid #dce5ef;
             border-radius: 8px;
@@ -302,6 +329,10 @@ def inject_css() -> None:
         .mini-title.purple {
             color: #5a36b8;
             border-color: #5a36b8;
+        }
+        .mini-title.black {
+            color: #111827;
+            border-color: #111827;
         }
         .bar-row {
             margin-bottom: 0.72rem;
@@ -720,12 +751,13 @@ def line_chart(
     event_selection_name: str | None = None,
 ) -> alt.Chart:
     plot = df[df["label"].isin(labels)].copy()
-    if plot.empty:
+    if plot.empty and labels:
         fallback = df[df["label"] == "wildfire smoke"].copy()
         fallback["label"] = labels[0]
         plot = fallback
-    plot["month"] = pd.to_datetime(plot["month"])
-    plot["legend_label"] = plot["label"]
+    if not plot.empty:
+        plot["month"] = pd.to_datetime(plot["month"])
+        plot["legend_label"] = plot["label"]
     color_map = color_map or {}
     color_for = lambda label: color_map.get(label, label_color(label))
     if value_column not in plot.columns:
@@ -756,18 +788,19 @@ def line_chart(
     legend_range = [COLORS["slate"] if label == attention_label else color_for(label) for label in legend_domain]
     legend_scale = alt.Scale(domain=legend_domain, range=legend_range)
 
-    lines = (
-        alt.Chart(plot)
-        .mark_line(strokeWidth=2)
-        .encode(
-            x=alt.X("month:T", title=None, axis=alt.Axis(format="%Y", tickCount="year")),
-            y=alt.Y(f"{value_column}:Q", title=y_axis_title, scale=alt.Scale(domain=[0, 100])),
-            color=alt.Color("legend_label:N", title=None, scale=legend_scale, legend=None),
-            tooltip=tooltip_fields,
+    chart_layers = []
+    if not plot.empty:
+        lines = (
+            alt.Chart(plot)
+            .mark_line(strokeWidth=2)
+            .encode(
+                x=alt.X("month:T", title=None, axis=alt.Axis(format="%Y", tickCount="year")),
+                y=alt.Y(f"{value_column}:Q", title=y_axis_title, scale=alt.Scale(domain=[0, 100])),
+                color=alt.Color("legend_label:N", title=None, scale=legend_scale, legend=None),
+                tooltip=tooltip_fields,
+            )
         )
-    )
-
-    chart_layers = [lines]
+        chart_layers.append(lines)
     has_attention_legend = False
     if not attention_data.empty:
         attention_line = (
@@ -875,8 +908,37 @@ def toggle_ontology_item(toggle_key: str) -> None:
     st.session_state.collapsed_ontology = collapsed_items
 
 
+def domain_display_name(topic_group: str) -> str:
+    return dict(ONTOLOGY_DOMAINS).get(topic_group, topic_group.replace("_", " ").title())
+
+
+def portland_ontology_rows(data: dict[str, pd.DataFrame]) -> pd.DataFrame:
+    rows = data["overview_summary"][["topic_group", "label", "attention_share_pct"]].copy()
+    rows["domain_label"] = rows["topic_group"].map(domain_display_name)
+    domain_order = {topic_group: index for index, (topic_group, _) in enumerate(ONTOLOGY_DOMAINS)}
+    rows["domain_order"] = rows["topic_group"].map(domain_order)
+    return rows.sort_values(["domain_order", "attention_share_pct"], ascending=[True, False]).reset_index(drop=True)
+
+
+def attention_column_for_group(topic_group: str) -> tuple[str, str]:
+    return {
+        "health": ("health_attention", "Health domain attention"),
+        "environmental_health": ("environment_attention", "Environmental domain attention"),
+        "social_structural": ("social_structural_attention", "Social/structural domain attention"),
+    }[topic_group]
+
+
+def summary_view_for_group(topic_group: str) -> str:
+    return {
+        "health": "overview_health",
+        "environmental_health": "overview_environmental_health",
+        "social_structural": "overview_social_structural",
+    }[topic_group]
+
+
 def ontology_tree(active: bool, selected_label: str) -> None:
-    data = load_data(DATA_VERSION)["ontology"]
+    data = load_portland_data(PORTLAND_DATA_VERSION)
+    ontology_rows = portland_ontology_rows(data)
     collapsed_items = st.session_state.get("collapsed_ontology", default_collapsed_ontology())
     if active:
         with st.container(border=True):
@@ -885,57 +947,45 @@ def ontology_tree(active: bool, selected_label: str) -> None:
                 st.markdown('<h3 style="margin:0">Ontology</h3>', unsafe_allow_html=True)
             with header_cols[1]:
                 if st.button("↻ Clear", key="clear_ontology", use_container_width=True):
-                    st.session_state.selected_label = "wildfire smoke"
+                    st.session_state.selected_label = default_portland_label(data)
                     st.session_state.collapsed_ontology = default_collapsed_ontology()
                     st.query_params["page"] = "Ontology"
-                    st.query_params["label"] = "wildfire smoke"
+                    st.query_params["label"] = st.session_state.selected_label
                     st.rerun()
-            st.markdown('<div class="muted" style="margin-top:.25rem">Click a label to explore intersections</div>', unsafe_allow_html=True)
+            st.markdown('<div class="muted" style="margin-top:.25rem">Click a category to view the time series</div>', unsafe_allow_html=True)
 
-            for dimension in ONTOLOGY_DIMENSIONS:
-                dim_label = dimension.title() if dimension != "activity or intervention" else "Activity or intervention"
-                dim_key = f"dimension::{dimension}"
-                dim_collapsed = dim_key in collapsed_items
-                dim_chev = "›" if dim_collapsed else "⌄"
+            for topic_group, domain_label in ONTOLOGY_DOMAINS:
+                domain_key = f"domain::{topic_group}"
+                domain_collapsed = domain_key in collapsed_items
+                domain_chev = "›" if domain_collapsed else "⌄"
+                domain_selected = selected_label == domain_selection_value(topic_group)
                 row = st.columns([0.08, 0.92], gap="small", vertical_alignment="center")
                 with row[0]:
-                    if st.button(dim_chev, key=f"toggle_{dim_key}"):
-                        toggle_ontology_item(dim_key)
+                    if st.button(domain_chev, key=f"toggle_{domain_key}"):
+                        toggle_ontology_item(domain_key)
                         st.rerun()
                 with row[1]:
-                    if st.button(dim_label, key=f"title_{dim_key}"):
-                        toggle_ontology_item(dim_key)
+                    domain_text = f"● {domain_label}" if domain_selected else domain_label
+                    if st.button(domain_text, key=f"title_{domain_key}"):
+                        st.session_state.selected_label = domain_selection_value(topic_group)
+                        if domain_collapsed:
+                            toggle_ontology_item(domain_key)
+                        st.query_params["page"] = "Ontology"
+                        st.query_params["label"] = st.session_state.selected_label
                         st.rerun()
-                if dim_collapsed:
+                if domain_collapsed:
                     continue
 
-                parents = data[data["dimension"] == dimension]["parent_label"].drop_duplicates().tolist()
-                for parent in parents:
-                    parent_key = f"parent::{dimension}::{parent}"
-                    collapsed = parent_key in collapsed_items
-                    chev = "›" if collapsed else "⌄"
-                    row = st.columns([0.09, 0.08, 0.83], gap="small", vertical_alignment="center")
+                labels = ontology_rows[ontology_rows["topic_group"] == topic_group]["label"].tolist()
+                for label in labels:
+                    label_text = f"■ {label}" if label == selected_label else f"□ {label}"
+                    row = st.columns([0.12, 0.88], gap="small", vertical_alignment="center")
                     with row[1]:
-                        if st.button(chev, key=f"toggle_{parent_key}"):
-                            toggle_ontology_item(parent_key)
+                        if st.button(label_text, key=f"label_{topic_group}_{label}"):
+                            st.session_state.selected_label = label
+                            st.query_params["page"] = "Ontology"
+                            st.query_params["label"] = label
                             st.rerun()
-                    with row[2]:
-                        if st.button(parent, key=f"title_{parent_key}"):
-                            toggle_ontology_item(parent_key)
-                            st.rerun()
-                    if collapsed:
-                        continue
-
-                    labels = data[(data["dimension"] == dimension) & (data["parent_label"] == parent)]["canonical_label"].tolist()
-                    for label in labels:
-                        label_text = f"■ {label}" if label == selected_label else f"□ {label}"
-                        row = st.columns([0.17, 0.83], gap="small", vertical_alignment="center")
-                        with row[1]:
-                            if st.button(label_text, key=f"label_{dimension}_{parent}_{label}"):
-                                st.session_state.selected_label = label
-                                st.query_params["page"] = "Ontology"
-                                st.query_params["label"] = label
-                                st.rerun()
         return
 
     wrapper_class = "panel" if active else "panel disabled"
@@ -953,53 +1003,95 @@ def ontology_tree(active: bool, selected_label: str) -> None:
         f'<div class="muted" style="margin-top:.55rem">{"Click a label to explore intersections" if active else "🔒 Available on Ontology page"}</div>',
     ]
 
-    for dimension in ONTOLOGY_DIMENSIONS:
-        dim_label = dimension.title() if dimension != "activity or intervention" else "Activity or intervention"
-        dim_key = f"dimension::{dimension}"
-        dim_collapsed = dim_key in collapsed_items
-        dim_chev = "›" if dim_collapsed else "⌄"
-        dim_toggle = f'<span class="chev">{dim_chev}</span>'
-        html.append(f'<div class="tree-row dim">{dim_toggle}<span class="dot"></span>{escape(dim_label)}</div>')
-        if dim_collapsed:
+    for topic_group, domain_label in ONTOLOGY_DOMAINS:
+        domain_key = f"domain::{topic_group}"
+        domain_collapsed = domain_key in collapsed_items
+        domain_chev = "›" if domain_collapsed else "⌄"
+        domain_toggle = f'<span class="chev">{domain_chev}</span>'
+        selected = " selected" if selected_label == domain_selection_value(topic_group) else ""
+        html.append(f'<div class="tree-row dim{selected}">{domain_toggle}<span class="dot"></span>{escape(domain_label)}</div>')
+        if domain_collapsed:
             continue
-        parents = data[data["dimension"] == dimension]["parent_label"].drop_duplicates().tolist()
-        for parent in parents:
-            parent_key = f"parent::{dimension}::{parent}"
-            collapsed = parent_key in collapsed_items
-            chev = "›" if collapsed else "⌄"
-            parent_toggle = f'<span class="chev">{chev}</span>'
-            html.append(f'<div class="tree-row parent">{parent_toggle}<span class="dot"></span>{escape(parent)}</div>')
-            if collapsed:
-                continue
-            labels = data[(data["dimension"] == dimension) & (data["parent_label"] == parent)]["canonical_label"].tolist()
-            for label in labels:
-                selected = " selected" if label == selected_label else ""
-                html.append(f'<div class="tree-row label{selected}"><span class="box"></span>{escape(label)}</div>')
+        labels = ontology_rows[ontology_rows["topic_group"] == topic_group]["label"].tolist()
+        for label in labels:
+            selected = " selected" if label == selected_label else ""
+            html.append(f'<div class="tree-row label{selected}"><span class="box"></span>{escape(label)}</div>')
     html.append("</div>")
     st.markdown("".join(html), unsafe_allow_html=True)
 
 
 def intersection_panel(seed_label: str) -> None:
-    data = load_data(DATA_VERSION)["intersections"]
-    subset = data[data["seed_label"] == seed_label]
+    data = load_portland_data(PORTLAND_DATA_VERSION)["overview_summary"]
     groups = [
-        ("Health condition", "health condition", COLORS["teal"], ""),
-        ("Setting", "setting", COLORS["blue"], "blue"),
-        ("Activity", "activity", COLORS["purple"], "purple"),
+        ("Health", "health", COLORS["teal"], ""),
+        ("Environmental", "environmental_health", COLORS["blue"], "blue"),
+        ("Social", "social_structural", COLORS["purple"], "purple"),
     ]
     html = ['<div class="panel"><h3 style="margin-top:0">Intersecting labels</h3><div class="intersection-grid">']
-    for display, dim, color, class_name in groups:
-        rows = subset[subset["dimension"] == dim]
+    for display, topic_group, color, class_name in groups:
+        rows = data[data["topic_group"] == topic_group].copy()
+        rows = rows[~rows["label"].str.casefold().eq(seed_label.casefold())]
+        rows = rows.sort_values("attention_share_pct", ascending=False).head(3)
+        max_share = rows["attention_share_pct"].max() if not rows.empty else 1
         title_class = f"mini-title {class_name}".strip()
         html.append(f'<div class="mini-card"><div class="{title_class}">{display}</div>')
         for _, row in rows.iterrows():
-            width = max(8, min(100, int(row["intersection_pct"])))
+            intersection_pct = int(round(row["attention_share_pct"]))
+            width = max(8, min(100, int(row["attention_share_pct"] / max_share * 100)))
             html.append(
                 '<div class="bar-row">'
-                f'<div class="bar-row-top"><span>{row["label"]}</span><span>{int(row["intersection_pct"])}%</span></div>'
+                f'<div class="bar-row-top"><span>{escape(row["label"])}</span><span>{intersection_pct}%</span></div>'
                 f'<div class="bar-track"><div class="bar-fill" style="width:{width}%;background:{color};"></div></div>'
                 "</div>"
             )
+        html.append("</div>")
+    html.append("</div></div>")
+    st.markdown("".join(html), unsafe_allow_html=True)
+
+
+def overview_domain_label(topic_group: str) -> str:
+    return {
+        "health": "Health",
+        "environmental_health": "Environmental",
+        "social_structural": "Social",
+    }.get(topic_group, domain_display_name(topic_group))
+
+
+def top_score_rows(
+    data: dict[str, pd.DataFrame],
+    selected_label: str,
+    score_type: str,
+) -> pd.DataFrame:
+    rows = data["topic_label_scores"]
+    rows = rows[(rows["topic"] == selected_label) & (rows["score_type"] == score_type)].copy()
+    return rows.sort_values(["value", "label"], ascending=[False, True]).head(3)
+
+
+def top_labels_panel(selected_label: str, data: dict[str, pd.DataFrame]) -> None:
+    groups = [
+        ("Children", "child_population", "black", COLORS["slate"]),
+        ("Current topic", "topic_component", "black", COLORS["slate"]),
+        ("Place", "setting", "black", COLORS["slate"]),
+    ]
+
+    html = ['<div class="panel"><h3 style="margin-top:0">Top 3 labels</h3><div class="top-label-grid">']
+    for title, score_type, class_name, color in groups:
+        score_rows = top_score_rows(data, selected_label, score_type)
+        max_score = score_rows["value"].max() if not score_rows.empty else 1
+        title_class = f"mini-title {class_name}".strip()
+        html.append(f'<div class="mini-card"><div class="{title_class}">{title}</div>')
+        for _, row in score_rows.iterrows():
+            label = str(row["label"])
+            pct = int(round(row["value"]))
+            width = max(8, min(100, int(row["value"] / max_score * 100)))
+            html.append(
+                '<div class="bar-row">'
+                f'<div class="bar-row-top"><span>{escape(label)}</span><span>{pct}%</span></div>'
+                f'<div class="bar-track"><div class="bar-fill" style="width:{width}%;background:{color};"></div></div>'
+                "</div>"
+            )
+        for _ in range(max(0, 3 - len(score_rows))):
+            html.append('<div class="bar-row">&nbsp;<div class="bar-track"></div></div>')
         html.append("</div>")
     html.append("</div></div>")
     st.markdown("".join(html), unsafe_allow_html=True)
@@ -1025,6 +1117,56 @@ def metric_cards(selected_label: str) -> None:
         """,
         unsafe_allow_html=True,
     )
+
+
+def portland_metric_cards(selected_label: str, data: dict[str, pd.DataFrame]) -> None:
+    summary = data["label_summary"]
+    row = summary[summary["label"] == selected_label]
+    if row.empty:
+        return
+    row = row.iloc[0]
+    topic_group = str(row["topic_group"])
+    metric_color = overview_color_map(topic_group, data=data).get(selected_label, label_color(selected_label))
+    st.markdown(
+        f"""
+        <div class="metric-grid">
+            <div class="metric-card">
+                <div class="metric-label">Average rank</div>
+                <div class="metric-value" style="color:{metric_color};">{row['average_rank_display']}</div>
+                <div class="metric-note">across full range</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-label">Max rank</div>
+                <div class="metric-value" style="color:{metric_color};">{row['max_rank_display']}</div>
+                <div class="metric-note">peak month</div>
+            </div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
+def overview_context_panel(
+    selected_labels: list[str],
+    group: str,
+    summary_view: str,
+    selected_event: str | None,
+    data: dict[str, pd.DataFrame],
+) -> None:
+    selected_label = selected_labels[0] if selected_labels else default_portland_label(data)
+    if selected_event:
+        rank_summary_panel(
+            "",
+            group,
+            summary_view,
+            labels=selected_labels,
+            min_height=OVERVIEW_SUMMARY_MIN_HEIGHT,
+            selected_event=selected_event,
+            data=data,
+        )
+        return
+    top_labels_panel(selected_label, data)
+    portland_metric_cards(selected_label, data)
 
 
 def summary_box(view: str, label: str | None = None) -> None:
@@ -1381,14 +1523,12 @@ def overview_page() -> None:
                 has_selectable_events=health_has_events,
             )
     with summary_col:
-        rank_summary_panel(
-            "Health topic summary",
+        overview_context_panel(
+            health_labels,
             "health",
             "overview_health",
-            labels=health_labels,
-            min_height=OVERVIEW_SUMMARY_MIN_HEIGHT,
-            selected_event=selected_event_id(health_chart_state, "health_event_select"),
-            data=data,
+            selected_event_id(health_chart_state, "health_event_select"),
+            data,
         )
 
     profile_col, chart_col, summary_col = st.columns([0.22, 0.48, 0.30], gap="medium", vertical_alignment="top")
@@ -1426,14 +1566,12 @@ def overview_page() -> None:
                 has_selectable_events=environmental_has_events,
             )
     with summary_col:
-        rank_summary_panel(
-            "Environmental-health summary",
+        overview_context_panel(
+            environmental_labels,
             "environmental_health",
             "overview_environmental_health",
-            labels=environmental_labels,
-            min_height=OVERVIEW_SUMMARY_MIN_HEIGHT,
-            selected_event=selected_event_id(environmental_chart_state, "environment_event_select"),
-            data=data,
+            selected_event_id(environmental_chart_state, "environment_event_select"),
+            data,
         )
 
     profile_col, chart_col, summary_col = st.columns([0.22, 0.48, 0.30], gap="medium", vertical_alignment="top")
@@ -1471,45 +1609,78 @@ def overview_page() -> None:
                 has_selectable_events=social_has_events,
             )
     with summary_col:
-        rank_summary_panel(
-            "Social-environment summary",
+        overview_context_panel(
+            social_labels,
             "social_structural",
             "overview_social_structural",
-            labels=social_labels,
-            min_height=OVERVIEW_SUMMARY_MIN_HEIGHT,
-            selected_event=selected_event_id(social_chart_state, "social_event_select"),
-            data=data,
+            selected_event_id(social_chart_state, "social_event_select"),
+            data,
         )
 
 
 def ontology_page() -> None:
-    data = load_data(DATA_VERSION)
+    data = load_portland_data(PORTLAND_DATA_VERSION)
     selected_label = st.session_state.selected_label
+    available = set(data["overview_summary"]["label"])
+    domain_selection = domain_from_selection(selected_label)
+    if selected_label not in available and domain_selection is None:
+        selected_label = default_portland_label(data)
+        st.session_state.selected_label = selected_label
+        domain_selection = None
+    if domain_selection is not None:
+        selected_group = domain_selection
+        chart_labels: list[str] = []
+        chart_title = f"{domain_display_name(selected_group)} attention over time"
+    else:
+        selected_row = data["overview_summary"][data["overview_summary"]["label"].eq(selected_label)].iloc[0]
+        selected_group = str(selected_row["topic_group"])
+        chart_labels = [selected_label]
+        chart_title = f"{escape(selected_label)} attention over time"
+    attention_column, attention_label = attention_column_for_group(selected_group)
     left, center, right = st.columns([0.23, 0.43, 0.34], gap="medium")
     with left:
         ontology_tree(active=True, selected_label=selected_label)
     with center:
         with st.container(border=True):
-            st.markdown(
-                f'<div class="chart-title">{selected_label.capitalize()} rank within child environmental-health topics</div>'
-                '<div class="chart-meta">Fixed view: monthly rank percentile &nbsp;|&nbsp; full available date range</div>',
-                unsafe_allow_html=True,
-            )
-            st.altair_chart(
+            title_col, toggle_col = st.columns([0.68, 0.32], gap="small", vertical_alignment="center")
+            with title_col:
+                st.markdown(
+                    f'<div class="chart-title">{chart_title}</div>',
+                    unsafe_allow_html=True,
+                )
+            with toggle_col:
+                ontology_local_only = local_events_only_control("ontology_local_events_only")
+            ontology_events = filter_local_events(data["events"], ontology_local_only)
+            ontology_has_events = bool(chart_labels) and has_events_for_labels(ontology_events, chart_labels)
+            ontology_chart_state = selectable_altair_chart(
                 line_chart(
                     data["timeseries"],
                     "",
-                    [selected_label],
-                    events=data["events"],
+                    chart_labels,
+                    events=ontology_events if chart_labels else None,
                     height=ONTOLOGY_CHART_HEIGHT,
+                    attention_column=attention_column,
+                    attention_label=attention_label,
+                    value_column="attention_weighted_topic_value",
+                    y_axis_title="Attention-weighted topic value",
+                    color_map=overview_color_map(selected_group, data=data),
+                    event_selection_name="ontology_event_select" if ontology_has_events else None,
                 ),
-                theme=None,
-                use_container_width=True,
+                key="ontology_time_series",
+                selection_name="ontology_event_select",
+                has_selectable_events=ontology_has_events,
             )
     with right:
         intersection_panel("wildfire smoke")
         metric_cards("wildfire smoke")
-        summary_box("ontology", "wildfire smoke")
+        rank_summary_panel(
+            "Generated Summary",
+            selected_group,
+            summary_view_for_group(selected_group),
+            labels=chart_labels,
+            selected_event=selected_event_id(ontology_chart_state, "ontology_event_select"),
+            data=data,
+        )
 
 
 def footer() -> None:
@@ -1535,8 +1706,9 @@ def main() -> None:
         st.session_state.current_page = query_page
     if "page_switch" not in st.session_state:
         st.session_state.page_switch = st.session_state.current_page
+    portland_data = load_portland_data(PORTLAND_DATA_VERSION)
     if "selected_label" not in st.session_state:
-        st.session_state.selected_label = "wildfire smoke"
+        st.session_state.selected_label = default_portland_label(portland_data)
     if st.session_state.get("ontology_collapse_state_version") != ONTOLOGY_COLLAPSE_STATE_VERSION:
         st.session_state.collapsed_ontology = default_collapsed_ontology()
         st.session_state.ontology_collapse_state_version = ONTOLOGY_COLLAPSE_STATE_VERSION
@@ -1544,8 +1716,8 @@ def main() -> None:
         st.session_state.collapsed_ontology = default_collapsed_ontology()
     query_label = st.query_params.get("label")
     if query_label:
-        available = set(load_data(DATA_VERSION)["ontology"]["canonical_label"])
-        if query_label in available:
+        available = set(portland_data["overview_summary"]["label"])
+        if query_label in available or domain_from_selection(query_label) is not None:
             st.session_state.selected_label = query_label
     page = header()
     if page == "Overview":
